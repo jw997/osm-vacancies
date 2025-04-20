@@ -1,4 +1,4 @@
-import { getJson, streetArray } from "./utils_helper.js";
+import { getJson } from "./utils_helper.js";
 
 
 
@@ -19,7 +19,7 @@ const checkDisusedAmenity = document.querySelector('#checkDisusedAmenity');
 
 const checkOtherAmenity = document.querySelector('#checkOtherAmenity');
 
-
+/*
 const selectData = document.querySelector('#selectData');
 
 const selectVehicleTypes = document.querySelector('#selectVehicleTypes');
@@ -39,21 +39,24 @@ const check2015 = document.querySelector('#check2015');
 const selectStreet = document.querySelector('#selectStreet');
 const selectSeverity = document.querySelector('#severity');
 const selectStopResult = document.querySelector('#stopResult');
+*/
 
 const summary = document.querySelector('#summary');
 
 const saveanchor = document.getElementById('saveanchor')
 
-const mapLocalCaseIDToAttr = new Map();
+//const mapLocalCaseIDToAttr = new Map();
 
 // populate the street select options
+
+/*
 function populateStreetSelect(mergedTransparencyJson, selectStreet) {
 	const setStreets = new Set();
 
 	for (const coll of mergedTransparencyJson) {
 		const attr = coll.attributes;
 
-		/* save gps info for missing state records */
+	
 		if (attr.Longitude && attr.Latitude) {
 			mapLocalCaseIDToAttr.set(attr.Case_Number, attr);
 		}
@@ -74,14 +77,7 @@ function populateStreetSelect(mergedTransparencyJson, selectStreet) {
 
 	console.log(setStreets.size, arrSorted.length);
 	//	console.debug("Streetnames")
-	/*
-	for (const str of arrSorted) {
-		console.debug(str);
-		const opt = document.createElement("option");
-		opt.text = str;
-		selectStreet.add(opt, null);
-	}*/
-
+	
 	for (const str of streetArray) {
 		const opt = document.createElement("option");
 		opt.value = str;
@@ -89,7 +85,7 @@ function populateStreetSelect(mergedTransparencyJson, selectStreet) {
 		selectStreet.add(opt, null);
 	}
 }
-
+*/
 function getIcon(name) {
 	const icon = new L.Icon({
 		//	iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/' + name,
@@ -128,7 +124,7 @@ const violet = "#9400d3";//"#EE82EE";
 const black = "#000000";
 
 const grey = "#101010";
-
+/*
 const stopNoAction = "No Action"
 const stopCitation = "Citation"
 const stopWarning = "Warning"
@@ -203,7 +199,7 @@ function getOptionsForStop(result) {
 
 
 }
-
+*/
 
 function getOptionsForSeverity(sev) {
 	var colorValue;
@@ -1265,8 +1261,22 @@ function addMarkers(osmJson, bVacant,
 			}
 		}
 
+		// inlcude vacant=yes and abandoned=yes
 		if (!bInclude) {
-			console.log("Filtered out " + tags.name);
+			if (tags.vacant || tags.abandoned) {
+				bInclude = true;
+			}
+		}
+
+		// inlcude 
+		if (!bInclude) {
+			if (tags['disused:building'] || tags['disused:office']) {
+				bInclude = true;
+			}
+		}
+
+		if (!bInclude) {
+			console.log("Filtered out " , tags.name);
 			continue;
 		}
 
@@ -1354,7 +1364,9 @@ function addMarkers(osmJson, bVacant,
 
 			if (bVacant) {
 				nCountVacant++;
+				incrementMapKey(histShopData, arrShopKeys[1]);
 			} else {
+				incrementMapKey(histShopData, arrShopKeys[0]);
 				nCountShop++;
 			}
 
@@ -1411,7 +1423,7 @@ function addMarkers(osmJson, bVacant,
 	console.log('Plotted', plotted);
 	console.log("markerCount ", markerCount)
 
-	const summaryMsg = '<br>Vacant Shops: ' + nCountVacant + '<br>' + 'Non-vacant shops: ' + nCountShop+ '<br>';
+	const summaryMsg = '<br>Vacant Shops: ' + nCountVacant + '<br>' + 'Non-vacant shops: ' + nCountShop + '<br>';
 	summary.innerHTML = summaryMsg;
 
 	/*	// set array for download
@@ -1426,6 +1438,10 @@ function addMarkers(osmJson, bVacant,
 
 // chart data variables
 // ADD NEW CHART
+var histShopData = new Map();  // bars Shop, Vacant
+const arrShopKeys = ['Shops', 'Vacant'];
+
+/*
 const histYearData = new Map();
 const histHourData = new Map();
 const arrHourKeys = [0, 3, 6, 9, 12, 15, 18, 21];
@@ -1439,7 +1455,7 @@ var histObjectData = new Map();
 
 var histAgeInjuryData = new Map();  // bars 0-9, 10-19, 20-, 30, 40, 50, 60, 70, 80+
 const arrAgeKeys = [0, 10, 20, 30, 40, 50, 60, 70, 80];
-
+/
 var histStopResultData = new Map();
 const arrStopResultKeys = [stopArrest, stopCitation, stopWarning, stopNoAction, stopUnkown];
 
@@ -1460,7 +1476,7 @@ const arrSeverityKeys = [
 const arrObjectKeys = [
 	"Car", "Motorcycle", "Bicycle", "Pedestrian", "Truck", "Bus", "Parked Car", "Object", "Electric Bike", "Electric Scooter", "Electric Skateboard"
 ];
-
+*/
 /* histogram data */
 function clearHistData(keys, data) {
 	for (const f of keys) {
@@ -1469,6 +1485,8 @@ function clearHistData(keys, data) {
 }
 
 // ADD NEW CHART
+clearHistData(arrShopKeys, histShopData);
+/*
 clearHistData(arrObjectKeys, histObjectData);
 clearHistData(arrSeverityKeys, histSeverityData);
 clearHistData(arrAgeKeys, histAgeInjuryData);
@@ -1484,7 +1502,8 @@ function clearHistYearData() {
 	}
 }
 clearHistYearData();
-
+*/
+/*
 const faultKeys = [
 	"Bicyclist",
 	"Driver",
@@ -1499,9 +1518,12 @@ function clearFaultData() {
 	}
 }
 clearFaultData();
+*/
 
 // chart variables
 // ADD NEW CHART
+var histShopChart;
+
 var histYearChart;
 var histHourChart;
 
@@ -1554,6 +1576,8 @@ function createOrUpdateChart(data, chartVar, element, labelText) {
 
 function handleFilterClick() {
 	// ADD NEW CHART
+	clearHistData(arrShopKeys, histShopData);
+
 	/*	clearHistYearData();
 		clearHistData(arrHourKeys, histHourData);
 		clearFaultData();
@@ -1632,9 +1656,15 @@ function handleFilterClick() {
 
 		checkOtherAmenity.checked
 	);
-	/*
-		// ADD NEW CHART
-		const dataFault = [];
+
+	// ADD NEW CHART
+	const dataShops = [];
+
+	for (const k of arrShopKeys) {
+		dataShops.push({ bar: k, count: histShopData.get(k) })
+	}
+
+	/*	const dataFault = [];
 		for (const k of faultKeys) {
 			dataFault.push({ bar: k, count: histFaultData.get(k) })
 		}
@@ -1654,9 +1684,11 @@ function handleFilterClick() {
 			dataStopResult.push({ bar: k, count: histStopResultData.get(k) })
 		}
 	
-	
-		// ADD NEW CHART
-		histFaultChart = createOrUpdateChart(dataFault, histFaultChart, document.getElementById('crashFaultHist'), 'Collisions by Fault');
+	*/
+	// ADD NEW CHART
+	histShopChart = createOrUpdateChart(dataShops, histShopChart, document.getElementById('shopHist'), 'Shop / Vacancies counts');
+
+	/*	histFaultChart = createOrUpdateChart(dataFault, histFaultChart, document.getElementById('crashFaultHist'), 'Collisions by Fault');
 	
 		histObjectChart = createOrUpdateChart(dataObject, histObjectChart, document.getElementById('involvedObjectHist'), 'Crash Particpants');
 	
