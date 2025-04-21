@@ -1,7 +1,5 @@
 import { getJson } from "./utils_helper.js";
 
-
-
 // touch or mouse?
 let mql = window.matchMedia("(pointer: fine)");
 const pointerFine = mql.matches;
