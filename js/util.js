@@ -178,7 +178,7 @@ var downtownTurfPolygon = turf.polygon(downtownGeoJson.features[0].geometry.coor
 var inside = turf.booleanPointInPolygon(point1, downtownTurfPolygon);
 
 
-
+/*
 async function getShopData() {
 	const file = './data/shops.json';
 	const retval = await getJson(file);
@@ -186,7 +186,7 @@ async function getShopData() {
 }
 
 
-const shopJson = await getShopData();
+//const shopJson = await getShopData();
 
 async function getVacantData() {
 	const file = './data/vacantshops.json';
@@ -194,7 +194,7 @@ async function getVacantData() {
 	return retval;
 }
 
-const vacantJson = await getVacantData();
+//const vacantJson = await getVacantData();
 
 
 async function getOsmShopData() {
@@ -203,10 +203,20 @@ async function getOsmShopData() {
 	return retval;
 }
 
+*/
+//const osmShopJson = await getOsmShopData();
 
-const osmShopJson = await getOsmShopData();
 
-console.log("Read ", osmShopJson.elements.length);
+async function getOsmGeoJsonData() {
+	const file = './data/osm.geojson';
+	const retval = await getJson(file);
+	return retval;
+}
+
+
+const osmGeoJson = await getOsmGeoJsonData();
+
+//console.log("Read ", osmShopJson.elements.length);
 
 const popupFields = [
 	'name',
@@ -738,6 +748,25 @@ function isVacant(tags) {
 	return bRetval;
 }
 
+function getPointFromeature(feature) {
+	const geom = feature.geometry;
+	const fType = geom.type;
+	var retval = null;
+
+	if (fType == 'Point') {
+		retval = geom.coordinates;
+	} else if (fType == 'Polygon') {
+		retval = geom.coordinates[0][0];
+	} else if (fType == 'LineString') {
+		retval = geom.coordinates[0][0];
+	} else if (fType == 'MultiPolygon') {
+		retval = geom.coordinates[0][0][0];
+	}
+	if (!retval) {
+		console.log("no point for feature", feature)
+	}
+	return retval;
+}
 var nCountVacant = 0;
 var nCountShop = 0;
 
@@ -764,21 +793,23 @@ function addMarkers(osmJson, bVacant,
 
 	var arrMappedCollisions = [];
 
-	for (const osmItem of osmJson.elements) {
+	for (const osmItem of osmJson.features) {
 		//const attr = osmItem.elements; 
-		const tags = osmItem.tags;
-	//	console.log(tags)
+		//const tags = osmItem.tags;
+		//	console.log(tags)
+
+		const tags = osmItem.properties.tags;
 
 		if (!tags) {
 			//console.log("no tags")
-		//	incrementMapKey(histShopData, arrShopKeys[2]);
+			//	incrementMapKey(histShopData, arrShopKeys[2]);
 			continue;
 		}
 
 		var bInclude = false;
 		const bShop = isShop(tags);
 		const bVacant = isVacant(tags);
-	//	console.log("Name:", tags.name, " shop:", bShop, " vacant:", bVacant);
+		//	console.log("Name:", tags.name, " shop:", bShop, " vacant:", bVacant);
 
 		if (filterShop) {
 			if (bShop) {
@@ -791,74 +822,13 @@ function addMarkers(osmJson, bVacant,
 				bInclude = true;
 			}
 		}
-		/*
-				// include shops
-				if (tags.shop || (tags.leisure)) {
-					if (filterShop) {
-		
-						bInclude = true;
-					}
-				}
-		
-				// include shops
-				if (tags['disused:shop']) {
-					if (filterDisusedShop) {
-		
-						bInclude = true;
-					}
-				}
-		
-				if (tags['disused:amenity']) {
-					if (filterDisusedAmenity) {
-						const bShopLikeAmenity = isShopLikeAmenity(tags.amenity);
-		
-						if (filterDisusedAmenity && bShopLikeAmenity) {
-							bInclude = true;
-						}
-		
-						if (filterDisusedAmenity && !bShopLikeAmenity) {
-							bInclude = true;
-						}
-		
-		
-					}
-				}
-		
-				// include amenity
-				if (tags.amenity) {
-		
-					const bShopLikeAmenity = isShopLikeAmenity(tags.amenity);
-		
-					if (filterAmenity && bShopLikeAmenity) {
-						bInclude = true;
-					}
-		
-					if (filterOtherAmenity && !bShopLikeAmenity) {
-						bInclude = true;
-					}
-				}
-		
-				// inlcude vacant=yes and abandoned=yes
-				if (!bInclude) {
-					if (tags.vacant || tags.abandoned) {
-						bInclude = true;
-					}
-				}
-		
-				// inlcude 
-				if (!bInclude) {
-					if (tags['disused:building'] || tags['disused:office']) {
-						bInclude = true;
-					}
-				}
-		*/
+	
 		if (!bInclude) {
-		//	console.log("Filtered out ", tags.name);
-		incrementMapKey(histShopData, arrShopKeys[2]);
+			//	console.log("Filtered out ", tags.name);
+			incrementMapKey(histShopData, arrShopKeys[2]);
 			continue;
 		}
 
-	
 		plotted++;
 
 		//	arrMappedCollisions.push(attr); // add to array for export function
@@ -916,22 +886,11 @@ function addMarkers(osmJson, bVacant,
 							}
 						}*/
 		// if lat  or long is missing, try the linked coll record
-		var lat = osmItem.lat;
-		if (!lat) {
-			//console.log("no lat")
-			incrementMapKey(histShopData, arrShopKeys[2]);
-			continue;
-		}
+		//var lat = osmItem.lat;
+		const point = getPointFromeature(osmItem);
 
-		//const long = attr.Latitude ?? coll.switrsColl.Latitude ?? coll.localColl.Latitude;
-		var long = osmItem.lon
-		if (!long) {
-			//console.log("no lon")
-			incrementMapKey(histShopData, arrShopKeys[2]);
-			continue;
-
-		}
-
+		const lat = point[1];		
+		const long = point[0]
 
 		if (lat && long) {
 			const loc = [lat, long];
@@ -942,14 +901,11 @@ function addMarkers(osmJson, bVacant,
 				continue;
 			}
 
-
 			// make sure we are in the downtown boundary
-
-
 			if (bVacant) {
 				nCountVacant++;
 				incrementMapKey(histShopData, arrShopKeys[1]);
-			} 
+			}
 			if (bShop) {
 				incrementMapKey(histShopData, arrShopKeys[0]);
 				nCountShop++;
@@ -964,7 +920,7 @@ function addMarkers(osmJson, bVacant,
 
 
 			var msg = nodePopup(tags)
-			
+
 
 			if (pointerFine) {
 
@@ -1004,7 +960,7 @@ function addMarkers(osmJson, bVacant,
 // chart data variables
 // ADD NEW CHART
 var histShopData = new Map();  // bars Shop, Vacant
-const arrShopKeys = ['Shops', 'Vacant','Other'];
+const arrShopKeys = ['Shops', 'Vacant', 'Other'];
 
 /*
 const histYearData = new Map();
@@ -1155,37 +1111,14 @@ function handleFilterClick() {
 		var tsSet;
 		var collData = shopJson;
 	*/
-	/*
-	switch (selectData.value) {
-		case 'T':
-			collData = mergedTransparencyJson;
-			tsSet = tsTransparency;
-			break;
-		case 'S':
-			collData = mergedSWITRSJson;
-			tsSet = tsSwtrs;
-			break;
-		case "SUT":
-			collData = mergedUnion; // TODO UNION
-			tsSet = tsSwtrsUnionTransparency;
-			break;
-		case "STOPS":
-			collData = mergedStopJson;
-			tsSet = tsStops;
-			break;
 	
-		default:
-			console.log("Unepxected data spec")
-
-	}
-	*/
-	// reset summar counts 
+	// reset summary counts 
 	nCountVacant = 0
 
 	nCountShop = 0
 
 	removeAllMakers();
-	addMarkers(osmShopJson, false,
+	addMarkers(osmGeoJson, false,
 		checkShop.checked,
 		checkAmenity.checked,
 		checkDisusedShop.checked,
@@ -1210,17 +1143,17 @@ function handleFilterClick() {
 		selectSeverity.value,
 		selectStopResult.value*/
 	);
-/*
-	addMarkers(vacantJson, true,
-
-		checkShop.checked,
-		checkAmenity.checked,
-
-		checkDisusedShop.checked,
-		checkDisusedAmenity.checked,
-
-		checkOtherAmenity.checked
-	);*/
+	/*
+		addMarkers(vacantJson, true,
+	
+			checkShop.checked,
+			checkAmenity.checked,
+	
+			checkDisusedShop.checked,
+			checkDisusedAmenity.checked,
+	
+			checkOtherAmenity.checked
+		);*/
 
 	// ADD NEW CHART
 	const dataShops = [];
