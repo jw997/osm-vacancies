@@ -895,11 +895,12 @@ function addMarkers(osmJson, bVacant,
 		if (lat && long) {
 			const loc = [lat, long];
 			const tp = turf.point([long, lat]);
-			if (!turf.booleanPointInPolygon(tp, downtownTurfPolygon)) {
+		
+		/*	if (!turf.booleanPointInPolygon(tp, downtownTurfPolygon)) {
 				//console.log("Skipping item not in district ", tags)
 				incrementMapKey(histShopData, arrShopKeys[2]);
 				continue;
-			}
+			}*/
 
 			// make sure we are in the downtown boundary
 			if (bVacant) {
