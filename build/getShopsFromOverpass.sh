@@ -21,4 +21,8 @@ wget -O ../data/shops.json 'https://www.overpass-api.de/api/interpreter?data=[ou
 
 wget -O ../data/vacantshops.json 'https://www.overpass-api.de/api/interpreter?data=[out:json];(   nwr["disused:amenity"] (37.861175,-122.275975 ,37.875135, -122.2655);   nwr["disused:shop"](37.861175,-122.275975 ,37.875135, -122.2655); nwr["disused:building"] (37.861175,-122.275975 ,37.875135, -122.2655);  nwr["abandoned"="yes"](37.861175,-122.275975 ,37.875135, -122.2655);   nwr["vacant"="yes"](37.861175,-122.275975 ,37.875135, -122.2655); );(._;>;);out;'
 
+wget -O ../data/osm_shop_data.json 'https://www.overpass-api.de/api/interpreter?data=[out:json];(   nwr["amenity"] (37.861175,-122.275975 ,37.875135, -122.2655);   nwr["shop"](37.861175,-122.275975 ,37.875135, -122.2655); nwr["leisure"] (37.861175,-122.275975 ,37.875135, -122.2655);    nwr["disused:amenity"] (37.861175,-122.275975 ,37.875135, -122.2655);   nwr["disused:shop"](37.861175,-122.275975 ,37.875135, -122.2655); nwr["disused:building"] (37.861175,-122.275975 ,37.875135, -122.2655);  nwr["abandoned"="yes"](37.861175,-122.275975 ,37.875135, -122.2655);   nwr["vacant"="yes"](37.861175,-122.275975 ,37.875135, -122.2655); );(._;>;);out;'
+
+
+
 

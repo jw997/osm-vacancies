@@ -49,5 +49,38 @@ shop like amenities
 non-shop like amenties
 
 
+Algorithms for isShop, isVacant, isLand
+
+isShop
+has lat, long, address
+
+shop
+amenity && shoplikeAmenity
+leisure theatre
+sauna / gym?
+
+isVacant
+disused:shop
+disused:amenity && shoplikeAmenity
+proposed:shop
+proposed:amenity 
+abandoned:building
+demolished:building
+abandoned = yes
+vacant = yes
+brownfield
+greenfield
+
+
+isLand
+no building, brownfield, greenfield
+
+combine all exports into one overpass query
+
+wget -O ../data/osm.json 'https://www.overpass-api.de/api/interpreter?data=[out:json];(   nwr["amenity"] (37.861175,-122.275975 ,37.875135, -122.27655);   nwr["shop"](37.861175,-122.275975 ,37.875135, -122.2655); nwr["leisure"] (37.861175,-122.275975 ,37.875135, -122.2655); (   nwr["disused:amenity"] (37.861175,-122.275975 ,37.875135, -122.2655);   nwr["disused:shop"](37.861175,-122.275975 ,37.875135, -122.2655); nwr["disused:building"] (37.861175,-122.275975 ,37.875135, -122.2655);  nwr["abandoned"="yes"](37.861175,-122.275975 ,37.875135, -122.2655);   nwr["vacant"="yes"](37.861175,-122.275975 ,37.875135, -122.2655); );(._;>;);out;'
+
+
+
+
 
 

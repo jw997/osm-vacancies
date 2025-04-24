@@ -17,73 +17,11 @@ const checkDisusedAmenity = document.querySelector('#checkDisusedAmenity');
 
 const checkOtherAmenity = document.querySelector('#checkOtherAmenity');
 
-/*
-const selectData = document.querySelector('#selectData');
-
-const selectVehicleTypes = document.querySelector('#selectVehicleTypes');
-
-const check2024 = document.querySelector('#check2024');
-const check2023 = document.querySelector('#check2023');
-const check2022 = document.querySelector('#check2022');
-const check2021 = document.querySelector('#check2021');
-const check2020 = document.querySelector('#check2020');
-
-const check2019 = document.querySelector('#check2019');
-const check2018 = document.querySelector('#check2018');
-const check2017 = document.querySelector('#check2017');
-const check2016 = document.querySelector('#check2016');
-const check2015 = document.querySelector('#check2015');
-
-const selectStreet = document.querySelector('#selectStreet');
-const selectSeverity = document.querySelector('#severity');
-const selectStopResult = document.querySelector('#stopResult');
-*/
 
 const summary = document.querySelector('#summary');
 
 const saveanchor = document.getElementById('saveanchor')
 
-//const mapLocalCaseIDToAttr = new Map();
-
-// populate the street select options
-
-/*
-function populateStreetSelect(mergedTransparencyJson, selectStreet) {
-	const setStreets = new Set();
-
-	for (const coll of mergedTransparencyJson) {
-		const attr = coll.attributes;
-
-	
-		if (attr.Longitude && attr.Latitude) {
-			mapLocalCaseIDToAttr.set(attr.Case_Number, attr);
-		}
-		const loc = attr.Accident_Location;
-		const arr = loc.split("/").map((s) => s.trim());
-
-		for (const str of arr) {
-			const e = str.trim();
-			//	console.log("#", e, '#');
-			if (!setStreets.has(e)) {
-				setStreets.add(e);
-			}
-		}
-	}
-
-	// sort
-	const arrSorted = Array.from(setStreets).sort();
-
-	console.log(setStreets.size, arrSorted.length);
-	//	console.debug("Streetnames")
-	
-	for (const str of streetArray) {
-		const opt = document.createElement("option");
-		opt.value = str;
-		opt.text = str.split("|")[0];
-		selectStreet.add(opt, null);
-	}
-}
-*/
 function getIcon(name) {
 	const icon = new L.Icon({
 		//	iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/' + name,
@@ -122,82 +60,7 @@ const violet = "#9400d3";//"#EE82EE";
 const black = "#000000";
 
 const grey = "#101010";
-/*
-const stopNoAction = "No Action"
-const stopCitation = "Citation"
-const stopWarning = "Warning"
-const stopArrest = "Arrest"
-const stopUnkown = "unknown"
 
-function getStopResultCategory(result) {
-	switch (result) {
-		case 1: // no action
-			return stopNoAction;
-			break;
-		case 5: // arrest
-		case 6:
-			return stopArrest;
-			break;
-		case 2:
-		case 14:
-		case 15:
-			return stopWarning;
-			break;
-		case 3: // citation
-			return stopCitation;
-			break;
-		default:
-			return stopUnkown;
-			break;
-	}
-	return stopUnkown;
-}
-
-function getOptionsForStop(result) {
-	var colorValue;
-	var rad = 8;
-	var opa = 0.5;
-
-	switch (result) {
-		case 1: // no action
-			colorValue = w3_highway_green;
-			break;
-		case 5: // arrest
-		case 6:
-			colorValue = w3_highway_red;
-			break;
-		case 2: // warning
-		case 14:
-		case 15:
-			colorValue = w3_highway_schoolbus;
-			opa = 0.6;
-			//colorValue = grey;
-			break;
-		case 3: // citation
-			colorValue = w3_highway_blue;
-			//colorValue = black;
-			rad = 8;
-			opa = 1;
-			break;
-
-
-		default:
-			console.error("Unexpected Stop result", result);
-			colorValue = violet;
-			break;
-	}
-	const retval = {
-		color: colorValue,
-		radius: rad,
-		fill: true,
-		fillOpacity: opa,
-		stroke: false // no border line
-	};
-	return retval;
-
-
-}
-*/
 
 function getOptionsForSeverity(sev) {
 	var colorValue;
@@ -308,6 +171,12 @@ async function getDowntown() {
 
 const downtownGeoJson = await getDowntown();
 
+// make a turf polygon for the downtown busines district so we can clip points to it
+
+var point1 = turf.point([-73.988214, 40.749128]);
+var downtownTurfPolygon = turf.polygon(downtownGeoJson.features[0].geometry.coordinates);
+var inside = turf.booleanPointInPolygon(point1, downtownTurfPolygon);
+
 
 
 async function getShopData() {
@@ -328,352 +197,16 @@ async function getVacantData() {
 const vacantJson = await getVacantData();
 
 
-
-/*
-async function getTransparencyData() {
-	var arrays = [];
-	for (var y = 2015; y <= 2024; y++) {
-		const file = './data/' + y + '.json';
-		const transparencyJson = await getJson(file);
-		arrays.push(transparencyJson.features);
-	}
-	const retval = [].concat(...arrays)
-	return retval;
-
-}
-
-const mergedTransparencyJson = await (getTransparencyData());
-
-async function getSWITRSData() {
-	var arrays = [];
-
-	const fileNames = ['switrs2015-2019.json', 'switrs2020-2024.json'];
-	for (const fName of fileNames) {
-		const file = './data/' + fName;
-		const swtrsJson = await getJson(file);
-		arrays.push(swtrsJson.features);
-
-	}
-	const retval = [].concat(...arrays)
+async function getOsmShopData() {
+	const file = './data/osm_shop_data.json';
+	const retval = await getJson(file);
 	return retval;
 }
 
-const mergedSWITRSJson = await (getSWITRSData());
 
-// read fatal crash override data
-async function getOverrideData() {
-	var arrays = [];
+const osmShopJson = await getOsmShopData();
 
-	const fileNames = ['fatal.json'];
-	for (const fName of fileNames) {
-		const file = './data/override/' + fName;
-		const overrideJson = await getJson(file);
-		arrays.push(overrideJson.features);
-
-	}
-	const retval = [].concat(...arrays)
-	return retval;
-}
-
-const overrideJson = await getOverrideData();
-
-
-
-async function getStopData() {
-	var arrays = [];
-	for (var y = 2020; y <= 2025; y++) {
-		const file = './data/stop/ts_' + y + '.json';
-		const stopJson = await getJson(file);
-		arrays.push(stopJson.features);
-	}
-	const retval = [].concat(...arrays)
-	return retval;
-
-}
-
-const mergedStopJson = await (getStopData());
-
-*/
-
-// fix up stop json by adding a few computed fields
-//"DateTime_FME": "20201009232500-07:00",
-//"Date": "2024-09-30",
-//"Time": "09:35:00",
-//"Year": 2024
-/*
-function fixStops() {
-	for (const s of mergedStopJson) {
-		const attr = s.attributes;
-
-		const fme = attr.DateTime_FME;
-		if ((!fme) || (fme.length < 12)) {
-			console.log("undefined DateTime_FME");
-			continue;
-		}
-
-		//starting in 2024 the format changes!
-		// "DateTime_FME": "2024-02-22 11:35:00",
-
-		const YYYY = fme.substr(0, 4);
-
-		const y = parseInt(YYYY);
-		if (y <= 2023) {
-			const MM = fme.substr(4, 2);
-			const DD = fme.substr(6, 2);
-			const hh = fme.substr(8, 2);
-			const mm = fme.substr(10, 2);
-			const ss = "00";
-			const hyphen = '-';
-			const colon = ':';
-			const newDate = YYYY + hyphen + MM + hyphen + DD;
-			const newTime = hh + colon + mm + colon + ss;
-
-			attr.Date = newDate;
-			attr.Time = newTime;
-			attr.Hour = parseInt(hh);
-		} else {
-			const newDate = fme.substr(0, 10);
-			const newTime = fme.substr(11, 8);
-
-			attr.Date = newDate;
-			attr.Time = newTime;
-			attr.Hour = parseInt(newTime.substr(0, 2));
-		}
-		attr.Year = parseInt(YYYY);
-		if (attr.Hour < 0 || attr.Hour > 24) {
-			console.log("Unexpected hour for stop ", attr.DateTime_FME, ' ', attr.Hour);
-		}
-	}
-}
-
-fixStops();
-
-function addStopLocations() {
-	for (const s of mergedStopJson) {
-		const attr = s.attributes;
-		const lat = attr.Latitude;
-		const lon = attr.Longitude;
-		const gps = { 'lat': lat, 'lon': lon };
-
-
-		const closest = findClosest(gps);
-		if (closest) {
-			attr.Stop_Location = closest;
-		} else {
-			console.log("Failed to find street for ", gps);
-		}
-
-	}
-}
-
-addStopLocations();
-
-*/
-
-
-function makeTimeStamp(c) {
-	const d = coll.attributes.Date;
-	const t = coll.attributes.Time;
-
-	if (!d || !t) {
-		console.log("collision with missing date time ", coll);
-		return undefined;
-	} else {
-		const str = d + ' ' + t;
-		const ts = Date.parse(str);
-		return ts;
-	}
-
-}
-
-function makeTimeStampSet(arr) {
-	var setTimeStamps = new Set();
-	for (const coll of arr) {
-		const d = coll.attributes.Date;
-		const t = coll.attributes.Time;
-
-		if (!d || !t) {
-			console.log("collision with missing date time ", coll);
-		} else {
-			const str = d + ' ' + t;
-			const ts = Date.parse(str);
-			if (setTimeStamps.has(str)) {
-				console.log("collsion with dupe date time ", coll);
-
-			} else {
-				setTimeStamps.add(ts);
-				if (!coll.attributes.DateTime) {
-					coll.attributes.DateTime = ts;
-				}
-			}
-		}
-	}
-	return setTimeStamps;
-}
-
-function makeTimeStampMap(arr) {
-	var setTimeStamps = new Map();
-	for (const coll of arr) {
-		const d = coll.attributes.Date;
-		const t = coll.attributes.Time;
-
-		if (!d || !t) {
-			console.log("collision with missing date time ", coll);
-		} else {
-			const str = d + ' ' + t;
-			const ts = Date.parse(str);
-			if (setTimeStamps.has(str)) {
-				console.log("collsion with dupe date time ", coll);
-
-			} else {
-				setTimeStamps.set(ts, coll);
-				if (!coll.attributes.DateTime) {
-					coll.attributes.DateTime = ts;
-				}
-			}
-		}
-	}
-	return setTimeStamps;
-}
-/*
-// make set of swtrs collision time stamps
-const tsSwtrs = makeTimeStampSet(mergedSWITRSJson);
-const tsTransparency = makeTimeStampSet(mergedTransparencyJson);
-
-const tsStops = makeTimeStampSet(mergedStopJson);
-
-// make maps of ts to coll
-const tsMapSwtrs = makeTimeStampMap(mergedSWITRSJson);
-const tsMapTransparency = makeTimeStampMap(mergedTransparencyJson);
-
-// make sets of local collision ids
-function makeLocalCollisionIdMap(arr) {
-	// for arr of SWITRS reports "Local_Report_Number": "2022-00060191",
-	// for arr of BPD reports "Case_Number": "2022-00060191",
-	const retval = new Map();
-	for (const c of arr) {
-		const a = c.attributes;
-		if (a.Local_Report_Number) {
-			retval.set(a.Local_Report_Number, c);
-		} else if (a.Case_Number) {
-			retval.set(a.Case_Number, c);
-		}
-	}
-	return retval;
-}
-
-const lidMapSwitrs = makeLocalCollisionIdMap(mergedSWITRSJson);
-const lidMapTransparency = makeLocalCollisionIdMap(mergedTransparencyJson);
-
-// apply overrides by local id
-// these correct severity for fatal crashes, and add news urls
-function applyOverrides(overrides) {
-	for (const o of overrides) {
-		const oa = o.attributes;
-		const t = lidMapTransparency.get(oa.Case_Number);
-		if (t) {
-			const attr = t.attributes;
-			attr.Injury_Severity = oa.Injury_Severity;
-			attr.url = oa.url;
-		} else {
-			console.log("override not matched ", oa.Case_Number)
-		}
-
-		const s = lidMapSwitrs.get(oa.Case_Number);
-		if (s) {
-			const attr = s.attributes;
-			attr.Injury_Severity = oa.Injury_Severity;
-			attr.url = oa.url;
-		}
-	}
-}
-
-applyOverrides(overrideJson);
-
-const lidSwitrs = new Set(lidMapSwitrs.keys());
-
-const tsSwtrsUnionTransparency = tsSwtrs.union(tsTransparency);
-const tsSwrtsIntersectionTransparency = tsSwtrs.intersection(tsTransparency);
-const tsSwtrsMinusTransparency = tsSwtrs.difference(tsTransparency);
-const tsTransparencyMinusSwtrs = tsTransparency.difference(tsSwtrs);
-
-// for union, start with switrs
-var mergedUnion = mergedSWITRSJson.slice();
-
-// add any bpd records that differ in both timestamp and local case id
-for (const e of mergedTransparencyJson) {
-	const ts = e.attributes.DateTime;
-	const lid = e.attributes.Case_Number;
-
-	// 
-	if (!tsSwtrs.has(ts)) {
-		if (!lidSwitrs.has(lid)) {
-			mergedUnion.push(e);
-		}
-	}
-}
-
-// each bpd report has a "Case_Number": "2022-00019693", and a date time
-// each switrs report has a "Local_Report_Number": "2022-00019693", and a date and time
-function getSwitrsReportForLocalReport(localColl) {
-	const ts = localColl.attributes.DateTime;
-	const lid = localColl.attributes.Case_Number;
-
-	// first lookup by case number
-	const r1 = lidMapSwitrs.get(lid);
-	if (r1) {
-		return r1;
-	}
-	// then try by date time
-	const r2 = tsMapSwtrs.get(ts);
-	if (r2) {
-		return r2;
-	}
-	return undefined;
-}
-for (const localColl of mergedTransparencyJson) {
-	localColl.switrsRecord = getSwitrsReportForLocalReport(localColl);
-}
-
-// each bpd report has a "Case_Number": "2022-00019693", and a date time
-// each switrs report has a "Local_Report_Number": "2022-00019693", and a date and time
-function getLocalReportForSwitrsReport(switrsColl) {
-	const ts = switrsColl.attributes.DateTime;
-	const lid = switrsColl.attributes.Local_Report_Number;
-
-	// first lookup by case number
-	const r1 = lidMapTransparency.get(lid);
-	if (r1) {
-		return r1;
-	}
-	// then try by date time
-	const r2 = tsMapTransparency.get(ts);
-	if (r2) {
-		return r2;
-	}
-	return undefined;
-}
-
-for (const switrsColl of mergedSWITRSJson) {
-	switrsColl.localRecord = getLocalReportForSwitrsReport(switrsColl);
-}
-/*
-console.log(" mergedUnion: ", mergedUnion.length);
-
-console.log("Swtrs time stamps: ", tsSwtrs.size);
-console.log("Transparency time stamps: ", tsTransparency.size);
-
-console.log("tsSwtrsUnionTransparency: ", tsSwtrsUnionTransparency.size);
-console.log("tsSwrtsIntersectionTransparency :", tsSwrtsIntersectionTransparency.size);
-
-console.log("tsSwtrsMinusTransparency: ", tsSwtrsMinusTransparency.size);
-
-console.log("tsTransparencyMinusSwtrs: ", tsTransparencyMinusSwtrs.size);
-*/
-
-
-
-//const mergedTransparencyJson = mergedSWITRSJson;
+console.log("Read ", osmShopJson.elements.length);
 
 const popupFields = [
 	'name',
@@ -1175,6 +708,36 @@ function isShopLikeAmenity(amenityTag) {
 	return retval
 }
 
+function isShop(tags) {
+	var bRetval = false;
+	if (tags.shop || (tags.leisure)) {
+		bRetval = true;
+	}
+	if (tags.amenity && isShopLikeAmenity(tags.amenity)) {
+		bRetval = true;
+	}
+	return bRetval;
+}
+
+function isVacant(tags) {
+	var bRetval = false;
+	// include shops
+	if (tags['disused:shop']) {
+		bRetval = true;
+	}
+
+	if (tags['disused:amenity']) {
+		bRetval = true;
+	}
+	if (tags.vacant == 'yes') {
+		bRetval = true;
+	}
+	if (tags.abandoned == 'yes') {
+		bRetval = true;
+	}
+	return bRetval;
+}
+
 var nCountVacant = 0;
 var nCountShop = 0;
 
@@ -1204,88 +767,99 @@ function addMarkers(osmJson, bVacant,
 	for (const osmItem of osmJson.elements) {
 		//const attr = osmItem.elements; 
 		const tags = osmItem.tags;
-		console.log(tags)
+	//	console.log(tags)
 
 		if (!tags) {
-			console.log("no tags")
+			//console.log("no tags")
+		//	incrementMapKey(histShopData, arrShopKeys[2]);
 			continue;
 		}
 
 		var bInclude = false;
+		const bShop = isShop(tags);
+		const bVacant = isVacant(tags);
+	//	console.log("Name:", tags.name, " shop:", bShop, " vacant:", bVacant);
 
-		// include shops
-		if (tags.shop || (tags.leisure)) {
-			if (filterShop) {
-
+		if (filterShop) {
+			if (bShop) {
 				bInclude = true;
 			}
 		}
 
-		// include shops
-		if (tags['disused:shop']) {
-			if (filterDisusedShop) {
-
+		if (filterDisusedShop) {
+			if (bVacant) {
 				bInclude = true;
 			}
 		}
-
-		if (tags['disused:amenity']) {
-			if (filterDisusedAmenity) {
-				const bShopLikeAmenity = isShopLikeAmenity(tags.amenity);
-
-				if (filterDisusedAmenity && bShopLikeAmenity) {
-					bInclude = true;
+		/*
+				// include shops
+				if (tags.shop || (tags.leisure)) {
+					if (filterShop) {
+		
+						bInclude = true;
+					}
 				}
-
-				if (filterDisusedAmenity && !bShopLikeAmenity) {
-					bInclude = true;
+		
+				// include shops
+				if (tags['disused:shop']) {
+					if (filterDisusedShop) {
+		
+						bInclude = true;
+					}
 				}
-
-
-			}
-		}
-
-		// include amenity
-		if (tags.amenity) {
-
-			const bShopLikeAmenity = isShopLikeAmenity(tags.amenity);
-
-			if (filterAmenity && bShopLikeAmenity) {
-				bInclude = true;
-			}
-
-			if (filterOtherAmenity && !bShopLikeAmenity) {
-				bInclude = true;
-			}
-		}
-
-		// inlcude vacant=yes and abandoned=yes
+		
+				if (tags['disused:amenity']) {
+					if (filterDisusedAmenity) {
+						const bShopLikeAmenity = isShopLikeAmenity(tags.amenity);
+		
+						if (filterDisusedAmenity && bShopLikeAmenity) {
+							bInclude = true;
+						}
+		
+						if (filterDisusedAmenity && !bShopLikeAmenity) {
+							bInclude = true;
+						}
+		
+		
+					}
+				}
+		
+				// include amenity
+				if (tags.amenity) {
+		
+					const bShopLikeAmenity = isShopLikeAmenity(tags.amenity);
+		
+					if (filterAmenity && bShopLikeAmenity) {
+						bInclude = true;
+					}
+		
+					if (filterOtherAmenity && !bShopLikeAmenity) {
+						bInclude = true;
+					}
+				}
+		
+				// inlcude vacant=yes and abandoned=yes
+				if (!bInclude) {
+					if (tags.vacant || tags.abandoned) {
+						bInclude = true;
+					}
+				}
+		
+				// inlcude 
+				if (!bInclude) {
+					if (tags['disused:building'] || tags['disused:office']) {
+						bInclude = true;
+					}
+				}
+		*/
 		if (!bInclude) {
-			if (tags.vacant || tags.abandoned) {
-				bInclude = true;
-			}
-		}
-
-		// inlcude 
-		if (!bInclude) {
-			if (tags['disused:building'] || tags['disused:office']) {
-				bInclude = true;
-			}
-		}
-
-		if (!bInclude) {
-			console.log("Filtered out " , tags.name);
+		//	console.log("Filtered out ", tags.name);
+		incrementMapKey(histShopData, arrShopKeys[2]);
 			continue;
 		}
 
-		/*const checked = checkFilter(coll, tsSet, vehTypeRegExp,
-			filter2024, filter2023, filter2022, filter2021, filter2020,
-			filter2019, filter2018, filter2017, filter2016, filter2015,
-			selectStreet, selectSeverity, selectStopResult);
-		if (!checked) {
-			continue;
-		}
-		plotted++;*/
+	
+		plotted++;
 
 		//	arrMappedCollisions.push(attr); // add to array for export function
 
@@ -1344,14 +918,16 @@ function addMarkers(osmJson, bVacant,
 		// if lat  or long is missing, try the linked coll record
 		var lat = osmItem.lat;
 		if (!lat) {
-			console.log("no lat")
+			//console.log("no lat")
+			incrementMapKey(histShopData, arrShopKeys[2]);
 			continue;
 		}
 
 		//const long = attr.Latitude ?? coll.switrsColl.Latitude ?? coll.localColl.Latitude;
 		var long = osmItem.lon
 		if (!long) {
-			console.log("no lon")
+			//console.log("no lon")
+			incrementMapKey(histShopData, arrShopKeys[2]);
 			continue;
 
 		}
@@ -1359,13 +935,26 @@ function addMarkers(osmJson, bVacant,
 
 		if (lat && long) {
 			const loc = [lat, long];
+			const tp = turf.point([long, lat]);
+			if (!turf.booleanPointInPolygon(tp, downtownTurfPolygon)) {
+				//console.log("Skipping item not in district ", tags)
+				incrementMapKey(histShopData, arrShopKeys[2]);
+				continue;
+			}
+
+
+			// make sure we are in the downtown boundary
+
 
 			if (bVacant) {
 				nCountVacant++;
 				incrementMapKey(histShopData, arrShopKeys[1]);
-			} else {
+			} 
+			if (bShop) {
 				incrementMapKey(histShopData, arrShopKeys[0]);
 				nCountShop++;
+			} else {
+				incrementMapKey(histShopData, arrShopKeys[2]);
 			}
 
 
@@ -1374,31 +963,8 @@ function addMarkers(osmJson, bVacant,
 			var marker = L.circleMarker([lat, long], opt);
 
 
-
-
-
-
-
-
-			//var	marker = L.circleMarker([lat + ct * 0.0001, long - ct * 0.0001], opt
-			/*	{
-				color: '#3388ff',
-				radius: 5,
-				fill: true,
-				fillOpacity: 1
-			}
-			*/
-			//	);
-
-
 			var msg = nodePopup(tags)
-			/*if (coll.switrsRecord) {
-				const msg2 = collisionPopup(coll.switrsRecord.attributes);
-				msg += '<br>Switrs properties:<br>' + msg2;
-			} else if (coll.localRecord) {
-				const msg2 = collisionPopup(coll.localRecord.attributes);
-				msg += '<br>BPD properties:<br>' + msg2;
-			}*/
+			
 
 			if (pointerFine) {
 
@@ -1413,7 +979,8 @@ function addMarkers(osmJson, bVacant,
 			markerCount++;
 		} else {
 			//histMissingGPSData.set(attr.Year, histMissingGPSData.get(attr.Year) + 1);
-			incrementMapKey(histMissingGPSData, attr.Year);
+			//incrementMapKey(histMissingGPSData, attr.Year);
+			incrementMapKey(histShopData, arrShopKeys[2]);
 			skipped++;
 		}
 	}
@@ -1437,7 +1004,7 @@ function addMarkers(osmJson, bVacant,
 // chart data variables
 // ADD NEW CHART
 var histShopData = new Map();  // bars Shop, Vacant
-const arrShopKeys = ['Shops', 'Vacant'];
+const arrShopKeys = ['Shops', 'Vacant','Other'];
 
 /*
 const histYearData = new Map();
@@ -1618,7 +1185,7 @@ function handleFilterClick() {
 	nCountShop = 0
 
 	removeAllMakers();
-	addMarkers(shopJson, false,
+	addMarkers(osmShopJson, false,
 		checkShop.checked,
 		checkAmenity.checked,
 		checkDisusedShop.checked,
@@ -1643,7 +1210,7 @@ function handleFilterClick() {
 		selectSeverity.value,
 		selectStopResult.value*/
 	);
-
+/*
 	addMarkers(vacantJson, true,
 
 		checkShop.checked,
@@ -1653,7 +1220,7 @@ function handleFilterClick() {
 		checkDisusedAmenity.checked,
 
 		checkOtherAmenity.checked
-	);
+	);*/
 
 	// ADD NEW CHART
 	const dataShops = [];
@@ -1738,129 +1305,6 @@ saveanchor.addEventListener(
 
 /* unused stuff
 
-const json = JSON.stringify(3.1415, null, 2);
-const inputblob = new Blob([json], {
-	type: "application/json",
-});
-
-
-const u = URL.createObjectURL(inputblob);
-
-saveanchor.href = u;
-
-async function saveFile1() {
-	// create a new handle
-	const newHandle = await window.showSaveFilePicker();
-
-	// create a FileSystemWritableFileStream to write to
-	const writableStream = await newHandle.createWritable();
-
-	// write our file
-	await writableStream.write(inputblob);
-
-	// close the file and write the contents to disk.
-	await writableStream.close();
-}
-
-
-
-async function saveFile() {
-
-
-
-	//const inputblob = { hello: "world" };
-	const json = JSON.stringify(3.1415, null, 2);
-	const inputblob = new Blob([json], {
-		type: "application/json",
-	});
-
-
-
-
-
-	const downloadelem = document.createElement("a");
-	const url = URL.createObjectURL(inputblob);
-	document.body.appendChild(downloadelem);
-	downloadelem.src = url;
-	downloadelem.click();
-	downloadelem.remove();
-	window.URL.revokeObjectURL(url);
-}
-//downloadBlob(yourblob);
-
-
-async function handleExportClick() {
-	await saveFile();
-
-}
-
-
-
-function randomOffset() {
-	const r = Math.random() - 0.5;
-	return r / 5000;
-}
-function objToString(obj) {
-	var msg = "";
-	
-	for (const [key, value] of Object.entries(obj)) {
-		msg += ('<br>' + key + ':' + value);
-	}
-	return msg;
-}
-	
-	
-const bikeIcon = L.icon({ iconUrl: './test/bicycle.png' });
-const pedIcon = L.icon({ iconUrl: './test/pedestrian.png' });
-const carIcon = L.icon({ iconUrl: './test/suv.png' });
-	
-	
-/*
-	(function () {
-		const data = [
-			{ year: 2015, count: histData.get(2015) },
-			{ year: 2016, count: histData.get(2016) },
-			{ year: 2017, count: histData.get(2017) },
-			{ year: 2018, count: histData.get(2018) },
-			{ year: 2019, count: histData.get(2019) },
-			{ year: 2020, count: histData.get(2020) },
-			{ year: 2021, count: histData.get(2021) },
-			{ year: 2022, count: histData.get(2022) },
-			{ year: 2023, count: histData.get(2023) },
-			{ year: 2024, count: histData.get(2024) },
-	
-		];
-		if (histChart == undefined) {
-			histChart = new Chart(
-				document.getElementById('crashHist'),
-				{
-					type: 'bar',
-					data: {
-						labels: data.map(row => row.year),
-						datasets: [
-							{
-								label: 'Collisions by Year',
-								data: data.map(row => row.count)
-							}
-						]
-					}
-				}
-			);
-		} else {
-			//const newData = data.map(row => row.count);
-			// update data
-	
-			const newData = {
-				label: 'Collisions by Year',
-				data: data.map(row => row.count)
-			}
-	
-			histChart.data.datasets.pop();
-			histChart.data.datasets.push(newData);
-			console.log(newData);
-			histChart.update();
-		}
-	})();
 	
 */
 
