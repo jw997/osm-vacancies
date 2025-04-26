@@ -720,7 +720,7 @@ function isShopLikeAmenity(amenityTag) {
 
 function isShop(tags) {
 	var bRetval = false;
-	if (tags.shop || (tags.leisure)) {
+	if (tags.shop || (tags.leisure) || (tags.office)) {
 		bRetval = true;
 	}
 	if (tags.amenity && isShopLikeAmenity(tags.amenity)) {
@@ -737,6 +737,12 @@ function isVacant(tags) {
 	}
 
 	if (tags['disused:amenity']) {
+		bRetval = true;
+	}
+	if (tags['disused:leisure']) {
+		bRetval = true;
+	}
+	if (tags['disused:office']) {
 		bRetval = true;
 	}
 	if (tags.vacant == 'yes') {

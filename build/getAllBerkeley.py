@@ -16,6 +16,7 @@ res = api.get("""
   nwr["leisure"] (area.searchArea); 
   nwr["disused:amenity"] (area.searchArea);
   nwr["disused:shop"] (area.searchArea);
+    nwr["disused:leisure"] (area.searchArea);
   nwr["disused:building"] (area.searchArea);
   
   node["vacant"="yes"] (area.searchArea);
