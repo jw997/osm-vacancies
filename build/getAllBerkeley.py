@@ -13,11 +13,16 @@ res = api.get("""
 
   nwr["amenity"] (area.searchArea);
   nwr["shop"]      (area.searchArea);
+    nwr["office"]      (area.searchArea);
   nwr["leisure"] (area.searchArea); 
+    nwr["healthcare"] (area.searchArea); 
+    
   nwr["disused:amenity"] (area.searchArea);
   nwr["disused:shop"] (area.searchArea);
     nwr["disused:leisure"] (area.searchArea);
   nwr["disused:building"] (area.searchArea);
+    nwr["disused:office"] (area.searchArea);
+        nwr["disused:healthcare"] (area.searchArea);
   
   node["vacant"="yes"] (area.searchArea);
   nwr["abandoned"="yes"] (area.searchArea);
