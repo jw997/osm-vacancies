@@ -26,6 +26,7 @@ res = api.get("""
   
   node["vacant"="yes"] (area.searchArea);
   nwr["abandoned"="yes"] (area.searchArea);
+  nwr["landuse"] (area.searchArea);
 );
 (._;>;);
 """)

@@ -222,11 +222,22 @@ const popupFields = [
 	'name',
 	'addr:housenumber',
 	'addr:street',
+
 	'amenity',
 	'shop',
 	'building',
 	'office',
+	'healthcare',
+	'leisure',
+	'landuse',
+
+	'disused:shop',
 	'disused:amenity',
+	'disused:leisure',
+	'disused:building',
+	'disused:office',
+	'disused:healthcare'
+
 
 ];
 function nodePopup(tags) {
@@ -240,6 +251,10 @@ function nodePopup(tags) {
 		if (v) {
 			msg += (k + ': ' + v + '<br>');
 		}
+	}
+	if (msg=='') {
+		msg = tags;
+		console.log("missed popup ", msg);
 	}
 	return msg;
 }
@@ -691,6 +706,7 @@ Some amenties are not shops
 */
 const nonShopAmenityValues = [
 	'atm',
+	'bbq',
 	'bench',
 	'bicycle_parking',
 	'bicycle_rental',
@@ -698,12 +714,18 @@ const nonShopAmenityValues = [
 	'clock',
 	'drinking_water',
 	'fountain',
+	//'fuel',
+	'loading_dock',
 	'motorcycle_parking',
 	'parking',
 	'parking_entrance',
+	'parking_space',
+	'polling_station',
 	'post_box',
 	'public_bookcase',
 	'recycling',
+	'shelter',
+	'table',
 	'taxi',
 	'telephone',
 	'toilets',
@@ -718,9 +740,31 @@ function isShopLikeAmenity(amenityTag) {
 	return retval
 }
 
+const shopLeisureValues = [
+'sports_centre'
+
+];
+
+function isShopLikeLeisure(leisureTag) {
+	const retval = shopLeisureValues.includes(leisureTag);
+
+
+	return retval
+}
+
+
+
 function isShop(tags) {
 	var bRetval = false;
-	if (tags.shop || (tags.leisure) || (tags.office)) {
+	if (tags.shop  || (tags.office)) {
+		bRetval = true;
+	}
+
+	if (tags.healthcare) {
+		bRetval = true;
+	}
+
+	if ( (tags.leisure) && isShopLikeLeisure(tags.leisure)) {
 		bRetval = true;
 	}
 	if (tags.amenity && isShopLikeAmenity(tags.amenity)) {
@@ -736,19 +780,28 @@ function isVacant(tags) {
 		bRetval = true;
 	}
 
-	if (tags['disused:amenity']) {
+	if (tags['disused:amenity'] && isShopLikeAmenity(tags.amenity) ) {
 		bRetval = true;
 	}
-	if (tags['disused:leisure']) {
+	if (tags['disused:leisure'] && isShopLikeAmenity(tags.amenity)) {
 		bRetval = true;
 	}
 	if (tags['disused:office']) {
+		bRetval = true;
+	}
+	if (tags['disused:healthcare']) {
 		bRetval = true;
 	}
 	if (tags.vacant == 'yes') {
 		bRetval = true;
 	}
 	if (tags.abandoned == 'yes') {
+		bRetval = true;
+	}
+	if (tags.landuse == 'brownfield') {
+		bRetval = true;
+	}
+	if (tags.landuse == 'greenfield') {
 		bRetval = true;
 	}
 	return bRetval;
