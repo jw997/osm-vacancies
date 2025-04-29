@@ -317,13 +317,22 @@ const grey = "#101010";
 function createLegend() {
 	const legend = L.control.Legend({
 		position: "bottomleft",
-		title: 'Open street map shops and vacancies',
+		title: 'Open street map commercial land usage',
 		collapsed: false,
 		symbolWidth: 24,
 		opacity: 0.8,
 		column: 1,
 
-		legends: [{
+		legends: [
+			
+			{
+				label: "Active Commercial",
+				type: "circle",
+				color: w3_highway_blue,
+				fillColor: w3_highway_blue
+				//url: "./images/marker-highway-blue.png"
+			},
+			{
 			label: "Vacant",
 			type: "circle",
 			color: w3_highway_red,
@@ -331,6 +340,13 @@ function createLegend() {
 
 			//url: "./images/marker-highway-red.png",
 		},
+		{
+			label: "Land",
+			type: "circle",
+			color: w3_highway_brown,
+			fillColor: w3_highway_brown
+			//url: "./images/marker-highway-blue.png"
+		}
 		/*	{
 				label: "Serious",
 				type: "circle",
@@ -353,13 +369,7 @@ function createLegend() {
 				//url: "./images/marker-highway-yellow.png",
 			}, 
 			*/
-		{
-			label: "Shop",
-			type: "circle",
-			color: w3_highway_blue,
-			fillColor: w3_highway_blue
-			//url: "./images/marker-highway-blue.png"
-		}
+		
 			/*, {
 				label: "Unspecified",
 				type: "circle",
@@ -760,12 +770,12 @@ function isVacant(tags) {
 	if (tags.abandoned == 'yes') {
 		bRetval = true;
 	}
-	if (tags.landuse == 'brownfield') {
+/*	if (tags.landuse == 'brownfield') {
 		bRetval = true;
 	}
 	if (tags.landuse == 'greenfield') {
 		bRetval = true;
-	}
+	}*/
 	return bRetval;
 }
 
