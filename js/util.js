@@ -9,13 +9,14 @@ Chart.defaults.color = '#000';
 Chart.defaults.font.size = 14;
 
 
-const checkShop = document.querySelector('#checkShop');
-const checkAmenity = document.querySelector('#checkAmenity');
+const checkActive = document.querySelector('#checkActive');
+//const checkAmenity = document.querySelector('#checkAmenity');
 
-const checkDisusedShop = document.querySelector('#checkDisusedShop');
-const checkDisusedAmenity = document.querySelector('#checkDisusedAmenity');
+const checkVacant = document.querySelector('#checkVacant');
+const checkLand = document.querySelector('#checkLand');
+//const checkDisusedAmenity = document.querySelector('#checkDisusedAmenity');
 
-const checkOtherAmenity = document.querySelector('#checkOtherAmenity');
+//const checkOtherAmenity = document.querySelector('#checkOtherAmenity');
 
 
 const summary = document.querySelector('#summary');
@@ -61,38 +62,42 @@ const black = "#000000";
 
 const grey = "#101010";
 
-
-function getOptionsForSeverity(sev) {
+//
+"shop", "vacant", "land"
+function getOptionsForMarker(markerType) {
 	var colorValue;
 	var rad = 3;
 	var opa = 0.5;
 
-	switch (sev) {
-		case 'Fatal':
+	switch (markerType) {
+		case 'active':
+			colorValue = w3_highway_blue;
+			break;
+
+		case 'vacant':
 			colorValue = w3_highway_red;
 			rad = 3;
 			opa = 1;
 			break;
-		case "Serious Injury":
-			colorValue = w3_highway_orange;
-			rad = 3;
-			opa = 1;
-			break;
-		case "Minor Injury":
+	
+		case 'land':
 			colorValue = w3_highway_brown;
 			opa = 1;
 			break;
-		case "Possible Injury":
+			/*	case "Serious Injury":
+			colorValue = w3_highway_orange;
+			rad = 3;
+			opa = 1;
+			break;*/
+/*		case "Possible Injury":
 			colorValue = w3_highway_yellow;
 			break;
-		case "No Injury":
-			colorValue = w3_highway_blue;
-			break;
+		
 		case "Unspecified Injury":
 			colorValue = violet;
-			break;
+			break;*/
 		default:
-			console.error("Unexpected Injury severity ", sev);
+			console.error("Unexpected market type ", markerType);
 	}
 	if (!pointerFine) {
 		rad *= 1.5;
@@ -109,50 +114,7 @@ function getOptionsForSeverity(sev) {
 
 
 
-// todo make a severity class with the icons and text wrapped together
-function getIconForSeverity(sev) {
-	var icon;
-	switch (sev) {
-		case 'Fatal':
-			icon = redIcon;
-			break;
-		case "Serious Injury":
-			icon = orangeIcon;
-			break;
-		case "Minor Injury":
-			icon = goldIcon;
-			break;
-		case "Possible Injury":
-			icon = yellowIcon;
-			break;
-		case "No Injury":
-			icon = blueIcon;
-			break;
-		case "Unspecified Injury":
-			icon = violetIcon;
-			break;
-		default:
-			console.error("Unexpected Injury severity ", sev);
-	}
-	return icon;
-}
 
-function getIconForStop(Result_of_Stop) {
-	var icon;
-	switch (Result_of_Stop) {
-		case 3:
-			icon = redIcon; // warning
-			break;
-		case 2:
-			icon = orangeIcon;  // warning
-			break;
-
-		default:
-			icon = violetIcon; // field interview / other??
-			console.error("Unexpected stop results ", Result_of_Stop);
-	}
-	return icon;
-}
 
 async function getCityBoundary() {
 	const file = './data/cityboundary/Land_Boundary.geojson';
@@ -807,6 +769,12 @@ function isVacant(tags) {
 	return bRetval;
 }
 
+function isLand(tags) {
+	if (tags.landuse == 'brownfield'  || tags.landuse == 'greenfield') {
+		return true;
+	}
+}
+
 function getPointFromeature(feature) {
 	const geom = feature.geometry;
 	const fType = geom.type;
@@ -828,15 +796,18 @@ function getPointFromeature(feature) {
 }
 var nCountVacant = 0;
 var nCountShop = 0;
+var nCountLand = 0;
 
-function addMarkers(osmJson, bVacant,
+function addMarkers(osmJson,
 	filterShop,
-	filterAmenity,
+	filterVacant,
+	filterLand
+	/*filterAmenity,
 
 	filterDisusedShop,
 	filterDisusedAmenity,
 
-	filterOtherAmenity
+	filterOtherAmenity*/
 	/*, tsSet, histYearData, histHourData, histFaultData, histAgeInjuryData,
 	vehTypeRegExp,
 	filter2024, filter2023, filter2022, filter2021, filter2020,
@@ -868,6 +839,8 @@ function addMarkers(osmJson, bVacant,
 		var bInclude = false;
 		const bShop = isShop(tags);
 		const bVacant = isVacant(tags);
+		const bLand = isLand(tags);
+
 		//	console.log("Name:", tags.name, " shop:", bShop, " vacant:", bVacant);
 
 		if (filterShop) {
@@ -876,15 +849,20 @@ function addMarkers(osmJson, bVacant,
 			}
 		}
 
-		if (filterDisusedShop) {
+		if (filterVacant) {
 			if (bVacant) {
 				bInclude = true;
 			}
 		}
 	
+		if (filterLand) {
+			if (bLand) {
+				bInclude = true;
+			}
+		}
 		if (!bInclude) {
 			//	console.log("Filtered out ", tags.name);
-			incrementMapKey(histShopData, arrShopKeys[2]);
+		//	incrementMapKey(histShopData, arrShopKeys[2]);
 			continue;
 		}
 
@@ -962,6 +940,9 @@ function addMarkers(osmJson, bVacant,
 			}*/
 
 			// make sure we are in the downtown boundary
+
+
+
 			if (bVacant) {
 				nCountVacant++;
 				incrementMapKey(histShopData, arrShopKeys[1]);
@@ -969,12 +950,26 @@ function addMarkers(osmJson, bVacant,
 			if (bShop) {
 				incrementMapKey(histShopData, arrShopKeys[0]);
 				nCountShop++;
-			} else {
+				opt = getOptionsForMarker('active');
+			} 
+			if (bLand) {
+				nCountLand++;
 				incrementMapKey(histShopData, arrShopKeys[2]);
 			}
 
+			var opt =  getOptionsForMarker('active');
+			if (bVacant) {
+				opt =  getOptionsForMarker('vacant');
+			} 
+			if (bLand ) {
+				opt =  getOptionsForMarker('land');
+				opt.fillOpacity = .3
 
-			const opt = getOptionsForSeverity(bVacant ? 'Fatal' : 'No Injury');
+
+				L.geoJSON(osmItem,opt).addTo(map);
+			}
+
+			
 
 			var marker = L.circleMarker([lat, long], opt);
 
@@ -996,7 +991,7 @@ function addMarkers(osmJson, bVacant,
 		} else {
 			//histMissingGPSData.set(attr.Year, histMissingGPSData.get(attr.Year) + 1);
 			//incrementMapKey(histMissingGPSData, attr.Year);
-			incrementMapKey(histShopData, arrShopKeys[2]);
+		//	incrementMapKey(histShopData, arrShopKeys[2]);
 			skipped++;
 		}
 	}
@@ -1004,7 +999,10 @@ function addMarkers(osmJson, bVacant,
 	console.log('Plotted', plotted);
 	console.log("markerCount ", markerCount)
 
-	const summaryMsg = '<br>Vacant Shops: ' + nCountVacant + '<br>' + 'Non-vacant shops: ' + nCountShop + '<br>';
+	const summaryMsg = '<br>Active shops: ' + nCountShop +
+	                   '<br>Vacant: ' + nCountVacant +
+					   '<br>Land: ' + nCountLand
+					   + '<br>';
 	summary.innerHTML = summaryMsg;
 
 	/*	// set array for download
@@ -1020,7 +1018,7 @@ function addMarkers(osmJson, bVacant,
 // chart data variables
 // ADD NEW CHART
 var histShopData = new Map();  // bars Shop, Vacant
-const arrShopKeys = ['Shops', 'Vacant', 'Other'];
+const arrShopKeys = ['Shops', 'Vacant', 'Land'];
 
 /*
 const histYearData = new Map();
@@ -1176,14 +1174,17 @@ function handleFilterClick() {
 	nCountVacant = 0
 
 	nCountShop = 0
+	nCountLand = 0;
 
 	removeAllMakers();
-	addMarkers(osmGeoJson, false,
-		checkShop.checked,
-		checkAmenity.checked,
-		checkDisusedShop.checked,
-		checkDisusedAmenity.checked,
-		checkOtherAmenity.checked /*, histYearData, histHourData, histFaultData, histAgeInjuryData,
+	addMarkers(osmGeoJson, 
+		checkActive.checked,
+		//checkAmenity.checked,
+		checkVacant.checked,
+		checkLand.checked
+	//	checkDisusedAmenity.checked,
+	//	checkOtherAmenity.checked 
+	/*, histYearData, histHourData, histFaultData, histAgeInjuryData,
 
 		selectVehicleTypes.value,
 
@@ -1244,7 +1245,8 @@ function handleFilterClick() {
 	
 	*/
 	// ADD NEW CHART
-	histShopChart = createOrUpdateChart(dataShops, histShopChart, document.getElementById('shopHist'), 'Shop / Vacancies counts');
+	histShopChart = createOrUpdateChart(dataShops, histShopChart, document.getElementById('shopHist'), 
+	'Commercial sites');
 
 	/*	histFaultChart = createOrUpdateChart(dataFault, histFaultChart, document.getElementById('crashFaultHist'), 'Collisions by Fault');
 	
