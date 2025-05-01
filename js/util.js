@@ -14,6 +14,23 @@ const checkActive = document.querySelector('#checkActive');
 
 const checkVacant = document.querySelector('#checkVacant');
 const checkLand = document.querySelector('#checkLand');
+
+// geo filters
+const checkBerkeley = document.querySelector('#checkBerkeley');
+const checkDowntown = document.querySelector('#checkDowntown');
+const checkNorthside = document.querySelector('#checkNorthside');
+const checkFourth = document.querySelector('#checkFourth');
+const checkGilman = document.querySelector('#checkGilman');
+const checkWestbrae = document.querySelector('#checkWestbrae');
+const checkNorthbrae = document.querySelector('#checkNorthbrae');
+const checkSolano = document.querySelector('#checkSolano');
+const checkNorthshattuck = document.querySelector('#checkNorthshattuck');
+const checkUniversity = document.querySelector('#checkUniversity');
+const checkTelegraph = document.querySelector('#checkTelegraph');
+const checkElmwood = document.querySelector('#checkElmwood');
+const checkLorin = document.querySelector('#checkLorin');
+
+
 //const checkDisusedAmenity = document.querySelector('#checkDisusedAmenity');
 
 //const checkOtherAmenity = document.querySelector('#checkOtherAmenity');
@@ -79,23 +96,23 @@ function getOptionsForMarker(markerType) {
 			rad = 3;
 			opa = 1;
 			break;
-	
+
 		case 'land':
 			colorValue = w3_highway_brown;
 			opa = 1;
 			break;
-			/*	case "Serious Injury":
-			colorValue = w3_highway_orange;
-			rad = 3;
-			opa = 1;
-			break;*/
-/*		case "Possible Injury":
-			colorValue = w3_highway_yellow;
-			break;
-		
-		case "Unspecified Injury":
-			colorValue = violet;
-			break;*/
+		/*	case "Serious Injury":
+		colorValue = w3_highway_orange;
+		rad = 3;
+		opa = 1;
+		break;*/
+		/*		case "Possible Injury":
+					colorValue = w3_highway_yellow;
+					break;
+				
+				case "Unspecified Injury":
+					colorValue = violet;
+					break;*/
 		default:
 			console.error("Unexpected market type ", markerType);
 	}
@@ -113,31 +130,72 @@ function getOptionsForMarker(markerType) {
 }
 
 
-
+async function getDataFile(fName) {
+	const file = './data/' + fName;
+	const retval = await getJson(file);
+	return retval;
+}
 
 
 async function getCityBoundary() {
 	const file = './data/cityboundary/Land_Boundary.geojson';
-	const cityGeoJson = await getJson(file);
-	return cityGeoJson;
+	const retval = await getJson(file);
+	return retval;
 }
 
 const cityGeoJson = await getCityBoundary();
 
+/*
 
-async function getDowntown() {
-	const file = './data/downtown.geojson';
-	const cityGeoJson = await getJson(file);
-	return cityGeoJson;
-}
+downtown .geojson
+northside .geojson
+fourth .geojson
+gilman .geojson
+westbrae .geojson
+northbrae .geojson
+solano .geojson
+northshattuck .geojson
 
-const downtownGeoJson = await getDowntown();
+university .geojson
+telegraph .geojson
+elmwood .geojson
+lorin .geojson
+*/
+
+const downtownGeoJson = await getDataFile('downtown.geojson');
+const northsideGeoJson = await getDataFile('northside.geojson');
+
+const fourthGeoJson = await getDataFile('fourth.geojson');
+const gilmanGeoJson = await getDataFile('gilman.geojson');
+const westbraeGeoJson = await getDataFile('westbrae.geojson');
+const northbraeGeoJson = await getDataFile('northbrae.geojson');
+const solanoGeoJson = await getDataFile('solano.geojson');
+const northshattuckGeoJson = await getDataFile('northshattuck.geojson');
+const universityGeoJson = await getDataFile('university.geojson');
+const telegraphGeoJson = await getDataFile('telegraph.geojson');
+const elmwoodGeoJson = await getDataFile('elmwood.geojson');
+const lorinGeoJson = await getDataFile('lorin.geojson');
+
 
 // make a turf polygon for the downtown busines district so we can clip points to it
 
-var point1 = turf.point([-73.988214, 40.749128]);
+
 var downtownTurfPolygon = turf.polygon(downtownGeoJson.features[0].geometry.coordinates);
-var inside = turf.booleanPointInPolygon(point1, downtownTurfPolygon);
+var northsideTurfPolygon = turf.polygon(northsideGeoJson.features[0].geometry.coordinates);
+
+
+
+var fourthTurfPolygon = turf.polygon(fourthGeoJson.features[0].geometry.coordinates);
+var gilmanTurfPolygon = turf.polygon(gilmanGeoJson.features[0].geometry.coordinates);
+var westbraeTurfPolygon = turf.polygon(westbraeGeoJson.features[0].geometry.coordinates);
+var northbraeTurfPolygon = turf.polygon(northbraeGeoJson.features[0].geometry.coordinates);
+var solanoTurfPolygon = turf.polygon(solanoGeoJson.features[0].geometry.coordinates);
+var northshattuckTurfPolygon = turf.polygon(northshattuckGeoJson.features[0].geometry.coordinates);
+var universityTurfPolygon = turf.polygon(universityGeoJson.features[0].geometry.coordinates);
+var telegraphTurfPolygon = turf.polygon(telegraphGeoJson.features[0].geometry.coordinates);
+var elmwoodTurfPolygon = turf.polygon(elmwoodGeoJson.features[0].geometry.coordinates);
+var lorinTurfPolygon = turf.polygon(lorinGeoJson.features[0].geometry.coordinates);
+
 
 
 /*
@@ -214,7 +272,7 @@ function nodePopup(tags) {
 			msg += (k + ': ' + v + '<br>');
 		}
 	}
-	if (msg=='') {
+	if (msg == '') {
 		msg = tags;
 		console.log("missed popup ", msg);
 	}
@@ -324,7 +382,7 @@ function createLegend() {
 		column: 1,
 
 		legends: [
-			
+
 			{
 				label: "Active Commercial",
 				type: "circle",
@@ -333,43 +391,43 @@ function createLegend() {
 				//url: "./images/marker-highway-blue.png"
 			},
 			{
-			label: "Vacant",
-			type: "circle",
-			color: w3_highway_red,
-			fillColor: w3_highway_red
-
-			//url: "./images/marker-highway-red.png",
-		},
-		{
-			label: "Land",
-			type: "circle",
-			color: w3_highway_brown,
-			fillColor: w3_highway_brown
-			//url: "./images/marker-highway-blue.png"
-		}
-		/*	{
-				label: "Serious",
+				label: "Vacant",
 				type: "circle",
-	
-				color: w3_highway_orange,
-				fillColor: w3_highway_orange
-				//url: "./images/marker-highway-orange.png",
-			}, {
-				label: "Minor",
+				color: w3_highway_red,
+				fillColor: w3_highway_red
+
+				//url: "./images/marker-highway-red.png",
+			},
+			{
+				label: "Land",
 				type: "circle",
 				color: w3_highway_brown,
 				fillColor: w3_highway_brown
-				//url: "./images/marker-highway-brown.png"
-			}, {
-				label: "Possible",
-				type: "circle",
-				color: w3_highway_yellow,
-				fillColor: w3_highway_yellow
-	
-				//url: "./images/marker-highway-yellow.png",
-			}, 
-			*/
+				//url: "./images/marker-highway-blue.png"
+			}
+			/*	{
+					label: "Serious",
+					type: "circle",
 		
+					color: w3_highway_orange,
+					fillColor: w3_highway_orange
+					//url: "./images/marker-highway-orange.png",
+				}, {
+					label: "Minor",
+					type: "circle",
+					color: w3_highway_brown,
+					fillColor: w3_highway_brown
+					//url: "./images/marker-highway-brown.png"
+				}, {
+					label: "Possible",
+					type: "circle",
+					color: w3_highway_yellow,
+					fillColor: w3_highway_yellow
+		
+					//url: "./images/marker-highway-yellow.png",
+				}, 
+				*/
+
 			/*, {
 				label: "Unspecified",
 				type: "circle",
@@ -457,6 +515,18 @@ L.geoJSON(cityGeoJson, { fillOpacity: 0.05 }).addTo(map);
 
 // add downtown to map
 L.geoJSON(downtownGeoJson, { fillOpacity: 0.05 }).addTo(map);
+L.geoJSON(northsideGeoJson, { fillOpacity: 0.05 }).addTo(map);
+L.geoJSON(fourthGeoJson, { fillOpacity: 0.05 }).addTo(map);
+L.geoJSON(gilmanGeoJson, { fillOpacity: 0.05 }).addTo(map);
+L.geoJSON(westbraeGeoJson, { fillOpacity: 0.05 }).addTo(map);
+L.geoJSON(northbraeGeoJson, { fillOpacity: 0.05 }).addTo(map);
+L.geoJSON(solanoGeoJson, { fillOpacity: 0.05 }).addTo(map);
+L.geoJSON(northshattuckGeoJson, { fillOpacity: 0.05 }).addTo(map);
+L.geoJSON(universityGeoJson, { fillOpacity: 0.05 }).addTo(map);
+L.geoJSON(telegraphGeoJson, { fillOpacity: 0.05 }).addTo(map);
+L.geoJSON(elmwoodGeoJson, { fillOpacity: 0.05 }).addTo(map);
+L.geoJSON(lorinGeoJson, { fillOpacity: 0.05 }).addTo(map);
+
 
 const resizeObserver = new ResizeObserver(() => {
 	console.log("resize observer fired");
@@ -713,7 +783,7 @@ function isShopLikeAmenity(amenityTag) {
 }
 
 const shopLeisureValues = [
-'sports_centre'
+	'sports_centre'
 
 ];
 
@@ -728,7 +798,7 @@ function isShopLikeLeisure(leisureTag) {
 
 function isShop(tags) {
 	var bRetval = false;
-	if (tags.shop  || (tags.office)) {
+	if (tags.shop || (tags.office)) {
 		bRetval = true;
 	}
 
@@ -736,7 +806,7 @@ function isShop(tags) {
 		bRetval = true;
 	}
 
-	if ( (tags.leisure) && isShopLikeLeisure(tags.leisure)) {
+	if ((tags.leisure) && isShopLikeLeisure(tags.leisure)) {
 		bRetval = true;
 	}
 	if (tags.amenity && isShopLikeAmenity(tags.amenity)) {
@@ -752,7 +822,7 @@ function isVacant(tags) {
 		bRetval = true;
 	}
 
-	if (tags['disused:amenity'] && isShopLikeAmenity(tags.amenity) ) {
+	if (tags['disused:amenity'] && isShopLikeAmenity(tags.amenity)) {
 		bRetval = true;
 	}
 	if (tags['disused:leisure'] && isShopLikeAmenity(tags.amenity)) {
@@ -770,17 +840,20 @@ function isVacant(tags) {
 	if (tags.abandoned == 'yes') {
 		bRetval = true;
 	}
-/*	if (tags.landuse == 'brownfield') {
-		bRetval = true;
-	}
-	if (tags.landuse == 'greenfield') {
-		bRetval = true;
-	}*/
+	/*	if (tags.landuse == 'brownfield') {
+			bRetval = true;
+		}
+		if (tags.landuse == 'greenfield') {
+			bRetval = true;
+		}*/
 	return bRetval;
 }
 
 function isLand(tags) {
-	if (tags.landuse == 'brownfield'  || tags.landuse == 'greenfield') {
+	if (tags.landuse == 'brownfield' || tags.landuse == 'greenfield') {
+		return true;
+	}
+	if (tags.landuse == 'brownfield' || tags.landuse == 'greenfield') {
 		return true;
 	}
 }
@@ -803,6 +876,125 @@ function getPointFromeature(feature) {
 		console.log("no point for feature", feature)
 	}
 	return retval;
+}
+
+
+/*	if (!turf.booleanPointInPolygon(tp, downtownTurfPolygon)) {
+					//console.log("Skipping item not in district ", tags)
+					incrementMapKey(histShopData, arrShopKeys[2]);
+					continue;
+				}*/
+
+
+function checkGeoFilter(tp) {
+	
+	if (checkBerkeley.checked) {
+		return true;
+	}
+	var retval = false;
+	if (checkDowntown.checked) {
+		if (turf.booleanPointInPolygon(tp, downtownTurfPolygon)) {
+			retval = true;
+		}
+	}
+	if (checkNorthside.checked) {
+		if (turf.booleanPointInPolygon(tp, northsideTurfPolygon)) {
+			retval = true;
+		}
+	}
+	if (checkFourth.checked) {
+		if (turf.booleanPointInPolygon(tp, fourthTurfPolygon)) {
+			retval = true;
+		}
+	}
+
+	 
+	 
+	
+
+	if (checkGilman.checked) {
+		if (turf.booleanPointInPolygon(tp, gilmanTurfPolygon)) {
+			retval = true;
+		}
+	}
+
+	if (checkWestbrae.checked) {
+		if (turf.booleanPointInPolygon(tp, westbraeTurfPolygon)) {
+			retval = true;
+		}
+	}
+
+	if (checkNorthbrae.checked) {
+		if (turf.booleanPointInPolygon(tp, northbraeTurfPolygon)) {
+			retval = true;
+		}
+	}
+
+	if (checkSolano.checked) {
+		if (turf.booleanPointInPolygon(tp, solanoTurfPolygon)) {
+			retval = true;
+		}
+	}
+
+	if (checkNorthshattuck.checked) {
+		if (turf.booleanPointInPolygon(tp, northshattuckTurfPolygon)) {
+			retval = true;
+		}
+	}
+
+
+
+	if (checkUniversity.checked) {
+		if (turf.booleanPointInPolygon(tp, universityTurfPolygon)) {
+			retval = true;
+		}
+	}
+
+	if (checkTelegraph.checked) {
+		if (turf.booleanPointInPolygon(tp, telegraphTurfPolygon)) {
+			retval = true;
+		}
+	}
+
+	if (checkElmwood.checked) {
+		if (turf.booleanPointInPolygon(tp, elmwoodTurfPolygon)) {
+			retval = true;
+		}
+	}
+
+
+	if (checkLorin.checked) {
+		if (turf.booleanPointInPolygon(tp, lorinTurfPolygon)) {
+			retval = true;
+		}
+	}
+/*	
+
+checkFourth
+checkGilman
+checkWestbrae
+checkNorthbrae
+checkSolano
+checkNorthshattuck
+
+
+checkElmwood
+checkLorin
+
+  
+ fourthTurfPolygon 
+ gilmanTurfPolygon 
+ westbraeTurfPolygon  
+ northbraeTurfPolygon
+   solanoTurfPolygon
+    northshattuckTurfPolygon
+      universityTurfPolygon
+ telegraphTurfPolygon
+   elmwoodTurfPolygon
+    lorinTurfPolygon 
+*/
+return retval;
+
 }
 var nCountVacant = 0;
 var nCountShop = 0;
@@ -864,7 +1056,7 @@ function addMarkers(osmJson,
 				bInclude = true;
 			}
 		}
-	
+
 		if (filterLand) {
 			if (bLand) {
 				bInclude = true;
@@ -872,7 +1064,7 @@ function addMarkers(osmJson,
 		}
 		if (!bInclude) {
 			//	console.log("Filtered out ", tags.name);
-		//	incrementMapKey(histShopData, arrShopKeys[2]);
+			//	incrementMapKey(histShopData, arrShopKeys[2]);
 			continue;
 		}
 
@@ -936,18 +1128,23 @@ function addMarkers(osmJson,
 		//var lat = osmItem.lat;
 		const point = getPointFromeature(osmItem);
 
-		const lat = point[1];		
+		const lat = point[1];
 		const long = point[0]
 
 		if (lat && long) {
 			const loc = [lat, long];
 			const tp = turf.point([long, lat]);
-		
-		/*	if (!turf.booleanPointInPolygon(tp, downtownTurfPolygon)) {
-				//console.log("Skipping item not in district ", tags)
-				incrementMapKey(histShopData, arrShopKeys[2]);
+
+			const bGeoFilter = checkGeoFilter(tp);
+			if (!bGeoFilter) {
 				continue;
-			}*/
+			}
+
+			/*	if (!turf.booleanPointInPolygon(tp, downtownTurfPolygon)) {
+					//console.log("Skipping item not in district ", tags)
+					incrementMapKey(histShopData, arrShopKeys[2]);
+					continue;
+				}*/
 
 			// make sure we are in the downtown boundary
 
@@ -961,25 +1158,25 @@ function addMarkers(osmJson,
 				incrementMapKey(histShopData, arrShopKeys[0]);
 				nCountShop++;
 				opt = getOptionsForMarker('active');
-			} 
+			}
 			if (bLand) {
 				nCountLand++;
 				incrementMapKey(histShopData, arrShopKeys[2]);
 			}
 
-			var opt =  getOptionsForMarker('active');
+			var opt = getOptionsForMarker('active');
 			if (bVacant) {
-				opt =  getOptionsForMarker('vacant');
-			} 
-			if (bLand ) {
-				opt =  getOptionsForMarker('land');
+				opt = getOptionsForMarker('vacant');
+			}
+			if (bLand) {
+				opt = getOptionsForMarker('land');
 				opt.fillOpacity = .3
 
 
-				L.geoJSON(osmItem,opt).addTo(map);
+				L.geoJSON(osmItem, opt).addTo(map);
 			}
 
-			
+
 
 			var marker = L.circleMarker([lat, long], opt);
 
@@ -1001,7 +1198,7 @@ function addMarkers(osmJson,
 		} else {
 			//histMissingGPSData.set(attr.Year, histMissingGPSData.get(attr.Year) + 1);
 			//incrementMapKey(histMissingGPSData, attr.Year);
-		//	incrementMapKey(histShopData, arrShopKeys[2]);
+			//	incrementMapKey(histShopData, arrShopKeys[2]);
 			skipped++;
 		}
 	}
@@ -1010,9 +1207,9 @@ function addMarkers(osmJson,
 	console.log("markerCount ", markerCount)
 
 	const summaryMsg = '<br>Active shops: ' + nCountShop +
-	                   '<br>Vacant: ' + nCountVacant +
-					   '<br>Land: ' + nCountLand
-					   + '<br>';
+		'<br>Vacant: ' + nCountVacant +
+		'<br>Land: ' + nCountLand
+		+ '<br>';
 	summary.innerHTML = summaryMsg;
 
 	/*	// set array for download
@@ -1179,7 +1376,7 @@ function handleFilterClick() {
 		var tsSet;
 		var collData = shopJson;
 	*/
-	
+
 	// reset summary counts 
 	nCountVacant = 0
 
@@ -1187,32 +1384,32 @@ function handleFilterClick() {
 	nCountLand = 0;
 
 	removeAllMakers();
-	addMarkers(osmGeoJson, 
+	addMarkers(osmGeoJson,
 		checkActive.checked,
 		//checkAmenity.checked,
 		checkVacant.checked,
 		checkLand.checked
-	//	checkDisusedAmenity.checked,
-	//	checkOtherAmenity.checked 
-	/*, histYearData, histHourData, histFaultData, histAgeInjuryData,
-
-		selectVehicleTypes.value,
-
-		check2024.checked,
-		check2023.checked,
-		check2022.checked,
-		check2021.checked,
-		check2020.checked,
-
-		check2019.checked,
-		check2018.checked,
-		check2017.checked,
-		check2016.checked,
-		check2015.checked,
-
-		selectStreet.value,
-		selectSeverity.value,
-		selectStopResult.value*/
+		//	checkDisusedAmenity.checked,
+		//	checkOtherAmenity.checked 
+		/*, histYearData, histHourData, histFaultData, histAgeInjuryData,
+	
+			selectVehicleTypes.value,
+	
+			check2024.checked,
+			check2023.checked,
+			check2022.checked,
+			check2021.checked,
+			check2020.checked,
+	
+			check2019.checked,
+			check2018.checked,
+			check2017.checked,
+			check2016.checked,
+			check2015.checked,
+	
+			selectStreet.value,
+			selectSeverity.value,
+			selectStopResult.value*/
 	);
 	/*
 		addMarkers(vacantJson, true,
@@ -1255,8 +1452,8 @@ function handleFilterClick() {
 	
 	*/
 	// ADD NEW CHART
-	histShopChart = createOrUpdateChart(dataShops, histShopChart, document.getElementById('shopHist'), 
-	'Commercial sites');
+	histShopChart = createOrUpdateChart(dataShops, histShopChart, document.getElementById('shopHist'),
+		'Commercial sites');
 
 	/*	histFaultChart = createOrUpdateChart(dataFault, histFaultChart, document.getElementById('crashFaultHist'), 'Collisions by Fault');
 	
