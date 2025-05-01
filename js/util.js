@@ -840,6 +840,10 @@ function isVacant(tags) {
 	if (tags.abandoned == 'yes') {
 		bRetval = true;
 	}
+
+	if (tags.building && tags.disused == 'yes') {
+		bRetval = true;
+	}
 	/*	if (tags.landuse == 'brownfield') {
 			bRetval = true;
 		}

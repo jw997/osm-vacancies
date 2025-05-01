@@ -21,6 +21,8 @@ res = api.get("""
   nwr["disused:shop"] (area.searchArea);
     nwr["disused:leisure"] (area.searchArea);
   nwr["disused:building"] (area.searchArea);
+    nwr["building"="industrial"]["disused"="yes"](area.searchArea);
+
     nwr["disused:office"] (area.searchArea);
         nwr["disused:healthcare"] (area.searchArea);
   
