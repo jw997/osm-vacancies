@@ -798,7 +798,8 @@ function isShopLikeLeisure(leisureTag) {
 
 function isShop(tags) {
 	var bRetval = false;
-	if (tags.shop || (tags.office)) {
+	
+	if (tags.shop || (tags.office) || (tags.craft)) {
 		bRetval = true;
 	}
 
@@ -1044,7 +1045,7 @@ function addMarkers(osmJson,
 
 		var bInclude = false;
 		const bShop = isShop(tags);
-		const bVacant = isVacant(tags);
+		const bVacant = !bShop && isVacant(tags);
 		const bLand = isLand(tags);
 
 		//	console.log("Name:", tags.name, " shop:", bShop, " vacant:", bVacant);
