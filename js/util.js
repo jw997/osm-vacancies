@@ -766,6 +766,9 @@ const nonShopAmenityValues = [
 	'post_box',
 	'public_bookcase',
 	'recycling',
+
+	// TODO recycling_type==centre 
+
 	'shelter',
 	'table',
 	'taxi',
@@ -777,6 +780,7 @@ const nonShopAmenityValues = [
 ];
 function isShopLikeAmenity(amenityTag) {
 	const bNonShop = nonShopAmenityValues.includes(amenityTag);
+
 
 	const retval = !bNonShop;
 	return retval
@@ -1212,7 +1216,8 @@ function addMarkers(osmJson,
 	console.log("markerCount ", markerCount)
 
 	const summaryMsg = '<br>Active shops: ' + nCountShop +
-		'<br>Vacant: ' + nCountVacant +
+		'<br>Vacant: ' + nCountVacant + 
+		'<br>Vacant Percentage: ' + (100.0*nCountVacant/(nCountShop+nCountVacant)).toFixed(1) + '%' +
 		'<br>Land: ' + nCountLand
 		+ '<br>';
 	summary.innerHTML = summaryMsg;
@@ -1230,7 +1235,7 @@ function addMarkers(osmJson,
 // chart data variables
 // ADD NEW CHART
 var histShopData = new Map();  // bars Shop, Vacant
-const arrShopKeys = ['Shops', 'Vacant', 'Land'];
+const arrShopKeys = ['Active', 'Vacant', 'Land'];
 
 /*
 const histYearData = new Map();
