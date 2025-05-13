@@ -775,7 +775,9 @@ const nonShopAmenityValues = [
 	'telephone',
 	'toilets',
 	'vending_machine',
-	'waste_basket'
+	'waste_basket',
+	'waste_disposal'
+
 
 ];
 function isShopLikeAmenity(amenityTag) {
