@@ -30,8 +30,11 @@ const checkTelegraph = document.querySelector('#checkTelegraph');
 const checkElmwood = document.querySelector('#checkElmwood');
 const checkLorin = document.querySelector('#checkLorin');
 
-const checkSanpablo = document.querySelector('#checkSanpablo');
-
+// ADD NEW GEO FILTER
+const checkSanpabloave = document.querySelector('#checkSanpabloave');
+const checkUniversityave = document.querySelector('#checkUniversityave');
+const checkSacramentoave = document.querySelector('#checkSacramentoave');
+const checkMlkway= document.querySelector('#checkMlkway');
 
 //const checkDisusedAmenity = document.querySelector('#checkDisusedAmenity');
 
@@ -179,7 +182,10 @@ const elmwoodGeoJson = await getDataFile('elmwood.geojson');
 const lorinGeoJson = await getDataFile('lorin.geojson');
 
 // street based areas
-const sanpabloGeoJson  = await getDataFile('sanpablo.geojson');
+const sanpabloaveGeoJson  = await getDataFile('sanpabloave.geojson');
+const universityaveGeoJson  = await getDataFile('universityave.geojson');
+const sacramentoaveGeoJson  = await getDataFile('sacramentoave.geojson');
+const mlkwayGeoJson  = await getDataFile('mlkway.geojson');
 // ADD NEW GEO FILTER 
 
 // make a turf polygon for the downtown busines district so we can clip points to it
@@ -201,7 +207,10 @@ var telegraphTurfPolygon = turf.polygon(telegraphGeoJson.features[0].geometry.co
 var elmwoodTurfPolygon = turf.polygon(elmwoodGeoJson.features[0].geometry.coordinates);
 var lorinTurfPolygon = turf.polygon(lorinGeoJson.features[0].geometry.coordinates);
 
-var sanpabloTurfPolygon = turf.polygon(sanpabloGeoJson.features[0].geometry.coordinates);
+var sanpabloaveTurfPolygon = turf.polygon(sanpabloaveGeoJson.features[0].geometry.coordinates);
+var universityaveTurfPolygon = turf.polygon(universityaveGeoJson.features[0].geometry.coordinates);
+var sacramentoaveTurfPolygon = turf.polygon(sacramentoaveGeoJson.features[0].geometry.coordinates);
+var mlkwayTurfPolygon = turf.polygon(mlkwayGeoJson.features[0].geometry.coordinates);
 // ADD NEW GEO FILTER 
 
 
@@ -534,7 +543,8 @@ L.geoJSON(telegraphGeoJson, { fillOpacity: 0.05 }).addTo(map);
 L.geoJSON(elmwoodGeoJson, { fillOpacity: 0.05 }).addTo(map);
 L.geoJSON(lorinGeoJson, { fillOpacity: 0.05 }).addTo(map);
 
-L.geoJSON(sanpabloGeoJson, { fillOpacity: 0.05 }).addTo(map);
+//L.geoJSON(sanpabloaveGeoJson, { fillOpacity: 0.05 }).addTo(map);
+//L.geoJSON(universityaveGeoJson, { fillOpacity: 0.05 }).addTo(map);
 // ADD NEW GEO FILTER
 
 const resizeObserver = new ResizeObserver(() => {
@@ -988,13 +998,32 @@ function checkGeoFilter(tp) {
 			retval = true;
 		}
 	}
-
-	if (checkSanpablo.checked) {
-		if (turf.booleanPointInPolygon(tp, sanpabloTurfPolygon)) {
+// ADD NEW GEO FILTER
+	if (checkSanpabloave.checked) {
+		if (turf.booleanPointInPolygon(tp, sanpabloaveTurfPolygon)) {
 			retval = true;
 		}
 	}
 
+	if (checkUniversityave.checked) {
+		if (turf.booleanPointInPolygon(tp, universityaveTurfPolygon)) {
+			retval = true;
+		}
+	}
+
+	if (checkSacramentoave.checked) {
+		if (turf.booleanPointInPolygon(tp, sacramentoaveTurfPolygon)) {
+			retval = true;
+		}
+	}
+	if (checkMlkway.checked) {
+		if (turf.booleanPointInPolygon(tp, mlkwayTurfPolygon)) {
+			retval = true;
+		}
+	}
+
+
+	
 return retval;
 
 }
