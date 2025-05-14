@@ -30,6 +30,8 @@ const checkTelegraph = document.querySelector('#checkTelegraph');
 const checkElmwood = document.querySelector('#checkElmwood');
 const checkLorin = document.querySelector('#checkLorin');
 
+const checkSanpablo = document.querySelector('#checkSanpablo');
+
 
 //const checkDisusedAmenity = document.querySelector('#checkDisusedAmenity');
 
@@ -161,7 +163,7 @@ telegraph .geojson
 elmwood .geojson
 lorin .geojson
 */
-
+// Business Districts 
 const downtownGeoJson = await getDataFile('downtown.geojson');
 const northsideGeoJson = await getDataFile('northside.geojson');
 
@@ -176,6 +178,9 @@ const telegraphGeoJson = await getDataFile('telegraph.geojson');
 const elmwoodGeoJson = await getDataFile('elmwood.geojson');
 const lorinGeoJson = await getDataFile('lorin.geojson');
 
+// street based areas
+const sanpabloGeoJson  = await getDataFile('sanpablo.geojson');
+// ADD NEW GEO FILTER 
 
 // make a turf polygon for the downtown busines district so we can clip points to it
 
@@ -196,6 +201,8 @@ var telegraphTurfPolygon = turf.polygon(telegraphGeoJson.features[0].geometry.co
 var elmwoodTurfPolygon = turf.polygon(elmwoodGeoJson.features[0].geometry.coordinates);
 var lorinTurfPolygon = turf.polygon(lorinGeoJson.features[0].geometry.coordinates);
 
+var sanpabloTurfPolygon = turf.polygon(sanpabloGeoJson.features[0].geometry.coordinates);
+// ADD NEW GEO FILTER 
 
 
 /*
@@ -527,6 +534,8 @@ L.geoJSON(telegraphGeoJson, { fillOpacity: 0.05 }).addTo(map);
 L.geoJSON(elmwoodGeoJson, { fillOpacity: 0.05 }).addTo(map);
 L.geoJSON(lorinGeoJson, { fillOpacity: 0.05 }).addTo(map);
 
+L.geoJSON(sanpabloGeoJson, { fillOpacity: 0.05 }).addTo(map);
+// ADD NEW GEO FILTER
 
 const resizeObserver = new ResizeObserver(() => {
 	console.log("resize observer fired");
@@ -979,31 +988,13 @@ function checkGeoFilter(tp) {
 			retval = true;
 		}
 	}
-/*	
 
-checkFourth
-checkGilman
-checkWestbrae
-checkNorthbrae
-checkSolano
-checkNorthshattuck
+	if (checkSanpablo.checked) {
+		if (turf.booleanPointInPolygon(tp, sanpabloTurfPolygon)) {
+			retval = true;
+		}
+	}
 
-
-checkElmwood
-checkLorin
-
-  
- fourthTurfPolygon 
- gilmanTurfPolygon 
- westbraeTurfPolygon  
- northbraeTurfPolygon
-   solanoTurfPolygon
-    northshattuckTurfPolygon
-      universityTurfPolygon
- telegraphTurfPolygon
-   elmwoodTurfPolygon
-    lorinTurfPolygon 
-*/
 return retval;
 
 }
@@ -1151,16 +1142,6 @@ function addMarkers(osmJson,
 				continue;
 			}
 
-			/*	if (!turf.booleanPointInPolygon(tp, downtownTurfPolygon)) {
-					//console.log("Skipping item not in district ", tags)
-					incrementMapKey(histShopData, arrShopKeys[2]);
-					continue;
-				}*/
-
-			// make sure we are in the downtown boundary
-
-
-
 			if (bVacant) {
 				nCountVacant++;
 				incrementMapKey(histShopData, arrShopKeys[1]);
@@ -1182,12 +1163,8 @@ function addMarkers(osmJson,
 			if (bLand) {
 				opt = getOptionsForMarker('land');
 				opt.fillOpacity = .3
-
-
 				L.geoJSON(osmItem, opt).addTo(map);
 			}
-
-
 
 			var marker = L.circleMarker([lat, long], opt);
 
