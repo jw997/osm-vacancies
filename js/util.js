@@ -189,13 +189,8 @@ const mlkwayGeoJson  = await getDataFile('mlkway.geojson');
 // ADD NEW GEO FILTER 
 
 // make a turf polygon for the downtown busines district so we can clip points to it
-
-
 var downtownTurfPolygon = turf.polygon(downtownGeoJson.features[0].geometry.coordinates);
 var northsideTurfPolygon = turf.polygon(northsideGeoJson.features[0].geometry.coordinates);
-
-
-
 var fourthTurfPolygon = turf.polygon(fourthGeoJson.features[0].geometry.coordinates);
 var gilmanTurfPolygon = turf.polygon(gilmanGeoJson.features[0].geometry.coordinates);
 var westbraeTurfPolygon = turf.polygon(westbraeGeoJson.features[0].geometry.coordinates);
@@ -213,42 +208,11 @@ var sacramentoaveTurfPolygon = turf.polygon(sacramentoaveGeoJson.features[0].geo
 var mlkwayTurfPolygon = turf.polygon(mlkwayGeoJson.features[0].geometry.coordinates);
 // ADD NEW GEO FILTER 
 
-
-/*
-async function getShopData() {
-	const file = './data/shops.json';
-	const retval = await getJson(file);
-	return retval;
-}
-
-
-//const shopJson = await getShopData();
-
-async function getVacantData() {
-	const file = './data/vacantshops.json';
-	const retval = await getJson(file);
-	return retval;
-}
-
-//const vacantJson = await getVacantData();
-
-
-async function getOsmShopData() {
-	const file = './data/osm_shop_data.json';
-	const retval = await getJson(file);
-	return retval;
-}
-
-*/
-//const osmShopJson = await getOsmShopData();
-
-
 async function getOsmGeoJsonData() {
 	const file = './data/osm.geojson';
 	const retval = await getJson(file);
 	return retval;
 }
-
 
 const osmGeoJson = await getOsmGeoJsonData();
 
@@ -273,14 +237,9 @@ const popupFields = [
 	'disused:building',
 	'disused:office',
 	'disused:healthcare'
-
-
 ];
 function nodePopup(tags) {
-
-
 	var msg = "";
-
 
 	for (const k of popupFields) {
 		const v = tags[k];
@@ -317,77 +276,6 @@ function createMap() {
 	// add geojson precincts to map
 }
 
-
-/*
-const greenIcon = getIcon('marker-highway-green.png');
-const redIcon = getIcon('marker-highway-red.png');
-const orangeIcon = getIcon('marker-highway-orange.png');
-const yellowIcon = getIcon('marker-highway-yellow.png');
-const goldIcon = getIcon('marker-highway-brown.png');
-const blueIcon = getIcon('marker-highway-blue.png');
-const violetIcon = getIcon('marker-icon-violet.png');
-
-	case 'Fatal':
-			icon = redIcon;
-			break;
-		case "Serious Injury":
-			icon = orangeIcon;
-			break;
-		case "Minor Injury":
-			icon = goldIcon;
-			break;
-		case "Possible Injury":
-			icon = yellowIcon;
-			break;
-		case "No Injury":
-			icon = blueIcon;
-			break;
-		case "Unspecified Injury":
-			icon = violetIcon;
-			break;
-
-*/
-
-/*
-{
-				label: "Circle",
-				type: "circle",
-				radius: 6,
-				color: "blue",
-				fillColor: "#FF0000",
-				fillOpacity: 0.6,
-				weight: 2,
-				layers: [marker],
-				inactive: true,
-			}
-
-
-			const greenIcon = getIcon('marker-highway-green.png');
-const redIcon = getIcon('marker-highway-red.png');
-const orangeIcon = getIcon('marker-highway-orange.png');
-const yellowIcon = getIcon('marker-highway-yellow.png');
-const goldIcon = getIcon('marker-highway-brown.png');
-const blueIcon = getIcon('marker-highway-blue.png');
-const violetIcon = getIcon('marker-icon-violet.png');
-
-
-
-const w3_highway_brown = '#633517';
-const w3_highway_red = '#a6001a';
-const w3_highway_orange = '#e06000';
-const w3_highway_schoolbus = '#ee9600';
-const w3_highway_yellow = '#ffab00';
-const w3_highway_green = '#004d33';
-const w3_highway_blue = '#00477e';
-
-const violet = "#9400d3";//"#EE82EE";
-
-const black = "#000000";
-
-const grey = "#101010";
-
-
-*/
 function createLegend() {
 	const legend = L.control.Legend({
 		position: "bottomleft",
@@ -421,101 +309,8 @@ function createLegend() {
 				fillColor: w3_highway_brown
 				//url: "./images/marker-highway-blue.png"
 			}
-			/*	{
-					label: "Serious",
-					type: "circle",
-		
-					color: w3_highway_orange,
-					fillColor: w3_highway_orange
-					//url: "./images/marker-highway-orange.png",
-				}, {
-					label: "Minor",
-					type: "circle",
-					color: w3_highway_brown,
-					fillColor: w3_highway_brown
-					//url: "./images/marker-highway-brown.png"
-				}, {
-					label: "Possible",
-					type: "circle",
-					color: w3_highway_yellow,
-					fillColor: w3_highway_yellow
-		
-					//url: "./images/marker-highway-yellow.png",
-				}, 
-				*/
-
-			/*, {
-				label: "Unspecified",
-				type: "circle",
-				color: violet,
-				fillColor: violet
-				//url: "./images/marker-icon-violet.png",
-	
-			}, {
-				label: "Stop: Arrest",
-				type: "circle",
-				color: w3_highway_red,
-				fillColor: w3_highway_red,
-				fillOpacity: 1
-				//url: "./images/marker-icon-violet.png",
-	
-			},
-			{
-				label: "Stop: Citation",
-				type: "circle",
-				color: w3_highway_blue,
-				fillColor: w3_highway_blue,
-				fillOpacity: 1
-				//url: "./images/marker-icon-violet.png",
-	
-			}, {
-				label: "Stop: Warning",
-				type: "circle",
-				color: w3_highway_schoolbus,
-				fillColor: w3_highway_schoolbus,
-				fillOpacity: 0.5
-				//url: "./images/marker-icon-violet.png",
-	
-			}, {
-				label: "Stop: No Action",
-				type: "circle",
-				color: w3_highway_green,
-				fillColor: w3_highway_green,
-				fillOpacity: 0.5
-				//url: "./images/marker-icon-violet.png",
-			}
-			*/
 		]
 
-
-
-		/*
-		legends: [{
-			label: "Fatal",
-			type: "image",
-			url: "./images/marker-highway-red.png",
-		}, {
-			label: "Serious",
-			type: "image",
-			url: "./images/marker-highway-orange.png",
-		}, {
-			label: "Minor",
-			type: "image",
-			url: "./images/marker-highway-brown.png"
-		}, {
-			label: "Possible",
-			type: "image",
-			url: "./images/marker-highway-yellow.png",
-		}, {
-			label: "No Injury",
-			type: "image",
-			url: "./images/marker-highway-blue.png"
-		}, {
-			label: "Unspecified",
-			type: "image",
-			url: "./images/marker-icon-violet.png",
-
-		}]*/
 	})
 		.addTo(map);
 }
@@ -562,190 +357,6 @@ function removeAllMakers() {
 	for (const m of markers) {
 		m.remove();
 	}
-}
-
-function checkFilter(coll, tsSet, vehTypeRegExp,
-	filter2024, filter2023,
-	filter2022, filter2021, filter2020,
-	filter2019,
-	filter2018,
-	filter2017,
-	filter2016,
-	filter2015,
-
-	selectStreet, severity, selectStopResult
-) {
-
-	// for traffic stops, just return true
-	//if (coll.attributes.Stop_GlobalID) {
-	//	return true;
-	//}
-	const attr = coll.attributes;
-
-	if (!tsSet.has(attr.DateTime)) {
-		return false;
-	}
-
-	const year = attr.Year;
-	if ((year == 2024) && !filter2024) {
-		return false;
-
-	}
-	if ((year == 2023) && !filter2023) {
-		return false;
-
-	}
-	if ((year == 2022) && !filter2022) {
-		return false;
-
-	}
-	if ((year == 2021) && !filter2021) {
-		return false;
-
-	}
-	if ((year == 2020) && !filter2020) {
-		return false;
-
-	}
-	if ((year == 2019) && !filter2019) {
-		return false;
-
-	}
-	if ((year == 2018) && !filter2018) {
-		return false;
-
-	}
-	if ((year == 2017) && !filter2017) {
-		return false;
-
-	}
-	if ((year == 2016) && !filter2016) {
-		return false;
-
-	}
-	if ((year == 2015) && !filter2015) {
-		return false;
-
-	}
-	if ((year < 2015) || (year > 2024)) {
-		return false;
-	}
-
-	if (coll.attributes.Stop_GlobalID) {
-		const loc = attr.Stop_Location;
-
-		if (selectStreet != "Any") {
-
-			if (selectStreet.includes('|')) {
-				const re = new RegExp(selectStreet, 'i');
-
-				if (!loc.match(re)) {
-					return false;
-				}
-			} else {
-				const m = loc.toUpperCase().includes(selectStreet.toUpperCase());
-				if (!m) {
-					return false;
-				}
-			}
-		}
-		if (selectStopResult != "Any") {
-
-			const res = getStopResultCategory(attr.Result_of_Stop);
-			if (res != selectStopResult) {
-				return false;
-			}
-		}
-
-		/*
-			if (coll.attributes.Result_of_Stop != 3) {
-
-			return false;
-		}
-
-				const hour = parseInt(coll.attributes.Time);
-				//if (hour >= 6 &&  hour <= 10) {
-				if ((hour <= 5) || (hour >= 21 && hour <= 23)) {
-					return true;
-				}*/
-
-		return true;
-	}
-
-	const involved = attr.Involved_Objects;
-	const m = involved.match(vehTypeRegExp);
-
-	if (!m) {
-		return false;
-	}
-
-	const loc = attr.Accident_Location;
-
-	if (selectStreet != "Any") {
-
-		if (selectStreet.includes('|')) {
-			const re = new RegExp(selectStreet, 'i');
-
-			if (!loc.match(re)) {
-				return false;
-			}
-		} else {
-			const m = loc.toUpperCase().includes(selectStreet.toUpperCase());
-			if (!m) {
-				return false;
-			}
-		}
-	}
-	var acceptableSeverities = [];
-	// if coll has unspecifed severity, but switrs gives a severity use that instead
-	var coll_severity = attr.Injury_Severity;
-
-	if (coll_severity == 'Unspecified Injury') {
-		if (coll.switrsRecord) {
-			coll_severity = coll.switrsRecord.attributes.Injury_Severity
-		}
-	}
-
-	acceptableSeverities.push('Fatal');
-
-	if (severity == 'Fatal') {
-		if (acceptableSeverities.indexOf(coll_severity) == -1) {
-			return false;
-		}
-	}
-	acceptableSeverities.push('Serious Injury');
-
-	if (severity == 'Serious Injury') {
-		if (acceptableSeverities.indexOf(coll_severity) == -1) {
-			return false;
-		}
-	}
-
-	acceptableSeverities.push('Minor Injury');
-
-	if (severity == 'Minor Injury') {
-		if (acceptableSeverities.indexOf(coll_severity) == -1) {
-			return false;
-		}
-	}
-
-	acceptableSeverities.push('Possible Injury');
-
-	if (severity == 'Possible Injury') {
-		if (acceptableSeverities.indexOf(coll_severity) == -1) {
-			return false;
-		}
-	}
-
-	if (severity == 'No Injury') {
-		if (coll_severity != 'No Injury') {
-			return false;
-		}
-		/*if ((attr.Number_of_Injuries != 0) || (attr.Number_of_Fatalities != 0)) {
-			return false;
-		}*/
-	}
-	return true;
 }
 
 const LatitudeDefault = 37.868412;
@@ -1054,7 +665,7 @@ function addMarkers(osmJson,
 	var markerCount = 0
 	var skipped = 0, plotted = 0;
 
-	var arrMappedCollisions = [];
+	var arrMappedOsmItems = [];
 
 	for (const osmItem of osmJson.features) {
 		//const attr = osmItem.elements; 
@@ -1101,7 +712,7 @@ function addMarkers(osmJson,
 
 		plotted++;
 
-		//	arrMappedCollisions.push(attr); // add to array for export function
+	//	arrMappedOsmItems.push(tags); // add to array for export function
 
 		// ADD NEW CHART
 		//histData.set(attr.Year, histData.get(attr.Year) + 1);
@@ -1171,6 +782,8 @@ function addMarkers(osmJson,
 				continue;
 			}
 
+			arrMappedOsmItems.push(tags); // add to array for export function
+
 			if (bVacant) {
 				nCountVacant++;
 				incrementMapKey(histShopData, arrShopKeys[1]);
@@ -1230,14 +843,14 @@ function addMarkers(osmJson,
 		+ '<br>';
 	summary.innerHTML = summaryMsg;
 
-	/*	// set array for download
-		const json = JSON.stringify(arrMappedCollisions, null, 2);
+		// set array for download
+		const json = JSON.stringify(arrMappedOsmItems, null, 2);
 		const inputblob = new Blob([json], {
 			type: "application/json",
 		});
 		const u = URL.createObjectURL(inputblob);
 		saveanchor.href = u;
-	*/
+	
 }
 
 // chart data variables
@@ -1511,7 +1124,7 @@ function handleFilterClick() {
 		histStopResultChart = createOrUpdateChart(dataStopResult, histStopResultChart, document.getElementById('stopResultHist'), 'Stop Results');
 	*/
 }
-/*
+
 function handleExportClick() {
 	handleFilterClick();
 }
@@ -1519,9 +1132,9 @@ function handleExportClick() {
 
 saveanchor.addEventListener(
 	"click", handleExportClick
-	// (event) => (event.target.href = canvas.toDataURL()),
+//	 (event) => (event.target.href = canvas.toDataURL()),
 );
-*/
+
 
 /* unused stuff
 
