@@ -377,17 +377,22 @@ function incrementMapKey(m, k) {
 Some amenties are not shops
 */
 const nonShopAmenityValues = [
+	'archive',
 	'atm',
 	'bbq',
 	'bench',
 	'bicycle_parking',
 	'bicycle_rental',
+	'bicycle_repair_station',
 	'car_sharing',
 	'clock',
 	'drinking_water',
+	'exhibit',
 	'fountain',
+	'give_box',
 	//'fuel',
 	'loading_dock',
+	'locker',
 	'motorcycle_parking',
 	'parking',
 	'parking_entrance',
@@ -396,6 +401,7 @@ const nonShopAmenityValues = [
 	'post_box',
 	'public_bookcase',
 	'recycling',
+	'relay_box',
 
 	// TODO recycling_type==centre 
 
@@ -406,7 +412,8 @@ const nonShopAmenityValues = [
 	'toilets',
 	'vending_machine',
 	'waste_basket',
-	'waste_disposal'
+	'waste_disposal',
+	'wishing_tree'
 
 
 ];
