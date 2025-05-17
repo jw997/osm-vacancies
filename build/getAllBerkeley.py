@@ -1,9 +1,8 @@
 import overpass
 import geojson
 
-api = overpass.API()
+api = overpass.API(timeout=100)
 
- 
 
 # api.get already returns a FeatureCollection, a GeoJSON type
 res = api.get("""
