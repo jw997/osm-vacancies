@@ -9,7 +9,8 @@ res = api.get("""
 (
    area["gnis:feature_id"="2409837"]->.searchArea;
   
-
+ nwr["tourism"="hotel"](area.searchArea);
+ nwr["tourism"="motel"](area.searchArea);
   nwr["amenity"] (area.searchArea);
     nwr["craft"] (area.searchArea);
   nwr["shop"]      (area.searchArea);
