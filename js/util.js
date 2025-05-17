@@ -426,8 +426,10 @@ function isShopLikeAmenity(amenityTag) {
 }
 
 const shopLeisureValues = [
-	'sports_centre'
+	'sports_centre',
 
+     'fitness_centre',
+	 'sauna'
 ];
 
 function isShopLikeLeisure(leisureTag) {
@@ -788,6 +790,9 @@ function addMarkers(osmJson,
 			if (!bGeoFilter) {
 				continue;
 			}
+
+			tags.lat = lat;
+			tags.lon = long;
 
 			arrMappedOsmItems.push(tags); // add to array for export function
 
