@@ -458,6 +458,9 @@ function isShop(tags) {
 	if (tags.amenity && isShopLikeAmenity(tags.amenity)) {
 		bRetval = true;
 	}
+	if (tags.tourism == 'hotel') {
+		bRetval = true;
+	}
 	return bRetval;
 }
 
