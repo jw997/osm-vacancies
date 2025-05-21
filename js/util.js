@@ -30,11 +30,16 @@ const checkTelegraph = document.querySelector('#checkTelegraph');
 const checkElmwood = document.querySelector('#checkElmwood');
 const checkLorin = document.querySelector('#checkLorin');
 
+const checkTemescal = document.querySelector('#checkTemescal');
+const checkValencia = document.querySelector('#checkValencia');
+
+
+
 // ADD NEW GEO FILTER
 const checkSanpabloave = document.querySelector('#checkSanpabloave');
 const checkUniversityave = document.querySelector('#checkUniversityave');
 const checkSacramentoave = document.querySelector('#checkSacramentoave');
-const checkMlkway= document.querySelector('#checkMlkway');
+const checkMlkway = document.querySelector('#checkMlkway');
 
 //const checkDisusedAmenity = document.querySelector('#checkDisusedAmenity');
 
@@ -182,12 +187,16 @@ const elmwoodGeoJson = await getDataFile('elmwood.geojson');
 const lorinGeoJson = await getDataFile('lorin.geojson');
 
 // street based areas
-const sanpabloaveGeoJson  = await getDataFile('sanpabloave.geojson');
-const universityaveGeoJson  = await getDataFile('universityave.geojson');
-const sacramentoaveGeoJson  = await getDataFile('sacramentoave.geojson');
-const mlkwayGeoJson  = await getDataFile('mlkway.geojson');
+const sanpabloaveGeoJson = await getDataFile('sanpabloave.geojson');
+const universityaveGeoJson = await getDataFile('universityave.geojson');
+const sacramentoaveGeoJson = await getDataFile('sacramentoave.geojson');
+const mlkwayGeoJson = await getDataFile('mlkway.geojson');
 // ADD NEW GEO FILTER 
+const temescalGeoJson = await getDataFile('temescal.geojson');
+const valenciaGeoJson = await getDataFile('valencia.geojson');
 
+
+var berkeleyTurfPolygon = turf.polygon(cityGeoJson.features[0].geometry.coordinates);
 // make a turf polygon for the downtown busines district so we can clip points to it
 var downtownTurfPolygon = turf.polygon(downtownGeoJson.features[0].geometry.coordinates);
 var northsideTurfPolygon = turf.polygon(northsideGeoJson.features[0].geometry.coordinates);
@@ -207,6 +216,10 @@ var universityaveTurfPolygon = turf.polygon(universityaveGeoJson.features[0].geo
 var sacramentoaveTurfPolygon = turf.polygon(sacramentoaveGeoJson.features[0].geometry.coordinates);
 var mlkwayTurfPolygon = turf.polygon(mlkwayGeoJson.features[0].geometry.coordinates);
 // ADD NEW GEO FILTER 
+var temescalTurfPolygon = turf.polygon(temescalGeoJson.features[0].geometry.coordinates);
+var valenciaTurfPolygon = turf.polygon(valenciaGeoJson.features[0].geometry.coordinates);
+
+
 
 async function getOsmGeoJsonData() {
 	const file = './data/osm.geojson';
@@ -341,6 +354,8 @@ L.geoJSON(lorinGeoJson, { fillOpacity: 0.05 }).addTo(map);
 //L.geoJSON(sanpabloaveGeoJson, { fillOpacity: 0.05 }).addTo(map);
 //L.geoJSON(universityaveGeoJson, { fillOpacity: 0.05 }).addTo(map);
 // ADD NEW GEO FILTER
+L.geoJSON(temescalGeoJson, { fillOpacity: 0.05 }).addTo(map);
+L.geoJSON(valenciaGeoJson, { fillOpacity: 0.05 }).addTo(map);
 
 const resizeObserver = new ResizeObserver(() => {
 	console.log("resize observer fired");
@@ -428,8 +443,8 @@ function isShopLikeAmenity(amenityTag) {
 const shopLeisureValues = [
 	'sports_centre',
 
-     'fitness_centre',
-	 'sauna'
+	'fitness_centre',
+	'sauna'
 ];
 
 function isShopLikeLeisure(leisureTag) {
@@ -443,7 +458,7 @@ function isShopLikeLeisure(leisureTag) {
 
 function isShop(tags) {
 	var bRetval = false;
-	
+
 	if (tags.shop || (tags.office) || (tags.craft)) {
 		bRetval = true;
 	}
@@ -540,11 +555,15 @@ function getPointFromeature(feature) {
 
 
 function checkGeoFilter(tp) {
-	
-	if (checkBerkeley.checked) {
-		return true;
-	}
+
 	var retval = false;
+
+	if (checkBerkeley.checked) {
+		if (turf.booleanPointInPolygon(tp, berkeleyTurfPolygon)) {
+			retval = true;
+		}
+	}
+	
 	if (checkDowntown.checked) {
 		if (turf.booleanPointInPolygon(tp, downtownTurfPolygon)) {
 			retval = true;
@@ -561,9 +580,9 @@ function checkGeoFilter(tp) {
 		}
 	}
 
-	 
-	 
-	
+
+
+
 
 	if (checkGilman.checked) {
 		if (turf.booleanPointInPolygon(tp, gilmanTurfPolygon)) {
@@ -621,7 +640,20 @@ function checkGeoFilter(tp) {
 			retval = true;
 		}
 	}
-// ADD NEW GEO FILTER
+	// ADD NEW GEO FILTER
+	if (checkTemescal.checked) {
+		if (turf.booleanPointInPolygon(tp, temescalTurfPolygon)) {
+			retval = true;
+		}
+	}
+
+	// ADD NEW GEO FILTER
+	if (checkValencia.checked) {
+		if (turf.booleanPointInPolygon(tp, valenciaTurfPolygon)) {
+			retval = true;
+		}
+	}
+
 	if (checkSanpabloave.checked) {
 		if (turf.booleanPointInPolygon(tp, sanpabloaveTurfPolygon)) {
 			retval = true;
@@ -646,8 +678,8 @@ function checkGeoFilter(tp) {
 	}
 
 
-	
-return retval;
+
+	return retval;
 
 }
 var nCountVacant = 0;
@@ -724,7 +756,7 @@ function addMarkers(osmJson,
 
 		plotted++;
 
-	//	arrMappedOsmItems.push(tags); // add to array for export function
+		//	arrMappedOsmItems.push(tags); // add to array for export function
 
 		// ADD NEW CHART
 		//histData.set(attr.Year, histData.get(attr.Year) + 1);
@@ -852,20 +884,20 @@ function addMarkers(osmJson,
 	console.log("markerCount ", markerCount)
 
 	const summaryMsg = '<br>Active shops: ' + nCountShop +
-		'<br>Vacant: ' + nCountVacant + 
-		'<br>Vacant Percentage: ' + (100.0*nCountVacant/(nCountShop+nCountVacant)).toFixed(1) + '%' +
+		'<br>Vacant: ' + nCountVacant +
+		'<br>Vacant Percentage: ' + (100.0 * nCountVacant / (nCountShop + nCountVacant)).toFixed(1) + '%' +
 		'<br>Land: ' + nCountLand
 		+ '<br>';
 	summary.innerHTML = summaryMsg;
 
-		// set array for download
-		const json = JSON.stringify(arrMappedOsmItems, null, 2);
-		const inputblob = new Blob([json], {
-			type: "application/json",
-		});
-		const u = URL.createObjectURL(inputblob);
-		saveanchor.href = u;
-	
+	// set array for download
+	const json = JSON.stringify(arrMappedOsmItems, null, 2);
+	const inputblob = new Blob([json], {
+		type: "application/json",
+	});
+	const u = URL.createObjectURL(inputblob);
+	saveanchor.href = u;
+
 }
 
 // chart data variables
@@ -1147,7 +1179,7 @@ function handleExportClick() {
 
 saveanchor.addEventListener(
 	"click", handleExportClick
-//	 (event) => (event.target.href = canvas.toDataURL()),
+	//	 (event) => (event.target.href = canvas.toDataURL()),
 );
 
 

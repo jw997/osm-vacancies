@@ -9,29 +9,76 @@ res = api.get("""
 (
    area["gnis:feature_id"="2409837"]->.searchArea;
   
- nwr["tourism"="hotel"](area.searchArea);
- nwr["tourism"="motel"](area.searchArea);
-  nwr["amenity"] (area.searchArea);
-    nwr["craft"] (area.searchArea);
-  nwr["shop"]      (area.searchArea);
-    nwr["office"]      (area.searchArea);
-  nwr["leisure"] (area.searchArea); 
-    nwr["healthcare"] (area.searchArea); 
+   nwr["tourism"="hotel"](area.searchArea);
+   nwr["tourism"="motel"](area.searchArea);
+   nwr["amenity"] (area.searchArea);
+   nwr["craft"] (area.searchArea);
+   nwr["shop"]      (area.searchArea);
+   nwr["office"]      (area.searchArea);
+   nwr["leisure"] (area.searchArea); 
+   nwr["healthcare"] (area.searchArea); 
     
-  nwr["disused:amenity"] (area.searchArea);
-  nwr["disused:shop"] (area.searchArea);
-    nwr["disused:leisure"] (area.searchArea);
-  nwr["disused:building"] (area.searchArea);
-    nwr["disused:craft"] (area.searchArea);
+   nwr["disused:amenity"] (area.searchArea);
+   nwr["disused:shop"] (area.searchArea);
+   nwr["disused:leisure"] (area.searchArea);
+   nwr["disused:building"] (area.searchArea);
+   nwr["disused:craft"] (area.searchArea);
+   nwr["disused:office"] (area.searchArea);
+   nwr["disused:healthcare"] (area.searchArea);
 
-    nwr["building"="industrial"]["disused"="yes"](area.searchArea);
- nwr["building"]["disused"="yes"](area.searchArea);
-    nwr["disused:office"] (area.searchArea);
-        nwr["disused:healthcare"] (area.searchArea);
+   nwr["building"="industrial"]["disused"="yes"](area.searchArea);
+   nwr["building"]["disused"="yes"](area.searchArea);
+
+   node["vacant"="yes"] (area.searchArea);
+   nwr["abandoned"="yes"] (area.searchArea);
+   nwr["landuse"] (area.searchArea);
+
+nwr["tourism"="hotel"] (poly:"37.83786779 -122.262647 37.82918094 -122.265059 37.829040591 -122.2641201 37.837777575 -122.2615181");
+nwr["tourism"="motel"] (poly:"37.83786779 -122.262647 37.82918094 -122.265059 37.829040591 -122.2641201 37.837777575 -122.2615181");
+nwr["amenity"]   (poly:"37.83786779 -122.262647 37.82918094 -122.265059 37.829040591 -122.2641201 37.837777575 -122.2615181");
+nwr["craft"]  (poly:"37.83786779 -122.262647 37.82918094 -122.265059 37.829040591 -122.2641201 37.837777575 -122.2615181");
+nwr["shop"]      (poly:"37.83786779 -122.262647 37.82918094 -122.265059 37.829040591 -122.2641201 37.837777575 -122.2615181");
+nwr["office"]       (poly:"37.83786779 -122.262647 37.82918094 -122.265059 37.829040591 -122.2641201 37.837777575 -122.2615181");
+nwr["leisure"]  (poly:"37.83786779 -122.262647 37.82918094 -122.265059 37.829040591 -122.2641201 37.837777575 -122.2615181"); 
+nwr["healthcare"]  (poly:"37.83786779 -122.262647 37.82918094 -122.265059 37.829040591 -122.2641201 37.837777575 -122.2615181");
+    
+nwr["disused:amenity"]  (poly:"37.83786779 -122.262647 37.82918094 -122.265059 37.829040591 -122.2641201 37.837777575 -122.2615181");
+nwr["disused:shop"] (poly:"37.83786779 -122.262647 37.82918094 -122.265059 37.829040591 -122.2641201 37.837777575 -122.2615181");
+nwr["disused:leisure"] (poly:"37.83786779 -122.262647 37.82918094 -122.265059 37.829040591 -122.2641201 37.837777575 -122.2615181");
+nwr["disused:building"] (poly:"37.83786779 -122.262647 37.82918094 -122.265059 37.829040591 -122.2641201 37.837777575 -122.2615181");
+
+//nwr["building"="industrial"]["disused"="yes"](area.searchArea);
+ nwr["building"]["disused"="yes"](poly:"37.83786779 -122.262647 37.82918094 -122.265059 37.829040591 -122.2641201 37.837777575 -122.2615181");
+nwr["disused:office"](poly:"37.83786779 -122.262647 37.82918094 -122.265059 37.829040591 -122.2641201 37.837777575 -122.2615181");
+nwr["disused:healthcare"](poly:"37.83786779 -122.262647 37.82918094 -122.265059 37.829040591 -122.2641201 37.837777575 -122.2615181");
   
-  node["vacant"="yes"] (area.searchArea);
-  nwr["abandoned"="yes"] (area.searchArea);
-  nwr["landuse"] (area.searchArea);
+node["vacant"="yes"] (poly:"37.83786779 -122.262647 37.82918094 -122.265059 37.829040591 -122.2641201 37.837777575 -122.2615181");
+nwr["abandoned"="yes"] (poly:"37.83786779 -122.262647 37.82918094 -122.265059 37.829040591 -122.2641201 37.837777575 -122.2615181");
+ // nwr["landuse"] (poly:"37.83786779 -122.262647 37.82918094 -122.265059 37.829040591 -122.2641201 37.837777575 -122.2615181");
+
+
+ nwr["tourism"="hotel"] (poly:"37.76674072 -122.422678 37.753440405 -122.42129060 37.753499682 -122.4203593 37.766791220 -122.42147287");
+nwr["tourism"="motel"]  (poly:"37.76674072 -122.422678 37.753440405 -122.42129060 37.753499682 -122.4203593 37.766791220 -122.42147287");
+nwr["amenity"]    (poly:"37.76674072 -122.422678 37.753440405 -122.42129060 37.753499682 -122.4203593 37.766791220 -122.42147287");
+nwr["craft"]  (poly:"37.76674072 -122.422678 37.753440405 -122.42129060 37.753499682 -122.4203593 37.766791220 -122.42147287");
+nwr["shop"]  (poly:"37.76674072 -122.422678 37.753440405 -122.42129060 37.753499682 -122.4203593 37.766791220 -122.42147287");
+nwr["office"]  (poly:"37.76674072 -122.422678 37.753440405 -122.42129060 37.753499682 -122.4203593 37.766791220 -122.42147287");
+nwr["leisure"]  (poly:"37.76674072 -122.422678 37.753440405 -122.42129060 37.753499682 -122.4203593 37.766791220 -122.42147287");
+nwr["healthcare"]  (poly:"37.76674072 -122.422678 37.753440405 -122.42129060 37.753499682 -122.4203593 37.766791220 -122.42147287");
+    
+nwr["disused:amenity"]  (poly:"37.76674072 -122.422678 37.753440405 -122.42129060 37.753499682 -122.4203593 37.766791220 -122.42147287");
+nwr["disused:shop"]  (poly:"37.76674072 -122.422678 37.753440405 -122.42129060 37.753499682 -122.4203593 37.766791220 -122.42147287");
+nwr["disused:leisure"]  (poly:"37.76674072 -122.422678 37.753440405 -122.42129060 37.753499682 -122.4203593 37.766791220 -122.42147287");
+nwr["disused:building"] (poly:"37.76674072 -122.422678 37.753440405 -122.42129060 37.753499682 -122.4203593 37.766791220 -122.42147287");
+
+//nwr["building"="industrial"]["disused"="yes"](area.searchArea);
+ nwr["building"]["disused"="yes"] (poly:"37.76674072 -122.422678 37.753440405 -122.42129060 37.753499682 -122.4203593 37.766791220 -122.42147287");
+nwr["disused:office"] (poly:"37.76674072 -122.422678 37.753440405 -122.42129060 37.753499682 -122.4203593 37.766791220 -122.42147287");
+nwr["disused:healthcare"] (poly:"37.76674072 -122.422678 37.753440405 -122.42129060 37.753499682 -122.4203593 37.766791220 -122.42147287");
+  
+node["vacant"="yes"] (poly:"37.76674072 -122.422678 37.753440405 -122.42129060 37.753499682 -122.4203593 37.766791220 -122.42147287");
+nwr["abandoned"="yes"]  (poly:"37.76674072 -122.422678 37.753440405 -122.42129060 37.753499682 -122.4203593 37.766791220 -122.42147287");
+ // nwr["landuse"] (poly:"37.76674072 -122.422678 37.753440405 -122.42129060 37.753499682 -122.4203593 37.766791220 -122.42147287");
 );
 (._;>;);
 """)
@@ -40,6 +87,6 @@ res = api.get("""
 #geojson_str = geojson.dumps(res)
 
 # dump as file, if you want to save it in file
-with open("../data/all.osm.geojson",mode="w") as f:
+with open("../data/overpass.osm.geojson",mode="w") as f:
   geojson.dump(res,f)
 
