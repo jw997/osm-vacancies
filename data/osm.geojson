@@ -7145,6 +7145,29 @@
       "type": "Feature",
       "properties": {
         "type": "node",
+        "id": 430531315,
+        "tags": {
+          "addr:city": "Oakland",
+          "addr:country": "US",
+          "addr:housenumber": "4243",
+          "addr:state": "CA",
+          "addr:street": "Telegraph Avenue",
+          "name": "Telegraph Glass and Gifts, CBD, bongs, and Delta 8 shop",
+          "shop": "headshop"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2640264,
+          37.8314839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
         "id": 430531319,
         "tags": {
           "addr:city": "Oakland",
@@ -11833,8 +11856,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2633671,
-          37.8340168
+          -122.2633745,
+          37.833989
         ]
       }
     },
@@ -17304,8 +17327,12 @@
         "type": "node",
         "id": 2131582501,
         "tags": {
+          "addr:housenumber": "2332",
+          "addr:street": "San Pablo Avenue",
+          "check_date": "2025-05-24",
           "contact:instagram": "https://www.instagram.com/eastbaynursery/",
           "name": "East Bay Nursery",
+          "opening_hours": "Mo,Su off; Tu-Sa 08:30-17:00",
           "phone": "510.845.6490",
           "shop": "garden_centre",
           "website": "https://www.eastbaynursery.com/"
@@ -23743,10 +23770,10 @@
           "addr:housenumber": "2250",
           "addr:postcode": "94704",
           "addr:street": "Bancroft Way",
+          "disused:shop": "bicycle",
           "name": "Jitensha Studio",
           "phone": "+1 510 5406240",
           "service:bicycle:retail": "yes",
-          "shop": "bicycle",
           "website": "http://www.jitensha.com/"
         }
       },
@@ -24687,6 +24714,7 @@
         "id": 2795740469,
         "tags": {
           "addr:city": "Oakland",
+          "addr:housenumber": "4860",
           "addr:postcode": "94609",
           "addr:street": "Telegraph Avenue",
           "laundry_service": "no",
@@ -25205,7 +25233,8 @@
           "old_name": "Daytrip;Julie's Oakland",
           "outdoor_seating": "yes",
           "source": "https://sf.eater.com/2025/3/12/24384318/oaklands-daytrip-returns-reopens-daytrip-counter",
-          "takeaway": "yes"
+          "takeaway": "yes",
+          "website": "https://daytripcounter.com/"
         }
       },
       "geometry": {
@@ -31942,6 +31971,32 @@
       "type": "Feature",
       "properties": {
         "type": "node",
+        "id": 4578727827,
+        "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "4685",
+          "addr:postcode": "94609",
+          "addr:state": "CA",
+          "addr:street": "Telegraph Avenue",
+          "fax": "510-653-8486",
+          "name": "Brignole & Ghiri Insurance",
+          "office": "insurance",
+          "phone": "510-653-0685",
+          "website": "https://brignoleandghiri.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2633526,
+          37.8340677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
         "id": 4583405660,
         "tags": {
           "check_date": "2025-02-17",
@@ -37204,8 +37259,14 @@
         "type": "node",
         "id": 6689775081,
         "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "4864",
+          "addr:street": "Telegraph Avenue",
+          "brand": "9Round",
+          "brand:wikidata": "Q120122534",
           "leisure": "fitness_centre",
-          "name": "9round",
+          "name": "9Round",
+          "sport": "kickboxing",
           "wheelchair": "yes"
         }
       },
@@ -37323,8 +37384,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2638953,
-          37.830365
+          -122.263917,
+          37.8303555
         ]
       }
     },
@@ -37334,6 +37395,9 @@
         "type": "node",
         "id": 6689810295,
         "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "4870",
+          "addr:street": "Telegraph Avenue",
           "alt_name": "Mountain Mike's Pizza",
           "amenity": "restaurant",
           "brand": "Mountain Mike's",
@@ -39625,6 +39689,9 @@
         "type": "node",
         "id": 7100067319,
         "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2530",
+          "addr:street": "Bancroft Way",
           "name": "Bancroft Clothing",
           "shop": "clothes",
           "website": "https://www.bancroftclothing.com"
@@ -39633,8 +39700,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.258309,
-          37.8686459
+          -122.2583358,
+          37.8686766
         ]
       }
     },
@@ -71636,8 +71703,8 @@
           "addr:housenumber": "5036",
           "addr:street": "Telegraph Avenue",
           "check_date": "2023-06-08",
+          "disused:shop": "carpet",
           "name": "The Vintage Rug Shop",
-          "shop": "carpet",
           "wheelchair": "yes"
         }
       },
@@ -83975,10 +84042,12 @@
         "type": "node",
         "id": 12182961637,
         "tags": {
+          "addr:city": "Oakland",
           "addr:housenumber": "5026",
           "addr:street": "Telegraph Avenue",
           "healthcare": "optometrist",
-          "name": "Aperture Optix"
+          "name": "Aperture Optix",
+          "website": "http://www.apertureoptix.com/"
         }
       },
       "geometry": {
@@ -84036,12 +84105,34 @@
       "type": "Feature",
       "properties": {
         "type": "node",
+        "id": 12182961645,
+        "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "5000",
+          "addr:postcode": "94609",
+          "addr:street": "Telegraph Avenue",
+          "amenity": "restaurant",
+          "name": "Small Change Oyster Bar"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2622872,
+          37.836442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
         "id": 12182961652,
         "tags": {
           "addr:housenumber": "4926",
           "addr:street": "Telegraph Avenue",
-          "name": "Sagrada",
-          "shop": "gift"
+          "disused:shop": "gift",
+          "name": "Sagrada"
         }
       },
       "geometry": {
@@ -87163,8 +87254,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2638873,
-          37.8304276
+          -122.2639058,
+          37.8304029
         ]
       }
     },
@@ -103416,6 +103507,396 @@
         "coordinates": [
           -122.2720661,
           37.8487849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12861301900,
+        "tags": {
+          "addr:housenumber": "4679",
+          "addr:street": "Telegraph Avenue",
+          "beauty": "hair_removal",
+          "name": "Bleu Honey Beauty Bar",
+          "shop": "beauty",
+          "website": "https://www.bleuhoney.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2633615,
+          37.8340356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12861311301,
+        "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "4689",
+          "addr:street": "Telegraph Avenue",
+          "name": "GCEA African Resource Center",
+          "office": "ngo",
+          "website": "https://globalcommunicationservices.org/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2633452,
+          37.8340873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12861311302,
+        "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "4691",
+          "addr:state": "CA",
+          "addr:street": "Telegraph Avenue",
+          "name": "Tailor It",
+          "shop": "tailor"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2633197,
+          37.8341795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12861479406,
+        "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "4651",
+          "addr:street": "Telegraph Avenue",
+          "name": "Kickstart Orthotics & Prosthetics by Tony LaFrance CPO",
+          "shop": "yes",
+          "website": "https://www.kickstartoandp.com"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2634574,
+          37.8340033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12861479407,
+        "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "4641",
+          "addr:street": "Telegraph Avenue",
+          "name": "Rockridge Shoe Repair and Key",
+          "shop": "shoe_repair",
+          "website": "https://rockridge-repair.edan.io/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2635338,
+          37.8340072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12861591033,
+        "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "4308",
+          "addr:street": "Telegraph Avenue",
+          "name": "Joy Stret Design",
+          "shop": "interior_decoration",
+          "website": "https://joystreetdesign.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2635322,
+          37.8318546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12861672177,
+        "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "4501",
+          "addr:street": "Shattuck Avenue",
+          "amenity": "veterinary",
+          "brand": "VCA Animal Hospitals",
+          "brand:wikidata": "Q7906620",
+          "name": "VCA Bay Area Animal Hospital",
+          "website": "https://vcahospitals.com/bay-area"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.263791,
+          37.8332642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12861678441,
+        "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "4400",
+          "addr:street": "Telegraph Avenue",
+          "name": "Building People Power",
+          "office": "ngo",
+          "website": "https://www.buildingpeoplepower.org/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2633268,
+          37.83248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12861689661,
+        "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "4140",
+          "addr:street": "Telegraph Avenue",
+          "disused:shop": "yes",
+          "name": "Phat"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2639104,
+          37.8304612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12861758015,
+        "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "4868",
+          "addr:street": "Telegraph Avenue",
+          "amenity": "restaurant",
+          "cuisine": "indian",
+          "name": "Marigold Indian Eats",
+          "website": "https://www.marigoldeats.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2622542,
+          37.8357014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12863703095,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2179",
+          "addr:street": "Bancroft Way",
+          "disused:shop": "yes",
+          "name": "Subterranean Arthouse"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2664085,
+          37.8679012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12863703096,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2177",
+          "addr:street": "Bancroft Way",
+          "disused:shop": "yes",
+          "name": "Lumbini Buddhist Art Gallery"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2664554,
+          37.8678874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12863708505,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2538",
+          "addr:street": "Bancroft Way",
+          "disused:shop": "clothes",
+          "name": "Bancroft Clothing"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2581742,
+          37.8686984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12863708506,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2430",
+          "addr:street": "Bancroft Way",
+          "disused:shop": "books",
+          "name": "University Press Books"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.260784,
+          37.8683829
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12863724240,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2175",
+          "addr:street": "Bancroft Way",
+          "description": "empty shop in new building",
+          "disused:shop": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2665641,
+          37.8678959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12863751137,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2029",
+          "addr:street": "Blake Street",
+          "description": "empty shop in the Blake",
+          "disused:shop": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2685205,
+          37.8630735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12863751138,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2035",
+          "addr:street": "Blake Street",
+          "description": "empty shop in the Blake",
+          "disused:shop": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2681173,
+          37.8631238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12863751139,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2025",
+          "addr:street": "Blake Street",
+          "disused:shop": "yes",
+          "name": "Xin Huang Tai Chi and Ping Pong"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2686545,
+          37.8630324
         ]
       }
     },
@@ -221957,6 +222438,60 @@
       "type": "Feature",
       "properties": {
         "type": "way",
+        "id": 458587525,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2015",
+          "addr:street": "Blake Street",
+          "building": "warehouse",
+          "disused": "yes",
+          "name": "timberline geodesics"
+        },
+        "nodes": [
+          4545704386,
+          4545704387,
+          4545704696,
+          4545704388,
+          4545704689,
+          4545704386
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2692091,
+              37.8632947
+            ],
+            [
+              -122.2693727,
+              37.8632743
+            ],
+            [
+              -122.2693221,
+              37.8630273
+            ],
+            [
+              -122.2693033,
+              37.8629241
+            ],
+            [
+              -122.2691389,
+              37.8629447
+            ],
+            [
+              -122.2692091,
+              37.8632947
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
         "id": 458587526,
         "tags": {
           "access": "private",
@@ -221999,6 +222534,100 @@
             [
               -122.2690311,
               37.8633182
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 458587527,
+        "tags": {
+          "addr:housenumber": "2019",
+          "addr:street": "Blake Street",
+          "building": "warehouse",
+          "disused": "yes"
+        },
+        "nodes": [
+          4545704692,
+          4545704693,
+          4545704694,
+          4545704691,
+          4545704692
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2690277,
+              37.8633015
+            ],
+            [
+              -122.2688574,
+              37.8633241
+            ],
+            [
+              -122.2687859,
+              37.8629879
+            ],
+            [
+              -122.2689561,
+              37.8629653
+            ],
+            [
+              -122.2690277,
+              37.8633015
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 458587528,
+        "tags": {
+          "addr:housenumber": "2011",
+          "addr:street": "Blake Street",
+          "building": "commercial",
+          "disused": "yes"
+        },
+        "nodes": [
+          4545704695,
+          4545704696,
+          4545704388,
+          4545704697,
+          4545704695
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2694228,
+              37.8630158
+            ],
+            [
+              -122.2693221,
+              37.8630273
+            ],
+            [
+              -122.2693033,
+              37.8629241
+            ],
+            [
+              -122.2694039,
+              37.8629126
+            ],
+            [
+              -122.2694228,
+              37.8630158
             ]
           ]
         ]
