@@ -10528,9 +10528,10 @@
         "tags": {
           "addr:housenumber": "780",
           "addr:street": "Valencia Street",
-          "check_date": "2025-04-24",
+          "check_date": "2025-05-25",
           "check_date:opening_hours": "2025-04-24",
           "leisure": "fitness_centre",
+          "level": "0",
           "name": "LiveFitGym Wellness Club",
           "opening_hours": "Mo-Su,PH 05:00-23:00",
           "website": "https://www.livefitgym.com"
@@ -12726,6 +12727,7 @@
         "type": "node",
         "id": 1609599968,
         "tags": {
+          "check_date": "2025-05-25",
           "name": "Paxton Gate",
           "opening_hours": "We-Mo 11:00-19:00",
           "shop": "boutique",
@@ -12750,7 +12752,7 @@
           "addr:housenumber": "766",
           "addr:state": "CA",
           "addr:street": "Valencia Street",
-          "check_date": "2022-01-08",
+          "check_date": "2025-05-25",
           "contact:facebook": "bernalcutlery",
           "contact:instagram": "bernalcutlery",
           "contact:twitter": "bernalcutlery",
@@ -24440,7 +24442,8 @@
         "type": "node",
         "id": 2653087230,
         "tags": {
-          "amenity": "restaurant",
+          "check_date": "2025-05-25",
+          "disused:amenity": "restaurant",
           "fixme": "as of Jan 31, 2025 it still says Yasmin, but it's being remodeled",
           "name": "Yasmin",
           "opening_hours": "closed \"temporarily closed\"",
@@ -30036,6 +30039,7 @@
           "addr:state": "CA",
           "addr:street": "Valencia Street",
           "amenity": "restaurant",
+          "check_date": "2025-05-25",
           "cuisine": "mexican",
           "diet:vegetarian": "yes",
           "microbrewery": "no",
@@ -32851,7 +32855,7 @@
         "id": 4925135942,
         "tags": {
           "amenity": "cafe",
-          "check_date": "2025-01-22",
+          "check_date": "2025-05-25",
           "name": "Outset Coffee",
           "opening_hours": "Mo-Th 09:00-15:00; Fr-Su 09:00-17:00",
           "outdoor_seating": "yes",
@@ -32897,6 +32901,7 @@
           "addr:postcode": "94110",
           "addr:state": "CA",
           "addr:street": "Valencia Street",
+          "check_date": "2025-05-25",
           "contact:phone": "+1 415 401 8760",
           "name": "Serendipity",
           "opening_hours": "Mo-Fr 10:30-19:00; Sa 10:30-19:00; Su 11:00-18:30",
@@ -35202,6 +35207,7 @@
           "addr:housenumber": "694",
           "addr:postcode": "94110",
           "amenity": "restaurant",
+          "check_date": "2025-05-25",
           "cuisine": "chinese",
           "name": "Dumpling Story",
           "opening_hours": "Su-Th 12:00-21:00; Fr-Sa 12:00-21:30",
@@ -35241,6 +35247,7 @@
         "type": "node",
         "id": 6171912809,
         "tags": {
+          "check_date": "2025-05-25",
           "female:signed": "no",
           "male:signed": "no",
           "name": "Fellow Barber",
@@ -36173,6 +36180,7 @@
         "type": "node",
         "id": 6326647686,
         "tags": {
+          "check_date": "2025-05-25",
           "name": "Aggregate Supply",
           "name:en": "Aggregate Supply",
           "opening_hours": "Mo-Su,PH 07:00-24:00",
@@ -51400,6 +51408,7 @@
           "addr:housenumber": "842",
           "addr:street": "Valencia Street",
           "amenity": "bar",
+          "check_date": "2025-05-25",
           "cocktails": "yes",
           "contact:facebook": "https://www.facebook.com/The-Beehive-SF-164311960990155/",
           "contact:instagram": "thebeehivesf",
@@ -51520,7 +51529,7 @@
           "addr:state": "CA",
           "addr:street": "Valencia Street",
           "amenity": "restaurant",
-          "check_date": "2025-01-22",
+          "check_date": "2025-05-25",
           "contact:facebook": "https://www.facebook.com/Cha-Ya-Vegetarian-San-Francisco-109684878154/",
           "contact:instagram": "chayasanfrancisco",
           "contact:yelp": "https://www.yelp.com/biz/cha-ya-san-francisco-5",
@@ -51529,6 +51538,7 @@
           "diet:vegan": "only",
           "diet:vegetarian": "only",
           "email": "info@chayasf.com",
+          "level": "0",
           "name": "Cha-Ya Vegetarian",
           "opening_hours": "Mo,We-Fr 17:00-21:00; Tu off; Sa-Su 12:00-15:00,17:00-21:00",
           "opening_hours:url": "https://www.chayasf.com/",
@@ -72745,6 +72755,7 @@
           "addr:state": "CA",
           "addr:street": "Valencia Street",
           "amenity": "restaurant",
+          "check_date": "2025-05-25",
           "cuisine": "tunisian",
           "fixme": "position_estimated",
           "name": "Gola",
@@ -87388,7 +87399,8 @@
           "addr:housenumber": "720",
           "addr:street": "Valencia Street",
           "amenity": "veterinary",
-          "check_date": "2025-01-22",
+          "check_date": "2025-05-25",
+          "level": "0",
           "name": "Mission Pet Hospital",
           "opening_hours": "Mo-Fr 07:00-19:00; Sa 08:00-18:00; Su off",
           "phone": "+1 415-552-1969"
@@ -103897,6 +103909,27 @@
         "coordinates": [
           -122.2686545,
           37.8630324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12865281731,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2454",
+          "addr:street": "Telegraph Avenue",
+          "disused:shop": "books",
+          "name": "Cody's Books"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2588394,
+          37.8658441
         ]
       }
     },
@@ -183358,6 +183391,7 @@
           "addr:street": "Valencia Street",
           "amenity": "nightclub",
           "building": "yes",
+          "check_date": "2025-05-25",
           "name": "The Chapel",
           "opening_hours": "\"Box office: th and sat 12:30 - 17:30 + nights of shows\"",
           "website": "https://www.thechapelsf.com/"
