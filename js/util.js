@@ -486,10 +486,10 @@ function isVacant(tags) {
 		bRetval = true;
 	}
 
-	if (tags['disused:amenity'] && isShopLikeAmenity(tags.amenity)) {
+	if (tags['disused:amenity'] && isShopLikeAmenity(tags['disused:amenity']) ) {
 		bRetval = true;
 	}
-	if (tags['disused:leisure'] && isShopLikeAmenity(tags.amenity)) {
+	if (tags['disused:leisure'] && isShopLikeAmenity(tags['disused:leisure'])) {
 		bRetval = true;
 	}
 	if (tags['disused:office']) {

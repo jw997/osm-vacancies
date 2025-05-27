@@ -10957,8 +10957,9 @@
         "tags": {
           "addr:housenumber": "5030",
           "addr:street": "Telegraph Avenue",
-          "disused:shop": "hairdresser",
-          "old_name": "Pony Salon"
+          "name": "Vanishing Point Thrift Shop",
+          "old_name": "Pony Salon",
+          "shop": "second_hand"
         }
       },
       "geometry": {
@@ -24741,26 +24742,6 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 2795761769,
-        "tags": {
-          "addr:city": "Oakland",
-          "addr:postcode": "94609",
-          "addr:street": "Telegraph Avenue",
-          "disused:shop": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.263061,
-          37.8363584
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
         "id": 2802320401,
         "tags": {
           "addr:city": "Berkeley",
@@ -29368,18 +29349,24 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 4073823482,
+        "id": 4073823480,
         "tags": {
-          "name": "Buy Sell Loan",
-          "shop": "pawnbroker",
-          "wheelchair": "yes"
+          "addr:housenumber": "4390",
+          "addr:street": "Telegraph Avenue",
+          "addr:unit": "F;G",
+          "amenity": "restaurant",
+          "check_date": "2023-02-07",
+          "cuisine": "sushi",
+          "delivery": "no",
+          "name": "Koryo",
+          "takeaway": "yes"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2625629,
-          37.8378094
+          -122.2630961,
+          37.8321008
         ]
       }
     },
@@ -29399,6 +29386,39 @@
         "coordinates": [
           -122.2625924,
           37.8375128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 4073823484,
+        "tags": {
+          "addr:city": "Oakland",
+          "addr:housename": "5179",
+          "addr:housenumber": "5179",
+          "addr:street": "Telegraph Avenue",
+          "amenity": "restaurant",
+          "check_date": "2025-05-26",
+          "cocktails": "yes",
+          "contact:instagram": "https://www.instagram.com/fob_kitchen",
+          "cuisine": "filipino",
+          "drink:beer": "yes",
+          "drink:wine": "yes",
+          "indoor_seating": "yes",
+          "name": "FOB Kitchen",
+          "outdoor_seating": "yes",
+          "phone": "+1-510-817-4169",
+          "website": "https://www.fobkitchen.com/",
+          "wheelchair": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2628759,
+          37.8376842
         ]
       }
     },
@@ -31263,6 +31283,31 @@
         "coordinates": [
           -122.269476,
           37.879942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 4378526402,
+        "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "482",
+          "addr:street": "49th Street",
+          "amenity": "ice_cream",
+          "indoor_seating": "no",
+          "name": "Curbside Cream",
+          "outdoor_seating": "no",
+          "takeaway": "only",
+          "wheelchair": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2619331,
+          37.8359789
         ]
       }
     },
@@ -33176,6 +33221,27 @@
         "coordinates": [
           -122.2623031,
           37.8363762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 5070741345,
+        "tags": {
+          "amenity": "cafe",
+          "indoor_seating": "no",
+          "name": "The Cro Cafe",
+          "outdoor_seating": "sidewalk",
+          "wheelchair": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2618163,
+          37.8360005
         ]
       }
     },
@@ -36811,7 +36877,7 @@
           "addr:postcode": "94609",
           "addr:state": "CA",
           "addr:street": "Telegraph Avenue",
-          "amenity": "ice_cream",
+          "disused:amenity": "ice_cream",
           "former:name": "Tara’s Organic Ice Cream",
           "indoor_seating": "no",
           "name": "I Scream Donuts",
@@ -37435,6 +37501,9 @@
         "type": "node",
         "id": 6689811512,
         "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "4315",
+          "addr:street": "Telegraph Avenue",
           "amenity": "restaurant",
           "cuisine": "korean",
           "name": "Hancook"
@@ -37552,6 +37621,8 @@
         "type": "node",
         "id": 6691371335,
         "tags": {
+          "addr:housenumber": "4937",
+          "addr:street": "Telegraph Avenue",
           "brand": "T-Mobile",
           "brand:wikidata": "Q3511885",
           "level": "0",
@@ -37574,8 +37645,13 @@
         "type": "node",
         "id": 6691371336,
         "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "4937",
+          "addr:street": "Telegraph Avenue",
+          "brand": "Keller Williams Realty",
+          "brand:wikidata": "Q6385689",
           "level": "0",
-          "name": "kw",
+          "name": "Keller Williams Realty",
           "office": "estate_agent",
           "wheelchair": "yes"
         }
@@ -37594,6 +37670,8 @@
         "type": "node",
         "id": 6691386962,
         "tags": {
+          "addr:housenumber": "4915",
+          "addr:street": "Telegraph Avenue",
           "amenity": "restaurant",
           "indoor_seating": "yes",
           "name": "North light",
@@ -37606,6 +37684,25 @@
         "coordinates": [
           -122.262825,
           37.8360203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 6691724507,
+        "tags": {
+          "amenity": "parking",
+          "operator": "Marks Paint Mart",
+          "parking": "surface"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.264547,
+          37.8311594
         ]
       }
     },
@@ -50746,6 +50843,10 @@
         "type": "node",
         "id": 9344941254,
         "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "5115",
+          "addr:state": "CA",
+          "addr:street": "Telegraph Avenue",
           "name": "Mail Max",
           "office": "notary",
           "shop": "copyshop",
@@ -50766,6 +50867,9 @@
         "type": "node",
         "id": 9344941255,
         "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "5117",
+          "addr:street": "Telegraph Avenue",
           "name": "Temescal Produce Market",
           "opening_hours": "Mo-Su 08:00-21:00",
           "shop": "greengrocer",
@@ -50786,6 +50890,9 @@
         "type": "node",
         "id": 9344941256,
         "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "5135",
+          "addr:street": "Telegraph Avenue",
           "alt_name": "MetroPCS",
           "brand": "Metro by T-Mobile",
           "brand:wikidata": "Q1925685",
@@ -63081,8 +63188,8 @@
           "addr:housenumber": "5032",
           "addr:street": "Telegraph Avenue",
           "check_date": "2023-06-08",
+          "disused:shop": "houseware",
           "name": "Preserved",
-          "shop": "houseware",
           "website": "https://www.preservedgoods.com/",
           "wheelchair": "yes"
         }
@@ -63536,6 +63643,26 @@
       "type": "Feature",
       "properties": {
         "type": "node",
+        "id": 10573654805,
+        "tags": {
+          "amenity": "bicycle_parking",
+          "bicycle_parking": "stands",
+          "capacity": "2",
+          "covered": "no"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2618448,
+          37.8359008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
         "id": 10573680622,
         "tags": {
           "amenity": "bicycle_parking",
@@ -63576,6 +63703,26 @@
       "type": "Feature",
       "properties": {
         "type": "node",
+        "id": 10573692935,
+        "tags": {
+          "amenity": "bicycle_parking",
+          "bicycle_parking": "stands",
+          "capacity": "4",
+          "covered": "no"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2619748,
+          37.835924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
         "id": 10573692936,
         "tags": {
           "amenity": "bicycle_parking",
@@ -63609,6 +63756,26 @@
         "coordinates": [
           -122.2622518,
           37.8359669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 10573692938,
+        "tags": {
+          "amenity": "bicycle_parking",
+          "bicycle_parking": "stands",
+          "capacity": "4",
+          "covered": "no"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2620472,
+          37.8359367
         ]
       }
     },
@@ -65793,6 +65960,29 @@
       "type": "Feature",
       "properties": {
         "type": "node",
+        "id": 10617255226,
+        "tags": {
+          "addr:housenumber": "4390",
+          "addr:street": "Telegraph Avenue",
+          "addr:unit": "K",
+          "amenity": "restaurant",
+          "check_date": "2023-02-07",
+          "cuisine": "korean",
+          "name": "Moo Bong Ri"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2629178,
+          37.8322128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
         "id": 10617255227,
         "tags": {
           "addr:housenumber": "4390",
@@ -65810,6 +66000,28 @@
         "coordinates": [
           -122.2634822,
           37.8319879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 10617448608,
+        "tags": {
+          "addr:housenumber": "4390",
+          "addr:street": "Telegraph Avenue",
+          "addr:unit": "H",
+          "amenity": "restaurant",
+          "check_date": "2023-02-07",
+          "name": "Don Blanc"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2630037,
+          37.832097
         ]
       }
     },
@@ -69636,6 +69848,8 @@
         "type": "node",
         "id": 10862829399,
         "tags": {
+          "addr:housenumber": "4911",
+          "addr:street": "Telegraph Avenue",
           "amenity": "restaurant",
           "cuisine": "asian;burmese",
           "indoor_seating": "no",
@@ -69657,6 +69871,7 @@
         "type": "node",
         "id": 10862829400,
         "tags": {
+          "addr:housenumber": "4919",
           "amenity": "restaurant",
           "cuisine": "pizza",
           "indoor_seating": "yes",
@@ -69967,9 +70182,14 @@
         "type": "node",
         "id": 10891935032,
         "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "4013",
+          "addr:street": "Telegraph Avenue",
+          "addr:unit": "D",
           "amenity": "fast_food",
           "cuisine": "donut",
-          "name": "Lee's Donuts"
+          "name": "Lee's Donuts",
+          "not:brand:wikidata": "Q6512810"
         }
       },
       "geometry": {
@@ -70005,8 +70225,12 @@
         "type": "node",
         "id": 10891935034,
         "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "4013",
+          "addr:street": "Telegraph Avenue",
+          "addr:unit": "C",
           "name": "Glamor Beauty Supply",
-          "shop": "yes"
+          "shop": "beauty"
         }
       },
       "geometry": {
@@ -71712,9 +71936,10 @@
         "tags": {
           "addr:housenumber": "5036",
           "addr:street": "Telegraph Avenue",
-          "check_date": "2023-06-08",
-          "disused:shop": "carpet",
-          "name": "The Vintage Rug Shop",
+          "check_date": "2025-05-26",
+          "name": "Lotus Entheogenic Church",
+          "not:brand:wikidata": "Q35935",
+          "shop": "yes",
           "wheelchair": "yes"
         }
       },
@@ -83671,6 +83896,35 @@
       "type": "Feature",
       "properties": {
         "type": "node",
+        "id": 12144579153,
+        "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "5199",
+          "addr:street": "Telegraph Avenue",
+          "amenity": "restaurant",
+          "cuisine": "mexican",
+          "delivery": "no",
+          "indoor_seating": "yes",
+          "internet_access": "no",
+          "name": "La Calaca Loca",
+          "outdoor_seating": "yes",
+          "smoking": "no",
+          "takeaway": "yes",
+          "wheelchair": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2628665,
+          37.8377745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
         "id": 12150865501,
         "tags": {
           "addr:housenumber": "1225",
@@ -84100,8 +84354,8 @@
         "tags": {
           "addr:housenumber": "5010",
           "addr:street": "Telegraph Avenue",
-          "name": "Standard & Strange",
-          "shop": "clothes"
+          "disused:shop": "clothes",
+          "name": "Standard & Strange"
         }
       },
       "geometry": {
@@ -103070,15 +103324,16 @@
           "addr:housenumber": "4227",
           "addr:state": "CA",
           "addr:street": "Telegraph Avenue",
-          "craft": "builder",
-          "name": "DONPEDRO'S General Construction Co."
+          "addr:unit": "A",
+          "name": "Akwaba Braids",
+          "shop": "hairdresser"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2641175,
-          37.8312806
+          -122.2640914,
+          37.8313024
         ]
       }
     },
@@ -103093,6 +103348,7 @@
           "addr:postcode": "94609",
           "addr:state": "CA",
           "addr:street": "Telegraph Avenue",
+          "name": "Photogenic Salon",
           "shop": "beauty",
           "website": "https://www.photogenicsalon.com/"
         }
@@ -103218,26 +103474,6 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 12854418990,
-        "tags": {
-          "addr:city": "Oakland",
-          "addr:housenumber": "5110",
-          "addr:street": "Telegraph Avenue",
-          "disused:shop": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.2619664,
-          37.8377545
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
         "id": 12854418991,
         "tags": {
           "addr:city": "Oakland",
@@ -103329,7 +103565,7 @@
         "id": 12854592428,
         "tags": {
           "addr:city": "Oakland",
-          "addr:housenumber": "4770",
+          "addr:housenumber": "4760",
           "addr:street": "Telegraph Avenue",
           "addr:unit": "A",
           "name": "Olive + Spex",
@@ -103930,6 +104166,486 @@
         "coordinates": [
           -122.2588394,
           37.8658441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12865714313,
+        "tags": {
+          "access": "residents",
+          "amenity": "parking_entrance",
+          "level": "0"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2672481,
+          37.8694153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12865714324,
+        "tags": {
+          "level": "1",
+          "level:ref": "2",
+          "name": "Berkeley Institute",
+          "office": "association",
+          "website": "https://www.binst.org/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2668479,
+          37.8694278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12865771461,
+        "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "4727",
+          "addr:street": "Telegraph Avenue",
+          "name": "Concept Forty Seven",
+          "shop": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2631488,
+          37.8347971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12865771462,
+        "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "4937",
+          "addr:street": "Telegraph Avenue",
+          "amenity": "bank",
+          "name": "Provident Credit Union"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2630753,
+          37.8364362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12865785290,
+        "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "4013",
+          "addr:street": "Telegraph Avenue",
+          "addr:unit": "E",
+          "name": "TIME2FILE",
+          "shop": "shipping"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2646767,
+          37.8295582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12865788772,
+        "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "4227",
+          "addr:state": "CA",
+          "addr:street": "Telegraph Avenue",
+          "disused:shop": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2641054,
+          37.831265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12865788773,
+        "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "4202",
+          "addr:street": "Telegraph Avenue",
+          "disused:shop": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2637707,
+          37.8310402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12865788774,
+        "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "4202",
+          "addr:street": "Telegraph Avenue",
+          "disused:shop": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2637855,
+          37.8309768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12865800561,
+        "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "4632",
+          "addr:street": "Telegraph Avenue",
+          "disused:shop": "chocolate",
+          "name": "Hooper Chocolates"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.262859,
+          37.8340042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12865800562,
+        "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "4750",
+          "addr:street": "Telegraph Avenue",
+          "addr:unit": "A",
+          "brand": "H&R Block",
+          "brand:wikidata": "Q5627799",
+          "name": "H&R Block",
+          "office": "tax_advisor",
+          "old_name": "Big House Beans"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2628616,
+          37.8343303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12865842071,
+        "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "470",
+          "addr:street": "49th Street",
+          "name": "Womb House Books",
+          "shop": "books",
+          "website": "https://www.wombhousebooks.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2618206,
+          37.8359616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12865842072,
+        "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "482",
+          "addr:street": "Temescal Alley",
+          "disused:shop": "yes",
+          "name": "Ali Golden"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2619306,
+          37.8360527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12865842073,
+        "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "470",
+          "addr:street": "49th Street",
+          "addr:unit": "B",
+          "hairdresser": "barber",
+          "name": "Temescal Alley Barber Shop",
+          "shop": "hairdresser"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2618085,
+          37.8360368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12865842074,
+        "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "484",
+          "addr:street": "49th Street",
+          "addr:unit": "C",
+          "name": "Mount Analaog Books",
+          "shop": "books"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2619064,
+          37.8361469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12865842075,
+        "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "470",
+          "addr:street": "49th Street",
+          "addr:unit": "C",
+          "brand": "Paper Source",
+          "brand:wikidata": "Q25000269",
+          "name": "Paper Source",
+          "shop": "stationery"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2618005,
+          37.8360834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12865842076,
+        "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "470",
+          "addr:street": "49th Street",
+          "addr:unit": "D",
+          "disused:shop": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2617763,
+          37.836148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12865842077,
+        "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "470",
+          "addr:street": "49th Street",
+          "addr:unit": "F",
+          "name": "Artelar Studios",
+          "shop": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2617897,
+          37.8362158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12865842078,
+        "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "470",
+          "addr:street": "49th Street",
+          "addr:unit": "G",
+          "name": "records",
+          "shop": "music"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2617817,
+          37.8362539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12865842079,
+        "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "484",
+          "addr:street": "49th Street",
+          "addr:unit": "F",
+          "name": "Mira Flores",
+          "second_hand": "only",
+          "shop": "clothes",
+          "website": "https://shopmiraflores.com"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2618716,
+          37.8362656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12865842080,
+        "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "484",
+          "addr:street": "49th Street",
+          "addr:unit": "D",
+          "name": "Drawing All Ages Art and Supply",
+          "second_hand": "only",
+          "shop": "craft"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2618836,
+          37.8362094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12865869840,
+        "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "4881",
+          "addr:street": "Telegraph Avenue",
+          "amenity": "dentist",
+          "healthcare": "dentist",
+          "name": "La Clinica",
+          "operator": "UCSF",
+          "website": "https://www.laclinica.org/childrenshospitaldental/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2629927,
+          37.8356142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12865896444,
+        "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "5055",
+          "addr:street": "Telegraph Avenue",
+          "disused:shop": "yes",
+          "name": "Walgreens"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2628211,
+          37.8368883
         ]
       }
     },
@@ -112993,6 +113709,71 @@
       "type": "Feature",
       "properties": {
         "type": "way",
+        "id": 28005196,
+        "tags": {
+          "amenity": "school",
+          "name": "Oakland International High School"
+        },
+        "nodes": [
+          307506011,
+          307506013,
+          307506014,
+          307506015,
+          2860571142,
+          307506016,
+          2860571150,
+          307506018,
+          307506011
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2622011,
+              37.8345253
+            ],
+            [
+              -122.2602852,
+              37.8342021
+            ],
+            [
+              -122.2602052,
+              37.8334106
+            ],
+            [
+              -122.2627658,
+              37.8331997
+            ],
+            [
+              -122.2626025,
+              37.8338084
+            ],
+            [
+              -122.2625824,
+              37.833872
+            ],
+            [
+              -122.2624444,
+              37.8338856
+            ],
+            [
+              -122.2623726,
+              37.8338925
+            ],
+            [
+              -122.2622011,
+              37.8345253
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
         "id": 28005832,
         "tags": {
           "addr:city": "Berkeley",
@@ -119302,6 +120083,59 @@
             [
               -122.2711425,
               37.8696722
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 37016786,
+        "tags": {
+          "addr:country": "US",
+          "addr:housenumber": "4601",
+          "addr:state": "CA",
+          "addr:street": "Shattuck Avenue",
+          "brand": "StorQuest Self Storage",
+          "brand:wikidata": "Q109337134",
+          "building": "yes",
+          "building:levels": "5",
+          "name": "StorQuest",
+          "shop": "storage_rental"
+        },
+        "nodes": [
+          430531277,
+          430531278,
+          430531721,
+          430531279,
+          430531277
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2637731,
+              37.8338133
+            ],
+            [
+              -122.263789,
+              37.8339556
+            ],
+            [
+              -122.2641006,
+              37.8340032
+            ],
+            [
+              -122.2641336,
+              37.8338685
+            ],
+            [
+              -122.2637731,
+              37.8338133
             ]
           ]
         ]
@@ -137242,138 +138076,6 @@
             [
               -122.259681,
               37.8654248
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "way",
-        "id": 124892454,
-        "tags": {
-          "addr:city": "Oakland",
-          "addr:housenumber": "514",
-          "addr:postcode": "94609",
-          "addr:street": "Shattuck Avenue",
-          "amenity": "pharmacy",
-          "atm": "yes",
-          "brand": "Walgreens",
-          "brand:wikidata": "Q1591889",
-          "building": "yes",
-          "dispensing": "yes",
-          "drive_through": "yes",
-          "healthcare": "pharmacy",
-          "internet_access": "no",
-          "name": "Walgreens",
-          "opening_hours": "Mo-Fr 08:00-21:00; Sa 09:00-18:00; Su 10:00-18:00",
-          "operator": "Walgreens",
-          "source": "Bing",
-          "website": "https://www.walgreens.com/locator/walgreens-5055+telegraph+ave-oakland-ca-94609/id=1625",
-          "wheelchair": "yes"
-        },
-        "nodes": [
-          1388587916,
-          1388587830,
-          12566033042,
-          12566033045,
-          1388588004,
-          1388587914,
-          1388587869,
-          1388587775,
-          1388588127,
-          1388588125,
-          1388588139,
-          1388587771,
-          1388587928,
-          1388587813,
-          1388587805,
-          1388588151,
-          1388587801,
-          1388588102,
-          1388587916
-        ]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -122.2630753,
-              37.8369136
-            ],
-            [
-              -122.2630718,
-              37.8369129
-            ],
-            [
-              -122.2630816,
-              37.8368778
-            ],
-            [
-              -122.2630931,
-              37.836837
-            ],
-            [
-              -122.2630947,
-              37.8368328
-            ],
-            [
-              -122.2630289,
-              37.8368211
-            ],
-            [
-              -122.2630356,
-              37.8367978
-            ],
-            [
-              -122.262945,
-              37.8367817
-            ],
-            [
-              -122.2629383,
-              37.8368051
-            ],
-            [
-              -122.2628151,
-              37.8367831
-            ],
-            [
-              -122.2628215,
-              37.8367606
-            ],
-            [
-              -122.2626148,
-              37.8367238
-            ],
-            [
-              -122.2625664,
-              37.8368933
-            ],
-            [
-              -122.2625972,
-              37.8368988
-            ],
-            [
-              -122.2625529,
-              37.8370542
-            ],
-            [
-              -122.2626653,
-              37.8370743
-            ],
-            [
-              -122.2626586,
-              37.8370979
-            ],
-            [
-              -122.263005,
-              37.8371596
-            ],
-            [
-              -122.2630753,
-              37.8369136
             ]
           ]
         ]
@@ -169873,6 +170575,199 @@
       "type": "Feature",
       "properties": {
         "type": "way",
+        "id": 226337512,
+        "tags": {
+          "leisure": "pitch",
+          "lit": "no",
+          "name": "Ricky Henderson Field",
+          "sport": "baseball",
+          "surface": "grass"
+        },
+        "nodes": [
+          2351833762,
+          2351833763,
+          10123760630,
+          10123760625,
+          10123760624,
+          2351833765,
+          10123729483,
+          10123729482,
+          10123729488,
+          10123729487,
+          10123729489,
+          2351833767,
+          10123729486,
+          10123729485,
+          10123729484,
+          10123729490,
+          10123729491,
+          2351833770,
+          10123729494,
+          10123729493,
+          10123729495,
+          10123729500,
+          10123729492,
+          10123729496,
+          10123729499,
+          10123729497,
+          10123729498,
+          2351833776,
+          2351833777,
+          10123760621,
+          10123760622,
+          10123760623,
+          10123760631,
+          2351833762
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2614613,
+              37.8333527
+            ],
+            [
+              -122.2614141,
+              37.8333932
+            ],
+            [
+              -122.2614168,
+              37.8334362
+            ],
+            [
+              -122.2614284,
+              37.8336164
+            ],
+            [
+              -122.2614172,
+              37.8336325
+            ],
+            [
+              -122.2614481,
+              37.83408
+            ],
+            [
+              -122.2614332,
+              37.8341104
+            ],
+            [
+              -122.2617227,
+              37.8341587
+            ],
+            [
+              -122.2617804,
+              37.8341611
+            ],
+            [
+              -122.2618381,
+              37.834157
+            ],
+            [
+              -122.2618955,
+              37.834147
+            ],
+            [
+              -122.2619477,
+              37.8341319
+            ],
+            [
+              -122.2620035,
+              37.8341114
+            ],
+            [
+              -122.2620541,
+              37.8340859
+            ],
+            [
+              -122.262147,
+              37.83402
+            ],
+            [
+              -122.2622469,
+              37.833945
+            ],
+            [
+              -122.2622913,
+              37.8339152
+            ],
+            [
+              -122.2623237,
+              37.8338848
+            ],
+            [
+              -122.2623535,
+              37.8338514
+            ],
+            [
+              -122.262437,
+              37.8337418
+            ],
+            [
+              -122.2624817,
+              37.8336612
+            ],
+            [
+              -122.2625087,
+              37.8336111
+            ],
+            [
+              -122.2625315,
+              37.833553
+            ],
+            [
+              -122.2625591,
+              37.8334378
+            ],
+            [
+              -122.2625632,
+              37.8333883
+            ],
+            [
+              -122.2625613,
+              37.8333399
+            ],
+            [
+              -122.2625501,
+              37.8332932
+            ],
+            [
+              -122.2625329,
+              37.8332471
+            ],
+            [
+              -122.2618973,
+              37.8333017
+            ],
+            [
+              -122.2618982,
+              37.8333231
+            ],
+            [
+              -122.2617583,
+              37.8333285
+            ],
+            [
+              -122.2617388,
+              37.8333401
+            ],
+            [
+              -122.2615131,
+              37.8333504
+            ],
+            [
+              -122.2614613,
+              37.8333527
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
         "id": 226681312,
         "tags": {
           "access": "yes",
@@ -187277,72 +188172,6 @@
       "type": "Feature",
       "properties": {
         "type": "way",
-        "id": 279193367,
-        "tags": {
-          "addr:housenumber": "4881",
-          "addr:street": "Telegraph Avenue",
-          "amenity": "dentist",
-          "building": "yes",
-          "construction": "dentist",
-          "healthcare": "dentist",
-          "name": "La Clínica Dental",
-          "wheelchair": "yes"
-        },
-        "nodes": [
-          2834282277,
-          2834282278,
-          2834282283,
-          2834282279,
-          2834282280,
-          2834282281,
-          2834282282,
-          2834282277
-        ]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -122.2632629,
-              37.8357457
-            ],
-            [
-              -122.2633121,
-              37.8355581
-            ],
-            [
-              -122.2631691,
-              37.8355348
-            ],
-            [
-              -122.2631382,
-              37.8355296
-            ],
-            [
-              -122.2631243,
-              37.8355812
-            ],
-            [
-              -122.2629313,
-              37.8355489
-            ],
-            [
-              -122.2628942,
-              37.8356853
-            ],
-            [
-              -122.2632629,
-              37.8357457
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "way",
         "id": 279811062,
         "tags": {
           "amenity": "parking",
@@ -192250,6 +193079,60 @@
       "type": "Feature",
       "properties": {
         "type": "way",
+        "id": 309031107,
+        "tags": {
+          "access": "customers",
+          "addr:city": "Oakland",
+          "addr:postcode": "94609",
+          "addr:street": "Shattuck Avenue",
+          "amenity": "parking",
+          "covered": "no",
+          "fee": "no",
+          "operator": "La Clínica Dental",
+          "park_ride": "no",
+          "parking": "surface",
+          "surface": "paved"
+        },
+        "nodes": [
+          3143416172,
+          3143416173,
+          3143416174,
+          3143416175,
+          3143416172
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2638075,
+              37.8358366
+            ],
+            [
+              -122.2637683,
+              37.8355978
+            ],
+            [
+              -122.2633524,
+              37.8355308
+            ],
+            [
+              -122.2632948,
+              37.835754
+            ],
+            [
+              -122.2638075,
+              37.8358366
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
         "id": 309107777,
         "tags": {
           "addr:city": "Oakland",
@@ -192299,6 +193182,82 @@
             [
               -122.2639479,
               37.8328176
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 309107794,
+        "tags": {
+          "amenity": "fire_station",
+          "building": "yes",
+          "name": "Oakland Fire Station #8"
+        },
+        "nodes": [
+          3144225942,
+          4689387789,
+          3144225943,
+          3144225944,
+          3144225945,
+          3144225946,
+          3144225947,
+          3144225948,
+          3144225949,
+          10941053592,
+          3144225942
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2614528,
+              37.8369148
+            ],
+            [
+              -122.2615099,
+              37.8367119
+            ],
+            [
+              -122.2615389,
+              37.8366088
+            ],
+            [
+              -122.261436,
+              37.8365907
+            ],
+            [
+              -122.2613994,
+              37.8367208
+            ],
+            [
+              -122.2613029,
+              37.8367039
+            ],
+            [
+              -122.2612582,
+              37.8368629
+            ],
+            [
+              -122.2613187,
+              37.8368736
+            ],
+            [
+              -122.261314,
+              37.8368904
+            ],
+            [
+              -122.2613803,
+              37.8369021
+            ],
+            [
+              -122.2614528,
+              37.8369148
             ]
           ]
         ]
@@ -210434,15 +211393,16 @@
         "id": 416745748,
         "tags": {
           "addr:country": "US",
-          "addr:housenumber": "506;4113",
+          "addr:housenumber": "4113",
           "addr:state": "CA",
-          "addr:street": "41st Street;Telegraph Avenue",
+          "addr:street": "Telegraph Avenue",
           "amenity": "place_of_worship",
           "building": "church",
           "denomination": "baptist",
           "ele": "27",
           "name": "Harmony Missionary Baptist Church",
-          "religion": "christian"
+          "religion": "christian",
+          "website": "https://harmonymbcoakland.org/"
         },
         "nodes": [
           358851487,
@@ -226182,6 +227142,65 @@
             [
               -122.2632698,
               37.853831
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 475143584,
+        "tags": {
+          "addr:housenumber": "490",
+          "addr:street": "43rd Street",
+          "building": "yes",
+          "name": "Temescal Works",
+          "office": "coworking",
+          "website": "https://temescalworks.com/"
+        },
+        "nodes": [
+          12169205650,
+          4689391012,
+          4689388527,
+          4689390492,
+          4689388006,
+          4689389923,
+          12169205650
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2631817,
+              37.8316944
+            ],
+            [
+              -122.2631873,
+              37.8317503
+            ],
+            [
+              -122.2631954,
+              37.8318297
+            ],
+            [
+              -122.2632091,
+              37.8319698
+            ],
+            [
+              -122.2630342,
+              37.8319828
+            ],
+            [
+              -122.2630036,
+              37.8317056
+            ],
+            [
+              -122.2631817,
+              37.8316944
             ]
           ]
         ]
