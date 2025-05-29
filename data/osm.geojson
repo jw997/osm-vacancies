@@ -28572,8 +28572,9 @@
           "addr:city": "Berkeley",
           "addr:housenumber": "2246",
           "addr:street": "Martin Luther King Jr Way",
-          "amenity": "community_centre",
-          "name": "Era M. Casey Center"
+          "amenity": "kindergarten",
+          "name": "Vera M. Casey Center",
+          "website": "https://ymcaeastbay.org/locations/eci-vera-casey"
         }
       },
       "geometry": {
@@ -31610,7 +31611,7 @@
           "name": "Marufuku Ramen",
           "outdoor_seating": "yes",
           "phone": "+1 510-823-2416",
-          "website": "http://marufukuramen.com/",
+          "website": "https://www.marufukuramen.com/",
           "wheelchair": "yes"
         }
       },
@@ -33462,19 +33463,17 @@
           "addr:postcode": "94710",
           "addr:state": "CA",
           "addr:street": "Fourth Street",
-          "cuisine": "american;diner",
-          "disused:amenity": "restaurant",
-          "name": "Gilman Grill",
-          "opening_hours": "Mo-Fr 06:00-15:00; Sa-Su 08:00-15:00",
-          "phone": "+1 (510) 524-2532",
-          "website": "https://places.singleplatform.com/gilman-grill/menu"
+          "amenity": "restaurant",
+          "cuisine": "peruvian",
+          "name": "El Mono",
+          "website": "https://elmonofresh.com"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.303599,
-          37.8787349
+          -122.3036347,
+          37.8787283
         ]
       }
     },
@@ -84312,7 +84311,7 @@
           "addr:street": "Telegraph Avenue",
           "healthcare": "optometrist",
           "name": "Aperture Optix",
-          "website": "http://www.apertureoptix.com/"
+          "website": "https://www.apertureoptix.com/"
         }
       },
       "geometry": {
@@ -87856,7 +87855,8 @@
           "addr:street": "Milvia Street",
           "amenity": "restaurant",
           "cuisine": "ramen",
-          "name": "Sobo Ramen"
+          "name": "Sobo Ramen",
+          "website": "https://www.soboramen.com/"
         }
       },
       "geometry": {
@@ -103002,7 +103002,7 @@
           "amenity": "clinic",
           "healthcare": "clinic",
           "name": "East Bay Nephrology Medical",
-          "website": "http://ebnmg.org/"
+          "website": "https://ebnmg.org/"
         }
       },
       "geometry": {
@@ -103437,7 +103437,7 @@
           "addr:street": "Telegraph Avenue",
           "name": "Ancient Ways",
           "shop": "yes",
-          "website": "http://ancientways.com/"
+          "website": "https://www.ancientways.com/"
         }
       },
       "geometry": {
@@ -103747,7 +103747,7 @@
           "addr:street": "Alcatraz Avenue",
           "name": "Denise Hall Montgomery",
           "office": "architect",
-          "website": "http://dhmarchitecture.com/"
+          "website": "https://www.dhmarchitecture.com/"
         }
       },
       "geometry": {
@@ -104646,6 +104646,28 @@
         "coordinates": [
           -122.2628211,
           37.8368883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12872020157,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2927",
+          "addr:street": "Adeline Street",
+          "name": "Healthy Black Families",
+          "office": "ngo",
+          "website": "https://www.healthyblackfam.org/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2684774,
+          37.8553393
         ]
       }
     },
@@ -299465,6 +299487,7 @@
         },
         "nodes": [
           9942244359,
+          11168822267,
           9942244370,
           9942244368,
           9942244367,
@@ -299494,6 +299517,10 @@
             [
               -122.2683677,
               37.8560053
+            ],
+            [
+              -122.2684996,
+              37.8556563
             ],
             [
               -122.2686678,
@@ -338060,71 +338087,6 @@
             [
               -122.2685375,
               37.8571085
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "way",
-        "id": 1205122180,
-        "tags": {
-          "landuse": "construction",
-          "note": "new 6 story apartment complex"
-        },
-        "nodes": [
-          11168822267,
-          11168822268,
-          11168822269,
-          11168822270,
-          11168822271,
-          11168822272,
-          11168822273,
-          11168822274,
-          11168822267
-        ]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -122.2684914,
-              37.8556483
-            ],
-            [
-              -122.268655,
-              37.8552019
-            ],
-            [
-              -122.268641,
-              37.8551748
-            ],
-            [
-              -122.2685911,
-              37.8551539
-            ],
-            [
-              -122.2680786,
-              37.8552105
-            ],
-            [
-              -122.268116,
-              37.8554688
-            ],
-            [
-              -122.268049,
-              37.8554725
-            ],
-            [
-              -122.2680771,
-              37.8557
-            ],
-            [
-              -122.2684914,
-              37.8556483
             ]
           ]
         ]
