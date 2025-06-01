@@ -6954,25 +6954,6 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 423739999,
-        "tags": {
-          "amenity": "restaurant",
-          "cuisine": "sushi",
-          "name": "v16 Sushi Lounge"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4217183,
-          37.7650919
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
         "id": 427500179,
         "tags": {
           "amenity": "post_box",
@@ -8452,7 +8433,8 @@
           "check_date:opening_hours": "2024-03-24",
           "name": "Community Thrift Store",
           "opening_hours": "Mo-Su 10:00-18:30",
-          "shop": "thrift_store"
+          "second_hand": "only",
+          "shop": "second_hand"
         }
       },
       "geometry": {
@@ -12786,10 +12768,10 @@
           "addr:postcode": "94110",
           "addr:state": "CA",
           "addr:street": "Valencia Street",
+          "amenity": "community_centre",
           "name": "826 Valencia / The Writing Center",
           "opening_hours": "Mo-Su,PH 12:00-18:00",
           "phone": "+1 415-642-5905",
-          "shop": "charity",
           "website": "https://826valencia.org/",
           "wikidata": "Q4644616",
           "wikipedia": "en:826 Valencia"
@@ -14874,7 +14856,9 @@
         "tags": {
           "addr:housenumber": "910",
           "addr:street": "Valencia Street",
-          "disused:shop": "yes"
+          "name": "Rare Vintage Finds",
+          "second_hand": "only",
+          "shop": "clothes"
         }
       },
       "geometry": {
@@ -20097,10 +20081,13 @@
         "type": "node",
         "id": 2338837668,
         "tags": {
-          "brand": "Money Mart",
-          "brand:wikidata": "Q6899166",
-          "check_date": "2025-03-14",
-          "name": "Money Mart",
+          "addr:city": "San Francisco",
+          "addr:housenumber": "502",
+          "addr:street": "Valencia Street",
+          "brand": "ACE Cash Express",
+          "brand:wikidata": "Q24260962",
+          "check_date": "2025-05-28",
+          "name": "ACE Cash Express",
           "shop": "money_lender"
         }
       },
@@ -25007,7 +24994,9 @@
           "addr:postcode": "94703",
           "addr:state": "CA",
           "addr:street": "Ashby Avenue",
+          "check_date": "2025-05-31",
           "name": "Urban Farm  Oasis",
+          "opening_hours": "10:00-18:00",
           "shop": "agrarian",
           "website": "https://urbanfarmoasis.org/"
         }
@@ -31743,6 +31732,7 @@
           "level": "0",
           "name": "After Life Collective",
           "opening_hours": "Mo-We 12:00-19:00; Th-Sa 11:00-20:00; Su 11:00-18:00",
+          "second_hand": "only",
           "shop": "clothes"
         }
       },
@@ -55908,6 +55898,7 @@
           "addr:street": "Valencia Street",
           "check_date": "2025-01-22",
           "name": "Valencia Street Vintage",
+          "second_hand": "only",
           "shop": "clothes"
         }
       },
@@ -56330,13 +56321,9 @@
           "addr:state": "CA",
           "addr:street": "Valencia Street",
           "amenity": "restaurant",
-          "check_date": "2022-01-14",
-          "diet:vegan": "only",
-          "diet:vegetarian": "only",
-          "email": "info@indochinevegan.com",
-          "name": "IndoChine",
-          "phone": "+1 415 7010700",
-          "website": "https://indochinevegan.com/"
+          "check_date": "2025-05-28",
+          "cuisine": "nepalese;indian",
+          "name": "Himalayan Hub"
         }
       },
       "geometry": {
@@ -61357,10 +61344,11 @@
         "type": "node",
         "id": 10076131447,
         "tags": {
+          "addr:city": "San Francisco",
           "addr:housenumber": "415",
           "addr:street": "Valencia Street",
-          "name": "Acacia",
-          "shop": "houseware"
+          "amenity": "social_centre",
+          "name": "Bay Area American Indian Two-Spirits"
         }
       },
       "geometry": {
@@ -63207,9 +63195,13 @@
         "type": "node",
         "id": 10554070515,
         "tags": {
+          "addr:city": "San Francisco",
+          "addr:housenumber": "446",
+          "addr:street": "Valencia Street",
           "amenity": "theatre",
-          "check_date": "2023-01-13",
-          "name": "Stage Werx"
+          "check_date": "2025-05-28",
+          "name": "Eclectic Box",
+          "website": "https://www.eclecticboxsf.com/"
         }
       },
       "geometry": {
@@ -63226,6 +63218,9 @@
         "type": "node",
         "id": 10554070516,
         "tags": {
+          "addr:city": "San Francisco",
+          "addr:housenumber": "418",
+          "addr:street": "Valencia Street",
           "check_date": "2023-01-13",
           "name": "Time Frame",
           "opening_hours": "We-Su 12:00-18:00",
@@ -63438,6 +63433,9 @@
         "type": "node",
         "id": 10555829849,
         "tags": {
+          "addr:city": "San Francisco",
+          "addr:housenumber": "445",
+          "addr:street": "Valencia Street",
           "check_date": "2023-01-14",
           "female:signed": "no",
           "male:signed": "no",
@@ -63448,8 +63446,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4218335,
-          37.7659128
+          -122.4218201,
+          37.7658386
         ]
       }
     },
@@ -66513,10 +66511,13 @@
           "addr:housenumber": "2125",
           "addr:street": "Shattuck Avenue",
           "amenity": "cafe",
-          "check_date": "2025-02-15",
+          "check_date": "2025-05-30",
           "cuisine": "tea;bubble_tea",
           "level": "0",
-          "name": "Heytea"
+          "name": "Heytea",
+          "opening_hours": "11:00+",
+          "outdoor_seating": "no",
+          "wheelchair": "yes"
         }
       },
       "geometry": {
@@ -88146,7 +88147,8 @@
           "check_date": "2025-02-08",
           "leisure": "fitness_centre",
           "name": "Love Story Yoga",
-          "sport": "yoga"
+          "sport": "yoga",
+          "website": "http://lovestoryyoga.com/"
         }
       },
       "geometry": {
@@ -93462,8 +93464,12 @@
           "addr:postcode": "94702",
           "addr:state": "CA",
           "addr:street": "San Pablo Avenue",
-          "disused:shop": "pharmacy",
-          "name": "Walgreens"
+          "brand": "AutoZone",
+          "brand:wikidata": "Q4826087",
+          "check_date": "2025-05-31",
+          "name": "AutoZone",
+          "phone": "+1 510-898-5931",
+          "shop": "car_parts"
         }
       },
       "geometry": {
@@ -104668,6 +104674,187 @@
         "coordinates": [
           -122.2684774,
           37.8553393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12872349009,
+        "tags": {
+          "addr:city": "San Francisco",
+          "addr:housenumber": "474",
+          "addr:state": "CA",
+          "addr:street": "Valencia Street",
+          "addr:unit": "450",
+          "amenity": "social_centre",
+          "name": "The Black and Brown Social Club"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4221534,
+          37.7654759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12872349010,
+        "tags": {
+          "addr:city": "San Francisco",
+          "addr:housenumber": "474",
+          "addr:state": "CA",
+          "addr:street": "Valencia Street",
+          "addr:unit": "158",
+          "amenity": "social_centre",
+          "name": "Centro del Pueblo"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42214,
+          37.765389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12872349011,
+        "tags": {
+          "addr:city": "San Francisco",
+          "addr:housenumber": "474",
+          "addr:state": "CA",
+          "addr:street": "Valencia Street",
+          "addr:unit": "100",
+          "amenity": "social_centre",
+          "name": "La Raza Community Resource Center"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4221319,
+          37.7653275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12872349012,
+        "tags": {
+          "addr:housenumber": "498",
+          "addr:street": "Valencia Street",
+          "name": "Trader Sam's",
+          "shop": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4221078,
+          37.7652342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12872349013,
+        "tags": {
+          "addr:city": "San Francisco",
+          "addr:housenumber": "455",
+          "addr:street": "Valencia Street",
+          "name": "Ground Floor",
+          "office": "coworking",
+          "website": "https://groundfloorclub.com/locations/#location-1"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4217779,
+          37.7656604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12872349014,
+        "tags": {
+          "addr:city": "San Francisco",
+          "addr:housenumber": "443",
+          "addr:street": "Valencia Street",
+          "amenity": "restaurant",
+          "name": "Venga Empanadas",
+          "website": "http://www.vengaempanadas.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.421819,
+          37.7659027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12872349015,
+        "tags": {
+          "addr:housenumber": "435",
+          "addr:street": "Valencia Street",
+          "branch": "Home",
+          "brand": "Ferguson",
+          "brand:wikidata": "Q5444235",
+          "name": "Ferguson",
+          "shop": "trade",
+          "trade": "plumbing",
+          "website": "https://www.fergusonhome.com/showroom/branch/san-francisco-ca-showroom-2612?utm_source=google&utm_medium=organic&utm_campaign=shw_lis_listingtraffic&utm_content=listing"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4218292,
+          37.7660029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12875935536,
+        "tags": {
+          "addr:housenumber": "2006",
+          "addr:street": "Kala Bagai Way",
+          "addr:unit": "B-1",
+          "check_date": "2025-05-30",
+          "leisure": "fitness_centre",
+          "name": "Anchor Boxing Club",
+          "website": "https://www.anchorboxingclub.org/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2679382,
+          37.8717482
         ]
       }
     },
@@ -211611,6 +211798,7 @@
           4174557625,
           4174557632,
           4174557619,
+          8320545686,
           4174557604
         ]
       },
@@ -211657,6 +211845,10 @@
             [
               -122.2636764,
               37.8297758
+            ],
+            [
+              -122.2637535,
+              37.8297882
             ],
             [
               -122.2640767,
@@ -362095,6 +362287,70 @@
             [
               -122.250604,
               37.8660075
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1390836497,
+        "tags": {
+          "amenity": "parking"
+        },
+        "nodes": [
+          12874338020,
+          12874338021,
+          2658332621,
+          2658332616,
+          2658312904,
+          2658312894,
+          2658312885,
+          2658312890,
+          12874338020
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.4224073,
+              37.7633615
+            ],
+            [
+              -122.4222024,
+              37.7633735
+            ],
+            [
+              -122.4222308,
+              37.7636807
+            ],
+            [
+              -122.4223223,
+              37.7636759
+            ],
+            [
+              -122.4224041,
+              37.7636997
+            ],
+            [
+              -122.4226535,
+              37.763687
+            ],
+            [
+              -122.4226427,
+              37.763591
+            ],
+            [
+              -122.422427,
+              37.763602
+            ],
+            [
+              -122.4224073,
+              37.7633615
             ]
           ]
         ]
