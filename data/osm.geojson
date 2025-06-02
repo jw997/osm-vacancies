@@ -104861,6 +104861,110 @@
     {
       "type": "Feature",
       "properties": {
+        "type": "node",
+        "id": 12878252462,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1221",
+          "addr:street": "Eighth Street",
+          "amenity": "school",
+          "name": "The Potters Studio",
+          "website": "https://berkeleypottersstudio.org/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2991956,
+          37.880728
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12878252463,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1223",
+          "addr:street": "Eighth Street",
+          "disused:shop": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2991205,
+          37.8805735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12878252464,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1249",
+          "addr:street": "Eighth Street",
+          "disused:office": "yes",
+          "name": "Lygos"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2989998,
+          37.8800929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12878252465,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1250",
+          "addr:street": "Ninth Street",
+          "disused:office": "yes",
+          "name": "The Companion Group"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2985278,
+          37.880402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12878252466,
+        "tags": {
+          "addr:housenumber": "1226",
+          "addr:street": "Ninth Street",
+          "name": "Food Matters Again",
+          "office": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.298635,
+          37.8808339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "type": "way",
         "id": 7805676,
         "tags": {
@@ -362298,7 +362402,8 @@
         "type": "way",
         "id": 1390836497,
         "tags": {
-          "amenity": "parking"
+          "amenity": "parking",
+          "parking": "surface"
         },
         "nodes": [
           12874338020,
