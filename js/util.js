@@ -8,6 +8,7 @@ const pointerFine = mql.matches;
 Chart.defaults.color = '#000';
 Chart.defaults.font.size = 14;
 
+const selectData = document.querySelector('#selectData');
 
 const checkActive = document.querySelector('#checkActive');
 //const checkAmenity = document.querySelector('#checkAmenity');
@@ -32,8 +33,6 @@ const checkLorin = document.querySelector('#checkLorin');
 
 const checkTemescal = document.querySelector('#checkTemescal');
 const checkValencia = document.querySelector('#checkValencia');
-
-
 
 // ADD NEW GEO FILTER
 const checkSanpabloave = document.querySelector('#checkSanpabloave');
@@ -72,8 +71,6 @@ const yellowIcon = getIcon('marker-highway-yellow.png');
 const goldIcon = getIcon('marker-highway-brown.png');
 const blueIcon = getIcon('marker-highway-blue.png');
 const violetIcon = getIcon('marker-icon-violet.png');
-
-
 
 const w3_highway_brown = '#633517';
 const w3_highway_red = '#a6001a';
@@ -220,14 +217,30 @@ var temescalTurfPolygon = turf.polygon(temescalGeoJson.features[0].geometry.coor
 var valenciaTurfPolygon = turf.polygon(valenciaGeoJson.features[0].geometry.coordinates);
 
 
+var dataFileName = './data/osm' +  selectData.value + 'geojson';
 
-async function getOsmGeoJsonData() {
-	const file = './data/osm.geojson';
-	const retval = await getJson(file);
+const mapFileNameToJsonData = new Map();
+
+async function getOsmGeoJsonData(dataFileName) {
+	//const file = './data/osm.geojson';
+	console.log("Loading data from ", dataFileName);
+
+	if (!mapFileNameToJsonData.has(dataFileName)) {
+		const data = await getJson(dataFileName);
+		mapFileNameToJsonData.set( dataFileName, data);
+	}
+	const retval = mapFileNameToJsonData.get( dataFileName);
 	return retval;
 }
 
-const osmGeoJson = await getOsmGeoJsonData();
+// changes whenever the date select changes
+var osmGeoJson = await getOsmGeoJsonData(dataFileName);
+
+selectData.addEventListener("change", async (event) => {
+	dataFileName = './data/osm' +  selectData.value + 'geojson';
+	
+	osmGeoJson = await getOsmGeoJsonData(dataFileName);
+  });
 
 //console.log("Read ", osmShopJson.elements.length);
 

@@ -4078,8 +4078,11 @@
           "addr:housenumber": "1889",
           "addr:state": "CA",
           "addr:street": "Solano Avenue",
-          "disused:amenity": "restaurant",
-          "name": "Khana Peena"
+          "amenity": "restaurant",
+          "cuisine": "indian",
+          "name": "Khana Peena",
+          "opening_hours": "Mo, Tu, Th-Su 11:30-14:30, 17:00-20:30",
+          "website": "https://www.khanapeenasolano.com/"
         }
       },
       "geometry": {
@@ -7487,16 +7490,8 @@
           "addr:housenumber": "925",
           "addr:state": "CA",
           "addr:street": "University Avenue",
-          "amenity": "restaurant",
-          "check_date": "2025-06-07",
-          "cocktails": "yes",
-          "cuisine": "mexican",
-          "diet:vegetarian": "yes",
-          "drink:beer": "yes",
-          "drink:wine": "yes",
-          "name": "Mercado 925",
-          "short_name": "M925",
-          "wheelchair": "yes"
+          "amenity": "cafe",
+          "name": "Mercado"
         }
       },
       "geometry": {
@@ -17319,17 +17314,13 @@
         "type": "node",
         "id": 2131582501,
         "tags": {
-          "addr:city": "Berkeley",
           "addr:housenumber": "2332",
-          "addr:postcode": "94702",
-          "addr:state": "CA",
           "addr:street": "San Pablo Avenue",
           "check_date": "2025-05-24",
           "contact:instagram": "https://www.instagram.com/eastbaynursery/",
-          "email": "customerservice@eastbaynursery.com",
           "name": "East Bay Nursery",
           "opening_hours": "Mo,Su off; Tu-Sa 08:30-17:00",
-          "phone": "+1-510-845-6490",
+          "phone": "510.845.6490",
           "shop": "garden_centre",
           "website": "https://www.eastbaynursery.com/"
         }
@@ -19698,7 +19689,7 @@
           "addr:state": "CA",
           "addr:street": "University Avenue",
           "amenity": "cafe",
-          "check_date": "2025-06-04",
+          "check_date": "2023-05-27",
           "cuisine": "tea;bubble_tea",
           "name": "Asha Tea House",
           "opening_hours": "Mo-Su 10:30-19:00",
@@ -25356,7 +25347,6 @@
         "tags": {
           "access": "yes",
           "amenity": "parking",
-          "capacity": "99",
           "fee": "yes",
           "layer": "-1",
           "name": "Oxford Garage",
@@ -32086,12 +32076,8 @@
         "type": "node",
         "id": 4583405663,
         "tags": {
-          "addr:city": "Berkeley",
-          "addr:housenumber": "2035",
-          "addr:street": "San Pablo Avenue",
-          "name": "Dark Water",
-          "shop": "tattoo",
-          "website": "http://www.darkwater.ink/"
+          "healthcare": "optometrist",
+          "name": "Dr. Kiyomoto Optometrist"
         }
       },
       "geometry": {
@@ -46798,13 +46784,9 @@
         "type": "node",
         "id": 8181411077,
         "tags": {
-          "addr:city": "Berkeley",
-          "addr:housenumber": "2026",
-          "addr:street": "San Pablo Avenue",
           "amenity": "restaurant",
           "cuisine": "tapas",
-          "name": "La Marcha",
-          "website": "https://www.lamarchaberkeley.com/"
+          "name": "La Marcha"
         }
       },
       "geometry": {
@@ -52849,9 +52831,6 @@
         "type": "node",
         "id": 9499642687,
         "tags": {
-          "addr:city": "Berkeley",
-          "addr:housenumber": "2032",
-          "addr:street": "San Pablo Avenue",
           "name": "Mi Ranchito",
           "shop": "convenience"
         }
@@ -55257,12 +55236,8 @@
         "type": "node",
         "id": 9586809620,
         "tags": {
-          "addr:city": "Berkeley",
-          "addr:housenumber": "2052",
-          "addr:street": "San Pablo Avenue",
           "name": "The laundry room",
-          "shop": "dry_cleaning",
-          "website": "https://www.thelaundryroomnorcal.com/"
+          "shop": "dry_cleaning"
         }
       },
       "geometry": {
@@ -88173,7 +88148,7 @@
           "leisure": "fitness_centre",
           "name": "Love Story Yoga",
           "sport": "yoga",
-          "website": "https://lovestoryyoga.com/"
+          "website": "http://lovestoryyoga.com/"
         }
       },
       "geometry": {
@@ -91430,11 +91405,8 @@
           "addr:postcode": "94704",
           "addr:state": "CA",
           "addr:street": "Shattuck Avenue",
-          "amenity": "fast_food",
-          "check_date": "2025-06-03",
-          "cuisine": "chicken;thai",
-          "drive_through": "no",
-          "name": "Southside Station",
+          "amenity": "cafe",
+          "name": "Southside Station Cafe",
           "website": "https://www.eatsouthsidestation.com/"
         }
       },
@@ -104993,507 +104965,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "node",
-        "id": 12882576584,
-        "tags": {
-          "amenity": "bench",
-          "armrest": "yes",
-          "backrest": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.2591245,
-          37.8722377
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 12883515901,
-        "tags": {
-          "addr:housenumber": "561",
-          "addr:street": "Valencia Street",
-          "amenity": "restaurant",
-          "cuisine": "cake;japanese;tea",
-          "name": "Stonemill Matcha",
-          "opening_hours": "Mo-Fr 10:00-16:00; Sa-Su 09:00-17:00",
-          "website": "https://www.stonemillmatcha-us.com/"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4216411,
-          37.7639317
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 12883518101,
-        "tags": {
-          "addr:housenumber": "911",
-          "addr:street": "Valencia Street",
-          "name": "BAGGU San Francisco",
-          "opening_hours": "Mo-Fr 12:00-19:00; Sa-Su 11:00-19:00",
-          "shop": "bag",
-          "website": "https://baggu.com/"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.421087,
-          37.7582417
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 12885355920,
-        "tags": {
-          "addr:city": "Berkeley",
-          "addr:housenumber": "2040",
-          "addr:state": "CA",
-          "addr:street": "San Pablo Avenue",
-          "name": "Mile Limit",
-          "shop": "wine",
-          "website": "https://www.milelimitberkeley.com/"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.2922082,
-          37.8684271
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 12897931151,
-        "tags": {
-          "amenity": "bench",
-          "armrest": "yes",
-          "backrest": "yes",
-          "material": "steel",
-          "seats": "3"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4216156,
-          37.7593038
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 12897931152,
-        "tags": {
-          "amenity": "bench",
-          "armrest": "yes",
-          "backrest": "yes",
-          "material": "steel",
-          "seats": "3"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4216423,
-          37.7593121
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 12897931153,
-        "tags": {
-          "amenity": "bench",
-          "armrest": "yes",
-          "backrest": "yes",
-          "material": "steel",
-          "seats": "3"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4216751,
-          37.7593195
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 12897931154,
-        "tags": {
-          "amenity": "bench",
-          "armrest": "yes",
-          "backrest": "yes",
-          "material": "steel",
-          "seats": "3"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.421721,
-          37.7593214
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 12897931155,
-        "tags": {
-          "amenity": "bench",
-          "armrest": "yes",
-          "backrest": "yes",
-          "material": "steel",
-          "seats": "3"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4217538,
-          37.7593209
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 12897931156,
-        "tags": {
-          "amenity": "bench",
-          "armrest": "yes",
-          "backrest": "yes",
-          "material": "steel",
-          "seats": "2"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.421654,
-          37.7590691
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 12897931157,
-        "tags": {
-          "amenity": "bench",
-          "armrest": "yes",
-          "backrest": "yes",
-          "material": "steel",
-          "seats": "2"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.421685,
-          37.7590691
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 12897931158,
-        "tags": {
-          "bench": "yes",
-          "colour": "black",
-          "leisure": "picnic_table",
-          "material": "steel"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.421558,
-          37.7592068
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 12897931159,
-        "tags": {
-          "bench": "yes",
-          "colour": "black",
-          "leisure": "picnic_table",
-          "material": "steel"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4215567,
-          37.7592362
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 12897931160,
-        "tags": {
-          "bench": "yes",
-          "colour": "black",
-          "leisure": "picnic_table",
-          "material": "steel"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.421579,
-          37.7590961
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 12897959011,
-        "tags": {
-          "amenity": "bench",
-          "armrest": "yes",
-          "backrest": "yes",
-          "material": "steel",
-          "seats": "3"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4216156,
-          37.7593037
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 12897959012,
-        "tags": {
-          "amenity": "bench",
-          "armrest": "yes",
-          "backrest": "yes",
-          "material": "steel",
-          "seats": "3"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4216422,
-          37.7593121
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 12897959013,
-        "tags": {
-          "amenity": "bench",
-          "armrest": "yes",
-          "backrest": "yes",
-          "material": "steel",
-          "seats": "3"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.421675,
-          37.7593194
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 12897959014,
-        "tags": {
-          "amenity": "bench",
-          "armrest": "yes",
-          "backrest": "yes",
-          "material": "steel",
-          "seats": "3"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4217209,
-          37.7593214
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 12897959015,
-        "tags": {
-          "amenity": "bench",
-          "armrest": "yes",
-          "backrest": "yes",
-          "material": "steel",
-          "seats": "3"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4217537,
-          37.7593209
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 12897959016,
-        "tags": {
-          "amenity": "bench",
-          "armrest": "yes",
-          "backrest": "yes",
-          "material": "steel",
-          "seats": "2"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.421654,
-          37.7590691
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 12897959017,
-        "tags": {
-          "amenity": "bench",
-          "armrest": "yes",
-          "backrest": "yes",
-          "material": "steel",
-          "seats": "2"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.421685,
-          37.7590691
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 12897959018,
-        "tags": {
-          "bench": "yes",
-          "colour": "black",
-          "leisure": "picnic_table",
-          "material": "steel"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4215579,
-          37.7592067
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 12897959019,
-        "tags": {
-          "bench": "yes",
-          "colour": "black",
-          "leisure": "picnic_table",
-          "material": "steel"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4215567,
-          37.7592361
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 12897959020,
-        "tags": {
-          "bench": "yes",
-          "colour": "black",
-          "leisure": "picnic_table",
-          "material": "steel"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.421579,
-          37.759096
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "type": "way",
         "id": 7805676,
         "tags": {
@@ -107691,7 +107162,6 @@
           10161144302,
           430086582,
           2687928579,
-          12882576590,
           2687928570,
           2687928604,
           2687928593,
@@ -107756,10 +107226,6 @@
             [
               -122.2591901,
               37.8723514
-            ],
-            [
-              -122.259172,
-              37.8723557
             ],
             [
               -122.2591537,
@@ -112433,8 +111899,6 @@
         "tags": {
           "access": "yes",
           "amenity": "parking",
-          "capacity": "36",
-          "capacity:disabled": "2",
           "fee": "yes",
           "parking": "surface"
         },
@@ -119701,8 +119165,6 @@
         "tags": {
           "access": "customers",
           "amenity": "parking",
-          "capacity": "40",
-          "capacity:disabled": "2",
           "fee": "no",
           "operator": "Monterey Market",
           "parking": "surface"
@@ -121474,7 +120936,6 @@
           "addr:street": "Channing Way",
           "amenity": "parking",
           "building": "yes",
-          "capacity": "420",
           "name": "Telegraph Channing Garage",
           "old_name": "Sather Gate Garage",
           "operator": "City of Berkeley",
@@ -127059,8 +126520,6 @@
         "tags": {
           "access": "private",
           "amenity": "parking",
-          "capacity": "131",
-          "capacity:disabled": "2",
           "covered": "no",
           "disused:leisure": "pitch",
           "disused:sport": "tennis",
@@ -150159,8 +149618,6 @@
         "tags": {
           "access": "customers",
           "amenity": "parking",
-          "capacity": "85",
-          "capacity:disabled": "5",
           "operator": "Andronico's Community Market",
           "parking": "surface"
         },
@@ -181303,7 +180760,6 @@
           "addr:city": "Berkeley",
           "addr:housenumber": "540",
           "addr:street": "Spruce Street",
-          "contact:yelp": "https://www.yelp.com/biz/dorothy-bolte-park-berkeley",
           "description": "Dorothy Bolte Park, with its beautiful views looking down from the hillside, offers play areas and places to picnic.",
           "leisure": "park",
           "name": "Dorothy Bolte Park",
@@ -189076,7 +188532,6 @@
         "type": "way",
         "id": 280307526,
         "tags": {
-          "access": "private",
           "leisure": "pitch",
           "lit": "yes",
           "sport": "tennis"
@@ -189123,7 +188578,6 @@
         "type": "way",
         "id": 280307545,
         "tags": {
-          "access": "customers",
           "leisure": "pitch",
           "lit": "yes",
           "sport": "tennis"
@@ -201541,8 +200995,6 @@
         "tags": {
           "access": "customers",
           "amenity": "parking",
-          "capacity": "111",
-          "capacity:disabled": "4",
           "fee": "no",
           "parking": "surface"
         },
@@ -203656,8 +203108,8 @@
               37.754782
             ],
             [
-              -122.4213399,
-              37.7548645
+              -122.42134,
+              37.754865
             ],
             [
               -122.4213342,
@@ -210876,8 +210328,6 @@
         "tags": {
           "access": "yes",
           "amenity": "parking",
-          "capacity": "95",
-          "capacity:disabled": "4",
           "fee": "no",
           "name": "South Cove East Lot",
           "opening_hours": "Mo-Fr 09:00-23:00; Sa 05:00-23:00",
@@ -237868,8 +237318,6 @@
         "tags": {
           "access": "customers",
           "amenity": "parking",
-          "capacity": "14",
-          "capacity:disabled": "0",
           "parking": "surface"
         },
         "nodes": [
@@ -270059,8 +269507,6 @@
         "tags": {
           "access": "customers",
           "amenity": "parking",
-          "capacity": "124",
-          "capacity:disabled": "5",
           "fee": "no",
           "maxstay": "3 hours",
           "parking": "surface",
@@ -303532,9 +302978,7 @@
         "type": "way",
         "id": 1087357834,
         "tags": {
-          "amenity": "parking",
-          "capacity": "46",
-          "capacity:disabled": "2"
+          "amenity": "parking"
         },
         "nodes": [
           9962776140,
@@ -306135,8 +305579,6 @@
         "tags": {
           "access": "customers",
           "amenity": "parking",
-          "capacity": "8",
-          "capacity:disabled": "1",
           "name": "Tokyo fish market private parking",
           "parking": "surface",
           "surface": "asphalt"
@@ -306592,7 +306034,6 @@
         "type": "way",
         "id": 1106799361,
         "tags": {
-          "access": "private",
           "barrier": "fence",
           "courts": "9",
           "landuse": "recreation_ground",
@@ -306655,7 +306096,6 @@
         "type": "way",
         "id": 1106799362,
         "tags": {
-          "access": "private",
           "barrier": "fence",
           "courts": "1",
           "landuse": "recreation_ground",
@@ -306703,7 +306143,6 @@
         "type": "way",
         "id": 1106799363,
         "tags": {
-          "access": "private",
           "leisure": "pitch",
           "lit": "yes",
           "sport": "tennis"
@@ -306750,7 +306189,6 @@
         "type": "way",
         "id": 1106799364,
         "tags": {
-          "access": "private",
           "leisure": "pitch",
           "lit": "yes",
           "sport": "tennis"
@@ -306797,7 +306235,6 @@
         "type": "way",
         "id": 1106799365,
         "tags": {
-          "access": "private",
           "leisure": "pitch",
           "lit": "yes",
           "sport": "tennis"
@@ -306844,7 +306281,6 @@
         "type": "way",
         "id": 1106799370,
         "tags": {
-          "access": "private",
           "leisure": "pitch",
           "lit": "yes",
           "sport": "tennis"
@@ -306891,7 +306327,6 @@
         "type": "way",
         "id": 1106799371,
         "tags": {
-          "access": "private",
           "leisure": "pitch",
           "lit": "yes",
           "sport": "tennis"
@@ -306943,7 +306378,6 @@
         "type": "way",
         "id": 1106800857,
         "tags": {
-          "access": "customers",
           "barrier": "fence",
           "courts": "4",
           "landuse": "recreation_ground",
@@ -307061,7 +306495,6 @@
         "type": "way",
         "id": 1106800858,
         "tags": {
-          "access": "customers",
           "leisure": "pitch",
           "lit": "yes",
           "sport": "tennis"
@@ -307108,7 +306541,6 @@
         "type": "way",
         "id": 1106800860,
         "tags": {
-          "access": "customers",
           "leisure": "pitch",
           "lit": "yes",
           "sport": "tennis"
@@ -328323,7 +327755,6 @@
         "type": "way",
         "id": 1172666446,
         "tags": {
-          "access": "private",
           "addr:city": "Berkeley",
           "addr:housenumber": "1",
           "addr:postcode": "94705",
@@ -332545,8 +331976,6 @@
         "tags": {
           "access": "customers",
           "amenity": "parking",
-          "capacity": "13",
-          "capacity:disabled": "1",
           "operator": "Chase",
           "parking": "surface"
         },
@@ -371580,8 +371009,7 @@
           "name": "Zaytuna College",
           "religion": "muslim",
           "type": "multipolygon",
-          "website": "https://zaytuna.edu/",
-          "wikidata": "Q3151824"
+          "website": "https://zaytuna.edu/"
         }
       },
       "geometry": {
