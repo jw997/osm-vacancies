@@ -25929,6 +25929,24 @@
       "type": "Feature",
       "properties": {
         "type": "node",
+        "id": 3178364020,
+        "tags": {
+          "amenity": "parking_entrance",
+          "parking": "multi-storey"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2559385,
+          37.8692485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
         "id": 3180274141,
         "tags": {
           "amenity": "cafe"
@@ -30390,15 +30408,12 @@
           "addr:postcode": "94707",
           "addr:state": "CA",
           "addr:street": "Solano Avenue",
-          "alt_name": "Bopshop;Vons Chicken;Sojumo",
           "amenity": "restaurant",
-          "cuisine": "korean",
+          "cuisine": "korean;burger;chicken",
           "indoor_seating": "yes",
-          "name": "Bopshop/Vons Chicken/Sojumo",
-          "opening_hours": "Mo-Su 11:00-20:30",
+          "name": "Oh G Burger/Chimmelier",
           "outdoor_seating": "no",
-          "phone": "+1-510-559-9313",
-          "website": "https://vonschickenberkeley.menu11.com/berkeley/order"
+          "was:name": "Bopshop/Vons Chicken/Sojumo"
         }
       },
       "geometry": {
@@ -44906,10 +44921,14 @@
           "addr:housenumber": "3115",
           "addr:postcode": "94705",
           "addr:street": "Telegraph Avenue",
-          "amenity": "restaurant",
-          "cuisine": "american",
+          "amenity": "fast_food",
+          "check_date": "2025-06-09",
+          "cuisine": "american;burger",
+          "drive_through": "no",
+          "indoor_seating": "yes",
           "name": "Smokehouse",
           "opening_hours": "off, Mo-Th 10:30-23:00, Fr,Sa 10:30-24:00, Su 10:30-22:00",
+          "outdoor_seating": "yes",
           "phone": "+15108453640",
           "website": "http://facebook.com/TheSmokehouseCA"
         }
@@ -105494,6 +105513,150 @@
     {
       "type": "Feature",
       "properties": {
+        "type": "node",
+        "id": 12900569256,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "fee": "no",
+          "gender_segregated": "no",
+          "level:ref": "2",
+          "portable": "no",
+          "toilets:disposal": "flush",
+          "toilets:handwashing": "yes",
+          "wheelchair": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2685844,
+          37.8681288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12900569259,
+        "tags": {
+          "amenity": "clock",
+          "date": "no",
+          "direction": "E",
+          "faces": "1",
+          "indoor": "yes",
+          "level:ref": "2",
+          "lit": "yes",
+          "support": "wall"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2687292,
+          37.868227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12900569260,
+        "tags": {
+          "access": "yes",
+          "amenity": "drinking_water",
+          "covered": "yes",
+          "fee": "no",
+          "indoor": "yes",
+          "level:ref": "2",
+          "lit": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2689366,
+          37.8680244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12900569262,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "fee": "no",
+          "female": "yes",
+          "level:ref": "2",
+          "male": "no",
+          "portable": "no",
+          "toilets:disposal": "flush",
+          "toilets:handwashing": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2685626,
+          37.8681213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12900569263,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "fee": "no",
+          "female": "no",
+          "level:ref": "2",
+          "male": "yes",
+          "portable": "no",
+          "toilets:disposal": "flush",
+          "toilets:handwashing": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2687679,
+          37.8681096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 12900569264,
+        "tags": {
+          "level:ref": "1",
+          "name": "Friends' Store",
+          "note:opening_hours": "\"Bookstore hours may vary based on volunteer availability\"",
+          "opening_hours": "Mo 12:00-16:00; Tu-Sa 10:00-16:00; Su off",
+          "second_hand": "yes",
+          "shop": "books"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2689392,
+          37.8680992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "type": "way",
         "id": 7805676,
         "tags": {
@@ -108132,63 +108295,6 @@
             [
               -122.2605966,
               37.8728325
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "way",
-        "id": 24025044,
-        "tags": {
-          "amenity": "parking",
-          "building": "parking",
-          "name": "Bancroft Parking Structure",
-          "parking": "multi-storey"
-        },
-        "nodes": [
-          260547518,
-          260547519,
-          12646721228,
-          260547520,
-          3178364020,
-          260547521,
-          260547518
-        ]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -122.2556144,
-              37.8699399
-            ],
-            [
-              -122.2561751,
-              37.8698675
-            ],
-            [
-              -122.2561096,
-              37.8695514
-            ],
-            [
-              -122.256044,
-              37.8692349
-            ],
-            [
-              -122.2559385,
-              37.8692485
-            ],
-            [
-              -122.2554834,
-              37.8693072
-            ],
-            [
-              -122.2556144,
-              37.8699399
             ]
           ]
         ]
@@ -114930,7 +115036,10 @@
           307513772,
           2229442828,
           307513778,
+          12900569252,
           307513785,
+          12900569257,
+          12900569258,
           307513788,
           307513789,
           307513790,
@@ -114994,8 +115103,20 @@
               37.8681864
             ],
             [
+              -122.2687456,
+              37.8682676
+            ],
+            [
               -122.2687477,
               37.8682781
+            ],
+            [
+              -122.268525,
+              37.8683064
+            ],
+            [
+              -122.2683698,
+              37.8683261
             ],
             [
               -122.268178,
@@ -230747,6 +230868,7 @@
           5274780189,
           5274780190,
           5274780195,
+          12900768285,
           5274780196,
           5274780193,
           5274780181,
@@ -230779,6 +230901,10 @@
             [
               -122.2653155,
               37.8678179
+            ],
+            [
+              -122.2650388,
+              37.867854
             ],
             [
               -122.2648583,
@@ -241007,6 +241133,7 @@
           1250620551,
           11610038988,
           1419619760,
+          12900768283,
           1419619761,
           1250620563,
           11610038946,
@@ -241101,6 +241228,10 @@
             [
               -122.2651776,
               37.8680766
+            ],
+            [
+              -122.2650735,
+              37.8680916
             ],
             [
               -122.2641311,
@@ -273596,6 +273727,1859 @@
           [
             -122.2955835,
             37.8492425
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 992630724,
+        "tags": {
+          "building": "stable",
+          "disused": "yes",
+          "owner": "Golden Gate Fields",
+          "website": "https://www.goldengatefields.com/",
+          "wikidata": "Q5579448"
+        },
+        "nodes": [
+          9171098312,
+          9171098313,
+          9171098314,
+          9171098315,
+          9171098312
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.310888,
+              37.8813163
+            ],
+            [
+              -122.3103205,
+              37.8806
+            ],
+            [
+              -122.310177,
+              37.8806707
+            ],
+            [
+              -122.310755,
+              37.8813893
+            ],
+            [
+              -122.310888,
+              37.8813163
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 992630725,
+        "tags": {
+          "building": "stable",
+          "disused": "yes",
+          "owner": "Golden Gate Fields",
+          "website": "https://www.goldengatefields.com/",
+          "wikidata": "Q5579448"
+        },
+        "nodes": [
+          9171098316,
+          9171102217,
+          9171102218,
+          9171102219,
+          12803083455,
+          9171098316
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3107682,
+              37.8816408
+            ],
+            [
+              -122.310288,
+              37.8810383
+            ],
+            [
+              -122.3101504,
+              37.8811066
+            ],
+            [
+              -122.3106307,
+              37.8817092
+            ],
+            [
+              -122.3106368,
+              37.8817056
+            ],
+            [
+              -122.3107682,
+              37.8816408
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 992630726,
+        "tags": {
+          "building": "stable",
+          "disused": "yes",
+          "owner": "Golden Gate Fields",
+          "website": "https://www.goldengatefields.com/",
+          "wikidata": "Q5579448"
+        },
+        "nodes": [
+          9171102220,
+          9171102221,
+          9171102222,
+          9171102223,
+          9171102220
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3104582,
+              37.881711
+            ],
+            [
+              -122.3100285,
+              37.8811724
+            ],
+            [
+              -122.3098882,
+              37.8812426
+            ],
+            [
+              -122.3103227,
+              37.8817793
+            ],
+            [
+              -122.3104582,
+              37.881711
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 992630727,
+        "tags": {
+          "building": "stable",
+          "disused": "yes",
+          "owner": "Golden Gate Fields",
+          "website": "https://www.goldengatefields.com/",
+          "wikidata": "Q5579448"
+        },
+        "nodes": [
+          9171102224,
+          9171102225,
+          9171102226,
+          9171102227,
+          9171102224
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3101452,
+              37.8817926
+            ],
+            [
+              -122.3097649,
+              37.8813047
+            ],
+            [
+              -122.3096214,
+              37.8813746
+            ],
+            [
+              -122.3100076,
+              37.8818624
+            ],
+            [
+              -122.3101452,
+              37.8817926
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 992630728,
+        "tags": {
+          "building": "stable",
+          "disused": "yes",
+          "owner": "Golden Gate Fields",
+          "website": "https://www.goldengatefields.com/",
+          "wikidata": "Q5579448"
+        },
+        "nodes": [
+          9171102228,
+          9171102229,
+          9171102230,
+          9171102231,
+          9171102228
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.309863,
+              37.8819015
+            ],
+            [
+              -122.309492,
+              37.8814402
+            ],
+            [
+              -122.3093436,
+              37.8815154
+            ],
+            [
+              -122.3097199,
+              37.8819736
+            ],
+            [
+              -122.309863,
+              37.8819015
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 992630729,
+        "tags": {
+          "building": "stable",
+          "disused": "yes",
+          "owner": "Golden Gate Fields",
+          "website": "https://www.goldengatefields.com/",
+          "wikidata": "Q5579448"
+        },
+        "nodes": [
+          9171102232,
+          9171102233,
+          9171102234,
+          9171102235,
+          9171102232
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3095949,
+              37.8820341
+            ],
+            [
+              -122.3092234,
+              37.8815746
+            ],
+            [
+              -122.3090801,
+              37.8816477
+            ],
+            [
+              -122.3094584,
+              37.8821039
+            ],
+            [
+              -122.3095949,
+              37.8820341
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 992630730,
+        "tags": {
+          "addr:housenumber": "1100",
+          "addr:street": "Eastshore Freeway",
+          "building": "stable",
+          "disused": "yes",
+          "owner": "Golden Gate Fields",
+          "website": "https://www.goldengatefields.com/",
+          "wikidata": "Q5579448"
+        },
+        "nodes": [
+          9171102236,
+          9171102237,
+          9171102238,
+          9171102239,
+          9171102236
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3093552,
+              37.8821958
+            ],
+            [
+              -122.3087416,
+              37.8814376
+            ],
+            [
+              -122.3086048,
+              37.8815069
+            ],
+            [
+              -122.3092173,
+              37.8822625
+            ],
+            [
+              -122.3093552,
+              37.8821958
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 992630731,
+        "tags": {
+          "building": "stable",
+          "disused": "yes",
+          "owner": "Golden Gate Fields",
+          "website": "https://www.goldengatefields.com/",
+          "wikidata": "Q5579448"
+        },
+        "nodes": [
+          9171102240,
+          9171102241,
+          9171102242,
+          9171102243,
+          9171102240
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.311109,
+              37.8811073
+            ],
+            [
+              -122.3105774,
+              37.880454
+            ],
+            [
+              -122.3104311,
+              37.8805282
+            ],
+            [
+              -122.3109624,
+              37.8811815
+            ],
+            [
+              -122.311109,
+              37.8811073
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 992630732,
+        "tags": {
+          "building": "stable",
+          "disused": "yes",
+          "owner": "Golden Gate Fields",
+          "website": "https://www.goldengatefields.com/",
+          "wikidata": "Q5579448"
+        },
+        "nodes": [
+          9171102244,
+          9171102245,
+          9171102246,
+          9171102247,
+          9171102244
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3114203,
+              37.881029
+            ],
+            [
+              -122.310843,
+              37.8803181
+            ],
+            [
+              -122.3106954,
+              37.8803928
+            ],
+            [
+              -122.3112729,
+              37.8811036
+            ],
+            [
+              -122.3114203,
+              37.881029
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 992630733,
+        "tags": {
+          "building": "stable",
+          "disused": "yes",
+          "owner": "Golden Gate Fields",
+          "website": "https://www.goldengatefields.com/",
+          "wikidata": "Q5579448"
+        },
+        "nodes": [
+          9171102248,
+          9171102249,
+          9171102250,
+          9171102251,
+          9171102248
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3117283,
+              37.8809325
+            ],
+            [
+              -122.3111177,
+              37.8801763
+            ],
+            [
+              -122.3109684,
+              37.8802515
+            ],
+            [
+              -122.3115791,
+              37.8810076
+            ],
+            [
+              -122.3117283,
+              37.8809325
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 992630734,
+        "tags": {
+          "building": "stable",
+          "disused": "yes",
+          "owner": "Golden Gate Fields",
+          "website": "https://www.goldengatefields.com/",
+          "wikidata": "Q5579448"
+        },
+        "nodes": [
+          9171102252,
+          9171102253,
+          9171102254,
+          9171102255,
+          9171102252
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3102593,
+              37.8805218
+            ],
+            [
+              -122.3096201,
+              37.8797302
+            ],
+            [
+              -122.3094764,
+              37.8798024
+            ],
+            [
+              -122.3101154,
+              37.8805941
+            ],
+            [
+              -122.3102593,
+              37.8805218
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 992630735,
+        "tags": {
+          "building": "stable",
+          "disused": "yes",
+          "owner": "Golden Gate Fields",
+          "website": "https://www.goldengatefields.com/",
+          "wikidata": "Q5579448"
+        },
+        "nodes": [
+          9171102256,
+          9171102257,
+          9171102258,
+          9171102259,
+          9171102256
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3105234,
+              37.8803789
+            ],
+            [
+              -122.3098919,
+              37.879597
+            ],
+            [
+              -122.3097466,
+              37.8796701
+            ],
+            [
+              -122.310378,
+              37.8804521
+            ],
+            [
+              -122.3105234,
+              37.8803789
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 992630736,
+        "tags": {
+          "building": "stable",
+          "disused": "yes",
+          "owner": "Golden Gate Fields",
+          "website": "https://www.goldengatefields.com/",
+          "wikidata": "Q5579448"
+        },
+        "nodes": [
+          9171102260,
+          9171102261,
+          9171102262,
+          9171102263,
+          9171102260
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.310793,
+              37.8802489
+            ],
+            [
+              -122.3102096,
+              37.8795275
+            ],
+            [
+              -122.3100636,
+              37.8796011
+            ],
+            [
+              -122.3106468,
+              37.8803226
+            ],
+            [
+              -122.310793,
+              37.8802489
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 992630737,
+        "tags": {
+          "building": "stable",
+          "disused": "yes",
+          "owner": "Golden Gate Fields",
+          "website": "https://www.goldengatefields.com/",
+          "wikidata": "Q5579448"
+        },
+        "nodes": [
+          9171102264,
+          9171102265,
+          9171102266,
+          9171102267,
+          9171102264
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.311063,
+              37.880113
+            ],
+            [
+              -122.3104821,
+              37.8793955
+            ],
+            [
+              -122.3103386,
+              37.8794679
+            ],
+            [
+              -122.3109193,
+              37.8801855
+            ],
+            [
+              -122.311063,
+              37.880113
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 992630738,
+        "tags": {
+          "building": "stable",
+          "disused": "yes",
+          "owner": "Golden Gate Fields",
+          "website": "https://www.goldengatefields.com/",
+          "wikidata": "Q5579448"
+        },
+        "nodes": [
+          9171102268,
+          9171102269,
+          9171102270,
+          9171102271,
+          9171102268
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.309192,
+              37.8815246
+            ],
+            [
+              -122.3086855,
+              37.8809112
+            ],
+            [
+              -122.3085498,
+              37.8809808
+            ],
+            [
+              -122.3090514,
+              37.8815964
+            ],
+            [
+              -122.309192,
+              37.8815246
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 992630739,
+        "tags": {
+          "building": "stable",
+          "disused": "yes",
+          "owner": "Golden Gate Fields",
+          "website": "https://www.goldengatefields.com/",
+          "wikidata": "Q5579448"
+        },
+        "nodes": [
+          9171102272,
+          9171102273,
+          9171102274,
+          9171102275,
+          9171102272
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3094536,
+              37.8813997
+            ],
+            [
+              -122.3090557,
+              37.8808915
+            ],
+            [
+              -122.3089086,
+              37.8809633
+            ],
+            [
+              -122.3093063,
+              37.8814715
+            ],
+            [
+              -122.3094536,
+              37.8813997
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 992630740,
+        "tags": {
+          "building": "stable",
+          "disused": "yes",
+          "owner": "Golden Gate Fields",
+          "website": "https://www.goldengatefields.com/",
+          "wikidata": "Q5579448"
+        },
+        "nodes": [
+          9171102276,
+          9171102277,
+          9171102278,
+          9171102279,
+          9171102276
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3097193,
+              37.8812505
+            ],
+            [
+              -122.3092254,
+              37.8806474
+            ],
+            [
+              -122.3090825,
+              37.8807203
+            ],
+            [
+              -122.3095763,
+              37.8813235
+            ],
+            [
+              -122.3097193,
+              37.8812505
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 992630741,
+        "tags": {
+          "building": "stable",
+          "disused": "yes",
+          "owner": "Golden Gate Fields",
+          "website": "https://www.goldengatefields.com/",
+          "wikidata": "Q5579448"
+        },
+        "nodes": [
+          9171102280,
+          9171102281,
+          9171102282,
+          9171102283,
+          9171102280
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3099891,
+              37.8811179
+            ],
+            [
+              -122.3094614,
+              37.8804581
+            ],
+            [
+              -122.3093172,
+              37.8805299
+            ],
+            [
+              -122.3098447,
+              37.8811898
+            ],
+            [
+              -122.3099891,
+              37.8811179
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 992630742,
+        "tags": {
+          "building": "stable",
+          "disused": "yes",
+          "owner": "Golden Gate Fields",
+          "website": "https://www.goldengatefields.com/",
+          "wikidata": "Q5579448"
+        },
+        "nodes": [
+          9171102284,
+          9171102285,
+          9171102286,
+          9171102287,
+          9171102284
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3102369,
+              37.8809657
+            ],
+            [
+              -122.3097214,
+              37.8803248
+            ],
+            [
+              -122.3095794,
+              37.8803959
+            ],
+            [
+              -122.3100948,
+              37.8810369
+            ],
+            [
+              -122.3102369,
+              37.8809657
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 992630743,
+        "tags": {
+          "building": "stable",
+          "disused": "yes",
+          "owner": "Golden Gate Fields",
+          "website": "https://www.goldengatefields.com/",
+          "wikidata": "Q5579448"
+        },
+        "nodes": [
+          9171102288,
+          9171102289,
+          9171102290,
+          9171102291,
+          9171102288
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3090005,
+              37.8808245
+            ],
+            [
+              -122.3086017,
+              37.8803349
+            ],
+            [
+              -122.3084591,
+              37.8804072
+            ],
+            [
+              -122.3088578,
+              37.8808969
+            ],
+            [
+              -122.3090005,
+              37.8808245
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 992630744,
+        "tags": {
+          "building": "stable",
+          "disused": "yes",
+          "owner": "Golden Gate Fields",
+          "website": "https://www.goldengatefields.com/",
+          "wikidata": "Q5579448"
+        },
+        "nodes": [
+          9171102292,
+          9171102293,
+          9171102294,
+          9171102295,
+          9171102292
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3091844,
+              37.8805887
+            ],
+            [
+              -122.3086176,
+              37.8798841
+            ],
+            [
+              -122.3084719,
+              37.8799571
+            ],
+            [
+              -122.3090386,
+              37.8806618
+            ],
+            [
+              -122.3091844,
+              37.8805887
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 992630745,
+        "tags": {
+          "building": "stable",
+          "disused": "yes",
+          "owner": "Golden Gate Fields",
+          "website": "https://www.goldengatefields.com/",
+          "wikidata": "Q5579448"
+        },
+        "nodes": [
+          9171102296,
+          9171102297,
+          9171102298,
+          9171102299,
+          9171102296
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.309411,
+              37.8803977
+            ],
+            [
+              -122.3088784,
+              37.8797456
+            ],
+            [
+              -122.3087357,
+              37.8798182
+            ],
+            [
+              -122.3092681,
+              37.8804704
+            ],
+            [
+              -122.309411,
+              37.8803977
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 992630746,
+        "tags": {
+          "building": "stable",
+          "disused": "yes",
+          "owner": "Golden Gate Fields",
+          "website": "https://www.goldengatefields.com/",
+          "wikidata": "Q5579448"
+        },
+        "nodes": [
+          9171102300,
+          9171102301,
+          9171102302,
+          9171102303,
+          9171102300
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.309679,
+              37.8802624
+            ],
+            [
+              -122.3091514,
+              37.8796092
+            ],
+            [
+              -122.309009,
+              37.8796808
+            ],
+            [
+              -122.3095364,
+              37.8803341
+            ],
+            [
+              -122.309679,
+              37.8802624
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 992630747,
+        "tags": {
+          "building": "stable",
+          "disused": "yes",
+          "owner": "Golden Gate Fields",
+          "website": "https://www.goldengatefields.com/",
+          "wikidata": "Q5579448"
+        },
+        "nodes": [
+          9171102304,
+          9171102305,
+          9171102306,
+          9171102307,
+          9171102304
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3095477,
+              37.8796229
+            ],
+            [
+              -122.3089773,
+              37.8789208
+            ],
+            [
+              -122.3088345,
+              37.878993
+            ],
+            [
+              -122.3094047,
+              37.8796952
+            ],
+            [
+              -122.3095477,
+              37.8796229
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 992630748,
+        "tags": {
+          "building": "stable",
+          "disused": "yes",
+          "owner": "Golden Gate Fields",
+          "website": "https://www.goldengatefields.com/",
+          "wikidata": "Q5579448"
+        },
+        "nodes": [
+          9171102308,
+          9171102309,
+          9171102310,
+          9171102311,
+          9171102308
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.309816,
+              37.8795004
+            ],
+            [
+              -122.3092395,
+              37.8787879
+            ],
+            [
+              -122.3090955,
+              37.8788605
+            ],
+            [
+              -122.3096718,
+              37.8795731
+            ],
+            [
+              -122.309816,
+              37.8795004
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 992630749,
+        "tags": {
+          "building": "stable",
+          "disused": "yes",
+          "owner": "Golden Gate Fields",
+          "website": "https://www.goldengatefields.com/",
+          "wikidata": "Q5579448"
+        },
+        "nodes": [
+          9171102312,
+          9171102313,
+          9171102314,
+          9171102315,
+          9171102312
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3101628,
+              37.8794534
+            ],
+            [
+              -122.3095808,
+              37.8787265
+            ],
+            [
+              -122.3094348,
+              37.8787993
+            ],
+            [
+              -122.3100165,
+              37.8795263
+            ],
+            [
+              -122.3101628,
+              37.8794534
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 992630750,
+        "tags": {
+          "building": "stable",
+          "disused": "yes",
+          "owner": "Golden Gate Fields",
+          "website": "https://www.goldengatefields.com/",
+          "wikidata": "Q5579448"
+        },
+        "nodes": [
+          9171102316,
+          9171102317,
+          9171102318,
+          9171102319,
+          9171102316
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3104274,
+              37.8793146
+            ],
+            [
+              -122.309892,
+              37.8786502
+            ],
+            [
+              -122.309751,
+              37.878721
+            ],
+            [
+              -122.3102861,
+              37.8793855
+            ],
+            [
+              -122.3104274,
+              37.8793146
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 992630751,
+        "tags": {
+          "building": "stable",
+          "disused": "yes",
+          "owner": "Golden Gate Fields",
+          "website": "https://www.goldengatefields.com/",
+          "wikidata": "Q5579448"
+        },
+        "nodes": [
+          9171102320,
+          9171102321,
+          9171102322,
+          9171102323,
+          9171102320
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.309084,
+              37.879524
+            ],
+            [
+              -122.3085538,
+              37.8788819
+            ],
+            [
+              -122.3084205,
+              37.8789459
+            ],
+            [
+              -122.3089393,
+              37.8795967
+            ],
+            [
+              -122.309084,
+              37.879524
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 992630752,
+        "tags": {
+          "building": "stable",
+          "disused": "yes",
+          "owner": "Golden Gate Fields",
+          "website": "https://www.goldengatefields.com/",
+          "wikidata": "Q5579448"
+        },
+        "nodes": [
+          9171102324,
+          9171102325,
+          9171102326,
+          9171102327,
+          9171102324
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3097864,
+              37.8785219
+            ],
+            [
+              -122.3094434,
+              37.8780964
+            ],
+            [
+              -122.3093099,
+              37.8781685
+            ],
+            [
+              -122.3096416,
+              37.878594
+            ],
+            [
+              -122.3097864,
+              37.8785219
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 992630753,
+        "tags": {
+          "building": "stable",
+          "disused": "yes",
+          "owner": "Golden Gate Fields",
+          "website": "https://www.goldengatefields.com/",
+          "wikidata": "Q5579448"
+        },
+        "nodes": [
+          9171102328,
+          9171102329,
+          9171102330,
+          9171102331,
+          9171102328
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3095203,
+              37.8786554
+            ],
+            [
+              -122.3091074,
+              37.878155
+            ],
+            [
+              -122.308976,
+              37.8782253
+            ],
+            [
+              -122.3093751,
+              37.8787284
+            ],
+            [
+              -122.3095203,
+              37.8786554
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 992630754,
+        "tags": {
+          "building": "stable",
+          "disused": "yes",
+          "owner": "Golden Gate Fields",
+          "website": "https://www.goldengatefields.com/",
+          "wikidata": "Q5579448"
+        },
+        "nodes": [
+          9171102332,
+          9171102333,
+          9171102334,
+          9171102335,
+          9171102332
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3091751,
+              37.8787087
+            ],
+            [
+              -122.3087623,
+              37.8782018
+            ],
+            [
+              -122.3086336,
+              37.8782648
+            ],
+            [
+              -122.3090301,
+              37.8787808
+            ],
+            [
+              -122.3091751,
+              37.8787087
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 992630755,
+        "tags": {
+          "building": "stable",
+          "disused": "yes",
+          "owner": "Golden Gate Fields",
+          "website": "https://www.goldengatefields.com/",
+          "wikidata": "Q5579448"
+        },
+        "nodes": [
+          9171102336,
+          9171102337,
+          9171102338,
+          9171102339,
+          9171102336
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3089128,
+              37.8788311
+            ],
+            [
+              -122.3086336,
+              37.8785186
+            ],
+            [
+              -122.3085055,
+              37.8785875
+            ],
+            [
+              -122.308769,
+              37.8789042
+            ],
+            [
+              -122.3089128,
+              37.8788311
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 992987268,
+        "tags": {
+          "building": "stable",
+          "disused": "yes",
+          "owner": "Golden Gate Fields",
+          "website": "https://www.goldengatefields.com/",
+          "wikidata": "Q5579448"
+        },
+        "nodes": [
+          9173870943,
+          9173870944,
+          9173870945,
+          9173870946,
+          9173870947,
+          9173870948,
+          9173870949,
+          9173870950,
+          9173870943
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3089633,
+              37.8821424
+            ],
+            [
+              -122.3088464,
+              37.8822008
+            ],
+            [
+              -122.3088206,
+              37.8821685
+            ],
+            [
+              -122.3088032,
+              37.8821772
+            ],
+            [
+              -122.308667,
+              37.8820073
+            ],
+            [
+              -122.3087336,
+              37.881974
+            ],
+            [
+              -122.3087064,
+              37.88194
+            ],
+            [
+              -122.3087739,
+              37.8819063
+            ],
+            [
+              -122.3089633,
+              37.8821424
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 992987271,
+        "tags": {
+          "building": "yes",
+          "disused": "yes",
+          "owner": "Golden Gate Fields",
+          "website": "https://www.goldengatefields.com/",
+          "wikidata": "Q5579448"
+        },
+        "nodes": [
+          9173870970,
+          9173870971,
+          9173870972,
+          9173870973,
+          9173870974,
+          9173870975,
+          9173870976,
+          9173870977,
+          9173870970
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3086459,
+              37.8802927
+            ],
+            [
+              -122.3085142,
+              37.8803579
+            ],
+            [
+              -122.3084182,
+              37.8802372
+            ],
+            [
+              -122.3084529,
+              37.8802201
+            ],
+            [
+              -122.3084278,
+              37.8801884
+            ],
+            [
+              -122.3084903,
+              37.8801575
+            ],
+            [
+              -122.3085143,
+              37.8801878
+            ],
+            [
+              -122.3085489,
+              37.8801706
+            ],
+            [
+              -122.3086459,
+              37.8802927
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 992987272,
+        "tags": {
+          "building": "yes",
+          "disused": "yes",
+          "owner": "Golden Gate Fields",
+          "website": "https://www.goldengatefields.com/",
+          "wikidata": "Q5579448"
+        },
+        "nodes": [
+          9173870978,
+          9173870979,
+          9173870980,
+          9173870981,
+          9173870982,
+          9173870983,
+          9173870984,
+          9173870985,
+          9173870986,
+          9173870987,
+          9173870978
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3084548,
+              37.8787353
+            ],
+            [
+              -122.3082958,
+              37.878816
+            ],
+            [
+              -122.3082026,
+              37.8787015
+            ],
+            [
+              -122.3082409,
+              37.8786821
+            ],
+            [
+              -122.3082112,
+              37.8786457
+            ],
+            [
+              -122.3084321,
+              37.8780581
+            ],
+            [
+              -122.3093005,
+              37.8778867
+            ],
+            [
+              -122.3093216,
+              37.8779533
+            ],
+            [
+              -122.3084945,
+              37.8781165
+            ],
+            [
+              -122.3083238,
+              37.8785745
+            ],
+            [
+              -122.3084548,
+              37.8787353
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 992987275,
+        "tags": {
+          "building": "yes",
+          "disused": "yes",
+          "owner": "Golden Gate Fields",
+          "website": "https://www.goldengatefields.com/",
+          "wikidata": "Q5579448"
+        },
+        "nodes": [
+          9173899228,
+          9173899229,
+          9173899230,
+          9173899231,
+          9173899228
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3118015,
+              37.8815617
+            ],
+            [
+              -122.3116437,
+              37.8815846
+            ],
+            [
+              -122.311533,
+              37.8811083
+            ],
+            [
+              -122.3116907,
+              37.8810854
+            ],
+            [
+              -122.3118015,
+              37.8815617
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 992987276,
+        "tags": {
+          "building": "yes",
+          "disused": "yes",
+          "owner": "Golden Gate Fields",
+          "website": "https://www.goldengatefields.com/",
+          "wikidata": "Q5579448"
+        },
+        "nodes": [
+          9173899232,
+          9173899233,
+          9173899234,
+          9173899235,
+          9173899232
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3112107,
+              37.8817269
+            ],
+            [
+              -122.311076,
+              37.8817943
+            ],
+            [
+              -122.3108817,
+              37.8815526
+            ],
+            [
+              -122.3110163,
+              37.8814852
+            ],
+            [
+              -122.3112107,
+              37.8817269
+            ]
           ]
         ]
       }
@@ -360945,6 +362929,558 @@
       "type": "Feature",
       "properties": {
         "type": "way",
+        "id": 1382863306,
+        "tags": {
+          "building": "dormitory",
+          "building:levels": "2",
+          "disused": "yes"
+        },
+        "nodes": [
+          12803096541,
+          12803096542,
+          9171102326,
+          9171102325,
+          12803096541
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3093913,
+              37.8780363
+            ],
+            [
+              -122.3092579,
+              37.8781084
+            ],
+            [
+              -122.3093099,
+              37.8781685
+            ],
+            [
+              -122.3094434,
+              37.8780964
+            ],
+            [
+              -122.3093913,
+              37.8780363
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1382863307,
+        "tags": {
+          "building": "dormitory",
+          "building:levels": "2",
+          "disused": "yes"
+        },
+        "nodes": [
+          12803096543,
+          12803096544,
+          9171102330,
+          9171102329,
+          12803096543
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3090539,
+              37.8780979
+            ],
+            [
+              -122.3089241,
+              37.8781625
+            ],
+            [
+              -122.308976,
+              37.8782253
+            ],
+            [
+              -122.3091074,
+              37.878155
+            ],
+            [
+              -122.3090539,
+              37.8780979
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1382863308,
+        "tags": {
+          "building": "dormitory",
+          "building:levels": "2",
+          "disused": "yes"
+        },
+        "nodes": [
+          12803096545,
+          12803096546,
+          9171102334,
+          9171102333,
+          12803096545
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3087161,
+              37.8781429
+            ],
+            [
+              -122.3085873,
+              37.8782059
+            ],
+            [
+              -122.3086336,
+              37.8782648
+            ],
+            [
+              -122.3087623,
+              37.8782018
+            ],
+            [
+              -122.3087161,
+              37.8781429
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1382863309,
+        "tags": {
+          "building": "dormitory",
+          "building:levels": "2",
+          "disused": "yes"
+        },
+        "nodes": [
+          12803096547,
+          12803096548,
+          9171102338,
+          9171102337,
+          12803096547
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3085879,
+              37.8784657
+            ],
+            [
+              -122.3084598,
+              37.8785347
+            ],
+            [
+              -122.3085055,
+              37.8785875
+            ],
+            [
+              -122.3086336,
+              37.8785186
+            ],
+            [
+              -122.3085879,
+              37.8784657
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1382863310,
+        "tags": {
+          "building": "dormitory",
+          "building:levels": "2",
+          "disused": "yes"
+        },
+        "nodes": [
+          12803096549,
+          12803096550,
+          9171102322,
+          9171102321,
+          12803096549
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3085094,
+              37.8788244
+            ],
+            [
+              -122.3083761,
+              37.8788883
+            ],
+            [
+              -122.3084205,
+              37.8789459
+            ],
+            [
+              -122.3085538,
+              37.8788819
+            ],
+            [
+              -122.3085094,
+              37.8788244
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1382863311,
+        "tags": {
+          "building": "dormitory",
+          "building:levels": "2",
+          "disused": "yes"
+        },
+        "nodes": [
+          12803096551,
+          12803096552,
+          9171102318,
+          9171102317,
+          12803096551
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3098372,
+              37.8785766
+            ],
+            [
+              -122.3096924,
+              37.8786457
+            ],
+            [
+              -122.309751,
+              37.878721
+            ],
+            [
+              -122.309892,
+              37.8786502
+            ],
+            [
+              -122.3098372,
+              37.8785766
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1382863312,
+        "tags": {
+          "building": "dormitory",
+          "building:levels": "2",
+          "disused": "yes"
+        },
+        "nodes": [
+          12803096553,
+          12803096554,
+          9171102270,
+          9171102269,
+          12803096553
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3086367,
+              37.880852
+            ],
+            [
+              -122.3085011,
+              37.8809216
+            ],
+            [
+              -122.3085498,
+              37.8809808
+            ],
+            [
+              -122.3086855,
+              37.8809112
+            ],
+            [
+              -122.3086367,
+              37.880852
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1382864563,
+        "tags": {
+          "building": "dormitory",
+          "building:levels": "2",
+          "disused": "yes"
+        },
+        "nodes": [
+          12803083449,
+          12803083450,
+          9173899227,
+          9173871001,
+          12803083449
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3113788,
+              37.8811597
+            ],
+            [
+              -122.3112108,
+              37.8811853
+            ],
+            [
+              -122.311227,
+              37.8812518
+            ],
+            [
+              -122.311395,
+              37.8812262
+            ],
+            [
+              -122.3113788,
+              37.8811597
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1382864565,
+        "tags": {
+          "building": "dormitory",
+          "building:levels": "2",
+          "disused": "yes"
+        },
+        "nodes": [
+          12803083453,
+          12803083454,
+          12803083455,
+          9171098316,
+          12803083453
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3108109,
+              37.8816947
+            ],
+            [
+              -122.3106795,
+              37.8817595
+            ],
+            [
+              -122.3106368,
+              37.8817056
+            ],
+            [
+              -122.3107682,
+              37.8816408
+            ],
+            [
+              -122.3108109,
+              37.8816947
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1382864566,
+        "tags": {
+          "building": "dormitory",
+          "building:levels": "2",
+          "disused": "yes"
+        },
+        "nodes": [
+          12803083456,
+          12803083457,
+          9171102220,
+          9171102223,
+          12803083456
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3103762,
+              37.8818455
+            ],
+            [
+              -122.3105117,
+              37.8817772
+            ],
+            [
+              -122.3104582,
+              37.881711
+            ],
+            [
+              -122.3103227,
+              37.8817793
+            ],
+            [
+              -122.3103762,
+              37.8818455
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1382864567,
+        "tags": {
+          "building": "dormitory",
+          "building:levels": "2",
+          "disused": "yes"
+        },
+        "nodes": [
+          12803083458,
+          9171102227,
+          9171102224,
+          12803083459,
+          12803083458
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3100617,
+              37.881929
+            ],
+            [
+              -122.3100076,
+              37.8818624
+            ],
+            [
+              -122.3101452,
+              37.8817926
+            ],
+            [
+              -122.3101994,
+              37.8818592
+            ],
+            [
+              -122.3100617,
+              37.881929
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1382864568,
+        "tags": {
+          "building": "dormitory",
+          "building:levels": "2",
+          "disused": "yes"
+        },
+        "nodes": [
+          12803083460,
+          12803083461,
+          9171102228,
+          9171102231,
+          12803083460
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3097723,
+              37.8820385
+            ],
+            [
+              -122.3099155,
+              37.8819663
+            ],
+            [
+              -122.309863,
+              37.8819015
+            ],
+            [
+              -122.3097199,
+              37.8819736
+            ],
+            [
+              -122.3097723,
+              37.8820385
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
         "id": 1382967616,
         "tags": {
           "garden:type": "landscaping",
@@ -363593,6 +366129,10 @@
               [
                 -122.2616955,
                 37.8684971
+              ],
+              [
+                -122.2617192,
+                37.8686164
               ],
               [
                 -122.2617522,
@@ -371871,6 +374411,7 @@
           "MTFCC": "K2185",
           "STATEFP": "06",
           "Tiger:MTFCC": "K2185",
+          "bicycle": "no",
           "boundary": "protected_area",
           "ele": "338",
           "gnis:feature_id": "1676005",
