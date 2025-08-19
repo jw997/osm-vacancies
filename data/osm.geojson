@@ -8891,7 +8891,7 @@
         "tags": {
           "addr:city": "Berkeley",
           "addr:country": "US",
-          "addr:housenumber": "2072",
+          "addr:housenumber": "2070",
           "addr:state": "CA",
           "addr:street": "Addison Street",
           "disused:shop": "yes"
@@ -14552,8 +14552,9 @@
           "addr:housenumber": "2210",
           "addr:state": "CA",
           "addr:street": "Harold Way",
-          "disused:shop": "books",
-          "name": "Dharma Publishing Bookstore"
+          "name": "Center for Creative Inquiry",
+          "office": "yes",
+          "website": "https://creativeinquiry.org/"
         }
       },
       "geometry": {
@@ -32808,7 +32809,8 @@
           "addr:housenumber": "1939",
           "addr:state": "CA",
           "addr:street": "Addison Street",
-          "amenity": "community_centre",
+          "damage:type": "fire",
+          "disused:amenity": "community_centre",
           "name": "East Bay Media Center",
           "phone": "5108433699",
           "website": "http://www.eastbaymediacenter.com/"
@@ -109015,6 +109017,45 @@
         "coordinates": [
           -122.2670366,
           37.8721651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13079923702,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2100",
+          "addr:street": "Milvia Street",
+          "disused:office": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2713607,
+          37.8706644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13079949480,
+        "tags": {
+          "addr:housenumber": "1912",
+          "addr:street": "Shattuck Avenue",
+          "disused:amenity": "bar"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.268766,
+          37.8735276
         ]
       }
     },
