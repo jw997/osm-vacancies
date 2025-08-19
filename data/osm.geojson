@@ -5418,17 +5418,16 @@
           "addr:housenumber": "2114",
           "addr:street": "Center Street",
           "amenity": "restaurant",
-          "check_date": "2023-11-11",
-          "cuisine": "kebab",
+          "check_date": "2025-08-18",
+          "cuisine": "burger",
+          "diet:halal": "yes",
           "drive_in": "no",
           "microbrewery": "no",
-          "name": "Oasis Grill",
-          "opening_hours": "Mo-Su 10:00-21:00",
+          "name": "Iniburger",
           "outdoor_seating": "yes",
-          "phone": "+15106668951",
           "smoking": "no",
           "takeaway": "yes",
-          "website": "https://oasisgrill.com",
+          "website": "https://www.iniburger.com/berkeley",
           "wheelchair": "yes"
         }
       },
@@ -10078,7 +10077,7 @@
         "tags": {
           "addr:city": "Berkeley",
           "addr:country": "US",
-          "addr:housenumber": "1951;1947",
+          "addr:housenumber": "1947",
           "addr:state": "CA",
           "addr:street": "Martin Luther King Jr Way",
           "alt_name": "Bench Patisserie Cafe",
@@ -14403,7 +14402,7 @@
         "id": 1721377722,
         "tags": {
           "amenity": "atm",
-          "name": "United",
+          "name": "1st United Credit Union",
           "wheelchair": "yes"
         }
       },
@@ -19265,8 +19264,8 @@
           "addr:housenumber": "2136",
           "addr:state": "CA",
           "addr:street": "University Avenue",
-          "amenity": "dentist",
-          "healthcare": "dentist",
+          "disused:amenity": "dentist",
+          "disused:healthcare": "dentist",
           "name": "Campus Dental Care",
           "opening_hours": "Tu-Th 09:00-17:00; Mo 11:00-19:00; Fr 09:00-16:00",
           "website": "https://campusdentalcare.com/"
@@ -19291,17 +19290,39 @@
           "addr:housenumber": "2138",
           "addr:state": "CA",
           "addr:street": "University Avenue",
+          "disused:shop": "copyshop",
           "name": "Instant Copying & Laser Printing",
           "opening_hours": "Mo-Fr 09:00-16:00",
-          "phone": "+15107049700",
-          "shop": "copyshop"
+          "phone": "+15107049700"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2673086,
-          37.8721298
+          -122.2673199,
+          37.8721292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 2286100659,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:country": "US",
+          "addr:housenumber": "2154",
+          "addr:state": "CA",
+          "addr:street": "University Avenue",
+          "disused:shop": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2671829,
+          37.8721514
         ]
       }
     },
@@ -19316,8 +19337,8 @@
           "addr:housenumber": "2156",
           "addr:state": "CA",
           "addr:street": "University Avenue",
-          "amenity": "restaurant",
           "cuisine": "japanese",
+          "disused:amenity": "restaurant",
           "name": "Simply Bowl",
           "opening_hours": "Mo-Su 11:00-15:30,17:00-21:00",
           "phone": "+1 510 647 9494",
@@ -20938,8 +20959,8 @@
           "addr:housenumber": "2031",
           "addr:state": "CA",
           "addr:street": "University Avenue",
-          "name": "Nail Image",
-          "shop": "beauty"
+          "disused:shop": "beauty",
+          "name": "Nail Image"
         }
       },
       "geometry": {
@@ -20996,8 +21017,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.272398,
-          37.871803
+          -122.2723517,
+          37.8718027
         ]
       }
     },
@@ -21392,8 +21413,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.267541,
-          37.867978
+          -122.2675397,
+          37.8679436
         ]
       }
     },
@@ -21414,8 +21435,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.267546,
-          37.86803
+          -122.2675422,
+          37.8679812
         ]
       }
     },
@@ -23169,22 +23190,22 @@
         "type": "node",
         "id": 2491784037,
         "tags": {
-          "addr:housenumber": "116",
-          "addr:street": "Berkeley Square",
+          "addr:housenumber": "2115",
+          "addr:street": "Shattuck Avenue",
           "alt_name": "Western Dental & Orthodontics",
-          "amenity": "dentist",
           "brand": "Western Dental",
           "brand:wikidata": "Q64211989",
-          "check_date": "2023-05-27",
-          "healthcare": "dentist",
+          "check_date": "2025-08-18",
+          "disused:amenity": "dentist",
+          "disused:healthcare": "dentist",
           "name": "Western Dental"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2679767,
-          37.8709923
+          -122.2679886,
+          37.8709927
         ]
       }
     },
@@ -23291,9 +23312,9 @@
           "addr:city": "Berkeley",
           "addr:housenumber": "2124",
           "addr:street": "Center Street",
-          "amenity": "restaurant",
           "check_date": "2023-11-11",
           "cuisine": "seafood",
+          "disused:amenity": "restaurant",
           "name": "Bag o'Crab",
           "website": "https://www.bagocrabusa.com/"
         }
@@ -26760,6 +26781,27 @@
       "type": "Feature",
       "properties": {
         "type": "node",
+        "id": 3360183193,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2277",
+          "addr:street": "Shattuck Avenue",
+          "disused:shop": "yes",
+          "name": "Used Computer Store"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2675401,
+          37.8680627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
         "id": 3375326842,
         "tags": {
           "addr:housenumber": "2530",
@@ -27272,15 +27314,17 @@
         "type": "node",
         "id": 3516402499,
         "tags": {
-          "name": "Cupertino electronic inc",
-          "office": "company"
+          "addr:housenumber": "2160",
+          "addr:street": "University Avenue",
+          "disused:office": "company",
+          "name": "Cupertino electronic inc"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2670607,
-          37.8721718
+          -122.2669704,
+          37.8721712
         ]
       }
     },
@@ -28478,7 +28522,10 @@
         "type": "node",
         "id": 3795571177,
         "tags": {
-          "check_date": "2022-07-20",
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2165",
+          "addr:street": "Shattuck Avenue",
+          "check_date": "2025-08-18",
           "disused:shop": "yes",
           "was:name": "GNC"
         }
@@ -39299,6 +39346,9 @@
         "type": "node",
         "id": 7065556676,
         "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1919",
+          "addr:street": "Shattuck Avenue",
           "brand": "Noah's Bagels",
           "brand:wikidata": "Q64517373",
           "cuisine": "bagel",
@@ -47416,8 +47466,8 @@
           "addr:postcode": "94704",
           "addr:state": "CA",
           "addr:street": "University Avenue",
-          "name": "Stone room",
-          "shop": "rock"
+          "disused:shop": "rock",
+          "name": "Stone room"
         }
       },
       "geometry": {
@@ -68469,9 +68519,9 @@
           "addr:housenumber": "2121",
           "addr:street": "Center Street",
           "addr:unit": "2",
-          "check_date": "2023-03-12",
+          "check_date": "2025-08-18",
+          "disused:shop": "clothes",
           "name": "Shop College Wear",
-          "shop": "clothes",
           "website": "https://shopcollegewear.com/collections/uc-berkeley"
         }
       },
@@ -72456,8 +72506,10 @@
           "brand": "Dog Haus",
           "brand:wikidata": "Q105529843",
           "breakfast": "yes",
+          "capacity": "65",
+          "check_date": "2025-08-18",
           "contact:facebook": "https://www.facebook.com/doghausberkeley",
-          "cuisine": "hot_dog",
+          "cuisine": "hot_dog;burger",
           "delivery": "yes",
           "diet:halal": "no",
           "diet:vegetarian": "yes",
@@ -72474,10 +72526,11 @@
           "lunch": "yes",
           "lunch:saladbar": "no",
           "name": "Dog Haus",
-          "opening_hours": "Mo-Th 09:00-21:00; Fr-Sa 09:00-22:00; Su 09:00-21:00",
+          "opening_hours": "10:00-20:00",
           "organic": "no",
           "outdoor_seating": "yes",
           "payment:american_express": "yes",
+          "payment:cash": "no",
           "payment:cheque": "no",
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
@@ -77161,8 +77214,14 @@
         "type": "node",
         "id": 11346832988,
         "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1404",
+          "addr:postcode": "94710",
+          "addr:state": "CA",
+          "addr:street": "Fourth Street",
           "amenity": "pub",
           "name": "Trumer Brewery Taproom",
+          "opening_hours": "Mo-Tu,Th 16:00-21:00; We 16:00-22:00; Fr 14:00-21:00; Sa 10:00-21:00; Su 10:00-20:00",
           "website": "https://www.trumerusa.com/visit"
         }
       },
@@ -91331,6 +91390,7 @@
         "tags": {
           "description": "vacant retail in new building, no address yet",
           "disused:shop": "yes",
+          "proposed:amenity": "cafe",
           "vacant": "yes"
         }
       },
@@ -91338,7 +91398,7 @@
         "type": "Point",
         "coordinates": [
           -122.2678068,
-          37.8649769
+          37.86496
         ]
       }
     },
@@ -91570,8 +91630,9 @@
           "addr:state": "CA",
           "addr:street": "Shattuck Avenue",
           "beauty": "nails",
-          "name": "Time for Nails",
-          "shop": "beauty"
+          "check_date": "2025-08-18",
+          "disused:shop": "beauty",
+          "name": "Time for Nails"
         }
       },
       "geometry": {
@@ -92252,8 +92313,8 @@
           "addr:housenumber": "1944",
           "addr:state": "CA",
           "addr:street": "University Avenue",
+          "disused:shop": "bicycle",
           "name": "Lulu's Cyclery",
-          "shop": "bicycle",
           "website": "https://luluscyclery.com/"
         }
       },
@@ -92852,8 +92913,12 @@
           "addr:state": "CA",
           "addr:street": "Shattuck Avenue",
           "addr:unit": "A",
-          "disused:shop": "yes",
-          "name": "One Medical"
+          "amenity": "clinic",
+          "healthcare": "clinic",
+          "name": "One Medical",
+          "operator": "1Life Healthcare",
+          "operator:type": "private",
+          "operator:wikidata": "Q85727717"
         }
       },
       "geometry": {
@@ -92989,7 +93054,8 @@
           "addr:postcode": "94704",
           "addr:state": "CA",
           "addr:street": "Oxford Street",
-          "disused:shop": "yes"
+          "name": "Cal Student Store",
+          "shop": "clothes"
         }
       },
       "geometry": {
@@ -102019,8 +102085,8 @@
           "addr:state": "CA",
           "addr:street": "Shattuck Avenue",
           "addr:unit": "A",
-          "disused:shop": "yes",
-          "name": "PinkBox"
+          "amenity": "cafe",
+          "name": "Yume Mori Matcha"
         }
       },
       "geometry": {
@@ -108582,6 +108648,373 @@
         "coordinates": [
           -122.2523363,
           37.866928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13078820349,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2175",
+          "addr:street": "Milvia Street",
+          "disused:amenity": "bank",
+          "name": "1st United Credit Union"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2703758,
+          37.8696995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13078823199,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2110",
+          "addr:street": "Addison Street",
+          "disused:shop": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2671363,
+          37.8712092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13078823200,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2114",
+          "addr:street": "Addison Street",
+          "disused:shop": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2670583,
+          37.8712205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13078836759,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2206",
+          "addr:street": "Shattuck Avenue",
+          "disused:shop": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2682507,
+          37.8690548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13078836760,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2210",
+          "addr:street": "Shattuck Avenue",
+          "disused:shop": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2682457,
+          37.8689695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13078836761,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2236",
+          "addr:street": "Shattuck Avenue",
+          "disused:shop": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2682155,
+          37.868684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13078853478,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2165",
+          "addr:postcode": "94704",
+          "addr:state": "CA",
+          "addr:street": "University Avenue",
+          "disused:shop": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2666615,
+          37.8725306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13078856729,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1958",
+          "addr:street": "Shattuck Avenue",
+          "disused:amenity": "cafe",
+          "name": "Bangkook Noodles and Thai BBQ"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2686665,
+          37.8727714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13078872137,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2155",
+          "addr:street": "Center Street",
+          "disused:amenity": "cafe",
+          "name": "BAMPFA cafe"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2662223,
+          37.8707031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13078881034,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2130",
+          "addr:street": "Oxford Street",
+          "disused:amenity": "cafe",
+          "name": "Flavia"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2660516,
+          37.8703053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13078881035,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2128",
+          "addr:street": "Oxford Street",
+          "disused:amenity": "cafe",
+          "name": "Starbucks"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2660772,
+          37.8704231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13078892483,
+        "tags": {
+          "description": "vacant retail in new building, no address yet",
+          "disused:shop": "yes",
+          "vacant": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2678291,
+          37.8651012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13078908701,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1919",
+          "addr:street": "Shattuck Avenue",
+          "addr:unit": "102",
+          "disused:shop": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.268311,
+          37.873495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13078940894,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1970",
+          "addr:street": "University Avenue",
+          "disused:shop": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2713358,
+          37.8716087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13078945633,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1921",
+          "addr:street": "University Avenue",
+          "disused:shop": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2724282,
+          37.8717974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13078965485,
+        "tags": {
+          "addr:housenumber": "2100",
+          "addr:street": "Shattuck Avenue",
+          "addr:unit": "B",
+          "disused:shop": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2681166,
+          37.8720263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13078969295,
+        "tags": {
+          "addr:housenumber": "2140",
+          "addr:street": "University Avenue",
+          "disused:amenity": "cafe",
+          "name": "Lucky Thai"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2672589,
+          37.8721433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13078969296,
+        "tags": {
+          "addr:housenumber": "2158",
+          "addr:street": "University Avenue",
+          "disused:shop": "yes",
+          "name": "Homefinders"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2670366,
+          37.8721651
         ]
       }
     },
