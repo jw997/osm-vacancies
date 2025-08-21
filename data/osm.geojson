@@ -7485,8 +7485,8 @@
           "addr:housenumber": "905",
           "addr:state": "CA",
           "addr:street": "University Avenue",
-          "disused:shop": "yes",
-          "name": "Sukam Copy and Print"
+          "name": "Sukam Copy and Print",
+          "shop": "copyshop"
         }
       },
       "geometry": {
@@ -7539,7 +7539,7 @@
           "addr:housenumber": "1017",
           "addr:state": "CA",
           "addr:street": "University Avenue",
-          "shop": "tattoo"
+          "disused:shop": "tattoo"
         }
       },
       "geometry": {
@@ -12303,8 +12303,10 @@
         "type": "node",
         "id": 1494006080,
         "tags": {
-          "name": "Evolution Home Furnishings",
-          "shop": "furniture"
+          "addr:housenumber": "805",
+          "addr:street": "University Avenue",
+          "disused:shop": "furniture",
+          "name": "KCC Modern Living"
         }
       },
       "geometry": {
@@ -46520,8 +46522,11 @@
         "type": "node",
         "id": 8131970119,
         "tags": {
-          "name": "Keetsa",
-          "shop": "furniture"
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2117",
+          "addr:street": "San Pablo Avenue",
+          "disused:shop": "furniture",
+          "name": "Keetsa"
         }
       },
       "geometry": {
@@ -94233,8 +94238,8 @@
           "addr:postcode": "94702",
           "addr:state": "CA",
           "addr:street": "San Pablo Avenue",
-          "disused:shop": "mobile_phone",
-          "name": "TMobile"
+          "amenity": "veterinary",
+          "name": "Pets Referral Annex"
         }
       },
       "geometry": {
@@ -94256,15 +94261,15 @@
           "addr:postcode": "94702",
           "addr:state": "CA",
           "addr:street": "San Pablo Avenue",
-          "disused:shop": "clothes",
-          "name": "Ramson's Salwaar Kameez"
+          "amenity": "veterinary",
+          "name": "Pets Referral Annex"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -122.2922459,
-          37.8686959
+          37.8687079
         ]
       }
     },
@@ -103399,8 +103404,8 @@
           "addr:city": "Berkeley",
           "addr:housenumber": "1007",
           "addr:street": "University Avenue",
-          "disused:shop": "yes",
-          "name": "Bauman College"
+          "name": "City of Berkeley",
+          "office": "government"
         }
       },
       "geometry": {
@@ -109056,6 +109061,104 @@
         "coordinates": [
           -122.268766,
           37.8735276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13085691433,
+        "tags": {
+          "addr:housenumber": "2006",
+          "addr:street": "San Pablo Avenue",
+          "disused:shop": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2922729,
+          37.8688302
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13085691434,
+        "tags": {
+          "addr:housenumber": "2146",
+          "addr:street": "San Pablo Avenue",
+          "disused:shop": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2916746,
+          37.8669078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13085695677,
+        "tags": {
+          "addr:housenumber": "1107",
+          "addr:street": "University Avenue",
+          "disused:shop": "yes",
+          "name": "Nails in Bloom"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2917375,
+          37.869483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13085745306,
+        "tags": {
+          "addr:housenumber": "903",
+          "addr:street": "University Avenue",
+          "name": "Luce Modeling Academy",
+          "shop": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2965817,
+          37.8684583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13085745307,
+        "tags": {
+          "addr:housenumber": "844",
+          "addr:street": "University Avenue",
+          "amenity": "school",
+          "name": "Black Pine Circle"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2967752,
+          37.8680152
         ]
       }
     },
@@ -131080,7 +131183,6 @@
           "addr:street": "University Avenue",
           "building": "yes",
           "disused:shop": "doityourself",
-          "name": "Berkeley Indoor Garden",
           "phone": "510.549.2918",
           "website": "http://www.bighydro.com/"
         },
