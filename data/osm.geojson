@@ -7813,9 +7813,9 @@
           "addr:housenumber": "1301",
           "addr:state": "CA",
           "addr:street": "California Street",
-          "name": "Freshly Cut",
-          "opening_hours": "Tu-Sa 10:00-18:00",
-          "shop": "florist"
+          "name": "Phoenix Pastificio Pasta Shop",
+          "shop": "pasta",
+          "website": "www.phoenixpasta.com"
         }
       },
       "geometry": {
@@ -19734,7 +19734,7 @@
           "cuisine": "tea;bubble_tea",
           "indoor_seating": "yes",
           "name": "Asha Tea House",
-          "opening_hours": "Mo-Su 10:30-19:00",
+          "opening_hours": "Mo-Th 10:30-19:00; Fr-Su 10:00-19:30",
           "outdoor_seating": "no",
           "payment:credit_cards": "yes",
           "smoking": "no",
@@ -22095,8 +22095,8 @@
           "addr:country": "US",
           "addr:housenumber": "1827",
           "addr:state": "CA",
-          "name": "Erica Tanov",
-          "shop": "clothes"
+          "disused:shop": "clothes",
+          "name": "Erica Tanov"
         }
       },
       "geometry": {
@@ -22511,6 +22511,30 @@
         "coordinates": [
           -122.300892,
           37.871355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 2475993157,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:country": "US",
+          "addr:housenumber": "1710",
+          "addr:state": "CA",
+          "addr:street": "Fourth Street",
+          "name": "Bellweather Coffee",
+          "office": "company",
+          "website": "https://bellwethercoffee.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.301341,
+          37.8713901
         ]
       }
     },
@@ -33610,18 +33634,15 @@
           "addr:postcode": "94710",
           "addr:state": "CA",
           "addr:street": "Hearst Avenue",
-          "brand": "SoulCycle",
-          "brand:wikidata": "Q17084730",
-          "leisure": "fitness_centre",
-          "name": "SoulCycle",
-          "sport": "cycling"
+          "amenity": "veterinary",
+          "name": "Modern Animal"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.299492,
-          37.8688825
+          -122.2993948,
+          37.8689262
         ]
       }
     },
@@ -109126,6 +109147,25 @@
       "type": "Feature",
       "properties": {
         "type": "node",
+        "id": 13085708283,
+        "tags": {
+          "addr:housenumber": "1608",
+          "addr:street": "Fourth Street",
+          "disused:office": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3019825,
+          37.873191
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
         "id": 13085745306,
         "tags": {
           "addr:housenumber": "903",
@@ -109159,6 +109199,192 @@
         "coordinates": [
           -122.2967752,
           37.8680152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13085763765,
+        "tags": {
+          "addr:housenumber": "1440",
+          "addr:street": "Fourth Street",
+          "addr:unit": "A",
+          "disused:office": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3027392,
+          37.8758339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13085763766,
+        "tags": {
+          "addr:housenumber": "1440",
+          "addr:street": "Fourth Street",
+          "addr:unit": "B",
+          "disused:office": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3026812,
+          37.8756654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13085763767,
+        "tags": {
+          "addr:housenumber": "1440",
+          "addr:street": "Fourth Street",
+          "addr:unit": "D",
+          "disused:office": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3031912,
+          37.8757307
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13085763768,
+        "tags": {
+          "addr:housenumber": "1440",
+          "addr:street": "Fourth Street",
+          "addr:unit": "C",
+          "name": "Bay Genomics",
+          "office": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3031614,
+          37.8756092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13085764051,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1700",
+          "addr:street": "Fourth Street",
+          "disused:office": "yes",
+          "name": "Ingram Publisher Services"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3013817,
+          37.8714972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13087481201,
+        "tags": {
+          "addr:housenumber": "1036",
+          "addr:postcode": "94710",
+          "addr:street": "Grayson Street",
+          "name": "Teance Fine Teas",
+          "opening_hours": "We-Su 11:00-17:00",
+          "shop": "tea",
+          "website": "http://teance.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2884654,
+          37.8558044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13088474468,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1716",
+          "addr:street": "Fourth Street",
+          "disused:office": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3012991,
+          37.8712075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13088475198,
+        "tags": {
+          "addr:housenumber": "804",
+          "addr:street": "Hearst Avenue",
+          "disused:office": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2990721,
+          37.8690001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13088475199,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "806",
+          "addr:street": "Hearst Avenue",
+          "name": "McCutcheon Construction",
+          "office": "yes",
+          "website": "https://www.mcbuild.com"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2988469,
+          37.8690563
         ]
       }
     },
@@ -241594,8 +241820,9 @@
         "type": "way",
         "id": 618468717,
         "tags": {
-          "amenity": "social_facility",
           "capacity": "45",
+          "check_date": "2025-08-21",
+          "disused:amenity": "social_facility",
           "name": "Pathways STAIR Center",
           "operator": "City of Berkeley;Bay Area Community Services",
           "social_facility": "shelter",
@@ -241613,41 +241840,39 @@
         ]
       },
       "geometry": {
-        "type": "Polygon",
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              -122.3036671,
-              37.8715216
-            ],
-            [
-              -122.303459,
-              37.8715639
-            ],
-            [
-              -122.3039733,
-              37.873142
-            ],
-            [
-              -122.3041941,
-              37.8730973
-            ],
-            [
-              -122.3041834,
-              37.8730643
-            ],
-            [
-              -122.3039186,
-              37.8722485
-            ],
-            [
-              -122.3038932,
-              37.8722538
-            ],
-            [
-              -122.3036671,
-              37.8715216
-            ]
+            -122.3036671,
+            37.8715216
+          ],
+          [
+            -122.303459,
+            37.8715639
+          ],
+          [
+            -122.3039733,
+            37.873142
+          ],
+          [
+            -122.3041941,
+            37.8730973
+          ],
+          [
+            -122.3041834,
+            37.8730643
+          ],
+          [
+            -122.3039186,
+            37.8722485
+          ],
+          [
+            -122.3038932,
+            37.8722538
+          ],
+          [
+            -122.3036671,
+            37.8715216
           ]
         ]
       }
@@ -436707,6 +436932,161 @@
             [
               -122.2600517,
               37.8680996
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1423770132,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "capacity": "10",
+          "layer": "-1",
+          "operator": "University Avenue Coop Homes",
+          "parking": "underground"
+        },
+        "nodes": [
+          13085696280,
+          13085696284,
+          13085696281,
+          13085696282,
+          13085696283,
+          13085696280
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.282138,
+              37.8699025
+            ],
+            [
+              -122.2821478,
+              37.8699479
+            ],
+            [
+              -122.2821518,
+              37.8699668
+            ],
+            [
+              -122.2823339,
+              37.8699422
+            ],
+            [
+              -122.28232,
+              37.869878
+            ],
+            [
+              -122.282138,
+              37.8699025
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1423770134,
+        "tags": {
+          "amenity": "parking",
+          "capacity": "15",
+          "layer": "-1",
+          "operator": "University Avenue Coop Homes",
+          "operator:type": "private",
+          "parking": "underground"
+        },
+        "nodes": [
+          13085696286,
+          13085696287,
+          13085696288,
+          13085696289,
+          13085696290,
+          13085696286
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2830756,
+              37.8701304
+            ],
+            [
+              -122.2830491,
+              37.8700024
+            ],
+            [
+              -122.2828947,
+              37.8700223
+            ],
+            [
+              -122.2829213,
+              37.8701504
+            ],
+            [
+              -122.2830212,
+              37.8701375
+            ],
+            [
+              -122.2830756,
+              37.8701304
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1424036047,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1631",
+          "addr:street": "Fifth Street",
+          "landuse": "brownfield"
+        },
+        "nodes": [
+          13088487767,
+          13088487768,
+          13088487769,
+          13088487770,
+          13088487767
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3003276,
+              37.872737
+            ],
+            [
+              -122.2998967,
+              37.8728256
+            ],
+            [
+              -122.299862,
+              37.8727235
+            ],
+            [
+              -122.3002985,
+              37.8726369
+            ],
+            [
+              -122.3003276,
+              37.872737
             ]
           ]
         ]
