@@ -2222,10 +2222,11 @@
           "addr:housenumber": "1491",
           "addr:state": "CA",
           "addr:street": "Shattuck Avenue",
+          "check_date": "2025-08-22",
+          "disused:shop": "books",
           "name": "Books Inc.",
           "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-19:00",
           "phone": "+15105257727",
-          "shop": "books",
           "website": "https://www.booksinc.net/Berkeley",
           "wheelchair": "yes"
         }
@@ -21677,6 +21678,9 @@
         "type": "node",
         "id": 2404422902,
         "tags": {
+          "addr:housenumber": "1442",
+          "addr:street": "Walnut Street",
+          "addr:unit": "A",
           "amenity": "post_box",
           "description": "Packing supplies, UPS, USPS, FedEx, mailboxes.",
           "name": "You Send Me",
@@ -26240,6 +26244,7 @@
           "addr:housenumber": "1400",
           "addr:state": "CA",
           "addr:street": "Shattuck Avenue",
+          "addr:unit": "1",
           "amenity": "restaurant",
           "cuisine": "japanese;sushi",
           "name": "Kamado Sushi"
@@ -28112,10 +28117,13 @@
         "type": "node",
         "id": 3717193207,
         "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1529",
+          "addr:street": "Shattuck Avenue",
           "check_date": "2023-03-18",
+          "disused:shop": "optician",
           "name": "De Visu",
-          "opening_hours": "Mo-Su 12:00-18:00",
-          "shop": "optician"
+          "opening_hours": "Mo-Su 12:00-18:00"
         }
       },
       "geometry": {
@@ -28876,8 +28884,12 @@
         "type": "node",
         "id": 3938249986,
         "tags": {
+          "addr:housenumber": "1400",
+          "addr:street": "Shattuck Avenue",
+          "addr:unit": "12",
           "amenity": "post_office",
           "brand": "The UPS Store",
+          "brand:short": "UPS",
           "brand:wikidata": "Q7771029",
           "name": "The UPS Store",
           "opening_hours": "Mo-Fr 08:00-18:00; Sa 09:00-17:00",
@@ -57210,8 +57222,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.270102,
-          37.8820886
+          -122.270057,
+          37.8820999
         ]
       }
     },
@@ -109385,6 +109397,92 @@
         "coordinates": [
           -122.2988469,
           37.8690563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13090527686,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1442",
+          "addr:street": "Walnut Street",
+          "check_date": "2025-08-22",
+          "disused:office": "yes",
+          "name": "Coldwell Banker Real Estate"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2683461,
+          37.8804537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13090622565,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2095",
+          "addr:street": "Rose Street",
+          "addr:unit": "101",
+          "disused:office": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2697521,
+          37.8821471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13090637966,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1400",
+          "addr:street": "Shattuck Avenue",
+          "addr:unit": "4",
+          "disused:shop": "nutrition_supplements",
+          "name": "Earthly Nutrition"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2697296,
+          37.8818082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13090637967,
+        "tags": {
+          "addr:housenumber": "1400",
+          "addr:street": "Shattuck Avenue",
+          "addr:unit": "11A",
+          "name": "Bing Wong Cleaners",
+          "shop": "laundry"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.269737,
+          37.8818387
         ]
       }
     },
@@ -177583,58 +177681,6 @@
             [
               -122.2604497,
               37.8760935
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "way",
-        "id": 227755110,
-        "tags": {
-          "amenity": "university",
-          "ele": "105",
-          "gnis:feature_id": "2370609",
-          "name": "Starr King School for Ministry"
-        },
-        "nodes": [
-          555974716,
-          555974700,
-          2364177507,
-          2364177513,
-          555974734,
-          555974716
-        ]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -122.2617612,
-              37.8772209
-            ],
-            [
-              -122.2616874,
-              37.8768818
-            ],
-            [
-              -122.2618549,
-              37.8768534
-            ],
-            [
-              -122.262004,
-              37.8767972
-            ],
-            [
-              -122.2620839,
-              37.8771789
-            ],
-            [
-              -122.2617612,
-              37.8772209
             ]
           ]
         ]
@@ -437087,6 +437133,163 @@
             [
               -122.3003276,
               37.872737
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1424238018,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "capacity": "9",
+          "layer": "-1",
+          "parking": "underground"
+        },
+        "nodes": [
+          13090527687,
+          13090527691,
+          13090527688,
+          13090527689,
+          13090527690,
+          13090527687
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2683689,
+              37.880642
+            ],
+            [
+              -122.2683625,
+              37.8805926
+            ],
+            [
+              -122.2683527,
+              37.8805176
+            ],
+            [
+              -122.2684272,
+              37.8805116
+            ],
+            [
+              -122.2684433,
+              37.8806359
+            ],
+            [
+              -122.2683689,
+              37.880642
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1424238644,
+        "tags": {
+          "amenity": "parking",
+          "capacity": "15",
+          "layer": "-1",
+          "parking": "underground"
+        },
+        "nodes": [
+          13090622558,
+          13090622559,
+          13090622562,
+          13090622560,
+          13090622561,
+          13090622558
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2692377,
+              37.882345
+            ],
+            [
+              -122.2692132,
+              37.8822201
+            ],
+            [
+              -122.26913,
+              37.8822303
+            ],
+            [
+              -122.2690939,
+              37.8822347
+            ],
+            [
+              -122.2691184,
+              37.8823595
+            ],
+            [
+              -122.2692377,
+              37.882345
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1424289962,
+        "tags": {
+          "amenity": "parking",
+          "capacity": "22",
+          "layer": "-1",
+          "parking": "underground"
+        },
+        "nodes": [
+          13091362508,
+          13091362509,
+          13091362510,
+          13091362511,
+          13091362512,
+          13091362508
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2694607,
+              37.8824302
+            ],
+            [
+              -122.2693562,
+              37.8824452
+            ],
+            [
+              -122.2693287,
+              37.8823258
+            ],
+            [
+              -122.2694331,
+              37.8823108
+            ],
+            [
+              -122.2694474,
+              37.8823727
+            ],
+            [
+              -122.2694607,
+              37.8824302
             ]
           ]
         ]
