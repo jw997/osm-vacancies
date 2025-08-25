@@ -358,8 +358,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2607098,
-          37.8684019
+          -122.2607084,
+          37.8683942
         ]
       }
     },
@@ -471,6 +471,8 @@
         "type": "node",
         "id": 286080783,
         "tags": {
+          "addr:housenumber": "2600",
+          "addr:street": "Durant Avenue",
           "amenity": "pub",
           "check_date": "2024-07-31",
           "name": "Henry's"
@@ -6185,8 +6187,8 @@
         "tags": {
           "addr:housenumber": "2428",
           "addr:street": "Telegraph Avenue",
-          "amenity": "restaurant",
           "check_date": "2023-06-11",
+          "disused:amenity": "restaurant",
           "name": "Muracci's",
           "website": "http://www.muraccis.com/berkeley/"
         }
@@ -24733,27 +24735,6 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 2769094583,
-        "tags": {
-          "alt_name": "The Ink Stone",
-          "disused:shop": "copyshop;art_supplies",
-          "layer": "2",
-          "name": "Inkstone",
-          "website": "https://www.theinkstone.com/"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.2570198,
-          37.8685654
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
         "id": 2773718113,
         "tags": {
           "addr:city": "Berkeley",
@@ -29750,6 +29731,8 @@
         "type": "node",
         "id": 4121821879,
         "tags": {
+          "addr:housenumber": "2550",
+          "addr:street": "Durant Avenue",
           "disused:amenity": "cafe",
           "name": "U Cafe"
         }
@@ -36302,7 +36285,9 @@
         "type": "node",
         "id": 6298795539,
         "tags": {
-          "amenity": "clinic",
+          "addr:housenumber": "2339",
+          "addr:street": "Durant Avenue",
+          "disused:amenity": "clinic",
           "healthcare": "clinic",
           "name": "Berkeley Free Clinic",
           "toilets:wheelchair": "yes",
@@ -37361,10 +37346,18 @@
         "type": "node",
         "id": 6659190377,
         "tags": {
+          "addr:housenumber": "900",
+          "addr:street": "Grayson Street",
           "amenity": "restaurant",
+          "check_date": "2025-08-25",
+          "drink:beer": "yes",
+          "drink:coffee": "yes",
+          "drink:soju": "yes",
           "name": "900 Grayson",
           "opening_hours": "Mo-Fr 08:00-10:45, 11:30-14:00; Sa 08:00-14:00",
+          "outdoor_seating": "yes",
           "phone": "(510) 704-9900",
+          "takeaway": "yes",
           "website": "https://www.900grayson.com/"
         }
       },
@@ -43297,7 +43290,9 @@
         "type": "node",
         "id": 7926249644,
         "tags": {
-          "amenity": "restaurant",
+          "addr:housenumber": "2587",
+          "addr:street": "Telegraph Avenue",
+          "disused:amenity": "restaurant",
           "name": "Pasta bene",
           "phone": "510-845-2363",
           "website": "http://places.singleplatform.com/pasta-bene-2/menu?ref=openstreetmap"
@@ -43306,8 +43301,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.258387,
-          37.8640641
+          -122.2583899,
+          37.8640144
         ]
       }
     },
@@ -44935,14 +44930,14 @@
           "addr:street": "Telegraph Avenue",
           "amenity": "restaurant",
           "check_date": "2023-06-11",
-          "name": "Gordito Amigos"
+          "name": "Mochiholic"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2588869,
-          37.8666841
+          -122.2589015,
+          37.8666895
         ]
       }
     },
@@ -44973,8 +44968,9 @@
           "addr:housenumber": "2400",
           "addr:street": "Telegraph Avenue",
           "amenity": "restaurant",
-          "check_date": "2023-06-11",
-          "name": "Delhi Diner"
+          "check_date": "2025-08-25",
+          "name": "Himalayan Bite",
+          "website": "https://www.himalayanbitee.com/"
         }
       },
       "geometry": {
@@ -45112,7 +45108,11 @@
         "id": 8048751985,
         "tags": {
           "amenity": "post_box",
-          "name": "FedEx, US postal service"
+          "drive_through": "no",
+          "operator": "United States Postal Service",
+          "operator:short": "USPS",
+          "operator:type": "public",
+          "operator:wikidata": "Q668687"
         }
       },
       "geometry": {
@@ -45480,8 +45480,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2588382,
-          37.8665169
+          -122.2588639,
+          37.8664939
         ]
       }
     },
@@ -46967,8 +46967,11 @@
         "type": "node",
         "id": 8197233093,
         "tags": {
-          "name": "2nd street",
-          "shop": "clothes"
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2543",
+          "addr:street": "Telegraph Avenue",
+          "disused:shop": "clothes",
+          "name": "2nd street"
         }
       },
       "geometry": {
@@ -47021,7 +47024,10 @@
         "type": "node",
         "id": 8197278077,
         "tags": {
-          "name": "Kathmandu",
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2521",
+          "addr:street": "Telegraph Avenue",
+          "name": "Kathmandu Market",
           "shop": "convenience"
         }
       },
@@ -52007,8 +52013,9 @@
         "id": 9427102773,
         "tags": {
           "addr:city": "Berkeley",
+          "addr:housenumber": "2587",
           "addr:street": "Telegraph Avenue",
-          "amenity": "ice_cream",
+          "disused:amenity": "ice_cream",
           "name": "Uji Time",
           "takeaway": "yes"
         }
@@ -72270,15 +72277,15 @@
           "addr:housenumber": "2410",
           "addr:street": "Telegraph Avenue",
           "check_date": "2023-06-11",
-          "name": "Gifts on Tara",
+          "name": "Gifts of Tara",
           "shop": "gift"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2588886,
-          37.8666014
+          -122.2588929,
+          37.8666508
         ]
       }
     },
@@ -78255,6 +78262,8 @@
         "type": "node",
         "id": 11506546417,
         "tags": {
+          "addr:housenumber": "2515",
+          "addr:street": "Telegraph Avenue",
           "name": "Kathmandu Imports",
           "shop": "gift"
         }
@@ -102475,6 +102484,8 @@
         "id": 12845249593,
         "tags": {
           "addr:city": "Berkeley",
+          "addr:housenumber": "2433",
+          "addr:street": "Telegraph Avenue",
           "disused:shop": "yes"
         }
       },
@@ -104190,8 +104201,9 @@
           "addr:city": "Berkeley",
           "addr:housenumber": "2430",
           "addr:street": "Bancroft Way",
-          "disused:shop": "books",
-          "name": "University Press Books"
+          "amenity": "dentist",
+          "healthcare": "dentist",
+          "name": "Campus Dental Center"
         }
       },
       "geometry": {
@@ -109727,6 +109739,214 @@
         "coordinates": [
           -122.2899218,
           37.8614599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13096739334,
+        "tags": {
+          "amenity": "post_box",
+          "brand": "FedEx",
+          "brand:wikidata": "Q459477",
+          "drive_through": "no",
+          "operator": "FedEx",
+          "operator:type": "private",
+          "operator:wikidata": "Q459477"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2923187,
+          37.8553712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13097247853,
+        "tags": {
+          "addr:housenumber": "2600",
+          "addr:street": "Durant Avenue",
+          "disused:amenity": "cafe",
+          "name": "Poindexters Coffee"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2562785,
+          37.8680378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13097250473,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2556",
+          "addr:street": "Telegraph Avenue",
+          "addr:unit": "BCD",
+          "name": "Cleopatra Tattoo",
+          "shop": "tattoo",
+          "website": "https://www.cleopatraink.com/en/studios/berkeley-tattoo-and-piercing-studio"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2588284,
+          37.8640417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13097250474,
+        "tags": {
+          "addr:housenumber": "2529",
+          "addr:street": "Telegraph Avenue",
+          "disused:shop": "yes",
+          "name": "Bay Jiu-Jitsu"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2583558,
+          37.864512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13097250475,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2525",
+          "addr:street": "Telegraph Avenue",
+          "disused:amenity": "restaurant",
+          "name": "The Blue Nile"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2583375,
+          37.8646048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13097263699,
+        "tags": {
+          "addr:housenumber": "2482",
+          "addr:street": "Bancroft Way",
+          "disused:shop": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2596783,
+          37.8685323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13097264862,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2465",
+          "addr:street": "Bancroft Way",
+          "amenity": "restaurant",
+          "cuisine": "chinese",
+          "name": "Take Eat Easy"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2602055,
+          37.8687226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13097267889,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2501",
+          "addr:street": "Channing Way",
+          "disused:shop": "yes",
+          "name": "Life and Succulence"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2585392,
+          37.8670568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13097293686,
+        "tags": {
+          "addr:housenumber": "2416",
+          "addr:street": "Telegraph Avenue",
+          "disused:shop": "yes",
+          "name": "Annapurna"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2588887,
+          37.8666197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13097293687,
+        "tags": {
+          "addr:housenumber": "2422",
+          "addr:street": "Telegraph Avenue",
+          "disused:shop": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2588758,
+          37.8665561
         ]
       }
     },
@@ -130367,61 +130587,6 @@
             [
               -122.2676158,
               37.8607139
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "way",
-        "id": 43047369,
-        "tags": {
-          "addr:city": "Berkeley",
-          "addr:housenumber": "2475",
-          "addr:street": "Telegraph Avenue",
-          "building": "yes",
-          "check_date": "2024-01-24",
-          "disused:amenity": "restaurant",
-          "old_name": "Sizzling Lunch;Caffe Mediterraneum"
-        },
-        "nodes": [
-          539274621,
-          539274630,
-          539274623,
-          539274619,
-          539274624,
-          539274621
-        ]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -122.2581968,
-              37.8655751
-            ],
-            [
-              -122.2583016,
-              37.8655615
-            ],
-            [
-              -122.2584395,
-              37.8655446
-            ],
-            [
-              -122.2584571,
-              37.8656306
-            ],
-            [
-              -122.2582144,
-              37.8656615
-            ],
-            [
-              -122.2581968,
-              37.8655751
             ]
           ]
         ]
@@ -179821,6 +179986,8 @@
         "type": "way",
         "id": 233937591,
         "tags": {
+          "addr:housenumber": "2320",
+          "addr:street": "Dana Street",
           "building": "church",
           "denomination": "methodist",
           "disused:amenity": "place_of_worship",
@@ -199410,6 +199577,8 @@
         "type": "way",
         "id": 312023664,
         "tags": {
+          "addr:housenumber": "2320",
+          "addr:street": "Dana Street",
           "building": "church",
           "denomination": "methodist",
           "disused:amenity": "place_of_worship",
@@ -346581,7 +346750,8 @@
         "tags": {
           "description": "former public swimming pool filled with dirt",
           "disused:leisure": "swimming_pool",
-          "leisure": "garden"
+          "leisure": "garden",
+          "name": "Willard Pool"
         },
         "nodes": [
           11180673746,
@@ -346627,7 +346797,8 @@
         "tags": {
           "description": "former public swimming pool filled with dirt",
           "disused:leisure": "swimming_pool",
-          "leisure": "garden"
+          "leisure": "garden",
+          "name": "Willard Pool"
         },
         "nodes": [
           11180673749,
