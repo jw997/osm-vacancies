@@ -9781,7 +9781,7 @@
           "addr:street": "San Pablo Avenue",
           "amenity": "restaurant",
           "name": "Babette",
-          "opening_hours": "We-Sa 09:00-14:00, 17:00-21:00; Su 09:00-14:00",
+          "opening_hours": "We-Fr 11:30-14:30,17:00-21:00, Sa,Su 10:30-14:30, Sa 17:00-21:00",
           "outdoor_seating": "no"
         }
       },
@@ -25615,6 +25615,7 @@
         "id": 3137856636,
         "tags": {
           "amenity": "theatre",
+          "check_date": "2025-08-24",
           "name": "John Hinkel Park Amphitheatre",
           "theatre": "amphitheatre"
         }
@@ -46596,8 +46597,10 @@
         "type": "node",
         "id": 8131972581,
         "tags": {
-          "name": "San pablo",
-          "phone": "+15108419453",
+          "addr:housenumber": "2365",
+          "addr:street": "San Pablo Avenue",
+          "hairdresser": "barber",
+          "name": "Masters of the Fade",
           "shop": "hairdresser"
         }
       },
@@ -47199,7 +47202,10 @@
         "type": "node",
         "id": 8235967912,
         "tags": {
+          "addr:housenumber": "2551",
+          "addr:street": "San Pablo Avenue",
           "alt_name": "The WoodWorks",
+          "check_date": "2025-08-24",
           "disused:shop": "furniture",
           "name": "The Wood Works",
           "phone": "(510) 843-8415",
@@ -47724,6 +47730,9 @@
         "type": "node",
         "id": 8347106096,
         "tags": {
+          "addr:housenumber": "2575",
+          "addr:street": "San Pablo Avenue",
+          "check_date": "2025-08-24",
           "disused:shop": "bakery",
           "name": "Anthony's Cookies",
           "opening_hours": "Th-Su 12:00-18:00",
@@ -55797,6 +55806,7 @@
         "id": 9669173305,
         "tags": {
           "addr:housenumber": "1510",
+          "addr:street": "San Pablo Avenue",
           "contact:instagram": "teakmehome",
           "disused:shop": "furniture",
           "name": "Teak me home",
@@ -55919,9 +55929,9 @@
         "type": "node",
         "id": 9669226176,
         "tags": {
-          "amenity": "doctors",
-          "healthcare": "doctor",
-          "healthcare:speciality": "paediatrics",
+          "addr:housenumber": "1178",
+          "addr:street": "San Pablo Avenue",
+          "disused:amenity": "doctors",
           "name": "Kiwi pediatric",
           "opening_hours": "Mo-Fr 09:00-17:00; Sa 09:00-12:00",
           "phone": "(510) 524-9400",
@@ -55932,8 +55942,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.297075,
-          37.8829672
+          -122.296877,
+          37.883007
         ]
       }
     },
@@ -66361,6 +66371,8 @@
         "type": "node",
         "id": 10677303581,
         "tags": {
+          "addr:housenumber": "2361",
+          "addr:street": "San Pablo Avenue",
           "name": "C&L",
           "shop": "convenience"
         }
@@ -66368,8 +66380,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2901621,
-          37.8635947
+          -122.2901785,
+          37.8635931
         ]
       }
     },
@@ -69871,6 +69883,8 @@
         "type": "node",
         "id": 10839996617,
         "tags": {
+          "addr:housenumber": "1605",
+          "addr:street": "San Pablo Avenue",
           "contact:instagram": "kermitlynchwine",
           "name": "Kermit Lynch",
           "shop": "alcohol",
@@ -82197,6 +82211,7 @@
         "type": "node",
         "id": 11881034562,
         "tags": {
+          "covered": "no",
           "leisure": "picnic_table"
         }
       },
@@ -82214,6 +82229,7 @@
         "type": "node",
         "id": 11881034563,
         "tags": {
+          "covered": "no",
           "leisure": "picnic_table"
         }
       },
@@ -82231,6 +82247,7 @@
         "type": "node",
         "id": 11881034564,
         "tags": {
+          "covered": "no",
           "leisure": "picnic_table"
         }
       },
@@ -93969,8 +93986,8 @@
           "addr:postcode": "94702",
           "addr:state": "CA",
           "addr:street": "San Pablo Avenue",
-          "name": "Cycle Tow",
-          "shop": "motorcycle_repair"
+          "disused:shop": "motorcycle_repair",
+          "name": "Cycle Tow"
         }
       },
       "geometry": {
@@ -94223,7 +94240,8 @@
           "addr:postcode": "94710",
           "addr:state": "CA",
           "addr:street": "San Pablo Avenue",
-          "leisure": "fitness_centre",
+          "check_date": "2025-08-24",
+          "disused:leisure": "fitness_centre",
           "name": "Berkeley Muay Thai/Team Bolo Jiu Jitsu",
           "website": "https://www.berkeleymtf.com"
         }
@@ -94546,7 +94564,9 @@
           "addr:housenumber": "1518",
           "addr:state": "CA",
           "addr:street": "San Pablo Avenue",
-          "disused:shop": "yes"
+          "name": "My Salon Suite",
+          "shop": "hairdresser",
+          "website": "https://www.mysalonsuite.com/berkeley/"
         }
       },
       "geometry": {
@@ -94554,69 +94574,6 @@
         "coordinates": [
           -122.2946016,
           37.8759459
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 12787309938,
-        "tags": {
-          "addr:city": "Berkeley",
-          "addr:housenumber": "1522",
-          "addr:state": "CA",
-          "addr:street": "San Pablo Avenue",
-          "disused:shop": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.2945506,
-          37.8757977
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 12787309939,
-        "tags": {
-          "addr:city": "Berkeley",
-          "addr:housenumber": "1528",
-          "addr:state": "CA",
-          "addr:street": "San Pablo Avenue",
-          "disused:shop": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.2944916,
-          37.8756389
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 12787321974,
-        "tags": {
-          "addr:city": "Berkeley",
-          "addr:housenumber": "1507",
-          "addr:state": "CA",
-          "addr:street": "San Pablo Avenue",
-          "disused:shop": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.2941617,
-          37.8760857
         ]
       }
     },
@@ -94751,8 +94708,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2939927,
-          37.8755754
+          -122.2940048,
+          37.8755084
         ]
       }
     },
@@ -94998,8 +94955,8 @@
           "addr:postcode": "94702",
           "addr:state": "CA",
           "addr:street": "San Pablo Avenue",
-          "name": "Sultana Bookstore",
-          "shop": "religion"
+          "disused:shop": "religion",
+          "name": "Sultana Bookstore"
         }
       },
       "geometry": {
@@ -101627,7 +101584,7 @@
         "id": 12837443317,
         "tags": {
           "addr:city": "Berkeley",
-          "addr:housenumber": "2071",
+          "addr:housenumber": "2072",
           "addr:postcode": "94702",
           "addr:state": "CA",
           "addr:street": "San Pablo Avenue",
@@ -109489,6 +109446,293 @@
     {
       "type": "Feature",
       "properties": {
+        "type": "node",
+        "id": 13095348812,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "changing_table": "no",
+          "check_date": "2025-08-24",
+          "portable": "yes",
+          "toilets:disposal": "pitlatrine"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2729394,
+          37.8946913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13095360263,
+        "tags": {
+          "addr:housenumber": "2363",
+          "addr:street": "San Pablo Avenue",
+          "check_date": "2025-08-24",
+          "disused:shop": "yes",
+          "name": "Rasi's Braids"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2901653,
+          37.8635534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13095407493,
+        "tags": {
+          "addr:housenumber": "2747",
+          "addr:street": "San Pablo Avenue",
+          "addr:unit": "A",
+          "name": "Bay Area Dancewear",
+          "shop": "clothes",
+          "website": "https://bayareadancewear.com"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2877329,
+          37.8560569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13095407494,
+        "tags": {
+          "addr:housenumber": "2747",
+          "addr:street": "San Pablo Avenue",
+          "addr:unit": "B",
+          "disused:shop": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2877134,
+          37.8559835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13095407495,
+        "tags": {
+          "addr:housenumber": "2747",
+          "addr:street": "San Pablo Avenue",
+          "addr:unit": "C",
+          "disused:shop": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2876685,
+          37.8558624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13095407634,
+        "tags": {
+          "addr:housenumber": "3000",
+          "addr:street": "San Pablo Avenue",
+          "disused:shop": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2868795,
+          37.8519775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13095407635,
+        "tags": {
+          "addr:housenumber": "1042",
+          "addr:street": "Ashby Avenue",
+          "name": "Nooworks",
+          "office": "company",
+          "website": "https://nooworks.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2875259,
+          37.8518313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13095423592,
+        "tags": {
+          "addr:housenumber": "1523",
+          "addr:street": "San Pablo Avenue",
+          "disused:shop": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2940065,
+          37.8755737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13095436169,
+        "tags": {
+          "addr:housenumber": "2720",
+          "addr:street": "San Pablo Avenue",
+          "disused:craft": "pottery",
+          "name": "Jered's Pottery"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2888521,
+          37.8573812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13095438911,
+        "tags": {
+          "addr:housenumber": "1603",
+          "addr:street": "San Pablo Avenue",
+          "disused:amenity": "cafe",
+          "name": "Cafe Fanny"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2936514,
+          37.8750297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13095438912,
+        "tags": {
+          "addr:housenumber": "1609",
+          "addr:street": "San Pablo Avenue",
+          "disused:amenity": "cafe",
+          "name": "Bartavelle Annex"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2937933,
+          37.8748354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13095463482,
+        "tags": {
+          "addr:housenumber": "1627",
+          "addr:street": "San Pablo Avenue",
+          "disused:shop": "yes",
+          "name": "Erica Tanov Studio"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2936073,
+          37.8742632
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13095467654,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1102",
+          "addr:street": "Gilman Street",
+          "name": "If Then Design Studio",
+          "office": "yes",
+          "website": "https://ifthen.studio/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.295371,
+          37.8804656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13095485000,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2442",
+          "addr:street": "San Pablo Avenue",
+          "disused:shop": "hairdresser",
+          "name": "Barbarella"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2899218,
+          37.8614599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "type": "way",
         "id": 7805676,
         "tags": {
@@ -116314,6 +116558,7 @@
         "type": "way",
         "id": 24529235,
         "tags": {
+          "access": "yes",
           "leisure": "playground",
           "note": "approximate",
           "start_date": "2022",
@@ -420880,7 +421125,9 @@
         "type": "way",
         "id": 1414796613,
         "tags": {
+          "access": "private",
           "amenity": "parking",
+          "capacity": "12",
           "layer": "-1",
           "parking": "underground"
         },
