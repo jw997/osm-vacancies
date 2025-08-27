@@ -10156,30 +10156,6 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 778894387,
-        "tags": {
-          "addr:city": "Berkeley",
-          "addr:country": "US",
-          "addr:housenumber": "1918",
-          "addr:state": "CA",
-          "addr:street": "Martin Luther King Jr Way",
-          "disused:shop": "interior_decoration",
-          "name": "Park place design",
-          "phone": "5106479000"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.2733176,
-          37.8727896
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
         "id": 778894392,
         "tags": {
           "addr:city": "Berkeley",
@@ -14274,15 +14250,17 @@
         "type": "node",
         "id": 1718668191,
         "tags": {
-          "name": "Storey Framing",
-          "shop": "frame"
+          "addr:housenumber": "1645",
+          "addr:street": "Hopkins Street",
+          "disused:shop": "frame",
+          "name": "Storey Framing"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2808294,
-          37.8823801
+          -122.280645,
+          37.8824965
         ]
       }
     },
@@ -14292,6 +14270,9 @@
         "type": "node",
         "id": 1718668367,
         "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1649",
+          "addr:street": "Hopkins Street",
           "name": "Artist At Play Studio And Gallery",
           "shop": "art"
         }
@@ -17970,6 +17951,29 @@
         "coordinates": [
           -122.261423,
           37.875026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 2195112047,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1878",
+          "addr:postcode": "94709",
+          "addr:state": "CA",
+          "addr:street": "Euclid Avenue",
+          "disused:amenity": "restaurant",
+          "name": "Cabanas Cafe"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.260309,
+          37.8751784
         ]
       }
     },
@@ -28161,8 +28165,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.273314,
-          37.8727294
+          -122.2733288,
+          37.872776
         ]
       }
     },
@@ -28935,7 +28939,7 @@
         "tags": {
           "addr:city": "Berkeley",
           "addr:country": "US",
-          "addr:housenumber": "1922B",
+          "addr:housenumber": "1918",
           "addr:postcode": "94704",
           "addr:state": "CA",
           "addr:street": "Martin Luther King Jr Way",
@@ -29622,27 +29626,6 @@
         "coordinates": [
           -122.266583,
           37.857485
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 4105188492,
-        "tags": {
-          "addr:country": "US",
-          "addr:housenumber": "3320",
-          "addr:state": "CA",
-          "addr:street": "Adeline Street",
-          "disused:shop": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.2719894,
-          37.848279
         ]
       }
     },
@@ -34276,27 +34259,6 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 5631116752,
-        "tags": {
-          "addr:street": "Gilman Street",
-          "cuisine": "brazilian",
-          "disused:amenity": "fast_food",
-          "name": "Brazil Cafe food truck",
-          "website": "https://www.westbraebiergarten.com/"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.290155,
-          37.8813664
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
         "id": 5680510413,
         "tags": {
           "amenity": "bench"
@@ -36665,7 +36627,7 @@
         "id": 6418935462,
         "tags": {
           "access": "private",
-          "leisure": "playground"
+          "disused:leisure": "playground"
         }
       },
       "geometry": {
@@ -47417,12 +47379,12 @@
         "id": 8258591228,
         "tags": {
           "addr:city": "Berkeley",
+          "addr:housenumber": "1409",
           "addr:state": "CA",
           "addr:street": "Martin Luther King Jr Way",
-          "disused:shop": "bicycle",
-          "name": "Spokes Bike Lounge",
-          "phone": "+1 510 545 2203",
-          "website": "https://www.spokesbikelounge.com/"
+          "name": "Smiles Handcrafted",
+          "shop": "yes",
+          "website": "https://smiles-handcrafted.com/"
         }
       },
       "geometry": {
@@ -52428,6 +52390,8 @@
         "type": "node",
         "id": 9429125322,
         "tags": {
+          "addr:housenumber": "2991",
+          "addr:street": "Sacramento Street",
           "amenity": "post_office",
           "brand": "FedEx Office",
           "brand:wikidata": "Q474379",
@@ -52438,8 +52402,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2788752,
-          37.8535635
+          -122.2788466,
+          37.8534901
         ]
       }
     },
@@ -52455,8 +52419,8 @@
           "addr:postcode": "94702",
           "addr:state": "CA",
           "addr:street": "Sacramento Street",
-          "amenity": "restaurant",
           "cuisine": "ethiopian",
+          "disused:amenity": "restaurant",
           "name": "Kaffa Ethiopian Cuisine",
           "phone": "(510) 677-5822",
           "website": "https://kaffa-ethiopian-cuisine.cafe-inspector.com/"
@@ -52465,8 +52429,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.278851,
-          37.8536369
+          -122.2788641,
+          37.8535437
         ]
       }
     },
@@ -52476,6 +52440,8 @@
         "type": "node",
         "id": 9429125324,
         "tags": {
+          "addr:housenumber": "2997",
+          "addr:street": "Sacramento Street",
           "name": "US Liquor",
           "shop": "alcohol"
         }
@@ -58581,6 +58547,9 @@
         "type": "node",
         "id": 9892676251,
         "tags": {
+          "addr:housenumber": "1826",
+          "addr:street": "Solano Avenue",
+          "addr:unit": "C-2",
           "amenity": "dancing_school",
           "dance:teaching": "only",
           "name": "Tutu School"
@@ -58589,8 +58558,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.27951,
-          37.891212
+          -122.279483,
+          37.8912163
         ]
       }
     },
@@ -58600,6 +58569,9 @@
         "type": "node",
         "id": 9892676252,
         "tags": {
+          "addr:housenumber": "1820",
+          "addr:street": "Solano Avenue",
+          "addr:unit": "B-2",
           "name": "Kai Real Estate",
           "office": "estate_agent"
         }
@@ -58607,8 +58579,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2795994,
-          37.8912071
+          -122.2796527,
+          37.8911976
         ]
       }
     },
@@ -96209,7 +96181,7 @@
         "id": 12790577636,
         "tags": {
           "addr:city": "Berkeley",
-          "addr:housenumber": "3124",
+          "addr:housenumber": "3132",
           "addr:postcode": "94702",
           "addr:state": "CA",
           "addr:street": "Sacramento Street",
@@ -97015,10 +96987,12 @@
           "addr:state": "CA",
           "addr:street": "Shattuck Avenue",
           "amenity": "cafe",
+          "check_date": "2025-08-26",
+          "contact:instagram": "https://www.instagram.com/foresteabar",
           "cuisine": "japanese;coffee_shop;tea;tea_shop;teahouse",
           "name": "Forest Tea Bar",
           "outdoor_seating": "yes",
-          "website": "https://www.instagram.com/foresteabar"
+          "website": "https://forestea.live/"
         }
       },
       "geometry": {
@@ -98199,28 +98173,6 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 12799032754,
-        "tags": {
-          "addr:city": "Berkeley",
-          "addr:housenumber": "3310",
-          "addr:postcode": "94703",
-          "addr:state": "CA",
-          "addr:street": "Adeline Street",
-          "disused:shop": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.2719156,
-          37.848453
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
         "id": 12799032755,
         "tags": {
           "addr:city": "Berkeley",
@@ -98611,8 +98563,8 @@
           "addr:postcode": "94703",
           "addr:state": "CA",
           "addr:street": "Adeline Street",
+          "disused:office": "engineer",
           "name": "Mosswood Engineering",
-          "office": "engineer",
           "website": "https://www.mosswoodengineering.com/"
         }
       },
@@ -98683,8 +98635,8 @@
           "addr:postcode": "94703",
           "addr:state": "CA",
           "addr:street": "Adeline Street",
-          "disused:shop": "yes",
-          "name": "The Office of Letters and Light"
+          "name": "NoNoTattoo Collective",
+          "shop": "tattoo"
         }
       },
       "geometry": {
@@ -98753,7 +98705,9 @@
           "addr:postcode": "94703",
           "addr:state": "CA",
           "addr:street": "Adeline Street",
-          "disused:shop": "yes"
+          "name": "Fæblekin",
+          "office": "yes",
+          "website": "https://www.faeblekin.org/"
         }
       },
       "geometry": {
@@ -110054,6 +110008,259 @@
         "coordinates": [
           -122.2594909,
           37.85921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13099210721,
+        "tags": {
+          "addr:housenumber": "2985",
+          "addr:street": "Sacramento Street",
+          "disused:shop": "yes",
+          "name": "Virje Designs"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2788772,
+          37.8535868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13099210722,
+        "tags": {
+          "addr:housenumber": "2983",
+          "addr:street": "Sacramento Street",
+          "disused:shop": "yes",
+          "name": "Greer's Jewelry"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2788879,
+          37.8536358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13099225765,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2952",
+          "addr:street": "Sacramento Street",
+          "amenity": "kindergarten",
+          "name": "Mi Mundo Home Preschool",
+          "website": "https://www.mimundopreschool.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2796684,
+          37.8540499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13099230235,
+        "tags": {
+          "addr:housenumber": "3155",
+          "addr:street": "Sacramento Street",
+          "brand": "YMCA",
+          "brand:wikidata": "Q157169",
+          "disused:amenity": "childcare",
+          "name": "YMCA Child Care"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2777687,
+          37.8499811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13099230363,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2903",
+          "addr:street": "Sacramento Street",
+          "disused:office": "ngo",
+          "name": "California Anti SLAPP Project"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2791236,
+          37.8546611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13099230364,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2901",
+          "addr:street": "Sacramento Street",
+          "disused:shop": "hairdresser",
+          "hairdresser": "barber",
+          "name": "Just Cuts Barber Shop"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.27914,
+          37.8547769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13099656913,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2483",
+          "addr:street": "Hearst Avenue",
+          "name": "The Daily Cal",
+          "office": "newspaper",
+          "website": "https://www.dailycal.org/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2605029,
+          37.8751565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13099670101,
+        "tags": {
+          "addr:housenumber": "1826",
+          "addr:street": "Solano Avenue",
+          "addr:unit": "C-1",
+          "disused:shop": "yes",
+          "name": "Northbrae Wealth Management"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2795658,
+          37.8912107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13099673415,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1647",
+          "addr:street": "Hopkins Street",
+          "name": "Sexton Group Property Management",
+          "office": "estate_agent",
+          "website": "https://www.sextongroupre.com"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2805947,
+          37.8825033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13099673416,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1643",
+          "addr:street": "Hopkins Street",
+          "name": "Julie Silber Quilts",
+          "shop": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2806857,
+          37.8824684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13099673417,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1641",
+          "addr:street": "Hopkins Street",
+          "office": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.28073,
+          37.8824451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13099673418,
+        "tags": {
+          "addr:housenumber": "1629",
+          "addr:street": "Hopkins Street",
+          "disused:shop": "tailor",
+          "name": "The Blue Rose"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.280807,
+          37.8823985
         ]
       }
     },
@@ -122012,86 +122219,6 @@
             [
               -122.2790762,
               37.8909942
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "way",
-        "id": 30877172,
-        "tags": {
-          "addr:city": "Berkeley",
-          "addr:country": "US",
-          "addr:housenumber": "1861;1863;1865;1869;1871;1875;1877;1965",
-          "addr:state": "CA",
-          "addr:street": "Solano Avenue",
-          "building": "theatre",
-          "check_date": "2024-06-14",
-          "disused:amenity": "cinema",
-          "heritage": "8",
-          "heritage:operator": "Berkeley_Landmarks_Preservation_Commission",
-          "historic": "theatre",
-          "name": "Oaks Theatre"
-        },
-        "nodes": [
-          343311806,
-          343311807,
-          343311803,
-          343311805,
-          343311809,
-          343604637,
-          343604638,
-          343311811,
-          343311810,
-          343311806
-        ]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -122.2783928,
-              37.8918481
-            ],
-            [
-              -122.277942,
-              37.8918735
-            ],
-            [
-              -122.2779358,
-              37.8918419
-            ],
-            [
-              -122.2778757,
-              37.8915683
-            ],
-            [
-              -122.2783256,
-              37.8915435
-            ],
-            [
-              -122.2783341,
-              37.891624
-            ],
-            [
-              -122.2780873,
-              37.8916352
-            ],
-            [
-              -122.2780894,
-              37.891656
-            ],
-            [
-              -122.2783652,
-              37.8916418
-            ],
-            [
-              -122.2783928,
-              37.8918481
             ]
           ]
         ]
