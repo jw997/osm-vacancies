@@ -6430,8 +6430,10 @@
         "type": "node",
         "id": 368200688,
         "tags": {
-          "name": "Honda Used Car",
-          "shop": "car"
+          "addr:housenumber": "2627",
+          "addr:street": "Shattuck Avenue",
+          "disused:shop": "car",
+          "name": "Honda Used Car"
         }
       },
       "geometry": {
@@ -9656,7 +9658,7 @@
         "tags": {
           "amenity": "dentist",
           "healthcare": "dentist",
-          "name": "Bell Dental Center"
+          "name": "Primary Teeth Pediatric Dentistry"
         }
       },
       "geometry": {
@@ -10979,8 +10981,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2532665,
-          37.8576561
+          -122.2532658,
+          37.8576247
         ]
       }
     },
@@ -23709,8 +23711,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2531337,
-          37.856396
+          -122.2531366,
+          37.8564578
         ]
       }
     },
@@ -23753,8 +23755,8 @@
           "addr:city": "Berkeley",
           "addr:housenumber": "2992",
           "addr:street": "College Avenue",
-          "amenity": "cafe",
           "diet:vegetarian": "yes",
+          "disused:amenity": "cafe",
           "name": "A'Cuppa Tea",
           "opening_hours": "Mo-Su 09:00-17:00",
           "phone": "+1 510-8482032",
@@ -23817,8 +23819,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2532325,
-          37.8573136
+          -122.25322,
+          37.8573055
         ]
       }
     },
@@ -23846,8 +23848,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2532495,
-          37.8574846
+          -122.2532355,
+          37.8574085
         ]
       }
     },
@@ -25008,8 +25010,8 @@
           "addr:postcode": "94705",
           "addr:state": "CA",
           "addr:street": "Shattuck Avenue",
+          "disused:office": "ngo",
           "name": "Homeless Action Center",
-          "office": "ngo",
           "phone": "+1 (510) 540-0878",
           "source": "local knowledge",
           "website": "https://homelessactioncenter.org/"
@@ -25516,6 +25518,8 @@
         "type": "node",
         "id": 3078678204,
         "tags": {
+          "addr:housenumber": "2905",
+          "addr:street": "Shattuck Avenue",
           "disused:shop": "dog_collars",
           "name": "Paco Collars",
           "opening_hours": "Tu-Th 11:00-16:00; Fr,Sa 12:00-18:00",
@@ -25525,8 +25529,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2664895,
-          37.8564176
+          -122.2664907,
+          37.8563988
         ]
       }
     },
@@ -25830,6 +25834,8 @@
         "type": "node",
         "id": 3166978501,
         "tags": {
+          "addr:housenumber": "2911",
+          "addr:street": "Shattuck Avenue",
           "name": "Wheelchairs of Berkeley",
           "opening_hours": "Mo-Fr 09:00-12:00,13:00-17:00",
           "shop": "wheelchair"
@@ -25940,8 +25946,8 @@
           "addr:postcode": "94705",
           "addr:state": "CA",
           "addr:street": "Shattuck Avenue",
-          "name": "East Bay Community Law Center",
-          "office": "lawyer"
+          "disused:office": "lawyer",
+          "name": "East Bay Community Law Center"
         }
       },
       "geometry": {
@@ -25978,6 +25984,8 @@
         "type": "node",
         "id": 3168030675,
         "tags": {
+          "addr:housenumber": "3079",
+          "addr:street": "Telegraph Avenue",
           "brand": "Edible Arrangements",
           "brand:wikidata": "Q5337996",
           "name": "Edible Arrangements",
@@ -25998,8 +26006,9 @@
         "type": "node",
         "id": 3168030677,
         "tags": {
-          "amenity": "clinic",
-          "healthcare": "clinic",
+          "addr:housenumber": "3095",
+          "addr:street": "Telegraph Avenue",
+          "disused:amenity": "clinic",
           "name": "Direct Urgent Care"
         }
       },
@@ -29718,6 +29727,8 @@
         "type": "node",
         "id": 4121725806,
         "tags": {
+          "addr:housenumber": "3090",
+          "addr:street": "Claremont Avenue",
           "name": "The Escapist",
           "shop": "books",
           "website": "http://www.escapistcomics.com"
@@ -32462,6 +32473,8 @@
         "type": "node",
         "id": 4675911310,
         "tags": {
+          "addr:housenumber": "3198",
+          "addr:street": "Adeline Street",
           "name": "M & H Market",
           "shop": "alcohol"
         }
@@ -35469,7 +35482,7 @@
         "id": 6210783866,
         "tags": {
           "addr:city": "Berkeley",
-          "addr:housenumber": "3084",
+          "addr:housenumber": "3070",
           "addr:postcode": "94705",
           "addr:state": "CA",
           "addr:street": "Claremont Avenue",
@@ -43064,6 +43077,8 @@
         "type": "node",
         "id": 7926219142,
         "tags": {
+          "addr:housenumber": "2961",
+          "addr:street": "College Avenue",
           "name": "Sotheby's",
           "office": "estate_agent",
           "opening_hours:covid19": "closed",
@@ -43085,6 +43100,8 @@
         "type": "node",
         "id": 7926234505,
         "tags": {
+          "addr:housenumber": "2969",
+          "addr:street": "College Avenue",
           "name": "J. Brooker",
           "shop": "hairdresser",
           "website": "http://jbrookerstudio.com/"
@@ -43093,8 +43110,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2528964,
-          37.8567469
+          -122.2529001,
+          37.8567382
         ]
       }
     },
@@ -43144,10 +43161,12 @@
         "type": "node",
         "id": 7926239822,
         "tags": {
-          "amenity": "cafe",
+          "addr:housenumber": "2965",
+          "addr:street": "College Avenue",
           "cuisine": "coffee_shop",
           "diet:vegan": "yes",
           "diet:vegetarian": "yes",
+          "disused:amenity": "cafe",
           "name": "Timeless",
           "opening_hours": "Mo-Su 08:00-15:00",
           "website": "https://timelesscoffee.com/"
@@ -43156,8 +43175,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2529043,
-          37.8568284
+          -122.2529092,
+          37.8568391
         ]
       }
     },
@@ -43191,7 +43210,11 @@
         "type": "node",
         "id": 7926245632,
         "tags": {
-          "disused:shop": "yes"
+          "addr:housenumber": "2811",
+          "addr:street": "Telegraph Avenue",
+          "cuisine": "chinese",
+          "disused:amenity": "restaurant",
+          "name": "Taisan"
         }
       },
       "geometry": {
@@ -43596,6 +43619,8 @@
         "type": "node",
         "id": 7940309969,
         "tags": {
+          "addr:housenumber": "2634",
+          "addr:street": "Ashby Avenue",
           "name": "Aveda",
           "shop": "hairdresser"
         }
@@ -43603,8 +43628,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2537559,
-          37.8568052
+          -122.253725,
+          37.8568232
         ]
       }
     },
@@ -43672,15 +43697,17 @@
         "type": "node",
         "id": 7940332189,
         "tags": {
-          "disused:shop": "yes",
+          "addr:housenumber": "2986",
+          "addr:street": "College Avenue",
+          "disused:shop": "laundry",
           "old_name": "Arlene's Cleaners"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2531288,
-          37.8563477
+          -122.2531269,
+          37.8564087
         ]
       }
     },
@@ -43751,17 +43778,19 @@
         "type": "node",
         "id": 7946086700,
         "tags": {
+          "addr:housenumber": "2942",
+          "addr:street": "College Avenue",
+          "disused:shop": "pet",
           "name": "Your Basic Bird",
           "phone": "+15108417617",
-          "shop": "pet",
           "website": "https://www.yourbasicbird.com/"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2532591,
-          37.8575814
+          -122.2532503,
+          37.8575012
         ]
       }
     },
@@ -44052,8 +44081,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2532407,
-          37.8573962
+          -122.2532326,
+          37.8573793
         ]
       }
     },
@@ -45114,6 +45143,8 @@
         "type": "node",
         "id": 8048854205,
         "tags": {
+          "addr:housenumber": "3040",
+          "addr:street": "Claremont Avenue",
           "name": "Head Quarters",
           "shop": "hairdresser"
         }
@@ -45132,6 +45163,8 @@
         "type": "node",
         "id": 8048879236,
         "tags": {
+          "addr:housenumber": "3086",
+          "addr:street": "Claremont Avenue",
           "name": "Dark Carnival",
           "phone": "(510) 654-7323",
           "shop": "books",
@@ -45198,6 +45231,8 @@
         "type": "node",
         "id": 8048891803,
         "tags": {
+          "addr:housenumber": "3088",
+          "addr:street": "Claremont Avenue",
           "name": "Bay Area Properties",
           "office": "estate_agent",
           "shop": "estate_agent",
@@ -45218,6 +45253,7 @@
         "type": "node",
         "id": 8048892376,
         "tags": {
+          "addr:housenumber": "3084",
           "amenity": "cafe",
           "cuisine": "coffee_shop",
           "indoor_seating": "yes",
@@ -45240,6 +45276,7 @@
         "type": "node",
         "id": 8048897096,
         "tags": {
+          "addr:housenumber": "3036",
           "name": "Laszlo's",
           "shop": "interior_decoration",
           "website": "https://www.euroshicfurniture.com/"
@@ -45249,7 +45286,7 @@
         "type": "Point",
         "coordinates": [
           -122.2479939,
-          37.8550183
+          37.8550117
         ]
       }
     },
@@ -45301,7 +45338,11 @@
         "type": "node",
         "id": 8064004960,
         "tags": {
-          "disused:shop": "interior_decoration"
+          "addr:housenumber": "2911",
+          "addr:street": "Claremont Avenue",
+          "check_date": "2025-08-27",
+          "disused:shop": "interior_decoration",
+          "name": "Taylor Blue Home Design"
         }
       },
       "geometry": {
@@ -62918,22 +62959,19 @@
         "id": 10250236416,
         "tags": {
           "addr:city": "Berkeley",
+          "addr:housenumber": "3255",
           "addr:postcode": "94703",
           "addr:state": "CA",
           "addr:street": "Adeline Street",
-          "government": "tax",
-          "name": "Albert J. Harrison, II CPA",
-          "office": "government",
-          "opening_hours": "Mo-Sa 10:00-15:30",
-          "phone": "+1 510-658-4257",
-          "website": "https://ajhcpa.com"
+          "disused:office": "yes",
+          "name": "Albert J. Harrison, II CPA"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2706717,
-          37.8495106
+          -122.2707729,
+          37.8495727
         ]
       }
     },
@@ -87279,8 +87317,10 @@
         "type": "node",
         "id": 12413844546,
         "tags": {
-          "check_date": "2024-12-11",
-          "shop": "antiques"
+          "addr:housenumber": "1979",
+          "addr:street": "Ashby Avenue",
+          "check_date": "2025-08-27",
+          "disused:shop": "antiques"
         }
       },
       "geometry": {
@@ -87312,8 +87352,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.269739,
-          37.8545836
+          -122.2698058,
+          37.8545883
         ]
       }
     },
@@ -96599,7 +96639,9 @@
           "addr:state": "CA",
           "addr:street": "Martin Luther King Junior Way",
           "addr:unit": "2",
-          "disused:shop": "yes"
+          "name": "Prisoners Literature Project",
+          "office": "ngo",
+          "website": "https://www.prisonlit.org"
         }
       },
       "geometry": {
@@ -98397,8 +98439,8 @@
           "addr:postcode": "94703",
           "addr:state": "CA",
           "addr:street": "Alcatraz Avenue",
+          "disused:office": "government",
           "name": "City of Berkeley Mental Health",
-          "office": "government",
           "website": "https://www.lifelongmedical.org/locations/berkeley-dental-care"
         }
       },
@@ -101475,6 +101517,8 @@
         "type": "node",
         "id": 12834762470,
         "tags": {
+          "addr:housenumber": "3230",
+          "addr:street": "Adeline Street",
           "disused:shop": "yes"
         }
       },
@@ -103406,7 +103450,8 @@
           "addr:city": "Berkeley",
           "addr:housenumber": "3048",
           "addr:street": "Claremont Avenue",
-          "disused:shop": "yes"
+          "disused:shop": "yes",
+          "name": "Purusha Yoga"
         }
       },
       "geometry": {
@@ -103739,7 +103784,9 @@
           "addr:state": "CA",
           "addr:street": "Adeline Street",
           "disused:office": "yes",
-          "name": "Berkeley Food and Housing Project"
+          "name": "Berkeley Food and Housing Project",
+          "office": "yes",
+          "website": "https://baylinguisticadvancementcenter.com/"
         }
       },
       "geometry": {
@@ -110000,7 +110047,9 @@
           "addr:city": "Berkeley",
           "addr:housenumber": "2812",
           "addr:street": "Telegraph Avenue",
-          "disused:shop": "yes"
+          "name": "Old Crow Tattoo",
+          "shop": "tattoo",
+          "website": "https://www.oldcrowtattoo.com/"
         }
       },
       "geometry": {
@@ -110261,6 +110310,545 @@
         "coordinates": [
           -122.280807,
           37.8823985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13102782013,
+        "tags": {
+          "addr:housenumber": "3192",
+          "addr:street": "Adeline Street",
+          "name": "FireHouse Arts Collective",
+          "office": "ngo"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2710134,
+          37.8508484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13102782014,
+        "tags": {
+          "name": "Adeline Gallery",
+          "shop": "art"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2709462,
+          37.8509925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13102785073,
+        "tags": {
+          "addr:housenumber": "3115",
+          "addr:street": "Shattuck Avenue",
+          "disused:shop": "yes",
+          "name": "Bleu Honey Beauty Bar"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2660299,
+          37.8525798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13102785074,
+        "tags": {
+          "addr:housenumber": "3119",
+          "addr:street": "Shattuck Avenue",
+          "name": "Vernon Morris Real Estate",
+          "office": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2660099,
+          37.852495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13102785075,
+        "tags": {
+          "addr:housenumber": "2101",
+          "addr:street": "Woolsey Street",
+          "addr:unit": "B",
+          "disused:shop": "yes",
+          "name": "Steve Deutch Woodwinds"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2658908,
+          37.8525035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13102785076,
+        "tags": {
+          "addr:housenumber": "2101",
+          "addr:street": "Woolsey Street",
+          "addr:unit": "A",
+          "disused:shop": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2659138,
+          37.8525021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13102790483,
+        "tags": {
+          "addr:housenumber": "2905",
+          "addr:street": "Shattuck Avenue",
+          "name": "Art House Gallery and Cultural Center",
+          "office": "yes",
+          "website": "https://berkeleyarthouse.wordpress.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2664965,
+          37.8564379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13102790549,
+        "tags": {
+          "addr:housenumber": "2632",
+          "addr:street": "Ashby Avenue",
+          "disused:shop": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2537789,
+          37.856817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13102790550,
+        "tags": {
+          "addr:housenumber": "2638",
+          "addr:street": "Ashby Avenue",
+          "name": "Focal Point Opticians",
+          "shop": "optician"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2536478,
+          37.8568385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13102791430,
+        "tags": {
+          "addr:housenumber": "2915",
+          "addr:street": "Telegraph Avenue",
+          "disused:amenity": "pharmacy",
+          "disused:healthcare": "pharmacy",
+          "name": "Prime Health Pharmacy"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2593429,
+          37.8572163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13102800455,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "3271",
+          "addr:street": "Adeline Street",
+          "disused:office": "yes",
+          "name": "Easy Does it"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2708886,
+          37.8491855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13102800456,
+        "tags": {
+          "addr:housenumber": "3269",
+          "addr:street": "Adeline Street",
+          "disused:office": "yes",
+          "name": "Inter-City Services"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2708295,
+          37.8493534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13102800457,
+        "tags": {
+          "addr:housenumber": "3259",
+          "addr:street": "Adeline Street",
+          "disused:office": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2708014,
+          37.8494577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13102805402,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1855",
+          "addr:street": "Alcatraz Avenue",
+          "name": "Broadblade",
+          "shop": "hairdresser"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2699939,
+          37.8490479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13102805403,
+        "tags": {
+          "addr:housenumber": "3163",
+          "addr:street": "Adeline Street",
+          "name": "Lacis Office",
+          "office": "yes",
+          "website": "https://www.lacis.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2700126,
+          37.8515268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13102806262,
+        "tags": {
+          "addr:housenumber": "3052",
+          "addr:street": "Telegraph Avenue",
+          "disused:shop": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2601667,
+          37.854198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13102806263,
+        "tags": {
+          "addr:housenumber": "3054",
+          "addr:street": "Telegraph Avenue",
+          "disused:shop": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2601733,
+          37.8541537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13102810468,
+        "tags": {
+          "addr:housenumber": "3031",
+          "addr:street": "Telegraph Avenue",
+          "disused:amenity": "pharmacy",
+          "disused:healthcare": "pharmacy"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2596379,
+          37.8550411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13102816531,
+        "tags": {
+          "addr:housenumber": "1989",
+          "addr:street": "Ashby Avenue",
+          "disused:shop": "antiques",
+          "name": "von Hemert Antiques"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2697536,
+          37.8545992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13102816532,
+        "tags": {
+          "addr:housenumber": "2994",
+          "addr:street": "Adeline Street",
+          "disused:shop": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2695239,
+          37.8546875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13102816533,
+        "tags": {
+          "addr:housenumber": "2998",
+          "addr:street": "Adeline Street",
+          "disused:shop": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2695441,
+          37.8546633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13102816856,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "3122",
+          "addr:street": "Shattuck Avenue",
+          "disused:office": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2663294,
+          37.8526592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13102816857,
+        "tags": {
+          "addr:housenumber": "3120",
+          "addr:street": "Shattuck Avenue",
+          "name": "Northern California Land Trust",
+          "office": "ngo",
+          "website": "https://www.nclt.org/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.266337,
+          37.8527036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13102834859,
+        "tags": {
+          "addr:housenumber": "3089",
+          "addr:street": "Telegraph Avenue",
+          "leisure": "fitness_centre",
+          "name": "Immortal Fitness"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2597857,
+          37.8540695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13102856972,
+        "tags": {
+          "addr:housenumber": "2988",
+          "addr:street": "College Avenue",
+          "name": "A & A Mini Mart",
+          "shop": "tobacco"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2531348,
+          37.8563509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13102857444,
+        "tags": {
+          "addr:housenumber": "2967",
+          "addr:street": "College Avenue",
+          "disused:shop": "clothes",
+          "name": "Jeremy's"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2529065,
+          37.8567915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13102867210,
+        "tags": {
+          "addr:housenumber": "3032",
+          "addr:street": "Claremont Avenue",
+          "name": "Claremont Custom Framing",
+          "shop": "frame"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2479741,
+          37.8550666
         ]
       }
     },
