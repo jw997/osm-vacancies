@@ -30847,7 +30847,8 @@
           "addr:postcode": "94710",
           "addr:state": "CA",
           "addr:street": "Gilman Street",
-          "amenity": "dojo",
+          "addr:unit": "110",
+          "disused:amenity": "dojo",
           "name": "Krav Maga Xtreme",
           "phone": "+1-510-495-0971",
           "sport": "krav_maga",
@@ -33701,9 +33702,8 @@
           "addr:state": "CA",
           "addr:street": "University Avenue",
           "amenity": "ice_cream",
-          "name": "Milkbomb Ice Cream",
-          "old_name": "Ici Ice Cream",
-          "phone": "+1 650-501-7268"
+          "name": "Annie’s Ice Cream Gelato",
+          "old_name": "Milkbomb Ice Cream"
         }
       },
       "geometry": {
@@ -33871,10 +33871,10 @@
         "tags": {
           "addr:city": "Berkeley",
           "addr:country": "US",
-          "addr:housenumber": "1821",
+          "addr:housenumber": "1953",
           "addr:postcode": "94707",
           "addr:state": "CA",
-          "addr:street": "Catalina Avenue",
+          "addr:street": "Hopkins St",
           "amenity": "social_facility",
           "name": "Ashby Village",
           "office": "ngo",
@@ -33887,8 +33887,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2795983,
-          37.8922786
+          -122.2736081,
+          37.8872865
         ]
       }
     },
@@ -37373,9 +37373,11 @@
         "type": "node",
         "id": 6659223659,
         "tags": {
+          "addr:housenumber": "2830",
+          "addr:street": "Seventh Street",
+          "disused:shop": "furniture",
           "name": "Berkeley mills",
           "phone": "+15105492854",
-          "shop": "furniture",
           "website": "https://berkeleymills.com/"
         }
       },
@@ -49920,9 +49922,14 @@
         "type": "node",
         "id": 8929034614,
         "tags": {
+          "addr:city": "Berkeley",
+          "addr:country": "US",
+          "addr:housenumber": "700",
+          "addr:postcode": "94710",
+          "addr:state": "CA",
+          "addr:street": "University Avenue",
           "disused:amenity": "restaurant",
-          "opening_hours": "closed",
-          "website": "https://www.berkeleyside.org/2022/10/11/berkeley-oakland-restaurants-closed-augies-deli-the-damel"
+          "old_name": "Brennan's;Berkeley Station;West Berkeley Station"
         }
       },
       "geometry": {
@@ -60927,8 +60934,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.299838,
-          37.8806989
+          -122.2998208,
+          37.880662
         ]
       }
     },
@@ -61513,6 +61520,9 @@
         "type": "node",
         "id": 10082274601,
         "tags": {
+          "addr:housenumber": "950",
+          "addr:street": "Gilman Street",
+          "addr:unit": "101",
           "name": "Atomic machines",
           "office": "company",
           "website": "https://www.atomicmachines.com/"
@@ -61812,8 +61822,11 @@
         "type": "node",
         "id": 10097428798,
         "tags": {
-          "name": "Laurel Burch",
-          "shop": "gift"
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1345",
+          "addr:street": "Eighth Street",
+          "disused:shop": "gift",
+          "name": "Laurel Burch"
         }
       },
       "geometry": {
@@ -95546,7 +95559,7 @@
           "addr:postcode": "94710",
           "addr:state": "CA",
           "addr:street": "Fourth Street",
-          "disused:shop": "yes"
+          "office": "yes"
         }
       },
       "geometry": {
@@ -97298,8 +97311,8 @@
           "addr:postcode": "94710",
           "addr:state": "CA",
           "addr:street": "Gilman Street",
-          "name": "Berkeley Honda Yamaha Parts",
-          "shop": "motorcycle_parts"
+          "disused:shop": "motorcycle_parts",
+          "name": "Berkeley Honda Yamaha Parts"
         }
       },
       "geometry": {
@@ -98860,18 +98873,19 @@
         "id": 12801085768,
         "tags": {
           "addr:city": "Berkeley",
+          "addr:housenumber": "901",
           "addr:postcode": "94710",
           "addr:state": "CA",
           "addr:street": "Gilman",
-          "disused:office": "yes",
-          "name": "Pyramid Brewing"
+          "name": "Ripple Foods",
+          "office": "yes"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.3000997,
-          37.8798605
+          -122.3000358,
+          37.8799265
         ]
       }
     },
@@ -101111,7 +101125,10 @@
           "addr:postcode": "94710",
           "addr:state": "CA",
           "addr:street": "Fourth Street",
-          "disused:shop": "yes"
+          "amenity": "clinic",
+          "healthcare": "clinic",
+          "name": "IVX Health",
+          "website": "https://ivxhealth.com"
         }
       },
       "geometry": {
@@ -105038,7 +105055,7 @@
           "addr:city": "Berkeley",
           "addr:housenumber": "1221",
           "addr:street": "Eighth Street",
-          "amenity": "school",
+          "disused:amenity": "school",
           "name": "The Potters Studio",
           "website": "https://berkeleypottersstudio.org/"
         }
@@ -105121,8 +105138,8 @@
         "tags": {
           "addr:housenumber": "1226",
           "addr:street": "Ninth Street",
-          "name": "Food Matters Again",
-          "office": "yes"
+          "disused:office": "yes",
+          "name": "Food Matters Again"
         }
       },
       "geometry": {
@@ -110849,6 +110866,535 @@
         "coordinates": [
           -122.2479741,
           37.8550666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13104320004,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:country": "US",
+          "addr:housenumber": "2150",
+          "addr:postcode": "94705",
+          "addr:state": "CA",
+          "addr:street": "Dwight Way",
+          "name": "Homeless Action Center",
+          "office": "ngo",
+          "phone": "+1 (510) 540-0878",
+          "source": "local knowledge",
+          "website": "https://homelessactioncenter.org/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2659267,
+          37.8640135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13104391040,
+        "tags": {
+          "addr:housenumber": "1001",
+          "addr:street": "Dwight Way",
+          "disused:shop": "garden_centre",
+          "name": "Yabusaki's Dwight Way Nursery"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.291311,
+          37.8609026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13104835567,
+        "tags": {
+          "addr:housenumber": "2630",
+          "addr:street": "Eighth Street",
+          "disused:office": "yes",
+          "name": "Consolidated Printing"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2922205,
+          37.8574273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13104835568,
+        "tags": {
+          "addr:housenumber": "2620",
+          "addr:street": "Eighth Street",
+          "disused:office": "yes",
+          "name": "Consolidated Printing"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2922648,
+          37.8576098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13104835569,
+        "tags": {
+          "addr:housenumber": "905",
+          "addr:street": "Carleton Street",
+          "disused:office": "yes",
+          "name": "Consolidated Printing"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2928794,
+          37.8571711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13105095277,
+        "tags": {
+          "addr:housenumber": "2315",
+          "addr:street": "Fifth Street",
+          "disused:office": "research"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2969723,
+          37.8627873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13105095278,
+        "tags": {
+          "addr:housenumber": "2323",
+          "addr:street": "Fifth Street",
+          "disused:office": "research"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2969207,
+          37.862634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13105095279,
+        "tags": {
+          "addr:housenumber": "2325",
+          "addr:street": "Fifth Street",
+          "disused:office": "research"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2968936,
+          37.8625292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13105099493,
+        "tags": {
+          "addr:housenumber": "1225",
+          "addr:street": "Eighth Street",
+          "disused:office": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2990878,
+          37.8804442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13105109898,
+        "tags": {
+          "addr:housenumber": "729",
+          "addr:street": "Dwight Way",
+          "office": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2968907,
+          37.859754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13105109899,
+        "tags": {
+          "addr:housenumber": "723",
+          "addr:street": "Dwight Way",
+          "craft": "hvac",
+          "name": "Aarvaks Heating & Air Conditioning",
+          "website": "https://aarvaks.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2971196,
+          37.8597211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13105121894,
+        "tags": {
+          "addr:housenumber": "2895",
+          "addr:street": "Seventh Street",
+          "disused:amenity": "clinic",
+          "disused:healthcare": "dialysis",
+          "healthcare:speciality": "nephrology",
+          "name": "Fresenius Medical Care Berkeley",
+          "operator": "Fresenius Medical Care",
+          "operator:type": "private",
+          "operator:wikidata": "Q650259"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2914131,
+          37.8529594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13105121960,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2531",
+          "addr:street": "Ninth Street",
+          "disused:office": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2912005,
+          37.8593943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13105121961,
+        "tags": {
+          "addr:housenumber": "2550",
+          "addr:street": "Ninth Street",
+          "disused:office": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2918029,
+          37.8599106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13105121962,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2550",
+          "addr:street": "Ninth Street",
+          "name": "Mal Warwick Donordigital",
+          "office": "yes",
+          "website": "https://mwdagency.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2917832,
+          37.8597981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13105121963,
+        "tags": {
+          "addr:housenumber": "2560",
+          "addr:street": "Ninth Street",
+          "name": "Vivacare",
+          "office": "yes",
+          "website": "http://vivacare.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.291648,
+          37.8593865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13105130000,
+        "tags": {
+          "addr:housenumber": "2910",
+          "addr:street": "Seventh Street",
+          "disused:office": "company",
+          "name": "pivot bio"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.292185,
+          37.852577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13105135901,
+        "tags": {
+          "addr:housenumber": "890",
+          "addr:street": "Heinz Avenue",
+          "disused:office": "yes",
+          "name": "AGC Biologics"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2925243,
+          37.853138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13105137662,
+        "tags": {
+          "addr:housenumber": "1456",
+          "addr:street": "Fourth Street",
+          "addr:unit": "C",
+          "name": "Lumiphore",
+          "office": "research",
+          "website": "https://lumiphore.com"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3024303,
+          37.8749681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13105146592,
+        "tags": {
+          "addr:housenumber": "2427",
+          "addr:street": "Fourth Street",
+          "disused:office": "yes",
+          "name": "Graysix"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2973736,
+          37.8602991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13105153033,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1338",
+          "addr:street": "Seventh Street",
+          "disused:office": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3000975,
+          37.8782005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13105167536,
+        "tags": {
+          "addr:housenumber": "1320",
+          "addr:street": "Ninth Street",
+          "disused:office": "yes",
+          "name": "Pedco Machine Shop"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2980836,
+          37.8791536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13105177256,
+        "tags": {
+          "addr:housenumber": "1260",
+          "addr:street": "Sixth Street",
+          "disused:office": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.301688,
+          37.8797688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13105177257,
+        "tags": {
+          "addr:housenumber": "1270",
+          "addr:street": "Sixth Street",
+          "disused:office": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3016462,
+          37.8796602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13105177258,
+        "tags": {
+          "addr:housenumber": "1280",
+          "addr:street": "Sixth Street",
+          "disused:office": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3016315,
+          37.8795981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13105194716,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1206",
+          "addr:street": "Fifth Street",
+          "disused:office": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3032582,
+          37.8805599
         ]
       }
     },
@@ -157869,83 +158415,6 @@
             [
               -122.2995062,
               37.8702776
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "way",
-        "id": 187441522,
-        "tags": {
-          "addr:city": "Berkeley",
-          "addr:country": "US",
-          "addr:housenumber": "700",
-          "addr:postcode": "94710",
-          "addr:state": "CA",
-          "addr:street": "University Avenue",
-          "building": "train_station",
-          "disused:amenity": "pub",
-          "old_name": "Brennan's;Berkeley Station;West Berkeley Station"
-        },
-        "nodes": [
-          1981316348,
-          1981316345,
-          1981316341,
-          1981316330,
-          1981316209,
-          1981316212,
-          1981316216,
-          1981316218,
-          1981316214,
-          1981316348
-        ]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -122.3004842,
-              37.8668688
-            ],
-            [
-              -122.3004986,
-              37.8669185
-            ],
-            [
-              -122.3004713,
-              37.8669234
-            ],
-            [
-              -122.3005397,
-              37.8671592
-            ],
-            [
-              -122.3007021,
-              37.8671299
-            ],
-            [
-              -122.3006036,
-              37.8667984
-            ],
-            [
-              -122.3005517,
-              37.8667891
-            ],
-            [
-              -122.3005382,
-              37.8668209
-            ],
-            [
-              -122.3005495,
-              37.866857
-            ],
-            [
-              -122.3004842,
-              37.8668688
             ]
           ]
         ]
