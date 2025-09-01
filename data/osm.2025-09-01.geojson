@@ -31309,10 +31309,9 @@
           "addr:country": "US",
           "addr:housenumber": "1085",
           "addr:state": "CA",
-          "check_date": "2025-08-31",
+          "check_date": "2023-08-19",
           "contact:phone": "+1-510-548-9900",
           "name": "Reliable Parts",
-          "opening_hours": "Mo-Fr 08:00-16:00",
           "shop": "repair",
           "website": "https://www.reliableparts.com/"
         }
@@ -32110,7 +32109,7 @@
           "addr:housenumber": "1500",
           "addr:street": "Ashby Avenue",
           "amenity": "dojo",
-          "check_date": "2025-08-31",
+          "check_date": "2023-08-19",
           "name": "Ralph Gracie Jiu-Jitsu Academy",
           "phone": "+1 510-486-8000",
           "sport": "jiu-jitsu;fitness"
@@ -52442,8 +52441,10 @@
           "addr:housenumber": "2991",
           "addr:street": "Sacramento Street",
           "amenity": "post_office",
-          "check_date": "2025-08-31",
-          "name": "Sacramento Mailboxes"
+          "brand": "FedEx Office",
+          "brand:wikidata": "Q474379",
+          "name": "FedEx Office",
+          "shop": "copyshop"
         }
       },
       "geometry": {
@@ -52489,7 +52490,6 @@
         "tags": {
           "addr:housenumber": "2997",
           "addr:street": "Sacramento Street",
-          "check_date": "2025-08-31",
           "name": "US Liquor",
           "shop": "alcohol"
         }
@@ -74230,9 +74230,8 @@
         "type": "node",
         "id": 11128710743,
         "tags": {
-          "check_date": "2025-08-31",
+          "check_date": "2023-08-19",
           "name": "Mancini's Sleep World",
-          "opening_hours": "Mo-Fr 10:00-20:00; Sa-Su 10:00-19:00",
           "shop": "bed"
         }
       },
@@ -111398,26 +111397,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "node",
-        "id": 13111341287,
-        "tags": {
-          "check_date": "2025-08-31",
-          "name": "Mid Century Møbler",
-          "opening_hours": "Sa 10:00-15:00",
-          "shop": "furniture"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.2879587,
-          37.8522799
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "type": "way",
         "id": 7805676,
         "tags": {
@@ -133743,7 +133722,6 @@
           "branch": "Berkeley",
           "brand": "Outdoor Supply Hardware",
           "brand:wikidata": "Q119104427",
-          "check_date": "2025-08-31",
           "email": "berkeleyecomm@outdoorsupplyhardware.com",
           "name": "Outdoor Supply Hardware",
           "old_name": "Orchard Supply Hardware",
