@@ -549,7 +549,7 @@ function getPointFromeature(feature) {
 	} else if (fType == 'Polygon') {
 		retval = geom.coordinates[0][0];
 	} else if (fType == 'LineString') {
-		retval = geom.coordinates[0][0];
+		retval = geom.coordinates[0];
 	} else if (fType == 'MultiPolygon') {
 		retval = geom.coordinates[0][0][0];
 	}
@@ -742,7 +742,7 @@ function addMarkers(osmJson,
 		const bVacant = !bShop && isVacant(tags);
 		const bLand = isLand(tags);
 
-		//	console.log("Name:", tags.name, " shop:", bShop, " vacant:", bVacant);
+		//console.log("Name:", tags.name, " shop:", bShop, " vacant:", bVacant);
 
 		if (filterShop) {
 			if (bShop) {

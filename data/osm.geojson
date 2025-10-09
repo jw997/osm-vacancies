@@ -4332,6 +4332,7 @@
           "brand": "Starbucks",
           "brand:wikidata": "Q37158",
           "cuisine": "coffee_shop",
+          "disused:shop": "coffee",
           "indoor_seating": "yes",
           "internet_access": "wlan",
           "internet_access:fee": "no",
@@ -4340,7 +4341,6 @@
           "opening_hours": "Mo-Fr 05:30-17:30; Sa 07:00-18:00; Su 07:00-17:00",
           "outdoor_seating": "sidewalk",
           "phone": "+1 510-525-5885",
-          "shop": "coffee",
           "source:name": "sign on building",
           "takeaway": "yes",
           "website": "https://www.starbucks.com/store-locator/store/12168/solano-ave-1799-solano-avenue-berkeley-ca-947072209-us",
@@ -7137,7 +7137,8 @@
           "addr:street": "Telegraph Avenue",
           "amenity": "restaurant",
           "cuisine": "chinese",
-          "name": "Pixiu Mala Hongtang"
+          "name": "Pixiu Mala Hongtang",
+          "opening_hours": "Mo-Su 11:30-24:00"
         }
       },
       "geometry": {
@@ -10066,8 +10067,13 @@
           "addr:housenumber": "1640",
           "addr:state": "CA",
           "addr:street": "Martin Luther King Jr Way",
-          "name": "Chop Salon",
+          "check_date": "2025-10-02",
+          "name": "Peter Thomas Hair",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
           "shop": "hairdresser",
+          "website": "http://www.peterthomashair.com",
           "wheelchair": "yes"
         }
       },
@@ -33371,8 +33377,9 @@
         "tags": {
           "amenity": "cafe",
           "indoor_seating": "no",
-          "name": "The Cro Cafe",
+          "name": "Alleyway Cafe",
           "outdoor_seating": "sidewalk",
+          "was:name": "The Cro Cafe",
           "wheelchair": "yes"
         }
       },
@@ -37633,7 +37640,8 @@
           "addr:street": "Telegraph Avenue",
           "amenity": "restaurant",
           "cuisine": "korean",
-          "name": "Hancook"
+          "name": "Mugunghwa",
+          "was:name": "Hancook"
         }
       },
       "geometry": {
@@ -37800,10 +37808,11 @@
           "addr:housenumber": "4915",
           "addr:street": "Telegraph Avenue",
           "amenity": "restaurant",
+          "bar": "yes",
           "indoor_seating": "yes",
           "name": "North light",
           "opening_hours": "Mo-Fr 11:00-00:00; Sa, Su 09:00-00:00",
-          "outdoor_seating": "parklet"
+          "outdoor_seating": "parklet;patio"
         }
       },
       "geometry": {
@@ -42304,7 +42313,8 @@
         "tags": {
           "amenity": "bicycle_parking",
           "bicycle_parking": "wave",
-          "capacity": "4"
+          "capacity": "4",
+          "covered": "no"
         }
       },
       "geometry": {
@@ -48556,7 +48566,8 @@
         "type": "node",
         "id": 8665199622,
         "tags": {
-          "amenity": "dentist"
+          "amenity": "dentist",
+          "name": "Your Dental Story"
         }
       },
       "geometry": {
@@ -61752,6 +61763,7 @@
         "id": 10086640635,
         "tags": {
           "amenity": "vending_machine",
+          "check_date": "2025-09-26",
           "vending": "newspapers"
         }
       },
@@ -78347,29 +78359,6 @@
         "coordinates": [
           -122.2583082,
           37.8647448
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 11517915562,
-        "tags": {
-          "amenity": "bench",
-          "backrest": "yes",
-          "colour": "brown",
-          "covered": "yes",
-          "direction": "105",
-          "material": "wood",
-          "seats": "4"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.2644598,
-          37.8295551
         ]
       }
     },
@@ -97051,11 +97040,14 @@
           "addr:state": "CA",
           "addr:street": "Shattuck Avenue",
           "amenity": "cafe",
-          "check_date": "2025-08-26",
+          "check_date": "2025-09-26",
           "contact:instagram": "https://www.instagram.com/foresteabar",
-          "cuisine": "japanese;coffee_shop;tea;tea_shop;teahouse",
+          "cuisine": "japanese;tea;tea_shop;teahouse",
+          "drive_through": "no",
           "name": "Forest Tea Bar",
           "outdoor_seating": "yes",
+          "payment:cash": "no",
+          "payment:credit_cards": "yes",
           "website": "https://forestea.live/"
         }
       },
@@ -111481,6 +111473,87 @@
     {
       "type": "Feature",
       "properties": {
+        "type": "node",
+        "id": 13174842659,
+        "tags": {
+          "amenity": "bench",
+          "architect": "San Francisco Bay Area Bench Collective",
+          "backrest": "yes",
+          "material": "wood"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2748304,
+          37.885199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13174842660,
+        "tags": {
+          "amenity": "bench",
+          "architect": "San Francisco Bay Area Bench Collective",
+          "backrest": "yes",
+          "material": "wood"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2741665,
+          37.8812727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13174842661,
+        "tags": {
+          "amenity": "bench",
+          "architect": "San Francisco Bay Area Bench Collective",
+          "backrest": "yes",
+          "colour": "brown",
+          "material": "wood"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2604463,
+          37.8768393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13174842662,
+        "tags": {
+          "amenity": "bench",
+          "architect": "San Francisco Bay Area Bench Collective",
+          "colour": "brown",
+          "material": "wood"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2707871,
+          37.8530425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "type": "way",
         "id": 7805676,
         "tags": {
@@ -125777,6 +125850,7 @@
         "type": "way",
         "id": 32894498,
         "tags": {
+          "access": "customers",
           "amenity": "parking",
           "capacity": "250",
           "capacity:disabled": "5",
@@ -141928,7 +142002,7 @@
           "building": "retail",
           "healthcare": "pharmacy",
           "name": "CVS Pharmacy",
-          "opening_hours": "Mo-Su 08:00-22:00",
+          "opening_hours": "Mo-Fr 10:00-13:30,14:00-20:00; Su 11:00-13:30,14:00-17:00; Sa 10:00-13:30,14:00-18:00",
           "phone": "510-549-9063",
           "short_name": "CVS",
           "website": "https://www.cvs.com/store-locator/cvs-pharmacy-address/2655+Telegraph+Ave-Berkeley-CA-94704/storeid=10121"
@@ -155558,7 +155632,9 @@
         "tags": {
           "addr:city": "Berkeley",
           "leisure": "pitch",
-          "sport": "tennis"
+          "lit": "yes",
+          "sport": "tennis",
+          "surface": "acrylic"
         },
         "nodes": [
           1929808510,
@@ -155696,7 +155772,9 @@
         "tags": {
           "addr:city": "Berkeley",
           "leisure": "pitch",
-          "sport": "tennis"
+          "lit": "yes",
+          "sport": "tennis",
+          "surface": "acrylic"
         },
         "nodes": [
           1929808525,
@@ -155787,7 +155865,9 @@
         "tags": {
           "addr:city": "Berkeley",
           "leisure": "pitch",
-          "sport": "tennis"
+          "lit": "yes",
+          "sport": "tennis",
+          "surface": "acrylic"
         },
         "nodes": [
           1929808533,
@@ -162964,10 +163044,10 @@
           "addr:housenumber": "1509",
           "addr:street": "Fourth Street",
           "check_date": "2023-06-28",
+          "disused:shop": "garden_centre",
           "level": "0",
           "name": "Cactus Jungle",
           "opening_hours": "Tu-Su 09:30-17:00",
-          "shop": "garden_centre",
           "website": "https://www.cactusjungle.com/",
           "wheelchair": "yes"
         },
@@ -162985,49 +163065,47 @@
         ]
       },
       "geometry": {
-        "type": "Polygon",
+        "type": "LineString",
         "coordinates": [
           [
-            [
-              -122.3019449,
-              37.8743641
-            ],
-            [
-              -122.3017323,
-              37.8744073
-            ],
-            [
-              -122.3016617,
-              37.8744217
-            ],
-            [
-              -122.3015228,
-              37.8744499
-            ],
-            [
-              -122.3015681,
-              37.8745889
-            ],
-            [
-              -122.3015846,
-              37.8745855
-            ],
-            [
-              -122.3017723,
-              37.8745474
-            ],
-            [
-              -122.3018626,
-              37.874529
-            ],
-            [
-              -122.3019903,
-              37.8745031
-            ],
-            [
-              -122.3019449,
-              37.8743641
-            ]
+            -122.3019449,
+            37.8743641
+          ],
+          [
+            -122.3017323,
+            37.8744073
+          ],
+          [
+            -122.3016617,
+            37.8744217
+          ],
+          [
+            -122.3015228,
+            37.8744499
+          ],
+          [
+            -122.3015681,
+            37.8745889
+          ],
+          [
+            -122.3015846,
+            37.8745855
+          ],
+          [
+            -122.3017723,
+            37.8745474
+          ],
+          [
+            -122.3018626,
+            37.874529
+          ],
+          [
+            -122.3019903,
+            37.8745031
+          ],
+          [
+            -122.3019449,
+            37.8743641
           ]
         ]
       }
@@ -195375,12 +195453,12 @@
               37.8346962
             ],
             [
-              -122.263187,
-              37.8346252
+              -122.2631696,
+              37.8346223
             ],
             [
-              -122.2631581,
-              37.8347128
+              -122.2631461,
+              37.8347108
             ],
             [
               -122.2636433,
