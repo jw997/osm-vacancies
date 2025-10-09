@@ -1755,7 +1755,8 @@
         "type": "node",
         "id": 308302802,
         "tags": {
-          "amenity": "drinking_water"
+          "amenity": "drinking_water",
+          "fountain": "bubbler"
         }
       },
       "geometry": {
@@ -120532,7 +120533,9 @@
         "tags": {
           "addr:city": "Berkeley",
           "leisure": "pitch",
-          "sport": "basketball"
+          "lit": "yes",
+          "sport": "basketball",
+          "surface": "acrylic"
         },
         "nodes": [
           305040813,
@@ -165442,7 +165445,9 @@
         "tags": {
           "addr:city": "Berkeley",
           "leisure": "pitch",
-          "sport": "basketball"
+          "lit": "yes",
+          "sport": "basketball",
+          "surface": "acrylic"
         },
         "nodes": [
           2205390725,
@@ -396194,8 +396199,10 @@
         "type": "way",
         "id": 1412918061,
         "tags": {
+          "access": "private",
           "amenity": "parking",
-          "capacity": "15"
+          "capacity": "15",
+          "parking": "surface"
         },
         "nodes": [
           12984556159,
@@ -396259,8 +396266,10 @@
         "type": "way",
         "id": 1412918062,
         "tags": {
+          "access": "private",
           "amenity": "parking",
-          "capacity": "19"
+          "capacity": "19",
+          "parking": "surface"
         },
         "nodes": [
           12984556167,
@@ -422617,8 +422626,10 @@
         "type": "way",
         "id": 1414765093,
         "tags": {
+          "access": "private",
           "amenity": "parking",
-          "capacity": "9"
+          "capacity": "9",
+          "parking": "surface"
         },
         "nodes": [
           13000440561,
@@ -440125,6 +440136,100 @@
             [
               -122.2916664,
               37.8659474
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1436594171,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2129",
+          "addr:street": "Grant Street",
+          "landuse": "brownfield"
+        },
+        "nodes": [
+          13204055804,
+          13204055805,
+          13204055806,
+          13204055807,
+          13204055804
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2749369,
+              37.8691928
+            ],
+            [
+              -122.2749517,
+              37.8693123
+            ],
+            [
+              -122.2745142,
+              37.8693634
+            ],
+            [
+              -122.2744935,
+              37.8692499
+            ],
+            [
+              -122.2749369,
+              37.8691928
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1436594172,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2114",
+          "addr:street": "McKinley Avenue",
+          "landuse": "brownfield"
+        },
+        "nodes": [
+          13204055808,
+          13204055809,
+          13204055810,
+          13204055811,
+          13204055808
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2745565,
+              37.8697907
+            ],
+            [
+              -122.2745313,
+              37.8696619
+            ],
+            [
+              -122.2740916,
+              37.8697148
+            ],
+            [
+              -122.274113,
+              37.8698419
+            ],
+            [
+              -122.2745565,
+              37.8697907
             ]
           ]
         ]
