@@ -5976,37 +5976,6 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 361220488,
-        "tags": {
-          "addr:city": "Berkeley",
-          "addr:country": "US",
-          "addr:housenumber": "100",
-          "addr:postcode": "94710",
-          "addr:state": "CA",
-          "addr:street": "Seawall Drive",
-          "amenity": "restaurant",
-          "contact:instagram": "skatesonthebaysf",
-          "cuisine": "seafood",
-          "drive_in": "no",
-          "name": "Skates on the Bay",
-          "opening_hours": "Mo-Su 11:00-22:00",
-          "phone": "+1 510 5491900",
-          "smoking": "no",
-          "website": "https://skatesonthebay.com"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.317987,
-          37.86365
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
         "id": 365795396,
         "tags": {
           "addr:city": "Berkeley",
@@ -8601,7 +8570,12 @@
         "type": "node",
         "id": 539604084,
         "tags": {
-          "amenity": "bicycle_parking"
+          "amenity": "bicycle_parking",
+          "bicycle_parking": "stands",
+          "capacity": "4",
+          "check_date": "2025-10-15",
+          "check_date:capacity": "2025-10-15",
+          "covered": "no"
         }
       },
       "geometry": {
@@ -8618,7 +8592,9 @@
         "type": "node",
         "id": 539604086,
         "tags": {
-          "amenity": "drinking_water"
+          "amenity": "drinking_water",
+          "check_date": "2025-10-15",
+          "fountain": "bubbler"
         }
       },
       "geometry": {
@@ -9484,6 +9460,8 @@
         "type": "node",
         "id": 623752524,
         "tags": {
+          "addr:housenumber": "3201",
+          "addr:street": "College Avenue",
           "amenity": "restaurant",
           "cuisine": "japanese",
           "indoor_seating": "yes",
@@ -9510,7 +9488,7 @@
           "amenity": "restaurant",
           "cuisine": "indian",
           "indoor_seating": "yes",
-          "name": "Flavors Of India",
+          "name": "Chandni Chowk",
           "outdoor_seating": "no",
           "wheelchair": "yes"
         }
@@ -10074,7 +10052,7 @@
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
           "shop": "hairdresser",
-          "website": "http://www.peterthomashair.com",
+          "website": "https://www.peterthomashair.com/",
           "wheelchair": "yes"
         }
       },
@@ -10855,32 +10833,17 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 1193723955,
-        "tags": {
-          "amenity": "post_box"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4205897,
-          37.7536611
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
         "id": 1193723957,
         "tags": {
           "addr:housenumber": "1199",
           "addr:postcode": "94110",
           "addr:street": "Valencia Street",
           "amenity": "restaurant",
-          "check_date": "2025-02-11",
+          "check_date": "2025-10-30",
+          "check_date:opening_hours": "2025-10-30",
           "cuisine": "italian",
           "name": "Beretta",
+          "opening_hours": "Mo-Th 17:00-22:00; Fr 17:00-23:30; Sa 11:00-23:30; Su 11:00-22:00",
           "source": "http://berettasf.com",
           "website": "https://berettasf.com/"
         }
@@ -11596,7 +11559,7 @@
         "type": "node",
         "id": 1326065139,
         "tags": {
-          "access": "public",
+          "access": "yes",
           "amenity": "toilets",
           "drinking_water": "no",
           "operator": "City of Berkeley",
@@ -11608,8 +11571,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.3196952,
-          37.872142
+          -122.3198435,
+          37.8721729
         ]
       }
     },
@@ -13185,14 +13148,15 @@
         "type": "node",
         "id": 1659965258,
         "tags": {
-          "amenity": "bench"
+          "amenity": "bench",
+          "direction": "220"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.3222468,
-          37.8715933
+          -122.3222551,
+          37.8715985
         ]
       }
     },
@@ -13202,14 +13166,15 @@
         "type": "node",
         "id": 1659965263,
         "tags": {
-          "amenity": "bench"
+          "amenity": "bench",
+          "direction": "240"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.3225023,
-          37.8719067
+          -122.3225101,
+          37.8719089
         ]
       }
     },
@@ -13219,14 +13184,15 @@
         "type": "node",
         "id": 1659965267,
         "tags": {
-          "amenity": "bench"
+          "amenity": "bench",
+          "direction": "240"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.3226894,
-          37.8722049
+          -122.3227053,
+          37.8722033
         ]
       }
     },
@@ -13242,8 +13208,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.3228861,
-          37.8725003
+          -122.3229004,
+          37.8725009
         ]
       }
     },
@@ -14139,10 +14105,8 @@
           "amenity": "restaurant",
           "contact:instagram": "thaicornergilman",
           "cuisine": "thai",
-          "name": "Thai Corner",
-          "opening_hours": "Tu-Su 11:30-21:30",
-          "phone": "+1-510-647-9300",
-          "website": "https://www.thaicornergilman.com/"
+          "name": "PRAAW (พราว) Thai Berkeley",
+          "website": "https://www.instagram.com/praawthai/"
         }
       },
       "geometry": {
@@ -21243,6 +21207,7 @@
           "amenity": "drinking_water",
           "bottle": "yes",
           "description": "Grove Park Playground open drain fountain - kids love playing with it!",
+          "fountain": "bubbler",
           "source": "wetap.org",
           "wetap:status": "working"
         }
@@ -27152,25 +27117,6 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 3455918284,
-        "tags": {
-          "access": "customers",
-          "amenity": "toilets",
-          "toilets:disposal": "flush"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.3170611,
-          37.8690097
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
         "id": 3455918285,
         "tags": {
           "access": "customers",
@@ -27949,10 +27895,13 @@
           "addr:postcode": "94704",
           "addr:street": "Telegraph Avenue",
           "amenity": "restaurant",
+          "check_date": "2025-10-14",
           "contact:website": "http://places.singleplatform.com/sliver/menu?ref=openstreetmap",
           "cuisine": "pizza",
           "name": "Sliver Pizzeria",
           "outdoor_seating": "no",
+          "payment:cash": "no",
+          "payment:credit_cards": "yes",
           "phone": "(510) 356-4044",
           "smoking": "no",
           "takeaway": "yes",
@@ -30315,7 +30264,7 @@
         "id": 4175494491,
         "tags": {
           "name": "La Foot",
-          "opening_hours": "Tu-Sa 11:00-17:00",
+          "opening_hours": "Tu-Fr 11:00-17:00; Sa 10:00-17:00",
           "shop": "shoes"
         }
       },
@@ -30707,13 +30656,19 @@
           "addr:state": "CA",
           "addr:street": "San Pablo Avenue",
           "amenity": "cafe",
+          "check_date": "2025-10-27",
           "contact:instagram": "caffechiave",
           "cuisine": "coffee_shop",
           "disused:leisure": "music_venue",
+          "internet_access": "wlan",
+          "internet_access:fee": "customers",
           "name": "Caffe Chiave",
           "old_name": "Caffe Trieste",
           "opening_hours": "Mo-Su 07:00-15:00",
-          "website": "https://caffechiave.com"
+          "outdoor_seating": "sidewalk",
+          "phone": "+1 (510) 548-5198",
+          "website": "https://caffechiave.com",
+          "wheelchair": "yes"
         }
       },
       "geometry": {
@@ -39413,14 +39368,16 @@
           "addr:city": "Berkeley",
           "addr:housenumber": "1919",
           "addr:street": "Shattuck Avenue",
-          "brand": "Noah's Bagels",
-          "brand:wikidata": "Q64517373",
-          "cuisine": "bagel",
-          "disused:amenity": "fast_food",
-          "not:name": "Noah's Bagels",
-          "official_name": "Noah's New York Bagels",
-          "source:name": "sign on building",
-          "takeaway": "yes"
+          "amenity": "fast_food",
+          "brand": "Mendocino Farms",
+          "brand:wikidata": "Q110671982",
+          "cuisine": "sandwich",
+          "disused:name": "Noah's NY Bagels",
+          "name": "Mendocino Farms",
+          "opening_hours": "Mo-Su 10:00-21:00",
+          "phone": "+1-510-809-2933",
+          "takeaway": "yes",
+          "website": "https://www.mendocinofarms.com/locations/Berkeley"
         }
       },
       "geometry": {
@@ -44129,10 +44086,13 @@
         "type": "node",
         "id": 7952807703,
         "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2887",
+          "addr:street": "College Avenue",
+          "disused:shop": "hairdresser",
           "name": "Anton Salon",
           "opening_hours": "Tu-Su 10:00-19:00",
           "phone": "(510) 647-8866",
-          "shop": "hairdresser",
           "website": "http://www.antonsalon.com"
         }
       },
@@ -47360,12 +47320,16 @@
         "id": 8241631295,
         "tags": {
           "addr:housenumber": "2626",
+          "addr:postcode": "94702",
           "addr:street": "San Pablo Avenue",
           "amenity": "cafe",
           "check_date": "2025-06-18",
+          "contact:facebook": "FarLeaves",
           "contact:instagram": "far_leaves_tea",
+          "indoor_seating": "yes",
           "name": "Far Leaves Tea",
           "opening_hours": "Mo-Fr 14:00-19:00; Sa-Su 13:00-19:00",
+          "phone": "+1 510-665-9409",
           "website": "https://www.farleaves.com/"
         }
       },
@@ -48486,36 +48450,20 @@
         "type": "node",
         "id": 8618172301,
         "tags": {
-          "name": "Atheta",
+          "addr:housenumber": "1737",
+          "addr:street": "Fourth Street",
+          "brand": "Athleta",
+          "brand:wikidata": "Q105722424",
+          "clothes": "women",
+          "name": "Athleta",
           "shop": "clothes"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.3007547,
-          37.8708582
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 8618177872,
-        "tags": {
-          "brand": "BoConcept",
-          "brand:wikidata": "Q11338915",
-          "name": "BoConcept",
-          "opening_hours": "Mo-Sa 10:00-18:00; Su 11:00-18:00",
-          "shop": "furniture"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.3008303,
-          37.8709976
+          -122.3007522,
+          37.870833
         ]
       }
     },
@@ -55729,6 +55677,7 @@
         "tags": {
           "amenity": "bicycle_rental",
           "bicycle_rental": "docking_station",
+          "capacity": "19",
           "network": "Bay Wheels",
           "operator": "Lyft"
         }
@@ -62394,6 +62343,9 @@
         "type": "node",
         "id": 10177204007,
         "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1733",
+          "addr:street": "Fourth Street",
           "name": "Vinfast",
           "shop": "car"
         }
@@ -62401,8 +62353,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.3006434,
-          37.8709479
+          -122.3007713,
+          37.8709071
         ]
       }
     },
@@ -62964,14 +62916,19 @@
         "type": "node",
         "id": 10210978763,
         "tags": {
-          "shop": "clothes"
+          "addr:housenumber": "2747",
+          "addr:street": "San Pablo Avenue",
+          "addr:unit": "A",
+          "name": "Bay Area Dancewear",
+          "shop": "clothes",
+          "website": "https://bayareadancewear.com"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2876815,
-          37.8560685
+          -122.2877284,
+          37.85606
         ]
       }
     },
@@ -63810,7 +63767,8 @@
         "tags": {
           "amenity": "bicycle_parking",
           "bicycle_parking": "wall_loops",
-          "capacity": "5"
+          "capacity": "5",
+          "covered": "no"
         }
       },
       "geometry": {
@@ -67989,8 +67947,10 @@
         "id": 10711245259,
         "tags": {
           "amenity": "cafe",
-          "check_date": "2025-02-04",
-          "name": "Upfordayz"
+          "check_date": "2025-10-30",
+          "check_date:opening_hours": "2025-10-30",
+          "name": "Upfordayz",
+          "opening_hours": "Su-Th 09:00-22:00, Fr,Sa 09:00-24:00"
         }
       },
       "geometry": {
@@ -71208,7 +71168,8 @@
         "type": "node",
         "id": 10915923564,
         "tags": {
-          "amenity": "bench"
+          "amenity": "bench",
+          "backrest": "yes"
         }
       },
       "geometry": {
@@ -76116,6 +76077,7 @@
         "id": 11247451436,
         "tags": {
           "amenity": "vending_machine",
+          "check_date": "2025-10-12",
           "vending": "excrement_bags"
         }
       },
@@ -88161,6 +88123,7 @@
           "amenity": "post_box",
           "collection_times": "Mo-Fr 09:45; Sa 09:30",
           "drive_through": "no",
+          "indoor": "no",
           "operator": "United States Postal Service",
           "operator:short": "USPS",
           "operator:type": "public",
@@ -89722,6 +89685,8 @@
           "addr:housenumber": "1731",
           "addr:postcode": "94710",
           "addr:street": "Fourth Street",
+          "brand": "Tesla",
+          "brand:wikidata": "Q478214",
           "name": "Tesla Showroom",
           "opening_hours": "Mo-Sa 10:00-19:00; Su 11:00-18:00",
           "shop": "car"
@@ -89730,8 +89695,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.3006498,
-          37.8710198
+          -122.3007973,
+          37.8709985
         ]
       }
     },
@@ -106163,7 +106128,9 @@
         "type": "node",
         "id": 12926848471,
         "tags": {
-          "amenity": "parking_entrance"
+          "access": "private",
+          "amenity": "parking_entrance",
+          "parking": "multi-storey"
         }
       },
       "geometry": {
@@ -106197,8 +106164,10 @@
         "type": "node",
         "id": 12926848475,
         "tags": {
-          "amenity": "parking",
-          "capacity": "25"
+          "access": "customers",
+          "amenity": "parking_entrance",
+          "capacity": "25",
+          "parking": "surface"
         }
       },
       "geometry": {
@@ -109554,28 +109523,6 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 13095407493,
-        "tags": {
-          "addr:housenumber": "2747",
-          "addr:street": "San Pablo Avenue",
-          "addr:unit": "A",
-          "name": "Bay Area Dancewear",
-          "shop": "clothes",
-          "website": "https://bayareadancewear.com"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.2877329,
-          37.8560569
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
         "id": 13095407494,
         "tags": {
           "addr:housenumber": "2747",
@@ -111555,6 +111502,224 @@
     {
       "type": "Feature",
       "properties": {
+        "type": "node",
+        "id": 13238564654,
+        "tags": {
+          "access": "private",
+          "amenity": "parking_entrance"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2872793,
+          37.8545474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13238564658,
+        "tags": {
+          "amenity": "waste_basket"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.287368,
+          37.8547197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13238564659,
+        "tags": {
+          "amenity": "bench"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2873924,
+          37.8547864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13238564672,
+        "tags": {
+          "access": "customers",
+          "amenity": "parking_entrance"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2875058,
+          37.8554858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13238564676,
+        "tags": {
+          "access": "private",
+          "amenity": "parking_entrance"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.287699,
+          37.8558244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13238564677,
+        "tags": {
+          "amenity": "bicycle_parking",
+          "bicycle_parking": "stands",
+          "capacity": "4"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.287775,
+          37.8559628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13238564678,
+        "tags": {
+          "amenity": "bicycle_parking",
+          "bicycle_parking": "stands",
+          "capacity": "4"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2878072,
+          37.8560523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13238564688,
+        "tags": {
+          "access": "customers",
+          "amenity": "parking_entrance"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2881986,
+          37.8574041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13238589652,
+        "tags": {
+          "amenity": "bicycle_parking",
+          "bicycle_parking": "stands",
+          "capacity": "2"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.289045,
+          37.859912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13238589653,
+        "tags": {
+          "amenity": "bicycle_parking",
+          "bicycle_parking": "stands",
+          "capacity": "2"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2890306,
+          37.859867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13238589658,
+        "tags": {
+          "amenity": "waste_basket"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2894034,
+          37.8610238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13238589659,
+        "tags": {
+          "amenity": "bicycle_parking",
+          "bicycle_parking": "stands",
+          "capacity": "4"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2893525,
+          37.8608536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "type": "way",
         "id": 7805676,
         "tags": {
@@ -111850,8 +112015,8 @@
               37.8729793
             ],
             [
-              -122.3210607,
-              37.8729243
+              -122.32106,
+              37.8729395
             ],
             [
               -122.3210461,
@@ -112159,8 +112324,8 @@
               37.8702683
             ],
             [
-              -122.3172035,
-              37.870113
+              -122.317253,
+              37.8701103
             ],
             [
               -122.3174149,
@@ -119443,136 +119608,6 @@
       "type": "Feature",
       "properties": {
         "type": "way",
-        "id": 25968357,
-        "tags": {
-          "bicycle": "yes",
-          "foot": "yes",
-          "highway": "residential",
-          "junction": "roundabout",
-          "leisure": "1",
-          "maxspeed": "25 mph",
-          "oneway": "yes",
-          "sidewalk": "right",
-          "surface": "asphalt"
-        },
-        "nodes": [
-          283296768,
-          1798599596,
-          1798599594,
-          1798599592,
-          1798599591,
-          283296775,
-          1798599588,
-          1798599587,
-          1798599585,
-          1798599583,
-          283296767,
-          1798599584,
-          1798599586,
-          1798599589,
-          1798599590,
-          283296778,
-          1798599593,
-          1798599595,
-          1798599597,
-          1798599598,
-          283296768
-        ]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.277464,
-            37.8563632
-          ],
-          [
-            -122.2774822,
-            37.8563588
-          ],
-          [
-            -122.2774977,
-            37.8563502
-          ],
-          [
-            -122.2775089,
-            37.856338
-          ],
-          [
-            -122.2775146,
-            37.8563237
-          ],
-          [
-            -122.2775143,
-            37.8563087
-          ],
-          [
-            -122.277508,
-            37.8562946
-          ],
-          [
-            -122.2774964,
-            37.8562828
-          ],
-          [
-            -122.2774806,
-            37.8562745
-          ],
-          [
-            -122.2774623,
-            37.8562706
-          ],
-          [
-            -122.2774433,
-            37.8562715
-          ],
-          [
-            -122.277427,
-            37.8562765
-          ],
-          [
-            -122.2774132,
-            37.8562851
-          ],
-          [
-            -122.2774032,
-            37.8562965
-          ],
-          [
-            -122.2773979,
-            37.8563097
-          ],
-          [
-            -122.2773977,
-            37.8563235
-          ],
-          [
-            -122.2774031,
-            37.8563374
-          ],
-          [
-            -122.2774137,
-            37.8563493
-          ],
-          [
-            -122.2774283,
-            37.8563581
-          ],
-          [
-            -122.2774457,
-            37.8563629
-          ],
-          [
-            -122.277464,
-            37.8563632
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "way",
         "id": 26133971,
         "tags": {
           "access": "permit",
@@ -124750,7 +124785,9 @@
         "tags": {
           "addr:city": "Berkeley",
           "leisure": "pitch",
-          "sport": "softball"
+          "lit": "yes",
+          "sport": "softball",
+          "surface": "grass"
         },
         "nodes": [
           354645911,
@@ -140428,7 +140465,8 @@
           "amenity": "school",
           "ele": "32",
           "gnis:feature_id": "227143",
-          "name": "Malcolm X Elementary School"
+          "name": "Malcolm X Elementary School",
+          "name:etymology:wikidata": "Q43303"
         },
         "nodes": [
           828419724,
@@ -147415,12 +147453,12 @@
               37.8418516
             ],
             [
-              -122.2828369,
-              37.8417838
+              -122.2827797,
+              37.8417931
             ],
             [
-              -122.2829227,
-              37.8420804
+              -122.2828758,
+              37.8420782
             ],
             [
               -122.2827256,
@@ -147744,6 +147782,8 @@
           1514980841,
           1514980784,
           1514980801,
+          13205404703,
+          13205404704,
           1514980764,
           1514980775,
           1514980789,
@@ -147826,12 +147866,20 @@
               37.8489259
             ],
             [
-              -122.2848719,
-              37.8482361
+              -122.2849099,
+              37.8482309
             ],
             [
-              -122.2850117,
-              37.8486456
+              -122.2849753,
+              37.8484346
+            ],
+            [
+              -122.2849495,
+              37.8484399
+            ],
+            [
+              -122.2850111,
+              37.8486409
             ],
             [
               -122.2851542,
@@ -155589,7 +155637,9 @@
         "tags": {
           "addr:city": "Berkeley",
           "leisure": "pitch",
-          "sport": "basketball"
+          "lit": "yes",
+          "sport": "basketball",
+          "surface": "acrylic"
         },
         "nodes": [
           1929808442,
@@ -155683,7 +155733,9 @@
         "tags": {
           "addr:city": "Berkeley",
           "leisure": "pitch",
-          "sport": "basketball"
+          "lit": "yes",
+          "sport": "basketball",
+          "surface": "acrylic"
         },
         "nodes": [
           1929808438,
@@ -185178,23 +185230,23 @@
           [
             [
               -122.2794384,
-              37.8559753
+              37.8559817
             ],
             [
               -122.2792326,
               37.8550229
             ],
             [
-              -122.2773409,
-              37.8553128
+              -122.2773456,
+              37.8553149
             ],
             [
-              -122.2775292,
-              37.8562251
+              -122.2775346,
+              37.8562293
             ],
             [
-              -122.2784929,
-              37.856096
+              -122.2784954,
+              37.8561043
             ],
             [
               -122.2784046,
@@ -185205,12 +185257,12 @@
               37.8556077
             ],
             [
-              -122.2787647,
-              37.8560615
+              -122.2787683,
+              37.8560688
             ],
             [
               -122.2794384,
-              37.8559753
+              37.8559817
             ]
           ]
         ]
@@ -185246,8 +185298,8 @@
               37.8561347
             ],
             [
-              -122.2775643,
-              37.856374
+              -122.2775663,
+              37.8563788
             ],
             [
               -122.2777212,
@@ -185794,6 +185846,8 @@
           2585523572,
           2585523573,
           2585523574,
+          13232326738,
+          13232326737,
           2585523569
         ]
       },
@@ -185802,12 +185856,12 @@
         "coordinates": [
           [
             [
-              -122.2773175,
-              37.8562342
+              -122.277343,
+              37.8562527
             ],
             [
-              -122.2771458,
-              37.8553363
+              -122.2771538,
+              37.8553368
             ],
             [
               -122.2751449,
@@ -185826,8 +185880,16 @@
               37.8564672
             ],
             [
-              -122.2773175,
-              37.8562342
+              -122.276792,
+              37.8563007
+            ],
+            [
+              -122.2769227,
+              37.856306
+            ],
+            [
+              -122.277343,
+              37.8562527
             ]
           ]
         ]
@@ -185844,6 +185906,7 @@
         "nodes": [
           2585523575,
           2585523576,
+          13232326736,
           2585523577,
           2585523578,
           2585523579,
@@ -185866,16 +185929,20 @@
               37.857147
             ],
             [
-              -122.2773698,
-              37.8564015
+              -122.2773765,
+              37.8564041
+            ],
+            [
+              -122.2770019,
+              37.8564536
             ],
             [
               -122.2769272,
               37.8564566
             ],
             [
-              -122.276828,
-              37.856446
+              -122.2768495,
+              37.8564486
             ],
             [
               -122.2753689,
@@ -189396,6 +189463,7 @@
           "addr:street": "King Street",
           "leisure": "park",
           "name": "Malcolm X School Park",
+          "name:etymology:wikidata": "Q43303",
           "opening_hours": "Mo-Fr 16:00-sunset;Sa-Su 08:00-sunset",
           "website": "https://berkeleyca.gov/community-recreation/parks-recreation/parks/malcolm-x-school-park"
         },
@@ -190651,6 +190719,7 @@
           "addr:city": "Berkeley",
           "addr:housenumber": "1730",
           "addr:street": "Oregon Street",
+          "check_date:opening_hours": "2025-10-15",
           "description": "Grove Park offers recreational opportunities, including ball fields, tennis courts, basketball courts, and a gym, as well as tot and school-age play areas.",
           "leisure": "park",
           "name": "Grove Park",
@@ -213048,12 +213117,12 @@
               37.8556426
             ],
             [
-              -122.2784929,
-              37.856096
+              -122.2784954,
+              37.8561043
             ],
             [
-              -122.2787647,
-              37.8560615
+              -122.2787683,
+              37.8560688
             ],
             [
               -122.2786687,
@@ -219188,7 +219257,8 @@
         "tags": {
           "amenity": "parking",
           "capacity": "85",
-          "capacity:disabled": "6"
+          "capacity:disabled": "6",
+          "parking": "surface"
         },
         "nodes": [
           6418820690,
@@ -266935,7 +267005,7 @@
         },
         "nodes": [
           1693969362,
-          1693969383,
+          13239532691,
           6720064176,
           1693969355,
           1693969362
@@ -266950,8 +267020,8 @@
               37.8490997
             ],
             [
-              -122.2707054,
-              37.8489321
+              -122.2707078,
+              37.8489452
             ],
             [
               -122.2709363,
@@ -270332,6 +270402,7 @@
           "amenity": "biergarten",
           "name": "Headlands Brewing Westbrae Beer Garden",
           "old_name": "Westbrae Biergarten",
+          "opening_hours": "Mo-Th 12:00-21:00; Fr 12:00-22:00; Sa 11:00-22:00; Su 11:00-20:30",
           "website": "https://www.headlandsbrewing.com/berkeley"
         },
         "nodes": [
@@ -279953,6 +280024,123 @@
             [
               -122.2632923,
               37.8855594
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 930041856,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:country": "US",
+          "addr:housenumber": "100",
+          "addr:postcode": "94710",
+          "addr:state": "CA",
+          "addr:street": "Seawall Drive",
+          "amenity": "restaurant",
+          "building": "retail",
+          "contact:instagram": "skatesonthebaysf",
+          "cuisine": "seafood",
+          "drive_in": "no",
+          "man_made": "pier",
+          "name": "Skates on the Bay",
+          "opening_hours": "Mo-Su 11:00-22:00",
+          "phone": "+1 510 5491900",
+          "smoking": "no",
+          "website": "https://skatesonthebay.com"
+        },
+        "nodes": [
+          13259934963,
+          361210962,
+          13259934962,
+          361210964,
+          361210985,
+          361210963,
+          13259934963
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3178474,
+              37.8638391
+            ],
+            [
+              -122.3182026,
+              37.8638214
+            ],
+            [
+              -122.3181735,
+              37.8634567
+            ],
+            [
+              -122.3178182,
+              37.8634744
+            ],
+            [
+              -122.3178274,
+              37.8635896
+            ],
+            [
+              -122.3178468,
+              37.8638314
+            ],
+            [
+              -122.3178474,
+              37.8638391
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 930043357,
+        "tags": {
+          "access": "customers",
+          "amenity": "toilets",
+          "building": "yes",
+          "toilets:disposal": "flush"
+        },
+        "nodes": [
+          3455918284,
+          8624393869,
+          8624393870,
+          8624393871,
+          3455918284
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3170269,
+              37.869103
+            ],
+            [
+              -122.3171271,
+              37.8690832
+            ],
+            [
+              -122.3170791,
+              37.868932
+            ],
+            [
+              -122.3169789,
+              37.8689518
+            ],
+            [
+              -122.3170269,
+              37.869103
             ]
           ]
         ]
@@ -312704,6 +312892,7 @@
         "type": "way",
         "id": 1087382564,
         "tags": {
+          "access": "yes",
           "leisure": "playground",
           "name": "Willard Park Playground"
         },
@@ -320171,50 +320360,6 @@
             [
               -122.2742178,
               37.8909409
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "way",
-        "id": 1123020852,
-        "tags": {
-          "landuse": "construction"
-        },
-        "nodes": [
-          10270421324,
-          10270421325,
-          10270421326,
-          10270421327,
-          10270421324
-        ]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -122.2957517,
-              37.8575271
-            ],
-            [
-              -122.2955598,
-              37.856936
-            ],
-            [
-              -122.2963055,
-              37.856785
-            ],
-            [
-              -122.2964974,
-              37.8573762
-            ],
-            [
-              -122.2957517,
-              37.8575271
             ]
           ]
         ]
@@ -352754,6 +352899,7 @@
         "id": 1213985615,
         "tags": {
           "amenity": "bench",
+          "backrest": "yes",
           "barrier": "retaining_wall",
           "material": "stone"
         },
@@ -361658,7 +361804,7 @@
         "type": "way",
         "id": 1254613741,
         "tags": {
-          "garden:type": "landscapingl",
+          "garden:type": "landscaping",
           "leisure": "garden"
         },
         "nodes": [
@@ -392571,6 +392717,7 @@
         "type": "way",
         "id": 1408991519,
         "tags": {
+          "access": "private",
           "amenity": "parking",
           "capacity": "8",
           "parking": "surface"
@@ -421137,6 +421284,7 @@
         "type": "way",
         "id": 1414712075,
         "tags": {
+          "access": "private",
           "amenity": "parking",
           "capacity": "6"
         },
@@ -422808,7 +422956,8 @@
         "type": "way",
         "id": 1414775147,
         "tags": {
-          "amenity": "parking"
+          "amenity": "parking",
+          "parking": "surface"
         },
         "nodes": [
           13000503583,
@@ -425389,10 +425538,13 @@
         "type": "way",
         "id": 1415075452,
         "tags": {
-          "amenity": "parking"
+          "access": "private",
+          "amenity": "parking",
+          "parking": "surface"
         },
         "nodes": [
           13003486194,
+          13238589657,
           13003486195,
           13003486196,
           13003486197,
@@ -425404,12 +425556,16 @@
         "coordinates": [
           [
             [
-              -122.2890707,
-              37.8601135
+              -122.2890797,
+              37.8601152
             ],
             [
-              -122.2890216,
-              37.8599785
+              -122.2890568,
+              37.8600439
+            ],
+            [
+              -122.2890349,
+              37.8599757
             ],
             [
               -122.2886806,
@@ -425420,8 +425576,8 @@
               37.860162
             ],
             [
-              -122.2890707,
-              37.8601135
+              -122.2890797,
+              37.8601152
             ]
           ]
         ]
@@ -425439,6 +425595,7 @@
           13003528831,
           13003528832,
           13003528833,
+          13238593203,
           13003528834,
           13003528831
         ]
@@ -425458,6 +425615,10 @@
             [
               -122.288814,
               37.8593253
+            ],
+            [
+              -122.2887828,
+              37.8592254
             ],
             [
               -122.2887703,
@@ -441670,6 +441831,7 @@
         "id": 2814221,
         "tags": {
           "amenity": "university",
+          "education": "university",
           "gnis:feature_id": "236863",
           "name": "University of California, Berkeley",
           "name:de": "Universität von Kalifornien, Berkeley",
@@ -445278,12 +445440,12 @@
                 37.875676
               ],
               [
-                -122.2567102,
-                37.8756497
+                -122.2567253,
+                37.8756477
               ],
               [
-                -122.2566515,
-                37.875633
+                -122.2566694,
+                37.8756242
               ],
               [
                 -122.2565973,
