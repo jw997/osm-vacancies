@@ -282,7 +282,7 @@
           "internet_access:fee": "no",
           "name": "Caffé Strada",
           "outdoor_seating": "yes",
-          "phone": "(510) 843-5282",
+          "phone": "+1-510-843-5282",
           "takeaway": "yes",
           "terrace": "yes",
           "toilets": "yes",
@@ -334,32 +334,6 @@
         "coordinates": [
           -122.2578999,
           37.8731824
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 282600818,
-        "tags": {
-          "addr:city": "Berkeley",
-          "addr:housenumber": "2430",
-          "addr:street": "Bancroft Way",
-          "contact:facebook": "https://www.facebook.com/musicalofferingcafebistro/",
-          "contact:instagram": "https://www.instagram.com/musicalofferingcafe/",
-          "contact:phone": "+1-510-849-0211",
-          "contact:website": "https://musicaloffering.com/",
-          "cost:coffee": "$3.01",
-          "disused:amenity": "cafe",
-          "name": "The Musical Offering and Cafe"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.2607084,
-          37.8683942
         ]
       }
     },
@@ -627,7 +601,7 @@
           "name": "Royal Ground Coffee",
           "opening_hours": "Mo-Sa 07:00-16:00; Su 07:00-15:00",
           "outdoor_seating": "no",
-          "phone": "(510) 849-9888",
+          "phone": "+1-510-849-9888",
           "wheelchair": "yes"
         }
       },
@@ -1565,7 +1539,7 @@
           "amenity": "police",
           "name": "Berkeley Police Department",
           "opening_hours": "24/7",
-          "phone": "(510) 981-5900",
+          "phone": "+1-510-981-5900",
           "website": "https://www.cityofberkeley.info/police/",
           "wheelchair": "yes"
         }
@@ -1819,7 +1793,7 @@
           "diet:vegetarian": "yes",
           "name": "Homemade Cafe",
           "opening_hours": "Mo-Fr 07:00-14:00; Sa, Su 08:00-15:00",
-          "phone": "+15108451940",
+          "phone": "+1-510-845-1940",
           "website": "https://www.homemade-cafe.com/",
           "wheelchair": "yes"
         }
@@ -2231,7 +2205,7 @@
           "disused:shop": "books",
           "name": "Books Inc.",
           "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-19:00",
-          "phone": "+15105257727",
+          "phone": "+1-510-525-7727",
           "website": "https://www.booksinc.net/Berkeley",
           "wheelchair": "yes"
         }
@@ -2289,7 +2263,7 @@
           "addr:street": "Shattuck Avenue",
           "name": "Masse's Pastries",
           "opening_hours": "We-Sa 10:00-17:00; Sa, Su 10:00-16:00",
-          "phone": "510.649.1004",
+          "phone": "+1-510-649-1004",
           "shop": "bakery",
           "website": "https://www.massespastries.com/"
         }
@@ -2546,7 +2520,7 @@
           "microbrewery": "no",
           "name": "Chez Panisse",
           "opening_hours": "Mo-Tu 11:30-22:30; Fr-Sa 11:30-23:30",
-          "phone": "+15105485049",
+          "phone": "+1-510-548-5049",
           "smoking": "no",
           "website": "https://www.chezpanisse.com/",
           "wikidata": "Q1105811",
@@ -2820,7 +2794,7 @@
           "name": "Guerilla Cafe",
           "opening_hours": "Tu-Fr 07:00-16:30; Sa, Su 08:00-16:30; Mo 07:00-14:00",
           "outdoor_seating": "yes",
-          "phone": "(510) 845-2233",
+          "phone": "+1-510-845-2233",
           "smoking": "no",
           "takeaway": "yes",
           "website": "https://www.yelp.com/biz/guerilla-cafe-berkeley",
@@ -3054,7 +3028,7 @@
           "amenity": "restaurant",
           "cuisine": "sushi",
           "name": "Party Sushi",
-          "phone": "(510) 841-1776",
+          "phone": "+1-510-841-1776",
           "website": "https://partysushisf.com/"
         }
       },
@@ -3420,7 +3394,7 @@
           "cuisine": "indian",
           "name": "JotMahal",
           "opening_hours": "Mo-Su 11:00-15:00,17:00-21:00",
-          "phone": "+15108489664",
+          "phone": "+1-510-848-9664",
           "takeaway": "yes",
           "website": "https://www.jotmahalberkeley.com/"
         }
@@ -3623,9 +3597,13 @@
         "type": "node",
         "id": 318886212,
         "tags": {
+          "addr:housenumber": "2507",
+          "addr:street": "Hearst Avenue",
+          "addr:unit": "C",
           "amenity": "restaurant",
           "cuisine": "vietnamese",
-          "name": "Camille"
+          "name": "Camille",
+          "website": "https://www.camilleberkeley.com/"
         }
       },
       "geometry": {
@@ -4488,7 +4466,7 @@
           "old_name": "King Tsin",
           "opening_hours": "Mo-Su 11:30-21:30",
           "outdoor_seating": "no",
-          "phone": "+15105259890",
+          "phone": "+1-510-525-9890",
           "website": "https://www.sichuanstylerestaurant.com/"
         }
       },
@@ -4521,7 +4499,7 @@
           "opening_hours": "Mo-Fr 11:30-16:00, 17:00-21:30; Sa-Su 09:00-18:00",
           "operator": "Akemi",
           "outdoor_seating": "yes",
-          "phone": "+15105241286",
+          "phone": "+1-510-524-1286",
           "website": "http://www.akemiberkeley.com",
           "wheelchair": "yes"
         }
@@ -4547,7 +4525,7 @@
           "name": "Himalayan Tandoori and Curry House",
           "opening_hours": "Mo-Su 11:00-15:00, 17:00-21:30",
           "outdoor_seating": "no",
-          "phone": "5105264915",
+          "phone": "+1-510-526-4915",
           "website": "https://www.berkeleyhimalayan.com/",
           "wheelchair": "yes"
         }
@@ -4578,7 +4556,7 @@
           "name": "Organic Greens",
           "opening_hours": "Mo-Su 10:00-17:30",
           "outdoor_seating": "yes",
-          "phone": "5106478390",
+          "phone": "+1-510-647-8390",
           "website": "http://www.organicgreensalad.com/",
           "wheelchair": "yes"
         }
@@ -4665,7 +4643,7 @@
           "name": "Barney's",
           "opening_hours": "Mo-Su 11:00-21:00",
           "outdoor_seating": "parklet",
-          "phone": "(510) 526-8185",
+          "phone": "+1-510-526-8185",
           "website": "https://www.barneyshamburgers.com/barneys-berkeley-solano",
           "wheelchair": "yes"
         }
@@ -4710,7 +4688,7 @@
           "indoor_seating": "yes",
           "name": "Talavera Mexican Grill",
           "outdoor_seating": "sidewalk",
-          "phone": "+15105588565",
+          "phone": "+1-510-558-8565",
           "takeaway": "yes",
           "website": "https://www.doordash.com/store/taqueria-talavera-berkeley-37527"
         }
@@ -4740,7 +4718,7 @@
           "name": "Korean Superette",
           "opening_hours": "Su-Th 11:00-21:00; Fr, Sa 11:00-22:00",
           "outdoor_seating": "yes",
-          "phone": "+15105294009",
+          "phone": "+1-510-529-4009",
           "shop": "deli",
           "website": "https://korean-superette.com",
           "wheelchair": "yes"
@@ -5878,7 +5856,7 @@
           "gnis:feature_id": "2086904",
           "name": "Berkeley Memory Care Community",
           "operator": "Vintage Senior Living",
-          "phone": "(510)841-4844",
+          "phone": "+1-510-841-4844",
           "social_facility": "group_home",
           "social_facility:for": "senior",
           "website": "https://www.silverado.com/silverado-locations/california/berkeley/berkeley/"
@@ -6071,7 +6049,7 @@
           "name": "Chipotle",
           "official_name": "Chipotle Mexican Grill",
           "opening_hours": "Mo-Su 10:45-22:00",
-          "phone": "+15105480340",
+          "phone": "+1-510-548-0340",
           "takeaway": "yes",
           "website": "https://locations.chipotle.com/ca/berkeley/2311-telegraph-ave"
         }
@@ -6122,7 +6100,7 @@
           "amenity": "pub",
           "contact:instagram": "https://www.instagram.com/raleighs_pub_berkeley/",
           "name": "Raleigh's Pub",
-          "phone": "(510) 280-5319",
+          "phone": "+1-510-280-5319",
           "website": "https://www.raleighspub.com/"
         }
       },
@@ -6650,7 +6628,7 @@
           "internet_access:fee": "no",
           "name": "Peet's Coffee",
           "opening_hours": "Mo-Su 07:00-16:15",
-          "phone": "(510) 225-7700",
+          "phone": "+1-510-225-7700",
           "takeaway": "yes",
           "website": "https://pickup.peets.com/"
         }
@@ -6805,7 +6783,7 @@
           "contact:instagram": "valenciacyclery",
           "name": "Valencia Cyclery",
           "opening_hours": "Mo-Sa 10:00-18:00; Su 10:00-17:00",
-          "phone": "+14155506600",
+          "phone": "+1-415-550-6600",
           "shop": "bicycle",
           "website": "https://www.valenciacyclery.com/"
         }
@@ -7239,7 +7217,7 @@
           "addr:street": "Valencia Street",
           "check_date": "2023-09-06",
           "name": "Good Vibrations",
-          "phone": "+1 (415) 522-5460",
+          "phone": "+1-415-522-5460",
           "shop": "erotic",
           "website": "http://www.goodvibes.com"
         }
@@ -7264,7 +7242,7 @@
           "addr:street": "San Pablo Avenue",
           "name": "Good Vibrations",
           "opening_hours": "Mo-Th, Su 11:00-19:00; Fr, Sa 11:00-20:00",
-          "phone": "+1 (510) 841-8987",
+          "phone": "+1-510-841-8987",
           "shop": "erotic",
           "website": "https://www.goodvibes.com"
         }
@@ -7322,7 +7300,7 @@
           "note": "Has been temporarily closed for years. Signs direct customers to the bakery next door for takeaway",
           "opening_hours": "Mo-Su 08:00-17:00",
           "outdoor_seating": "no",
-          "phone": "(510) 526-2260",
+          "phone": "+1-510-526-2260",
           "smoking": "no",
           "takeaway": "only",
           "website": "https://fatapplesrestaurant.com/collections/berkeley",
@@ -7699,7 +7677,7 @@
           "indoor_seating": "no",
           "name": "Gioia Pizzeria",
           "opening_hours": "Mo-Sa 11:00-20:00; Su 12:00-19:00",
-          "phone": "(510) 674-0412",
+          "phone": "+1-510-674-0412",
           "takeaway": "yes",
           "website": "https://www.gioiapizzeria.com/berkeley"
         }
@@ -7847,7 +7825,8 @@
         "type": "node",
         "id": 444157966,
         "tags": {
-          "amenity": "bench"
+          "amenity": "bench",
+          "backrest": "no"
         }
       },
       "geometry": {
@@ -8009,7 +7988,7 @@
         "tags": {
           "name": "Ashby Flowers",
           "opening_hours": "Mo-Fr 08:00-18:30; Sa 09:00-19:30; Su 09:30-18:00",
-          "phone": "(510) 849-3121",
+          "phone": "+1-510-849-3121",
           "shop": "florist",
           "website": "https://www.ashbyflowers.com/"
         }
@@ -8400,7 +8379,7 @@
           "check_date": "2023-03-18",
           "name": "City Lee's Market",
           "opening_hours": "Mo-Su 08:00-22:00",
-          "phone": "(510) 981-1913",
+          "phone": "+1-510-981-1913",
           "shop": "convenience",
           "wheelchair": "yes"
         }
@@ -8910,7 +8889,7 @@
           "cuisine": "regional;pizza;california;seafood;mediterranean",
           "name": "Revival Kitchen",
           "opening_hours": "Mo-Th 16:00-22:00; Fr 15:30-22:00; Sa 17:00-22:00; Sa, Su 10:30-14:00; Su 16:30-21:00",
-          "phone": "(510) 549-9950",
+          "phone": "+1-510-549-9950",
           "website": "https://www.revivalbarandkitchen.com/",
           "wheelchair": "yes"
         }
@@ -8941,7 +8920,7 @@
           "diet:vegetarian": "yes",
           "name": "Pollo's",
           "opening_hours": "Mo-Sa 07:00-16:00",
-          "phone": "(510) 486-8027",
+          "phone": "+1-510-486-8027",
           "website": "http://orderoriginalpollo.com/"
         }
       },
@@ -9003,7 +8982,7 @@
           "check_date": "2025-03-19",
           "name": "Half Price Books",
           "opening_hours": "Mo-Th 11:00-20:00; Fr-Su 10:00-22:00",
-          "phone": "(510) 526-6080",
+          "phone": "+1-510-526-6080",
           "second_hand": "yes",
           "shop": "books",
           "website": "https://www.hpb.com/store?storeid=HPB-037",
@@ -9263,7 +9242,7 @@
         "tags": {
           "amenity": "place_of_worship",
           "name": "Congregation Beth Israel",
-          "phone": "+15108435246",
+          "phone": "+1-510-843-5246",
           "religion": "jewish",
           "website": "https://www.cbiberkeley.org/",
           "wheelchair": "yes",
@@ -9621,7 +9600,7 @@
           "name": "Pizzaiolo",
           "opening_hours": "We-Su 16:00-21:00",
           "outdoor_seating": "no",
-          "phone": "(510) 652-4888",
+          "phone": "+1-510-652-4888",
           "smoking": "no",
           "takeaway": "yes",
           "website": "https://www.pizzaiolooakland.com/",
@@ -9769,7 +9748,7 @@
           "addr:housenumber": "2033",
           "addr:state": "CA",
           "addr:street": "San Pablo Avenue",
-          "amenity": "restaurant",
+          "disused:amenity": "restaurant",
           "name": "Babette",
           "opening_hours": "We-Fr 11:30-14:30,17:00-21:00, Sa,Su 10:30-14:30, Sa 17:00-21:00",
           "outdoor_seating": "no"
@@ -9924,7 +9903,7 @@
           "addr:street": "Martin Luther King Jr Way",
           "name": "Eclipxe",
           "opening_hours": "Tu-Sa 10:00-18:00",
-          "phone": "5106499131",
+          "phone": "+1-510-649-9131",
           "shop": "hairdresser"
         }
       },
@@ -10268,7 +10247,7 @@
           "contact:instagram": "https://www.instagram.com/berkeleyfleamarket_/",
           "name": "Berkeley Flea Market",
           "opening_hours": "Sa, Su 09:00-16:00",
-          "phone": "(510) 644-0744",
+          "phone": "+1-510-644-0744",
           "website": "https://berkeleyfleamarket.com/"
         }
       },
@@ -10389,7 +10368,7 @@
           "cuisine": "italian",
           "name": "Luca Cucina",
           "opening_hours": "Mo-Sa 16:00-21:00",
-          "phone": "+15106499718",
+          "phone": "+1-510-649-9718",
           "website": "https://www.lucacucinaitaliana.com"
         }
       },
@@ -10410,7 +10389,7 @@
           "addr:street": "San Pablo Avenue",
           "name": "Mi Tierra",
           "opening_hours": "Mo-Su 06:30-20:00",
-          "phone": "+15105408946",
+          "phone": "+1-510-540-8946",
           "shop": "supermarket"
         }
       },
@@ -10660,7 +10639,7 @@
           "check_date": "2023-05-27",
           "name": "ComputerLand",
           "opening_hours": "Mo-Fr 09:00-18:00; Sa 10:00-17:00",
-          "phone": "510.981.0900",
+          "phone": "+1-510-981-0900",
           "shop": "computer",
           "website": "https://www.computerlandberkeley.com/"
         }
@@ -10708,7 +10687,7 @@
           "addr:street": "Kala Bagai Way",
           "name": "Kala salon",
           "opening_hours": "Mo-Sa 10:00-19:00; Su 11:30-17:30",
-          "phone": "5107758040",
+          "phone": "+1-510-775-8040",
           "shop": "beauty"
         }
       },
@@ -10949,7 +10928,7 @@
           "diet:vegetarian": "yes",
           "name": "La Méditeranée",
           "opening_hours": "Tu-Su 12:00-20:30",
-          "phone": "+15105407773",
+          "phone": "+1-510-540-7773",
           "website": "https://cafelamedberkeley.com/",
           "wheelchair": "yes"
         }
@@ -11466,7 +11445,7 @@
           "diet:halal": "yes",
           "name": "My-O-My",
           "opening_hours": "Mo-Fr 11:00-21:00; Sa off; Su 12:00-18:00",
-          "phone": "+15103564460",
+          "phone": "+1-510-356-4460",
           "takeaway": "yes",
           "toilets": "yes"
         }
@@ -11710,7 +11689,7 @@
           "payment:cash": "yes",
           "payment:mastercard": "yes",
           "payment:visa": "yes",
-          "phone": "+15105241327",
+          "phone": "+1-510-524-1327",
           "shop": "bakery",
           "website": "https://www.acmebread.com/retail-locations.html"
         }
@@ -11810,7 +11789,7 @@
           "amenity": "restaurant",
           "name": "Bird & Buffalo",
           "opening_hours": "Tu-Su 11:30-22:00",
-          "phone": "(510) 338-3536",
+          "phone": "+1-510-338-3536",
           "website": "https://birdandbuffalo.net/"
         }
       },
@@ -12543,7 +12522,7 @@
           "name": "Sconehenge",
           "opening_hours": "Mo,Th,Fr 08:00-13:30; Sa-Su 08:00-14:00",
           "outdoor_seating": "no",
-          "phone": "(510) 845-5168",
+          "phone": "+1-510-845-5168",
           "website": "https://www.sconehengeberkeley.com/",
           "wheelchair": "yes"
         }
@@ -12588,7 +12567,7 @@
           "name:ja": "一風堂",
           "opening_hours": "Mo-Sa 11:30-22:00; Su 11:30-21:30",
           "outdoor_seating": "no",
-          "phone": "+15106668807",
+          "phone": "+1-510-666-8807",
           "reservation": "no",
           "takeaway": "no",
           "website": "https://ippudous.com/",
@@ -13793,7 +13772,7 @@
           "addr:street": "Shattuck Avenue",
           "name": "Virginia Cleaners",
           "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-17:00; Su off",
-          "phone": "(510) 848-1345",
+          "phone": "+1-510-848-1345",
           "shop": "dry_cleaning"
         }
       },
@@ -13824,7 +13803,7 @@
           "name": "Berkeley Bagels",
           "opening_hours": "Mo-Fr 06:30-17:00; Sa, Su 07:00-17:00",
           "outdoor_seating": "yes",
-          "phone": "+15105243104",
+          "phone": "+1-510-524-3104",
           "shop": "bakery",
           "website": "http://www.facebook.com/berkeleybagels/"
         }
@@ -14134,7 +14113,7 @@
           "opening_hours": "Mo-Su 09:00-17:30; Su 09:00-16:00",
           "payment:cash": "yes",
           "payment:credit_cards": "yes",
-          "phone": "(510) 526-5517",
+          "phone": "+1-510-526-5517",
           "shop": "garden_centre",
           "website": "https://westbrae-nursery.com/"
         }
@@ -14747,7 +14726,7 @@
           "microbrewery": "no",
           "name": "Sun Sun Sushi Shop",
           "opening_hours": "Mo-Sa 11:00-17:00",
-          "phone": "510 898 1182",
+          "phone": "+1-510-898-1182",
           "smoking": "no",
           "wheelchair": "yes"
         }
@@ -15041,7 +15020,7 @@
           "addr:state": "CA",
           "addr:street": "Cedar Street",
           "name": "Subway Guitars",
-          "phone": "(510) 841-4106",
+          "phone": "+1-510-841-4106",
           "shop": "musical_instrument"
         }
       },
@@ -15244,7 +15223,7 @@
           "check_date:opening_hours": "2023-03-02",
           "name": "Blue Heron Bikes",
           "opening_hours": "Mo-Sa 09:00-18:00",
-          "phone": "+15105241937",
+          "phone": "+1-510-524-1937",
           "service:bicycle:pump": "yes",
           "service:bicycle:repair": "yes",
           "service:bicycle:retail": "yes",
@@ -15530,7 +15509,7 @@
           "disused:healthcare": "pharmacy",
           "drive_through": "no",
           "name": "Walgreens",
-          "phone": "(510) 849-4691",
+          "phone": "+1-510-849-4691",
           "website": "https://www.walgreens.com/locator/walgreens-2190+shattuck+ave-berkeley-ca-94704/id=15025",
           "wheelchair": "yes"
         }
@@ -15680,7 +15659,7 @@
           "amenity": "restaurant",
           "name": "Tarocco",
           "opening_hours": "Tu-Sa 11:00-14:30",
-          "phone": "(510) 898-1312",
+          "phone": "+1-510-898-1312",
           "website": "https://mytarocco.com/"
         }
       },
@@ -15706,7 +15685,7 @@
           "cuisine": "mexican",
           "name": "Juan's Place",
           "opening_hours": "Mo-Fr 11:00-21:00; Sa, Su 17:30-20:30",
-          "phone": "5108456904",
+          "phone": "+1-510-845-6904",
           "website": "http://places.singleplatform.com/juans-place-1/menu?ref=osm",
           "wheelchair": "yes",
           "wikimedia_commons": "File:20220929 Juan's place, Mexican restaurant.jpg"
@@ -17289,7 +17268,7 @@
           "cuisine": "coffee_shop",
           "name": "Afgan burrito",
           "opening_hours": "Mo-Su 09:00-21:00",
-          "phone": "(510) 984-0661",
+          "phone": "+1 510-984-0661",
           "website": "https://www.tortellinosf.com/"
         }
       },
@@ -17479,7 +17458,7 @@
           "disused:amenity": "cafe",
           "name": "Le Bateau Ivre",
           "opening_hours": "We-Fr 11:30-19:00; Sa 10:00-19:00; Su 10:00-16:00",
-          "phone": "(510) 849-1100",
+          "phone": "+1-510-849-1100",
           "website": "https://www.lebateauivre.net/"
         }
       },
@@ -17944,8 +17923,9 @@
           "addr:postcode": "94709",
           "addr:state": "CA",
           "addr:street": "Euclid Avenue",
-          "disused:amenity": "restaurant",
-          "name": "Cabanas Cafe"
+          "amenity": "restaurant",
+          "cuisine": "noodle;chinese",
+          "name": "Impression of Lanzhou"
         }
       },
       "geometry": {
@@ -18416,7 +18396,7 @@
           "name": "Asmara",
           "opening_hours": "Tu-Su 11:30-22:30",
           "outdoor_seating": "no",
-          "phone": "(510) 547-5100",
+          "phone": "+1-510-547-5100",
           "smoking": "no",
           "takeaway": "yes",
           "website": "http://asmararestaurant.com/",
@@ -18702,7 +18682,7 @@
           "diet:vegan": "only",
           "indoor_seating": "yes",
           "name": "The Butcher's Son",
-          "opening_hours": "Mo,Th,Fr 11:00-20:00, Tu,We 11:00-15:00, Sa,Su 09:00-17:00",
+          "opening_hours": "Mo-Fr 11:00-20:00; Sa 10:00-20:00; Su 10:00-16:00",
           "outdoor_seating": "patio",
           "phone": "+1-510-984-0818",
           "website": "https://www.thebutchersveganson.com/",
@@ -19309,7 +19289,7 @@
           "disused:shop": "copyshop",
           "name": "Instant Copying & Laser Printing",
           "opening_hours": "Mo-Fr 09:00-16:00",
-          "phone": "+15107049700"
+          "phone": "+1-510-704-9700"
         }
       },
       "geometry": {
@@ -20096,7 +20076,7 @@
           "check_date": "2023-05-18",
           "name": "The Starry Plough",
           "opening_hours": "Mo-Fr 16:00-02:00; Sa-Su 14:00-02:00",
-          "phone": "+1 (510) 841-0188",
+          "phone": "+1-510-841-0188",
           "smoking": "outside",
           "source": "local knowledge",
           "website": "https://www.thestarryplough.com/",
@@ -20250,7 +20230,7 @@
           "outdoor_seating": "sidewalk",
           "payment:cash": "no",
           "payment:credit_cards": "yes",
-          "phone": "510.985.7381",
+          "phone": "+1-510-985-7381",
           "shop": "bakery",
           "source": "local_knowledge",
           "takeaway": "only",
@@ -20279,7 +20259,7 @@
           "addr:street": "Shattuck Avenue",
           "name": "Acci Gallery",
           "opening_hours": "Mo-Sa 11:00-18:00",
-          "phone": "(510) 843-2527",
+          "phone": "+1 510-843-2527",
           "shop": "jewelry",
           "website": "https://www.accigallery.com",
           "wheelchair": "yes"
@@ -20605,7 +20585,7 @@
           "check_date:opening_hours": "2024-08-27",
           "name": "Crossroads Trading Co.",
           "opening_hours": "Mo-Sa 11:00-20:00; Su 11:00-19:00",
-          "phone": "(510) 843-7600",
+          "phone": "+1-510-843-7600",
           "shop": "clothes",
           "website": "https://crossroadstrading.com/location/berkeley-shattuck-ave/",
           "wheelchair": "yes"
@@ -20859,7 +20839,7 @@
           "name": "Tender Greens",
           "opening_hours": "Mo-Fr 10:00-21:00; Sa, Su 11:00-21:00",
           "outdoor_seating": "yes",
-          "phone": "(510) 356-0697",
+          "phone": "+1-510-356-0697",
           "smoking": "no",
           "takeaway": "yes",
           "website": "https://www.tendergreens.com/locations/berkeley",
@@ -21059,7 +21039,7 @@
           "diet:vegetarian": "yes",
           "name": "Udupi Palace",
           "opening_hours": "Mo, We-Su 11:30-21:00",
-          "phone": "(510)843-6600",
+          "phone": "+1-510-843-6600",
           "website": "http://www.udupipalaceberkeleyca.com/"
         }
       },
@@ -21428,7 +21408,7 @@
           "amenity": "restaurant",
           "cuisine": "thai",
           "name": "Little Plearn Thai Kitchen",
-          "phone": "(510) 704-1442"
+          "phone": "+1-510-704-1442"
         }
       },
       "geometry": {
@@ -21449,7 +21429,7 @@
           "addr:housenumber": "2281",
           "addr:street": "Shattuck Avenue",
           "name": "Paul's Shoe Repair",
-          "phone": "(510) 843-1570",
+          "phone": "+1-510-843-1570",
           "shop": "shoes"
         }
       },
@@ -21702,7 +21682,7 @@
           "description": "Packing supplies, UPS, USPS, FedEx, mailboxes.",
           "name": "You Send Me",
           "opening_hours": "Mo-Fr 09:00-17:00; Sa 10:00-16:00",
-          "phone": "1-510-540-0671",
+          "phone": "+1 510-540-0671",
           "shop": "packaging",
           "website": "http://www.usendme.biz/"
         }
@@ -22686,7 +22666,7 @@
           "brand:wikidata": "Q7645220",
           "name": "Sur La Table",
           "opening_hours": "Mo-Sa 11:00-19:00; Su 11:00-18:00",
-          "phone": "(510) 849-2252",
+          "phone": "+1-510-849-2252",
           "shop": "houseware",
           "website": "https://www.surlatable.com/store-details?StoreID=3"
         }
@@ -23339,7 +23319,7 @@
           "cuisine": "middle_eastern",
           "disused:amenity": "restaurant",
           "name": "Daryoush",
-          "phone": "(510) 629-2144",
+          "phone": "+1-510-629-2144",
           "website": "https://www.daryoush.com/"
         }
       },
@@ -23541,7 +23521,7 @@
           "addr:street": "Shattuck Avenue",
           "name": "ecoPartners, LLC",
           "office": "company",
-          "phone": "1-415-634-4650",
+          "phone": "+1-415-634-4650",
           "website": "http://ecopartnersllc.com/en/"
         }
       },
@@ -23824,7 +23804,7 @@
           "contact:instagram": "https://www.instagram.com/summerkitchenbakeshop/",
           "name": "Summer Kitchen + Bakeshop",
           "outdoor_seating": "no",
-          "phone": "(510) 981-0538",
+          "phone": "+1-510-981-0538",
           "smoking": "no",
           "takeaway": "yes",
           "website": "https://www.summerkitchenbakeshop.com/",
@@ -24015,7 +23995,7 @@
         "tags": {
           "name": "Noor and Sons",
           "opening_hours": "Mo-Sa 11:00-18:00",
-          "phone": "510.559.8987",
+          "phone": "+1-510-559-8987",
           "shop": "carpet",
           "website": "https://www.noorandsonsrugs.com/"
         }
@@ -24139,7 +24119,7 @@
         "id": 2580394141,
         "tags": {
           "name": "Mane Alley",
-          "phone": "5105286889",
+          "phone": "+1-510-528-6889",
           "shop": "hairdresser"
         }
       },
@@ -24159,7 +24139,7 @@
         "tags": {
           "name": "Rosebud Gallery",
           "opening_hours": "Mo-Sa 11:00-16:30",
-          "phone": "5105256454",
+          "phone": "+1-510-525-6454",
           "shop": "antiques",
           "wheelchair": "no"
         }
@@ -24970,7 +24950,7 @@
           "addr:street": "Shattuck Avenue",
           "name": "Long Haul Infoshop",
           "office": "ngo",
-          "phone": "+1 (510) 540-0751",
+          "phone": "+1-510-540-0751",
           "source": "local knowledge",
           "website": "https://thelonghaul.org/",
           "wheelchair": "yes"
@@ -24998,7 +24978,7 @@
           "addr:street": "Shattuck Avenue",
           "disused:office": "ngo",
           "name": "Homeless Action Center",
-          "phone": "+1 (510) 540-0878",
+          "phone": "+1-510-540-0878",
           "source": "local knowledge",
           "website": "https://homelessactioncenter.org/"
         }
@@ -25096,7 +25076,7 @@
           "addr:street": "Sacramento Street",
           "description": "Algerian, Morrocan specialties",
           "name": "South Berkeley Produce & Meat Market",
-          "phone": "(510) 705-1733",
+          "phone": "+1-510-705-1733",
           "shop": "greengrocer"
         }
       },
@@ -25116,12 +25096,12 @@
         "tags": {
           "addr:housenumber": "2265",
           "addr:street": "Fifth Street",
-          "contact:instagram": "tomatecafeberkeley",
-          "disused:amenity": "cafe",
-          "name": "Tomate",
-          "opening_hours": "Mo-Su 08:00-14:00",
-          "website": "https://www.tomatecafe.com/",
-          "wheelchair": "yes"
+          "amenity": "cafe",
+          "check_date": "2025-11-03",
+          "cuisine": "mediterranean",
+          "name": "Uqbar",
+          "note": "Opens 2025-11-04",
+          "opening_hours": "Mo-Su 08:00-14:00"
         }
       },
       "geometry": {
@@ -25142,7 +25122,7 @@
           "cuisine": "mexican",
           "name": "Casa Latina",
           "opening_hours": "Mo-Su 07:00-22:00",
-          "phone": "(510) 558-7177"
+          "phone": "+1-510-558-7177"
         }
       },
       "geometry": {
@@ -25187,7 +25167,7 @@
           "amenity": "restaurant",
           "cuisine": "korean;american;burger",
           "name": "Berkeley Social Club",
-          "phone": "+15109005858",
+          "phone": "+1-510-900-5858",
           "website": "https://www.berkeley-socialclub.com/"
         }
       },
@@ -26430,7 +26410,7 @@
           "contact:instagram": "outofthecloset",
           "name": "Out of the Closet",
           "opening_hours": "Mo-Sa 10:00-19:00; Su 10:00-18:00",
-          "phone": "+18005588220",
+          "phone": "+1-800-558-8220",
           "shop": "second_hand",
           "website": "https://outofthecloset.org/",
           "wheelchair": "yes"
@@ -26462,7 +26442,7 @@
           "name": "Bartavelle Coffee and Wine Bar",
           "opening_hours": "We-Fr 08:00-16:00; Tu,Sa 08:00-15:00; Su 09:00-15:00",
           "outdoor_seating": "no",
-          "phone": "+15105242473",
+          "phone": "+1-510-524-2473",
           "website": "https://www.bartavellecafe.com/",
           "wheelchair": "yes"
         }
@@ -27004,7 +26984,7 @@
           "opening_hours": "Mo-Th,Su 11:30-23:30; Fr-Sa 11:30-24:30",
           "outdoor_seating": "no",
           "payment:credit_cards": "yes",
-          "phone": "(510) 658-7273",
+          "phone": "+1-510-658-7273",
           "takeaway": "yes",
           "website": "http://www.orderkansai.com",
           "wheelchair": "yes"
@@ -27083,7 +27063,7 @@
           "amenity": "bicycle_repair_station",
           "fee": "yes",
           "name": "Valencia Cyclery",
-          "phone": "4155506601",
+          "phone": "+1-415-550-6601",
           "service:bicycle:pump": "yes",
           "website": "https://www.valenciacyclery.com/"
         }
@@ -27270,7 +27250,7 @@
           "email": "info@fixthatmac.com",
           "name": "Fix that Mac",
           "opening_hours": "Mo-Fr 10:00-18:00",
-          "phone": "+1 (510) 848-1341",
+          "phone": "+1-510-848-1341",
           "website": "https://fixthatmac.com/"
         }
       },
@@ -27516,7 +27496,7 @@
           "cuisine": "crepes",
           "name": "Crepes a Go Go",
           "opening_hours": "Mo-Su 11:00-20:00",
-          "phone": "(707) 207-5580",
+          "phone": "+1-707-207-5580",
           "website": "https://www.ordercrepesagogo.com/"
         }
       },
@@ -27752,7 +27732,7 @@
           "addr:street": "10th Street",
           "name": "Eastern Classics",
           "opening_hours": "Mo-Fr 10:00-17:00; Sa-Su 11:00-17:00",
-          "phone": "(510) 526-1241",
+          "phone": "+1-510-526-1241",
           "shop": "furniture",
           "website": "https://tansushop.com/",
           "wheelchair": "limited"
@@ -27779,7 +27759,7 @@
           "addr:street": "Shattuck Avenue",
           "name": "Solemates",
           "opening_hours": "Mo-Sa 10:00-19:00, Su 10:00-18:00",
-          "phone": "5106498828",
+          "phone": "+1-510-649-8828",
           "shop": "beauty",
           "website": "https://solematesnailspa.com/"
         }
@@ -27806,7 +27786,7 @@
           "addr:street": "Shattuck Avenue",
           "name": "Coldwell Bankers",
           "office": "estate_agent",
-          "phone": "(510) 486-1495",
+          "phone": "+1-510-486-1495",
           "website": "https://www.coldwellbankerhomes.com/ca/berkeley/office/berkeley/oid_5144/"
         }
       },
@@ -27902,7 +27882,7 @@
           "outdoor_seating": "no",
           "payment:cash": "no",
           "payment:credit_cards": "yes",
-          "phone": "(510) 356-4044",
+          "phone": "+1-510-356-4044",
           "smoking": "no",
           "takeaway": "yes",
           "website": "https://www.sliverpizzeria.com/pizza-telegraph/"
@@ -28033,7 +28013,7 @@
           "name": "Philz Coffee",
           "opening_hours": "Mo-Fr 05:30-17:30; Sa-Su 06:00-18:30",
           "outdoor_seating": "yes",
-          "phone": "(510) 809-0182",
+          "phone": "+1-510-809-0182",
           "takeaway": "yes",
           "website": "https://philzcoffee.com/locations/38"
         }
@@ -28140,7 +28120,7 @@
           "addr:street": "Martin Luther King Jr Way",
           "name": "Saxology",
           "opening_hours": "Tu-Sa 12:00-18:00",
-          "phone": "5108432436",
+          "phone": "+1-510-843-2436",
           "shop": "musical_instrument",
           "website": "https://www.saxcraft.com/"
         }
@@ -28996,17 +28976,16 @@
           "addr:street": "Bancroft Way",
           "contact:facebook": "https://www.facebook.com/musicalofferingcafebistro/",
           "contact:instagram": "https://www.instagram.com/musicalofferingcafe/",
-          "contact:phone": "+1-510-849-0211",
-          "contact:website": "https://musicaloffering.com/cdshop/",
-          "disused:shop": "music",
-          "name": "The Musical Offering"
+          "name": "Pique Berkeley Leasing Office",
+          "office": "property_management",
+          "website": "https://piqueberkeley.com/"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2606991,
-          37.8683373
+          -122.2607103,
+          37.8683898
         ]
       }
     },
@@ -29554,7 +29533,7 @@
           "name": "Hanshin Pocha",
           "opening_hours": "Mo-Sa 17:00-26:00; Su 16:00-24:00",
           "outdoor_seating": "no",
-          "phone": "(510) 654-2000",
+          "phone": "+1-510-654-2000",
           "wheelchair": "yes"
         }
       },
@@ -29602,7 +29581,7 @@
           "addr:street": "Shattuck Avenue",
           "amenity": "nursing_home",
           "name": "Elmwood Nursing and Rehab Center",
-          "phone": "5106652800",
+          "phone": "+1-510-665-2800",
           "website": "https://elmwoodnursingrehab.com/"
         }
       },
@@ -30560,14 +30539,15 @@
         "type": "node",
         "id": 4199631759,
         "tags": {
-          "amenity": "post_box"
+          "amenity": "post_box",
+          "operator": "United States Postal Service"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2884622,
-          37.8572177
+          -122.2884763,
+          37.8572595
         ]
       }
     },
@@ -30666,7 +30646,7 @@
           "old_name": "Caffe Trieste",
           "opening_hours": "Mo-Su 07:00-15:00",
           "outdoor_seating": "sidewalk",
-          "phone": "+1 (510) 548-5198",
+          "phone": "+1-510-548-5198",
           "website": "https://caffechiave.com",
           "wheelchair": "yes"
         }
@@ -30861,7 +30841,7 @@
           "name": "Sheri Tharp Woodcarving Classes",
           "opening_hours": "Sa 10:00-16:00; Th 10:00-16:00, 19:00-22:00",
           "operator": "Sheri Tharp",
-          "phone": "5108438537",
+          "phone": "+1-510-843-8537",
           "website": "https://www.tharpcarvingstudio.com/"
         }
       },
@@ -31609,7 +31589,7 @@
           "addr:street": "Sacramento Street",
           "amenity": "social_facility",
           "name": "Berkeley Food Pantry",
-          "phone": "+1 (510) 525-2280",
+          "phone": "+1-510-525-2280",
           "shop": "convenience",
           "social_facility": "food_bank",
           "social_facility:for": "underprivileged",
@@ -31972,7 +31952,7 @@
           "addr:street": "Sacramento Street",
           "name": "BiRite Liquor",
           "opening_hours": "Mo-Sa 07:30-22:00; Su 08:00-21:30",
-          "phone": "(510) 848-1298",
+          "phone": "+1-510-848-1298",
           "shop": "convenience",
           "wheelchair": "yes"
         }
@@ -31998,7 +31978,7 @@
           "addr:street": "Sacramento Street",
           "name": "Bob's Liquors market",
           "opening_hours": "Mo-Fr, Su 08:00-01:00; Sa 08:00-00:00",
-          "phone": "(510) 486-0547",
+          "phone": "+1-510-486-0547",
           "shop": "convenience"
         }
       },
@@ -32312,7 +32292,7 @@
           "delivery": "no",
           "name": "Tacolicious",
           "opening_hours": "Su-Th 11:30-21:30; Fr,Sa 11:30-22:30",
-          "phone": "+1 (415) 626-1344",
+          "phone": "+1-415-626-1344",
           "smoking": "no",
           "website": "https://www.tacolicious.com/"
         }
@@ -32661,7 +32641,7 @@
           "cuisine": "donut",
           "name": "Happy Donuts",
           "outdoor_seating": "no",
-          "phone": "(510) 524-9816",
+          "phone": "+1-510-524-9816",
           "website": "https://www.yelp.com/biz/happy-donuts-berkeley"
         }
       },
@@ -32838,7 +32818,7 @@
           "damage:type": "fire",
           "disused:amenity": "community_centre",
           "name": "East Bay Media Center",
-          "phone": "5108433699",
+          "phone": "+1-510-843-3699",
           "website": "http://www.eastbaymediacenter.com/"
         }
       },
@@ -33132,7 +33112,7 @@
           "name": "Fieldwork Brewing Co.",
           "opening_hours": "Mo-Th 12:00-22:00; Fr,Sa 11:00-23:00; Su 11:00-22:00",
           "outdoor_seating": "yes",
-          "phone": "+15108981203",
+          "phone": "+1-510-898-1203",
           "website": "https://fieldworkbrewing.com/",
           "wheelchair": "yes"
         }
@@ -33183,7 +33163,7 @@
           "addr:street": "Gilman Street",
           "name": "Don's Tire Service",
           "opening_hours": "Mo-Fr 08:00-17:00; Sa 09:00-15:00",
-          "phone": "+15105260335",
+          "phone": "+1-510-526-0335",
           "shop": "tyres"
         }
       },
@@ -33214,7 +33194,7 @@
           "name": "Picante",
           "opening_hours": "Mo-Su 11:00-20:00",
           "outdoor_seating": "yes",
-          "phone": "+15105253121",
+          "phone": "+1-510-525-3121",
           "smoking": "no",
           "takeaway": "yes",
           "website": "https://www.picanteberkeley.com/"
@@ -33495,7 +33475,7 @@
           "disused:shop": "hairdresser",
           "name": "Lee Hong Hair Styling",
           "opening_hours": "Tu-Sa 09:00-18:00; Su 10:00-17:00",
-          "phone": "4156261582"
+          "phone": "+1-415-626-1582"
         }
       },
       "geometry": {
@@ -33863,7 +33843,7 @@
           "amenity": "social_facility",
           "name": "Ashby Village",
           "office": "ngo",
-          "phone": "+1 (510) 204-9200",
+          "phone": "+1-510-204-9200",
           "social_facility": "outreach",
           "social_facility:for": "senior",
           "website": "http://ashbyvillage.org/"
@@ -34813,7 +34793,7 @@
           "contact:instagram": "pyeongchangtofu",
           "cuisine": "korean",
           "name": "Pyeong Chang Tofu",
-          "phone": "(510) 548-9781",
+          "phone": "+1-510-548-9781",
           "website": "https://www.pctofu.com/"
         }
       },
@@ -35061,7 +35041,7 @@
           "name": "Berkeley Fire Department",
           "office": "government",
           "opening_hours": "Mo-Fr 08:00-17:00",
-          "phone": "(510) 981-3473",
+          "phone": "+1-510-981-3473",
           "website": "https://www.cityofberkeley.info/fire/"
         }
       },
@@ -35293,7 +35273,7 @@
           "animal_boarding": "dog",
           "contact:instagram": "https://www.instagram.com/thebarkmont/",
           "name": "The Barkmont",
-          "phone": "(510) 900-1023",
+          "phone": "+1-510-900-1023",
           "website": "https://the-barkmont.com/"
         }
       },
@@ -35354,7 +35334,7 @@
           "cuisine": "chinese",
           "name": "Dumpling Story",
           "opening_hours": "Su-Th 12:00-21:00; Fr-Sa 12:00-21:30",
-          "phone": "4157570890",
+          "phone": "+1-415-757-0890",
           "website": "https://www.dumplingstoryvalencia.com"
         }
       },
@@ -36582,7 +36562,7 @@
           "addr:street": "Telegraph Avenue",
           "name": "Berkeley Phone Repair",
           "opening_hours:covid19": "closed",
-          "phone": "(916) 600-4428",
+          "phone": "+1-916-600-4428",
           "shop": "mobile_phone"
         }
       },
@@ -36606,7 +36586,7 @@
           "compressed_air": "yes",
           "name": "Chevron",
           "opening_hours": "24/7",
-          "phone": "(510) 649-1145",
+          "phone": "+1-510-649-1145",
           "website": "https://www.chevronwithtechron.com"
         }
       },
@@ -36987,7 +36967,7 @@
           "cuisine": "donut",
           "name": "Dream Fluff Donuts",
           "opening_hours": "Mo-Fr 04:00-12:00; Sa-Su 06:00-13:00",
-          "phone": "(510) 649-0471",
+          "phone": "+1-510-649-0471",
           "website": "https://dreamfluffdonuts.wixsite.com/home"
         }
       },
@@ -37026,7 +37006,7 @@
           "addr:street": "Potter Street",
           "amenity": "fast_food",
           "name": "Tacos el Rey Food Truck",
-          "phone": "5105931020",
+          "phone": "+1-510-593-1020",
           "website": "http://www.elreytacos.com"
         }
       },
@@ -37046,7 +37026,7 @@
         "tags": {
           "name": "Cask",
           "opening_hours": "Mo-Sa 11:00-20:00; Su 11:00-19:00",
-          "phone": "(510) 788-6228",
+          "phone": "+1-510-788-6228",
           "shop": "alcohol",
           "website": "https://caskstore.com",
           "wheelchair": "yes"
@@ -37166,7 +37146,7 @@
           "addr:state": "CA",
           "addr:street": "Bonar Street",
           "addr:unit": "B",
-          "contact:phone": "(510) 989-9900",
+          "contact:phone": "+1-510-989-9900",
           "contact:website": "http://trailpeople.net",
           "name": "TrailPeople",
           "office": "company"
@@ -37221,7 +37201,7 @@
           "drive_through": "no",
           "name": "Nom Nom Banh Mi",
           "opening_hours": "Mo-Sa 11:00-19:00",
-          "phone": "(510) 984-0957",
+          "phone": "+1-510-984-0957",
           "website": "https://nomnombanhmi.store"
         }
       },
@@ -37244,7 +37224,7 @@
           "addr:state": "CA",
           "name": "Berkeley Lighting Company",
           "opening_hours": "Mo-Sa 10:00-18:00",
-          "phone": "(510) 524-1782",
+          "phone": "+1-510-524-1782",
           "shop": "lighting",
           "website": "http://www.berkeleylighting.net/"
         }
@@ -37339,7 +37319,7 @@
           "name": "900 Grayson",
           "opening_hours": "Mo-Fr 08:00-10:45, 11:30-14:00; Sa 08:00-14:00",
           "outdoor_seating": "yes",
-          "phone": "(510) 704-9900",
+          "phone": "+1 510-704-9900",
           "takeaway": "yes",
           "website": "https://www.900grayson.com/"
         }
@@ -37362,7 +37342,7 @@
           "addr:street": "Seventh Street",
           "disused:shop": "furniture",
           "name": "Berkeley mills",
-          "phone": "+15105492854",
+          "phone": "+1-510-549-2854",
           "website": "https://berkeleymills.com/"
         }
       },
@@ -37405,7 +37385,7 @@
           "cuisine": "korean",
           "name": "Spoon Korean Bistro",
           "opening_hours": "Mo-Su 10:00-21:00",
-          "phone": "(510) 704-9555",
+          "phone": "+1-510-704-9555",
           "website": "https://www.spoonashby.com/"
         }
       },
@@ -37670,7 +37650,7 @@
           "male:signed": "no",
           "name": "17 Jewels",
           "opening_hours": "Tu-Su 10:00-18:00",
-          "phone": "5106531059",
+          "phone": "+1 510-653-1059",
           "shop": "hairdresser",
           "website": "https://www.17jewelssalon.com/",
           "wheelchair": "yes"
@@ -38087,7 +38067,7 @@
           "contact:facebook": "lephorestaurant.berkeley",
           "name": "Le Pho",
           "opening_hours": "Mo-Sa 11:30-20:30",
-          "phone": "(510)280-5783",
+          "phone": "+1-510-280-5783",
           "website": "https://www.lephorestaurant.com/"
         }
       },
@@ -38251,7 +38231,7 @@
           "addr:state": "CA",
           "addr:street": "Gilman Street",
           "name": "Ana's Flowers & Gifts",
-          "phone": "+15105587420",
+          "phone": "+1-510-558-7420",
           "shop": "florist"
         }
       },
@@ -38352,7 +38332,7 @@
           "addr:housenumber": "2433",
           "addr:street": "Shattuck Avenue",
           "name": "Jasmi Beauty & Threading",
-          "phone": "(510) 241-8149",
+          "phone": "+1-510-241-8149",
           "shop": "beauty"
         }
       },
@@ -38441,7 +38421,7 @@
           "addr:street": "Sacramento Street",
           "name": "Wash & Shop Laundromat",
           "opening_hours": "Mo-Sa 08:00-17:00",
-          "phone": "(510) 843-5279",
+          "phone": "+1-510-843-5279",
           "self_service": "no",
           "shop": "laundry",
           "wheelchair": "yes"
@@ -40488,7 +40468,7 @@
           "addr:street": "Solano Avenue",
           "name": "Family Hair Care",
           "opening_hours": "Mo-Sa 09:00-18:00",
-          "phone": "+15105246221",
+          "phone": "+1-510-524-6221",
           "shop": "hairdresser",
           "wheelchair": "yes"
         }
@@ -40530,7 +40510,7 @@
         "tags": {
           "name": "Sundhari Holistic Spa",
           "opening_hours": "Th-Su 11:00-19:00",
-          "phone": "+15106840956",
+          "phone": "+1-510-684-0956",
           "shop": "massage",
           "website": "https://sundhari.com/services/",
           "wheelchair": "yes"
@@ -40630,7 +40610,7 @@
           "addr:street": "Solano Avenue",
           "name": "Solano Hair Design",
           "opening_hours": "Mo, Tu, Th-Sa 09:00-17:00",
-          "phone": "+15105257070",
+          "phone": "+1-510-525-7070",
           "shop": "hairdresser",
           "wheelchair": "yes"
         }
@@ -40703,7 +40683,7 @@
           "addr:state": "CA",
           "addr:street": "Solano Avenue",
           "name": "Matsu Fine Natural Bedding",
-          "phone": "+15105257873",
+          "phone": "+1-510-525-7873",
           "shop": "bed",
           "website": "https://matsu-store.com/"
         }
@@ -40728,7 +40708,7 @@
           "addr:state": "CA",
           "addr:street": "Solano Avenue",
           "name": "Moi Lash Spa",
-          "phone": "5105294213",
+          "phone": "+1-510-529-4213",
           "shop": "beauty",
           "website": "https://www.moilashspa.com/"
         }
@@ -40793,7 +40773,7 @@
         "tags": {
           "name": "Modena Salon",
           "opening_hours": "Tu-Sa 09:00-18:00",
-          "phone": "5105249944",
+          "phone": "+1-510-524-9944",
           "shop": "hairdresser",
           "website": "https://www.modenasalon.com/"
         }
@@ -41450,7 +41430,7 @@
           "email": "inquiries@happyhomepartners.com",
           "name": "Happy home partners",
           "office": "estate_agent",
-          "phone": "+15102049922",
+          "phone": "+1-510-204-9922",
           "website": "https://www.happyhomepartners.com/",
           "wheelchair": "limited"
         }
@@ -41670,7 +41650,7 @@
           "amenity": "fast_food",
           "cuisine": "salad;sandwich",
           "name": "Savory Kitchen",
-          "phone": "+15109906131",
+          "phone": "+1-510-990-6131",
           "website": "https://www.grubhub.com/restaurant/savory-kitchen-2493-telegraph-ave-berkeley/2285621"
         }
       },
@@ -41988,7 +41968,7 @@
           "name": "Lhasa Karnak",
           "opening_hours": "Mo-Su 10:00-19:00",
           "operator": "Aaron Murdock",
-          "phone": "(510) 548-0380",
+          "phone": "+1-510-548-0380",
           "shop": "health_food",
           "website": "https://lhasakarnak.com/"
         }
@@ -42010,7 +41990,7 @@
           "amenity": "veterinary",
           "name": "University Veterinary Hospital",
           "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-17:00",
-          "phone": "(510) 841-4412",
+          "phone": "+1-510-841-4412",
           "website": "https://www.uvhberkeley.com/"
         }
       },
@@ -42297,7 +42277,7 @@
           "addr:unit": "4",
           "check_date": "2025-04-26",
           "name": "European Tailor",
-          "phone": "(510) 843-3881",
+          "phone": "+1-510-843-3881",
           "shop": "tailor"
         }
       },
@@ -42478,7 +42458,7 @@
           "fax": "15102636040",
           "name": "Independent life",
           "opening_hours": "Mo-Fr 09:00-17:00; Sa-Su off",
-          "phone": "5102632185",
+          "phone": "+1-510-263-2185",
           "shop": "medical_supply",
           "website": "https://www.indelifemedical.com/"
         }
@@ -42638,8 +42618,8 @@
           "amenity": "restaurant",
           "cuisine": "burger;chicken;sandwich;pizza;barbecue",
           "name": "The Bootstrapper",
-          "opening_hours": "Wednesday, 11:30 AM-8 PM",
-          "phone": "+15109810486",
+          "opening_hours": "Wednesday, 11:30 AM-8 PM",
+          "phone": "+1-510-981-0486",
           "website": "https://m.facebook.com/TheBootstrapper/"
         }
       },
@@ -42742,7 +42722,7 @@
           "amenity": "language_school",
           "name": "Kaplan",
           "opening_hours": "Mo-Fr 09:00-18:00",
-          "phone": "(510) 254-6733",
+          "phone": "+1-510-254-6733",
           "website": "https://www.kaplaninternational.com/united-states/san-francisco/berkeley"
         }
       },
@@ -42823,7 +42803,7 @@
           "cuisine": "vietnamese",
           "name": "Super pho",
           "opening_hours": "Mo, Tu, Th-Su 10:00-19:30",
-          "phone": "(510) 559-7759",
+          "phone": "+1-510-559-7759",
           "website": "https://www.yelp.com/biz/super-super-restaurant-berkeley"
         }
       },
@@ -43186,7 +43166,7 @@
           "amenity": "restaurant",
           "cuisine": "vietnamese",
           "name": "Pho k&k",
-          "phone": "(510) 666-9966",
+          "phone": "+1-510-666-9966",
           "website": "https://www.facebook.com/pages/Pho-K-K/114037361961083"
         }
       },
@@ -43226,7 +43206,7 @@
         "id": 7926245633,
         "tags": {
           "name": "Frank's Tailoring",
-          "phone": "+15108484232",
+          "phone": "+1-510-848-4232",
           "shop": "tailor"
         }
       },
@@ -43256,7 +43236,7 @@
           "cuisine": "açaí",
           "name": "Palm Açaí Cafe",
           "opening_hours": "Mo-Sa 09:00-15:00",
-          "phone": "+15105294577",
+          "phone": "+1-510-529-4577",
           "website": "https://www.palmacai.com/"
         }
       },
@@ -43323,7 +43303,7 @@
           "cuisine": "sushi",
           "name": "Manpuku",
           "opening_hours": "Mo-Sa 11:30-14:00, 16:00-20:00",
-          "phone": "(510) 848-2536",
+          "phone": "+1-510-848-2536",
           "website": "https://manpukuorder.com"
         }
       },
@@ -43594,7 +43574,7 @@
           "brand:wikidata": "Q65087447",
           "cuisine": "chicken",
           "name": "Krispy Krunchy Chicken",
-          "phone": "(510)543-1939",
+          "phone": "+1-510-543-1939",
           "takeaway": "yes",
           "website": "https://www.krispykrunchy.com/locations/store-10286"
         }
@@ -43776,7 +43756,7 @@
           "addr:street": "College Avenue",
           "disused:shop": "pet",
           "name": "Your Basic Bird",
-          "phone": "+15108417617",
+          "phone": "+1-510-841-7617",
           "website": "https://www.yourbasicbird.com/"
         }
       },
@@ -43875,7 +43855,7 @@
         "id": 7948222107,
         "tags": {
           "name": "Pippa & Co.",
-          "phone": "(510) 561-8408",
+          "phone": "+1-510-561-8408",
           "shop": "gift",
           "website": "https://shop.pippaco.com/"
         }
@@ -44050,7 +44030,7 @@
           "addr:street": "Claremont Avenue",
           "name": "French Cleaner",
           "opening_hours": "We-Sa 10:00-14:00",
-          "phone": "(510) 420-8923",
+          "phone": "+1-510-420-8923",
           "shop": "dry_cleaning"
         }
       },
@@ -44092,7 +44072,7 @@
           "disused:shop": "hairdresser",
           "name": "Anton Salon",
           "opening_hours": "Tu-Su 10:00-19:00",
-          "phone": "(510) 647-8866",
+          "phone": "+1-510-647-8866",
           "website": "http://www.antonsalon.com"
         }
       },
@@ -44222,7 +44202,7 @@
           "addr:housenumber": "2842",
           "addr:street": "Prince Street",
           "name": "Bohemia",
-          "phone": "+15108174555",
+          "phone": "+1-510-817-4555",
           "shop": "beauty",
           "website": "https://www.bohemiaskinandbody.com/"
         }
@@ -44330,7 +44310,7 @@
         "tags": {
           "name": "About Face & Body",
           "opening_hours": "Tu, We, Sa, Su 10:30-17:30; Th, Fr 10:30-18:30",
-          "phone": "(510) 428-2600",
+          "phone": "+1 510-428-2600",
           "shop": "beauty",
           "website": "https://www.aboutfaceandbody.net/",
           "wheelchair": "yes"
@@ -44396,7 +44376,7 @@
         "id": 7967712604,
         "tags": {
           "name": "Siamese Dream",
-          "phone": "(510) 428-9987",
+          "phone": "+1-510-428-9987",
           "shop": "clothes"
         }
       },
@@ -44493,7 +44473,7 @@
           "addr:street": "Telegraph Avenue",
           "check_date": "2023-06-11",
           "name": "Cupcakin'",
-          "phone": "+15105294488",
+          "phone": "+1-510-529-4488",
           "shop": "bakery",
           "website": "https://cupcakinbakeshop.com/menu/"
         }
@@ -44519,7 +44499,7 @@
           "addr:street": "Telegraph Avenue",
           "name": "Amoeba Music",
           "opening_hours": "Tu-Su 11:00-19:00",
-          "phone": "+1 (510) 549-1125",
+          "phone": "+1-510-549-1125",
           "second_hand": "yes",
           "shop": "music",
           "website": "https://www.amoeba.com/"
@@ -44544,7 +44524,7 @@
           "addr:postcode": "94704",
           "addr:street": "Telegraph Avenue",
           "name": "Rasputin Music",
-          "phone": "+1 (510) 704-1146",
+          "phone": "+1-510-704-1146",
           "shop": "music",
           "website": "https://www.rasputinmusic.com/"
         }
@@ -45038,7 +45018,7 @@
           "name": "Smokehouse",
           "opening_hours": "off, Mo-Th 10:30-23:00, Fr,Sa 10:30-24:00, Su 10:30-22:00",
           "outdoor_seating": "yes",
-          "phone": "+15108453640",
+          "phone": "+1-510-845-3640",
           "website": "http://facebook.com/TheSmokehouseCA"
         }
       },
@@ -45163,7 +45143,7 @@
           "addr:housenumber": "3086",
           "addr:street": "Claremont Avenue",
           "name": "Dark Carnival",
-          "phone": "(510) 654-7323",
+          "phone": "+1-510-654-7323",
           "shop": "books",
           "website": "http://darkcarnival.com/"
         }
@@ -45187,7 +45167,7 @@
           "addr:street": "Claremont Avenue",
           "name": "Jutta's Flowers",
           "opening_hours": "We-Su 11:00-17:00",
-          "phone": "(510) 547-2293",
+          "phone": "+1-510-547-2293",
           "shop": "gift",
           "website": "https://www.juttasflowers.com/"
         }
@@ -45449,7 +45429,7 @@
           "clothes": "vintage;thrift_store",
           "disused:shop": "clothes",
           "name": "Mars Mercantile",
-          "phone": "+15108436711"
+          "phone": "+1-510-843-6711"
         }
       },
       "geometry": {
@@ -45535,7 +45515,7 @@
           "check_date": "2023-06-11",
           "description": "Formerly Bill's",
           "name": "Beck's Shoes",
-          "phone": "+15108485436",
+          "phone": "+1-510-848-5436",
           "shop": "shoes",
           "website": "https://www.beckshoes.com/"
         }
@@ -45675,7 +45655,7 @@
         "tags": {
           "name": "Elmwood Copy and Printing",
           "opening_hours": "Mo-Fr 08:00-18:00; Sa 10:00-17:00",
-          "phone": "+15105492020",
+          "phone": "+1-510-549-2020",
           "shop": "copyshop"
         }
       },
@@ -45714,7 +45694,7 @@
         "id": 8091612034,
         "tags": {
           "name": "Hellywelly atelier",
-          "phone": "5108411565",
+          "phone": "+1-510-841-1565",
           "shop": "antiques",
           "website": "https://www.instagram.com/hellywelly_atelier/"
         }
@@ -45779,7 +45759,7 @@
           "addr:housenumber": "2522",
           "addr:street": "San Pablo Avenue",
           "name": "Darling Electric Salon",
-          "phone": "+15106478207",
+          "phone": "+1-510-647-8207",
           "shop": "hairdresser",
           "website": "https://www.darlingelectricsalon.com/"
         }
@@ -45864,7 +45844,7 @@
           "addr:housenumber": "2498",
           "name": "Berkeley Minicar",
           "opening_hours": "Mo-Fr 08:30-17:30",
-          "phone": "(510) 841-1221",
+          "phone": "+1-510-841-1221",
           "shop": "car_repair",
           "website": "https://www.berkeleyminicar.com/"
         }
@@ -45886,7 +45866,7 @@
           "name": "Wine so cru",
           "opening_hours": "Tu-Sa 12:00-18:00",
           "opening_hours:covid19": "closed",
-          "phone": "(510) 280-5583",
+          "phone": "+1-510-280-5583",
           "shop": "wine",
           "website": "https://winesocru.com/"
         }
@@ -45931,7 +45911,7 @@
         "tags": {
           "name": "H&B",
           "opening_hours": "Mo-Fr 08:00-17:00",
-          "phone": "(510) 616-6030",
+          "phone": "+1-510-616-6030",
           "shop": "car_repair",
           "website": "https://hbmotorwerksberkeley.com/"
         }
@@ -46037,7 +46017,7 @@
           "contact:instagram": "https://www.instagram.com/berkeleyhumane/",
           "contact:twitter": "https://twitter.com/berkeleyhumane",
           "name": "Berkeley humane",
-          "phone": "(510) 845-7735",
+          "phone": "+1-510-845-7735",
           "website": "https://berkeleyhumane.org/"
         }
       },
@@ -46082,7 +46062,7 @@
         "tags": {
           "name": "Berkeley tattoo",
           "opening_hours": "Mo-Su 12:00-19:00",
-          "phone": "5105492828",
+          "phone": "+1-510-549-2828",
           "shop": "tattoo",
           "website": "https://www.berkeleytattoo.org/"
         }
@@ -46172,7 +46152,7 @@
           "addr:unit": "100",
           "check_date": "2025-06-18",
           "name": "True Love Tattoo",
-          "phone": "5108415683",
+          "phone": "+1-510-841-5683",
           "shop": "tattoo"
         }
       },
@@ -46193,7 +46173,7 @@
           "brand": "Big O Tires",
           "brand:wikidata": "Q4906085",
           "name": "Big O Tires",
-          "phone": "(510) 843-9633",
+          "phone": "+1-510-843-9633",
           "shop": "tyres",
           "website": "https://www.bigotires.com/location/CA-Berkeley-94702/005259"
         }
@@ -46213,7 +46193,7 @@
         "id": 8105152422,
         "tags": {
           "name": "Panel craft",
-          "phone": "5105480815",
+          "phone": "+1-510-548-0815",
           "shop": "car_repair"
         }
       },
@@ -46280,7 +46260,7 @@
           "opening_hours": "Mo-Su 09:00-16:00",
           "payment:cash": "no",
           "payment:credit_cards": "yes",
-          "phone": "(415) 484-5539",
+          "phone": "+1-415-484-5539",
           "shop": "bakery",
           "website": "https://thirdculturebakery.com/locations/",
           "wheelchair": "yes"
@@ -46368,7 +46348,7 @@
           "opening_hours": "We 09:00-15:00; Sa 09:00-14:00",
           "outdoor_seating": "yes",
           "pastry": "yes",
-          "phone": "5108138300",
+          "phone": "+1-510-813-8300",
           "shop": "pastry",
           "website": "https://www.lanoisettesweets.com/",
           "wheelchair": "yes"
@@ -46501,7 +46481,7 @@
           "addr:state": "CA",
           "addr:street": "San Pablo Avenue",
           "name": "Wise auto tech",
-          "phone": "+15106651060",
+          "phone": "+1-510-665-1060",
           "shop": "car_repair",
           "website": "https://www.wiseautotech.com/"
         }
@@ -46522,7 +46502,7 @@
         "tags": {
           "name": "Umphred",
           "opening_hours": "Mo-Su 10:00-18:00",
-          "phone": "+1 (510) 848-8970",
+          "phone": "+1-510-848-8970",
           "shop": "interior_decoration",
           "website": "https://www.keetsa.com/pages/mattress-stores"
         }
@@ -47237,7 +47217,7 @@
           "check_date": "2025-08-24",
           "disused:shop": "furniture",
           "name": "The Wood Works",
-          "phone": "(510) 843-8415",
+          "phone": "+1-510-843-8415",
           "website": "http://berkeleywoodworks.com/"
         }
       },
@@ -47377,7 +47357,7 @@
           "check_date": "2025-03-08",
           "name": "Golden Key Piano School",
           "opening_hours": "Mo-Fr 14:00-19:00; Sa 10:00-16:00; Su off",
-          "phone": "5106655466",
+          "phone": "+1-510-665-5466",
           "website": "https://goldenkeypianoschool.com/home/"
         }
       },
@@ -47451,7 +47431,7 @@
           "cuisine": "bubble_tea;crepe;korean",
           "name": "Pink cloud tea & more",
           "opening_hours": "Mo-Sa 11:00-19:00",
-          "phone": "(510) 647-9818",
+          "phone": "+1-510-647-9818",
           "website": "https://www.pinkcloudteanmore.com/"
         }
       },
@@ -47474,7 +47454,7 @@
           "addr:street": "Center Street",
           "amenity": "fast_food",
           "name": "K's Coffee House",
-          "phone": "+15108482147"
+          "phone": "+1-510-848-2147"
         }
       },
       "geometry": {
@@ -47568,9 +47548,9 @@
           "addr:postcode": "94709",
           "addr:state": "CA",
           "addr:street": "Hearst Avenue",
-          "amenity": "fast_food",
-          "cuisine": "pizza",
-          "name": "Tony's Style",
+          "amenity": "cafe",
+          "cuisine": "coffee_shop",
+          "name": "Gold Bean Cafe",
           "opening_hours": "Mo-Su 17:00-24:00",
           "phone": "+1-917-2444797"
         }
@@ -47591,7 +47571,7 @@
         "tags": {
           "name": "Alex market",
           "opening_hours": "Mo-Su 09:30-21:30",
-          "phone": "(510) 649-1779",
+          "phone": "+1 510-649-1779",
           "shop": "convenience"
         }
       },
@@ -47705,7 +47685,7 @@
         "tags": {
           "name": "Golden state",
           "opening_hours": "Mo-Fr 08:00-17:00",
-          "phone": "(510) 900-4020",
+          "phone": "+1-510-900-4020",
           "shop": "interior_decoration",
           "website": "https://www.goldenstatelumber.com/locations/berkeley/"
         }
@@ -47725,7 +47705,7 @@
         "id": 8345897603,
         "tags": {
           "name": "Uncommon Ground",
-          "phone": "(510) 764-1211",
+          "phone": "+1-510-764-1211",
           "shop": "coffee",
           "website": "https://uncommongroundsllc.com/"
         }
@@ -48254,7 +48234,7 @@
           "healthcare": "dentist",
           "name": "Caliri Susan DDS",
           "opening_hours": "Mo-Fr 08:30-17:00",
-          "phone": "5108452864",
+          "phone": "+1-510-845-2864",
           "website": "https://caliridds.com/"
         }
       },
@@ -48544,7 +48524,7 @@
           "contact:twitter": "https://twitter.com/hotelshattuck",
           "name": "Hotel Shattuck Plaza",
           "old_name": "Shattuck Hotel",
-          "phone": "+15108457300",
+          "phone": "+1-510-845-7300",
           "tourism": "hotel",
           "website": "https://www.hotelshattuckplaza.com/",
           "wikidata": "Q7490732",
@@ -48690,7 +48670,7 @@
           "fee": "no",
           "name": "Art Thou",
           "opening_hours": "We-Sa 10:00-14:00",
-          "phone": "5105257779",
+          "phone": "+1-510-525-7779",
           "website": "https://www.theartthougallery.com/"
         }
       },
@@ -48710,7 +48690,7 @@
         "tags": {
           "name": "Sottovoce",
           "opening_hours": "Mo-Sa 11:00-17:00; Su 12:00-17:00",
-          "phone": "+15105255067",
+          "phone": "+1-510-525-5067",
           "shop": "clothes",
           "wheelchair": "limited"
         }
@@ -48793,7 +48773,7 @@
           "name": "AYA",
           "old_name": "Artbeat Salon & Gallery",
           "opening_hours": "We-Fr 09:00-20:00; Sa 09:00-19:00; Su 10:00-17:00",
-          "phone": "+15105273100",
+          "phone": "+1-510-527-3100",
           "shop": "hairdresser",
           "website": "https://ayasalon.com/"
         }
@@ -48816,7 +48796,7 @@
           "addr:housenumber": "1887",
           "addr:street": "Solano Avenue",
           "name": "Lola",
-          "phone": "+15106468338",
+          "phone": "+1-510-646-8338",
           "shop": "hairdresser"
         }
       },
@@ -48897,7 +48877,7 @@
         "tags": {
           "addr:housenumber": "896",
           "name": "Lustre salon",
-          "phone": "510.725.6370",
+          "phone": "+1-510-725-6370",
           "shop": "hairdresser",
           "website": "https://www.lustre.salon/"
         }
@@ -49616,7 +49596,7 @@
           "addr:state": "CA",
           "addr:street": "San Pablo Avenue",
           "name": "Pic N' Pac",
-          "phone": "+15105580986",
+          "phone": "+1-510-558-0986",
           "shop": "alcohol"
         }
       },
@@ -49638,7 +49618,7 @@
           "brand": "Chevron",
           "brand:wikidata": "Q319642",
           "name": "Chevron",
-          "phone": "(510) 524-0917",
+          "phone": "+1-510-524-0917",
           "self_service": "yes",
           "website": "https://www.chevronwithtechron.com/station/1300-San-Pablo-Avenue-Berkeley-CA-94702-id91745"
         }
@@ -49709,7 +49689,7 @@
           "contact:facebook": "https://www.facebook.com/LamaBeansCafe",
           "cuisine": "international",
           "name": "Lama Beans",
-          "phone": "(510) 528-3435",
+          "phone": "+1-510-528-3435",
           "website": "https://www.yelp.com/biz/lama-beans-cafe-berkeley"
         }
       },
@@ -49824,7 +49804,7 @@
           "name": "Phở le",
           "opening_hours": "Tu-Sa 11:00-15:00, 17:00-21:00",
           "outdoor_seating": "no",
-          "phone": "5105588367",
+          "phone": "+1-510-558-8367",
           "website": "https://www.pholeberkeley.com/",
           "wheelchair": "yes"
         }
@@ -50052,7 +50032,7 @@
           "name": "Mainichi",
           "opening_hours": "Tu-Su 11:45-21:30",
           "outdoor_seating": "no",
-          "phone": "(510) 280-5037",
+          "phone": "+1-510-280-5037",
           "website": "https://mainichisushi.menu11.com",
           "wheelchair": "yes"
         }
@@ -52458,7 +52438,7 @@
           "cuisine": "ethiopian",
           "disused:amenity": "restaurant",
           "name": "Kaffa Ethiopian Cuisine",
-          "phone": "(510) 677-5822",
+          "phone": "+1-510-677-5822",
           "website": "https://kaffa-ethiopian-cuisine.cafe-inspector.com/"
         }
       },
@@ -52527,7 +52507,7 @@
           "operator": "Concentra",
           "operator:wikidata": "Q5158304",
           "operator:wikipedia": "en:Concentra",
-          "phone": "510.845.5170",
+          "phone": "+1-510-845-5170",
           "website": "https://www.concentra.com/urgent-care-centers/california/bay-area/berkeley-urgent-care"
         }
       },
@@ -52908,7 +52888,7 @@
           "addr:street": "Hearst Avenue",
           "amenity": "cafe",
           "cuisine": "bubble_tea",
-          "name": "Hay Tea"
+          "name": "J's Snacks and Tea"
         }
       },
       "geometry": {
@@ -53049,7 +53029,7 @@
         "id": 9499640442,
         "tags": {
           "name": "Smog Repair",
-          "phone": "5108601578",
+          "phone": "+1-510-860-1578",
           "shop": "car_repair"
         }
       },
@@ -53090,7 +53070,7 @@
         "tags": {
           "amenity": "fast_food",
           "name": "Taqueria food truck",
-          "phone": "5104785999"
+          "phone": "+1-510-478-5999"
         }
       },
       "geometry": {
@@ -53197,7 +53177,7 @@
           "cuisine": "pretzel",
           "name": "Squabisch Pretzels",
           "opening_hours": "Tu-Su 11:00-17:00",
-          "phone": "(510) 282-6316",
+          "phone": "+1-510-282-6316",
           "shop": "bakery",
           "website": "http://squabisch.com/"
         }
@@ -55845,7 +55825,7 @@
           "contact:instagram": "teakmehome",
           "disused:shop": "furniture",
           "name": "Teak me home",
-          "phone": "+15107257258",
+          "phone": "+1-510-725-7258",
           "website": "https://teakmehome.com/"
         }
       },
@@ -55870,7 +55850,7 @@
           "addr:street": "San Pablo Avenue",
           "amenity": "dojo",
           "name": "Martial Arts and fitness",
-          "phone": "5105408283"
+          "phone": "+1-510-540-8283"
         }
       },
       "geometry": {
@@ -55969,7 +55949,7 @@
           "disused:amenity": "doctors",
           "name": "Kiwi pediatric",
           "opening_hours": "Mo-Fr 09:00-17:00; Sa 09:00-12:00",
-          "phone": "(510) 524-9400",
+          "phone": "+1-510-524-9400",
           "website": "https://www.kiwipediatrics.com/",
           "wheelchair": "yes"
         }
@@ -56502,7 +56482,7 @@
         "tags": {
           "amenity": "restaurant",
           "name": "Himalayan Flavors",
-          "phone": "5107040174"
+          "phone": "+1-510-704-0174"
         }
       },
       "geometry": {
@@ -56526,7 +56506,7 @@
           "amenity": "kindergarten",
           "description": "preschool",
           "name": "Woolly mammoth",
-          "phone": "5105484779",
+          "phone": "+1 510-548-4779",
           "website": "http://www.woollymammothpreschool.com/"
         }
       },
@@ -56593,7 +56573,7 @@
           "addr:street": "Solano Avenue",
           "name": "MooreBeautyLove",
           "opening_hours": "Tu-Fr 09:30-17:30; Sa 09:00-16:00",
-          "phone": "510.974.0602",
+          "phone": "+1-510-974-0602",
           "shop": "beauty",
           "website": "https://www.moorebeautylove.com/"
         }
@@ -56756,7 +56736,7 @@
           "brand": "YMCA",
           "brand:wikidata": "Q157169",
           "name": "YMCA Child Care",
-          "phone": "510-848-9092",
+          "phone": "+1 510-848-9092",
           "website": "https://ymcaeastbay.org/"
         }
       },
@@ -56799,7 +56779,7 @@
           "check_date": "2025-07-02",
           "description": "Open for children aged 2 5 years old. Maximizing communication potential through early education, family support, and community audiology services for children & adults who are deaf or hard of hearing.",
           "name": "Sunshine preschool & childcare",
-          "phone": "5108484800",
+          "phone": "+1-510-848-4800",
           "website": "https://www.ceid.org/"
         }
       },
@@ -56944,7 +56924,7 @@
           "addr:street": "San Pablo Avenue",
           "name": "Rad power bike",
           "opening_hours": "Mo-Su 10:00-18:00",
-          "phone": "(510) 296-8885",
+          "phone": "+1-510-296-8885",
           "service:bicycle:electric_bikes": "yes",
           "service:bicycle:retail": "yes",
           "shop": "bicycle",
@@ -57777,7 +57757,7 @@
           "brand": "U-Haul",
           "brand:wikidata": "Q7862902",
           "name": "U-Haul",
-          "phone": "(510) 596-8945",
+          "phone": "+1-510-596-8945",
           "shop": "rental",
           "website": "https://www.uhaul.com/Locations/Truck-Rentals-near-Berkeley-CA-94710/003746/"
         }
@@ -60757,7 +60737,7 @@
           "diet:vegan": "yes",
           "name": "Boogaloos",
           "opening_hours": "09:00-15:00",
-          "phone": "+14158964611",
+          "phone": "+1-415-896-4611",
           "website": "http://www.boogaloossf.com"
         }
       },
@@ -61157,7 +61137,7 @@
         "tags": {
           "name": "Wind & Brass",
           "opening_hours": "Tu-Fr 12:00-19:00; Sa 12:00-16:00",
-          "phone": "(510) 225-9547",
+          "phone": "+1-510-225-9547",
           "shop": "musical_instrument",
           "website": "https://www.windandbrassmusic.com/",
           "wheelchair": "yes"
@@ -61900,7 +61880,7 @@
           "cuisine": "thai",
           "name": "Nana Thaï bistro",
           "opening_hours": "Th-Mo 08:30-14:00",
-          "phone": "5109731883"
+          "phone": "+1-510-973-1883"
         }
       },
       "geometry": {
@@ -62036,7 +62016,7 @@
           "indoor": "yes",
           "leisure": "playground",
           "name": "Game on",
-          "phone": "(510) 616-5415",
+          "phone": "+1-510-616-5415",
           "website": "https://www.gameonberkeley.com/",
           "wikimedia_commons": "File:2022-10-21 Game On.jpg"
         }
@@ -62406,7 +62386,7 @@
           "amenity": "restaurant",
           "cuisine": "asian",
           "name": "Dumpling time",
-          "phone": "5109840306",
+          "phone": "+1-510-984-0306",
           "website": "https://www.dumplingtime.com/berkeley"
         }
       },
@@ -62563,7 +62543,7 @@
           "addr:street": "Dwight Way",
           "name": "Nang Sida Thai Yoga Massage",
           "opening_hours": "Mo-Su 10:00-20:00",
-          "phone": "5106479228",
+          "phone": "+1-510-647-9228",
           "shop": "massage",
           "website": "http://www.nangsidathaimassage.com/"
         }
@@ -62738,7 +62718,7 @@
           "cuisine": "mexican",
           "name": "El Talpense Mexican",
           "opening_hours": "Mo-Sa 11:00-22:00",
-          "phone": "+15105491460",
+          "phone": "+1-510-549-1460",
           "website": "https://order.snackpass.co/El-Talpense-5fca6d4a36379700b6ecc749"
         }
       },
@@ -62818,7 +62798,7 @@
           "addr:street": "Telegraph Avenue",
           "check_date": "2023-06-11",
           "name": "Studio Six Jewelers",
-          "phone": "+15104594073",
+          "phone": "+1-510-459-4073",
           "shop": "jewelry",
           "website": "http://studio-six-jewelers.keeq.io/"
         }
@@ -62843,11 +62823,11 @@
           "addr:state": "CA",
           "addr:street": "Telegraph Avenue",
           "check_date": "2023-06-11",
-          "description": "ATM Inside\nCash only for glass if under 21",
+          "description": "ATM Inside Cash only for glass if under 21",
           "name": "Big Al's Smoke and Gifts",
           "payment:cash": "yes",
           "payment:credit_cards": "yes",
-          "phone": "+15105400764",
+          "phone": "+1-510-540-0764",
           "shop": "tobacco"
         }
       },
@@ -62872,7 +62852,7 @@
           "addr:street": "Telegraph Avenue",
           "check_date": "2023-06-11",
           "name": "Hi-Times",
-          "phone": "+15104860988",
+          "phone": "+1-510-486-0988",
           "shop": "tobacco"
         }
       },
@@ -63556,7 +63536,7 @@
           "name": "Panchitas",
           "opening_hours": "Mo-Th,Su 09:00-23:00, Fr,Sa 09:00-26:30",
           "outdoor_seating": "yes",
-          "phone": "+1 (415) 431-4232",
+          "phone": "+1-415-431-4232",
           "takeaway": "yes",
           "website": "https://www.panchitaspupuseria.com/"
         }
@@ -65411,7 +65391,7 @@
           "healthcare": "dentist",
           "name": "Berkeley Dental Group",
           "opening_hours": "Mo-Th 08:00-17:00",
-          "phone": "(510) 548-0570",
+          "phone": "+1-510-548-0570",
           "website": "https://berkeleydentalgroup.com/",
           "wheelchair": "yes"
         }
@@ -66837,7 +66817,7 @@
           "addr:street": "University Avenue",
           "disused:shop": "hairdresser",
           "name": "Kim long salon",
-          "phone": "+15104095586"
+          "phone": "+1-510-409-5586"
         }
       },
       "geometry": {
@@ -66861,7 +66841,7 @@
           "addr:street": "University Avenue",
           "disused:shop": "beauty",
           "name": "Classy nails",
-          "phone": "5104869598"
+          "phone": "+1-510-486-9598"
         }
       },
       "geometry": {
@@ -68488,7 +68468,7 @@
           "contact:instagram": "slipperyfishcatering",
           "craft": "caterer",
           "name": "Slippery fish",
-          "phone": "+14156021119",
+          "phone": "+1-415-602-1119",
           "website": "https://www.slipperyfishcatering.com/"
         }
       },
@@ -69694,7 +69674,7 @@
         "tags": {
           "addr:housenumber": "2748",
           "name": "Berkeley hearing center",
-          "phone": "5108410681",
+          "phone": "+1-510-841-0681",
           "shop": "hearing_aids",
           "website": "https://berkeleyhearing.com/"
         }
@@ -69899,7 +69879,7 @@
         "id": 10824767706,
         "tags": {
           "name": "San Pablo European",
-          "phone": "5105241036",
+          "phone": "+1-510-524-1036",
           "shop": "car_repair"
         }
       },
@@ -72120,6 +72100,8 @@
         "type": "node",
         "id": 10959931538,
         "tags": {
+          "addr:housenumber": "741",
+          "addr:street": "Gilman Street",
           "name": "Performance motocycle",
           "phone": "5256797",
           "shop": "motorcycle_repair"
@@ -72560,7 +72542,7 @@
         "id": 10975586426,
         "tags": {
           "name": "E'lan",
-          "phone": "5106473509",
+          "phone": "+1-510-647-3509",
           "shop": "beauty"
         }
       },
@@ -77414,7 +77396,7 @@
           "indoor_seating": "yes",
           "name": "Sizzling Lunch",
           "outdoor_seating": "no",
-          "phone": "(510) 750-1943",
+          "phone": "+1-510-750-1943",
           "website": "https://www.sizzlinglunch.com/"
         }
       },
@@ -77750,6 +77732,7 @@
         "id": 11374955277,
         "tags": {
           "amenity": "bench",
+          "backrest": "no",
           "material": "concrete"
         }
       },
@@ -77777,7 +77760,7 @@
           "opening_hours": "Tu-Sa 12:00-19:00",
           "operator": "Stay True Cycles",
           "payment:credit_cards": "yes",
-          "phone": "+15107256281",
+          "phone": "+1-510-725-6281",
           "service:bicycle:cleaning": "yes",
           "service:bicycle:mtb": "yes",
           "service:bicycle:parts": "yes",
@@ -77916,7 +77899,7 @@
           "email": "hello@photolaboratory.com",
           "name": "Photolab",
           "opening_hours": "Mo-Sa 10:00-17:00",
-          "phone": "(510) 644-1400",
+          "phone": "+1-510-644-1400",
           "website": "https://www.photolaboratory.com/"
         }
       },
@@ -77979,7 +77962,7 @@
         "tags": {
           "name": "Highline Kites",
           "opening_hours": "Sa-Su 1:30p-6:30p",
-          "phone": "+15102355483",
+          "phone": "+1-510-235-5483",
           "shop": "kite",
           "website": "https://highlinekites.com/"
         }
@@ -78115,10 +78098,10 @@
         "type": "node",
         "id": 11495013155,
         "tags": {
-          "amenity": "restaurant",
           "cuisine": "seafood",
+          "disused:amenity": "restaurant",
           "name": "Marina Seafood Dockside Patio",
-          "note": "opened Jan 2024 in new structure here",
+          "note": "opened Jan 2024 in new structure here\nappears closed now in Nov 2025",
           "opening_hours": "Mo off; Tu-Su 11:30-14:00,16:00-20:00",
           "outdoor_seating": "yes",
           "website": "https://www.marinadocksidepatio.com/"
@@ -78251,10 +78234,16 @@
         "type": "node",
         "id": 11506546414,
         "tags": {
+          "addr:housenumber": "￼ 2512",
+          "addr:postcode": "94704",
+          "addr:street": "Telegraph Avenue",
           "amenity": "post_office",
           "brand": "The UPS Store",
           "brand:wikidata": "Q7771029",
+          "email": "store6089@theupsstore.com",
           "name": "The UPS Store",
+          "opening_hours": "Mo-Fr 09:00-18:00; Sa 11:00-16:00; Su 11:00-15:00",
+          "phone": "+1-510-843-0993",
           "shop": "copyshop",
           "short_name": "UPS"
         }
@@ -78490,7 +78479,7 @@
           "payment:discover_card": "yes",
           "payment:mastercard": "yes",
           "payment:visa": "yes",
-          "phone": "415-500-2700",
+          "phone": "+1 415-500-2700",
           "shop": "mailing_company",
           "website": "https://notaryphotolivescanshipping.com",
           "year": "2003"
@@ -82547,7 +82536,7 @@
           "cuisine": "american;mexican",
           "name": "Sol Taqueria",
           "opening_hours": "Mo-Th 10:00-21:00; Fr-Su 08:00-21:00",
-          "phone": "5105294157",
+          "phone": "+1-510-529-4157",
           "website": "https://www.nuevosolberkeley.com/"
         }
       },
@@ -83337,7 +83326,7 @@
           "name:zh": "銀記腸粉店",
           "opening_hours": "Mo-Su 10:30-20:30",
           "outdoor_seating": "no",
-          "phone": "+15105702115",
+          "phone": "+1-510-570-2115",
           "smoking": "no",
           "takeaway": "yes",
           "website": "https://www.yinjichangfenusa.com/",
@@ -83421,7 +83410,7 @@
           "amenity": "cafe",
           "cuisine": "bubble_tea",
           "name": "Teaspoon",
-          "phone": "(415) 952-3812",
+          "phone": "+1-415-952-3812",
           "website": "https://order.teaspoonlife.com/1998/berkeley"
         }
       },
@@ -85781,7 +85770,7 @@
           "addr:state": "CA",
           "addr:street": "San Pablo Avenue",
           "name": "Precision Peoples Car Repair",
-          "phone": "+1 (510) 524-1911",
+          "phone": "+1-510-524-1911",
           "shop": "car_repair"
         }
       },
@@ -86083,7 +86072,7 @@
         "id": 12285587434,
         "tags": {
           "amenity": "telephone",
-          "phone": "+15105409624"
+          "phone": "+1-510-540-9624"
         }
       },
       "geometry": {
@@ -86124,7 +86113,7 @@
         "tags": {
           "amenity": "recycling",
           "email": "csbrecycling@gmail.com",
-          "phone": "+15109419401",
+          "phone": "+1-510-941-9401",
           "recycling:books": "yes",
           "recycling:clothes": "yes",
           "recycling:shoes": "yes",
@@ -92648,8 +92637,10 @@
           "addr:postcode": "94704",
           "addr:state": "CA",
           "addr:street": "Channing Way",
-          "disused:shop": "tailor",
-          "name": "Jim the Tailor"
+          "amenity": "fast_food",
+          "cuisine": "smoothie",
+          "name": "Layers Superfood Bar",
+          "website": "https://www.layerssuperfoodbar.com/"
         }
       },
       "geometry": {
@@ -93300,7 +93291,7 @@
           "cuisine": "indian",
           "name": "Apna Chulha",
           "opening_hours": "Mo-Su 11:00-23:00",
-          "phone": "(415) 400-4774",
+          "phone": "+1-415-400-4774",
           "website": "https://www.apnachulhasf.com/"
         }
       },
@@ -99268,8 +99259,8 @@
           "addr:postcode": "94706",
           "addr:state": "CA",
           "addr:street": "Gilman Street",
-          "amenity": "restaurant",
           "cuisine": "pizza",
+          "disused:amenity": "restaurant",
           "name": "Thee One Four"
         }
       },
@@ -100392,8 +100383,10 @@
           "addr:postcode": "94710",
           "addr:state": "CA",
           "addr:street": "Sixth Street",
+          "check_date": "2025-11-06",
           "craft": "metal_construction",
           "name": "Walter Mork Sheet Metal Heating and Air Conditioning",
+          "opening_hours": "Mo-Fr 07:30-16:00; Sa-Su off",
           "website": "https://www.waltermork.com/"
         }
       },
@@ -106208,8 +106201,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2917822,
-          37.8672342
+          -122.2917317,
+          37.8672524
         ]
       }
     },
@@ -106240,7 +106233,7 @@
           "addr:street": "Centennial Drive",
           "name": "The Lawrence Discovery Store",
           "opening_hours": "We-Su 10:00-17:00",
-          "phone": "+15106422232",
+          "phone": "+1-510-642-2232",
           "shop": "toys",
           "website": "https://store.lawrencehallofscience.org/"
         }
@@ -108628,7 +108621,7 @@
           "diet:vegetarian": "yes",
           "name": "Bao",
           "opening_hours": "11:30-14:30,17:30-21:30",
-          "phone": "+1 (415) 658-7453",
+          "phone": "+1-415-658-7453",
           "website": "https://www.baovalencia.com/"
         }
       },
@@ -108855,8 +108848,10 @@
           "addr:city": "Berkeley",
           "addr:housenumber": "2155",
           "addr:street": "Center Street",
-          "disused:amenity": "cafe",
-          "name": "BAMPFA cafe"
+          "amenity": "cafe",
+          "cuisine": "indonesian;singapore",
+          "name": "Kopi Bar and Bakery",
+          "website": "https://thekopibar.com/"
         }
       },
       "geometry": {
@@ -110750,10 +110745,22 @@
         "type": "node",
         "id": 13102834859,
         "tags": {
+          "addr:city": "Berkeley",
           "addr:housenumber": "3089",
+          "addr:postcode": "94705",
+          "addr:state": "CA",
           "addr:street": "Telegraph Avenue",
+          "check_date:currency:XBT": "2025-11-03",
+          "currency:XBT": "yes",
           "leisure": "fitness_centre",
-          "name": "Immortal Fitness"
+          "name": "Immortal Fitness",
+          "opening_hours": "24/7",
+          "payment:lightning": "yes",
+          "payment:lightning:operator": "square",
+          "payment:lightning_contactless": "no",
+          "payment:onchain": "no",
+          "phone": "+1 510 859 7771",
+          "website": "https://immortalfitness.org/"
         }
       },
       "geometry": {
@@ -110838,7 +110845,7 @@
           "addr:street": "Dwight Way",
           "name": "Homeless Action Center",
           "office": "ngo",
-          "phone": "+1 (510) 540-0878",
+          "phone": "+1-510-540-0878",
           "source": "local knowledge",
           "website": "https://homelessactioncenter.org/"
         }
@@ -111714,6 +111721,237 @@
         "coordinates": [
           -122.2893525,
           37.8608536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13274803045,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "808",
+          "addr:street": "Gilman Street",
+          "name": "Ultraview Corporation",
+          "office": "company",
+          "website": "https://www.ultraviewcorp.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3021928,
+          37.8790312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13274973190,
+        "tags": {
+          "amenity": "bicycle_parking",
+          "bicycle_parking": "stands",
+          "capacity": "4"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2882122,
+          37.8564345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13274973198,
+        "tags": {
+          "amenity": "bicycle_parking",
+          "bicycle_parking": "stands",
+          "capacity": "2"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2888247,
+          37.8583423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13278418644,
+        "tags": {
+          "addr:housenumber": "3031",
+          "addr:street": "Adeline Street",
+          "amenity": "fast_food",
+          "cuisine": "sandwich;smoothie",
+          "name": "Ashby Eatery",
+          "website": "https://www.instagram.com/ashby.eatery/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2690198,
+          37.8540749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13278456257,
+        "tags": {
+          "addr:housenumber": "2507",
+          "addr:street": "Hearst Avenue",
+          "addr:unit": "B",
+          "amenity": "restaurant",
+          "cuisine": "asian",
+          "name": "House of Three",
+          "website": "https://www.ho3berkeley.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2597029,
+          37.8753869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13278642839,
+        "tags": {
+          "check_date": "2025-11-03",
+          "name": "Looking Glass Photo",
+          "shop": "photo"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2974159,
+          37.863732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13281871764,
+        "tags": {
+          "access": "private",
+          "amenity": "bench",
+          "armrest": "yes",
+          "backrest": "yes",
+          "material": "wood"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2563416,
+          37.8761279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13285864188,
+        "tags": {
+          "amenity": "cafe",
+          "check_date": "2025-11-06",
+          "name": "Nina's Cafe"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2927489,
+          37.8565417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13285906798,
+        "tags": {
+          "check_date": "2025-11-06",
+          "name": "Heliospace",
+          "office": "company"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2953848,
+          37.8602932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13293917340,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2594",
+          "addr:postcode": "94720",
+          "addr:state": "CA",
+          "addr:street": "Hearst Avenue",
+          "amenity": "post_depot",
+          "name": "ERSO Shipping & Receiving",
+          "opening_hours": "Mo-Fr 08:00-16:00",
+          "operator": "UC Berkeley Sutardja Dai Hall",
+          "phone": "(510) 664-7800",
+          "website": "https://www.erso.berkeley.edu/web/contact-us"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2579254,
+          37.8746959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13300412140,
+        "tags": {
+          "addr:housenumber": "739",
+          "addr:street": "Gilman Street",
+          "disused:shop": "trade",
+          "name": "Crown Heating and Sheet Metal",
+          "trade": "metal"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3030254,
+          37.8792825
         ]
       }
     },
@@ -113455,7 +113693,7 @@
           "opening_hours": "Mo-Sa 09:00-20:00; Su 10:00-19:00",
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
-          "phone": "+15108436929",
+          "phone": "+1-510-843-6929",
           "shop": "supermarket",
           "website": "https://www.berkeleybowl.com/",
           "wheelchair": "yes"
@@ -113571,7 +113809,7 @@
           "opening_hours": "Mo-Su 07:00-22:00",
           "opening_hours:pharmacy": "Mo-Fr 08:00-21:00, Sa 09:00-13:30,14:00-18:00, Su 10:00-13:30,14:00-18:00",
           "operator": "Walgreens",
-          "phone": "+15109818392",
+          "phone": "+1-510-981-8392",
           "roof:levels": "0",
           "website": "https://www.walgreens.com/locator/walgreens-2801+adeline+st-berkeley-ca-94703/id=4614",
           "wheelchair": "yes"
@@ -118030,7 +118268,7 @@
           "name": "BMO",
           "old_name": "Bank of the West",
           "opening_hours": "Mo-Fr 09:30-16:00",
-          "phone": "(510) 649-9191",
+          "phone": "+1-510-649-9191",
           "smoking": "no",
           "website": "https://usbranches.bmo.com/ca/berkeley/bmo589/"
         },
@@ -119504,7 +119742,7 @@
           "gnis:feature_id": "1676047",
           "leisure": "park",
           "name": "Terrace View Park",
-          "phone": "+15109816663",
+          "phone": "+1-510-981-6663",
           "website": "https://berkeleyca.gov/community-recreation/parks-recreation/parks/terrace-view-park",
           "wikidata": "Q49569703"
         },
@@ -122438,7 +122676,7 @@
           "name": "Seabreeze",
           "opening_hours": "Mo-Su 09:00-19:00",
           "outdoor_seating": "yes",
-          "phone": "+15104868119",
+          "phone": "+1-510-486-8119",
           "takeaway": "yes",
           "wheelchair": "yes"
         },
@@ -123489,7 +123727,7 @@
           "name": "Andronico's Community Market",
           "old_name": "Safeway Community Markets;Park & Shop",
           "opening_hours": "Mo-Su 06:00-23:00",
-          "phone": "(510) 524-1673",
+          "phone": "+1-510-524-1673",
           "shop": "supermarket",
           "website": "https://local.andronicos.com/ca/berkeley/1850-solano-ave.html"
         },
@@ -123765,7 +124003,7 @@
           "operator": "Berkeley Unified School District",
           "operator:type": "public",
           "operator:wikidata": "Q4892125",
-          "phone": "+15106446298",
+          "phone": "+1-510-644-6298",
           "website": "https://www.berkeleyschools.net/schools/elementary-schools/ruth-acty-elementary/"
         },
         "nodes": [
@@ -124648,7 +124886,7 @@
           "description": "Chaparral House is Berkeley’s Premier Skilled Nursing Facility",
           "emergency": "yes",
           "name": "Chaparral House",
-          "phone": "+15108488774",
+          "phone": "+1-510-848-8774",
           "website": "https://www.chaparralhouse.org/"
         },
         "nodes": [
@@ -126188,7 +126426,7 @@
           "amenity": "bank",
           "building": "commercial",
           "name": "Patelco Credit Union",
-          "phone": "+18003588228",
+          "phone": "+1-800-358-8228",
           "website": "https://www.patelco.org/"
         },
         "nodes": [
@@ -128007,7 +128245,7 @@
           "amenity": "school",
           "contact:instagram": "crowdenmusic",
           "name": "Crowden Music Center",
-          "phone": "+15105596910",
+          "phone": "+1-510-559-6910",
           "website": "https://www.crowden.org/"
         },
         "nodes": [
@@ -131163,7 +131401,7 @@
           "building": "yes",
           "healthcare": "yes",
           "name": "Sutter Urgent Care - Berkeley",
-          "phone": "+15102045514",
+          "phone": "+1-510-204-5514",
           "website": "https://www.sutterhealth.org/find-location/facility/berkeley-urgent-care"
         },
         "nodes": [
@@ -131797,7 +132035,7 @@
           "building": "yes",
           "name": "Berkeley Courthouse",
           "opening_hours": "Mo-Fr 08:30-16:30",
-          "phone": "(510) 647-4439",
+          "phone": "+1-510-647-4439",
           "website": "https://www.alameda.courts.ca.gov/"
         },
         "nodes": [
@@ -132508,7 +132746,7 @@
           "ele": "32",
           "gnis:feature_id": "2086862",
           "name": "Revelation Missionary Baptist Church",
-          "phone": "(510) 845-5091",
+          "phone": "+1-510-845-5091",
           "religion": "christian",
           "wheelchair": "no"
         },
@@ -133534,7 +133772,7 @@
           "addr:street": "University Avenue",
           "building": "yes",
           "disused:shop": "doityourself",
-          "phone": "510.549.2918",
+          "phone": "+1-510-549-2918",
           "website": "http://www.bighydro.com/"
         },
         "nodes": [
@@ -138859,7 +139097,7 @@
           "name": "North Berkeley Senior Center",
           "opening_hours": "Mo 09:00-15:00; We-Fr 09:00-15:00",
           "operator": "City of Berkeley",
-          "phone": "(510) 981-5190",
+          "phone": "+1-510-981-5190",
           "roof:levels": "0",
           "roof:shape": "flat",
           "social_facility:for": "senior",
@@ -139724,7 +139962,7 @@
           "contact:facebook": "https://www.facebook.com/SecureSpace-Self-Storage-Berkeley-110319638438351",
           "name": "SecureSpace Self Storage",
           "opening_hours": "Mo-Fr 09:30-18:00 open \"office\" || Sa 09:00-16:00 open \"office\" || Mo-Fr 07:00-18:00 open \"access\" || Sa-Su 07:00-16:00 open \"access\"",
-          "phone": "(510) 288-9971",
+          "phone": "+1-510-288-9971",
           "shop": "storage_rental",
           "website": "https://securespace.com/storage-units/ca/berkeley-self-storage/2721-shattuck-ave-berkeley-ca-94705"
         },
@@ -140027,7 +140265,7 @@
         "tags": {
           "amenity": "school",
           "name": "King Child Development Center",
-          "phone": "(510) 644-4533",
+          "phone": "+1-510-644-4533",
           "website": "https://www.berkeleyschools.net/schools/early-childhood-education/"
         },
         "nodes": [
@@ -141451,7 +141689,9 @@
           828422560,
           3177154984,
           6227855709,
+          13300678738,
           760874899,
+          13300678739,
           3177154993,
           3177154994,
           12732395409,
@@ -141546,8 +141786,16 @@
               37.8694343
             ],
             [
+              -122.2501064,
+              37.8694002
+            ],
+            [
               -122.2503102,
               37.8693485
+            ],
+            [
+              -122.2503437,
+              37.869462
             ],
             [
               -122.2503646,
@@ -142630,68 +142878,6 @@
       "type": "Feature",
       "properties": {
         "type": "way",
-        "id": 69963285,
-        "tags": {
-          "addr:city": "Berkeley",
-          "addr:housenumber": "3031",
-          "addr:state": "CA",
-          "addr:street": "Adeline Street",
-          "building": "yes",
-          "check_date": "2023-08-19",
-          "cuisine": "mexican",
-          "disused:amenity": "restaurant",
-          "name": "Flacos"
-        },
-        "nodes": [
-          836000310,
-          836000311,
-          836000312,
-          836000313,
-          836000314,
-          836000315,
-          836000310
-        ]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -122.2690579,
-              37.8541147
-            ],
-            [
-              -122.2690807,
-              37.8540491
-            ],
-            [
-              -122.2690204,
-              37.8540385
-            ],
-            [
-              -122.2689815,
-              37.8540554
-            ],
-            [
-              -122.26896,
-              37.8540851
-            ],
-            [
-              -122.2689547,
-              37.8541221
-            ],
-            [
-              -122.2690579,
-              37.8541147
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "way",
         "id": 69963286,
         "tags": {
           "access": "customers",
@@ -143055,7 +143241,7 @@
         "tags": {
           "access": "yes",
           "leisure": "swimming_pool",
-          "phone": "(510) 981-5150",
+          "phone": "+1-510-981-5150",
           "website": "https://berkeleyca.gov/community-recreation/parks-recreation/facilities/pools-and-aquatic-programs"
         },
         "nodes": [
@@ -148422,12 +148608,12 @@
               37.8766222
             ],
             [
-              -122.2947657,
-              37.8767057
+              -122.2947744,
+              37.8767046
             ],
             [
-              -122.2947018,
-              37.8765167
+              -122.2947125,
+              37.8765151
             ],
             [
               -122.295044,
@@ -150579,6 +150765,7 @@
           3424834747,
           6353997507,
           1647281311,
+          13274080362,
           1647281315,
           1519114432,
           9936678930,
@@ -150951,8 +151138,12 @@
               37.8648725
             ],
             [
-              -122.2912079,
-              37.8645997
+              -122.2912119,
+              37.8646092
+            ],
+            [
+              -122.2909232,
+              37.86467
             ],
             [
               -122.2905632,
@@ -158650,12 +158841,12 @@
               37.8799823
             ],
             [
-              -122.2958514,
-              37.8800647
+              -122.2958682,
+              37.8800721
             ],
             [
-              -122.2955393,
-              37.8791038
+              -122.295543,
+              37.8791035
             ],
             [
               -122.2955346,
@@ -164474,7 +164665,7 @@
           "building": "retail",
           "name": "Mike's Bikes",
           "opening_hours": "Mo-Sa 10:00-18:00; Su 10:00-17:00",
-          "phone": "(510) 845-2453",
+          "phone": "+1-510-845-2453",
           "service:bicycle:repair": "yes",
           "service:bicycle:retail": "yes",
           "shop": "bicycle",
@@ -165944,7 +166135,7 @@
           "contact:youtube": "https://www.youtube.com/channel/UCtKuW2KlBdTC2J4M-OxWCNQ",
           "description:fr": "Ecole bilingue francais anglais du primaire au college.",
           "name": "Ecole Bilingue Middle School",
-          "phone": "(510) 549-3867",
+          "phone": "+1-510-549-3867",
           "website": "https://www.eb.org/"
         },
         "nodes": [
@@ -168129,12 +168320,12 @@
               37.8766222
             ],
             [
-              -122.2947657,
-              37.8767057
+              -122.2947744,
+              37.8767046
             ],
             [
-              -122.2947018,
-              37.8765167
+              -122.2947125,
+              37.8765151
             ],
             [
               -122.295044,
@@ -172357,7 +172548,7 @@
           "fax": "1 510 8481759",
           "gnis:feature_id": "2086844",
           "name": "All Souls Episcopal Church",
-          "phone": "1 510 8481755",
+          "phone": "+1 510-848-1755",
           "religion": "christian",
           "website": "https://www.allsoulsparish.org/contact/",
           "wheelchair": "yes"
@@ -178108,7 +178299,7 @@
           "leisure": "sports_centre",
           "name": "King Pool",
           "operator": "City of Berkeley",
-          "phone": "(510) 981-5150",
+          "phone": "+1-510-981-5150",
           "sport": "swimming",
           "website": "https://berkeleyca.gov/community-recreation/parks-recreation/facilities/pools-and-aquatic-programs"
         },
@@ -186830,7 +187021,7 @@
           "leisure": "playground",
           "name": "Adventure Playground",
           "opening_hours": "Sa, Su 11:00-17:00",
-          "phone": "510-981-6720",
+          "phone": "+1 510-981-6720",
           "website": "https://berkeleyca.gov/community-recreation/parks-recreation/facilities/adventure-playground",
           "wikidata": "Q23016611",
           "wikipedia": "en:Adventure Playground (Berkeley)"
@@ -187965,7 +188156,7 @@
           "leisure": "park",
           "name": "Glendale - La Loma Park",
           "opening_hours": "Mo-Su 06:00-22:00",
-          "phone": "+15109816663",
+          "phone": "+1-510-981-6663",
           "website": "https://berkeleyca.gov/community-recreation/parks-recreation/parks/glendale-la-loma-park",
           "wikimedia_commons": "Category:Glendale_La_Loma_Park_Berkeley"
         },
@@ -191839,7 +192030,7 @@
           "level": "0",
           "name": "Curry Up Now",
           "opening_hours": "Mo-Th,Su 11:30-22:00; Fr-Sa 11:30-23:00",
-          "phone": "800.536.0000",
+          "phone": "+1-800-536-0000",
           "website": "https://www.curryupnow.com/"
         },
         "nodes": [
@@ -195165,6 +195356,7 @@
         "type": "way",
         "id": 279811062,
         "tags": {
+          "access": "private",
           "amenity": "parking",
           "parking": "surface"
         },
@@ -205771,7 +205963,7 @@
           "building:levels": "1",
           "name": "ThriftyCat",
           "opening_hours": "10:30-18:00",
-          "phone": "(628)217-2862",
+          "phone": "+1-628-217-2862",
           "roof:levels": "0",
           "shop": "clothes",
           "website": "https://www.instagram.com/thrifty.cat/"
@@ -207117,7 +207309,7 @@
           "operator:short": "SFUSD",
           "operator:type": "public",
           "operator:wikidata": "Q2215009",
-          "phone": "1-415-282-7869",
+          "phone": "+1-415-282-7869",
           "source": "SFUSD website",
           "website": "http://bvhm-sfusd-ca.schoolloop.com/"
         },
@@ -208771,8 +208963,8 @@
         "coordinates": [
           [
             [
-              -122.2948998,
-              37.8771495
+              -122.2949233,
+              37.8771461
             ],
             [
               -122.2950536,
@@ -208791,12 +208983,12 @@
               37.8774215
             ],
             [
-              -122.2949945,
-              37.877457
+              -122.2950287,
+              37.8774517
             ],
             [
-              -122.2948998,
-              37.8771495
+              -122.2949233,
+              37.8771461
             ]
           ]
         ]
@@ -209645,7 +209837,7 @@
           "ele": "40",
           "gnis:feature_id": "2086865",
           "name": "Covenant Presbyterian Church",
-          "phone": "(510) 845-7315",
+          "phone": "+1-510-845-7315",
           "religion": "christian",
           "website": "https://www.berkeleyopc.org/",
           "wheelchair": "yes"
@@ -210192,7 +210384,7 @@
           "drive_in": "no",
           "name": "Vik's Chaat",
           "opening_hours": "Fr-Su 11:00-19:30; Mo-Th 11:00-14:30, 05:00-19:30",
-          "phone": "+15106444432",
+          "phone": "+1-510-644-4432",
           "website": "https://vikschaat.com/"
         },
         "nodes": [
@@ -210244,7 +210436,7 @@
           "name": "Vik's Market",
           "opening_hours": "Mo-Su 11:00-19:30",
           "operator": "Vik's Chaat",
-          "phone": "+15106444412",
+          "phone": "+1-510-644-4412",
           "shop": "convenience",
           "website": "https://vikschaat.com/"
         },
@@ -222934,7 +223126,7 @@
           "disused:amenity": "restaurant",
           "name": "North Beach Pizza",
           "opening_hours": "Mo-Th, Su 11:00-21:00; Fr, Sa 11:00-22:00",
-          "phone": "+15108499800",
+          "phone": "+1-510-849-9800",
           "roof:levels": "2",
           "website": "https://www.northbeachpizzaberkeley.com/",
           "wheelchair": "yes"
@@ -226001,7 +226193,7 @@
           "diet:vegetarian": "yes",
           "name": "Ethiopia Restaurant",
           "opening_hours": "Mo-Su 11:30-21:00",
-          "phone": "5108431332",
+          "phone": "+1-510-843-1332",
           "smoking": "no",
           "website": "http://orderethiopiarestaurant.com"
         },
@@ -233469,7 +233661,7 @@
           "craft": "plumber",
           "description": "Plumbing heating cooling.",
           "name": "Kruse",
-          "phone": "(510) 644-0260",
+          "phone": "+1-510-644-0260",
           "website": "https://ljkruse.com/"
         },
         "nodes": [
@@ -276213,7 +276405,7 @@
           "building": "yes",
           "name": "Quince Cafe & Grill",
           "opening_hours": "Tu-Fr 07:00-14:15; Sa, Su 08:00-14:15",
-          "phone": "(510) 666-0094",
+          "phone": "+1-510-666-0094",
           "source": "bing"
         },
         "nodes": [
@@ -276296,7 +276488,7 @@
           "building": "yes",
           "name": "Doug Minkler - Printmaker",
           "operator": "Doug Minkler",
-          "phone": "510.548.7119",
+          "phone": "+1-510-548-7119",
           "shop": "art",
           "website": "http://dminkler.com/contact.html"
         },
@@ -279403,7 +279595,7 @@
           "contact:twitter": "EcoleBilingue",
           "contact:youtube": "https://www.youtube.com/channel/UCtKuW2KlBdTC2J4M-OxWCNQ",
           "name": "Ecole Bilingue",
-          "phone": "(510) 549-3867",
+          "phone": "+1-510-549-3867",
           "religion": "none",
           "website": "https://www.eb.org/"
         },
@@ -293920,34 +294112,6 @@
           [
             -122.2607879,
             37.8694826
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "way",
-        "id": 1037046409,
-        "tags": {
-          "amenity": "bicycle_parking",
-          "bicycle_parking": "stands"
-        },
-        "nodes": [
-          9553475046,
-          9553475045
-        ]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.2595531,
-            37.8697775
-          ],
-          [
-            -122.259534,
-            37.8696946
           ]
         ]
       }
@@ -314700,7 +314864,7 @@
         "tags": {
           "amenity": "school",
           "name": "The Academy",
-          "phone": "+15105490605",
+          "phone": "+1-510-549-0605",
           "website": "https://theacademyschool.org/"
         },
         "nodes": [
@@ -318409,7 +318573,7 @@
           "contact:facebook": "https://www.facebook.com/ShuRenlearners/",
           "description": "Mandarin international school.",
           "name": "Shu Ren International School",
-          "phone": "+15108418899",
+          "phone": "+1-510-841-8899",
           "website": "https://shurenschool.org/"
         },
         "nodes": [
@@ -354282,6 +354446,7 @@
           11374954809,
           11374954808,
           11374954807,
+          13300678731,
           11374955271,
           11374954806,
           11374954805,
@@ -354307,6 +354472,7 @@
           11374954785,
           11374954784,
           11374954783,
+          13300678723,
           11374954782,
           11374954781,
           2443796097,
@@ -354531,6 +354697,10 @@
               37.8691515
             ],
             [
+              -122.2488594,
+              37.8691557
+            ],
+            [
               -122.2488394,
               37.8691611
             ],
@@ -354629,6 +354799,10 @@
             [
               -122.2455302,
               37.8684443
+            ],
+            [
+              -122.2455276,
+              37.8684633
             ],
             [
               -122.2455248,
@@ -355023,6 +355197,7 @@
           11374954907,
           11374954906,
           11374954905,
+          13300678737,
           11374954904,
           11374954903,
           11374954902,
@@ -355103,6 +355278,10 @@
             [
               -122.2497211,
               37.86943
+            ],
+            [
+              -122.2497132,
+              37.8693154
             ],
             [
               -122.2497104,
@@ -357725,7 +357904,7 @@
           "brand:wikidata": "Q1658320",
           "name": "76",
           "operator": "76",
-          "phone": "+15102776672",
+          "phone": "+1-510-277-6672",
           "self_service": "yes",
           "website": "https://www.76.com/station/U76-CF-UNITED-APRO-LLC-2704616-0000880565"
         },
@@ -360742,8 +360921,8 @@
               37.8644625
             ],
             [
-              -122.2912079,
-              37.8645997
+              -122.2912119,
+              37.8646092
             ],
             [
               -122.2912917,
@@ -400403,10 +400582,12 @@
         "type": "way",
         "id": 1413995277,
         "tags": {
+          "access": "private",
           "amenity": "parking",
           "capacity": "10",
           "capacity:disabled": "1",
-          "operator": "Savo Island"
+          "operator": "Savo Island",
+          "parking": "surface"
         },
         "nodes": [
           12993503898,
@@ -419032,7 +419213,8 @@
         "id": 1414549383,
         "tags": {
           "amenity": "parking",
-          "capacity": "10"
+          "capacity": "10",
+          "parking": "street_side"
         },
         "nodes": [
           12998406008,
@@ -419122,7 +419304,8 @@
         "id": 1414549500,
         "tags": {
           "amenity": "parking",
-          "capacity": "8"
+          "capacity": "8",
+          "parking": "street_side"
         },
         "nodes": [
           12998371292,
@@ -437614,8 +437797,11 @@
         "type": "way",
         "id": 1422199965,
         "tags": {
+          "access": "private",
           "amenity": "parking",
-          "capacity": "5"
+          "capacity": "5",
+          "operator": "ΑΣΦ",
+          "operator:type": "private"
         },
         "nodes": [
           13069977390,
@@ -440391,6 +440577,214 @@
             [
               -122.2745565,
               37.8697907
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1447600193,
+        "tags": {
+          "landuse": "grass"
+        },
+        "nodes": [
+          13282188548,
+          13282188549,
+          13282188550,
+          13282188551,
+          13282188552,
+          13282188553,
+          13283611801,
+          13282188554,
+          13283561000,
+          13282188555,
+          13282188556,
+          13283560999,
+          13282188557,
+          13282188558,
+          13282188548
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2564372,
+              37.8759834
+            ],
+            [
+              -122.2566063,
+              37.8757976
+            ],
+            [
+              -122.2566139,
+              37.8758356
+            ],
+            [
+              -122.2566233,
+              37.8758861
+            ],
+            [
+              -122.2566283,
+              37.8759183
+            ],
+            [
+              -122.2566291,
+              37.8759363
+            ],
+            [
+              -122.2566227,
+              37.8759578
+            ],
+            [
+              -122.2566091,
+              37.875976
+            ],
+            [
+              -122.2565884,
+              37.8759917
+            ],
+            [
+              -122.2565635,
+              37.8760011
+            ],
+            [
+              -122.25652,
+              37.8760086
+            ],
+            [
+              -122.2564907,
+              37.8760139
+            ],
+            [
+              -122.2564614,
+              37.8760137
+            ],
+            [
+              -122.2564547,
+              37.8759932
+            ],
+            [
+              -122.2564372,
+              37.8759834
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1447600195,
+        "tags": {
+          "landuse": "grass"
+        },
+        "nodes": [
+          13282188567,
+          13282188568,
+          13282188569,
+          13282188570,
+          13282188571,
+          13282188572,
+          13282188573,
+          13282188574,
+          13282188575,
+          13282188576,
+          13282188577,
+          13282188578,
+          13282188579,
+          13282188580,
+          13282188581,
+          13282188582,
+          13282188583,
+          13282188584,
+          13282188567
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2563743,
+              37.8760833
+            ],
+            [
+              -122.2563746,
+              37.8761077
+            ],
+            [
+              -122.2563699,
+              37.8761183
+            ],
+            [
+              -122.2563582,
+              37.8761271
+            ],
+            [
+              -122.2563507,
+              37.8761323
+            ],
+            [
+              -122.2563279,
+              37.8761359
+            ],
+            [
+              -122.256309,
+              37.8761322
+            ],
+            [
+              -122.2562225,
+              37.8762298
+            ],
+            [
+              -122.2562473,
+              37.8762328
+            ],
+            [
+              -122.2562741,
+              37.8762306
+            ],
+            [
+              -122.2563015,
+              37.8762242
+            ],
+            [
+              -122.2563275,
+              37.8762157
+            ],
+            [
+              -122.2563501,
+              37.876203
+            ],
+            [
+              -122.2563635,
+              37.876191
+            ],
+            [
+              -122.2563796,
+              37.8761694
+            ],
+            [
+              -122.2563813,
+              37.8761477
+            ],
+            [
+              -122.2563835,
+              37.8761244
+            ],
+            [
+              -122.2563803,
+              37.8760994
+            ],
+            [
+              -122.2563743,
+              37.8760833
             ]
           ]
         ]
@@ -445138,6 +445532,10 @@
               [
                 -122.2503646,
                 37.8695326
+              ],
+              [
+                -122.2503437,
+                37.869462
               ],
               [
                 -122.2503102,
@@ -452718,7 +453116,7 @@
           "ele": "82",
           "gnis:feature_id": "1661951",
           "name": "Saint Johns Presbyterian Church",
-          "phone": "(510) 845-6830",
+          "phone": "+1-510-845-6830",
           "religion": "christian",
           "type": "multipolygon",
           "website": "https://www.stjohnsberkeley.org/",
@@ -453082,7 +453480,7 @@
           "mascot": "Yellowjackets",
           "name": "Berkeley High School",
           "operator": "Berkeley Unified School District",
-          "phone": "(510)644-6121",
+          "phone": "+1-510-644-6121",
           "type": "multipolygon",
           "website": "https://bhs.berkeleyschools.net",
           "wikidata": "Q4892030",
