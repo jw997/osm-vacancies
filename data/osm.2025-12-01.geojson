@@ -8974,12 +8974,12 @@
           "addr:street": "Shattuck Avenue",
           "brand": "Half Price Books",
           "brand:wikidata": "Q5641744",
-          "check_date": "2025-03-19",
+          "check_date": "2025-12-01",
+          "disused:shop": "books",
           "name": "Half Price Books",
           "opening_hours": "Mo-Th 11:00-20:00; Fr-Su 10:00-22:00",
           "phone": "+1-510-526-6080",
           "second_hand": "yes",
-          "shop": "books",
           "website": "https://www.hpb.com/store?storeid=HPB-037",
           "wheelchair": "yes"
         }
@@ -45423,11 +45423,10 @@
           "addr:postcode": "94704",
           "addr:state": "CA",
           "addr:street": "Telegraph Avenue",
-          "check_date": "2023-06-11",
-          "clothes": "vintage;thrift_store",
-          "disused:shop": "clothes",
-          "name": "Mars Mercantile",
-          "phone": "+1-510-843-6711"
+          "check_date": "2025-12-01",
+          "name": "Whelans",
+          "shop": "headshop",
+          "website": "https://whelanssmokeshop.com"
         }
       },
       "geometry": {
@@ -87870,30 +87869,6 @@
         "coordinates": [
           -122.2467603,
           37.8542403
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 12537248695,
-        "tags": {
-          "addr:city": "Berkeley",
-          "addr:housenumber": "2055",
-          "addr:state": "CA",
-          "addr:street": "Center Street",
-          "amenity": "restaurant",
-          "name": "Delirama Jr.",
-          "note": "located inside of Olfactory Brewing - Berkeley Taproom",
-          "website": "https://www.pyrospastrami.com/"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.2691639,
-          37.8703401
         ]
       }
     },
