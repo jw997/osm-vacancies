@@ -2407,7 +2407,7 @@
           "amenity": "restaurant",
           "cuisine": "italian",
           "name": "Flavia",
-          "phone": "510-6292030",
+          "phone": "+1-510-629-2030",
           "website": "https://www.flaviaosteria.com/"
         }
       },
@@ -3201,9 +3201,9 @@
           "addr:postcode": "94704",
           "addr:state": "CA",
           "addr:street": "Shattuck Avenue",
-          "amenity": "restaurant",
-          "check_date": "2025-03-19",
+          "check_date": "2025-12-02",
           "cuisine": "vietnamese",
+          "disused:amenity": "restaurant",
           "drive_in": "no",
           "level": "0",
           "name": "Vietnam House",
@@ -3956,7 +3956,7 @@
           "amenity": "restaurant",
           "cuisine": "mediterranean;burger",
           "name": "Jerusalem Organic Kitchen",
-          "phone": "510-525-7888",
+          "phone": "+1-510-525-7888",
           "website": "http://places.singleplatform.com/jerusalem-organic-kitchen/menu?ref=openstreetmap"
         }
       },
@@ -4341,7 +4341,7 @@
           "menu:url": "http://places.singleplatform.com/kirin-28/menu",
           "name": "Kirin",
           "outdoor_seating": "no",
-          "phone": "510-524-1677",
+          "phone": "+1-510-524-1677",
           "website": "https://www.thekirin.com/"
         }
       },
@@ -4578,7 +4578,7 @@
           "cuisine": "sushi",
           "name": "Kyoto",
           "opening_hours": "Mo-Fr 11:00-19:30; Sa 11:00-18:30; Su 11:00-16:00",
-          "phone": "(510) 527 3288",
+          "phone": "+1-510-527-3288",
           "takeaway": "only",
           "website": "http://www.kyotosushiberkeley.com/",
           "wheelchair": "yes"
@@ -6773,12 +6773,14 @@
           "addr:housenumber": "1077",
           "addr:postcode": "94110",
           "addr:street": "Valencia Street",
-          "check_date": "2025-02-11",
+          "check_date": "2025-12-02",
+          "check_date:service:bicycle:pump": "2025-12-02",
           "contact:facebook": "valenciacyclery",
           "contact:instagram": "valenciacyclery",
           "name": "Valencia Cyclery",
           "opening_hours": "Mo-Sa 10:00-18:00; Su 10:00-17:00",
           "phone": "+1-415-550-6600",
+          "service:bicycle:pump": "yes",
           "shop": "bicycle",
           "website": "https://www.valenciacyclery.com/"
         }
@@ -8946,7 +8948,7 @@
           "drive_through": "no",
           "name": "Comal Next Door",
           "opening_hours": "Mo-Su 11:00-20:30",
-          "phone": "510-422-6625",
+          "phone": "+1-510-422-6625",
           "smoking": "no",
           "takeaway": "yes",
           "website": "https://www.comalnextdoor.com/location/comal-next-door-berkeley/",
@@ -10106,7 +10108,7 @@
           "old_name": "Cafe Nostos",
           "opening_hours": "Mo-Su 08:00-15:00",
           "outdoor_seating": "sidewalk",
-          "phone": "510-898-1475",
+          "phone": "+1-510-898-1475",
           "smoking": "no",
           "wheelchair": "yes"
         }
@@ -10947,7 +10949,7 @@
           "alt_name": "Elmwood Theater",
           "amenity": "cinema",
           "name": "Elmwood Theatre",
-          "phone": "510 433-9730",
+          "phone": "+1-510-433-9730",
           "website": "https://www.rialtocinemas.com/index.php?location=elmwood",
           "wheelchair": "limited",
           "wheelchair:description": "Downstairs screening room is accessible, upstairs room is not.",
@@ -13395,7 +13397,7 @@
           "cuisine": "barbecue;burger",
           "name": "Everett and Jones",
           "opening_hours": "We-Su 12:00-19:00",
-          "phone": "510-548-8261",
+          "phone": "+1-510-548-8261",
           "website": "https://eandjbbq.com/our-locations/"
         }
       },
@@ -17260,12 +17262,23 @@
         "type": "node",
         "id": 2131580967,
         "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2309",
+          "addr:postcode": "94702-2038",
+          "addr:state": "CA",
+          "addr:street": "San Pablo Avenue",
           "amenity": "restaurant",
+          "check_date:currency:XBT": "2025-12-03",
           "contact:instagram": "https://www.instagram.com/tortellino_sf/",
-          "cuisine": "coffee_shop",
-          "name": "Afgan burrito",
-          "opening_hours": "Mo-Su 09:00-21:00",
-          "phone": "+1 510-984-0661",
+          "cuisine": "coffee_shop;mexican;afghan",
+          "currency:XBT": "yes",
+          "name": "Afghan Burrito",
+          "opening_hours": "Mo-Th 11:00-22:00; Fr-Sa 11:00-24:00; Su 11:00-20:00",
+          "payment:lightning": "yes",
+          "payment:lightning:operator": "square",
+          "payment:lightning_contactless": "no",
+          "payment:onchain": "no",
+          "phone": "+1-510-984-0661",
           "website": "https://www.tortellinosf.com/"
         }
       },
@@ -17534,7 +17547,7 @@
           "microbrewery": "no",
           "name": "Arinell Pizza",
           "outdoor_seating": "no",
-          "phone": "510-841-4035",
+          "phone": "+1-510-841-4035",
           "takeaway": "yes",
           "website": "https://www.arinellpizza.net/",
           "wheelchair": "yes"
@@ -19184,9 +19197,9 @@
           "addr:postcode": "94704",
           "addr:state": "CA",
           "addr:street": "Shattuck Avenue",
-          "amenity": "cafe",
           "check_date": "2023-05-20",
           "cuisine": "tea;dessert;ice_cream",
+          "disused:amenity": "cafe",
           "level": "0",
           "name": "Amausaan Uji Matcha",
           "opening_hours": "Mo-Fr 13:30-21:00; Sa-Su 13:00-21:00"
@@ -20450,10 +20463,12 @@
           "addr:postcode": "94704",
           "addr:state": "CA",
           "addr:street": "Shattuck Avenue",
-          "female:signed": "no",
-          "male:signed": "no",
-          "name": "Great Capes",
-          "shop": "hairdresser"
+          "name": "M.A.C.",
+          "opening_hours": "Mo-Sa 10:00-17:00",
+          "phone": "+1-510-644-0500",
+          "shop": "computer",
+          "website": "https://www.macberkeley.com/",
+          "wheelchair": "yes"
         }
       },
       "geometry": {
@@ -20558,7 +20573,7 @@
           "amenity": "bank",
           "name": "BluPeak credit union",
           "opening_hours": "Mo-Fr 09:00-17:00; Sa 09:00-16:00",
-          "phone": "866-8734-968",
+          "phone": "+1-866-873-4968",
           "website": "https://www.blupeak.com/",
           "wheelchair": "yes"
         }
@@ -20608,10 +20623,10 @@
           "addr:housenumber": "2010",
           "addr:state": "CA",
           "addr:street": "Shattuck Avenue",
+          "disused:shop": "computer",
           "name": "M.A.C.",
           "opening_hours": "Mo-Sa 10:00-18:00",
           "phone": "+1-510-644-0500",
-          "shop": "computer",
           "website": "https://www.macberkeley.com/",
           "wheelchair": "yes"
         }
@@ -66812,7 +66827,8 @@
         "tags": {
           "addr:housenumber": "1017",
           "addr:street": "Valencia Street",
-          "check_date": "2023-02-24",
+          "check_date": "2025-12-02",
+          "check_date:opening_hours": "2025-12-02",
           "name": "DCopper + Gallery",
           "opening_hours": "Mo off; Tu-Su 11:00-19:00",
           "payment:mastercard": "yes",
@@ -69100,9 +69116,9 @@
           "addr:housenumber": "1797",
           "addr:street": "Shattuck Avenue",
           "addr:unit": "D",
-          "check_date": "2023-03-18",
+          "check_date": "2025-12-02",
+          "disused:office": "company",
           "name": "Placer Title Company",
-          "office": "company",
           "website": "https://www.placertitle.com/branch/berkeley"
         }
       },
@@ -112252,6 +112268,33 @@
     {
       "type": "Feature",
       "properties": {
+        "type": "node",
+        "id": 13354102696,
+        "tags": {
+          "email": "tickets@calperformances.org",
+          "name": "Zellerbach Hall Ticket Office",
+          "opening_hours": "Mo off; Tu-Fr 12:00-17:30; Sa-Su 13:00-17:00; PH off",
+          "operator": "Cal Performances",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+1 510-642-9988",
+          "shop": "ticket",
+          "website": "https://calperformances.org/buy/contact-ticket-office/",
+          "wheelchair": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2605258,
+          37.8692896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "type": "way",
         "id": 7805676,
         "tags": {
@@ -115035,7 +115078,7 @@
           "internet_access": "yes",
           "name": "Hargrove Music Library",
           "operator": "University of California, Berkeley",
-          "phone": "510-642-2623",
+          "phone": "+1-510-642-2623",
           "website": "https://www.lib.berkeley.edu/libraries/music-library",
           "wheelchair": "yes",
           "wikidata": "Q83231227"
@@ -120700,7 +120743,7 @@
           "covered": "no",
           "name": "International House Lot",
           "parking": "surface",
-          "phone": "510 643-7701",
+          "phone": "+1-510-643-7701",
           "supervised": "no",
           "surface": "concrete"
         },
@@ -123232,7 +123275,7 @@
           "old_name": "Oscar's",
           "opening_hours": "Mo-Su 10:30-20:00",
           "outdoor_seating": "yes",
-          "phone": "510-990-8262",
+          "phone": "+1-510-990-8262",
           "takeaway": "yes",
           "website": "https://order.sweetgreen.com/berkeley/menu"
         },
@@ -142590,7 +142633,7 @@
           "healthcare": "pharmacy",
           "name": "CVS Pharmacy",
           "opening_hours": "Mo-Fr 10:00-13:30,14:00-20:00; Su 11:00-13:30,14:00-17:00; Sa 10:00-13:30,14:00-18:00",
-          "phone": "510-549-9063",
+          "phone": "+1-510-549-9063",
           "short_name": "CVS",
           "website": "https://www.cvs.com/store-locator/cvs-pharmacy-address/2655+Telegraph+Ave-Berkeley-CA-94704/storeid=10121"
         },
@@ -143528,6 +143571,91 @@
             [
               -122.2696631,
               37.854863
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 73978282,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1730",
+          "addr:postcode": "94703",
+          "addr:state": "CA",
+          "addr:street": "Oregon Street",
+          "amenity": "community_centre",
+          "building": "school",
+          "building:levels": "1",
+          "name": "Martin Luther King Jr. Youth Services Center",
+          "name:etymology:wikidata": "Q8027",
+          "roof:levels": "0",
+          "website": "https://www.cityofberkeley.info/Parks_Rec_Waterfront/Recreation/MLK_Jr__Youth_Services_Center.aspx"
+        },
+        "nodes": [
+          875337599,
+          875337600,
+          875337603,
+          875337604,
+          875337605,
+          875337606,
+          875337607,
+          875337608,
+          875337609,
+          875337610,
+          875337599
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.273712,
+              37.856375
+            ],
+            [
+              -122.2737701,
+              37.8566549
+            ],
+            [
+              -122.2735602,
+              37.856682
+            ],
+            [
+              -122.2735548,
+              37.8566559
+            ],
+            [
+              -122.2735292,
+              37.8566592
+            ],
+            [
+              -122.2735259,
+              37.8566431
+            ],
+            [
+              -122.2734324,
+              37.8566552
+            ],
+            [
+              -122.2734361,
+              37.8566729
+            ],
+            [
+              -122.2733724,
+              37.8566811
+            ],
+            [
+              -122.2733194,
+              37.8564258
+            ],
+            [
+              -122.273712,
+              37.856375
             ]
           ]
         ]
@@ -279826,94 +279954,6 @@
             [
               -122.261625,
               37.8747357
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "way",
-        "id": 874453127,
-        "tags": {
-          "access": "yes",
-          "amenity": "parking",
-          "capacity": "58",
-          "covered": "no",
-          "fee": "yes",
-          "name": "North Extension Lot",
-          "operator": "U C Berkeley",
-          "parking": "surface",
-          "source": "Bing",
-          "surface": "asphalt"
-        },
-        "nodes": [
-          8140315591,
-          12751120482,
-          8140315587,
-          11865917104,
-          8140315593,
-          8140315590,
-          8140315588,
-          11865917105,
-          8140315589,
-          11865917096,
-          8140315592,
-          8140315591
-        ]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -122.2657225,
-              37.8690256
-            ],
-            [
-              -122.2657556,
-              37.869022
-            ],
-            [
-              -122.2660008,
-              37.8689938
-            ],
-            [
-              -122.2660295,
-              37.868941
-            ],
-            [
-              -122.2660386,
-              37.8688806
-            ],
-            [
-              -122.2660396,
-              37.8688464
-            ],
-            [
-              -122.2659618,
-              37.8685826
-            ],
-            [
-              -122.2659318,
-              37.8684996
-            ],
-            [
-              -122.2657842,
-              37.868255
-            ],
-            [
-              -122.2656276,
-              37.8681876
-            ],
-            [
-              -122.2655475,
-              37.8682015
-            ],
-            [
-              -122.2657225,
-              37.8690256
             ]
           ]
         ]
@@ -441322,6 +441362,184 @@
     {
       "type": "Feature",
       "properties": {
+        "type": "way",
+        "id": 1455856247,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "capacity": "25",
+          "parking": "surface"
+        },
+        "nodes": [
+          13352071273,
+          13352071274,
+          13352071275,
+          13352071276,
+          13352071277,
+          13352071278,
+          13352071279,
+          13352071280,
+          13352071281,
+          13352071282,
+          13352071283,
+          13352071284,
+          13352071273
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.26864,
+              37.8757005
+            ],
+            [
+              -122.2685823,
+              37.8757054
+            ],
+            [
+              -122.2685747,
+              37.8756502
+            ],
+            [
+              -122.2685098,
+              37.8756558
+            ],
+            [
+              -122.2685157,
+              37.8756992
+            ],
+            [
+              -122.2684479,
+              37.875705
+            ],
+            [
+              -122.2684197,
+              37.8754981
+            ],
+            [
+              -122.2684848,
+              37.8754926
+            ],
+            [
+              -122.2684948,
+              37.8755656
+            ],
+            [
+              -122.2685377,
+              37.875562
+            ],
+            [
+              -122.2685351,
+              37.8755432
+            ],
+            [
+              -122.2686176,
+              37.8755362
+            ],
+            [
+              -122.26864,
+              37.8757005
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1455952054,
+        "tags": {
+          "landuse": "construction",
+          "name": "Cal Beach Volleyball Complex",
+          "website": "https://capitalstrategies.berkeley.edu/beach-volleyball"
+        },
+        "nodes": [
+          13352844034,
+          13352844033,
+          298084129,
+          298084130,
+          298084131,
+          11610038989,
+          298084132,
+          298084451,
+          11865917102,
+          298084290,
+          11865917103,
+          298084135,
+          298084136,
+          13352844034
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2657698,
+              37.869394
+            ],
+            [
+              -122.2654822,
+              37.8680007
+            ],
+            [
+              -122.265566,
+              37.8679897
+            ],
+            [
+              -122.2656519,
+              37.8679897
+            ],
+            [
+              -122.2657151,
+              37.8680077
+            ],
+            [
+              -122.2657849,
+              37.8680637
+            ],
+            [
+              -122.2658168,
+              37.8681761
+            ],
+            [
+              -122.2660695,
+              37.8687014
+            ],
+            [
+              -122.2660819,
+              37.8687454
+            ],
+            [
+              -122.2660848,
+              37.8687961
+            ],
+            [
+              -122.2660787,
+              37.8688432
+            ],
+            [
+              -122.2660615,
+              37.8688902
+            ],
+            [
+              -122.2660085,
+              37.8689844
+            ],
+            [
+              -122.2657698,
+              37.869394
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "type": "relation",
         "id": 1548418,
         "tags": {
@@ -445791,6 +446009,10 @@
                 37.8694689
               ],
               [
+                -122.2657698,
+                37.869394
+              ],
+              [
                 -122.2660085,
                 37.8689844
               ],
@@ -445833,6 +446055,10 @@
               [
                 -122.265566,
                 37.8679897
+              ],
+              [
+                -122.2654822,
+                37.8680007
               ],
               [
                 -122.2636869,
@@ -449278,7 +449504,7 @@
           "leisure": "garden",
           "name": "Spiral Gardens",
           "opening_hours": "Sa-Su 10:00-17:00",
-          "phone": "510-843-1307",
+          "phone": "+1-510-843-1307",
           "type": "multipolygon",
           "website": "http://www.spiralgardens.org/"
         }
