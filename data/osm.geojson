@@ -2484,14 +2484,11 @@
           "addr:postcode": "94709",
           "addr:state": "CA",
           "addr:street": "Shattuck Avenue",
-          "disused:amenity": "restaurant",
-          "disused:contact:facebook": "https://www.facebook.com/cesarberkeley/",
-          "disused:contact:instagram": "http://instagram.com/cesarberkeley",
-          "disused:cuisine": "spanish",
-          "disused:email": "cesarberkeley@gmail.com",
-          "disused:phone": "+1-510-883-0222",
-          "disused:website": "https://cesartapas.com/",
-          "name": "César"
+          "amenity": "bar",
+          "name": "Bar Panisse",
+          "was:amenity": "restaurant",
+          "was:cuisine": "spanish",
+          "was:name": "César"
         }
       },
       "geometry": {
@@ -2789,15 +2786,15 @@
           "addr:postcode": "94709",
           "addr:state": "CA",
           "addr:street": "Shattuck Avenue",
-          "cuisine": "coffee_shop",
           "disused:amenity": "cafe",
           "name": "Guerilla Cafe",
-          "opening_hours": "Tu-Fr 07:00-16:30; Sa, Su 08:00-16:30; Mo 07:00-14:00",
-          "outdoor_seating": "yes",
-          "phone": "+1-510-845-2233",
           "smoking": "no",
-          "takeaway": "yes",
-          "website": "https://www.yelp.com/biz/guerilla-cafe-berkeley",
+          "was:cuisine": "coffee_shop",
+          "was:opening_hours": "Tu-Fr 07:00-16:30; Sa, Su 08:00-16:30; Mo 07:00-14:00",
+          "was:outdoor_seating": "yes",
+          "was:phone": "+1-510-845-2233",
+          "was:takeaway": "yes",
+          "was:website": "https://www.yelp.com/biz/guerilla-cafe-berkeley",
           "wheelchair": "yes"
         }
       },
@@ -11481,7 +11478,7 @@
         "type": "node",
         "id": 1326065126,
         "tags": {
-          "access": "public",
+          "access": "yes",
           "amenity": "toilets",
           "drinking_water": "no",
           "toilets:disposal": "chemical"
@@ -12776,7 +12773,10 @@
           "addr:state": "CA",
           "addr:street": "San Pablo Avenue",
           "name": "Art's Automotive",
-          "shop": "car_repair"
+          "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:30",
+          "phone": "+1-510-540-7093",
+          "shop": "car_repair",
+          "website": "https://artsautomotive.com/"
         }
       },
       "geometry": {
@@ -26059,7 +26059,7 @@
           "cuisine": "mexican",
           "name": "Little Chihuahua",
           "opening_hours": "Mo-Th 11:00-22:00; Fr 11:00-23:00; Sa 10:00-23:00; Su 10:00-22:00",
-          "phone": "415-355-9144",
+          "phone": "+1-415-355-9144",
           "website": "https://www.thelittlechihuahua.com/location/mission"
         }
       },
@@ -26107,7 +26107,7 @@
           "addr:street": "Shattuck Avenue",
           "amenity": "nursing_home",
           "name": "Elmwood Care Center",
-          "phone": "510-665-2800",
+          "phone": "+1-510-665-2800",
           "website": "https://elmwoodnursingrehab.com/"
         }
       },
@@ -29464,16 +29464,22 @@
           "addr:city": "Oakland",
           "addr:housename": "5179",
           "addr:housenumber": "5179",
+          "addr:postcode": "94609",
+          "addr:state": "CA",
           "addr:street": "Telegraph Avenue",
           "amenity": "restaurant",
-          "check_date": "2025-05-26",
+          "bar": "yes",
+          "check_date": "2025-12-15",
           "cocktails": "yes",
           "contact:instagram": "https://www.instagram.com/fob_kitchen",
+          "contact:yelp": "https://www.yelp.com/biz/fob-kitchen-oakland",
           "cuisine": "filipino",
           "drink:beer": "yes",
           "drink:wine": "yes",
+          "email": "holla@fobkitchen.com",
           "indoor_seating": "yes",
           "name": "FOB Kitchen",
+          "opening_hours": "Su-Th 11:00-21:00",
           "outdoor_seating": "yes",
           "phone": "+1-510-817-4169",
           "website": "https://www.fobkitchen.com/",
@@ -32101,10 +32107,10 @@
           "addr:postcode": "94609",
           "addr:state": "CA",
           "addr:street": "Telegraph Avenue",
-          "fax": "510-653-8486",
+          "fax": "+1-510-653-8486",
           "name": "Brignole & Ghiri Insurance",
           "office": "insurance",
-          "phone": "510-653-0685",
+          "phone": "+1-510-653-0685",
           "website": "https://brignoleandghiri.com/"
         }
       },
@@ -32615,7 +32621,7 @@
           "check_date": "2024-07-11",
           "name": "Dollar Tree",
           "opening_hours": "Mo-Su 08:00-21:00",
-          "phone": "510-898-2105",
+          "phone": "+1-510-898-2105",
           "shop": "variety_store",
           "website": "https://www.dollartree.com/locations/ca/berkeley/4885/"
         }
@@ -32928,7 +32934,7 @@
           "name": "Taqueria La Cumbre",
           "name:en": "Taqueria La Cumbre",
           "opening_hours": "Mo-Th 11:00-21:00; Fr-Sa 11:00-01:00; Su 11:00-21:00",
-          "phone": "415-863-8205",
+          "phone": "+1-415-863-8205",
           "website": "http://www.taquerialacumbre.com",
           "wheelchair": "yes"
         }
@@ -33292,11 +33298,11 @@
         "tags": {
           "addr:housenumber": "4930",
           "addr:street": "Telegraph Avenue",
-          "amenity": "bar",
-          "craft": "brewery",
+          "disused:amenity": "bar",
           "indoor_seating": "yes",
-          "name": "Roses' Taproom",
           "outdoor_seating": "yes",
+          "was:craft": "brewery",
+          "was:name": "Roses' Taproom",
           "wheelchair": "yes"
         }
       },
@@ -34715,7 +34721,7 @@
         "tags": {
           "contact:facebook": "https://www.facebook.com/AutoGlassExpress",
           "name": "Auto Glass Express",
-          "phone": "510-847-2674",
+          "phone": "+1-510-847-2674",
           "shop": "car_repair",
           "website": "https://bayareaautoglassexpress.com/"
         }
@@ -34872,7 +34878,7 @@
           "amenity": "fast_food",
           "cuisine": "mexican",
           "name": "Tacos Sinaloa",
-          "phone": "510-6657895",
+          "phone": "+1-510-665-7895",
           "website": "https://www.doordash.com/store/tacos-sinaloa-berkeley-44986"
         }
       },
@@ -36254,7 +36260,6 @@
           "addr:housenumber": "2339",
           "addr:street": "Durant Avenue",
           "disused:amenity": "clinic",
-          "healthcare": "clinic",
           "name": "Berkeley Free Clinic",
           "toilets:wheelchair": "yes",
           "website": "https://www.berkeleyfreeclinic.org/",
@@ -41791,7 +41796,7 @@
           "addr:unit": "A",
           "name": "Fantastic Comics",
           "opening_hours": "We-Sa 12:00-17:00",
-          "phone": "+1-510.982.1451",
+          "phone": "+1-510-982-1451",
           "shop": "books",
           "website": "https://fantasticcomics.net"
         }
@@ -42468,7 +42473,7 @@
           "addr:state": "CA",
           "addr:street": "Blake Street",
           "check_date": "2025-06-30",
-          "fax": "15102636040",
+          "fax": "+1-510-263-6040",
           "name": "Independent life",
           "opening_hours": "Mo-Fr 09:00-17:00; Sa-Su off",
           "phone": "+1-510-263-2185",
@@ -43007,7 +43012,7 @@
           "cuisine": "nepalese;indian",
           "name": "Mount Everest",
           "opening_hours": "Mo, Tu, Th-Su 11:00-15:00; Mo, Tu, Th-Su 17:00-21:30",
-          "phone": "510-843-3951",
+          "phone": "+1-510-843-3951",
           "website": "https://www.mteverestberkeley.com/"
         }
       },
@@ -43289,7 +43294,7 @@
           "addr:street": "Telegraph Avenue",
           "disused:amenity": "restaurant",
           "name": "Pasta bene",
-          "phone": "510-845-2363",
+          "phone": "+1-510-845-2363",
           "website": "http://places.singleplatform.com/pasta-bene-2/menu?ref=openstreetmap"
         }
       },
@@ -43911,7 +43916,7 @@
           "check_date:opening_hours": "2022-04-25",
           "name": "Vintage Berkeley & Solano Cellars",
           "opening_hours": "Mo-Sa 11:00-20:00; Su 11:00-18:00",
-          "phone": "(510) 549 - 9501",
+          "phone": "+1-510-549-9501",
           "shop": "alcohol",
           "website": "https://www.vintageberkeley.com/"
         }
@@ -44321,10 +44326,10 @@
         "type": "node",
         "id": 7967556519,
         "tags": {
+          "disused:shop": "beauty",
           "name": "About Face & Body",
           "opening_hours": "Tu, We, Sa, Su 10:30-17:30; Th, Fr 10:30-18:30",
           "phone": "+1 510-428-2600",
-          "shop": "beauty",
           "website": "https://www.aboutfaceandbody.net/",
           "wheelchair": "yes"
         }
@@ -44783,7 +44788,7 @@
           "contact:facebook": "https://www.facebook.com/berkeleyrosewaldorfschool/",
           "contact:instagram": "https://www.instagram.com/berkeleyrosewaldorfschool/",
           "name": "Berkeley Rose Waldorf School",
-          "phone": "(510) 859 7679",
+          "phone": "+1-510-859-7679",
           "website": "https://www.berkeleyrose.org/"
         }
       },
@@ -47186,7 +47191,7 @@
           "amenity": "school",
           "name": "Gmis (Global Montessori International School)",
           "opening_hours": "Mo-Fr 08:00-18:00",
-          "phone": "510-845-6969",
+          "phone": "+1-510-845-6969",
           "website": "https://www.gmis-berkeley.com/"
         }
       },
@@ -48405,7 +48410,11 @@
         "type": "node",
         "id": 8618162595,
         "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1830",
+          "addr:street": "Fourth Street",
           "amenity": "restaurant",
+          "cuisine": "japanese",
           "name": "Iyasare",
           "website": "https://iyasare-berkeley.com/"
         }
@@ -48910,7 +48919,7 @@
         "tags": {
           "name": "Patina",
           "opening_hours": "Mo-Sa 11:00-17:00",
-          "phone": "510-558-3370",
+          "phone": "+1-510-558-3370",
           "shop": "clothes",
           "website": "https://patinaclothing.com/"
         }
@@ -49538,7 +49547,7 @@
           "contact:linkedin": "https://www.linkedin.com/company/ciel-creative-space/",
           "name": "Ciel creative space",
           "office": "coworking",
-          "phone": "510-898-1586",
+          "phone": "+1-510-898-1586",
           "website": "https://cielcreativespace.com/"
         }
       },
@@ -50382,7 +50391,7 @@
           "name": "Training Center",
           "operator": "Touchstone",
           "operator:type": "private",
-          "phone": "510-981-9900",
+          "phone": "+1-510-981-9900",
           "sport": "climbing",
           "website": "https://touchstoneclimbing.com/team-training-center/"
         }
@@ -50433,7 +50442,7 @@
           "addr:state": "CA",
           "addr:street": "San Pablo Avenue",
           "contact:email": "ragnar@sinkfactory.com",
-          "contact:phone": "+1-510‑540‑8193",
+          "contact:phone": "+1-510-540-8193",
           "contact:website": "http://sinkfactory.com/",
           "name": "The Sink Factory",
           "opening_hours": "Tu-Sa 9:00-17:00",
@@ -55638,23 +55647,6 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 9595806475,
-        "tags": {
-          "amenity": "toilets"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.3056176,
-          37.8646005
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
         "id": 9595807814,
         "tags": {
           "amenity": "drinking_water",
@@ -57051,7 +57043,7 @@
           "name": "Chef Yu Chinese Restaurant",
           "opening_hours": "Mo-Tu 11:30-21:30; Th-Sa 11:30-21:30; Su 12:30-21:30",
           "outdoor_seating": "no",
-          "phone": "510-653-2288",
+          "phone": "+1-510-653-2288",
           "wheelchair": "yes"
         }
       },
@@ -58038,7 +58030,7 @@
           "name": "Graham King - Your Oakland, California Realtor",
           "office": "estate_agent",
           "opening_hours": "Mo-Fr 09:00-18:00",
-          "phone": "510-746-8240",
+          "phone": "+1-510-746-8240",
           "website": "https://bayarearealestatecompany.com"
         }
       },
@@ -70766,13 +70758,15 @@
         "id": 10914608545,
         "tags": {
           "addr:housenumber": "131",
+          "addr:postcode": "94704",
           "addr:street": "Berkeley Square",
           "check_date": "2023-05-20",
           "craft": "photographer",
           "level": "0",
           "name": "Foto Shop",
           "office": "notary",
-          "opening_hours": "Mo-Fr 09:00-17:30; Sa 10:00-16:00; Su off"
+          "opening_hours": "Mo-Fr 09:00-17:30; Sa 10:00-16:00; Su off",
+          "phone": "5108484246"
         }
       },
       "geometry": {
@@ -72052,7 +72046,7 @@
         "tags": {
           "name": "G&C auto body",
           "opening_hours": "Mo-Fr 07:30-17:00",
-          "phone": "510-526-0310",
+          "phone": "+1-510-526-0310",
           "shop": "car_repair",
           "website": "https://gandcautobody.com/locations/berkeley/"
         }
@@ -80813,7 +80807,7 @@
           "addr:street": "University Avenue",
           "name": "Rug Masters Cleaning and Repair, Oriental Rugs",
           "opening_hours": "Mo - Sa 10:00-17:30",
-          "phone": "510-704-0460",
+          "phone": "+1-510-704-0460",
           "shop": "carpet",
           "website": "https://www.rugmasterscleaning.com/"
         }
@@ -98900,31 +98894,6 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 12801117229,
-        "tags": {
-          "addr:city": "Berkeley",
-          "addr:housenumber": "843",
-          "addr:postcode": "94710",
-          "addr:state": "CA",
-          "addr:street": "Gilman Street",
-          "addr:unit": "B",
-          "name": "R Kassman Pianos",
-          "shop": "musical_instrument",
-          "website": "https://www.rkassman.com/"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.3007355,
-          37.8797224
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
         "id": 12801117230,
         "tags": {
           "addr:city": "Berkeley",
@@ -99221,30 +99190,6 @@
         "coordinates": [
           -122.3039809,
           37.8734306
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 12803165540,
-        "tags": {
-          "addr:city": "Berkeley",
-          "addr:housenumber": "675",
-          "addr:postcode": "94710",
-          "addr:state": "CA",
-          "addr:street": "Cedar Street",
-          "name": "Tinkering Monkey",
-          "shop": "signs",
-          "website": "https://www.tinkeringmonkey.com/"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.3034381,
-          37.8735088
         ]
       }
     },
@@ -105733,7 +105678,7 @@
           "addr:street": "Camelia Street",
           "craft": "pottery",
           "name": "The Potters Studio",
-          "phone": "510-528-3286",
+          "phone": "+1-510-528-3286",
           "website": "https://berkeleypottersstudio.org/"
         }
       },
@@ -111933,7 +111878,7 @@
           "name": "ERSO Shipping & Receiving",
           "opening_hours": "Mo-Fr 08:00-16:00",
           "operator": "UC Berkeley Sutardja Dai Hall",
-          "phone": "(510) 664-7800",
+          "phone": "+1-510-664-7800",
           "website": "https://www.erso.berkeley.edu/web/contact-us"
         }
       },
@@ -112289,6 +112234,54 @@
         "coordinates": [
           -122.2605258,
           37.8692896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13358197585,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "830",
+          "addr:street": "University Avenue",
+          "amenity": "clinic",
+          "healthcare": "clinic",
+          "name": "Berkeley Free Clinic",
+          "toilets:wheelchair": "yes",
+          "website": "https://www.berkeleyfreeclinic.org/",
+          "wheelchair": "limited",
+          "wikidata": "Q4892019"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2972722,
+          37.8678785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13364326763,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1824",
+          "addr:street": "Fourth Street",
+          "name": "Silverwork Studios Berkeley",
+          "shop": "craft",
+          "website": "https://silverworkstudios.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3011459,
+          37.8696784
         ]
       }
     },
@@ -127955,13 +127948,17 @@
         "type": "way",
         "id": 37016795,
         "tags": {
+          "addr:city": "Oakland",
           "addr:country": "US",
           "addr:housenumber": "4000",
           "addr:state": "CA",
           "addr:street": "Telegraph Avenue",
           "building": "yes",
+          "building:levels": "2",
           "disused:shop": "car_repair",
-          "name": "Import Motors Mercedes/BMW"
+          "leisure": "sports_centre",
+          "name": "Pickle Athletics",
+          "sport": "pickleball"
         },
         "nodes": [
           430531304,
@@ -160248,7 +160245,7 @@
           "garden:type": "community",
           "leisure": "garden",
           "name": "Urban Adamah",
-          "phone": "510 649-1595",
+          "phone": "+1-510-649-1595",
           "website": "https://www.urbanadamah.org/"
         },
         "nodes": [
@@ -173150,7 +173147,7 @@
           "denomination": "anglican",
           "ele": "86",
           "email": "allsouls@allsoulsparish.org",
-          "fax": "1 510 8481759",
+          "fax": "+1-510-848-1759",
           "gnis:feature_id": "2086844",
           "name": "All Souls Episcopal Church",
           "phone": "+1 510-848-1755",
@@ -191931,6 +191928,59 @@
       "type": "Feature",
       "properties": {
         "type": "way",
+        "id": 256436205,
+        "tags": {
+          "addr:housenumber": "455",
+          "addr:street": "Valencia Street",
+          "amenity": "coworking_space",
+          "building": "commercial",
+          "description": "A Coworking space",
+          "height": "9",
+          "name": "Groundfloor",
+          "opening_hours": "24/7",
+          "website": "https://groundfloorclub.com/",
+          "wheelchair": "yes"
+        },
+        "nodes": [
+          2620996934,
+          2620996935,
+          2620996928,
+          2620996925,
+          2620996934
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.4218378,
+              37.7657122
+            ],
+            [
+              -122.4215376,
+              37.7657291
+            ],
+            [
+              -122.4215253,
+              37.765593
+            ],
+            [
+              -122.4218255,
+              37.765576
+            ],
+            [
+              -122.4218378,
+              37.7657122
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
         "id": 256436212,
         "tags": {
           "addr:city": "San Francisco",
@@ -203423,7 +203473,7 @@
           "ele": "62",
           "gnis:feature_id": "2086853",
           "name": "Calvary Presbyterian Church",
-          "phone": "1 510 8489132",
+          "phone": "+1-510-848-9132",
           "religion": "christian",
           "website": "https://www.calvaryofberkeley.org/"
         },
@@ -221774,12 +221824,12 @@
           "amenity": "animal_shelter",
           "building": "yes",
           "email": "animalservices@cityofberkeley.info",
-          "fax": "1 510 9817099",
+          "fax": "+1-510-981-7099",
           "name": "Dona Spring Animal Shelter",
           "office": "government",
           "opening_hours": "Mo-Sa 10:00-16:00; We 10:00-19:00; Su 11:00-15:00",
           "operator": "City of Berkeley",
-          "phone": "1 510 9816600",
+          "phone": "+1-510-981-6600",
           "website": "https://www.ci.berkeley.ca.us/animalservices/",
           "wheelchair": "yes"
         },
@@ -266904,12 +266954,17 @@
         "type": "way",
         "id": 704263815,
         "tags": {
+          "addr:city": "Berkeley",
           "addr:country": "US",
           "addr:housenumber": "695",
+          "addr:postcode": "94710",
           "addr:state": "CA",
           "addr:street": "Cedar Street",
           "building": "industrial",
-          "disused": "yes"
+          "disused": "yes",
+          "name": "Tinkering Monkey",
+          "shop": "signs",
+          "website": "https://www.tinkeringmonkey.com/"
         },
         "nodes": [
           6612733041,
@@ -266962,6 +267017,58 @@
             [
               -122.3032916,
               37.8734473
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 704263821,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "675",
+          "addr:postcode": "94710",
+          "addr:state": "CA",
+          "addr:street": "Cedar Street",
+          "building": "industrial",
+          "name": "A1 Sun",
+          "office": "company",
+          "website": "https://a1suninc.com/"
+        },
+        "nodes": [
+          6612733045,
+          6612733042,
+          6612733043,
+          6612733044,
+          6612733045
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3034723,
+              37.8734116
+            ],
+            [
+              -122.3035568,
+              37.8736823
+            ],
+            [
+              -122.3034193,
+              37.873709
+            ],
+            [
+              -122.3033348,
+              37.8734383
+            ],
+            [
+              -122.3034723,
+              37.8734116
             ]
           ]
         ]
@@ -271857,7 +271964,7 @@
           "landuse": "plant_nursery",
           "name": "Oaktown Native Plant Nursery",
           "opening_hours": "Mo-Tu off; We-Su 10:00-17:00",
-          "phone": "510-387-9744",
+          "phone": "+1-510-387-9744",
           "shop": "garden_centre",
           "website": "https://oaktownnursery.com/"
         },
@@ -441532,6 +441639,51 @@
             [
               -122.2657698,
               37.869394
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1457062388,
+        "tags": {
+          "amenity": "toilets",
+          "building": "yes"
+        },
+        "nodes": [
+          9595806475,
+          13362976772,
+          13362976773,
+          13362976774,
+          9595806475
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3057079,
+              37.8646191
+            ],
+            [
+              -122.3056528,
+              37.8645689
+            ],
+            [
+              -122.3056027,
+              37.8646032
+            ],
+            [
+              -122.3056579,
+              37.8646533
+            ],
+            [
+              -122.3057079,
+              37.8646191
             ]
           ]
         ]
