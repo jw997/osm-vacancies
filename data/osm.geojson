@@ -5374,7 +5374,7 @@
           "diet:vegetarian": "yes",
           "internet_access": "wlan",
           "name": "The Hidden Café",
-          "opening_hours": "Tu-Su 08:30-18:00; Mo 08:30-15:00",
+          "opening_hours": "Tu-Su 08:30-18:00",
           "phone": "+1 510-543-2233",
           "website": "https://www.thehiddencafe.life/"
         }
@@ -8413,9 +8413,10 @@
         "tags": {
           "check_date:opening_hours": "2024-03-24",
           "name": "Community Thrift Store",
-          "opening_hours": "Mo-Su 10:00-18:30",
+          "opening_hours": "Mo-Su 10:00-19:00",
           "second_hand": "only",
-          "shop": "second_hand"
+          "shop": "second_hand",
+          "website": "https://www.communitythriftsf.org/"
         }
       },
       "geometry": {
@@ -9489,6 +9490,7 @@
           "amenity": "fast_food",
           "brand": "Popeyes",
           "brand:wikidata": "Q1330910",
+          "check_date": "2025-12-23",
           "cuisine": "chicken",
           "delivery": "yes",
           "indoor_seating": "yes",
@@ -10362,6 +10364,7 @@
         "id": 910883485,
         "tags": {
           "amenity": "restaurant",
+          "check_date": "2025-12-23",
           "cuisine": "italian",
           "name": "Luca Cucina",
           "opening_hours": "Mo-Sa 16:00-21:00",
@@ -15195,6 +15198,7 @@
           "amenity": "car_rental",
           "brand": "Enterprise",
           "brand:wikidata": "Q17085454",
+          "check_date": "2025-12-23",
           "name": "Enterprise",
           "official_name": "Enterprise Rent-A-Car",
           "opening_hours": "Mo-Fr 08:00-17:00; Sa 09:00-13:00",
@@ -25114,6 +25118,7 @@
         "id": 2894577901,
         "tags": {
           "amenity": "restaurant",
+          "check_date": "2025-12-23",
           "cuisine": "mexican",
           "name": "Casa Latina",
           "opening_hours": "Mo-Su 07:00-22:00",
@@ -32133,7 +32138,7 @@
         "type": "node",
         "id": 4583405660,
         "tags": {
-          "check_date": "2025-02-17",
+          "check_date": "2025-12-23",
           "name": "Alpha Design",
           "shop": "furniture"
         }
@@ -32173,6 +32178,7 @@
           "addr:city": "Berkeley",
           "addr:housenumber": "2035",
           "addr:street": "San Pablo Avenue",
+          "check_date": "2025-12-23",
           "name": "Dark Water",
           "shop": "tattoo",
           "website": "https://www.darkwater.ink/"
@@ -32231,6 +32237,7 @@
         "tags": {
           "alt_name": "Rainbow Donut",
           "amenity": "cafe",
+          "check_date": "2025-12-23",
           "cuisine": "donut",
           "name": "Rainbow Donuts",
           "opening_hours": "Mo-Sa 05:00-19:00; Su 06:00-18:00"
@@ -44942,8 +44949,8 @@
         "tags": {
           "addr:housenumber": "2404",
           "addr:street": "Telegraph Avenue",
-          "amenity": "restaurant",
           "check_date": "2023-06-11",
+          "disused:amenity": "restaurant",
           "name": "Mochiholic"
         }
       },
@@ -46971,6 +46978,7 @@
           "addr:housenumber": "2026",
           "addr:street": "San Pablo Avenue",
           "amenity": "restaurant",
+          "check_date": "2025-12-23",
           "cuisine": "tapas",
           "name": "La Marcha",
           "website": "https://www.lamarchaberkeley.com/"
@@ -53507,6 +53515,7 @@
           "addr:city": "Berkeley",
           "addr:housenumber": "2054",
           "addr:street": "San Pablo Avenue",
+          "check_date": "2025-12-23",
           "name": "Middle East Market Grocery Store",
           "shop": "convenience",
           "website": "https://www.middleeastmarket.com/"
@@ -63139,6 +63148,7 @@
         "type": "node",
         "id": 10268435586,
         "tags": {
+          "check_date": "2025-12-23",
           "name": "Tinsel",
           "opening_hours": "Tu-Sa 11:00-18:00; Su 11:00-17:00",
           "shop": "gift"
@@ -69900,6 +69910,7 @@
         "type": "node",
         "id": 10824759064,
         "tags": {
+          "check_date": "2025-12-23",
           "name": "Auto alpina",
           "shop": "car_repair"
         }
@@ -69918,6 +69929,7 @@
         "type": "node",
         "id": 10824767706,
         "tags": {
+          "check_date": "2025-12-23",
           "name": "San Pablo European",
           "phone": "+1-510-524-1036",
           "shop": "car_repair"
@@ -91438,9 +91450,13 @@
         "type": "node",
         "id": 12750302979,
         "tags": {
-          "description": "vacant retail in new building, no address yet",
-          "disused:shop": "yes",
-          "proposed:amenity": "cafe"
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2440",
+          "addr:street": "Shattuck Avenue",
+          "amenity": "cafe",
+          "cuisine": "yemeni",
+          "name": "Qahwa Time",
+          "website": "https://www.instagram.com/qahwatimeco/"
         }
       },
       "geometry": {
@@ -94398,6 +94414,7 @@
           "addr:postcode": "94710",
           "addr:state": "CA",
           "addr:street": "San Pablo Avenue",
+          "check_date": "2025-12-23",
           "leisure": "fitness_centre",
           "name": "Berkeley Cuong Nhu Karate",
           "website": "https://rohaidojo.com/"
@@ -94830,6 +94847,7 @@
           "addr:housenumber": "1521",
           "addr:state": "CA",
           "addr:street": "San Pablo Avenue",
+          "check_date": "2025-12-23",
           "disused:shop": "computer",
           "name": "MCTek Systems"
         }
@@ -109587,6 +109605,7 @@
         "tags": {
           "addr:housenumber": "1523",
           "addr:street": "San Pablo Avenue",
+          "check_date": "2025-12-23",
           "disused:shop": "yes"
         }
       },
@@ -112442,6 +112461,75 @@
         "coordinates": [
           -122.2913272,
           37.858453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13396014188,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2606",
+          "addr:street": "Ninth Street",
+          "disused:office": "yes",
+          "name": "Immedia"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2912869,
+          37.858311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13396541178,
+        "tags": {
+          "amenity": "charging_station"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2608666,
+          37.855436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13410333244,
+        "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "4013",
+          "addr:postcode": "94609",
+          "addr:state": "CA",
+          "addr:street": "Telegraph Avenue",
+          "check_date": "2025-12-27",
+          "check_date:currency:XBT": "2025-12-27",
+          "currency:XBT": "yes",
+          "name": "Town Essentials",
+          "payment:lightning": "yes",
+          "payment:lightning:operator": "square",
+          "payment:lightning_contactless": "no",
+          "payment:onchain": "no",
+          "phone": "+1 510 890 5737",
+          "shop": "clothes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.264826,
+          37.8296163
         ]
       }
     },
@@ -121652,6 +121740,50 @@
             [
               -122.2710637,
               37.8688523
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 28005898,
+        "tags": {
+          "leisure": "bleachers"
+        },
+        "nodes": [
+          4212022529,
+          307512580,
+          307512581,
+          4212022550,
+          4212022529
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2721547,
+              37.8657954
+            ],
+            [
+              -122.2722023,
+              37.865792
+            ],
+            [
+              -122.2722839,
+              37.8664923
+            ],
+            [
+              -122.2722364,
+              37.8664957
+            ],
+            [
+              -122.2721547,
+              37.8657954
             ]
           ]
         ]
@@ -140281,7 +140413,7 @@
           "contact:instagram": "https://www.instagram.com/sportsbasement/",
           "name": "Sports Basement",
           "old_name": "Berkeley Iceland",
-          "opening_hours": "Mo-Fr 10:00-20:00; Sa, Su 10:00-18:00",
+          "opening_hours": "Mo-Fr 11:00-20:00; Sa, Su 10:00-19:00",
           "phone": "+1-510-984-3907",
           "service:bicycle:repair": "yes",
           "service:bicycle:retail": "yes",
@@ -221291,6 +221423,50 @@
             [
               -122.2668374,
               37.8652999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 421443244,
+        "tags": {
+          "leisure": "bleachers"
+        },
+        "nodes": [
+          1998332142,
+          1998332165,
+          1998332159,
+          1998332258,
+          1998332142
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2709659,
+              37.8659123
+            ],
+            [
+              -122.2712352,
+              37.8658944
+            ],
+            [
+              -122.2713038,
+              37.866536
+            ],
+            [
+              -122.2710345,
+              37.8665539
+            ],
+            [
+              -122.2709659,
+              37.8659123
             ]
           ]
         ]
@@ -369319,8 +369495,14 @@
         "type": "way",
         "id": 1354980188,
         "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "3030",
+          "addr:street": "Telegraph Avenue",
+          "check_date": "2025-12-22",
+          "construction:landuse": "residential",
+          "construction:residential": "apartments",
           "landuse": "construction",
-          "name": "3030 Telegraph Avenue"
+          "name": "ArtHaus Telegraph"
         },
         "nodes": [
           12539592147,
@@ -441351,6 +441533,51 @@
             [
               -122.3057079,
               37.8646191
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1460857323,
+        "tags": {
+          "leisure": "pitch",
+          "sport": "basketball"
+        },
+        "nodes": [
+          13398649863,
+          13398649864,
+          13398649865,
+          13398649866,
+          13398649863
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2707608,
+              37.8663301
+            ],
+            [
+              -122.2705809,
+              37.8663424
+            ],
+            [
+              -122.2706069,
+              37.8665778
+            ],
+            [
+              -122.2707867,
+              37.8665654
+            ],
+            [
+              -122.2707608,
+              37.8663301
             ]
           ]
         ]
