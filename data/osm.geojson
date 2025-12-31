@@ -23444,13 +23444,10 @@
           "addr:housenumber": "1801",
           "addr:state": "CA",
           "addr:street": "Shattuck Avenue",
-          "contact:instagram": "mad.seoul",
-          "cuisine": "korean",
-          "disused:amenity": "restaurant",
-          "name": "Mad Seoul",
-          "opening_hours": "Mo-Sa 11:00-20:00",
+          "amenity": "cafe",
+          "cuisine": "bubble_tea",
+          "name": "Tea Hut",
           "toilets:wheelchair": "yes",
-          "website": "https://www.madseoul.co",
           "wheelchair": "yes"
         }
       },
@@ -93006,7 +93003,8 @@
           "addr:state": "CA",
           "addr:street": "Shattuck Avenue",
           "addr:unit": "B",
-          "disused:shop": "yes"
+          "name": "Hillside Apartments Leasing Office",
+          "office": "property_management"
         }
       },
       "geometry": {
@@ -441578,6 +441576,112 @@
             [
               -122.2707608,
               37.8663301
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1463012103,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "capacity": "16",
+          "layer": "-1",
+          "parking": "underground"
+        },
+        "nodes": [
+          13419997899,
+          13420016607,
+          13419997900,
+          13420016601,
+          13420016609,
+          13419997899
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2564345,
+              37.8676224
+            ],
+            [
+              -122.256418,
+              37.8675402
+            ],
+            [
+              -122.2564096,
+              37.8674983
+            ],
+            [
+              -122.2562148,
+              37.8675226
+            ],
+            [
+              -122.2562397,
+              37.8676467
+            ],
+            [
+              -122.2564345,
+              37.8676224
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1463012104,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "capacity": "16",
+          "layer": "-1",
+          "parking": "underground"
+        },
+        "nodes": [
+          13420016602,
+          13420016605,
+          13420016603,
+          13420016604,
+          13420016610,
+          13420016602
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2564054,
+              37.8674846
+            ],
+            [
+              -122.2563967,
+              37.867444
+            ],
+            [
+              -122.2563784,
+              37.8673582
+            ],
+            [
+              -122.2561844,
+              37.8673839
+            ],
+            [
+              -122.2562113,
+              37.8675103
+            ],
+            [
+              -122.2564054,
+              37.8674846
             ]
           ]
         ]
