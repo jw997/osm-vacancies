@@ -5395,12 +5395,14 @@
         "tags": {
           "addr:city": "Berkeley",
           "addr:housenumber": "2114",
+          "addr:postcode": "94704",
           "addr:street": "Center Street",
           "amenity": "restaurant",
           "check_date": "2025-08-18",
           "cuisine": "burger",
           "diet:halal": "yes",
           "drive_in": "no",
+          "level": "1",
           "microbrewery": "no",
           "name": "Iniburger",
           "outdoor_seating": "yes",
@@ -11153,6 +11155,7 @@
           "addr:housenumber": "1810",
           "addr:state": "CA",
           "name": "Five Little Monkeys",
+          "opening_hours": "Mo-Fr 10:00-19:00; Sa 09:00-19:00; Su 10:00-18:00",
           "shop": "toys",
           "wheelchair": "yes"
         }
@@ -11964,23 +11967,6 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 1419660784,
-        "tags": {
-          "amenity": "parking"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.2467676,
-          37.8635807
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
         "id": 1419660804,
         "tags": {
           "amenity": "parking"
@@ -12307,6 +12293,7 @@
           "cuisine": "coffee_shop",
           "name": "Peet's Coffee",
           "old_name": "Peet's Coffee & Tea",
+          "opening_hours": "Mo-Fr 05:00-19:30; Sa,Su 06:00-19:30",
           "shop": "coffee",
           "takeaway": "yes"
         }
@@ -14393,17 +14380,19 @@
           "addr:city": "Berkeley",
           "addr:country": "US",
           "addr:housenumber": "2117",
+          "addr:postcode": "94704",
           "addr:state": "CA",
           "addr:street": "Kala Bagai Way",
           "amenity": "restaurant",
           "check_date": "2023-05-27",
           "cuisine": "sandwich",
           "drive_in": "no",
-          "internet_access": "no",
+          "internet_access": "wlan",
+          "level": "1",
           "microbrewery": "no",
           "name": "Sandwich Zone",
           "opening_hours": "Mo-Fr 07:00-15:30",
-          "outdoor_seating": "no",
+          "outdoor_seating": "yes",
           "smoking": "no",
           "takeaway": "yes",
           "website": "https://ordersandwichzone.com/",
@@ -17551,6 +17540,7 @@
           "amenity": "restaurant",
           "cuisine": "pizza",
           "drive_in": "no",
+          "level": "1",
           "microbrewery": "no",
           "name": "Arinell Pizza",
           "outdoor_seating": "no",
@@ -22570,6 +22560,7 @@
           "addr:housenumber": "1730",
           "addr:state": "CA",
           "name": "CB2",
+          "opening_hours": "Mo-Sa 10:00-19:00; Su 10:00-18:00",
           "shop": "furniture"
         }
       },
@@ -22613,6 +22604,7 @@
           "addr:housenumber": "1770",
           "addr:state": "CA",
           "name": "Design Within Reach",
+          "opening_hours": "Mo-Sa 10:00-18:00; Su 11:00-18:00",
           "shop": "furniture"
         }
       },
@@ -22635,6 +22627,7 @@
           "addr:housenumber": "1772",
           "addr:state": "CA",
           "name": "Earthsake",
+          "opening_hours": "Mo-Th 10:00-18:00; Fr,Sa 10:00-19:00; Su 11:00-18:00",
           "shop": "clothes"
         }
       },
@@ -26436,13 +26429,9 @@
           "addr:state": "CA",
           "addr:street": "San Pablo Avenue",
           "amenity": "cafe",
-          "contact:instagram": "bartavellecafe",
+          "contact:instagram": "evergreenberkeley",
           "cuisine": "salad;sandwich;coffee",
-          "name": "Bartavelle Coffee and Wine Bar",
-          "opening_hours": "We-Fr 08:00-16:00; Tu,Sa 08:00-15:00; Su 09:00-15:00",
-          "outdoor_seating": "no",
-          "phone": "+1-510-524-2473",
-          "website": "https://www.bartavellecafe.com/",
+          "name": "Evergreen Cafe",
           "wheelchair": "yes"
         }
       },
@@ -35347,6 +35336,7 @@
         "tags": {
           "addr:housenumber": "694",
           "addr:postcode": "94110",
+          "addr:street": "Valencia Street",
           "amenity": "restaurant",
           "check_date": "2025-05-25",
           "cuisine": "chinese",
@@ -50589,7 +50579,7 @@
         "id": 9238475843,
         "tags": {
           "addr:city": "Berkeley",
-          "addr:housenumber": "237",
+          "addr:housenumber": "2372",
           "addr:postcode": "94704",
           "addr:state": "CA",
           "addr:street": "Ellsworth St.",
@@ -66751,12 +66741,13 @@
           "addr:housenumber": "1007",
           "addr:street": "Valencia Street",
           "amenity": "restaurant",
-          "check_date": "2025-07-31",
+          "check_date": "2025-12-30",
           "check_date:opening_hours": "2025-07-31",
           "cuisine": "indian",
           "description": "South Indian food",
           "diet:vegan": "yes",
           "diet:vegetarian": "yes",
+          "level": "0",
           "name": "Udupi Palace",
           "opening_hours": "Su-We 11:30-21:10; Th 11:30-21:20",
           "payment:mastercard": "yes",
@@ -73417,6 +73408,7 @@
           "amenity": "public_bookcase",
           "brand": "Little Free Library",
           "brand:wikidata": "Q6650101",
+          "check_date": "2025-12-28",
           "name": "Little Free Library",
           "public_bookcase:type": "wooden_cabinet"
         }
@@ -91574,6 +91566,7 @@
           "cuisine": "chicken;thai",
           "drive_through": "no",
           "name": "Southside Station",
+          "opening_hours": "Mo-Th 10:00-15:00,16:00-21:00; Fr-Sa 10:00-21:00; Su 10:00-18:00",
           "website": "https://www.eatsouthsidestation.com/"
         }
       },
@@ -106759,31 +106752,6 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 12965468149,
-        "tags": {
-          "addr:housenumber": "2501",
-          "addr:street": "Milvia Street",
-          "amenity": "social_facility",
-          "check_date": "2025-06-30",
-          "description": "\"Assisted Living, Memory Care\"",
-          "name": "The Ivy",
-          "name:en": "The Ivy",
-          "social_facility": "assisted_living",
-          "social_facility:for": "senior"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.2697261,
-          37.8635028
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
         "id": 12965468150,
         "tags": {
           "amenity": "bicycle_parking",
@@ -108655,6 +108623,7 @@
         "tags": {
           "access": "private",
           "amenity": "parking",
+          "capacity": "8",
           "layer": "-1",
           "parking": "underground"
         }
@@ -112528,6 +112497,178 @@
         "coordinates": [
           -122.264826,
           37.8296163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13429356129,
+        "tags": {
+          "addr:city": "San Francisco",
+          "addr:housenumber": "696",
+          "addr:postcode": "94110",
+          "addr:state": "CA",
+          "addr:street": "Valencia Street",
+          "name": "Botanic Panic",
+          "opening_hours": "Mo-Th 13:00-19:00; Fr,Sa 12:00-19:00; Su 12:00-18:00",
+          "phone": "+1-415-407-8773",
+          "shop": "garden_centre"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4219114,
+          37.7617846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13438236939,
+        "tags": {
+          "amenity": "bench",
+          "armrest": "no",
+          "backrest": "yes",
+          "material": "wood"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2519154,
+          37.8764811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13438236940,
+        "tags": {
+          "bench": "yes",
+          "leisure": "picnic_table"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2520773,
+          37.8772627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13438236941,
+        "tags": {
+          "bench": "yes",
+          "leisure": "picnic_table"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2521108,
+          37.8772678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13438236942,
+        "tags": {
+          "bench": "yes",
+          "leisure": "picnic_table"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2521903,
+          37.8772582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13447108701,
+        "tags": {
+          "addr:street": "Fourth Street",
+          "name": "Oceanview To Go",
+          "shop": "bakery"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3004663,
+          37.8698598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13453295486,
+        "tags": {
+          "amenity": "bench"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.255185,
+          37.8706248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13453295487,
+        "tags": {
+          "amenity": "bench"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2551357,
+          37.8706301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13456759201,
+        "tags": {
+          "addr:housenumber": "2620 Suite 200",
+          "addr:street": "Ashby Avenue",
+          "amenity": "dentist",
+          "name": "Elmwood Dental Care"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2545052,
+          37.8566565
         ]
       }
     },
@@ -122857,8 +122998,8 @@
               37.8774816
             ],
             [
-              -122.3092465,
-              37.8775011
+              -122.3092498,
+              37.8774924
             ],
             [
               -122.3091629,
@@ -123167,6 +123308,7 @@
           5874223445,
           310473224,
           310473339,
+          13436839757,
           53064846
         ]
       },
@@ -123175,20 +123317,20 @@
         "coordinates": [
           [
             [
-              -122.3093964,
-              37.8776841
+              -122.3093658,
+              37.8776569
             ],
             [
-              -122.3091719,
-              37.8777158
+              -122.3091872,
+              37.877675
             ],
             [
-              -122.3082257,
-              37.8779162
+              -122.308235,
+              37.8778696
             ],
             [
-              -122.3081135,
-              37.877893
+              -122.3080878,
+              37.8778599
             ],
             [
               -122.3080467,
@@ -123275,8 +123417,12 @@
               37.8776525
             ],
             [
-              -122.3093964,
-              37.8776841
+              -122.30952,
+              37.8776829
+            ],
+            [
+              -122.3093658,
+              37.8776569
             ]
           ]
         ]
@@ -141418,7 +141564,7 @@
           "building:levels": "1",
           "name": "Target",
           "note": "updated: 1. this building has several offices. 2 Andronicos is closed as of 11-2011. 3 Savers closed",
-          "opening_hours": "Tu-Fr 07:00-22:00; Sa 08:00-23:00; Su 08:00-22:00",
+          "opening_hours": "Mo-Fr 07:00-22:00; Sa-Su 08:00-22:00",
           "phone": "+1 510-542-5346",
           "shop": "department_store",
           "toilets": "yes",
@@ -144561,50 +144707,6 @@
       "type": "Feature",
       "properties": {
         "type": "way",
-        "id": 107235099,
-        "tags": {
-          "addr:housenumber": "4521",
-          "addr:street": "Telegraph Avenue",
-          "building": "yes",
-          "disused": "yes",
-          "disused:amenity": "restaurant",
-          "was:name": "Kasper's Hotdogs"
-        },
-        "nodes": [
-          1232880742,
-          1232880752,
-          1232880745,
-          1232880742
-        ]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -122.2634939,
-              37.8334685
-            ],
-            [
-              -122.2634626,
-              37.8335765
-            ],
-            [
-              -122.2635164,
-              37.8335862
-            ],
-            [
-              -122.2634939,
-              37.8334685
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "way",
         "id": 109189907,
         "tags": {
           "building": "yes",
@@ -147361,7 +147463,8 @@
         "type": "way",
         "id": 128467239,
         "tags": {
-          "amenity": "parking"
+          "amenity": "parking",
+          "capacity": "25"
         },
         "nodes": [
           1419660674,
@@ -159826,6 +159929,7 @@
           1981316271,
           1981316392,
           9826507041,
+          13458651026,
           1981316353,
           1981316367,
           1981316274,
@@ -159925,6 +160029,10 @@
             [
               -122.2951637,
               37.8564067
+            ],
+            [
+              -122.295186,
+              37.8564745
             ],
             [
               -122.2955239,
@@ -198839,6 +198947,8 @@
         "id": 306070902,
         "tags": {
           "amenity": "parking",
+          "capacity": "51",
+          "capacity:disabled": "3",
           "covered": "no",
           "operator": "First Congregational Church of Berkeley",
           "parking": "surface",
@@ -206856,7 +206966,7 @@
           "gnis:feature_id": "1676004",
           "name": "Claremont Branch Berkeley Public Library",
           "network": "Berkeley Public Library",
-          "opening_hours": "Mo-Sa 10:00-18:00",
+          "opening_hours": "Mo 10:00-18:00; Tu-We 10:00-20:00; Th 12:00-20:00; Fr-Sa 10:00-18:00",
           "operator": "City of Berkeley",
           "source": "USGS Geonames",
           "website": "https://www.berkeleypubliclibrary.org/locations/claremont-branch",
@@ -234464,7 +234574,7 @@
         "tags": {
           "building": "industrial",
           "disused": "yes",
-          "name": "H C Macauley Foundary"
+          "was:operator": "H C Macauley Foundary"
         },
         "nodes": [
           4687104175,
@@ -234512,7 +234622,7 @@
           "addr:street": "Carleton Street",
           "building": "industrial",
           "disused": "yes",
-          "name": "H C Macauley Foundary"
+          "was:operator": "H C Macauley Foundary"
         },
         "nodes": [
           4687103902,
@@ -234645,7 +234755,7 @@
           "addr:street": "Carleton Street",
           "building": "industrial",
           "disused": "yes",
-          "name": "H C Macauley Foundary"
+          "was:operator": "H C Macauley Foundary"
         },
         "nodes": [
           4687104233,
@@ -234818,7 +234928,7 @@
           "addr:street": "Carleton Street",
           "building": "industrial",
           "disused": "yes",
-          "name": "H C Macauley Foundary"
+          "was:operator": "H C Macauley Foundary"
         },
         "nodes": [
           4687104224,
@@ -235051,7 +235161,7 @@
           "addr:street": "Carleton Street",
           "building": "industrial",
           "disused": "yes",
-          "name": "H C Macauley Foundary"
+          "was:operator": "H C Macauley Foundary"
         },
         "nodes": [
           4687105067,
@@ -235291,7 +235401,7 @@
           "addr:street": "Carleton Street",
           "building": "industrial",
           "disused": "yes",
-          "name": "H C Macauley Foundary"
+          "was:operator": "H C Macauley Foundary"
         },
         "nodes": [
           4687104454,
@@ -235369,7 +235479,7 @@
           "addr:street": "Carleton Street",
           "building": "industrial",
           "disused": "yes",
-          "name": "H C Macauley Foundary"
+          "was:operator": "H C Macauley Foundary"
         },
         "nodes": [
           4687104334,
@@ -299193,17 +299303,19 @@
         "tags": {
           "amenity": "parking",
           "capacity": "18",
-          "capacity:disabled": "1"
+          "capacity:disabled": "1",
+          "parking": "surface",
+          "surface": "grass_paver;gravel"
         },
         "nodes": [
           9829258361,
           12950212918,
+          13436855273,
           9829258362,
           9829258363,
           12950212914,
           9829258364,
           9829258365,
-          12950212915,
           12950212916,
           9829258366,
           12950212917,
@@ -299217,60 +299329,60 @@
         "coordinates": [
           [
             [
-              -122.2993368,
-              37.8523034
+              -122.2993685,
+              37.8522717
             ],
             [
-              -122.2992553,
-              37.8520509
+              -122.2992738,
+              37.8519211
             ],
             [
-              -122.2992109,
-              37.8520548
+              -122.2991742,
+              37.8519381
             ],
             [
-              -122.2991605,
-              37.8520149
+              -122.2991908,
+              37.8520202
             ],
             [
-              -122.2990863,
-              37.8520055
+              -122.2991209,
+              37.8520337
             ],
             [
-              -122.2990161,
-              37.8520235
+              -122.2991016,
+              37.8519888
             ],
             [
-              -122.2990251,
-              37.852084
+              -122.2990092,
+              37.8520022
             ],
             [
-              -122.2990315,
-              37.8521216
+              -122.2990283,
+              37.852069
             ],
             [
-              -122.2989564,
-              37.8521387
+              -122.2989738,
+              37.8521316
             ],
             [
-              -122.2989824,
-              37.8522223
+              -122.2989919,
+              37.8521868
             ],
             [
-              -122.2991624,
-              37.8522066
+              -122.2990773,
+              37.8522312
             ],
             [
-              -122.2992495,
-              37.8522199
+              -122.2992463,
+              37.8522003
             ],
             [
-              -122.2992864,
-              37.8523115
+              -122.2992758,
+              37.8522915
             ],
             [
-              -122.2993368,
-              37.8523034
+              -122.2993685,
+              37.8522717
             ]
           ]
         ]
@@ -319159,17 +319271,17 @@
         "type": "way",
         "id": 1112592181,
         "tags": {
-          "check_date": "2024-04-14",
-          "construction": "residential",
-          "construction:building": "apartments",
-          "construction:building:levels": "6",
-          "landuse": "construction",
-          "name": "MorningStar of Berkeley",
-          "operator": "MorningStar",
-          "planned:amenity": "social_facility",
-          "planned:social_facility": "assisted_living",
-          "planned:social_facility:for": "senior",
-          "website": "https://www.morningstarseniorliving.com/communities/senior-living-berkeley/"
+          "addr:housenumber": "2501",
+          "addr:street": "Milvia Street",
+          "amenity": "social_facility",
+          "check_date": "2026-01-03",
+          "description": "\"Assisted Living, Memory Care\"",
+          "landuse": "residential",
+          "name": "The Ivy",
+          "name:en": "The Ivy",
+          "social_facility": "assisted_living",
+          "social_facility:for": "senior",
+          "was:name": "MorningStar of Berkeley"
         },
         "nodes": [
           9921760642,
@@ -362558,7 +362670,7 @@
         "type": "way",
         "id": 1254613740,
         "tags": {
-          "garden:type": "landscapingl",
+          "garden:type": "landscaping",
           "leisure": "garden"
         },
         "nodes": [
@@ -389594,6 +389706,7 @@
         "id": 1408681805,
         "tags": {
           "amenity": "parking",
+          "capacity": "12",
           "parking": "surface"
         },
         "nodes": [
@@ -419402,7 +419515,8 @@
         "type": "way",
         "id": 1414545093,
         "tags": {
-          "amenity": "parking"
+          "amenity": "parking",
+          "capacity": "14"
         },
         "nodes": [
           12998345218,
@@ -439983,7 +440097,7 @@
         "id": 1422404423,
         "tags": {
           "amenity": "parking",
-          "capacity": "65",
+          "capacity": "130",
           "layer": "-1",
           "parking": "underground"
         },
@@ -441682,6 +441796,817 @@
             [
               -122.2564054,
               37.8674846
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1465211979,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "capacity": "32",
+          "layer": "-1",
+          "parking": "underground"
+        },
+        "nodes": [
+          13438806960,
+          13438806964,
+          13438806966,
+          13438806961,
+          13438806962,
+          13438806963,
+          13438806960
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2540208,
+              37.8669826
+            ],
+            [
+              -122.2540107,
+              37.8669382
+            ],
+            [
+              -122.2539958,
+              37.8668731
+            ],
+            [
+              -122.2539877,
+              37.8668373
+            ],
+            [
+              -122.2536925,
+              37.8668751
+            ],
+            [
+              -122.2537205,
+              37.8670169
+            ],
+            [
+              -122.2540208,
+              37.8669826
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1465211982,
+        "tags": {
+          "amenity": "parking",
+          "capacity": "8"
+        },
+        "nodes": [
+          13438806968,
+          13438806969,
+          13438806970,
+          13438806971,
+          13438806972,
+          13438806968
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2535401,
+              37.8666779
+            ],
+            [
+              -122.2535648,
+              37.8668097
+            ],
+            [
+              -122.2536844,
+              37.8667957
+            ],
+            [
+              -122.2536598,
+              37.8666639
+            ],
+            [
+              -122.2535876,
+              37.8666724
+            ],
+            [
+              -122.2535401,
+              37.8666779
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1465212326,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "capacity": "12",
+          "layer": "-1",
+          "parking": "underground"
+        },
+        "nodes": [
+          13438806487,
+          13438806488,
+          13438806489,
+          13438806490,
+          13438806491,
+          13438806487
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2519824,
+              37.8688157
+            ],
+            [
+              -122.2518531,
+              37.8688333
+            ],
+            [
+              -122.2518108,
+              37.8686407
+            ],
+            [
+              -122.2519401,
+              37.868623
+            ],
+            [
+              -122.2519629,
+              37.8687269
+            ],
+            [
+              -122.2519824,
+              37.8688157
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1465213391,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "capacity": "15",
+          "layer": "-1",
+          "parking": "underground"
+        },
+        "nodes": [
+          13438808134,
+          13438808135,
+          13438808136,
+          13438808137,
+          13438808134
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2513757,
+              37.8688715
+            ],
+            [
+              -122.2513562,
+              37.8687843
+            ],
+            [
+              -122.2509995,
+              37.8688341
+            ],
+            [
+              -122.2510191,
+              37.8689213
+            ],
+            [
+              -122.2513757,
+              37.8688715
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1465213393,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "capacity": "14"
+        },
+        "nodes": [
+          13438808140,
+          13438808141,
+          13438808142,
+          13438808146,
+          13438808144,
+          13438808143,
+          13438808140
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2506365,
+              37.8685489
+            ],
+            [
+              -122.2505944,
+              37.8683647
+            ],
+            [
+              -122.2506567,
+              37.8683547
+            ],
+            [
+              -122.2506632,
+              37.8683893
+            ],
+            [
+              -122.2506843,
+              37.8685002
+            ],
+            [
+              -122.2506909,
+              37.8685348
+            ],
+            [
+              -122.2506365,
+              37.8685489
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1465214311,
+        "tags": {
+          "amenity": "parking",
+          "capacity": "12"
+        },
+        "nodes": [
+          13438843547,
+          13438843548,
+          13438843549,
+          13438843550,
+          13438843547
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2507208,
+              37.8624912
+            ],
+            [
+              -122.2507094,
+              37.8623987
+            ],
+            [
+              -122.250422,
+              37.8624208
+            ],
+            [
+              -122.2504333,
+              37.8625132
+            ],
+            [
+              -122.2507208,
+              37.8624912
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1465214388,
+        "tags": {
+          "amenity": "parking",
+          "capacity": "8"
+        },
+        "nodes": [
+          13438851613,
+          13438851614,
+          13438851619,
+          13438851615,
+          13438851616,
+          13438851617,
+          13438851618,
+          13438851613
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2548214,
+              37.8605275
+            ],
+            [
+              -122.254764,
+              37.8605316
+            ],
+            [
+              -122.2547514,
+              37.8604219
+            ],
+            [
+              -122.2547495,
+              37.8604053
+            ],
+            [
+              -122.2550767,
+              37.8603819
+            ],
+            [
+              -122.2550804,
+              37.8604134
+            ],
+            [
+              -122.2548105,
+              37.8604326
+            ],
+            [
+              -122.2548214,
+              37.8605275
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1465214462,
+        "tags": {
+          "amenity": "parking",
+          "capacity": "10",
+          "layer": "-1",
+          "parking": "underground"
+        },
+        "nodes": [
+          13438825997,
+          13438825998,
+          13438825999,
+          13438826000,
+          13438825997
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2563451,
+              37.8599146
+            ],
+            [
+              -122.2560013,
+              37.8599378
+            ],
+            [
+              -122.256008,
+              37.8600052
+            ],
+            [
+              -122.2563525,
+              37.8599814
+            ],
+            [
+              -122.2563451,
+              37.8599146
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1465214607,
+        "tags": {
+          "amenity": "parking",
+          "capacity": "6"
+        },
+        "nodes": [
+          13438842362,
+          13438842363,
+          13438842364,
+          13438842365,
+          13438842362
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2586432,
+              37.8593833
+            ],
+            [
+              -122.2585239,
+              37.8593938
+            ],
+            [
+              -122.2585423,
+              37.8595356
+            ],
+            [
+              -122.2586638,
+              37.8595193
+            ],
+            [
+              -122.2586432,
+              37.8593833
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1465214608,
+        "tags": {
+          "amenity": "parking",
+          "capacity": "5"
+        },
+        "nodes": [
+          13438842366,
+          13438842367,
+          13438842368,
+          13438842369,
+          13438842366
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2587926,
+              37.859256
+            ],
+            [
+              -122.2586541,
+              37.8592747
+            ],
+            [
+              -122.258674,
+              37.8593947
+            ],
+            [
+              -122.2588243,
+              37.8593775
+            ],
+            [
+              -122.2587926,
+              37.859256
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1465214884,
+        "tags": {
+          "amenity": "parking",
+          "capacity": "5"
+        },
+        "nodes": [
+          13438851557,
+          13438851558,
+          13438851559,
+          13438851560,
+          13438851561,
+          13438851557
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2648662,
+              37.8579683
+            ],
+            [
+              -122.2648876,
+              37.8580825
+            ],
+            [
+              -122.2650409,
+              37.8580633
+            ],
+            [
+              -122.2650183,
+              37.8579505
+            ],
+            [
+              -122.2649763,
+              37.8579555
+            ],
+            [
+              -122.2648662,
+              37.8579683
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1465215047,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "capacity": "20",
+          "layer": "-1",
+          "parking": "underground"
+        },
+        "nodes": [
+          13438849633,
+          13438849634,
+          13438849635,
+          13438849636,
+          13438849638,
+          13438849633
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2666401,
+              37.8575123
+            ],
+            [
+              -122.2666065,
+              37.8573599
+            ],
+            [
+              -122.2663663,
+              37.857393
+            ],
+            [
+              -122.2663999,
+              37.8575454
+            ],
+            [
+              -122.2666174,
+              37.8575154
+            ],
+            [
+              -122.2666401,
+              37.8575123
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1465215283,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "capacity": "10"
+        },
+        "nodes": [
+          13438843416,
+          13438843417,
+          13438843418,
+          13438843419,
+          13438843416
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2774447,
+              37.8618549
+            ],
+            [
+              -122.2774503,
+              37.8619118
+            ],
+            [
+              -122.2777473,
+              37.861883
+            ],
+            [
+              -122.2777445,
+              37.8618164
+            ],
+            [
+              -122.2774447,
+              37.8618549
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1465215284,
+        "tags": {
+          "amenity": "parking",
+          "capacity": "6"
+        },
+        "nodes": [
+          13438843420,
+          13438843421,
+          13438843422,
+          13438843423,
+          13438843425,
+          13438843420
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2773449,
+              37.8614097
+            ],
+            [
+              -122.2773331,
+              37.8613523
+            ],
+            [
+              -122.2775165,
+              37.8613288
+            ],
+            [
+              -122.2775283,
+              37.8613862
+            ],
+            [
+              -122.2775028,
+              37.8613895
+            ],
+            [
+              -122.2773449,
+              37.8614097
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1467353201,
+        "tags": {
+          "addr:housenumber": "811",
+          "addr:street": "Carleton Street",
+          "disused": "yes",
+          "landuse": "industrial",
+          "note": "area no longer active foundary, Bayer proposed redevelopment",
+          "was:name": "H C Macauley Foundary",
+          "was:operator": "H C Macauley Foundary"
+        },
+        "nodes": [
+          1981316436,
+          1981316274,
+          1981316367,
+          1981316353,
+          13458651026,
+          13458651027,
+          4687103976,
+          4687104334,
+          4687104847,
+          4687104463,
+          4687103719,
+          4687103949,
+          4687104436,
+          13458651028,
+          1981316395,
+          1981316436
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2942834,
+              37.8578919
+            ],
+            [
+              -122.2949996,
+              37.8577479
+            ],
+            [
+              -122.2949593,
+              37.8576166
+            ],
+            [
+              -122.2955239,
+              37.857503
+            ],
+            [
+              -122.295186,
+              37.8564745
+            ],
+            [
+              -122.2942825,
+              37.856707
+            ],
+            [
+              -122.2942936,
+              37.8567366
+            ],
+            [
+              -122.2943565,
+              37.8568957
+            ],
+            [
+              -122.2943857,
+              37.8569694
+            ],
+            [
+              -122.2944137,
+              37.8570402
+            ],
+            [
+              -122.2943515,
+              37.8570556
+            ],
+            [
+              -122.2943525,
+              37.8570583
+            ],
+            [
+              -122.2940686,
+              37.8571293
+            ],
+            [
+              -122.294035,
+              37.8571366
+            ],
+            [
+              -122.2940903,
+              37.8573095
+            ],
+            [
+              -122.2942834,
+              37.8578919
             ]
           ]
         ]
