@@ -34690,6 +34690,27 @@
       "type": "Feature",
       "properties": {
         "type": "node",
+        "id": 5879367796,
+        "tags": {
+          "contact:facebook": "https://www.facebook.com/AutoGlassExpress",
+          "disused:shop": "car_repair",
+          "name": "Auto Glass Express",
+          "phone": "+1-510-847-2674",
+          "website": "https://bayareaautoglassexpress.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.291085,
+          37.8670345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
         "id": 5913975222,
         "tags": {
           "amenity": "childcare",
