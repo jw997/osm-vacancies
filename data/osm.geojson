@@ -1602,6 +1602,7 @@
         "id": 308296410,
         "tags": {
           "amenity": "post_box",
+          "collection_times:signed": "no",
           "operator": "United States Postal Service",
           "operator:short": "USPS",
           "operator:type": "public",
@@ -3069,20 +3070,23 @@
         "type": "node",
         "id": 314115626,
         "tags": {
+          "addr:city": "Berkeley",
           "addr:country": "US",
           "addr:housenumber": "1796",
+          "addr:postcode": "94709-1750",
           "addr:state": "CA",
           "addr:street": "Shattuck Avenue",
           "amenity": "cafe",
           "check_date": "2024-05-03",
           "cuisine": "bubble_tea",
-          "name": "Cha Thai Tea"
+          "name": "Cha Thai Tea",
+          "phone": "+1-510-225-9781"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2688995,
+          -122.2689,
           37.87491
         ]
       }
@@ -3198,15 +3202,16 @@
           "addr:postcode": "94704",
           "addr:state": "CA",
           "addr:street": "Shattuck Avenue",
-          "check_date": "2025-12-02",
-          "cuisine": "vietnamese",
-          "disused:amenity": "restaurant",
+          "amenity": "restaurant",
+          "check_date": "2026-01-29",
+          "cuisine": "algerian",
           "drive_in": "no",
           "level": "0",
-          "name": "Vietnam House",
+          "name": "Gusto",
           "old_name": "Turkish Kitchen",
           "outdoor_seating": "no",
-          "smoking": "no"
+          "smoking": "no",
+          "website": "https://www.instagram.com/gusto_2026/"
         }
       },
       "geometry": {
@@ -3732,8 +3737,8 @@
           "addr:postcode": "94709",
           "addr:state": "CA",
           "addr:street": "Euclid Avenue",
-          "amenity": "cafe",
           "cuisine": "coffee_shop",
+          "disused:amenity": "cafe",
           "name": "Delah Coffee",
           "old_name": "Brewed Awakening",
           "website": "https://delahcoffee.com/"
@@ -3758,7 +3763,7 @@
           "addr:postcode": "94709",
           "addr:state": "CA",
           "addr:street": "Euclid Avenue",
-          "amenity": "restaurant",
+          "disused:amenity": "restaurant",
           "name": "Mt. Agni",
           "old_name": "Stuffed Inn"
         }
@@ -4065,8 +4070,9 @@
           "addr:housenumber": "1889",
           "addr:state": "CA",
           "addr:street": "Solano Avenue",
-          "disused:amenity": "restaurant",
-          "name": "Khana Peena"
+          "amenity": "restaurant",
+          "name": "Bangalore Blues",
+          "website": "https://www.instagram.com/pochys_food/"
         }
       },
       "geometry": {
@@ -4762,6 +4768,7 @@
           "name": "Sweet Basil",
           "opening_hours": "Mo-Sa 11:30-21:00",
           "outdoor_seating": "yes",
+          "phone": "+1-510-527-8611",
           "terrace": "yes",
           "website": "https://sweetbasilberkeley.com/"
         }
@@ -4770,7 +4777,7 @@
         "type": "Point",
         "coordinates": [
           -122.281599,
-          37.8911252
+          37.891125
         ]
       }
     },
@@ -6615,12 +6622,10 @@
           "addr:city": "Berkeley",
           "addr:housenumber": "2501",
           "addr:street": "Telegraph Avenue",
-          "amenity": "cafe",
           "brand": "Peet's Coffee",
           "brand:wikidata": "Q1094101",
           "cuisine": "coffee_shop",
-          "internet_access": "wlan",
-          "internet_access:fee": "no",
+          "disused:amenity": "cafe",
           "name": "Peet's Coffee",
           "opening_hours": "Mo-Su 07:00-16:15",
           "phone": "+1-510-225-7700",
@@ -6788,8 +6793,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4208616,
-          37.7557673
+          -122.4208547,
+          37.7557464
         ]
       }
     },
@@ -7793,11 +7798,11 @@
           "addr:postcode": "94110",
           "addr:street": "Valencia Street",
           "amenity": "cafe",
-          "check_date": "2025-01-25",
+          "check_date": "2026-01-26",
           "cuisine": "coffee_shop",
           "internet_access": "no",
           "name": "Ritual Coffee Roasters",
-          "opening_hours": "07:00-18:00",
+          "opening_hours": "Mo-Th 06:30-19:00; Fr-Su 06:30-20:00",
           "outdoor_seating": "yes",
           "payment:mastercard": "yes",
           "payment:visa": "yes",
@@ -8757,6 +8762,7 @@
           "addr:street": "Addison Street",
           "amenity": "theatre",
           "name": "The Roda Theatre",
+          "toilets:wheelchair": "yes",
           "wheelchair": "yes"
         }
       },
@@ -8975,15 +8981,9 @@
           "addr:housenumber": "2036",
           "addr:state": "CA",
           "addr:street": "Shattuck Avenue",
-          "brand": "Half Price Books",
-          "brand:wikidata": "Q5641744",
           "check_date": "2025-12-01",
           "disused:shop": "books",
-          "name": "Half Price Books",
-          "opening_hours": "Mo-Th 11:00-20:00; Fr-Su 10:00-22:00",
-          "phone": "+1-510-526-6080",
-          "second_hand": "yes",
-          "website": "https://www.hpb.com/store?storeid=HPB-037",
+          "was:name": "Half Price Books",
           "wheelchair": "yes"
         }
       },
@@ -9034,12 +9034,10 @@
           "addr:housenumber": "2000",
           "addr:state": "CA",
           "addr:street": "Shattuck Avenue",
-          "brand": "Citibank",
-          "brand:wikidata": "Q857063",
           "check_date": "2025-09-21",
           "disused:amenity": "bank",
           "drive_through": "no",
-          "old_name": "Citibank",
+          "was:name": "Citibank",
           "wheelchair": "yes"
         }
       },
@@ -10665,7 +10663,8 @@
           "addr:unit": "A",
           "shop": "tattoo",
           "was:addr:housenumber": "64",
-          "was:addr:street": "Shattuck Square"
+          "was:addr:street": "Shattuck Square",
+          "was:name": "Yoga to the People"
         }
       },
       "geometry": {
@@ -10940,30 +10939,6 @@
         "coordinates": [
           -122.2532658,
           37.8576247
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 1241205601,
-        "tags": {
-          "alt_name": "Elmwood Theater",
-          "amenity": "cinema",
-          "name": "Elmwood Theatre",
-          "phone": "+1-510-433-9730",
-          "website": "https://www.rialtocinemas.com/index.php?location=elmwood",
-          "wheelchair": "limited",
-          "wheelchair:description": "Downstairs screening room is accessible, upstairs room is not.",
-          "wikidata": "Q44858949"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.2531626,
-          37.8566851
         ]
       }
     },
@@ -12197,11 +12172,11 @@
         "tags": {
           "addr:housenumber": "541",
           "addr:street": "Valencia Street",
-          "check_date": "2023-11-15",
+          "check_date": "2026-02-07",
           "contact:instagram": "therapystores",
           "level": "0",
           "name": "Therapy Stores",
-          "opening_hours": "Mo-Sa 11:30-19:30; Su 11:00-19:00",
+          "opening_hours": "Mo-Sa 12:00-20:00; Su 11:00-19:00",
           "shop": "gift",
           "website": "https://therapystores.com",
           "wheelchair": "yes"
@@ -16052,10 +16027,9 @@
           "addr:postcode": "94110",
           "addr:street": "Valencia Street",
           "amenity": "restaurant",
+          "check_date": "2026-01-23",
           "cuisine": "thai",
-          "name": "Thai House 530",
-          "phone": "+1 415 503 1500",
-          "website": "http://thaihouse530.com/",
+          "name": "Raw Sugar Factory",
           "wikidata": "Q7729375"
         }
       },
@@ -19904,8 +19878,8 @@
           "addr:housenumber": "2026",
           "addr:state": "CA",
           "addr:street": "University Avenue",
-          "amenity": "restaurant",
           "cuisine": "burger;american;fried_chicken",
+          "disused:amenity": "restaurant",
           "name": "Cal's Fried Chicken & Burgers",
           "website": "https://calsberkeley.com"
         }
@@ -22747,9 +22721,9 @@
           "addr:housenumber": "1780",
           "addr:street": "Fourth Street",
           "check_date": "2025-02-08",
+          "disused:shop": "plant",
           "name": "Paraíso Plant Studio",
           "opening_hours": "10:00-19:00",
-          "shop": "plant",
           "website": "https://paraisoplant.studio/",
           "wheelchair": "limited"
         }
@@ -22768,17 +22742,13 @@
         "type": "node",
         "id": 2475998084,
         "tags": {
-          "addr:city": "Berkeley",
-          "addr:country": "US",
           "addr:housenumber": "1786",
-          "addr:postcode": "94710",
-          "addr:state": "CA",
           "addr:street": "Fourth Street",
-          "contact:instagram": "https://www.instagram.com/markethallfoods",
-          "disused:shop": "supermarket",
-          "name": "Market Hall Foods",
-          "phone": "+1-510-250-6004",
-          "website": "https://www.markethallfoodson4th.com/"
+          "name": "Paraíso Plant Studio",
+          "opening_hours": "10:00-19:00",
+          "shop": "plant",
+          "website": "https://paraisoplant.studio/",
+          "wheelchair": "limited"
         }
       },
       "geometry": {
@@ -24619,22 +24589,27 @@
         "type": "node",
         "id": 2688829746,
         "tags": {
+          "addr:city": "Berkeley",
           "addr:housenumber": "2523",
+          "addr:postcode": "94704-1714",
+          "addr:state": "CA",
           "addr:street": "Durant Avenue",
           "amenity": "cafe",
           "check_date": "2023-06-11",
           "cuisine": "taiwanese;bubble_tea",
           "name": "Sweetheart Cafe",
           "opening_hours": "6:00-20:30",
+          "phone": "+1-510-540-0707",
           "toilets:wheelchair": "no",
+          "website": "https://sweetheart-tea.weebly.com",
           "wheelchair": "limited"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2579232,
-          37.8680797
+          -122.257923,
+          37.86808
         ]
       }
     },
@@ -27044,23 +27019,24 @@
         "id": 3443701422,
         "tags": {
           "addr:city": "San Francisco",
-          "addr:housenumber": "1077",
+          "addr:housenumber": "1065",
           "addr:postcode": "94110",
           "addr:state": "CA",
           "addr:street": "Valencia Street",
-          "amenity": "bicycle_repair_station",
           "fee": "yes",
-          "name": "Valencia Cyclery",
+          "name": "Valencia Cyclery Repair Shop",
           "phone": "+1-415-550-6601",
           "service:bicycle:pump": "yes",
+          "service:bicycle:repair": "yes",
+          "shop": "bicycle",
           "website": "https://www.valenciacyclery.com/"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4208838,
-          37.7559216
+          -122.4208737,
+          37.7559208
         ]
       }
     },
@@ -27896,8 +27872,8 @@
           "addr:postcode": "94710",
           "addr:state": "CA",
           "addr:street": "Camelia Street",
-          "amenity": "cafe",
           "cuisine": "south_indian",
+          "disused:amenity": "cafe",
           "name": "Pochy's Homestyle South Indian",
           "website": "https://www.pochys.com/"
         }
@@ -28417,13 +28393,13 @@
           "indoor_seating": "yes",
           "name": "Kura Revolving Sushi Bar",
           "official_name": "Kura Revolving Sushi Bar",
-          "old_name": "85°C Bakery Cafe",
           "opening_hours": "Su-Th 11:30-21:30; Fr 11:30-22:00; Sa 11:00-22:00",
           "outdoor_seating": "yes",
           "phone": "+1 661-679-8668",
           "takeaway": "yes",
           "was:addr:housenumber": "21",
           "was:addr:street": "Shattuck Square",
+          "was:name": "85°C Bakery Cafe",
           "website": "https://kurasushi.com/locations/berkeley-ca"
         }
       },
@@ -28495,13 +28471,12 @@
           "addr:housenumber": "2177",
           "addr:postcode": "94703",
           "addr:street": "Kittredge Street",
-          "check_date": "2023-03-18",
-          "contact:website": "https://www.organicgreensalad.com/",
+          "amenity": "fast_food",
+          "check_date": "2026-01-29",
+          "contact:website": "https://dosa.company/menu/idcafeberkeley?item=buttermilk-VhSx",
+          "cuisine": "indian",
           "diet:vegetarian": "yes",
-          "disused:amenity": "fast_food",
-          "name": "Organic Greens",
-          "opening_hours": "Mo-Sa 7:00-18:00; Su 8:00-18:00",
-          "phone": "+1 510-280-5125",
+          "name": "Id Cafe",
           "smoking": "no",
           "wheelchair": "limited"
         }
@@ -31813,7 +31788,7 @@
         "tags": {
           "addr:housenumber": "541",
           "addr:street": "Valencia Street",
-          "check_date": "2024-12-29",
+          "check_date": "2026-02-07",
           "level": "0",
           "name": "After Life Collective",
           "opening_hours": "Mo-We 12:00-19:00; Th-Sa 11:00-20:00; Su 11:00-18:00",
@@ -34715,27 +34690,6 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 5879367796,
-        "tags": {
-          "contact:facebook": "https://www.facebook.com/AutoGlassExpress",
-          "name": "Auto Glass Express",
-          "phone": "+1-510-847-2674",
-          "shop": "car_repair",
-          "website": "https://bayareaautoglassexpress.com/"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.291085,
-          37.8670345
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
         "id": 5913975222,
         "tags": {
           "amenity": "childcare",
@@ -35128,6 +35082,7 @@
           "addr:street": "Addison Street",
           "amenity": "theatre",
           "name": "Peet's Theatre",
+          "toilets:wheelchair": "yes",
           "wheelchair": "yes"
         }
       },
@@ -36778,8 +36733,8 @@
         "type": "node",
         "id": 6496135009,
         "tags": {
-          "check_date": "2024-12-29",
-          "disused:leisure": "fitness_centre",
+          "check_date": "2026-01-23",
+          "leisure": "fitness_centre",
           "name": "Live Fit Gym"
         }
       },
@@ -37706,6 +37661,7 @@
           "level": "0",
           "name": "T-Mobile",
           "shop": "mobile_phone",
+          "website": "https://www.t-mobile.com/stores/bd/t-mobile-oakland-ca-94609-2360",
           "wheelchair": "yes"
         }
       },
@@ -38292,9 +38248,11 @@
           "addr:housenumber": "557",
           "addr:street": "Valencia Street",
           "amenity": "restaurant",
-          "check_date": "2024-12-29",
+          "check_date": "2026-01-26",
+          "check_date:opening_hours": "2026-01-26",
           "level": "0",
-          "name": "Barberio"
+          "name": "Barberio",
+          "opening_hours": "Mo-Sa 17:30-21:00"
         }
       },
       "geometry": {
@@ -38319,14 +38277,15 @@
           "amenity": "restaurant",
           "cuisine": "indian;nepali",
           "name": "4 Dreams Nepali Indian Cuisine",
+          "phone": "+1-510-570-2152",
           "website": "https://www.4dreamscuisine.com/"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2672202,
-          37.8652637
+          -122.26722,
+          37.865264
         ]
       }
     },
@@ -38780,15 +38739,22 @@
         "tags": {
           "amenity": "bicycle_rental",
           "bicycle_rental": "docking_station",
+          "brand": "Bay Wheels",
+          "brand:wikidata": "Q16971391",
+          "fee": "yes",
+          "name": "Bay Wheels",
           "network": "Bay Wheels",
-          "operator": "Lyft"
+          "network:wikidata": "Q16971391",
+          "operator": "Lyft",
+          "operator:type": "private",
+          "operator:wikidata": "Q17077936"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2798383,
-          37.8704357
+          -122.2791586,
+          37.869742
         ]
       }
     },
@@ -39326,14 +39292,19 @@
           "addr:state": "CA",
           "addr:street": "Shattuck Avenue",
           "addr:unit": "103",
+          "alt_name": "Marugame Seimen",
           "amenity": "fast_food",
+          "branch": "Berkeley",
+          "brand": "Marugame Seimen",
+          "brand:wikidata": "Q10877253",
           "cuisine": "noodle",
           "drive_through": "no",
           "indoor_seating": "yes",
           "name": "Marugame Udon",
-          "opening_hours": "Mo-Su 11:00-21:00",
+          "opening_hours": "Mo-Su 11:00-22:00",
           "outdoor_seating": "yes",
           "phone": "+1-510-529-4622",
+          "takeaway": "yes",
           "website": "https://marugameudon.com/",
           "wheelchair": "yes"
         }
@@ -39840,12 +39811,12 @@
         "tags": {
           "addr:housenumber": "2309",
           "addr:street": "Telegraph Avenue",
-          "amenity": "restaurant",
           "check_date": "2025-02-16",
           "contact:facebook": "alleykitchens",
           "contact:instagram": "alleykitchens",
           "contact:yelp": "https://www.yelp.com/biz/alleykitchens",
           "cuisine": "japanese;ramen",
+          "disused:amenity": "restaurant",
           "email": "alleykitchens@gmail.com",
           "name": "Alley Kitchens",
           "name:ja": "橫丁キッチン",
@@ -41012,24 +40983,6 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 7211468091,
-        "tags": {
-          "amenity": "bicycle_parking",
-          "bicycle_parking": "rack"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.2833148,
-          37.8742495
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
         "id": 7211468093,
         "tags": {
           "amenity": "vending_machine",
@@ -41149,7 +41102,8 @@
         "type": "node",
         "id": 7215526810,
         "tags": {
-          "amenity": "waste_basket"
+          "amenity": "waste_basket",
+          "check_date": "2026-02-28"
         }
       },
       "geometry": {
@@ -43355,15 +43309,21 @@
         "type": "node",
         "id": 7926253272,
         "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2801",
+          "addr:postcode": "94705-1118",
+          "addr:state": "CA",
+          "addr:street": "Telegraph Avenue",
           "amenity": "cafe",
-          "name": "Mudrakers Cafe"
+          "name": "Mudrakers Cafe",
+          "phone": "+1-510-649-7315"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -122.259037,
-          37.8594593
+          37.859459
         ]
       }
     },
@@ -43476,20 +43436,26 @@
         "type": "node",
         "id": 7932880097,
         "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2590",
+          "addr:postcode": "94704-1715",
+          "addr:state": "CA",
+          "addr:street": "Durant Avenue",
           "amenity": "fast_food",
           "check_date": "2024-08-03",
           "cuisine": "pizza",
           "drive_through": "no",
           "indoor_seating": "no",
           "name": "Artichoke Basille's Pizza",
-          "outdoor_seating": "parklet"
+          "outdoor_seating": "parklet",
+          "phone": "+1-510-705-1266"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2568495,
-          37.8679535
+          -122.256849,
+          37.867954
         ]
       }
     },
@@ -45554,7 +45520,7 @@
           "addr:street": "Channing Way",
           "name": "Framers workshop",
           "shop": "interior_decoration",
-          "website": "http://www.framersworkshop.com/"
+          "website": "https://www.framersworkshop.com/"
         }
       },
       "geometry": {
@@ -45712,9 +45678,9 @@
         "type": "node",
         "id": 8091612034,
         "tags": {
+          "disused:shop": "antiques",
           "name": "Hellywelly atelier",
           "phone": "+1-510-841-1565",
-          "shop": "antiques",
           "website": "https://www.instagram.com/hellywelly_atelier/"
         }
       },
@@ -45755,8 +45721,8 @@
           "addr:postcode": "94710",
           "addr:state": "CA",
           "addr:street": "San Pablo Avenue",
+          "disused:shop": "musical_instrument",
           "name": "DC Pianos",
-          "shop": "musical_instrument",
           "website": "https://dcpianos.com/dc/"
         }
       },
@@ -46384,6 +46350,7 @@
         "tags": {
           "addr:city": "Berkeley",
           "addr:housenumber": "2440",
+          "addr:postcode": "94704",
           "addr:state": "CA",
           "addr:street": "Bancroft Way",
           "amenity": "cafe",
@@ -46391,6 +46358,7 @@
           "contact:instagram": "rareteausa",
           "cuisine": "bubble_tea",
           "name": "RareTea",
+          "phone": "+1-415-734-0525",
           "takeaway": "yes",
           "website": "https://www.rareteausa.com/",
           "website:menu": "https://rareteabancroft.square.site/"
@@ -46399,7 +46367,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2603864,
+          -122.260387,
           37.868445
         ]
       }
@@ -47113,7 +47081,8 @@
           "opening_hours": "Su,Mo-Th 12:00-22:30; Fr,Sa 12:00-23:30",
           "opening_hours:signed": "yes",
           "phone": "+1 510 5490570",
-          "website": "http://www.yogurtpark.com/"
+          "website": "http://www.yogurtpark.com/",
+          "wheelchair": "limited"
         }
       },
       "geometry": {
@@ -48147,9 +48116,9 @@
           "addr:unit": "102",
           "brand": "Vans",
           "brand:wikidata": "Q1135366",
+          "disused:shop": "shoes",
           "name": "Vans",
-          "opening_hours": "Mo-Sa 10:00-18:00; Su 11:00-18:00",
-          "shop": "shoes"
+          "opening_hours": "Mo-Sa 10:00-18:00; Su 11:00-18:00"
         }
       },
       "geometry": {
@@ -48315,8 +48284,8 @@
           "addr:housenumber": "1801",
           "addr:street": "Fourth Street",
           "check_date": "2025-02-08",
-          "name": "American Giant",
-          "shop": "clothes"
+          "disused:shop": "clothes",
+          "name": "American Giant"
         }
       },
       "geometry": {
@@ -51036,8 +51005,8 @@
           "branch": "Temescal",
           "brand": "Whole Foods Market",
           "brand:wikidata": "Q1809448",
-          "check_date": "2024-10-03",
-          "check_date:opening_hours": "2024-10-03",
+          "check_date": "2026-01-19",
+          "check_date:opening_hours": "2026-01-19",
           "name": "Whole Foods Market",
           "opening_hours": "Mo-Su 08:00-21:00",
           "phone": "+1 510-903-2222",
@@ -55881,8 +55850,12 @@
         "type": "node",
         "id": 9669189766,
         "tags": {
-          "name": "Fastenal",
-          "office": "company"
+          "addr:housenumber": "1730",
+          "addr:street": "San Pablo Avenue",
+          "name": "Ikenga Palm Wines",
+          "office": "company",
+          "phone": "+1 707 659-6693",
+          "website": "https://ikengawines.com"
         }
       },
       "geometry": {
@@ -56682,11 +56655,12 @@
         "type": "node",
         "id": 9750564524,
         "tags": {
-          "amenity": "bicycle_rental",
           "bicycle_rental": "docking_station",
           "brand": "Bay Wheels",
           "brand:wikidata": "Q16971391",
           "capacity": "23",
+          "check_date": "2026-01-23",
+          "disused:amenity": "bicycle_rental",
           "fee": "yes",
           "name": "Bay Wheels",
           "network": "Bay Wheels",
@@ -69395,6 +69369,7 @@
           "cuisine": "pizza",
           "indoor_seating": "yes",
           "name": "Pizzeria Da Laura",
+          "was:name": "PiQ",
           "website": "https://www.pizzeriadalaura.com/"
         }
       },
@@ -73249,10 +73224,11 @@
         "type": "node",
         "id": 11060794745,
         "tags": {
-          "check_date": "2025-01-30",
+          "addr:housenumber": "717",
+          "addr:street": "Valencia Street",
+          "check_date": "2026-01-23",
           "check_date:opening_hours": "2025-01-30",
-          "name": "Proclamation Goods Co.",
-          "opening_hours": "Mo-Sa 13:00-19:00; Su 13:00-18:00",
+          "name": "Landline",
           "shop": "houseware"
         }
       },
@@ -84551,7 +84527,9 @@
           "addr:postcode": "94609",
           "addr:street": "Telegraph Avenue",
           "amenity": "restaurant",
-          "name": "Small Change Oyster Bar"
+          "cuisine": "seafood",
+          "name": "Ace Seafood",
+          "old_name": "Small Change Oyster Bar"
         }
       },
       "geometry": {
@@ -87945,6 +87923,8 @@
           "addr:postcode": "94110",
           "addr:street": "Valencia Street",
           "amenity": "restaurant",
+          "check_date": "2026-01-23",
+          "cuisine": "japanese",
           "name": "Taishoken"
         }
       },
@@ -88563,8 +88543,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4208933,
-          37.756074
+          -122.420888,
+          37.7560652
         ]
       }
     },
@@ -88746,14 +88726,16 @@
           "amenity": "restaurant",
           "check_date": "2025-02-15",
           "cuisine": "thai",
-          "name": "Chai Thai Noodles"
+          "name": "Chai Thai Noodles",
+          "phone": "+1-510-833-2706",
+          "website": "http://www.chaithainoodles.com"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2863729,
-          37.8518382
+          -122.286373,
+          37.851838
         ]
       }
     },
@@ -94908,12 +94890,15 @@
         "id": 12787341337,
         "tags": {
           "addr:city": "Berkeley",
-          "addr:housenumber": "1185",
+          "addr:housenumber": "1187",
           "addr:postcode": "94706-2245",
           "addr:state": "CA",
           "addr:street": "San Pablo Avenue",
-          "name": "General Transmission",
-          "shop": "car_repair"
+          "contact:facebook": "https://www.facebook.com/AutoGlassExpress",
+          "name": "Auto Glass Express",
+          "phone": "+1-510-847-2674",
+          "shop": "car_repair",
+          "website": "https://bayareaautoglassexpress.com/"
         }
       },
       "geometry": {
@@ -99940,7 +99925,7 @@
         "id": 12810345420,
         "tags": {
           "addr:housenumber": "801",
-          "addr:street": "Valencia",
+          "addr:street": "Valencia Street",
           "amenity": "fast_food",
           "cuisine": "pizza",
           "name": "Valencia Pizza & Pasta",
@@ -103440,7 +103425,8 @@
           "addr:housenumber": "4224",
           "addr:street": "Telegraph Avenue",
           "name": "Brand X Huaraches",
-          "office": "company"
+          "office": "company",
+          "website": "https://www.brandxhuaraches.com/"
         }
       },
       "geometry": {
@@ -103620,6 +103606,7 @@
           "amenity": "parcel_locker",
           "brand": "Amazon Hub",
           "brand:wikidata": "Q100274430",
+          "indoor": "yes",
           "name": "Amazon Hub"
         }
       },
@@ -105462,48 +105449,6 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 12897959016,
-        "tags": {
-          "amenity": "bench",
-          "armrest": "yes",
-          "backrest": "yes",
-          "material": "steel",
-          "seats": "2"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.421654,
-          37.7590691
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 12897959017,
-        "tags": {
-          "amenity": "bench",
-          "armrest": "yes",
-          "backrest": "yes",
-          "material": "steel",
-          "seats": "2"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.421685,
-          37.7590691
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
         "id": 12897959018,
         "tags": {
           "bench": "yes",
@@ -106300,8 +106245,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2999073,
-          37.8629122
+          -122.29998,
+          37.862946
         ]
       }
     },
@@ -106317,8 +106262,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.3009282,
-          37.8658933
+          -122.3009078,
+          37.8658427
         ]
       }
     },
@@ -110397,9 +110342,12 @@
         "type": "node",
         "id": 13102790549,
         "tags": {
+          "addr:city": "Berkeley",
           "addr:housenumber": "2632",
           "addr:street": "Ashby Avenue",
-          "disused:shop": "yes"
+          "leisure": "fitness_centre",
+          "name": "Worthy Body and Breath",
+          "website": "https://worthybreathandbody.com/"
         }
       },
       "geometry": {
@@ -111766,6 +111714,7 @@
           "amenity": "fast_food",
           "cuisine": "sandwich;smoothie",
           "name": "Ashby Eatery",
+          "opening_hours": "We-Su 08:00-16:00",
           "was:cuisine": "mexican",
           "was:name": "Flacos",
           "website": "https://www.instagram.com/ashby.eatery/"
@@ -112669,6 +112618,169 @@
         "coordinates": [
           -122.2545052,
           37.8566565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13469428901,
+        "tags": {
+          "addr:housenumber": "920",
+          "addr:postcode": "94710",
+          "addr:street": "Heinz Avenue",
+          "amenity": "charging_station",
+          "name": "Shell Recharge Charging Station",
+          "operator": "Shell Recharge",
+          "phone": "+1-510-898-9555",
+          "website": "https://berkeleybowl.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2901659,
+          37.8531434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13478272690,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "801",
+          "addr:street": "University Avenue",
+          "name": "D.C. Piano",
+          "shop": "musical_instrument",
+          "website": "https://dcpianos.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2987552,
+          37.867984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13480221713,
+        "tags": {
+          "addr:housenumber": "525",
+          "addr:postcode": "94110",
+          "addr:street": "Valencia Street",
+          "amenity": "restaurant",
+          "cuisine": "japanese;curry",
+          "name": "Curry Hyuga"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4216868,
+          37.7644549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13480944124,
+        "tags": {
+          "addr:housenumber": "4228",
+          "addr:street": "Telegraph Avenue",
+          "name": "Temple Tattoo 13",
+          "shop": "tattoo",
+          "website": "https://www.templetattoo13.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2636212,
+          37.8314532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13503521559,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:postcode": "94705",
+          "addr:state": "CA",
+          "addr:street": "3099 Telegraph Ave",
+          "name": "Jade Design and Real Estate",
+          "office": "estate_agent",
+          "opening_hours": "24/7",
+          "phone": "+17076846737",
+          "website": "https://athomeinthebay.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2596125,
+          37.8538902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13507263701,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2522",
+          "addr:postcode": "94704",
+          "addr:state": "CA",
+          "addr:street": "Dana Street",
+          "addr:unit": "101",
+          "amenity": "dentist",
+          "healthcare": "dentist",
+          "internet_access": "wlan",
+          "level": "1",
+          "name": "Total Health Dental Care",
+          "opening_hours": "Tu-Fr 08:00-17:00",
+          "phone": "+1-510-486-1813",
+          "website": "https://totalhealthdentalcare.com/dana-street"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2607267,
+          37.8638076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13606874001,
+        "tags": {
+          "amenity": "drinking_water",
+          "check_date": "2026-02-27",
+          "name": "Water fountain at Cragmont school"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2670217,
+          37.8941332
         ]
       }
     },
@@ -116033,6 +116145,8 @@
           "operator": "Cal Performances",
           "source": "USGS Geonames",
           "start_date": "1968",
+          "toilets:wheelchair": "yes",
+          "wheelchair": "yes",
           "wikidata": "Q8068797"
         },
         "nodes": [
@@ -133665,6 +133779,7 @@
           "phone": "+1 510 6472949",
           "short_name": "Berkeley Rep",
           "source": "USGS Geonames",
+          "toilets:wheelchair": "yes",
           "website": "https://www.berkeleyrep.org/",
           "wheelchair": "yes",
           "wikidata": "Q4892089",
@@ -144698,6 +144813,126 @@
             [
               -122.3036927,
               37.8688331
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 107235099,
+        "tags": {
+          "addr:housenumber": "4521",
+          "addr:street": "Telegraph Avenue",
+          "amenity": "fast_food",
+          "building": "yes",
+          "cuisine": "hot_dog",
+          "name": "Winky Dinky Dogs",
+          "was:name": "Kasper's Hotdogs"
+        },
+        "nodes": [
+          1232880742,
+          1232880752,
+          1232880745,
+          13505325131,
+          1232880742
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2634939,
+              37.8334685
+            ],
+            [
+              -122.2634626,
+              37.8335765
+            ],
+            [
+              -122.2635164,
+              37.8335862
+            ],
+            [
+              -122.2634976,
+              37.8334686
+            ],
+            [
+              -122.2634939,
+              37.8334685
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 108147689,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2966",
+          "addr:street": "College Avenue",
+          "alt_name": "Elmwood Theater",
+          "amenity": "cinema",
+          "building": "theatre",
+          "historic": "building",
+          "name": "Elmwood Theatre",
+          "old_name": "Strand Theater",
+          "operator": "Rialto Cinemas",
+          "phone": "+1-510-433-9730",
+          "screen": "3",
+          "start_date": "1919",
+          "website": "https://www.rialtocinemas.com/index.php?location=elmwood",
+          "wheelchair": "limited",
+          "wheelchair:description": "Downstairs screening room is accessible, upstairs room is not.",
+          "wikidata": "Q44858949"
+        },
+        "nodes": [
+          1241205607,
+          1241205604,
+          1241205606,
+          13471087927,
+          13471087925,
+          1241205605,
+          1241205607
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2534864,
+              37.85671
+            ],
+            [
+              -122.2534712,
+              37.8565786
+            ],
+            [
+              -122.2531262,
+              37.856621
+            ],
+            [
+              -122.2531285,
+              37.8566449
+            ],
+            [
+              -122.2531371,
+              37.8567351
+            ],
+            [
+              -122.2531385,
+              37.8567502
+            ],
+            [
+              -122.2534864,
+              37.85671
             ]
           ]
         ]
@@ -192461,6 +192696,68 @@
       "type": "Feature",
       "properties": {
         "type": "way",
+        "id": 258975961,
+        "tags": {
+          "addr:housenumber": "1031",
+          "addr:street": "Valencia Street",
+          "building": "retail",
+          "height": "7",
+          "name": "The New Wheel Service Center",
+          "opening_hours": "Mo-Fr 09:00-17:00",
+          "service:bicycle:repair": "yes",
+          "shop": "bicycle",
+          "website": "https://newwheel.net/pages/san-francisco-service-center"
+        },
+        "nodes": [
+          2642750429,
+          2642750432,
+          2642750434,
+          2642750414,
+          2642750409,
+          2642750407,
+          2642750429
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.4209399,
+              37.7564398
+            ],
+            [
+              -122.420534,
+              37.7564641
+            ],
+            [
+              -122.4205103,
+              37.7564655
+            ],
+            [
+              -122.4205008,
+              37.7563664
+            ],
+            [
+              -122.420823,
+              37.7563471
+            ],
+            [
+              -122.4209303,
+              37.7563406
+            ],
+            [
+              -122.4209399,
+              37.7564398
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
         "id": 258975974,
         "tags": {
           "addr:housenumber": "1021",
@@ -192875,10 +193172,7 @@
           "amenity": "restaurant",
           "building": "yes",
           "building:soft_storey": "yes",
-          "check_date": "2024-12-29",
-          "cuisine": "japanese",
-          "height": "11",
-          "name": "Taishoken"
+          "height": "11"
         },
         "nodes": [
           2658026013,
@@ -192936,78 +193230,6 @@
             [
               -122.421506,
               37.7621725
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "way",
-        "id": 260359387,
-        "tags": {
-          "addr:housenumber": "523;525;527",
-          "addr:street": "Valencia Street",
-          "alt_name": "Raw Sugar Factory;Krua Thai",
-          "amenity": "restaurant",
-          "building": "yes",
-          "contact:facebook": "rawsugarfactorysf",
-          "cuisine": "asian;thai",
-          "fixme": "Is this the whole building? The website only lists 525 as the address. Should this be split into two nodes?",
-          "height": "8",
-          "name": "Raw Sugar Factory / Krua Thai",
-          "note": "Originally Raw Sugar Factory, Krua Thai is serving alongside",
-          "phone": "+1 415 872 6988",
-          "url": "https://kruathaisf.com/",
-          "website": "https://rawsugarfactorysf.com/"
-        },
-        "nodes": [
-          2658278340,
-          2658278338,
-          2658278348,
-          2658278353,
-          2658278355,
-          2658278344,
-          2658278343,
-          2658278340
-        ]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -122.4217128,
-              37.7644124
-            ],
-            [
-              -122.4217263,
-              37.7644117
-            ],
-            [
-              -122.4217316,
-              37.7644748
-            ],
-            [
-              -122.4214961,
-              37.764487
-            ],
-            [
-              -122.4214743,
-              37.7644882
-            ],
-            [
-              -122.4214691,
-              37.7644251
-            ],
-            [
-              -122.4214961,
-              37.7644237
-            ],
-            [
-              -122.4217128,
-              37.7644124
             ]
           ]
         ]
@@ -198298,7 +198520,9 @@
           "building": "synagogue",
           "name": "Congregation Beth El",
           "religion": "jewish",
-          "website": "https://www.bethelberkeley.org/"
+          "toilets:wheelchair": "yes",
+          "website": "https://www.bethelberkeley.org/",
+          "wheelchair": "yes"
         },
         "nodes": [
           3093528935,
@@ -198503,7 +198727,8 @@
         "id": 304755229,
         "tags": {
           "landuse": "religious",
-          "name": "Congregation Beth El"
+          "name": "Congregation Beth El",
+          "wheelchair": "yes"
         },
         "nodes": [
           3093528982,
@@ -201144,6 +201369,7 @@
           "brand:wikidata": "Q1538507",
           "building": "yes",
           "cuisine": "burger",
+          "drive_through": "yes",
           "name": "Jack in the Box",
           "phone": "+1 510-652-2363",
           "takeaway": "yes",
@@ -223949,139 +224175,6 @@
       "type": "Feature",
       "properties": {
         "type": "way",
-        "id": 437349798,
-        "tags": {
-          "addr:city": "Berkeley",
-          "addr:housenumber": "1598",
-          "addr:postcode": "94703",
-          "addr:street": "University Avenue",
-          "cuisine": "pizza",
-          "demolished:building": "retail",
-          "demolished:building:levels": "1",
-          "diet:vegetarian": "yes",
-          "disused:amenity": "restaurant",
-          "name": "North Beach Pizza",
-          "opening_hours": "Mo-Th, Su 11:00-21:00; Fr, Sa 11:00-22:00",
-          "phone": "+1-510-849-9800",
-          "roof:levels": "2",
-          "website": "https://www.northbeachpizzaberkeley.com/",
-          "wheelchair": "yes"
-        },
-        "nodes": [
-          4351596542,
-          4351596543,
-          7125420009,
-          7125420007,
-          7125420008,
-          7125420006,
-          4351596544,
-          4351596545,
-          4351596542
-        ]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.2798854,
-            37.870522
-          ],
-          [
-            -122.2799811,
-            37.8705159
-          ],
-          [
-            -122.2799747,
-            37.8704535
-          ],
-          [
-            -122.2799931,
-            37.8704261
-          ],
-          [
-            -122.2799867,
-            37.8703637
-          ],
-          [
-            -122.2799635,
-            37.8703434
-          ],
-          [
-            -122.2799551,
-            37.8702609
-          ],
-          [
-            -122.2798593,
-            37.870267
-          ],
-          [
-            -122.2798854,
-            37.870522
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "way",
-        "id": 437349799,
-        "tags": {
-          "access": "customers",
-          "amenity": "parking",
-          "fee": "no",
-          "parking": "surface"
-        },
-        "nodes": [
-          4351596546,
-          4351596547,
-          4351596548,
-          4351596549,
-          4351596550,
-          4351596551,
-          4351596546
-        ]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -122.2802264,
-              37.8704997
-            ],
-            [
-              -122.2800041,
-              37.8705287
-            ],
-            [
-              -122.2799762,
-              37.8702404
-            ],
-            [
-              -122.279848,
-              37.8702496
-            ],
-            [
-              -122.2798372,
-              37.8701542
-            ],
-            [
-              -122.2801901,
-              37.8701257
-            ],
-            [
-              -122.2802264,
-              37.8704997
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "way",
         "id": 437349804,
         "tags": {
           "access": "private",
@@ -224208,98 +224301,6 @@
             [
               -122.2810702,
               37.8702405
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "way",
-        "id": 437349807,
-        "tags": {
-          "access": "customers",
-          "amenity": "parking",
-          "parking": "surface"
-        },
-        "nodes": [
-          4351596577,
-          4351596578,
-          4351596579,
-          4351596580,
-          4351596577
-        ]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -122.2805835,
-              37.8703563
-            ],
-            [
-              -122.2803856,
-              37.8703696
-            ],
-            [
-              -122.2803952,
-              37.8704754
-            ],
-            [
-              -122.2805956,
-              37.8704477
-            ],
-            [
-              -122.2805835,
-              37.8703563
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "way",
-        "id": 437349808,
-        "tags": {
-          "access": "private",
-          "amenity": "parking",
-          "parking": "surface"
-        },
-        "nodes": [
-          4351596581,
-          4351596582,
-          4351596583,
-          4351596584,
-          4351596581
-        ]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -122.2803844,
-              37.8704734
-            ],
-            [
-              -122.2802302,
-              37.8704924
-            ],
-            [
-              -122.2801935,
-              37.8701347
-            ],
-            [
-              -122.2803482,
-              37.87012
-            ],
-            [
-              -122.2803844,
-              37.8704734
             ]
           ]
         ]
@@ -271514,6 +271515,7 @@
           "amenity": "bicycle_parking",
           "bicycle_parking": "rack",
           "building": "roof",
+          "capacity": "96",
           "covered": "yes",
           "supervised": "no"
         },
@@ -271559,10 +271561,12 @@
         "type": "way",
         "id": 772406577,
         "tags": {
+          "access": "yes",
           "amenity": "bicycle_parking",
           "bicycle_parking": "lockers",
           "covered": "yes",
           "fee": "yes",
+          "operator": "BikeLink",
           "supervised": "no"
         },
         "nodes": [
@@ -271578,24 +271582,24 @@
         "coordinates": [
           [
             [
-              -122.2836367,
-              37.8738234
+              -122.2836074,
+              37.8738117
             ],
             [
-              -122.283634,
-              37.8738065
+              -122.2836048,
+              37.8737953
             ],
             [
-              -122.2837198,
-              37.873798
+              -122.2837126,
+              37.8737845
             ],
             [
-              -122.2837225,
-              37.8738148
+              -122.2837152,
+              37.8738008
             ],
             [
-              -122.2836367,
-              37.8738234
+              -122.2836074,
+              37.8738117
             ]
           ]
         ]
@@ -271607,10 +271611,12 @@
         "type": "way",
         "id": 772406578,
         "tags": {
+          "access": "yes",
           "amenity": "bicycle_parking",
           "bicycle_parking": "lockers",
           "covered": "yes",
           "fee": "yes",
+          "operator": "BikeLink",
           "supervised": "no"
         },
         "nodes": [
@@ -271626,24 +271632,24 @@
         "coordinates": [
           [
             [
-              -122.2836864,
-              37.8738688
+              -122.2836786,
+              37.873843
             ],
             [
-              -122.2836835,
-              37.873852
+              -122.2836757,
+              37.8738262
             ],
             [
-              -122.2837281,
-              37.8738473
+              -122.2837203,
+              37.8738215
             ],
             [
-              -122.283731,
-              37.8738641
+              -122.2837232,
+              37.8738383
             ],
             [
-              -122.2836864,
-              37.8738688
+              -122.2836786,
+              37.873843
             ]
           ]
         ]
@@ -271655,10 +271661,12 @@
         "type": "way",
         "id": 772406579,
         "tags": {
+          "access": "yes",
           "amenity": "bicycle_parking",
           "bicycle_parking": "lockers",
           "covered": "yes",
           "fee": "yes",
+          "operator": "BikeLink",
           "supervised": "no"
         },
         "nodes": [
@@ -271674,24 +271682,24 @@
         "coordinates": [
           [
             [
-              -122.2836927,
-              37.8739016
+              -122.2836906,
+              37.8739234
             ],
             [
-              -122.2836899,
-              37.8738848
+              -122.2836878,
+              37.8739066
             ],
             [
-              -122.2837345,
-              37.8738801
+              -122.2837324,
+              37.8739019
             ],
             [
-              -122.2837374,
-              37.8738969
+              -122.2837353,
+              37.8739187
             ],
             [
-              -122.2836927,
-              37.8739016
+              -122.2836906,
+              37.8739234
             ]
           ]
         ]
@@ -271703,10 +271711,12 @@
         "type": "way",
         "id": 772406580,
         "tags": {
+          "access": "yes",
           "amenity": "bicycle_parking",
           "bicycle_parking": "lockers",
           "covered": "yes",
           "fee": "yes",
+          "operator": "BikeLink",
           "supervised": "no"
         },
         "nodes": [
@@ -271722,24 +271732,24 @@
         "coordinates": [
           [
             [
-              -122.2836786,
-              37.8739467
+              -122.2836573,
+              37.8739669
             ],
             [
-              -122.2836759,
-              37.8739299
+              -122.283655,
+              37.87395
             ],
             [
-              -122.2837409,
-              37.8739234
+              -122.2837395,
+              37.8739429
             ],
             [
-              -122.2837436,
-              37.8739402
+              -122.2837418,
+              37.8739598
             ],
             [
-              -122.2836786,
-              37.8739467
+              -122.2836573,
+              37.8739669
             ]
           ]
         ]
@@ -271751,10 +271761,12 @@
         "type": "way",
         "id": 772406581,
         "tags": {
+          "access": "yes",
           "amenity": "bicycle_parking",
           "bicycle_parking": "lockers",
           "covered": "yes",
           "fee": "yes",
+          "operator": "BikeLink",
           "supervised": "no"
         },
         "nodes": [
@@ -271770,24 +271782,24 @@
         "coordinates": [
           [
             [
-              -122.2836839,
-              37.8739851
+              -122.2837041,
+              37.874002
             ],
             [
-              -122.2836813,
-              37.8739683
+              -122.2837012,
+              37.8739853
             ],
             [
-              -122.2837463,
-              37.8739618
+              -122.2837443,
+              37.8739806
             ],
             [
-              -122.283749,
-              37.8739786
+              -122.2837472,
+              37.8739973
             ],
             [
-              -122.2836839,
-              37.8739851
+              -122.2837041,
+              37.874002
             ]
           ]
         ]
@@ -271799,10 +271811,12 @@
         "type": "way",
         "id": 772406582,
         "tags": {
+          "access": "yes",
           "amenity": "bicycle_parking",
           "bicycle_parking": "lockers",
           "covered": "yes",
           "fee": "yes",
+          "operator": "BikeLink",
           "supervised": "no"
         },
         "nodes": [
@@ -271847,10 +271861,12 @@
         "type": "way",
         "id": 772406583,
         "tags": {
+          "access": "yes",
           "amenity": "bicycle_parking",
           "bicycle_parking": "lockers",
           "covered": "yes",
           "fee": "yes",
+          "operator": "BikeLink",
           "supervised": "no"
         },
         "nodes": [
@@ -271866,24 +271882,24 @@
         "coordinates": [
           [
             [
-              -122.2837031,
-              37.8741068
+              -122.2836795,
+              37.8741265
             ],
             [
-              -122.2837004,
-              37.87409
+              -122.2836765,
+              37.8741095
             ],
             [
-              -122.2837654,
-              37.8740835
+              -122.2837624,
+              37.8740999
             ],
             [
-              -122.2837681,
-              37.8741003
+              -122.2837655,
+              37.8741169
             ],
             [
-              -122.2837031,
-              37.8741068
+              -122.2836795,
+              37.8741265
             ]
           ]
         ]
@@ -272169,7 +272185,8 @@
           "amenity": "toilets",
           "indoor": "room",
           "level": "1",
-          "note": "inside paid area"
+          "note": "inside paid area",
+          "wheelchair": "yes"
         },
         "nodes": [
           7215526808,
@@ -272237,7 +272254,8 @@
           "amenity": "toilets",
           "indoor": "room",
           "level": "1",
-          "note": "inside paid area"
+          "note": "inside paid area",
+          "wheelchair": "yes"
         },
         "nodes": [
           828422247,
@@ -331906,6 +331924,10 @@
         },
         "nodes": [
           10177268848,
+          11684393638,
+          11684393636,
+          10177268846,
+          12988863206,
           10177268849,
           10871359311,
           10871359312,
@@ -331917,12 +331939,28 @@
         "coordinates": [
           [
             [
-              -122.2977973,
-              37.8642067
+              -122.2978031,
+              37.8642094
             ],
             [
-              -122.2986417,
-              37.8640409
+              -122.2979113,
+              37.8645406
+            ],
+            [
+              -122.2980746,
+              37.8645088
+            ],
+            [
+              -122.2983303,
+              37.8644576
+            ],
+            [
+              -122.2987483,
+              37.8643738
+            ],
+            [
+              -122.2986414,
+              37.8640413
             ],
             [
               -122.2983613,
@@ -331933,8 +331971,8 @@
               37.8633298
             ],
             [
-              -122.2977973,
-              37.8642067
+              -122.2978031,
+              37.8642094
             ]
           ]
         ]
@@ -364151,8 +364189,8 @@
               37.8645406
             ],
             [
-              -122.2980751,
-              37.8645081
+              -122.2980746,
+              37.8645088
             ],
             [
               -122.2983303,
@@ -364181,7 +364219,7 @@
         },
         "nodes": [
           11684393636,
-          11684393638,
+          13571392211,
           11684393642,
           11684393637,
           11684393636
@@ -364192,8 +364230,8 @@
         "coordinates": [
           [
             [
-              -122.2980751,
-              37.8645081
+              -122.2980746,
+              37.8645088
             ],
             [
               -122.2979113,
@@ -364208,8 +364246,8 @@
               37.8649067
             ],
             [
-              -122.2980751,
-              37.8645081
+              -122.2980746,
+              37.8645088
             ]
           ]
         ]
@@ -364274,8 +364312,8 @@
               37.8644576
             ],
             [
-              -122.2980751,
-              37.8645081
+              -122.2980746,
+              37.8645088
             ],
             [
               -122.2981999,
@@ -395385,8 +395423,8 @@
         "id": 1409300910,
         "tags": {
           "amenity": "parking",
-          "building": "yes",
           "building:levels": "5",
+          "building:part": "yes",
           "capacity": "443",
           "parking": "multi-storey"
         },
@@ -395403,24 +395441,24 @@
         "coordinates": [
           [
             [
-              -122.3006846,
-              37.8655801
+              -122.3007154,
+              37.865591
             ],
             [
-              -122.3005031,
-              37.8650565
+              -122.3004402,
+              37.8647506
             ],
             [
-              -122.3007969,
-              37.8649995
+              -122.3008719,
+              37.8646656
             ],
             [
-              -122.3009686,
-              37.8655256
+              -122.3011379,
+              37.8655079
             ],
             [
-              -122.3006846,
-              37.8655801
+              -122.3007154,
+              37.865591
             ]
           ]
         ]
@@ -395433,8 +395471,8 @@
         "id": 1409300911,
         "tags": {
           "amenity": "parking",
-          "building": "yes",
           "building:levels": "5",
+          "building:part": "yes",
           "capacity": "500",
           "parking": "multi-storey"
         },
@@ -395451,24 +395489,24 @@
         "coordinates": [
           [
             [
-              -122.3001859,
-              37.8640658
+              -122.3002051,
+              37.8639898
             ],
             [
-              -122.3005147,
-              37.8639952
+              -122.3006283,
+              37.8639052
             ],
             [
-              -122.3002416,
-              37.8632907
+              -122.3004044,
+              37.8632075
             ],
             [
-              -122.2999329,
-              37.8633621
+              -122.2999813,
+              37.8632921
             ],
             [
-              -122.3001859,
-              37.8640658
+              -122.3002051,
+              37.8639898
             ]
           ]
         ]
@@ -398947,16 +398985,20 @@
         "tags": {
           "access": "private",
           "amenity": "parking",
+          "building": "yes",
           "capacity": "415",
           "name": "The Lab Parking Structure",
           "parking": "multi-storey"
         },
         "nodes": [
-          11684393638,
+          13571392212,
+          13571392210,
           10177268848,
+          13571392213,
           10177268849,
           12988863206,
-          11684393638
+          11684393636,
+          13571392212
         ]
       },
       "geometry": {
@@ -398964,24 +399006,36 @@
         "coordinates": [
           [
             [
-              -122.2979113,
-              37.8645406
+              -122.2980596,
+              37.8644623
             ],
             [
-              -122.2977973,
-              37.8642067
+              -122.2978951,
+              37.8644953
             ],
             [
-              -122.2986417,
-              37.8640409
+              -122.2978031,
+              37.8642094
             ],
             [
-              -122.2987458,
-              37.8643726
+              -122.2986155,
+              37.8640465
             ],
             [
-              -122.2979113,
-              37.8645406
+              -122.2986414,
+              37.8640413
+            ],
+            [
+              -122.2987483,
+              37.8643738
+            ],
+            [
+              -122.2980746,
+              37.8645088
+            ],
+            [
+              -122.2980596,
+              37.8644623
             ]
           ]
         ]
@@ -442607,6 +442661,323 @@
             [
               -122.2942834,
               37.8578919
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1476711797,
+        "tags": {
+          "check_date": "2026-02-11",
+          "landuse": "construction",
+          "name": "The U at California",
+          "note": "8 story apt bldg"
+        },
+        "nodes": [
+          13545055878,
+          13545055879,
+          13545055880,
+          13545055881,
+          13545055878
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2798554,
+              37.8701641
+            ],
+            [
+              -122.2798996,
+              37.8705368
+            ],
+            [
+              -122.2805947,
+              37.8704512
+            ],
+            [
+              -122.2805578,
+              37.8700841
+            ],
+            [
+              -122.2798554,
+              37.8701641
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1484165946,
+        "tags": {
+          "access": "yes",
+          "amenity": "bicycle_parking",
+          "bicycle_parking": "lockers",
+          "covered": "yes",
+          "fee": "yes",
+          "operator": "BikeLink",
+          "supervised": "no"
+        },
+        "nodes": [
+          13608467472,
+          13608467473,
+          13608467474,
+          13608467475,
+          13608467472
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2837146,
+              37.8740842
+            ],
+            [
+              -122.2837117,
+              37.8740671
+            ],
+            [
+              -122.2837619,
+              37.8740618
+            ],
+            [
+              -122.2837648,
+              37.8740789
+            ],
+            [
+              -122.2837146,
+              37.8740842
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1484165947,
+        "tags": {
+          "access": "yes",
+          "amenity": "bicycle_parking",
+          "bicycle_parking": "lockers",
+          "covered": "yes",
+          "fee": "yes",
+          "operator": "BikeLink",
+          "supervised": "no"
+        },
+        "nodes": [
+          13608467476,
+          13608467477,
+          13608467482,
+          13608467480,
+          13608467478,
+          13608467479,
+          13608467481,
+          13608467483,
+          13608467476
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2833918,
+              37.873831
+            ],
+            [
+              -122.2833892,
+              37.8738147
+            ],
+            [
+              -122.2834328,
+              37.8738099
+            ],
+            [
+              -122.2834785,
+              37.8738081
+            ],
+            [
+              -122.2835227,
+              37.8738091
+            ],
+            [
+              -122.2835208,
+              37.8738255
+            ],
+            [
+              -122.2834797,
+              37.8738246
+            ],
+            [
+              -122.2834352,
+              37.8738263
+            ],
+            [
+              -122.2833918,
+              37.873831
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1484165948,
+        "tags": {
+          "access": "yes",
+          "amenity": "bicycle_parking",
+          "bicycle_parking": "lockers",
+          "covered": "yes",
+          "fee": "yes",
+          "operator": "BikeLink",
+          "supervised": "no"
+        },
+        "nodes": [
+          13608467484,
+          13608467485,
+          13608467486,
+          13608467487,
+          13608467484
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2836618,
+              37.8737345
+            ],
+            [
+              -122.2836586,
+              37.8737176
+            ],
+            [
+              -122.2836819,
+              37.8737148
+            ],
+            [
+              -122.2836851,
+              37.8737317
+            ],
+            [
+              -122.2836618,
+              37.8737345
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1484165949,
+        "tags": {
+          "access": "yes",
+          "amenity": "bicycle_parking",
+          "bicycle_parking": "lockers",
+          "covered": "yes",
+          "fee": "yes",
+          "operator": "BikeLink",
+          "supervised": "no"
+        },
+        "nodes": [
+          13608467488,
+          13608467489,
+          13608467490,
+          13608467491,
+          13608467488
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2836148,
+              37.8737385
+            ],
+            [
+              -122.2836116,
+              37.8737216
+            ],
+            [
+              -122.2836349,
+              37.8737189
+            ],
+            [
+              -122.2836381,
+              37.8737358
+            ],
+            [
+              -122.2836148,
+              37.8737385
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1484165950,
+        "tags": {
+          "access": "yes",
+          "amenity": "bicycle_parking",
+          "bicycle_parking": "lockers",
+          "covered": "yes",
+          "fee": "yes",
+          "operator": "BikeLink",
+          "supervised": "no"
+        },
+        "nodes": [
+          13608467492,
+          13608467493,
+          13608467494,
+          13608467495,
+          13608467492
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2835698,
+              37.8737426
+            ],
+            [
+              -122.2835665,
+              37.8737257
+            ],
+            [
+              -122.2835898,
+              37.8737229
+            ],
+            [
+              -122.283593,
+              37.8737398
+            ],
+            [
+              -122.2835698,
+              37.8737426
             ]
           ]
         ]
