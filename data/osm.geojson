@@ -1112,7 +1112,8 @@
         "type": "node",
         "id": 305228923,
         "tags": {
-          "amenity": "post_box"
+          "amenity": "post_box",
+          "collection_times": "Mo-Fr 17:00"
         }
       },
       "geometry": {
@@ -11056,8 +11057,10 @@
           "addr:housenumber": "1920",
           "addr:street": "Oxford Street",
           "amenity": "cafe",
+          "check_date": "2026-03-05",
+          "check_date:opening_hours": "2026-03-05",
           "name": "Yali's Cafe",
-          "opening_hours": "Mo-Fr 08:00-15:00"
+          "opening_hours": "Mo-Fr 08:00-16:00"
         }
       },
       "geometry": {
@@ -17039,8 +17042,8 @@
           "addr:housenumber": "2037",
           "addr:state": "CA",
           "addr:street": "Kala Bagai Way",
-          "amenity": "restaurant",
           "cuisine": "salvadoran;mexican;pupusa",
+          "disused:amenity": "restaurant",
           "drive_in": "no",
           "name": "Las Delicias",
           "opening_hours": "Mo-Sa 11:00-20:00",
@@ -17930,7 +17933,10 @@
           "addr:state": "CA",
           "addr:street": "Euclid Avenue",
           "amenity": "cafe",
-          "name": "Abe's Cafe"
+          "check_date": "2026-03-05",
+          "check_date:opening_hours": "2026-03-05",
+          "name": "Abe's Cafe",
+          "opening_hours": "Mo-Fr 07:30-16:00"
         }
       },
       "geometry": {
@@ -22324,9 +22330,13 @@
           "addr:country": "US",
           "addr:housenumber": "1799 A",
           "addr:state": "CA",
+          "addr:street": "Delaware Street",
+          "brand": "Free People",
+          "brand:wikidata": "Q5499945",
           "check_date": "2025-02-08",
-          "name": "Nail Spa & Boutique",
-          "shop": "clothes"
+          "name": "Free People",
+          "shop": "clothes",
+          "website": "https://www.instagram.com/freepeople"
         }
       },
       "geometry": {
@@ -22886,8 +22896,10 @@
           "addr:country": "US",
           "addr:housenumber": "1842",
           "addr:state": "CA",
-          "name": "Cp shades",
-          "shop": "clothes"
+          "addr:street": "Fourth Street",
+          "name": "Aiken",
+          "shop": "clothes",
+          "website": "Free People,"
         }
       },
       "geometry": {
@@ -24466,16 +24478,22 @@
         "type": "node",
         "id": 2653087230,
         "tags": {
+          "addr:housenumber": "799",
+          "addr:street": "Valencia Street",
           "amenity": "restaurant",
+          "cuisine": "middle_eastern",
           "name": "SF Grill",
-          "operator": "Diaa Askandafi;Mohamed Ismail"
+          "opening_hours": "Mo-Su 10:00-22:00",
+          "operator": "Diaa Askandafi;Mohamed Ismail",
+          "phone": "+1 628-201-4962",
+          "website": "https://sfgrills.com/"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4212763,
-          37.7602421
+          -122.4213111,
+          37.7602124
         ]
       }
     },
@@ -25322,8 +25340,7 @@
           "addr:postcode": "94704",
           "addr:street": "Center Street",
           "addr:unit": "D",
-          "amenity": "bar",
-          "food": "yes",
+          "disused:amenity": "bar",
           "name": "Olfactory Brewing - Berkeley Taproom",
           "note": "food is served by Delirama Jr. located inside",
           "old_name": "Pacific Standard Taproom",
@@ -25641,8 +25658,10 @@
           "addr:street": "Shattuck Avenue",
           "brand": "True Value",
           "brand:wikidata": "Q7847545",
+          "check_date": "2026-03-17",
+          "check_date:opening_hours": "2026-03-17",
           "name": "True Value Eastern Supply",
-          "opening_hours": "Mo-Fr 08:00-18:00; Sa 09:00-18:00; Su 09:00-17:00",
+          "opening_hours": "Mo-Fr 08:00-17:00; Sa 09:00-17:00",
           "phone": "+1 510-841-8606",
           "ref": "8902",
           "shop": "hardware",
@@ -34557,50 +34576,6 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 5845171881,
-        "tags": {
-          "amenity": "bus_station",
-          "bus": "yes",
-          "check_date": "2024-12-23",
-          "level": "0",
-          "name": "Downtown Berkeley",
-          "network": "AC Transit;Bear Transit",
-          "public_transport": "station"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.2677612,
-          37.8698006
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 5845183352,
-        "tags": {
-          "amenity": "bus_station",
-          "bus": "yes",
-          "name": "Sather Gate",
-          "network": "AC Transit;Bear Transit",
-          "public_transport": "station"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.2602052,
-          37.868639
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
         "id": 5853263373,
         "tags": {
           "amenity": "bicycle_rental",
@@ -42937,15 +42912,30 @@
         "type": "node",
         "id": 7918023072,
         "tags": {
-          "name": "Sayu Hair Salon",
-          "shop": "hairdresser"
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2511",
+          "addr:postcode": "94709",
+          "addr:state": "CA",
+          "addr:street": "Hearst Avenue",
+          "check_date:currency:XBT": "2026-03-08",
+          "contact:facebook": "https://www.facebook.com/p/Sayu-Hair-Salon-100049048404608",
+          "currency:XBT": "yes",
+          "name": "SaYu Hair Salon",
+          "opening_hours": "Mo-Sa 10:00-18:30",
+          "payment:lightning": "yes",
+          "payment:lightning:operator": "square",
+          "payment:lightning_contactless": "no",
+          "payment:onchain": "no",
+          "phone": "+1-510-845-7298",
+          "shop": "hairdresser",
+          "website": "https://sayu-hair-salon.square.site"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.25955,
-          37.8752915
+          -122.2595292,
+          37.8752863
         ]
       }
     },
@@ -46290,8 +46280,11 @@
           "addr:housenumber": "2701",
           "addr:street": "Eighth Street",
           "addr:unit": "118",
-          "disused:amenity": "restaurant",
-          "was:name": "Standard Fare"
+          "amenity": "restaurant",
+          "cuisine": "mexican",
+          "name": "café bolita",
+          "was:name": "Standard Fare",
+          "website": "https://www.cafebolita.com/"
         }
       },
       "geometry": {
@@ -66744,7 +66737,7 @@
           "diet:vegetarian": "yes",
           "level": "0",
           "name": "Udupi Palace",
-          "opening_hours": "Su-We 11:30-21:10; Th 11:30-21:20",
+          "opening_hours": "Su-We 9:00-21:10; Th 9:00-21:20; F-Sa 9:00-21:50",
           "payment:mastercard": "yes",
           "payment:visa": "yes",
           "phone": "+1 415-970-8000",
@@ -72072,12 +72065,10 @@
           "addr:postcode": "94110",
           "addr:state": "CA",
           "addr:street": "Valencia Street",
-          "amenity": "clinic",
           "brand": "Sutter Health",
-          "brand:wikidata": "Q7650154",
           "fax": "+1-415-369-1244",
           "healthcare": "clinic",
-          "healthcare:speciality": "community;general;paediatrics;internal;geriatrics",
+          "healthcare:speciality": "general;paediatrics",
           "name": "Sutter 899 Valencia Street Care Center",
           "opening_hours": "Mo-Fr 08:00-17:00",
           "operator": "Sutter Health",
@@ -72085,7 +72076,7 @@
           "operator:wikidata": "Q7650154",
           "operator:wikipedia": "en:Sutter Health",
           "phone": "+1-415-600-6960",
-          "website": "https://www.sutterhealth.org/find-location/facility/899-valencia-street-care-center"
+          "website": "https://www.sutterhealth.org/find-location/facility/899-valencia-street-care-center-1043247413"
         }
       },
       "geometry": {
@@ -74297,18 +74288,21 @@
         "type": "node",
         "id": 11128793844,
         "tags": {
+          "addr:housenumber": "2212",
+          "addr:street": "Vine Street",
+          "addr:unit": "A",
           "check_date": "2023-08-19",
+          "disused:shop": "florist",
           "name": "H Julien Designs",
           "phone": "+1 510-548-7400",
-          "shop": "florist",
           "website": "https://hjuliendesigns.com/"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.268703,
-          37.880199
+          -122.268688,
+          37.8802063
         ]
       }
     },
@@ -75797,10 +75791,14 @@
           "addr:state": "CA",
           "addr:street": "Euclid Avenue",
           "amenity": "cafe",
+          "check_date": "2026-03-05",
+          "check_date:opening_hours": "2026-03-05",
           "cuisine": "crepe",
           "indoor_seating": "yes",
           "name": "La Crêpe à moi",
-          "outdoor_seating": "sidewalk"
+          "opening_hours": "Mo-Fr 09:00-20:00; Sa-Su 08:30-18:00",
+          "outdoor_seating": "sidewalk",
+          "website": "https://lacrepeamoi.com"
         }
       },
       "geometry": {
@@ -75972,8 +75970,12 @@
           "addr:housenumber": "2438",
           "addr:street": "Durant Avenue",
           "amenity": "cafe",
+          "check_date": "2026-03-15",
           "cuisine": "coffee_shop",
+          "level": "0",
           "name": "SoDoI Coffee Tasting House",
+          "opening_hours": "Mo-Fr 08:00-17:00; Sa-Su 09:00-17:00",
+          "phone": "+1 510-990-6487",
           "website": "https://sodoicoffee.com/company/tasting-house/"
         }
       },
@@ -88301,8 +88303,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4222405,
-          37.7662512
+          -122.4222064,
+          37.7662763
         ]
       }
     },
@@ -88749,7 +88751,7 @@
           "cuisine": "thai",
           "name": "Chai Thai Noodles",
           "phone": "+1-510-833-2706",
-          "website": "http://www.chaithainoodles.com"
+          "website": "https://www.chaithainoodles.com/"
         }
       },
       "geometry": {
@@ -98924,8 +98926,10 @@
           "addr:state": "CA",
           "addr:street": "Gilman Street",
           "addr:unit": "B",
-          "disused:shop": "musical_instrument",
-          "old_name": "R Kassman Pianos"
+          "name": "Stella Carakasi Designer Outlet",
+          "old_name": "R Kassman Pianos",
+          "shop": "clothes",
+          "website": "https://www.stellacarakasi.com/"
         }
       },
       "geometry": {
@@ -103094,10 +103098,10 @@
           "addr:housenumber": "2475",
           "addr:state": "CA",
           "addr:street": "Telegraph Avenue",
-          "amenity": "fast_food",
           "brand": "L&L Hawaiian Barbecue",
           "brand:wikidata": "Q6455441",
           "cuisine": "hawaiian",
+          "disused:amenity": "fast_food",
           "name": "L&L Hawaiian Barbecue",
           "takeaway": "yes"
         }
@@ -112304,7 +112308,11 @@
           "addr:housenumber": "2433",
           "addr:street": "Channing Way",
           "books": "used",
+          "check_date": "2026-03-15",
+          "level": "0",
           "name": "Friends of the Berkeley Public Library",
+          "name:en": "Friends of the Berkeley Public Library",
+          "opening_hours": "Mo,Su off; Tu-Sa 10:00-16:00",
           "shop": "books",
           "website": "https://www.berkeleylibraryfriends.org/"
         }
@@ -112802,6 +112810,141 @@
         "coordinates": [
           -122.2670217,
           37.8941332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13631146967,
+        "tags": {
+          "addr:housenumber": "795",
+          "addr:street": "Valencia Street",
+          "amenity": "bar",
+          "name": "Etcetera Wine Bar"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.421319,
+          37.7602888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13631146968,
+        "tags": {
+          "addr:housenumber": "791",
+          "addr:street": "Valencia Street",
+          "name": "Rossi",
+          "shop": "clothes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4213225,
+          37.7603513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13643852122,
+        "tags": {
+          "addr:city": "Oakland",
+          "addr:housenumber": "4126",
+          "addr:postcode": "94609-2405",
+          "addr:state": "CA",
+          "addr:street": "Telegraph Avenue",
+          "check_date": "2026-03-12",
+          "contact:email": "info@orcanit.com",
+          "contact:facebook": "https://www.facebook.com/orcanit",
+          "contact:instagram": "https://www.instagram.com/orcanitwellness",
+          "currency:XBT": "yes",
+          "healthcare": "alternative",
+          "healthcare:speciality": "traditional_chinese_medicine",
+          "name": "Orcanit Wellness",
+          "opening_hours": "Mo-Fr 10:00-21:00; Sa-Su 11:00-21:00",
+          "payment:lightning": "yes",
+          "payment:lightning:operator": "square",
+          "payment:lightning_contactless": "no",
+          "payment:onchain": "no",
+          "phone": "+1-510-761-5503",
+          "website": "https://www.orcanit.com"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2635402,
+          37.8303222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13645954033,
+        "tags": {
+          "addr:door": "130",
+          "addr:housenumber": "1313",
+          "addr:street": "Ninth Street",
+          "amenity": "restaurant",
+          "name": "Homeroom",
+          "phone": "+1 510-423-0400",
+          "website": "https://homeroom510.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2976837,
+          37.8794098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13651554214,
+        "tags": {
+          "amenity": "bench",
+          "covered": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2677737,
+          37.8698395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13651554215,
+        "tags": {
+          "amenity": "bench",
+          "covered": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2677399,
+          37.8701684
         ]
       }
     },
@@ -247368,6 +247511,98 @@
           [
             -122.2751343,
             37.8854337
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 635531127,
+        "tags": {
+          "amenity": "shelter",
+          "building": "roof",
+          "shelter_type": "public_transport"
+        },
+        "nodes": [
+          5994838188,
+          5994838193,
+          5994838192,
+          5994838187,
+          5994838188
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2680931,
+              37.8697661
+            ],
+            [
+              -122.2681276,
+              37.8697638
+            ],
+            [
+              -122.2681334,
+              37.8698184
+            ],
+            [
+              -122.2680989,
+              37.8698207
+            ],
+            [
+              -122.2680931,
+              37.8697661
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 635531128,
+        "tags": {
+          "amenity": "shelter",
+          "building": "roof",
+          "shelter_type": "public_transport"
+        },
+        "nodes": [
+          5994838189,
+          5994838195,
+          5994838196,
+          5994838197,
+          5994838189
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2681141,
+              37.8694953
+            ],
+            [
+              -122.2681486,
+              37.8694933
+            ],
+            [
+              -122.2681538,
+              37.8695479
+            ],
+            [
+              -122.2681193,
+              37.86955
+            ],
+            [
+              -122.2681141,
+              37.8694953
+            ]
           ]
         ]
       }
@@ -442999,6 +443234,96 @@
             [
               -122.2835698,
               37.8737426
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1489359427,
+        "tags": {
+          "amenity": "shelter",
+          "shelter_type": "public_transport"
+        },
+        "nodes": [
+          13651554219,
+          13651554218,
+          13651554217,
+          13651554216,
+          13651554219
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2677518,
+              37.8701809
+            ],
+            [
+              -122.2677344,
+              37.8701802
+            ],
+            [
+              -122.2677374,
+              37.8701368
+            ],
+            [
+              -122.2677548,
+              37.8701375
+            ],
+            [
+              -122.2677518,
+              37.8701809
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1489359428,
+        "tags": {
+          "amenity": "shelter",
+          "shelter_type": "public_transport"
+        },
+        "nodes": [
+          13651554223,
+          13651554220,
+          13651554221,
+          13651554222,
+          13651554223
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2677845,
+              37.8698529
+            ],
+            [
+              -122.2677671,
+              37.8698521
+            ],
+            [
+              -122.2677701,
+              37.8698087
+            ],
+            [
+              -122.2677875,
+              37.8698095
+            ],
+            [
+              -122.2677845,
+              37.8698529
             ]
           ]
         ]
