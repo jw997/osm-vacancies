@@ -6340,10 +6340,12 @@
           "addr:postcode": "94705",
           "addr:street": "Ward Street",
           "amenity": "restaurant",
+          "check_date": "2026-03-21",
+          "check_date:opening_hours": "2026-03-21",
           "cuisine": "japanese",
           "delivery": "no",
           "name": "Kirala",
-          "opening_hours": "Mo-Fr 17:30-21:30; Sa 11:30-15:00, 17:30-21:30; Su 11:30-15:00, 17:00-21:00",
+          "opening_hours": "Su, Tu-We 17:00-20:45; Sa 17:00-21:15; Th 12:00-14:00, 17:00-20:45; Fr 12:00-14:00, 17:00-21:15",
           "outdoor_seating": "no",
           "smoking": "no",
           "website": "https://www.kiralaberkeley.com/"
@@ -10345,7 +10347,7 @@
         "tags": {
           "addr:street": "9th Street",
           "name": "Milan Indian Grocery",
-          "opening_hours": "Tu-Su 09:30-18:00",
+          "opening_hours": "Tu-Su 09:30-18:30",
           "shop": "supermarket",
           "wheelchair": "limited"
         }
@@ -31365,10 +31367,14 @@
           "addr:housenumber": "482",
           "addr:street": "49th Street",
           "amenity": "ice_cream",
+          "description": "Curbside Creamery is Oakland’s cutest little ice cream parlor, offering scoops, soft serve, ice cream sandwiches, and fresh made waffle cones.",
           "indoor_seating": "no",
           "name": "Curbside Cream",
+          "opening_hours": "Mo-Th, Su 12:00-22:00; Fr, Sa 12:00-23:00",
           "outdoor_seating": "no",
+          "phone": "+1 510-250-9804",
           "takeaway": "only",
+          "website": "https://www.curbsideoakland.com/",
           "wheelchair": "yes"
         }
       },
@@ -34460,9 +34466,9 @@
           "addr:state": "CA",
           "addr:street": "Walnut Street",
           "clothes": "children;women",
+          "disused:shop": "clothes",
           "name": "Dimples Boutique",
-          "phone": "+1 510-647-9949",
-          "shop": "clothes"
+          "phone": "+1 510-647-9949"
         }
       },
       "geometry": {
@@ -70261,8 +70267,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2931429,
-          37.8715194
+          -122.2894358,
+          37.8721456
         ]
       }
     },
@@ -109335,8 +109341,10 @@
           "addr:housenumber": "1442",
           "addr:street": "Walnut Street",
           "check_date": "2025-08-22",
-          "disused:office": "yes",
-          "name": "Coldwell Banker Real Estate"
+          "clothes": "children;women",
+          "name": "Dimples Boutique",
+          "phone": "+1 510-647-9949",
+          "shop": "clothes"
         }
       },
       "geometry": {
@@ -154262,7 +154270,7 @@
           "email": "contactbi@touchstoneclimbing.com",
           "leisure": "sports_centre",
           "name": "Berkeley Ironworks",
-          "opening_hours": "Mo-Fr 06:00-22:00; Sa, Su 10:00-17:00",
+          "opening_hours": "Mo-Fr 06:00-22:00; Sa-Su 10:00-19:00",
           "operator": "Touchstone",
           "operator:type": "private",
           "phone": "+1 510 9819900",
@@ -207143,11 +207151,11 @@
           "addr:street": "Martin Luther King Jr Way",
           "building": "retail",
           "building:levels": "1",
+          "disused:shop": "clothes",
           "name": "ThriftyCat",
           "opening_hours": "10:30-18:00",
           "phone": "+1-628-217-2862",
           "roof:levels": "0",
-          "shop": "clothes",
           "website": "https://www.instagram.com/thrifty.cat/"
         },
         "nodes": [
@@ -276522,13 +276530,12 @@
           "addr:postcode": "94710",
           "addr:state": "CA",
           "addr:street": "Hearst Avenue",
-          "amenity": "place_of_worship",
+          "amenity": "meditation_center",
           "building": "yes",
-          "denomination": "catholic",
           "ele": "11",
           "gnis:feature_id": "2086888",
-          "name": "Orthodox Catholic Church",
-          "religion": "christian",
+          "name": "The Berkeley Spire",
+          "religion": "spiritualist",
           "wheelchair": "no"
         },
         "nodes": [
@@ -333720,6 +333727,7 @@
           10873247951,
           10873247950,
           10873247949,
+          13670944739,
           10873247948,
           10873247947,
           10873247946,
@@ -334038,6 +334046,10 @@
             [
               -122.2431159,
               37.8538191
+            ],
+            [
+              -122.2431674,
+              37.8538943
             ],
             [
               -122.2431715,
