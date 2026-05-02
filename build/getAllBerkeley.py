@@ -1,7 +1,7 @@
 import overpass
 import geojson
 
-api = overpass.API(timeout=100)
+api = overpass.API(timeout=100,headers={'User-Agent': 'Berkeley California feature extract'})
 
 
 # api.get already returns a FeatureCollection, a GeoJSON type

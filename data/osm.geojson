@@ -125,8 +125,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2579626,
-          37.8724521
+          -122.257978,
+          37.8724542
         ]
       }
     },
@@ -2545,9 +2545,11 @@
           "addr:housenumber": "1500",
           "addr:state": "CA",
           "addr:street": "Shattuck Avenue",
-          "check_date": "2021-01-17",
-          "disused:shop": "greengrocer",
-          "old_name": "The Produce Center"
+          "check_date": "2026-04-10",
+          "name": "The Cheesboard",
+          "old_name": "The Produce Center",
+          "shop": "bakery",
+          "website": "https://cheeseboardcollective.coop/"
         }
       },
       "geometry": {
@@ -2623,6 +2625,8 @@
           "opening_hours": "Mo-Tu,Su off; We-Fr 17:00-20:00; Sa 11:30-14:30,17:00-20:00",
           "opening_hours:url": "https://cheeseboardcollective.coop/pizza/",
           "outdoor_seating": "yes",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
           "phone": "+1 510 5493183",
           "smoking": "no",
           "takeaway": "yes",
@@ -3527,10 +3531,15 @@
           "addr:postcode": "94709",
           "addr:state": "CA",
           "addr:street": "Euclid Avenue",
-          "amenity": "restaurant",
-          "check_date": "2025-03-13",
+          "amenity": "fast_food",
+          "check_date": "2026-02-01",
           "cuisine": "mexican",
+          "indoor_seating": "yes",
           "name": "La Burrita",
+          "outdoor_seating": "yes",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "takeaway": "yes",
           "wheelchair": "yes"
         }
       },
@@ -3934,7 +3943,12 @@
           "addr:postcode": "94704",
           "addr:state": "CA",
           "addr:street": "University Avenue",
-          "disused:shop": "yes"
+          "amenity": "fast_food",
+          "brand": "Shake Shack",
+          "brand:wikidata": "Q1058722",
+          "cuisine": "burger",
+          "name": "Shake Shack",
+          "takeaway": "yes"
         }
       },
       "geometry": {
@@ -4885,8 +4899,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4214,
-          37.7582579
+          -122.4214159,
+          37.7581723
         ]
       }
     },
@@ -4905,6 +4919,7 @@
           "indoor_seating": "no",
           "name": "Top Dog",
           "outdoor_seating": "no",
+          "payment:cash": "yes",
           "phone": "+1 510 8435967",
           "website": "http://www.topdoghotdogs.com/",
           "wheelchair": "yes"
@@ -5440,10 +5455,12 @@
           "addr:state": "CA",
           "addr:street": "Center Street",
           "amenity": "fast_food",
-          "check_date": "2025-12-19",
+          "check_date": "2026-05-01",
           "cuisine": "chinese",
           "drive_through": "no",
           "name": "Li's Knife Cut Noodle",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
           "smoking": "no",
           "website": "https://www.lisnoodle.com/"
         }
@@ -7819,8 +7836,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4212286,
-          37.7564167
+          -122.4212469,
+          37.7564325
         ]
       }
     },
@@ -9694,7 +9711,7 @@
           "addr:street": "Ashby Avenue",
           "brand": "76",
           "brand:wikidata": "Q1658320",
-          "check_date": "2024-12-20",
+          "check_date": "2026-04-01",
           "disused:amenity": "fuel",
           "name": "76",
           "operator": "Hong Du Unocal"
@@ -9720,13 +9737,12 @@
           "addr:postcode": "94702",
           "addr:state": "CA",
           "addr:street": "San Pablo Avenue",
-          "cuisine": "coffee_shop",
-          "disused:amenity": "cafe",
-          "internet_access": "wlan",
-          "name": "Highwire Coffee Roasters",
-          "note": "Outdoor seating: sidewalk tables, back patio with individual tables and community table.",
-          "opening_hours": "07:00-17:00",
-          "smoking": "no"
+          "amenity": "cafe",
+          "cuisine": "thai;tea;seafood",
+          "name": "Nudi Blue",
+          "note": "back patio",
+          "smoking": "no",
+          "website": "https://www.instagram.com/nudi_blue/"
         }
       },
       "geometry": {
@@ -10834,8 +10850,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.420635,
-          37.7538392
+          -122.4206991,
+          37.7538352
         ]
       }
     },
@@ -11724,7 +11740,11 @@
           "amenity": "fast_food",
           "cuisine": "mexican",
           "drive_through": "no",
-          "name": "Tacos sinaloa"
+          "name": "Tacos Sinaloa",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "street_vendor": "yes",
+          "takeaway": "only"
         }
       },
       "geometry": {
@@ -12026,8 +12046,8 @@
           "addr:housenumber": "2072",
           "addr:state": "CA",
           "addr:street": "University Avenue",
-          "amenity": "restaurant",
           "cuisine": "pizza;italian",
+          "disused:amenity": "restaurant",
           "drive_in": "no",
           "internet_access": "wlan",
           "internet_access:fee": "no",
@@ -12677,8 +12697,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4216684,
-          37.7607041
+          -122.4216352,
+          37.7606675
         ]
       }
     },
@@ -14807,8 +14827,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4214163,
-          37.7583074
+          -122.4214211,
+          37.7582192
         ]
       }
     },
@@ -16100,8 +16120,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4211383,
-          37.7535912
+          -122.4211869,
+          37.7535888
         ]
       }
     },
@@ -16387,8 +16407,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4209734,
-          37.7536039
+          -122.420977,
+          37.7535575
         ]
       }
     },
@@ -16403,16 +16423,8 @@
           "addr:postcode": "94110",
           "addr:state": "CA",
           "addr:street": "Valencia Street",
-          "check_date": "2025-02-04",
-          "disused:office": "government",
-          "government": "social_security",
-          "name": "Social Security Administration",
-          "office": "government",
-          "opening_hours": "Mo-Fr 09:00-16:00",
-          "operator": "Social Security Administration",
-          "operator:short": "SSA",
-          "operator:wikidata": "Q2824618",
-          "wheelchair": "limited"
+          "check_date": "2026-04-11",
+          "shop": "vacant"
         }
       },
       "geometry": {
@@ -16420,6 +16432,26 @@
         "coordinates": [
           -122.4211639,
           37.7554145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 2069159577,
+        "tags": {
+          "addr:housenumber": "938",
+          "addr:street": "Valencia Street",
+          "amenity": "social_facility",
+          "name": "Dolores Street Community Services"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4213733,
+          37.7578302
         ]
       }
     },
@@ -16439,8 +16471,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4209868,
-          37.7571099
+          -122.4209958,
+          37.7571026
         ]
       }
     },
@@ -16452,7 +16484,7 @@
         "tags": {
           "addr:housenumber": "999",
           "addr:street": "Valencia Street",
-          "check_date": "2025-07-31",
+          "check_date": "2026-04-28",
           "check_date:opening_hours": "2025-07-31",
           "name": "Valencia Whole Foods",
           "opening_hours": "Th-Tu 11:00-21:00",
@@ -16466,8 +16498,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4209796,
-          37.7570365
+          -122.4208606,
+          37.7570209
         ]
       }
     },
@@ -16481,14 +16513,15 @@
           "addr:housenumber": "1000",
           "addr:street": "Valencia Street",
           "name": "Dr. Martha Klufas, Optometrist",
+          "phone": "+1 415-826-2020",
           "shop": "optician"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4212775,
-          37.756765
+          -122.4212806,
+          37.7567378
         ]
       }
     },
@@ -16522,7 +16555,8 @@
           "addr:city": "San Francisco",
           "addr:housenumber": "1100",
           "addr:street": "Valencia Street",
-          "shop": "vacant"
+          "name": "Square",
+          "shop": "yes"
         }
       },
       "geometry": {
@@ -16551,8 +16585,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4207945,
-          37.7552076
+          -122.4208071,
+          37.7552136
         ]
       }
     },
@@ -16575,8 +16609,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4210562,
-          37.7541634
+          -122.4210118,
+          37.7541456
         ]
       }
     },
@@ -17467,6 +17501,7 @@
           "addr:street": "Dwight Way",
           "amenity": "cafe",
           "bar": "yes",
+          "check_date": "2026-04-30",
           "contact:instagram": "https://www.instagram.com/waystationbrew/",
           "cuisine": "coffee_shop",
           "diet:vegetarian": "yes",
@@ -17478,6 +17513,9 @@
           "opening_hours": "Mo-Su 08:00-18:00",
           "opening_hours:kitchen": "Mo-Su 08:00-15:00",
           "outdoor_seating": "yes",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "phone": "+1 (510) 982-1905",
           "website": "https://waystationbrew.square.site/"
         }
       },
@@ -19553,8 +19591,8 @@
           "addr:postcode": "94704",
           "addr:state": "CA",
           "addr:street": "Kittredge Street",
-          "amenity": "restaurant",
           "cuisine": "asian;chinese",
+          "disused:amenity": "restaurant",
           "microbrewery": "no",
           "name": "Tasty Pot",
           "name:zh": "味鼎小火锅",
@@ -25769,8 +25807,11 @@
         "id": 3166978499,
         "tags": {
           "amenity": "restaurant",
+          "check_date": "2026-04-16",
+          "check_date:opening_hours": "2026-04-16",
           "cuisine": "taqueria",
           "name": "La Familia",
+          "opening_hours": "Mo-Sa 10:00-20:30",
           "website": "https://taquerialafamiliaberkeley.com/"
         }
       },
@@ -25942,8 +25983,8 @@
           "addr:street": "Telegraph Avenue",
           "brand": "Edible Arrangements",
           "brand:wikidata": "Q5337996",
-          "name": "Edible Arrangements",
-          "shop": "gift"
+          "disused:shop": "gift",
+          "name": "Edible Arrangements"
         }
       },
       "geometry": {
@@ -27998,6 +28039,7 @@
           "name": "Philz Coffee",
           "opening_hours": "Mo-Fr 05:30-17:30; Sa-Su 06:00-18:30",
           "outdoor_seating": "yes",
+          "payment:cash": "no",
           "phone": "+1-510-809-0182",
           "takeaway": "yes",
           "website": "https://philzcoffee.com/locations/38"
@@ -28024,13 +28066,15 @@
           "addr:state": "CA",
           "addr:street": "Sacramento Street",
           "amenity": "restaurant",
-          "check_date": "2024-12-01",
+          "check_date": "2026-03-01",
           "cuisine": "indian",
           "diet:halal": "yes",
           "diet:vegetarian": "yes",
           "name": "House of Curries",
           "opening_hours": "Mo off; Tu-Su 11:00-10:00",
           "outdoor_seating": "yes",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
           "phone": "+1 510-788-7577",
           "website": "https://houseofcurries.com/"
         }
@@ -28127,10 +28171,10 @@
           "addr:city": "San Francisco",
           "addr:housenumber": "1152",
           "addr:street": "Valencia Street",
-          "amenity": "bar",
-          "check_date": "2025-02-04",
-          "name": "Tinto",
-          "opening_hours": "Mo-Su 16:00-22:00"
+          "amenity": "restaurant",
+          "check_date": "2026-04-12",
+          "cuisine": "persian",
+          "name": "Delam"
         }
       },
       "geometry": {
@@ -28158,8 +28202,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4210937,
-          37.7545663
+          -122.4210526,
+          37.7545494
         ]
       }
     },
@@ -28244,8 +28288,9 @@
           "addr:city": "San Francisco",
           "addr:housenumber": "1038",
           "addr:street": "Valencia Street",
-          "name": "DEMA",
-          "shop": "yes"
+          "hairdresser": "barber",
+          "name": "Steel & Strand",
+          "shop": "hairdresser"
         }
       },
       "geometry": {
@@ -28280,6 +28325,53 @@
       "type": "Feature",
       "properties": {
         "type": "node",
+        "id": 3740701646,
+        "tags": {
+          "addr:city": "San Francisco",
+          "addr:housenumber": "1020",
+          "addr:street": "Valencia Street",
+          "amenity": "restaurant",
+          "name": "Mission's Kitchen"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.421243,
+          37.7565145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 3740701647,
+        "tags": {
+          "addr:city": "San Francisco",
+          "addr:housenumber": "1018",
+          "addr:street": "Valencia Street",
+          "books": "comic",
+          "check_date": "2026-04-28",
+          "disused:shop": "books",
+          "name": "Silver Sprocket",
+          "opening_hours": "Mo,We-Th 12:00-19:00; Tu off; Fr 12:00-20:00; Sa 11:00-20:00; Su 11:00-19:00",
+          "phone": "+1 628-280-8436",
+          "website": "https://silversprocket.net/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4212482,
+          37.7565551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
         "id": 3740701650,
         "tags": {
           "addr:city": "San Francisco",
@@ -28287,14 +28379,17 @@
           "addr:postcode": "94110",
           "addr:state": "CA",
           "addr:street": "Valencia Street",
-          "shop": "vacant"
+          "amenity": "school",
+          "education": "school",
+          "name": "Eureka Valley Arts",
+          "website": "https://eurekavalleyarts.com/"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4212655,
-          37.7566622
+          -122.4212798,
+          37.7567169
         ]
       }
     },
@@ -28304,16 +28399,41 @@
         "type": "node",
         "id": 3740701751,
         "tags": {
+          "addr:city": "San Francisco",
+          "addr:housenumber": "1062",
+          "addr:street": "Valencia Street",
           "amenity": "theatre",
-          "check_date": "2025-11-25",
+          "check_date": "2026-04-14",
           "name": "The Marsh"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4211662,
-          37.7557222
+          -122.4211933,
+          37.7558139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 3740701753,
+        "tags": {
+          "addr:city": "San Francisco",
+          "addr:housenumber": "1070",
+          "addr:street": "Valencia Street",
+          "amenity": "cafe",
+          "name": "The Marsh Cafe",
+          "outdoor_seating": "no"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.421193,
+          37.7557735
         ]
       }
     },
@@ -28597,7 +28717,7 @@
         "tags": {
           "addr:city": "San Francisco",
           "addr:housenumber": "798",
-          "addr:postcode": "94114",
+          "addr:postcode": "94110",
           "addr:state": "CA",
           "addr:street": "Valencia Street",
           "check_date": "2025-04-24",
@@ -28611,8 +28731,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4216484,
-          37.7602146
+          -122.4216175,
+          37.760234
         ]
       }
     },
@@ -28703,8 +28823,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4213167,
-          37.757374
+          -122.4213131,
+          37.757371
         ]
       }
     },
@@ -28714,36 +28834,19 @@
         "type": "node",
         "id": 3890789571,
         "tags": {
+          "addr:housenumber": "870",
+          "addr:street": "Valencia Street",
           "amenity": "restaurant",
+          "check_date": "2026-04-11",
           "name": "Echigo Home Cook",
-          "opening_hours": "Tu-Th 17:00-00:30, Fr-Su 11:00-00:30",
-          "wikidata": "Q4944672"
+          "opening_hours": "Tu-Th 17:00-00:30, Fr-Su 11:00-00:30"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4215239,
-          37.7590238
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 3890789572,
-        "tags": {
-          "check_date": "2024-09-26",
-          "disused:amenity": "cafe",
-          "was:name": "Borderlands Cafe"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.421516,
-          37.7589859
+          -122.4214893,
+          37.7589538
         ]
       }
     },
@@ -28809,7 +28912,8 @@
           "internet_access": "yes",
           "name": "Artís Coffee",
           "opening_hours": "Mo-Fr 08:00-17:00; Sa,Su 09:00-18:00",
-          "outdoor_seating": "yes"
+          "outdoor_seating": "yes",
+          "payment:cash": "no"
         }
       },
       "geometry": {
@@ -30595,13 +30699,16 @@
           "addr:housenumber": "3250",
           "addr:state": "CA",
           "addr:street": "Adeline Street",
+          "alt_name": "The Vault",
           "amenity": "restaurant",
-          "check_date": "2025-02-25",
+          "check_date": "2026-03-01",
           "cuisine": "american;breakfast",
           "diet:vegetarian": "yes",
           "drink:beer": "yes",
           "name": "Vault Cafe",
           "opening_hours": "Mo 07:30-15:00; Tu-Su 07:30-16:00",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
           "phone": "+1-510-595-9600",
           "website": "https://www.vaultcafes.com/",
           "website:menu": "https://ordervaultca.com/menu",
@@ -32291,7 +32398,7 @@
         "tags": {
           "addr:city": "San Francisco",
           "addr:housenumber": "741",
-          "addr:postcode": "94114",
+          "addr:postcode": "94110",
           "addr:state": "CA",
           "addr:street": "Valencia Street",
           "amenity": "restaurant",
@@ -32686,7 +32793,7 @@
         "tags": {
           "addr:city": "San Francisco",
           "addr:housenumber": "741",
-          "addr:postcode": "94114",
+          "addr:postcode": "94110",
           "addr:state": "CA",
           "addr:street": "Valencia Street",
           "amenity": "restaurant",
@@ -32986,9 +33093,11 @@
         "type": "node",
         "id": 4925135942,
         "tags": {
+          "addr:housenumber": "790",
+          "addr:street": "Valencia Street",
           "amenity": "cafe",
           "check_date": "2025-05-25",
-          "name": "Outset Coffee",
+          "name": "Little Sweet",
           "opening_hours": "Mo-Th 09:00-15:00; Fr-Su 09:00-17:00",
           "outdoor_seating": "yes",
           "smoking": "no",
@@ -32998,8 +33107,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4216245,
-          37.760308
+          -122.4216236,
+          37.7602893
         ]
       }
     },
@@ -33009,16 +33118,19 @@
         "type": "node",
         "id": 4925154994,
         "tags": {
+          "addr:housenumber": "804",
+          "addr:street": "Valencia Street",
           "amenity": "atm",
-          "check_date": "2025-04-12",
+          "check_date": "2026-04-14",
+          "drive_through": "no",
           "name": "Valencia Lobby"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.421561,
-          37.7598341
+          -122.4215702,
+          37.7598802
         ]
       }
     },
@@ -33044,8 +33156,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4212474,
-          37.7599154
+          -122.4212827,
+          37.7599583
         ]
       }
     },
@@ -33055,7 +33167,9 @@
         "type": "node",
         "id": 4925210021,
         "tags": {
-          "check_date": "2025-04-24",
+          "addr:housenumber": "786",
+          "addr:street": "Valencia Street",
+          "check_date": "2026-04-23",
           "check_date:opening_hours": "2025-04-24",
           "name": "Open Editions",
           "opening_hours": "Mo-Su 11:00-19:00",
@@ -33067,8 +33181,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4216133,
-          37.7603821
+          -122.4216356,
+          37.7604072
         ]
       }
     },
@@ -33143,17 +33257,19 @@
           "addr:postcode": "94110",
           "addr:state": "CA",
           "addr:street": "19th Street",
-          "check_date": "2025-01-20",
-          "cuisine": "bubble_tea",
-          "disused:amenity": "cafe",
-          "name": "Steep Creamery & Tea"
+          "amenity": "cafe",
+          "check_date": "2026-04-13",
+          "cuisine": "asian",
+          "name": "Do-Re-Mi",
+          "outdoor_seating": "no",
+          "website": "https://doremirice.com/"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.421088,
-          37.7600142
+          -122.4211033,
+          37.7600282
         ]
       }
     },
@@ -33674,8 +33790,12 @@
           "addr:state": "CA",
           "addr:street": "University Avenue",
           "amenity": "ice_cream",
+          "check_date": "2026-04-25",
           "name": "Annie’s Ice Cream Gelato",
-          "old_name": "Milkbomb Ice Cream"
+          "old_name": "Milkbomb Ice Cream",
+          "opening_hours": "14:00-22:00",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes"
         }
       },
       "geometry": {
@@ -34032,8 +34152,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4214933,
-          37.7587108
+          -122.4214851,
+          37.7586957
         ]
       }
     },
@@ -34046,14 +34166,15 @@
           "addr:city": "San Francisco",
           "addr:housenumber": "888",
           "addr:street": "Valencia Street",
-          "disused:shop": "beauty"
+          "name": "Baggu",
+          "shop": "bag"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4215014,
-          37.7587936
+          -122.4214901,
+          37.7587633
         ]
       }
     },
@@ -34063,13 +34184,20 @@
         "type": "node",
         "id": 5512405783,
         "tags": {
+          "addr:city": "Berkeley",
           "addr:country": "US",
           "addr:housenumber": "1790",
+          "addr:postcode": "94709",
           "addr:state": "CA",
           "addr:street": "Shattuck Avenue",
-          "check_date": "2023-03-18",
-          "leisure": "hackerspace",
-          "name": "Makers Paradise"
+          "amenity": "arts_centre",
+          "check_date": "2026-04-24",
+          "contact:facebook": "https://www.facebook.com/MakersParadise.org",
+          "contact:instagram": "https://www.instagram.com/makersparadiseberkeley",
+          "email": "support@makersparadise.org",
+          "name": "Makers Paradise",
+          "opening_hours": "Tu-Sa 11:00-17:00",
+          "website": "https://www.makersparadise.org/berkeley"
         }
       },
       "geometry": {
@@ -35335,7 +35463,9 @@
         "type": "node",
         "id": 6171912809,
         "tags": {
-          "check_date": "2025-05-25",
+          "addr:housenumber": "696",
+          "addr:street": "Valencia Street",
+          "check_date": "2026-04-23",
           "female:signed": "no",
           "male:signed": "no",
           "name": "Fellow Barber",
@@ -35346,8 +35476,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4217965,
-          37.7618279
+          -122.4217644,
+          37.7617896
         ]
       }
     },
@@ -36269,11 +36399,12 @@
         "type": "node",
         "id": 6326647686,
         "tags": {
+          "addr:housenumber": "806",
+          "addr:street": "Valencia Street",
           "check_date": "2025-05-25",
           "name": "Aggregate Supply",
-          "name:en": "Aggregate Supply",
           "opening_hours": "Mo-Su,PH 07:00-24:00",
-          "shop": "furniture"
+          "shop": "clothing;furniture"
         }
       },
       "geometry": {
@@ -36988,6 +37119,8 @@
         "type": "node",
         "id": 6538496687,
         "tags": {
+          "addr:housenumber": "3185",
+          "addr:street": "College Avenue",
           "name": "Cask",
           "opening_hours": "Mo-Sa 11:00-20:00; Su 11:00-19:00",
           "phone": "+1-510-788-6228",
@@ -37657,11 +37790,15 @@
         "id": 6691371335,
         "tags": {
           "addr:housenumber": "4937",
+          "addr:postcode": "94609",
           "addr:street": "Telegraph Avenue",
           "brand": "T-Mobile",
           "brand:wikidata": "Q3511885",
+          "check_date": "2026-04-30",
+          "check_date:opening_hours": "2026-04-30",
           "level": "0",
           "name": "T-Mobile",
+          "opening_hours": "Mo-Su 10:00-20:00",
           "shop": "mobile_phone",
           "website": "https://www.t-mobile.com/stores/bd/t-mobile-oakland-ca-94609-2360",
           "wheelchair": "yes"
@@ -38451,8 +38588,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.421786,
-          37.7615115
+          -122.4217238,
+          37.76157
         ]
       }
     },
@@ -38859,6 +38996,7 @@
         "tags": {
           "amenity": "bicycle_rental",
           "bicycle_rental": "docking_station",
+          "fixme": "check location",
           "network": "Bay Wheels",
           "operator": "Lyft"
         }
@@ -38866,8 +39004,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2658034,
-          37.8675762
+          -122.2658731,
+          37.8682082
         ]
       }
     },
@@ -39106,8 +39244,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.421673,
-          37.7608435
+          -122.4216435,
+          37.7608194
         ]
       }
     },
@@ -41610,8 +41748,8 @@
           "addr:postcode": "94704",
           "addr:state": "CA",
           "addr:street": "Telegraph Avenue",
-          "amenity": "fast_food",
           "cuisine": "salad;sandwich",
+          "disused:amenity": "fast_food",
           "name": "Savory Kitchen",
           "phone": "+1-510-990-6131",
           "website": "https://www.grubhub.com/restaurant/savory-kitchen-2493-telegraph-ave-berkeley/2285621"
@@ -43123,15 +43261,13 @@
         "type": "node",
         "id": 7926239822,
         "tags": {
+          "addr:city": "Berkeley",
           "addr:housenumber": "2965",
           "addr:street": "College Avenue",
+          "amenity": "ice_cream",
           "cuisine": "coffee_shop",
-          "diet:vegan": "yes",
-          "diet:vegetarian": "yes",
-          "disused:amenity": "cafe",
-          "name": "Timeless",
-          "opening_hours": "Mo-Su 08:00-15:00",
-          "website": "https://timelesscoffee.com/"
+          "name": "Miharu",
+          "website": "https://www.miharuicecream.com/flavors"
         }
       },
       "geometry": {
@@ -43653,8 +43789,11 @@
         "type": "node",
         "id": 7940328077,
         "tags": {
-          "name": "Montclair Optical",
-          "shop": "optician"
+          "addr:housenumber": "2980",
+          "addr:street": "College Avenue",
+          "addr:unit": "3",
+          "disused:shop": "optician",
+          "name": "Montclair Optical"
         }
       },
       "geometry": {
@@ -44264,11 +44403,14 @@
         "type": "node",
         "id": 7967498784,
         "tags": {
+          "addr:housenumber": "3173",
+          "addr:street": "College Avenue",
           "amenity": "ice_cream",
           "indoor_seating": "yes",
           "name": "Tara's",
           "opening_hours": "We-Su 12:00-21:00",
-          "outdoor_seating": "sidewalk"
+          "outdoor_seating": "sidewalk",
+          "website": "https://tarasicecream.com"
         }
       },
       "geometry": {
@@ -44308,11 +44450,12 @@
         "type": "node",
         "id": 7967556519,
         "tags": {
-          "disused:shop": "beauty",
-          "name": "About Face & Body",
-          "opening_hours": "Tu, We, Sa, Su 10:30-17:30; Th, Fr 10:30-18:30",
-          "phone": "+1 510-428-2600",
-          "website": "https://www.aboutfaceandbody.net/",
+          "addr:city": "Berkeley",
+          "addr:housenumber": "3190",
+          "addr:street": "College Avenue",
+          "name": "Heritage Thai Spa",
+          "shop": "massage",
+          "website": "https://www.heritagethaispa.com/",
           "wheelchair": "yes"
         }
       },
@@ -44330,7 +44473,9 @@
         "type": "node",
         "id": 7967683291,
         "tags": {
+          "addr:housenumber": "3167",
           "addr:postcode": "94705",
+          "addr:street": "College Avenue",
           "amenity": "post_office",
           "brand": "FedEx Office",
           "brand:wikidata": "Q474379",
@@ -44356,8 +44501,10 @@
         "type": "node",
         "id": 7967685949,
         "tags": {
+          "addr:housenumber": "3169",
+          "addr:street": "College Avenue",
           "leisure": "fitness_centre",
-          "name": "Bōld",
+          "name": "Bold",
           "website": "https://www.beboldstudios.com"
         }
       },
@@ -45655,6 +45802,9 @@
         "type": "node",
         "id": 8076232505,
         "tags": {
+          "addr:housenumber": "2980",
+          "addr:street": "College Avenue",
+          "addr:unit": "2",
           "name": "Elmwood Copy and Printing",
           "opening_hours": "Mo-Fr 08:00-18:00; Sa 10:00-17:00",
           "phone": "+1-510-549-2020",
@@ -47431,8 +47581,8 @@
           "addr:housenumber": "2107",
           "addr:state": "CA",
           "addr:street": "Addison Street",
-          "amenity": "cafe",
           "cuisine": "bubble_tea;crepe;korean",
+          "disused:amenity": "cafe",
           "name": "Pink cloud tea & more",
           "opening_hours": "Mo-Sa 11:00-19:00",
           "phone": "+1-510-647-9818",
@@ -47573,7 +47723,11 @@
         "type": "node",
         "id": 8317118452,
         "tags": {
+          "addr:housenumber": "2440",
+          "addr:street": "Sacramento Street",
+          "check_date": "2026-04-21",
           "name": "Alex market",
+          "name:en": "Alex market",
           "opening_hours": "Mo-Su 09:30-21:30",
           "phone": "+1 510-649-1779",
           "shop": "convenience"
@@ -49113,14 +49267,19 @@
         "type": "node",
         "id": 8809623087,
         "tags": {
-          "shop": "vacant"
+          "addr:housenumber": "866",
+          "addr:street": "Valencia Street",
+          "amenity": "kindergarten",
+          "education": "kindergarten",
+          "name": "L'Academy",
+          "preschool": "yes"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4215031,
-          37.7589431
+          -122.4214973,
+          37.7590308
         ]
       }
     },
@@ -49780,8 +49939,8 @@
           "addr:state": "CA",
           "addr:street": "San Pablo Avenue",
           "addr:unit": "94706",
-          "amenity": "restaurant",
           "cuisine": "thai",
+          "disused:amenity": "restaurant",
           "name": "Sistory Thai Kitchen",
           "phone": "+1-510-705-1635",
           "website": "https://www.sistorythaikitchen.com/"
@@ -50568,11 +50727,11 @@
         "id": 9238475843,
         "tags": {
           "addr:city": "Berkeley",
-          "addr:housenumber": "2372",
-          "addr:postcode": "94704",
+          "addr:housenumber": "3017",
+          "addr:postcode": "94705",
           "addr:state": "CA",
-          "addr:street": "Ellsworth St.",
-          "addr:unit": "Ste. E",
+          "addr:street": "Telegraph Avenue",
+          "addr:unit": "Suite 320",
           "amenity": "clinic",
           "healthcare": "clinic",
           "name": "Passport Health Berkeley Travel Clinic",
@@ -50584,8 +50743,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2636012,
-          37.866524
+          -122.259593,
+          37.8554803
         ]
       }
     },
@@ -51716,8 +51875,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.421341,
-          37.7575275
+          -122.4213384,
+          37.7574969
         ]
       }
     },
@@ -51746,8 +51905,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4215294,
-          37.7593947
+          -122.4215245,
+          37.7594191
         ]
       }
     },
@@ -51780,8 +51939,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.421422,
-          37.7583431
+          -122.421428,
+          37.7583008
         ]
       }
     },
@@ -51797,7 +51956,6 @@
           "addr:street": "Valencia Street",
           "check_date": "2025-01-30",
           "check_date:opening_hours": "2025-01-30",
-          "fixme": "position estimated",
           "name": "Topdrawer",
           "opening_hours": "Mo-Fr 11:00-19:00; Sa 10:00-19:00; Su 10:00-18:00",
           "opening_hours:url": "https://topdrawershop.com/pages/store-locations",
@@ -51809,8 +51967,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4213181,
-          37.7572836
+          -122.4213226,
+          37.7572675
         ]
       }
     },
@@ -54530,8 +54688,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2578311,
-          37.8722105
+          -122.2578428,
+          37.8722023
         ]
       }
     },
@@ -54553,8 +54711,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2578325,
-          37.8722182
+          -122.2578442,
+          37.87221
         ]
       }
     },
@@ -55406,10 +55564,12 @@
           "addr:state": "CA",
           "addr:street": "Durant Avenue",
           "addr:unit": "E",
-          "amenity": "restaurant",
+          "amenity": "fast_food",
           "cuisine": "indian",
           "name": "Punjabi Dhaba Indian Eatery",
-          "outdoor_seating": "yes"
+          "outdoor_seating": "yes",
+          "payment:cash": "yes",
+          "takeaway": "yes"
         }
       },
       "geometry": {
@@ -56139,8 +56299,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.421818,
-          37.7613739
+          -122.4216953,
+          37.7613788
         ]
       }
     },
@@ -60773,8 +60933,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4208202,
-          37.7554477
+          -122.4208414,
+          37.7554246
         ]
       }
     },
@@ -61905,11 +62065,13 @@
         "type": "node",
         "id": 10104531860,
         "tags": {
+          "addr:housenumber": "1453",
+          "addr:street": "Dwight Way",
           "amenity": "restaurant",
+          "check_date": "2026-04-21",
           "cuisine": "thai",
-          "name": "Nana Thaï bistro",
-          "opening_hours": "Th-Mo 08:30-14:00",
-          "phone": "+1-510-973-1883"
+          "name": "Tanzie's Chiang Mai Thai Brunch",
+          "opening_hours": "Th-Mo 08:30-14:00"
         }
       },
       "geometry": {
@@ -65986,7 +66148,8 @@
         "tags": {
           "addr:housenumber": "2724",
           "amenity": "theatre",
-          "name": "Berkeley Piano Club"
+          "name": "Berkeley Piano Club",
+          "wikidata": "⁦Q16254369⁩"
         }
       },
       "geometry": {
@@ -66765,11 +66928,11 @@
         "type": "node",
         "id": 10691813137,
         "tags": {
-          "addr:housenumber": "1017;1015;1013;1009;1007;1007a;1007b;1005;1005a;1005b;",
+          "addr:housenumber": "1001",
           "addr:street": "Valencia Street",
           "check_date": "2025-07-31",
           "check_date:opening_hours": "2025-07-31",
-          "name": "Valencia Exotic cigar & liquors",
+          "name": "Valencia Exotic Cigars & Liquors",
           "opening_hours": "Mo-Su 08:00-24:00",
           "payment:mastercard": "yes",
           "payment:visa": "yes",
@@ -66780,8 +66943,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4209538,
-          37.7567679
+          -122.4209668,
+          37.7568069
         ]
       }
     },
@@ -66794,18 +66957,18 @@
           "addr:housenumber": "1009",
           "addr:street": "Valencia Street",
           "check_date": "2023-02-24",
-          "name": "Ibarra Brothers print and copy center",
+          "name": "Ibarra Brothers Printing",
           "payment:mastercard": "yes",
           "payment:visa": "yes",
-          "shop": "copyshop",
+          "shop": "printing",
           "wheelchair": "yes"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4209369,
-          37.7566774
+          -122.4209398,
+          37.7566867
         ]
       }
     },
@@ -66831,8 +66994,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.42095,
-          37.7566244
+          -122.4209299,
+          37.7566058
         ]
       }
     },
@@ -67958,18 +68121,21 @@
         "type": "node",
         "id": 10711245259,
         "tags": {
+          "addr:housenumber": "1198",
+          "addr:street": "Valencia Street",
           "amenity": "cafe",
           "check_date": "2025-10-30",
           "check_date:opening_hours": "2025-10-30",
           "name": "Upfordayz",
-          "opening_hours": "Su-Th 09:00-22:00, Fr,Sa 09:00-24:00"
+          "opening_hours": "Su-Th 09:00-22:00, Fr,Sa 09:00-24:00",
+          "outdoor_seating": "yes"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4210416,
-          37.753846
+          -122.4210261,
+          37.7537818
         ]
       }
     },
@@ -69840,6 +70006,7 @@
         "type": "node",
         "id": 10819110600,
         "tags": {
+          "covered": "no",
           "leisure": "picnic_table"
         }
       },
@@ -70342,6 +70509,7 @@
           "contact:instagram": "dessertcafe_berkeley",
           "cuisine": "dessert;korean;donut",
           "name": "Dessert Cafe",
+          "payment:cash": "no",
           "website:menu": "https://order.snackpass.co/Dessert-Cafe-(Berkeley)-63d0187f78a9083ef22ccce0"
         }
       },
@@ -71192,8 +71360,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2468824,
-          37.8607125
+          -122.2469129,
+          37.8607162
         ]
       }
     },
@@ -72137,8 +72305,9 @@
         "tags": {
           "addr:housenumber": "741",
           "addr:street": "Gilman Street",
+          "contact:facebook": "https://www.facebook.com/Performance-Motorcycle-100054244220231/",
           "name": "Performance motocycle",
-          "phone": "5256797",
+          "phone": "+1-510-525-6797",
           "shop": "motorcycle_repair"
         }
       },
@@ -73190,7 +73359,6 @@
           "amenity": "restaurant",
           "check_date": "2025-05-25",
           "cuisine": "tunisian",
-          "fixme": "position_estimated",
           "name": "Gola",
           "opening_hours": "Tu-Sa 17:00-22:00+",
           "wheelchair": "limited"
@@ -73199,8 +73367,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.421244,
-          37.7597727
+          -122.421264,
+          37.7597669
         ]
       }
     },
@@ -78312,8 +78480,10 @@
         "type": "node",
         "id": 11506546415,
         "tags": {
-          "name": "Berkeley Hat Company",
-          "shop": "clothes"
+          "addr:housenumber": "2510",
+          "addr:street": "Telegraph Avenue",
+          "disused:shop": "clothes",
+          "name": "Berkeley Hat Company"
         }
       },
       "geometry": {
@@ -78521,18 +78691,9 @@
           "addr:postcode": "94110",
           "addr:state": "CA",
           "addr:street": "21st Street",
-          "name": "A+ Mailboxes & More",
-          "opening_hours": "Mo-Fr 10:00-18:30; Sa 11:00-16:00",
-          "operator": "Dylan Siddiqui",
-          "payment:american_express": "yes",
-          "payment:cash": "yes",
-          "payment:discover_card": "yes",
-          "payment:mastercard": "yes",
-          "payment:visa": "yes",
-          "phone": "+1 415-500-2700",
-          "shop": "mailing_company",
-          "website": "https://notaryphotolivescanshipping.com",
-          "year": "2003"
+          "check_date": "2026-04-26",
+          "name": "DHL",
+          "shop": "mailing_company"
         }
       },
       "geometry": {
@@ -87579,6 +87740,7 @@
         "id": 12452864318,
         "tags": {
           "amenity": "public_bookcase",
+          "name": "Little Free Library",
           "public_bookcase:type": "reading_box"
         }
       },
@@ -87792,25 +87954,19 @@
         "type": "node",
         "id": 12519492553,
         "tags": {
+          "addr:city": "San Francisco",
           "addr:housenumber": "3285",
+          "addr:state": "CA",
           "addr:street": "21st Street",
-          "amenity": "restaurant",
-          "check_date": "2025-01-20",
-          "cuisine": "sandwich",
-          "name": "Jay’s Cheesesteak",
-          "opening_hours": "11:00-22:00",
-          "payment:cash": "yes",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
-          "phone": "+1 415-285-5200",
-          "wheelchair": "limited"
+          "old_name": "Jay's Cheesesteak",
+          "shop": "vacant"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.420712,
-          37.7568183
+          -122.4207175,
+          37.7568326
         ]
       }
     },
@@ -87823,20 +87979,21 @@
           "addr:housenumber": "3287",
           "addr:street": "21st Street",
           "amenity": "fast_food",
-          "check_date": "2025-01-20",
+          "check_date": "2026-04-26",
           "cuisine": "juice",
           "name": "Sidewalk Juice",
           "opening_hours": "Mo-Sa 08:30-19:00; Su 09:00-19:00",
           "payment:cash": "yes",
           "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes"
+          "payment:debit_cards": "yes",
+          "website": "https://sidewalkjuice.com/"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4207907,
-          37.7568124
+          -122.4207917,
+          37.7568292
         ]
       }
     },
@@ -87849,7 +88006,7 @@
           "addr:housenumber": "720",
           "addr:street": "Valencia Street",
           "amenity": "veterinary",
-          "check_date": "2025-05-25",
+          "check_date": "2026-04-14",
           "level": "0",
           "name": "Mission Pet Hospital",
           "opening_hours": "Mo-Fr 07:00-19:00; Sa 08:00-18:00; Su off",
@@ -87859,8 +88016,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4217309,
-          37.7613114
+          -122.4216996,
+          37.7613075
         ]
       }
     },
@@ -88095,12 +88252,12 @@
         "type": "node",
         "id": 12559170752,
         "tags": {
-          "addr:housenumber": "1106",
+          "addr:housenumber": "1102",
           "addr:street": "Valencia Street",
           "addr:unit": "102",
           "check_date": "2025-02-04",
           "level": "0",
-          "name": "The Pawficce",
+          "name": "The Pawffice",
           "shop": "pet_grooming"
         }
       },
@@ -88156,8 +88313,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4210429,
-          37.7539076
+          -122.4210324,
+          37.7538454
         ]
       }
     },
@@ -88169,11 +88326,13 @@
         "tags": {
           "addr:housenumber": "1186",
           "addr:street": "Valencia Street",
+          "amenity": "cafe",
           "check_date": "2025-02-04",
+          "cuisine": "tea",
           "level": "0",
-          "name": "A Buttercup Dessert House",
+          "name": "Ceré Tea",
           "opening_hours": "Mo-Th 17:00-23:00; Fr-Su 16:30-23:00",
-          "shop": "bakery"
+          "outdoor_seating": "no"
         }
       },
       "geometry": {
@@ -88343,10 +88502,13 @@
         "type": "node",
         "id": 12569789804,
         "tags": {
+          "addr:housenumber": "901",
+          "addr:street": "Valencia Street",
           "amenity": "fast_food",
-          "check_date": "2025-07-31",
+          "check_date": "2026-04-23",
           "check_date:opening_hours": "2025-07-31",
           "cuisine": "salad",
+          "drive_through": "no",
           "name": "Mixt",
           "opening_hours": "Mo-Su 10:29-21:00"
         }
@@ -88354,8 +88516,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4210965,
-          37.7584086
+          -122.421118,
+          37.7584163
         ]
       }
     },
@@ -88460,8 +88622,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4207093,
-          37.7542189
+          -122.4207152,
+          37.7542119
         ]
       }
     },
@@ -88523,8 +88685,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4207915,
-          37.7551257
+          -122.4207974,
+          37.7551095
         ]
       }
     },
@@ -88536,9 +88698,12 @@
         "tags": {
           "addr:housenumber": "1085",
           "addr:street": "Valencia Street",
-          "amenity": "clinic",
+          "amenity": "disused:clinic",
+          "brand": "GoHealth Urgent Care",
+          "brand:wikidata": "Q110282081",
           "check_date": "2025-02-11",
           "healthcare": "clinic",
+          "healthcare:speciality": "urgent",
           "name": "GoHealth Urgent Care",
           "opening_hours": "Mo-Fr 08:00-20:00; Sa-Su 09:00-17:00",
           "operator": "Dignity Health",
@@ -88572,8 +88737,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.420888,
-          37.7560652
+          -122.4208876,
+          37.7560566
         ]
       }
     },
@@ -89582,7 +89747,11 @@
         "type": "node",
         "id": 12639854764,
         "tags": {
+          "addr:housenumber": "2980",
+          "addr:street": "College Avenue",
+          "addr:unit": "2A",
           "check_date": "2025-03-05",
+          "name": "Marmalade Salon",
           "shop": "hairdresser"
         }
       },
@@ -90078,31 +90247,6 @@
         "coordinates": [
           -122.2564137,
           37.8708904
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 12677607213,
-        "tags": {
-          "addr:housenumber": "1018",
-          "addr:street": "Valencia Street",
-          "books": "comic",
-          "check_date": "2025-03-18",
-          "name": "Silver Sprocket",
-          "opening_hours": "Mo,We-Th 12:00-19:00; Tu off; Fr 12:00-20:00; Sa 11:00-20:00; Su 11:00-19:00",
-          "phone": "+1 628-280-8436",
-          "shop": "books",
-          "website": "https://silversprocket.net"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.421261,
-          37.7565632
         ]
       }
     },
@@ -95837,6 +95981,7 @@
           "addr:postcode": "94702",
           "addr:state": "CA",
           "addr:street": "Sacramento Street",
+          "check_date": "2026-04-21",
           "name": "Classroom Matters",
           "office": "tutoring",
           "website": "https://www.classroommatters.com/"
@@ -95861,6 +96006,7 @@
           "addr:postcode": "94702",
           "addr:state": "CA",
           "addr:street": "Sacramento Street",
+          "check_date": "2026-04-21",
           "healthcare": "alternative",
           "healthcare:speciality": "chiropractic",
           "name": "The Source Chiropractic",
@@ -99968,8 +100114,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4212585,
-          37.7600064
+          -122.4212841,
+          37.7600159
         ]
       }
     },
@@ -99992,8 +100138,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4210105,
-          37.7572601
+          -122.4210152,
+          37.7572469
         ]
       }
     },
@@ -112506,8 +112652,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4219114,
-          37.7617846
+          -122.422032,
+          37.7617824
         ]
       }
     },
@@ -112679,6 +112825,49 @@
         "coordinates": [
           -122.2901659,
           37.8531434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13469835403,
+        "tags": {
+          "addr:housenumber": "1037",
+          "addr:street": "Valencia Street",
+          "old_name": "Aslam's Rasoi",
+          "shop": "vacant"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4209233,
+          37.7562996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13469835404,
+        "tags": {
+          "addr:housenumber": "1051",
+          "addr:street": "Valencia Street",
+          "name": "Natural Resources",
+          "opening_hours": "Su 12:00-17:00; Mo-Fr 11:00-18:00; Sa 10:00-18:00",
+          "phone": "+1 415-550-2611",
+          "shop": "baby_goods",
+          "website": "https://www.naturalresources-sf.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4208788,
+          37.7561386
         ]
       }
     },
@@ -112953,6 +113142,1024 @@
         "coordinates": [
           -122.2677399,
           37.8701684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13724354401,
+        "tags": {
+          "addr:housenumber": "1050",
+          "addr:street": "Valencia Street",
+          "amenity": "restaurant",
+          "cuisine": "vietnamese",
+          "name": "Hem by LeQuy",
+          "website": "https://pholequy.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.421209,
+          37.7559862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13724354406,
+        "tags": {
+          "addr:housenumber": "988",
+          "addr:street": "Valencia Street",
+          "name": "Dogue",
+          "shop": "pet"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4212958,
+          37.7571893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13724354408,
+        "tags": {
+          "addr:housenumber": "976",
+          "addr:street": "Valencia Street",
+          "shop": "vacant"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4213259,
+          37.7573104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13724354409,
+        "tags": {
+          "addr:housenumber": "968",
+          "addr:street": "Valencia Street",
+          "name": "Big Time Vintage",
+          "second_hand": "only",
+          "shop": "clothes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4213297,
+          37.7574371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13724354414,
+        "tags": {
+          "addr:housenumber": "956",
+          "addr:street": "Valencia Street",
+          "name": "Shaped.AF",
+          "shop": "beauty"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4213606,
+          37.7575968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13724354415,
+        "tags": {
+          "name": "Back To The Picture",
+          "shop": "frame"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4213722,
+          37.7579288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13724354417,
+        "tags": {
+          "name": "Tokyo Futon and Tea",
+          "shop": "furniture"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4213692,
+          37.7580463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13724354418,
+        "tags": {
+          "addr:housenumber": "920",
+          "addr:street": "Valencia Street",
+          "amenity": "cafe",
+          "name": "Sisters Coffee Shop"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4213735,
+          37.7580852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13724354421,
+        "tags": {
+          "addr:housenumber": "896",
+          "addr:street": "Valencia Street",
+          "name": "Golden Eagle Market",
+          "shop": "convenience"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.421469,
+          37.7586007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13724354423,
+        "tags": {
+          "addr:housenumber": "878",
+          "addr:street": "Valencia Street",
+          "amenity": "restaurant",
+          "cuisine": "ethiopian",
+          "name": "Cafe Ethiopia"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4214772,
+          37.7588762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13724354425,
+        "tags": {
+          "addr:housenumber": "886",
+          "addr:street": "Valencia Street",
+          "shop": "vacant"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4214941,
+          37.7588088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13725567699,
+        "tags": {
+          "addr:housenumber": "789",
+          "addr:street": "Valencia Street",
+          "name": "City Laundry",
+          "self_service": "yes",
+          "shop": "laundry"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4213287,
+          37.7604077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13725887499,
+        "tags": {
+          "addr:housenumber": "807",
+          "addr:street": "Valencia Street",
+          "amenity": "restaurant",
+          "cuisine": "vietnamese",
+          "name": "Chic N' Time",
+          "opening_hours": "Tu-Th 16:30-21:00; Fr-Su 12:00-21:00"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.421276,
+          37.7599004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13725904201,
+        "tags": {
+          "addr:housenumber": "825",
+          "addr:street": "Valencia Street",
+          "name": "Santora Apartment and Building Supplies",
+          "shop": "janitorial_supply"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4212511,
+          37.7596656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13725904202,
+        "tags": {
+          "addr:housenumber": "835",
+          "addr:street": "Valencia Street",
+          "amenity": "place_of_worship",
+          "denomination": "baptist",
+          "name": "St. Mark Institutional Missionary Baptist Church",
+          "religion": "christian"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4212488,
+          37.7595273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13725904204,
+        "tags": {
+          "addr:housenumber": "849",
+          "addr:street": "Valencia Street",
+          "amenity": "social_centre",
+          "name": "The International Library of Young Authors",
+          "website": "https://www.theinternationallibraryofyoungauthors.org/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4212078,
+          37.7593446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13725904205,
+        "tags": {
+          "addr:housenumber": "855",
+          "addr:street": "Valencia Street",
+          "name": "Super Simple",
+          "shop": "furniture",
+          "website": "https://shopsupersimple.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4212081,
+          37.7592169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13725904207,
+        "tags": {
+          "addr:housenumber": "911",
+          "addr:street": "Valencia Street",
+          "old_name": "Baggu",
+          "shop": "vacant"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4211139,
+          37.758239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13725904210,
+        "tags": {
+          "addr:housenumber": "985",
+          "addr:street": "Valencia Street",
+          "beauty": "nails",
+          "name": "Look At Me",
+          "shop": "beauty"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.421011,
+          37.7571921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13725904216,
+        "tags": {
+          "addr:housenumber": "1069",
+          "addr:street": "Valencia Street",
+          "name": "Laku",
+          "shop": "gift"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4208581,
+          37.7558366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13725904217,
+        "tags": {
+          "addr:housenumber": "1071",
+          "addr:street": "Valencia Street",
+          "amenity": "restaurant",
+          "cuisine": "sushi",
+          "name": "Sushi Easy"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4208567,
+          37.7558203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13725904218,
+        "tags": {
+          "addr:housenumber": "1155",
+          "addr:street": "Valencia Street",
+          "description": "Blind box collectibles",
+          "name": "Uniko",
+          "shop": "gift"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4207393,
+          37.7544001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13725904219,
+        "tags": {
+          "addr:housenumber": "1155B",
+          "addr:street": "Valencia Street",
+          "name": "Mo Tattoo",
+          "shop": "tattoo"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4207362,
+          37.7543831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13727527643,
+        "tags": {
+          "addr:housenumber": "1169",
+          "addr:street": "Valencia Street",
+          "name": "Love & Luxe",
+          "shop": "jewelry",
+          "website": "https://loveandluxesf.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4207413,
+          37.7542837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13727527645,
+        "tags": {
+          "addr:housenumber": "810",
+          "addr:street": "Valencia Street",
+          "name": "Reboot",
+          "shop": "spa"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4215697,
+          37.7597727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13731317562,
+        "tags": {
+          "addr:housenumber": "788",
+          "addr:street": "Valencia Street",
+          "shop": "vacant"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4216307,
+          37.7603553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13731317564,
+        "tags": {
+          "addr:floor": "3",
+          "addr:housenumber": "766",
+          "addr:street": "Valencia Street",
+          "craft": "gardener",
+          "name": "Rare Field"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4217415,
+          37.7606493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13731317568,
+        "tags": {
+          "addr:housenumber": "724",
+          "addr:street": "Valencia Street",
+          "shop": "vacant"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4216929,
+          37.7612296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13748214678,
+        "tags": {
+          "amenity": "bench"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.247648,
+          37.8610397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13749916884,
+        "tags": {
+          "addr:housenumber": "2442",
+          "addr:street": "Sacramento Street",
+          "check_date": "2026-04-21",
+          "name": "Vika Beauty Salon",
+          "phone": "+1-510-649-9626",
+          "shop": "hairdresser"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2813771,
+          37.8624436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13750041343,
+        "tags": {
+          "amenity": "public_bookcase"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2756186,
+          37.8588507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13757585507,
+        "tags": {
+          "addr:housenumber": "867",
+          "addr:street": "Valencia Street",
+          "shop": "vacant"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4212079,
+          37.759086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13757585512,
+        "tags": {
+          "addr:housenumber": "875",
+          "addr:street": "Valencia Street",
+          "amenity": "place_of_worship",
+          "name": "Iglesia Maranatha",
+          "phone": "+1 415-643-8064",
+          "religion": "christian"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4212058,
+          37.7589926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13757585514,
+        "tags": {
+          "addr:housenumber": "877",
+          "addr:street": "Valencia Street",
+          "name": "Nice Kicks",
+          "shop": "shoes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4211836,
+          37.758943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13757610742,
+        "tags": {
+          "addr:housenumber": "951",
+          "addr:street": "Valencia Street",
+          "amenity": "ice_cream",
+          "name": "Hila"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4210711,
+          37.7577086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13757610745,
+        "tags": {
+          "addr:housenumber": "977",
+          "addr:street": "Valencia Street",
+          "name": "Illuminata Skin Care",
+          "shop": "beauty",
+          "website": "https://illuminatasf.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4210267,
+          37.7573354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13757610746,
+        "tags": {
+          "addr:housenumber": "977",
+          "addr:street": "Valencia Street",
+          "healthcare": "alternative",
+          "healthcare:speciality": "acupuncture",
+          "name": "Akara",
+          "website": "https://www.akaraintegrative.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4210247,
+          37.757319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13757610747,
+        "tags": {
+          "addr:housenumber": "977",
+          "addr:street": "Valencia Street",
+          "healthcare": "physiotherapist",
+          "name": "Martha McClaren"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4210232,
+          37.7573036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13760914882,
+        "tags": {
+          "addr:housenumber": "1043",
+          "addr:street": "Valencia Street",
+          "name": "13 Bats Tattoo and Piercing",
+          "opening_hours": "\"by appointment\"",
+          "phone": "+1 415-815-6669",
+          "shop": "tattoo",
+          "website": "https://www.thirteenbats.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4208908,
+          37.7561999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13760914886,
+        "tags": {
+          "addr:housenumber": "1089",
+          "addr:street": "Valencia Street",
+          "name": "Made Here",
+          "operator": "Basil Racuk",
+          "shop": "clothes",
+          "website": "https://basilracuk.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4208384,
+          37.7555892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13762476539,
+        "tags": {
+          "amenity": "waste_basket"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2457008,
+          37.8580972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13762476540,
+        "tags": {
+          "amenity": "bench"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2457461,
+          37.8581036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13768569907,
+        "tags": {
+          "addr:housenumber": "3297",
+          "addr:street": "22nd Street",
+          "old_name": "Godofredo's Jewelry",
+          "shop": "vacant"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4207227,
+          37.7552299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13768629904,
+        "tags": {
+          "addr:housenumber": "3293",
+          "addr:street": "22nd Street",
+          "name": "Scrap & Sip",
+          "shop": "craft",
+          "website": "https://www.scrapandsip.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4207618,
+          37.7554244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13768629905,
+        "tags": {
+          "addr:housenumber": "3290",
+          "addr:street": "22nd Street",
+          "name": "Black & Blue Tattoo",
+          "shop": "tattoo",
+          "website": "https://www.blackandbluetattoo.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4207343,
+          37.7554265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13768629906,
+        "tags": {
+          "addr:housenumber": "3286",
+          "addr:street": "22nd Street",
+          "amenity": "bar",
+          "name": "Latin American Club"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4206643,
+          37.7554302
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13768629907,
+        "tags": {
+          "addr:housenumber": "3282",
+          "addr:street": "22nd Street",
+          "shop": "vacant"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4205899,
+          37.7554327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13783971113,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2727",
+          "addr:state": "CA",
+          "addr:street": "College Avenue",
+          "name": "Maybeck High School",
+          "office": "educational_institution",
+          "website": "http://www.maybeckhs.org/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2523878,
+          37.8609089
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13783971114,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2727",
+          "addr:street": "College Avenue",
+          "amenity": "kindergarten",
+          "education": "kindergarten",
+          "name": "Monteverde School",
+          "website": "https://www.monteverdeschool.org/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2523468,
+          37.8611725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13783971115,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2727",
+          "addr:state": "CA",
+          "addr:street": "College Avenue",
+          "amenity": "kindergarten",
+          "education": "kindergarten",
+          "name": "Saint John's Childcare Center",
+          "website": "https://stjohnschildcareberkeley.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2523226,
+          37.860988
         ]
       }
     },
@@ -115101,36 +116308,36 @@
         "coordinates": [
           [
             [
-              -122.2577402,
-              37.872026
+              -122.2577584,
+              37.8720281
             ],
             [
-              -122.2578612,
-              37.8720004
+              -122.2578742,
+              37.872003
             ],
             [
-              -122.2578914,
-              37.8720894
+              -122.2579052,
+              37.872092
             ],
             [
-              -122.2578782,
-              37.8720921
+              -122.257879,
+              37.8720977
             ],
             [
-              -122.2578343,
-              37.8721017
+              -122.2578489,
+              37.8721042
             ],
             [
-              -122.2578048,
-              37.8721081
+              -122.25782,
+              37.8721104
             ],
             [
-              -122.2577704,
-              37.872115
+              -122.2577893,
+              37.8721171
             ],
             [
-              -122.2577402,
-              37.872026
+              -122.2577584,
+              37.8720281
             ]
           ]
         ]
@@ -145440,7 +146647,8 @@
         "id": 109190992,
         "tags": {
           "landuse": "grass",
-          "name": "Faculty Glade"
+          "name": "Faculty Glade",
+          "wikidata": "Faculty Glade"
         },
         "nodes": [
           1250628748,
@@ -176649,20 +177857,20 @@
         "coordinates": [
           [
             [
-              -122.2582271,
-              37.8719152
+              -122.2582368,
+              37.8719216
             ],
             [
-              -122.2581082,
-              37.8719438
+              -122.2581122,
+              37.8719507
             ],
             [
-              -122.2581325,
-              37.8718596
+              -122.2581382,
+              37.8718646
             ],
             [
-              -122.2582271,
-              37.8719152
+              -122.2582368,
+              37.8719216
             ]
           ]
         ]
@@ -177033,40 +178241,40 @@
         "coordinates": [
           [
             [
-              -122.2583559,
-              37.8721754
+              -122.2583639,
+              37.8721889
             ],
             [
-              -122.2584866,
-              37.8725237
+              -122.2584935,
+              37.8725339
             ],
             [
-              -122.2584723,
-              37.8725263
+              -122.2584787,
+              37.8725386
             ],
             [
-              -122.2583738,
-              37.8724733
+              -122.2583818,
+              37.8724868
             ],
             [
-              -122.2583693,
-              37.8724575
+              -122.2583773,
+              37.872471
             ],
             [
-              -122.2582801,
-              37.8724083
+              -122.2582881,
+              37.8724218
             ],
             [
-              -122.2582538,
-              37.8723296
+              -122.2582618,
+              37.8723431
             ],
             [
-              -122.2583396,
-              37.872179
+              -122.2583476,
+              37.8721925
             ],
             [
-              -122.2583559,
-              37.8721754
+              -122.2583639,
+              37.8721889
             ]
           ]
         ]
@@ -177261,16 +178469,16 @@
         "coordinates": [
           [
             [
-              -122.2585047,
-              37.8725721
+              -122.2585094,
+              37.8725787
             ],
             [
-              -122.2585514,
-              37.8726991
+              -122.2585581,
+              37.8727105
             ],
             [
-              -122.2584149,
-              37.8727293
+              -122.2584179,
+              37.8727423
             ],
             [
               -122.2583605,
@@ -177281,24 +178489,24 @@
               37.8725662
             ],
             [
-              -122.2583181,
-              37.8725138
+              -122.2583196,
+              37.8725207
             ],
             [
-              -122.2583337,
-              37.8725139
+              -122.2583342,
+              37.8725203
             ],
             [
-              -122.2583485,
-              37.8725096
+              -122.2583492,
+              37.8725158
             ],
             [
-              -122.2583666,
-              37.8724964
+              -122.2583656,
+              37.8725017
             ],
             [
-              -122.2585047,
-              37.8725721
+              -122.2585094,
+              37.8725787
             ]
           ]
         ]
@@ -177325,24 +178533,24 @@
         "coordinates": [
           [
             [
-              -122.258337,
-              37.8721317
+              -122.258345,
+              37.8721452
             ],
             [
-              -122.2582244,
-              37.8723191
+              -122.2582324,
+              37.8723326
             ],
             [
-              -122.2581115,
-              37.872029
+              -122.2581195,
+              37.8720425
             ],
             [
-              -122.2582841,
-              37.8719851
+              -122.2582921,
+              37.8719986
             ],
             [
-              -122.258337,
-              37.8721317
+              -122.258345,
+              37.8721452
             ]
           ]
         ]
@@ -177597,24 +178805,24 @@
         "coordinates": [
           [
             [
-              -122.2582587,
-              37.8719697
+              -122.2582627,
+              37.8719776
             ],
             [
-              -122.2581138,
-              37.8720052
+              -122.2581178,
+              37.8720131
             ],
             [
-              -122.2580995,
-              37.8719686
+              -122.2581035,
+              37.8719765
             ],
             [
-              -122.2582453,
-              37.8719342
+              -122.2582493,
+              37.8719421
             ],
             [
-              -122.2582587,
-              37.8719697
+              -122.2582627,
+              37.8719776
             ]
           ]
         ]
@@ -177647,48 +178855,48 @@
         "coordinates": [
           [
             [
-              -122.2581433,
-              37.8717119
+              -122.2581574,
+              37.871728
             ],
             [
-              -122.2579629,
-              37.8717003
+              -122.2579699,
+              37.8717135
             ],
             [
-              -122.2577618,
-              37.8715849
+              -122.2577652,
+              37.8715971
             ],
             [
-              -122.2579468,
-              37.8714075
+              -122.2579502,
+              37.8714197
             ],
             [
-              -122.257971,
-              37.8713901
+              -122.2579744,
+              37.8714023
             ],
             [
-              -122.2580012,
-              37.8713837
+              -122.2580046,
+              37.8713959
             ],
             [
-              -122.2580304,
-              37.8713874
+              -122.2580338,
+              37.8713996
             ],
             [
-              -122.2580575,
-              37.8714017
+              -122.2580609,
+              37.8714139
             ],
             [
-              -122.2580743,
-              37.8714208
+              -122.2580777,
+              37.871433
             ],
             [
-              -122.2581692,
-              37.8716711
+              -122.2581749,
+              37.8716862
             ],
             [
-              -122.2581433,
-              37.8717119
+              -122.2581574,
+              37.871728
             ]
           ]
         ]
@@ -177716,28 +178924,28 @@
         "coordinates": [
           [
             [
-              -122.2582272,
-              37.871858
+              -122.2582312,
+              37.8718625
             ],
             [
-              -122.2581514,
-              37.8718157
+              -122.2581527,
+              37.8718189
             ],
             [
-              -122.2581708,
-              37.8717453
-            ],
-            [
-              -122.2581961,
+              -122.2581753,
               37.8717474
             ],
             [
-              -122.258235,
-              37.8718564
+              -122.2581989,
+              37.8717491
             ],
             [
-              -122.2582272,
-              37.871858
+              -122.2582417,
+              37.8718628
+            ],
+            [
+              -122.2582312,
+              37.8718625
             ]
           ]
         ]
@@ -178505,20 +179713,20 @@
         "coordinates": [
           [
             [
-              -122.2581413,
-              37.8717389
+              -122.2581537,
+              37.8717474
             ],
             [
-              -122.2581185,
-              37.8717977
+              -122.2581309,
+              37.8718062
             ],
             [
-              -122.2580016,
-              37.8717294
+              -122.258014,
+              37.8717379
             ],
             [
-              -122.2581413,
-              37.8717389
+              -122.2581537,
+              37.8717474
             ]
           ]
         ]
@@ -192184,6 +193392,7 @@
           2610109474,
           2610109472,
           2610109470,
+          13748214586,
           2610109468,
           2610109464,
           2610109459,
@@ -192307,16 +193516,20 @@
               37.8608365
             ],
             [
-              -122.2467988,
-              37.8607807
+              -122.2468085,
+              37.8607905
             ],
             [
-              -122.2468089,
-              37.8607447
+              -122.2468428,
+              37.8607572
             ],
             [
-              -122.2468467,
-              37.8607059
+              -122.2468579,
+              37.8607362
+            ],
+            [
+              -122.2468722,
+              37.8606972
             ],
             [
               -122.2468844,
@@ -192336,6 +193549,7 @@
         "type": "way",
         "id": 255316914,
         "tags": {
+          "garden:type": "landscaping",
           "leisure": "garden"
         },
         "nodes": [
@@ -192800,6 +194014,50 @@
       "type": "Feature",
       "properties": {
         "type": "way",
+        "id": 258932086,
+        "tags": {
+          "building:levels": "1",
+          "disused:building": "retail",
+          "roof:shape": "flat"
+        },
+        "nodes": [
+          2642370107,
+          2642370110,
+          2642370105,
+          2642370102,
+          2642370107
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.2641621,
+            37.8679807
+          ],
+          [
+            -122.2638159,
+            37.8680279
+          ],
+          [
+            -122.2637822,
+            37.867874
+          ],
+          [
+            -122.2641283,
+            37.8678267
+          ],
+          [
+            -122.2641621,
+            37.8679807
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
         "id": 258962187,
         "tags": {
           "addr:city": "San Francisco",
@@ -192948,6 +194206,7 @@
         },
         "nodes": [
           2642750452,
+          13725904211,
           2642750454,
           2642750456,
           2642750457,
@@ -192965,6 +194224,10 @@
             [
               -122.4209532,
               37.7565788
+            ],
+            [
+              -122.4206953,
+              37.7565942
             ],
             [
               -122.4206676,
@@ -196811,8 +198074,8 @@
               37.8579696
             ],
             [
-              -122.2443088,
-              37.8580265
+              -122.2443695,
+              37.8580228
             ],
             [
               -122.2439965,
@@ -211623,9 +212886,14 @@
           "addr:housenumber": "2380",
           "addr:street": "Fourth Street",
           "building": "yes",
+          "cuisine": "indian",
           "name": "Vik's Market",
           "opening_hours": "Mo-Su 11:00-19:30",
           "operator": "Vik's Chaat",
+          "origin": "indian",
+          "payment:cash": "no",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
           "phone": "+1-510-644-4412",
           "shop": "convenience",
           "website": "https://vikschaat.com/"
@@ -238890,61 +240158,6 @@
       "type": "Feature",
       "properties": {
         "type": "way",
-        "id": 545790157,
-        "tags": {
-          "amenity": "parking",
-          "covered": "no",
-          "name": "Bancroft Fulton Lot",
-          "operator": "University of California, Berkeley",
-          "operator:wikidata": "Q168756",
-          "parking": "surface",
-          "surface": "paved"
-        },
-        "nodes": [
-          5274780173,
-          5274780174,
-          5274780194,
-          12091490543,
-          5274780192,
-          5274780173
-        ]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -122.2653945,
-              37.8671055
-            ],
-            [
-              -122.2652023,
-              37.8671315
-            ],
-            [
-              -122.2653602,
-              37.8678275
-            ],
-            [
-              -122.2654183,
-              37.8677996
-            ],
-            [
-              -122.2655328,
-              37.8677866
-            ],
-            [
-              -122.2653945,
-              37.8671055
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "way",
         "id": 545790158,
         "tags": {
           "access": "private",
@@ -255548,50 +256761,6 @@
       "type": "Feature",
       "properties": {
         "type": "way",
-        "id": 672628679,
-        "tags": {
-          "landuse": "retail"
-        },
-        "nodes": [
-          6298797047,
-          6298797055,
-          2196215595,
-          6298797040,
-          6298797047
-        ]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -122.2637783,
-              37.8678629
-            ],
-            [
-              -122.2638155,
-              37.8680352
-            ],
-            [
-              -122.2641741,
-              37.8679855
-            ],
-            [
-              -122.2641353,
-              37.8678128
-            ],
-            [
-              -122.2637783,
-              37.8678629
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "way",
         "id": 672628680,
         "tags": {
           "landuse": "residential"
@@ -255641,17 +256810,21 @@
           "landuse": "residential"
         },
         "nodes": [
+          13741479266,
           2196215576,
           6298795540,
-          6298797047,
-          6298797040,
-          2196215576
+          13741479265,
+          13741479266
         ]
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
+            [
+              -122.2640788,
+              37.8675521
+            ],
             [
               -122.2640166,
               37.8672649
@@ -255661,16 +256834,12 @@
               37.8673102
             ],
             [
-              -122.2637783,
-              37.8678629
+              -122.2637225,
+              37.8675986
             ],
             [
-              -122.2641353,
-              37.8678128
-            ],
-            [
-              -122.2640166,
-              37.8672649
+              -122.2640788,
+              37.8675521
             ]
           ]
         ]
@@ -257169,10 +258338,10 @@
           8862331684,
           86333300,
           1800890503,
-          6946552124,
-          290106037,
-          2443760085,
+          13717494426,
+          13717494427,
           240448859,
+          13717494428,
           4182133396,
           9909106579,
           9909106577,
@@ -257400,20 +258569,20 @@
               37.8664039
             ],
             [
-              -122.3060098,
-              37.866331
+              -122.3061779,
+              37.8663392
             ],
             [
-              -122.3061941,
-              37.8662808
-            ],
-            [
-              -122.3065735,
-              37.8661998
+              -122.3066089,
+              37.8662503
             ],
             [
               -122.3085688,
               37.8657985
+            ],
+            [
+              -122.3088463,
+              37.8657602
             ],
             [
               -122.3090683,
@@ -258194,9 +259363,11 @@
         "type": "way",
         "id": 675938107,
         "tags": {
+          "check_date": "2026-04-21",
           "landuse": "industrial",
           "name": "15 Minute Smog Test and Oil Change Repair Station",
           "opening_hours": "Mo-Sa 08:00-18:00",
+          "phone": "+1-510-849-1300",
           "shop": "car_repair",
           "website": "https://www.15minsmogtest.com/",
           "wheelchair": "yes"
@@ -266117,50 +267288,6 @@
       "type": "Feature",
       "properties": {
         "type": "way",
-        "id": 695770248,
-        "tags": {
-          "landuse": "grass"
-        },
-        "nodes": [
-          6533395811,
-          6533395812,
-          6533395813,
-          6533395814,
-          6533395811
-        ]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -122.2656773,
-              37.8671535
-            ],
-            [
-              -122.2656611,
-              37.8670701
-            ],
-            [
-              -122.2655432,
-              37.8670829
-            ],
-            [
-              -122.2655605,
-              37.867168
-            ],
-            [
-              -122.2656773,
-              37.8671535
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "way",
         "id": 695770249,
         "tags": {
           "landuse": "grass"
@@ -270478,8 +271605,30 @@
         "nodes": [
           7110916203,
           7110916204,
+          13709722725,
+          13709722717,
+          13709722718,
+          13709722713,
+          13709722709,
+          13709722710,
+          13709722721,
+          13709722722,
+          13709722705,
+          13709722706,
+          13709722701,
           7110916205,
           7110916206,
+          13709684900,
+          13709722707,
+          13709722704,
+          13709722723,
+          13709722720,
+          13709722711,
+          13709722708,
+          13709722712,
+          13709722719,
+          13709722716,
+          13709722724,
           7110916203
         ]
       },
@@ -270488,24 +271637,112 @@
         "coordinates": [
           [
             [
-              -122.2583295,
-              37.8728039
+              -122.2583258,
+              37.8727944
             ],
             [
-              -122.2583046,
-              37.8727405
+              -122.2583133,
+              37.8727569
             ],
             [
-              -122.2579175,
-              37.8728287
+              -122.2582762,
+              37.8727645
             ],
             [
-              -122.2579415,
-              37.8728929
+              -122.2582456,
+              37.8727714
             ],
             [
-              -122.2583295,
-              37.8728039
+              -122.2582151,
+              37.8727783
+            ],
+            [
+              -122.2581959,
+              37.8727826
+            ],
+            [
+              -122.2581654,
+              37.8727895
+            ],
+            [
+              -122.2581349,
+              37.8727963
+            ],
+            [
+              -122.2580649,
+              37.8728121
+            ],
+            [
+              -122.2580365,
+              37.8728185
+            ],
+            [
+              -122.2580173,
+              37.8728228
+            ],
+            [
+              -122.2579891,
+              37.8728291
+            ],
+            [
+              -122.2579619,
+              37.8728352
+            ],
+            [
+              -122.2579341,
+              37.8728415
+            ],
+            [
+              -122.2579526,
+              37.8728928
+            ],
+            [
+              -122.2579806,
+              37.8728865
+            ],
+            [
+              -122.2580081,
+              37.8728803
+            ],
+            [
+              -122.2580363,
+              37.872874
+            ],
+            [
+              -122.2580552,
+              37.8728697
+            ],
+            [
+              -122.2580836,
+              37.8728634
+            ],
+            [
+              -122.2581529,
+              37.8728478
+            ],
+            [
+              -122.2581834,
+              37.8728409
+            ],
+            [
+              -122.2582138,
+              37.872834
+            ],
+            [
+              -122.2582332,
+              37.8728297
+            ],
+            [
+              -122.2582641,
+              37.8728227
+            ],
+            [
+              -122.2582947,
+              37.8728158
+            ],
+            [
+              -122.2583258,
+              37.8727944
             ]
           ]
         ]
@@ -284080,73 +285317,6 @@
       "type": "Feature",
       "properties": {
         "type": "way",
-        "id": 1000385781,
-        "tags": {
-          "access": "permit",
-          "addr:city": "Berkeley",
-          "addr:housenumber": "2241",
-          "addr:state": "CA",
-          "addr:street": "Durant Avenue",
-          "amenity": "parking",
-          "capacity": "49",
-          "capacity:disabled": "2",
-          "layer": "-1",
-          "name": "Bancroft Fulton West",
-          "operator": "University of California, Berkeley",
-          "operator:wikidata": "Q168756",
-          "parking": "underground",
-          "surface": "paved"
-        },
-        "nodes": [
-          9234149425,
-          9234149426,
-          9234149431,
-          9234149428,
-          9234149427,
-          9234149432,
-          9234149425
-        ]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -122.2655396,
-              37.8676378
-            ],
-            [
-              -122.265448,
-              37.8672069
-            ],
-            [
-              -122.2655502,
-              37.8671934
-            ],
-            [
-              -122.2656578,
-              37.8671791
-            ],
-            [
-              -122.2657495,
-              37.86761
-            ],
-            [
-              -122.2656405,
-              37.8676244
-            ],
-            [
-              -122.2655396,
-              37.8676378
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "way",
         "id": 1000729408,
         "tags": {
           "landuse": "grass",
@@ -295845,7 +297015,7 @@
             ],
             [
               -122.2580402,
-              37.8724717
+              37.8724718
             ],
             [
               -122.2581041,
@@ -295894,7 +297064,7 @@
             ],
             [
               -122.2579411,
-              37.872494
+              37.8724941
             ],
             [
               -122.257872,
@@ -295944,20 +297114,20 @@
               37.8724191
             ],
             [
-              -122.257896,
-              37.872322
+              -122.2578977,
+              37.8723216
             ],
             [
-              -122.2578838,
-              37.8722849
+              -122.2578837,
+              37.8722846
             ],
             [
               -122.2577966,
               37.8723053
             ],
             [
-              -122.257841,
-              37.8724285
+              -122.2578399,
+              37.8724225
             ],
             [
               -122.2578521,
@@ -295997,12 +297167,12 @@
               37.8724007
             ],
             [
-              -122.2580266,
-              37.8722516
+              -122.2580259,
+              37.8722508
             ],
             [
-              -122.2579396,
-              37.8722719
+              -122.2579394,
+              37.8722714
             ],
             [
               -122.2579909,
@@ -340802,6 +341972,7 @@
           10915923407,
           10915923406,
           10915923405,
+          13748208573,
           10915923404,
           10915923403,
           10915923398,
@@ -340873,6 +342044,10 @@
             [
               -122.2451708,
               37.8624291
+            ],
+            [
+              -122.2452358,
+              37.8624881
             ],
             [
               -122.2453076,
@@ -358454,7 +359629,7 @@
           "addr:city": "Berkeley",
           "addr:country": "US",
           "addr:housenumber": "235",
-          "addr:postcode": "94109",
+          "addr:postcode": "94710",
           "addr:state": "CA",
           "addr:street": "University Avenue",
           "amenity": "restaurant",
@@ -377075,7 +378250,9 @@
         "type": "way",
         "id": 1396467243,
         "tags": {
+          "access": "customers",
           "amenity": "parking",
+          "fee": "no",
           "parking": "surface"
         },
         "nodes": [
@@ -443344,6 +444521,510 @@
     {
       "type": "Feature",
       "properties": {
+        "type": "way",
+        "id": 1496772923,
+        "tags": {
+          "amenity": "parking_space",
+          "parking_space": "disabled"
+        },
+        "nodes": [
+          13709684900,
+          13709722701,
+          7110916205,
+          7110916206,
+          13709684900
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2579806,
+              37.8728865
+            ],
+            [
+              -122.2579619,
+              37.8728352
+            ],
+            [
+              -122.2579341,
+              37.8728415
+            ],
+            [
+              -122.2579526,
+              37.8728928
+            ],
+            [
+              -122.2579806,
+              37.8728865
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1496772924,
+        "tags": {
+          "amenity": "parking_space",
+          "parking_space": "disabled"
+        },
+        "nodes": [
+          13709722704,
+          13709722705,
+          13709722706,
+          13709722707,
+          13709722704
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2580363,
+              37.872874
+            ],
+            [
+              -122.2580173,
+              37.8728228
+            ],
+            [
+              -122.2579891,
+              37.8728291
+            ],
+            [
+              -122.2580081,
+              37.8728803
+            ],
+            [
+              -122.2580363,
+              37.872874
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1496772925,
+        "tags": {
+          "amenity": "parking_space",
+          "parking_space": "disabled"
+        },
+        "nodes": [
+          13709722708,
+          13709722709,
+          13709722710,
+          13709722711,
+          13709722708
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2581834,
+              37.8728409
+            ],
+            [
+              -122.2581654,
+              37.8727895
+            ],
+            [
+              -122.2581349,
+              37.8727963
+            ],
+            [
+              -122.2581529,
+              37.8728478
+            ],
+            [
+              -122.2581834,
+              37.8728409
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1496772926,
+        "tags": {
+          "amenity": "parking_space",
+          "parking_space": "disabled"
+        },
+        "nodes": [
+          13709722712,
+          13709722713,
+          13709722709,
+          13709722708,
+          13709722712
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2582138,
+              37.872834
+            ],
+            [
+              -122.2581959,
+              37.8727826
+            ],
+            [
+              -122.2581654,
+              37.8727895
+            ],
+            [
+              -122.2581834,
+              37.8728409
+            ],
+            [
+              -122.2582138,
+              37.872834
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1496772927,
+        "tags": {
+          "amenity": "parking_space",
+          "parking_space": "disabled"
+        },
+        "nodes": [
+          13709722716,
+          13709722717,
+          13709722718,
+          13709722719,
+          13709722716
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2582641,
+              37.8728227
+            ],
+            [
+              -122.2582456,
+              37.8727714
+            ],
+            [
+              -122.2582151,
+              37.8727783
+            ],
+            [
+              -122.2582332,
+              37.8728297
+            ],
+            [
+              -122.2582641,
+              37.8728227
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1496772928,
+        "tags": {
+          "amenity": "parking_space",
+          "parking_space": "disabled"
+        },
+        "nodes": [
+          13709722720,
+          13709722721,
+          13709722722,
+          13709722723,
+          13709722720
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2580836,
+              37.8728634
+            ],
+            [
+              -122.2580649,
+              37.8728121
+            ],
+            [
+              -122.2580365,
+              37.8728185
+            ],
+            [
+              -122.2580552,
+              37.8728697
+            ],
+            [
+              -122.2580836,
+              37.8728634
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1496772929,
+        "tags": {
+          "amenity": "parking_space",
+          "parking_space": "disabled"
+        },
+        "nodes": [
+          13709722724,
+          13709722725,
+          13709722717,
+          13709722716,
+          13709722724
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2582947,
+              37.8728158
+            ],
+            [
+              -122.2582762,
+              37.8727645
+            ],
+            [
+              -122.2582456,
+              37.8727714
+            ],
+            [
+              -122.2582641,
+              37.8728227
+            ],
+            [
+              -122.2582947,
+              37.8728158
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1497165137,
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "capacity": "20",
+          "capacity:disabled": "1",
+          "operator": "UC Berkeley"
+        },
+        "nodes": [
+          13712274716,
+          13712274717,
+          13712274718,
+          13712274719,
+          13712274720,
+          13712274721,
+          13712274716
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2569955,
+              37.8666617
+            ],
+            [
+              -122.2567736,
+              37.866692
+            ],
+            [
+              -122.2567204,
+              37.8664498
+            ],
+            [
+              -122.256912,
+              37.8664235
+            ],
+            [
+              -122.2569198,
+              37.8664592
+            ],
+            [
+              -122.2569501,
+              37.8664551
+            ],
+            [
+              -122.2569955,
+              37.8666617
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1500943794,
+        "tags": {
+          "landuse": "construction",
+          "name": "ArtHaus Ellsworth"
+        },
+        "nodes": [
+          13741479266,
+          13741479265,
+          13741479264,
+          13741479263,
+          13741479262,
+          13741479261,
+          2196215595,
+          6298797040,
+          13741479266
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2640788,
+              37.8675521
+            ],
+            [
+              -122.2637225,
+              37.8675986
+            ],
+            [
+              -122.2636398,
+              37.867609
+            ],
+            [
+              -122.2637451,
+              37.8680999
+            ],
+            [
+              -122.2641858,
+              37.8680441
+            ],
+            [
+              -122.2641768,
+              37.8679989
+            ],
+            [
+              -122.2641741,
+              37.8679855
+            ],
+            [
+              -122.2641353,
+              37.8678128
+            ],
+            [
+              -122.2640788,
+              37.8675521
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1500943799,
+        "tags": {
+          "landuse": "construction",
+          "name": "Bancroft Fulton Student Housing",
+          "website": "https://capitalstrategies.berkeley.edu/Bancroft-Fulton"
+        },
+        "nodes": [
+          13741479280,
+          13741479279,
+          6533395815,
+          6533395818,
+          13741479278,
+          13741479268,
+          13741479267,
+          13741479274,
+          13741479280
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2653598,
+              37.8678848
+            ],
+            [
+              -122.2659472,
+              37.8678102
+            ],
+            [
+              -122.265934,
+              37.8677468
+            ],
+            [
+              -122.2657977,
+              37.8670755
+            ],
+            [
+              -122.2657916,
+              37.8670447
+            ],
+            [
+              -122.2656662,
+              37.8670282
+            ],
+            [
+              -122.2651893,
+              37.8670839
+            ],
+            [
+              -122.2653516,
+              37.8678464
+            ],
+            [
+              -122.2653598,
+              37.8678848
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "type": "relation",
         "id": 1548418,
         "tags": {
@@ -443679,7 +445360,8 @@
           "name": "Hearst Memorial Gymnasium",
           "source": "USGS Geonames",
           "sport": "swimming",
-          "type": "multipolygon"
+          "type": "multipolygon",
+          "wikidata": "Q123279454"
         }
       },
       "geometry": {
@@ -444945,8 +446627,8 @@
           [
             [
               [
-                -122.2640166,
-                37.8672649
+                -122.2640788,
+                37.8675521
               ],
               [
                 -122.2641353,
@@ -444967,6 +446649,10 @@
               [
                 -122.2640166,
                 37.8672649
+              ],
+              [
+                -122.2640788,
+                37.8675521
               ]
             ]
           ],
@@ -445449,8 +447135,12 @@
                 37.8625812
               ],
               [
-                -122.2457588,
-                37.8626508
+                -122.2457578,
+                37.8626529
+              ],
+              [
+                -122.2456588,
+                37.8626529
               ],
               [
                 -122.2455558,
@@ -451027,7 +452717,8 @@
           "opening_hours": "Mo,Fr-Su 10:00-18:00; Tu-We 10:00-20:00; Th 12:00-20:00",
           "operator": "City of Berkeley",
           "type": "multipolygon",
-          "website": "https://www.berkeleypubliclibrary.org/locations/south-branch"
+          "website": "https://www.berkeleypubliclibrary.org/locations/south-branch",
+          "wikidata": "Q66157559"
         }
       },
       "geometry": {
@@ -454204,20 +455895,20 @@
                 37.8656975
               ],
               [
+                -122.3088463,
+                37.8657602
+              ],
+              [
                 -122.3085688,
                 37.8657985
               ],
               [
-                -122.3065735,
-                37.8661998
+                -122.3066089,
+                37.8662503
               ],
               [
-                -122.3061941,
-                37.8662808
-              ],
-              [
-                -122.3060098,
-                37.866331
+                -122.3061779,
+                37.8663392
               ],
               [
                 -122.3056952,
