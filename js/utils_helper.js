@@ -19,11 +19,11 @@ const streetArray = [
 	"63rd",
 	"65th",
 	"66th",
-	"67th",	
-	
+	"67th",
+
 	"I80\|80",
 	"NOT I80\|^(?!.*80).*$",
-	
+
 	"Acacia",
 	"Acroft",
 	"Acton\|Action",
@@ -233,7 +233,7 @@ const streetArray = [
 	"Hopkins",
 	"Horseshoe Driveway",
 	"Hospital",
-	"Howe",	"I80\|80",
+	"Howe", "I80\|80",
 	"NOT I80\|^(?!.*80).*$",
 	"Idaho",
 	"Indian Rock",
@@ -492,5 +492,12 @@ const streetArray = [
 	"Yolo",
 	"Yosemite"];
 
+function say(something) {
+	let utterance = new SpeechSynthesisUtterance(something);
+	speechSynthesis.speak(utterance);
 
-export { getJson, streetArray };
+	
+	
+}
+
+export { getJson, streetArray, say };

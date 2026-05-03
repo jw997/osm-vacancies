@@ -1,4 +1,18 @@
-import { getJson } from "./utils_helper.js";
+import { getJson, say } from "./utils_helper.js";
+
+/*
+const voices = speechSynthesis.getVoices().filter( v => (v.lang == 'en'));
+
+for (const voice of voices) {
+
+	
+	const utterThis = new SpeechSynthesisUtterance('testing 1 2 3');
+	utterThis.voice = voice
+
+	speechSynthesis.speak(utterThis);
+}*/
+
+
 
 // touch or mouse?
 let mql = window.matchMedia("(pointer: fine)");
@@ -90,7 +104,7 @@ const grey = "#101010";
 "shop", "vacant", "land"
 function getOptionsForMarker(markerType) {
 	var colorValue;
-	var rad = 3;
+	var rad = 6;
 	var opa = 0.5;
 
 	switch (markerType) {
@@ -100,7 +114,7 @@ function getOptionsForMarker(markerType) {
 
 		case 'vacant':
 			colorValue = w3_highway_red;
-			rad = 3;
+			//rad = 10;
 			opa = 1;
 			break;
 
@@ -108,18 +122,6 @@ function getOptionsForMarker(markerType) {
 			colorValue = w3_highway_brown;
 			opa = 1;
 			break;
-		/*	case "Serious Injury":
-		colorValue = w3_highway_orange;
-		rad = 3;
-		opa = 1;
-		break;*/
-		/*		case "Possible Injury":
-					colorValue = w3_highway_yellow;
-					break;
-				
-				case "Unspecified Injury":
-					colorValue = violet;
-					break;*/
 		default:
 			console.error("Unexpected market type ", markerType);
 	}
@@ -217,7 +219,7 @@ var temescalTurfPolygon = turf.polygon(temescalGeoJson.features[0].geometry.coor
 var valenciaTurfPolygon = turf.polygon(valenciaGeoJson.features[0].geometry.coordinates);
 
 
-var dataFileName = './data/osm' +  selectData.value + 'geojson';
+var dataFileName = './data/osm' + selectData.value + 'geojson';
 
 const mapFileNameToJsonData = new Map();
 
@@ -227,9 +229,9 @@ async function getOsmGeoJsonData(dataFileName) {
 
 	if (!mapFileNameToJsonData.has(dataFileName)) {
 		const data = await getJson(dataFileName);
-		mapFileNameToJsonData.set( dataFileName, data);
+		mapFileNameToJsonData.set(dataFileName, data);
 	}
-	const retval = mapFileNameToJsonData.get( dataFileName);
+	const retval = mapFileNameToJsonData.get(dataFileName);
 	return retval;
 }
 
@@ -237,10 +239,10 @@ async function getOsmGeoJsonData(dataFileName) {
 var osmGeoJson = await getOsmGeoJsonData(dataFileName);
 
 selectData.addEventListener("change", async (event) => {
-	dataFileName = './data/osm' +  selectData.value + 'geojson';
-	
+	dataFileName = './data/osm' + selectData.value + 'geojson';
+
 	osmGeoJson = await getOsmGeoJsonData(dataFileName);
-  });
+});
 
 //console.log("Read ", osmShopJson.elements.length);
 
@@ -264,8 +266,10 @@ const popupFields = [
 	'disused:office',
 	'disused:healthcare'
 ];
-function nodePopup(tags) {
-	var msg = "";
+const BR = '<br>';
+
+function nodePopup(type, id, tags) {
+	var msg = "" + type + ':' + id + BR;
 
 	for (const k of popupFields) {
 		const v = tags[k];
@@ -273,12 +277,44 @@ function nodePopup(tags) {
 			msg += (k + ': ' + v + '<br>');
 		}
 	}
-	if (msg == '') {
-		msg = tags;
-		console.log("missed popup ", msg);
-	}
+
 	return msg;
 }
+
+function spellitout( number ) {
+	const str = '' + number;
+	//const re = /./;
+	const arr = str.split('')
+	const retval = arr.join(' ');
+	return retval;
+}
+function spokenMsg(bVacant, bShop, bLand, tags) {
+	var msg = '';
+	if (bVacant) {
+		msg += 'Vacant'
+	}
+	if (bLand) {
+		msg += 'Land'
+	}
+	if (bShop) {
+		msg += 'Active'
+	}
+
+	if (tags.name) {
+		msg += ' ' + tags.name + ' ';
+
+	}
+	const num = tags['addr:housenumber'];
+	const st = tags['addr:street'];
+
+	if (num && st) {
+		msg += ' ' + spellitout(num) + ' ' + st + ' ';
+	}
+	console.log("spoken msg ", msg)
+	return msg;
+}
+
+
 
 var map;
 
@@ -293,6 +329,8 @@ function createMap() {
 	});
 	// Add OSM tile layer to the Leaflet map.
 	L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+		maxNativeZoom:19,
+        maxZoom:21,
 		attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 	}).addTo(map);
 	// Target's GPS coordinates.
@@ -499,7 +537,7 @@ function isVacant(tags) {
 		bRetval = true;
 	}
 
-	if (tags['disused:amenity'] && isShopLikeAmenity(tags['disused:amenity']) ) {
+	if (tags['disused:amenity'] && isShopLikeAmenity(tags['disused:amenity'])) {
 		bRetval = true;
 	}
 	if (tags['disused:leisure'] && isShopLikeAmenity(tags['disused:leisure'])) {
@@ -576,7 +614,7 @@ function checkGeoFilter(tp) {
 			retval = true;
 		}
 	}
-	
+
 	if (checkDowntown.checked) {
 		if (turf.booleanPointInPolygon(tp, downtownTurfPolygon)) {
 			retval = true;
@@ -703,17 +741,6 @@ function addMarkers(osmJson,
 	filterShop,
 	filterVacant,
 	filterLand
-	/*filterAmenity,
-
-	filterDisusedShop,
-	filterDisusedAmenity,
-
-	filterOtherAmenity*/
-	/*, tsSet, histYearData, histHourData, histFaultData, histAgeInjuryData,
-	vehTypeRegExp,
-	filter2024, filter2023, filter2022, filter2021, filter2020,
-	filter2019, filter2018, filter2017, filter2016, filter2015,
-	selectStreet, selectSeverity, selectStopResult*/
 
 ) {
 	//removeAllMakers();
@@ -725,11 +752,14 @@ function addMarkers(osmJson,
 	var arrMappedOsmItems = [];
 
 	for (const osmItem of osmJson.features) {
-		//const attr = osmItem.elements; 
-		//const tags = osmItem.tags;
-		//	console.log(tags)
 
 		const tags = osmItem.properties.tags;
+		const bWay = (osmItem.properties.type == 'way');
+		const bNode = (osmItem.properties.type == 'node');
+		const bRelation = (osmItem.properties.type == 'relation');
+
+		const type = osmItem.properties.type;
+		const id = osmItem.properties.id;
 
 		if (!tags) {
 			//console.log("no tags")
@@ -772,59 +802,7 @@ function addMarkers(osmJson,
 		//	arrMappedOsmItems.push(tags); // add to array for export function
 
 		// ADD NEW CHART
-		//histData.set(attr.Year, histData.get(attr.Year) + 1);
-		//incrementMapKey(histYearData, attr.Year);
-		/*
-				if (!attr.Hour) {
-					//console.log("Undefined hour " , attr.Case_Number);
-					// try to set it from time
-					attr.Hour = parseInt(attr.Time.substr(0, 2));
-				}
-				const hour = 3 * Math.floor(attr.Hour / 3);
-				//console.log ( "Hour is " , attr.Hour, ' ' , attr.Case_Number);
-				incrementMapKey(histHourData, hour);
-		
-				if (isStopAttr(attr)) {
-					incrementMapKey(histStopResultData, getStopResultCategory(attr.Result_of_Stop));
-				}
-		
-				if (!isStopAttr(attr)) {
-					//histFaultData.set(attr.Party_at_Fault, histFaultData.get(attr.Party_at_Fault) + 1);
-					incrementMapKey(histFaultData, attr.Party_at_Fault);
-					//histSeverityData.set(attr.Injury_Severity, histSeverityData.get(attr.Injury_Severity) + 1);
-					incrementMapKey(histSeverityData, attr.Injury_Severity);
-					for (const v of arrObjectKeys) {
-						if (attr.Involved_Objects.includes(v)) {
-		
-							histObjectData.set(v, histObjectData.get(v) + 1);
-						}
-					}
-		
-					//histAgeInjuryData
-					const ageStr = attr.Injury_Ages;
-					if (ageStr) {
-						// split 
-						const ages = ageStr.split("/");
-						for (const a of ages) {
-							const k = 10 * Math.floor(a / 10);
-							incrementMapKey(histAgeInjuryData, k);
-						}
-					}
-				}
-				/*
-						if (!(attr.Latitude && attr.Longitude)) {
-							// try to get it from the map
-							const matchingLocalReport = mapLocalCaseIDToAttr.get(attr.Local_Report_Number);
-							if (matchingLocalReport) {
-								attr.Latitude = matchingLocalReport.Latitude;
-								attr.Longitude = matchingLocalReport.Longitude;
-								//console.log("Fixed GPS for ", attr.Local_Report_Number);
-							} else {
-								console.log("Failed to fix GPS for ", attr.Local_Report_Number);
-							}
-						}*/
-		// if lat  or long is missing, try the linked coll record
-		//var lat = osmItem.lat;
+
 		const point = getPointFromeature(osmItem);
 
 		const lat = point[1];
@@ -868,19 +846,28 @@ function addMarkers(osmJson,
 				L.geoJSON(osmItem, opt).addTo(map);
 			}
 
-			var marker = L.circleMarker([lat, long], opt);
-
-
-			var msg = nodePopup(tags)
-
-
-			if (pointerFine) {
-
-				//marker.bindTooltip(msg).openTooltip(); can copy from tooltip!
-				marker.bindPopup(msg).openPopup();
-			} else {
-				marker.bindPopup(msg).openPopup();
+			var marker;
+			if (bNode) {
+				 marker = L.circleMarker([lat, long], opt);
 			}
+			if (bWay || bRelation) {
+				marker = L.geoJSON(osmItem,opt )
+			}
+
+			var msg = nodePopup(type, id, tags)
+
+			var msgSpoken = spokenMsg(bVacant, bShop, bLand, tags);
+
+			const popup = L.popup().setContent(msg);
+			popup.speech = msgSpoken;
+			
+
+			marker.bindPopup(popup).openPopup().on("popupopen", function (event) {
+				//console.log("popup open event ", event.target.rt, event.target.tripid)
+				//say(    event.popup.speech )
+
+			});
+
 
 			marker.addTo(map);
 			markers.push(marker);
