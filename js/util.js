@@ -840,19 +840,22 @@ function addMarkers(osmJson,
 			if (bVacant) {
 				opt = getOptionsForMarker('vacant');
 			}
+			var marker;
 			if (bLand) {
 				opt = getOptionsForMarker('land');
 				opt.fillOpacity = .3
-				L.geoJSON(osmItem, opt).addTo(map);
+				marker = L.geoJSON(osmItem, opt).addTo(map);
+			} else {
+				marker = L.circleMarker([lat, long], opt);
 			}
 
-			var marker;
+			/*
 			if (bNode) {
 				 marker = L.circleMarker([lat, long], opt);
 			}
 			if (bWay || bRelation) {
 				marker = L.geoJSON(osmItem,opt )
-			}
+			}*/
 
 			var msg = nodePopup(type, id, tags)
 
