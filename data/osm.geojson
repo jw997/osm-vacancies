@@ -3939,10 +3939,10 @@
         "id": 342742766,
         "tags": {
           "addr:city": "Berkeley",
-          "addr:housenumber": "2163",
-          "addr:postcode": "94704",
+          "addr:housenumber": "1950",
           "addr:state": "CA",
-          "addr:street": "University Avenue",
+          "addr:street": "Oxford Street",
+          "addr:unit": "F",
           "amenity": "fast_food",
           "brand": "Shake Shack",
           "brand:wikidata": "Q1058722",
@@ -3954,8 +3954,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2667506,
-          37.8725261
+          -122.266749,
+          37.8725514
         ]
       }
     },
@@ -4377,10 +4377,10 @@
         "type": "node",
         "id": 343610936,
         "tags": {
+          "amenity": "restaurant",
           "cuisine": "vietnamese",
           "diet:vegan": "no",
           "diet:vegetarian": "yes",
-          "disused:amenity": "restaurant",
           "indoor_seating": "yes",
           "name": "Vanessa's Bistro",
           "outdoor_seating": "yes",
@@ -4512,7 +4512,7 @@
           "operator": "Akemi",
           "outdoor_seating": "yes",
           "phone": "+1-510-524-1286",
-          "website": "http://www.akemiberkeley.com",
+          "website": "https://www.akemiberkeley.com",
           "wheelchair": "yes"
         }
       },
@@ -4674,6 +4674,9 @@
         "type": "node",
         "id": 343610950,
         "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1563",
+          "addr:street": "Solano Avenue",
           "name": "Ritual Tattoo",
           "shop": "tattoo",
           "website": "https://ritualtat.com/"
@@ -4693,6 +4696,8 @@
         "type": "node",
         "id": 343610951,
         "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1561",
           "addr:street": "Solano Avenue",
           "alt_name": "Taqueria Talavera",
           "amenity": "restaurant",
@@ -4802,8 +4807,14 @@
         "type": "node",
         "id": 343611046,
         "tags": {
-          "disused:amenity": "pharmacy",
-          "old_name": "Pharmaca"
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1744",
+          "addr:street": "Solano Avenue",
+          "amenity": "school",
+          "name": "Dancing Paintbrush Studio",
+          "old_name": "Pharmaca",
+          "training": "art",
+          "website": "https://dancingpaintbrushstudio.com/"
         }
       },
       "geometry": {
@@ -6100,7 +6111,7 @@
           "name": "Blondie's Pizza",
           "old_name": "Abe's Pizza",
           "opening_hours": "Mo-Su 10:00- 00:00",
-          "website": "http://www.abespizza.com/bk-store.html"
+          "website": "https://www.abespizza.com/bk-store.html"
         }
       },
       "geometry": {
@@ -6163,7 +6174,7 @@
           "check_date": "2023-06-11",
           "disused:amenity": "restaurant",
           "name": "Muracci's",
-          "website": "http://www.muraccis.com/berkeley/"
+          "website": "https://www.muraccis.com/berkeley/"
         }
       },
       "geometry": {
@@ -6592,7 +6603,7 @@
           "disused": "yes",
           "disused:amenity": "restaurant",
           "name": "Tuk Tuk Thai Cafe",
-          "website": "http://www.ordertuktuk.com/"
+          "website": "https://www.ordertuktuk.com/"
         }
       },
       "geometry": {
@@ -7027,7 +7038,7 @@
           "opening_hours": "Tu-Sa 11:30-22:00; Su 11:30-20:00",
           "outdoor_seating": "yes",
           "phone": "+1-510-5932376",
-          "website": "http://www.hawkingbird.com/",
+          "website": "https://www.hawkingbird.com/",
           "wheelchair": "yes"
         }
       },
@@ -7921,7 +7932,7 @@
           "name": "Elmwood Stationery",
           "opening_hours": "Mo-Sa 10:00-18:00; Su 12:00-17:00",
           "shop": "stationery",
-          "website": "http://www.elmwoodstationers.com/"
+          "website": "https://elmwoodstationers.com/"
         }
       },
       "geometry": {
@@ -11810,11 +11821,20 @@
         "type": "node",
         "id": 1395461505,
         "tags": {
+          "addr:city": "Berkeley",
           "addr:housenumber": "2904",
+          "addr:postcode": "94705",
+          "addr:state": "CA",
           "addr:street": "College Avenue",
           "check_date": "2023-06-11",
+          "contact:facebook": "https://www.facebook.com/mrsdalloways",
+          "contact:instagram": "https://www.instagram.com/mrsdalloways",
+          "email": "info@mrsdalloways.com",
           "name": "Mrs. Dalloway's",
+          "opening_hours": "Mo-Sa 10:00-18-00; Su 10:00-17:00",
+          "phone": "+1-510-704-8222",
           "shop": "books",
+          "website": "https://mrsdalloways.com/",
           "wheelchair": "yes"
         }
       },
@@ -17515,7 +17535,7 @@
           "outdoor_seating": "yes",
           "payment:cash": "yes",
           "payment:credit_cards": "yes",
-          "phone": "+1 (510) 982-1905",
+          "phone": "+1-510-982-1905",
           "website": "https://waystationbrew.square.site/"
         }
       },
@@ -17723,7 +17743,7 @@
           "opening_hours": "Mo-Sa 11:00-18:00; Su 12:00-17:00",
           "phone": "+1 510 5263530",
           "shop": "clothes",
-          "website": "http://stores.thenorthface.com/CA/BERKELEY/USA60/"
+          "website": "https://stores.thenorthface.com/CA/BERKELEY/USA60/"
         }
       },
       "geometry": {
@@ -19977,7 +19997,7 @@
           "cuisine": "tibetan",
           "name": "Cafe Tibet",
           "opening_hours": "Mo, We-Su 17:00-22:00; Mo, We-Fr 11:30-14:30",
-          "website": "http://cafetibetberkeley.com/"
+          "website": "https://cafetibetberkeley.com/"
         }
       },
       "geometry": {
@@ -21036,9 +21056,9 @@
           "addr:housenumber": "1923",
           "addr:state": "CA",
           "addr:street": "University Avenue",
-          "amenity": "restaurant",
           "contact:instagram": "masaramenbistro",
           "cuisine": "ramen",
+          "disused:amenity": "restaurant",
           "name": "Masa",
           "opening_hours": "Tu-Su 11:30-14:30, 17:00-21:00",
           "website": "https://www.toasttab.com/masaramenbistro"
@@ -21070,7 +21090,7 @@
           "name": "Udupi Palace",
           "opening_hours": "Mo, We-Su 11:30-21:00",
           "phone": "+1-510-843-6600",
-          "website": "http://www.udupipalaceberkeleyca.com/"
+          "website": "https://www.udupipalaceberkeleyca.com/"
         }
       },
       "geometry": {
@@ -24098,6 +24118,7 @@
         "type": "node",
         "id": 2580394138,
         "tags": {
+          "addr:housenumber": "1553",
           "name": "Copy Central",
           "opening_hours": "Mo-Fr 09:00-18:00; Sa 10:00-15:00",
           "shop": "copyshop",
@@ -24602,7 +24623,7 @@
           "name": "Off the Grid",
           "opening_hours": "Su 17:00 - 20:00",
           "opening_hours:signed": "no",
-          "website": "http://offthegridsf.com/"
+          "website": "https://offthegridsf.com/"
         }
       },
       "geometry": {
@@ -30240,7 +30261,7 @@
         "tags": {
           "amenity": "restaurant",
           "cuisine": "mexican",
-          "name": "Regalito"
+          "name": "El Mil Amores"
         }
       },
       "geometry": {
@@ -30570,6 +30591,9 @@
         "type": "node",
         "id": 4193070049,
         "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1573",
+          "addr:street": "Solano Avenue",
           "alt_name": "Rose Oriental Rug Cleaning and Repair",
           "amenity": "carpet_washing",
           "name": "Rose Oriental Rugs",
@@ -32836,8 +32860,12 @@
         "type": "node",
         "id": 4757358257,
         "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1569",
+          "addr:street": "Solano Avenue",
           "amenity": "post_office",
           "brand": "The UPS Store",
+          "brand:short": "UPS",
           "brand:wikidata": "Q7771029",
           "name": "The UPS Store",
           "operator": "The UPS Store",
@@ -35088,8 +35116,9 @@
         "id": 6072182685,
         "tags": {
           "addr:street": "Fifth Street",
+          "check_date": "2026-05-07",
           "contact:instagram": "culturedpickleshop",
-          "name": "Pickle Shop",
+          "name": "Cultured Pickle Shop",
           "shop": "greengrocer",
           "website": "https://www.culturedpickleshop.com/"
         }
@@ -37435,11 +37464,12 @@
         "type": "node",
         "id": 6659223659,
         "tags": {
+          "addr:city": "Berkeley",
           "addr:housenumber": "2830",
           "addr:street": "Seventh Street",
-          "disused:shop": "furniture",
           "name": "Berkeley mills",
           "phone": "+1-510-549-2854",
+          "shop": "furniture",
           "website": "https://berkeleymills.com/"
         }
       },
@@ -40560,8 +40590,10 @@
         "type": "node",
         "id": 7205915090,
         "tags": {
-          "name": "Henry's service",
-          "shop": "car_repair"
+          "addr:housenumber": "1321",
+          "addr:street": "Gilman Street",
+          "disused:shop": "car_repair",
+          "name": "Henry's service"
         }
       },
       "geometry": {
@@ -40605,6 +40637,9 @@
         "type": "node",
         "id": 7208055958,
         "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1609",
+          "addr:street": "Solano Avenue",
           "alt_name": "Up Town Cleaners",
           "name": "Uptown Cleaners",
           "opening_hours": "Mo-Sa 09:30-17:00",
@@ -40626,6 +40661,8 @@
         "type": "node",
         "id": 7208055960,
         "tags": {
+          "addr:housenumber": "1605",
+          "addr:street": "Solano Avenue",
           "name": "Sundhari Holistic Spa",
           "opening_hours": "Th-Su 11:00-19:00",
           "phone": "+1-510-684-0956",
@@ -40637,8 +40674,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2844682,
-          37.8912732
+          -122.2844578,
+          37.8912769
         ]
       }
     },
@@ -40666,10 +40703,14 @@
         "type": "node",
         "id": 7208055965,
         "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1579",
+          "addr:street": "Solano Avenue",
+          "addr:unit": "B",
           "name": "Sticks Framing",
           "opening_hours": "We-Sa 11:00-17:00",
           "shop": "frame",
-          "website": "http://www.sticksframing.com/"
+          "website": "https://www.sticksframing.com/"
         }
       },
       "geometry": {
@@ -40686,8 +40727,13 @@
         "type": "node",
         "id": 7208055966,
         "tags": {
-          "name": "District Homes",
-          "office": "estate_agent"
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1577",
+          "addr:street": "Solano Avenue",
+          "brand": "CrossCountry Mortgage",
+          "brand:wikidata": "Q122432130",
+          "name": "CrossCountry Mortgage",
+          "office": "mortgage"
         }
       },
       "geometry": {
@@ -40705,6 +40751,7 @@
         "id": 7208055977,
         "tags": {
           "addr:city": "Berkeley",
+          "addr:housenumber": "1551",
           "addr:street": "Solano Avenue",
           "name": "Kathmandu Imports",
           "shop": "gift",
@@ -40725,6 +40772,7 @@
         "type": "node",
         "id": 7208055978,
         "tags": {
+          "addr:housenumber": "1547",
           "addr:street": "Solano Avenue",
           "name": "Solano Hair Design",
           "opening_hours": "Mo, Tu, Th-Sa 09:00-17:00",
@@ -40748,12 +40796,11 @@
         "id": 7208055980,
         "tags": {
           "addr:city": "Berkeley",
+          "addr:housenumber": "1545",
           "addr:street": "Solano Avenue",
-          "alt_name": "Chloe's Closet Recycled Children's Clothing & Toys",
-          "disused:shop": "clothes",
-          "name": "Chloe's Closet",
+          "name": "Custom Framing",
           "second_hand": "yes",
-          "website": "https://chloescloset.com/"
+          "shop": "frame"
         }
       },
       "geometry": {
@@ -43204,7 +43251,7 @@
           "addr:street": "College Avenue",
           "name": "J. Brooker",
           "shop": "hairdresser",
-          "website": "http://jbrookerstudio.com/"
+          "website": "https://jbrookerstudio.com/"
         }
       },
       "geometry": {
@@ -48747,9 +48794,10 @@
         "tags": {
           "addr:city": "Berkeley",
           "addr:country": "US",
-          "addr:housenumber": "1759A",
+          "addr:housenumber": "1579",
           "addr:state": "CA",
           "addr:street": "Solano Avenue",
+          "addr:unit": "A",
           "alt_name": "Fill good",
           "contact:facebook": "fillgood.co",
           "contact:instagram": "fillgood.co",
@@ -48827,13 +48875,9 @@
           "addr:postcode": "94707",
           "addr:state": "CA",
           "addr:street": "Solano Avenue",
-          "contact:facebook": "https://m.facebook.com/artthougraphics/",
-          "disused:shop": "yes",
-          "fee": "no",
-          "name": "Art Thou",
-          "opening_hours": "We-Sa 10:00-14:00",
-          "phone": "+1-510-525-7779",
-          "website": "https://www.theartthougallery.com/"
+          "name": "Finding Vettey",
+          "shop": "art",
+          "website": "https://www.findingvettey.com"
         }
       },
       "geometry": {
@@ -50038,7 +50082,7 @@
           "addr:street": "University Avenue",
           "name": "Arkay foundation",
           "office": "company",
-          "website": "http://www.arkayfoundation.org/",
+          "website": "https://www.arkayfoundation.org/",
           "wikidata": "Q30270860"
         }
       },
@@ -56674,7 +56718,7 @@
           "description": "preschool",
           "name": "Woolly mammoth",
           "phone": "+1 510-548-4779",
-          "website": "http://www.woollymammothpreschool.com/"
+          "website": "https://www.woollymammothpreschool.com/"
         }
       },
       "geometry": {
@@ -56924,7 +56968,7 @@
         "tags": {
           "leisure": "horse_riding",
           "name": "Ed Mogerracing Stable",
-          "website": "http://mogerracing.com/"
+          "website": "https://www.mogerracing.com/"
         }
       },
       "geometry": {
@@ -62991,7 +63035,7 @@
           "name": "Studio Six Jewelers",
           "phone": "+1-510-459-4073",
           "shop": "jewelry",
-          "website": "http://studio-six-jewelers.keeq.io/"
+          "website": "https://studio-six-jewelers.keeq.io/"
         }
       },
       "geometry": {
@@ -74605,7 +74649,7 @@
           "name": "Strong Island Fitness",
           "phone": "+1 510 2805853",
           "sport": "fitness",
-          "website": "www.strongislandfitness.com",
+          "website": "https://www.strongislandfitness.com/",
           "wheelchair": "yes"
         }
       },
@@ -94187,8 +94231,9 @@
           "addr:postcode": "94707",
           "addr:state": "CA",
           "addr:street": "The Alameda",
-          "disused:shop": "art",
-          "name": "The Art Box"
+          "name": "Slow Living Supply",
+          "shop": "antiques",
+          "website": "https://www.slowlivingsupply.co/"
         }
       },
       "geometry": {
@@ -114105,7 +114150,7 @@
           "addr:street": "College Avenue",
           "name": "Maybeck High School",
           "office": "educational_institution",
-          "website": "http://www.maybeckhs.org/"
+          "website": "https://www.maybeckhs.org/"
         }
       },
       "geometry": {
@@ -114160,6 +114205,77 @@
         "coordinates": [
           -122.2523226,
           37.860988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13804125535,
+        "tags": {
+          "amenity": "post_box",
+          "collection_times": "Mo-Fr 09:45-17:00; Sa 09:45-16:15",
+          "drive_through": "no",
+          "name": "Postal Box",
+          "operator": "United States Postal Service",
+          "operator:short": "USPS",
+          "operator:type": "public",
+          "operator:website": "https://www.usps.com",
+          "operator:wikidata": "Q668687",
+          "operator:wikipedia": "en:United States Postal Service",
+          "ref": "9411000102",
+          "short_name": "USPS"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4207594,
+          37.7569941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13809970492,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1603",
+          "addr:street": "Solano Avenue",
+          "name": "Eye to Eye",
+          "shop": "optician",
+          "website": "https://eytoeyeglasses.wordpress.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2844937,
+          37.8912586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13809970493,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1607",
+          "addr:street": "Solano Avenue",
+          "leisure": "fitness_centre",
+          "name": "Rowing Strength"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2844231,
+          37.8912965
         ]
       }
     },
@@ -145201,7 +145317,7 @@
           "religion": "christian",
           "service_times": "Su, Sa 10:00",
           "start_date": "1950",
-          "website": "http://stjohnthebaptistberkeley.org/",
+          "website": "https://stjohnthebaptistberkeley.org/",
           "wheelchair": "yes"
         },
         "nodes": [
@@ -207989,7 +208105,7 @@
           "old_name": "Saint John's Presbyterian Church",
           "source": "USGS Geonames",
           "survey:date": "2014-12-22",
-          "website": "http://berkeleyplayhouse.org/"
+          "website": "https://berkeleyplayhouse.org/"
         },
         "nodes": [
           4283825011,
@@ -236514,7 +236630,7 @@
           "building:levels": "1",
           "craft": "bakery",
           "name": "Acme Bread",
-          "website": "http://acmebread.com/"
+          "website": "https://www.acmebread.com/"
         },
         "nodes": [
           4687103848,
@@ -259979,7 +260095,7 @@
           "leisure": "sports_centre",
           "name": "Berkeley Lawn Bowling Club",
           "sport": "lawn_bowling",
-          "website": "http://www.berkeleylawnbowling.org/"
+          "website": "https://www.berkeleylawnbowling.org/"
         },
         "nodes": [
           6353997533,
@@ -272011,7 +272127,7 @@
           "disused:amenity": "kindergarten",
           "landuse": "institutional",
           "name": "Woolly Mammoth",
-          "website": "http://www.woollymammothpreschool.com/"
+          "website": "https://www.woollymammothpreschool.com/"
         },
         "nodes": [
           7125420286,
