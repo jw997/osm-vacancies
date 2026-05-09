@@ -328,7 +328,7 @@ function createMap() {
 		preferCanvas: true
 	});
 	// Add OSM tile layer to the Leaflet map.
-	L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+	L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 		maxNativeZoom:19,
         maxZoom:21,
 		attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
