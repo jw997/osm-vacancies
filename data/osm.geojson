@@ -5712,9 +5712,10 @@
           "addr:state": "CA",
           "addr:street": "Solano Avenue",
           "amenity": "post_office",
+          "check_date": "2026-06-11",
           "ele": "67",
           "gnis:feature_id": "1676018",
-          "name": "Landscape Station Berkeley Post Office",
+          "name": "Landscape Post Office",
           "operator": "United States Postal Service",
           "operator:short": "USPS",
           "operator:type": "public",
@@ -5723,7 +5724,7 @@
           "operator:wikipedia": "en:United States Postal Service",
           "phone": "+1-510-649-6717",
           "short_name": "USPS",
-          "website": "https://tools.usps.com/find-location.htm?location=1369807"
+          "website": "https://tools.usps.com/locations/details/1369807"
         }
       },
       "geometry": {
@@ -5741,14 +5742,16 @@
         "id": 358817928,
         "tags": {
           "amenity": "post_office",
+          "check_date": "2026-06-11",
           "ele": "77",
           "gnis:feature_id": "1676025",
-          "name": "North Berkeley Station Berkeley Post Office",
+          "name": "North Berkeley Post Office",
           "opening_hours": "Mo-Fr 09:00-17:00",
           "operator": "United States Postal Service",
           "operator:short": "USPS",
           "operator:type": "public",
-          "operator:wikidata": "Q668687"
+          "operator:wikidata": "Q668687",
+          "website": "https://tools.usps.com/locations/details/1375260"
         }
       },
       "geometry": {
@@ -6128,7 +6131,10 @@
         "type": "node",
         "id": 366088651,
         "tags": {
+          "addr:housenumber": "2438",
+          "addr:street": "Telegraph Avenue",
           "amenity": "pub",
+          "check_date": "2026-06-05",
           "contact:instagram": "https://www.instagram.com/raleighs_pub_berkeley/",
           "name": "Raleigh's Pub",
           "phone": "+1-510-280-5319",
@@ -6149,10 +6155,16 @@
         "type": "node",
         "id": 366088655,
         "tags": {
+          "addr:housenumber": "2442",
+          "addr:street": "Telegraph Avenue",
           "amenity": "cafe",
+          "check_date": "2026-06-05",
+          "cuisine": "sandwich",
           "name": "Mezzo",
           "old_name": "Cafe Intermezzo",
-          "website": "https://www.mezzo-berkeley.com/"
+          "outdoor_seating": "no",
+          "website": "https://www.mezzo-berkeley.com/",
+          "wheelchair": "yes"
         }
       },
       "geometry": {
@@ -6945,6 +6957,7 @@
           "level": "0",
           "microbrewery": "no",
           "name": "Crepevine",
+          "opening_hours": "Mo-Su 08:00-21:00",
           "opening_hours:signed": "no",
           "outdoor_seating": "yes",
           "phone": "+1 510 7051836",
@@ -9174,7 +9187,7 @@
           "facebook": "https://facebook.com/GatherBerkeley",
           "instagram": "https://instagram.com/gatherberkeley",
           "name": "Gather",
-          "opening_hours": "We-Th 16:00-20:00; Fr 16:00-21:00; Sa 10:00-21:00; Su 10:00-20:00",
+          "opening_hours": "We-Fr 11:00-14:00, 16:00-20:30; Sa-Su 10:00-14:00, 16:00-20:30",
           "phone": "+1 510-809-0400",
           "website": "https://gatherberkeley.com",
           "wheelchair": "yes"
@@ -11839,12 +11852,12 @@
           "addr:postcode": "94705",
           "addr:state": "CA",
           "addr:street": "College Avenue",
-          "check_date": "2023-06-11",
+          "check_date": "2026-05-27",
           "contact:facebook": "https://www.facebook.com/mrsdalloways",
           "contact:instagram": "https://www.instagram.com/mrsdalloways",
           "email": "info@mrsdalloways.com",
           "name": "Mrs. Dalloway's",
-          "opening_hours": "Mo-Sa 10:00-18:00; Su 10:00-17:00",
+          "opening_hours": "Mo-Sa 10:00-18:00; Su 12:00-17:00",
           "phone": "+1-510-704-8222",
           "shop": "books",
           "website": "https://mrsdalloways.com/",
@@ -13755,29 +13768,6 @@
         "coordinates": [
           -122.2696639,
           37.8782363
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 1706578056,
-        "tags": {
-          "addr:city": "Berkeley",
-          "addr:country": "US",
-          "addr:housenumber": "1752",
-          "addr:postcode": "94709",
-          "addr:state": "CA",
-          "addr:street": "Shattuck Avenue",
-          "disused:shop": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.269145,
-          37.8753467
         ]
       }
     },
@@ -18922,29 +18912,6 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 2259555296,
-        "tags": {
-          "addr:city": "Berkeley",
-          "addr:housenumber": "2120",
-          "addr:state": "CA",
-          "addr:street": "Milvia Street",
-          "disused:name": "City of Berkeley Permit Service Center",
-          "disused:office": "government",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.2706815,
-          37.8701413
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
         "id": 2259555546,
         "tags": {
           "addr:city": "Berkeley",
@@ -21872,8 +21839,13 @@
         "id": 2427751968,
         "tags": {
           "amenity": "library",
-          "name": "Anthropology Library",
-          "operator": "University of California, Berkeley"
+          "internet_access": "wlan",
+          "level": "2",
+          "name": "Anthropology Reading Room",
+          "official_name": "Constance Chiang Pan Anthropology Reading Room",
+          "operator": "University of California, Berkeley - Anthropology Department",
+          "operator:type": "university",
+          "website": "https://anthropology.berkeley.edu/about/constance-chiang-pan-anthropology-reading-room"
         }
       },
       "geometry": {
@@ -23840,10 +23812,11 @@
           "addr:housenumber": "2948",
           "addr:street": "College Avenue",
           "amenity": "ice_cream",
+          "check_date": "2026-05-27",
           "diet:vegan": "yes",
           "name": "Humphry Slocombe",
           "old_name": "Ici Ice Cream",
-          "opening_hours": "Mo-Su 13:30-21:30",
+          "opening_hours": "12:30-22:30",
           "outdoor_seating": "no",
           "wheelchair": "yes"
         }
@@ -25786,7 +25759,7 @@
           "amenity": "cafe",
           "cuisine": "argentinian;coffee",
           "name": "Cafe Buenos Aires",
-          "opening_hours": "Mo-We,Sa 07:30-17:30; Su 08:00-17:30",
+          "opening_hours": "Mo-Fr 07:30-18:30; Sa 08:30-18:00; Su 09:00-18:00",
           "outdoor_seating": "yes",
           "phone": "+1-510-8413030",
           "website": "https://www.theba.cafe/"
@@ -28018,8 +27991,11 @@
           "addr:city": "San Francisco",
           "addr:housenumber": "3316",
           "addr:street": "22nd Street",
-          "name": "Little Tree Studios",
-          "shop": "art"
+          "amenity": "language_school",
+          "education": "language_school",
+          "language:es": "yes",
+          "name": "Aventuras",
+          "website": "https://www.aventurassf.com/"
         }
       },
       "geometry": {
@@ -28917,7 +28893,7 @@
           "cuisine": "bar_and_grill",
           "name": "Curio",
           "opening_hours": "Th-Sa 17:00-22:00 open, Su 11:00-16:00 open, Fr-Sa 22:00-02:00 open \"only bar\"",
-          "phone": "+1 415 5517306",
+          "phone": "+1 415-551-7306",
           "website": "https://www.curiobarsf.com/"
         }
       },
@@ -30022,8 +29998,11 @@
           "addr:housenumber": "100",
           "addr:street": "Hildebrand Hall",
           "amenity": "library",
-          "name": "Chemistry and Chemical Engineering Library",
-          "website": "https://www.lib.berkeley.edu/libraries/chemistry-library",
+          "internet_access": "wlan",
+          "name": "Chemistry, Astronomy & Physics Library",
+          "operator": "UC Berkeley Library",
+          "operator:type": "university",
+          "website": "https://www.lib.berkeley.edu/visit/chemistry",
           "wheelchair": "limited"
         }
       },
@@ -30032,24 +30011,6 @@
         "coordinates": [
           -122.2558076,
           37.8725411
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 4124184019,
-        "tags": {
-          "amenity": "library",
-          "name": "Physics-Astronomy Library"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.2569047,
-          37.8726634
         ]
       }
     },
@@ -30163,24 +30124,6 @@
         "coordinates": [
           -122.2558516,
           37.8727947
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 4124184027,
-        "tags": {
-          "amenity": "library",
-          "name": "Optometry and Health Sciences Library"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.2547533,
-          37.871681
         ]
       }
     },
@@ -32849,14 +32792,15 @@
           "level": "0",
           "name": "Mosto",
           "opening_hours": "Su-Th 17:00-23:00, Fr,Sa 17:00-24:00",
+          "website": "https://www.mostobar.com/",
           "wheelchair": "yes"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4213769,
-          37.7610339
+          -122.4213772,
+          37.7610163
         ]
       }
     },
@@ -34147,8 +34091,8 @@
           "amenity": "cafe",
           "internet_access": "yes",
           "internet_access:fee": "no",
-          "name": "Cafe Think",
-          "website": "https://www.cafethinkberkeley.com/"
+          "name": "Ladle and Leaf",
+          "website": "https://ladleandleaf.com"
         }
       },
       "geometry": {
@@ -41816,11 +41760,11 @@
           "addr:postcode": "94704",
           "addr:state": "CA",
           "addr:street": "Telegraph Avenue",
-          "cuisine": "salad;sandwich",
-          "disused:amenity": "fast_food",
-          "name": "Savory Kitchen",
+          "amenity": "fast_food",
+          "cuisine": "nepali",
+          "name": "Gurkha Kitchen Express",
           "phone": "+1-510-990-6131",
-          "website": "https://www.grubhub.com/restaurant/savory-kitchen-2493-telegraph-ave-berkeley/2285621"
+          "website": "https://www.instagram.com/p/DYsb_HnSm_Y/"
         }
       },
       "geometry": {
@@ -42445,7 +42389,7 @@
           "addr:street": "Adeline Street",
           "addr:unit": "4",
           "check_date": "2025-04-26",
-          "name": "European Tailor",
+          "name": "Advanced European Tailoring",
           "phone": "+1-510-843-3881",
           "shop": "tailor"
         }
@@ -42453,7 +42397,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2683848,
+          -122.2683267,
           37.8578991
         ]
       }
@@ -43960,19 +43904,20 @@
         "type": "node",
         "id": 7946086700,
         "tags": {
-          "addr:housenumber": "2942",
+          "addr:housenumber": "2940",
           "addr:street": "College Avenue",
-          "disused:shop": "pet",
+          "check_date": "2026-05-27",
           "name": "Your Basic Bird",
           "phone": "+1-510-841-7617",
+          "shop": "pet",
           "website": "https://www.yourbasicbird.com/"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2532503,
-          37.8575012
+          -122.2532634,
+          37.8575796
         ]
       }
     },
@@ -44333,10 +44278,16 @@
         "type": "node",
         "id": 7952813509,
         "tags": {
-          "name": "Elmwood Hair & Nails Spa",
+          "addr:housenumber": "2836",
+          "addr:street": "College Avenue",
+          "check_date": "2026-05-27",
+          "name": "Vibrant Nails & Lashes",
           "opening_hours": "Mo-Sa 10:00-19:00; Su 10:00-18:00",
-          "shop": "beauty",
-          "website": "https://elmwoodhairnailsspa.com"
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+1 510-833-2769",
+          "shop": "beauty"
         }
       },
       "geometry": {
@@ -47644,32 +47595,6 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 8260701461,
-        "tags": {
-          "addr:city": "Berkeley",
-          "addr:housenumber": "2107",
-          "addr:state": "CA",
-          "addr:street": "Addison Street",
-          "cuisine": "bubble_tea;crepe;korean",
-          "disused:amenity": "cafe",
-          "name": "Pink cloud tea & more",
-          "opening_hours": "Mo-Sa 11:00-19:00",
-          "phone": "+1-510-647-9818",
-          "website": "https://www.pinkcloudteanmore.com/"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.267356,
-          37.871407
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
         "id": 8260742967,
         "tags": {
           "addr:city": "Berkeley",
@@ -48939,8 +48864,11 @@
         "tags": {
           "addr:housenumber": "1753",
           "addr:street": "Solano Avenue",
-          "check_date": "2025-07-06",
-          "name": "Cuts 4 Kids",
+          "check_date": "2026-06-05",
+          "check_date:opening_hours": "2026-06-05",
+          "name": "Snippety Crickets",
+          "opening_hours": "Sa-Su 09:00-18:00; Mo, We-Fr 10:00-18:00",
+          "phone": "+1-510-527-3987",
           "shop": "hairdresser"
         }
       },
@@ -50005,11 +49933,10 @@
           "addr:state": "CA",
           "addr:street": "San Pablo Avenue",
           "addr:unit": "94706",
+          "amenity": "restaurant",
           "cuisine": "thai",
-          "disused:amenity": "restaurant",
-          "name": "Sistory Thai Kitchen",
-          "phone": "+1-510-705-1635",
-          "website": "https://www.sistorythaikitchen.com/"
+          "name": "Glom Thai",
+          "website": "https://www.instagram.com/glomthai"
         }
       },
       "geometry": {
@@ -51303,9 +51230,8 @@
           "addr:city": "Oakland",
           "addr:housenumber": "5117",
           "addr:street": "Telegraph Avenue",
-          "name": "Temescal Produce Market",
-          "opening_hours": "Mo-Su 08:00-21:00",
-          "shop": "greengrocer",
+          "disused:name": "Temescal Produce Market",
+          "disused:shop": "greengrocer",
           "wheelchair": "yes"
         }
       },
@@ -73500,7 +73426,9 @@
           "check_date": "2026-01-23",
           "check_date:opening_hours": "2025-01-30",
           "name": "Landline",
-          "shop": "houseware"
+          "phone": "+1 917-304-6490",
+          "shop": "houseware",
+          "website": "https://www.landlinehome.com/"
         }
       },
       "geometry": {
@@ -81003,9 +80931,9 @@
         "tags": {
           "addr:housenumber": "3300",
           "addr:street": "Adeline Street",
-          "amenity": "cafe",
-          "check_date": "2025-02-17",
+          "check_date": "2026-06-12",
           "cuisine": "coffee_shop;yemeni",
+          "disused:amenity": "cafe",
           "indoor_seating": "yes",
           "name": "Milyar Cafe"
         }
@@ -84108,11 +84036,11 @@
           "addr:housenumber": "2014",
           "addr:street": "Kala Bagai Way",
           "amenity": "fast_food",
-          "check_date": "2025-04-07",
+          "check_date": "2026-06-12",
+          "cuisine": "chinese",
           "drive_through": "no",
           "level": "0",
-          "name": "Original Mels Express",
-          "website": "https://originalmels.com"
+          "name": "Ten Seconds Yunnan Rice Noodles"
         }
       },
       "geometry": {
@@ -96918,8 +96846,7 @@
           "addr:postcode": "94705",
           "addr:state": "CA",
           "addr:street": "Shattuck Avenue",
-          "disused:shop": "yes",
-          "name": "Davita"
+          "disused:shop": "yes"
         }
       },
       "geometry": {
@@ -101690,10 +101617,11 @@
           "addr:state": "CA",
           "addr:street": "Shattuck Avenue",
           "addr:unit": "C",
+          "amenity": "training",
           "contact:instagram": "https://www.instagram.com/grovestreetkids/",
           "contact:twitter": "https://twitter.com/grovestreetkids",
           "name": "Coder School",
-          "shop": "clothes",
+          "training": "computer",
           "website": "https://www.thecoderschool.com/locations/berkeley/"
         }
       },
@@ -103983,10 +103911,17 @@
         "tags": {
           "addr:country": "US",
           "addr:housenumber": "3219",
+          "addr:postcode": "94703",
           "addr:state": "CA",
           "addr:street": "Adeline Street",
           "amenity": "cafe",
-          "name": "el Tiny Cafe"
+          "cuisine": "coffee_shop",
+          "email": "eltinycafe@gmail.com",
+          "name": "el Tiny Cafe",
+          "opening_hours": "Mo-Fr 06:30-14:00; Sa 07:00-12:00",
+          "outdoor_seating": "yes",
+          "phone": "+1-510-879-6945",
+          "website": "https://eltinycafe.com/"
         }
       },
       "geometry": {
@@ -113480,7 +113415,8 @@
         "tags": {
           "addr:housenumber": "789",
           "addr:street": "Valencia Street",
-          "name": "City Laundry",
+          "name": "Wash 'N Dry Laundry",
+          "opening_hours": "Mo-Su 06:30-22:00",
           "self_service": "yes",
           "shop": "laundry"
         }
@@ -114389,8 +114325,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.4219909,
-          37.7642733
+          -122.4219908,
+          37.7642732
         ]
       }
     },
@@ -114399,376 +114335,6 @@
       "properties": {
         "type": "node",
         "id": 13816468430,
-        "tags": {
-          "addr:housenumber": "524",
-          "addr:street": "Valencia Street",
-          "amenity": "restaurant",
-          "check_date": "2026-05-10",
-          "cuisine": "peruvian",
-          "level": "0",
-          "name": "Limón",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4220077,
-          37.764449
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13819143189,
-        "tags": {
-          "amenity": "bar",
-          "check_date": "2026-05-10",
-          "level": "0",
-          "name": "Blondies Bar",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4219893,
-          37.7642187
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13819143190,
-        "tags": {
-          "addr:housenumber": "538",
-          "addr:street": "Valencia Street",
-          "amenity": "restaurant",
-          "check_date": "2026-05-10",
-          "cuisine": "japanese",
-          "diet:non-vegetarian": "yes",
-          "diet:seafood": "yes",
-          "diet:vegetarian": "yes",
-          "level": "0",
-          "name": "Kiku Sushi & Vegetarian",
-          "opening_hours": "Mo off; Tu-Th 11:30-14:30,17:00-21:00; Fr 11:30-14:30,17:00-21:30; Sa 12:00-15:00,17:00-21:30; Su 17:00-21:30",
-          "phone": "+1-415-400-4171",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4219908,
-          37.7642732
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13819143191,
-        "tags": {
-          "addr:housenumber": "524",
-          "addr:street": "Valencia Street",
-          "amenity": "restaurant",
-          "check_date": "2026-05-10",
-          "cuisine": "peruvian",
-          "level": "0",
-          "name": "Limón",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4220077,
-          37.7644489
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13823556421,
-        "tags": {
-          "amenity": "bar",
-          "check_date": "2026-05-10",
-          "level": "0",
-          "name": "Blondies Bar",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4219893,
-          37.7642187
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13823556422,
-        "tags": {
-          "addr:housenumber": "538",
-          "addr:street": "Valencia Street",
-          "amenity": "restaurant",
-          "check_date": "2026-05-10",
-          "cuisine": "japanese",
-          "diet:non-vegetarian": "yes",
-          "diet:seafood": "yes",
-          "diet:vegetarian": "yes",
-          "level": "0",
-          "name": "Kiku Sushi & Vegetarian",
-          "opening_hours": "Mo off; Tu-Th 11:30-14:30,17:00-21:00; Fr 11:30-14:30,17:00-21:30; Sa 12:00-15:00,17:00-21:30; Su 17:00-21:30",
-          "phone": "+1-415-400-4171",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4219908,
-          37.7642732
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13823556423,
-        "tags": {
-          "addr:housenumber": "524",
-          "addr:street": "Valencia Street",
-          "amenity": "restaurant",
-          "check_date": "2026-05-10",
-          "cuisine": "peruvian",
-          "level": "0",
-          "name": "Limón",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4220077,
-          37.7644489
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13825389802,
-        "tags": {
-          "amenity": "bar",
-          "check_date": "2026-05-10",
-          "level": "0",
-          "name": "Blondies Bar",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4219893,
-          37.7642187
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13825389803,
-        "tags": {
-          "addr:housenumber": "538",
-          "addr:street": "Valencia Street",
-          "amenity": "restaurant",
-          "check_date": "2026-05-10",
-          "cuisine": "japanese",
-          "diet:non-vegetarian": "yes",
-          "diet:seafood": "yes",
-          "diet:vegetarian": "yes",
-          "level": "0",
-          "name": "Kiku Sushi & Vegetarian",
-          "opening_hours": "Mo off; Tu-Th 11:30-14:30,17:00-21:00; Fr 11:30-14:30,17:00-21:30; Sa 12:00-15:00,17:00-21:30; Su 17:00-21:30",
-          "phone": "+1-415-400-4171",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4219908,
-          37.7642732
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13825389804,
-        "tags": {
-          "addr:housenumber": "524",
-          "addr:street": "Valencia Street",
-          "amenity": "restaurant",
-          "check_date": "2026-05-10",
-          "cuisine": "peruvian",
-          "level": "0",
-          "name": "Limón",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4220077,
-          37.7644489
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13826248800,
-        "tags": {
-          "amenity": "bar",
-          "check_date": "2026-05-10",
-          "level": "0",
-          "name": "Blondies Bar",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4219893,
-          37.7642187
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13826259701,
-        "tags": {
-          "addr:housenumber": "538",
-          "addr:street": "Valencia Street",
-          "amenity": "restaurant",
-          "check_date": "2026-05-10",
-          "cuisine": "japanese",
-          "diet:non-vegetarian": "yes",
-          "diet:seafood": "yes",
-          "diet:vegetarian": "yes",
-          "level": "0",
-          "name": "Kiku Sushi & Vegetarian",
-          "opening_hours": "Mo off; Tu-Th 11:30-14:30,17:00-21:00; Fr 11:30-14:30,17:00-21:30; Sa 12:00-15:00,17:00-21:30; Su 17:00-21:30",
-          "phone": "+1-415-400-4171",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4219908,
-          37.7642732
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13826259702,
-        "tags": {
-          "addr:housenumber": "524",
-          "addr:street": "Valencia Street",
-          "amenity": "restaurant",
-          "check_date": "2026-05-10",
-          "cuisine": "peruvian",
-          "level": "0",
-          "name": "Limón",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4220077,
-          37.7644489
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13826503378,
-        "tags": {
-          "amenity": "bar",
-          "check_date": "2026-05-10",
-          "level": "0",
-          "name": "Blondies Bar",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4219893,
-          37.7642187
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13826503379,
-        "tags": {
-          "addr:housenumber": "538",
-          "addr:street": "Valencia Street",
-          "amenity": "restaurant",
-          "check_date": "2026-05-10",
-          "cuisine": "japanese",
-          "diet:non-vegetarian": "yes",
-          "diet:seafood": "yes",
-          "diet:vegetarian": "yes",
-          "level": "0",
-          "name": "Kiku Sushi & Vegetarian",
-          "opening_hours": "Mo off; Tu-Th 11:30-14:30,17:00-21:00; Fr 11:30-14:30,17:00-21:30; Sa 12:00-15:00,17:00-21:30; Su 17:00-21:30",
-          "phone": "+1-415-400-4171",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4219908,
-          37.7642732
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13826503380,
         "tags": {
           "addr:housenumber": "524",
           "addr:street": "Valencia Street",
@@ -114836,302 +114402,6 @@
         "coordinates": [
           -122.2694612,
           37.9039647
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13829462305,
-        "tags": {
-          "amenity": "bar",
-          "check_date": "2026-05-10",
-          "level": "0",
-          "name": "Blondies Bar",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4219893,
-          37.7642187
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13829462306,
-        "tags": {
-          "addr:housenumber": "538",
-          "addr:street": "Valencia Street",
-          "amenity": "restaurant",
-          "check_date": "2026-05-10",
-          "cuisine": "japanese",
-          "diet:non-vegetarian": "yes",
-          "diet:seafood": "yes",
-          "diet:vegetarian": "yes",
-          "level": "0",
-          "name": "Kiku Sushi & Vegetarian",
-          "opening_hours": "Mo off; Tu-Th 11:30-14:30,17:00-21:00; Fr 11:30-14:30,17:00-21:30; Sa 12:00-15:00,17:00-21:30; Su 17:00-21:30",
-          "phone": "+1-415-400-4171",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4219908,
-          37.7642732
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13829462307,
-        "tags": {
-          "addr:housenumber": "524",
-          "addr:street": "Valencia Street",
-          "amenity": "restaurant",
-          "check_date": "2026-05-10",
-          "cuisine": "peruvian",
-          "level": "0",
-          "name": "Limón",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4220077,
-          37.7644489
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13832013614,
-        "tags": {
-          "amenity": "bar",
-          "check_date": "2026-05-10",
-          "level": "0",
-          "name": "Blondies Bar",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4219893,
-          37.7642187
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13832013615,
-        "tags": {
-          "addr:housenumber": "538",
-          "addr:street": "Valencia Street",
-          "amenity": "restaurant",
-          "check_date": "2026-05-10",
-          "cuisine": "japanese",
-          "diet:non-vegetarian": "yes",
-          "diet:seafood": "yes",
-          "diet:vegetarian": "yes",
-          "level": "0",
-          "name": "Kiku Sushi & Vegetarian",
-          "opening_hours": "Mo off; Tu-Th 11:30-14:30,17:00-21:00; Fr 11:30-14:30,17:00-21:30; Sa 12:00-15:00,17:00-21:30; Su 17:00-21:30",
-          "phone": "+1-415-400-4171",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4219908,
-          37.7642732
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13832013616,
-        "tags": {
-          "addr:housenumber": "524",
-          "addr:street": "Valencia Street",
-          "amenity": "restaurant",
-          "check_date": "2026-05-10",
-          "cuisine": "peruvian",
-          "level": "0",
-          "name": "Limón",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4220077,
-          37.7644489
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13836534804,
-        "tags": {
-          "amenity": "bar",
-          "check_date": "2026-05-10",
-          "level": "0",
-          "name": "Blondies Bar",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4219893,
-          37.7642187
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13836534805,
-        "tags": {
-          "addr:housenumber": "538",
-          "addr:street": "Valencia Street",
-          "amenity": "restaurant",
-          "check_date": "2026-05-10",
-          "cuisine": "japanese",
-          "diet:non-vegetarian": "yes",
-          "diet:seafood": "yes",
-          "diet:vegetarian": "yes",
-          "level": "0",
-          "name": "Kiku Sushi & Vegetarian",
-          "opening_hours": "Mo off; Tu-Th 11:30-14:30,17:00-21:00; Fr 11:30-14:30,17:00-21:30; Sa 12:00-15:00,17:00-21:30; Su 17:00-21:30",
-          "phone": "+1-415-400-4171",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4219908,
-          37.7642732
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13836534806,
-        "tags": {
-          "addr:housenumber": "524",
-          "addr:street": "Valencia Street",
-          "amenity": "restaurant",
-          "check_date": "2026-05-10",
-          "cuisine": "peruvian",
-          "level": "0",
-          "name": "Limón",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4220077,
-          37.7644489
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13837893215,
-        "tags": {
-          "amenity": "bar",
-          "check_date": "2026-05-10",
-          "level": "0",
-          "name": "Blondies Bar",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4219893,
-          37.7642187
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13837893216,
-        "tags": {
-          "addr:housenumber": "538",
-          "addr:street": "Valencia Street",
-          "amenity": "restaurant",
-          "check_date": "2026-05-10",
-          "cuisine": "japanese",
-          "diet:non-vegetarian": "yes",
-          "diet:seafood": "yes",
-          "diet:vegetarian": "yes",
-          "level": "0",
-          "name": "Kiku Sushi & Vegetarian",
-          "opening_hours": "Mo off; Tu-Th 11:30-14:30,17:00-21:00; Fr 11:30-14:30,17:00-21:30; Sa 12:00-15:00,17:00-21:30; Su 17:00-21:30",
-          "phone": "+1-415-400-4171",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4219908,
-          37.7642732
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13837893217,
-        "tags": {
-          "addr:housenumber": "524",
-          "addr:street": "Valencia Street",
-          "amenity": "restaurant",
-          "check_date": "2026-05-10",
-          "cuisine": "peruvian",
-          "level": "0",
-          "name": "Limón",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4220077,
-          37.7644489
         ]
       }
     },
@@ -115301,7 +114571,30 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 13858503112,
+        "id": 13889026231,
+        "tags": {
+          "access": "yes",
+          "amenity": "bicycle_parking",
+          "bicycle_parking": "stands",
+          "capacity": "2",
+          "covered": "no",
+          "fee": "no",
+          "operator:type": "public"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2532683,
+          37.858649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13905157978,
         "tags": {
           "amenity": "bar",
           "check_date": "2026-05-10",
@@ -115322,7 +114615,7 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 13858503113,
+        "id": 13905157979,
         "tags": {
           "addr:housenumber": "538",
           "addr:street": "Valencia Street",
@@ -115351,7 +114644,7 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 13858503114,
+        "id": 13905157980,
         "tags": {
           "addr:housenumber": "524",
           "addr:street": "Valencia Street",
@@ -115375,7 +114668,50 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 13861415875,
+        "id": 13906101390,
+        "tags": {
+          "addr:housenumber": "711",
+          "addr:street": "Valencia Street",
+          "name": "K1 International",
+          "office": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4214136,
+          37.761437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13906101393,
+        "tags": {
+          "addr:housenumber": "741",
+          "addr:street": "Valencia Street",
+          "amenity": "fast_food",
+          "cuisine": "burger",
+          "drive_through": "no",
+          "name": "El Burger",
+          "website": "https://www.elburgersf.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4213754,
+          37.7610016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13907887844,
         "tags": {
           "amenity": "bar",
           "check_date": "2026-05-10",
@@ -115396,7 +114732,7 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 13861415876,
+        "id": 13907887845,
         "tags": {
           "addr:housenumber": "538",
           "addr:street": "Valencia Street",
@@ -115425,7 +114761,7 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 13861415877,
+        "id": 13907887846,
         "tags": {
           "addr:housenumber": "524",
           "addr:street": "Valencia Street",
@@ -115449,7 +114785,7 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 13874599159,
+        "id": 13915027750,
         "tags": {
           "amenity": "bar",
           "check_date": "2026-05-10",
@@ -115470,7 +114806,7 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 13874599160,
+        "id": 13915027751,
         "tags": {
           "addr:housenumber": "538",
           "addr:street": "Valencia Street",
@@ -115499,7 +114835,7 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 13874599161,
+        "id": 13915027752,
         "tags": {
           "addr:housenumber": "524",
           "addr:street": "Valencia Street",
@@ -115523,7 +114859,7 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 13879333892,
+        "id": 13923565813,
         "tags": {
           "amenity": "bar",
           "check_date": "2026-05-10",
@@ -115544,7 +114880,7 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 13879333893,
+        "id": 13923565814,
         "tags": {
           "addr:housenumber": "538",
           "addr:street": "Valencia Street",
@@ -115557,7 +114893,7 @@
           "level": "0",
           "name": "Kiku Sushi & Vegetarian",
           "opening_hours": "Mo off; Tu-Th 11:30-14:30,17:00-21:00; Fr 11:30-14:30,17:00-21:30; Sa 12:00-15:00,17:00-21:30; Su 17:00-21:30",
-          "phone": "+1 (415) 400-4171",
+          "phone": "+1-415-400-4171",
           "wheelchair": "yes"
         }
       },
@@ -115573,7 +114909,7 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 13879333894,
+        "id": 13923565815,
         "tags": {
           "addr:housenumber": "524",
           "addr:street": "Valencia Street",
@@ -115597,7 +114933,7 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 13885721794,
+        "id": 13926887315,
         "tags": {
           "amenity": "bar",
           "check_date": "2026-05-10",
@@ -115618,7 +114954,7 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 13885721795,
+        "id": 13926887316,
         "tags": {
           "addr:housenumber": "538",
           "addr:street": "Valencia Street",
@@ -115631,7 +114967,7 @@
           "level": "0",
           "name": "Kiku Sushi & Vegetarian",
           "opening_hours": "Mo off; Tu-Th 11:30-14:30,17:00-21:00; Fr 11:30-14:30,17:00-21:30; Sa 12:00-15:00,17:00-21:30; Su 17:00-21:30",
-          "phone": "+1 (415) 400-4171",
+          "phone": "+1-415-400-4171",
           "wheelchair": "yes"
         }
       },
@@ -115647,7 +114983,7 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 13885721796,
+        "id": 13926887317,
         "tags": {
           "addr:housenumber": "524",
           "addr:street": "Valencia Street",
@@ -115664,6 +115000,145 @@
         "coordinates": [
           -122.4220077,
           37.7644489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13930078007,
+        "tags": {
+          "amenity": "bar",
+          "check_date": "2026-05-10",
+          "level": "0",
+          "name": "Blondies Bar",
+          "wheelchair": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4219893,
+          37.7642187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13930078008,
+        "tags": {
+          "addr:housenumber": "538",
+          "addr:street": "Valencia Street",
+          "amenity": "restaurant",
+          "check_date": "2026-05-10",
+          "cuisine": "japanese",
+          "diet:non-vegetarian": "yes",
+          "diet:seafood": "yes",
+          "diet:vegetarian": "yes",
+          "level": "0",
+          "name": "Kiku Sushi & Vegetarian",
+          "opening_hours": "Mo off; Tu-Th 11:30-14:30,17:00-21:00; Fr 11:30-14:30,17:00-21:30; Sa 12:00-15:00,17:00-21:30; Su 17:00-21:30",
+          "phone": "+1-415-400-4171",
+          "wheelchair": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4219908,
+          37.7642732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13930078009,
+        "tags": {
+          "addr:housenumber": "524",
+          "addr:street": "Valencia Street",
+          "amenity": "restaurant",
+          "check_date": "2026-05-10",
+          "cuisine": "peruvian",
+          "level": "0",
+          "name": "Limón",
+          "wheelchair": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4220077,
+          37.7644489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13931810866,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1199",
+          "addr:postcode": "94706-2215",
+          "addr:state": "CA",
+          "addr:street": "San Pablo Avenue",
+          "check_date": "2026-06-13",
+          "contact:email": "smog@xpressmog.com",
+          "contact:facebook": "https://www.facebook.com/XPRESSMOG/",
+          "currency:XBT": "yes",
+          "name": "Express Smog Station",
+          "opening_hours": "Mo-Th 09:30-17:00; Sa-Su 09:30-16:00",
+          "payment:lightning": "yes",
+          "payment:lightning:operator": "square",
+          "payment:lightning_contactless": "no",
+          "payment:onchain": "no",
+          "phone": "+1-510-525-8600",
+          "repair": "emissions",
+          "service:vehicle:smog_check": "yes",
+          "shop": "car_repair",
+          "website": "https://www.xpressmog.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2959904,
+          37.882551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13932137754,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2107",
+          "addr:postcode": "94704",
+          "addr:state": "CA",
+          "addr:street": "Addison Street",
+          "amenity": "restaurant",
+          "check_date": "2026-06-12",
+          "contact:instagram": "https://www.instagram.com/droposushi/",
+          "cuisine": "sushi",
+          "name": "Dropo Sushi",
+          "opening_hours": "Mo-Sa 11:00-17:00",
+          "phone": "+1-510-610-1067",
+          "website": "https://www.instagram.com/droposushi/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2673564,
+          37.8714117
         ]
       }
     },
@@ -133237,6 +132712,7 @@
           9921967760,
           3160907649,
           12377693967,
+          13891977516,
           12377693966,
           9951841138,
           9951841139,
@@ -133401,6 +132877,10 @@
             [
               -122.2689263,
               37.875638
+            ],
+            [
+              -122.2689227,
+              37.8756065
             ],
             [
               -122.2688872,
@@ -135654,6 +135134,7 @@
           "internet_access": "wlan",
           "name": "Berkeley City College",
           "old_name": "Vista Community College",
+          "website": "https://www.berkeleycitycollege.edu/",
           "wheelchair": "yes",
           "wikidata": "Q4891998",
           "wikipedia": "en:Berkeley City College"
@@ -169009,24 +168490,24 @@
         "coordinates": [
           [
             [
-              -122.2707625,
-              37.8705742
+              -122.2707609,
+              37.8705759
             ],
             [
-              -122.2707317,
-              37.8704087
+              -122.2707314,
+              37.8704085
             ],
             [
-              -122.2710287,
-              37.8703747
+              -122.2710275,
+              37.870376
             ],
             [
-              -122.2710577,
-              37.8705438
+              -122.271057,
+              37.8705434
             ],
             [
-              -122.2707625,
-              37.8705742
+              -122.2707609,
+              37.8705759
             ]
           ]
         ]
@@ -170400,6 +169881,7 @@
         "tags": {
           "access": "yes",
           "leisure": "playground",
+          "name": "Dteamland for Kids Playground",
           "playground:theme": "playground",
           "website": "https://www.cityofberkeley.info/Parks_Rec_Waterfront/Trees_Parks/Parks__Aquatic_Park.aspx",
           "wikimedia_commons": "Category:Aquatic park, Berkeley"
@@ -177525,12 +177007,12 @@
               37.8797811
             ],
             [
-              -122.2651873,
-              37.8798358
+              -122.2652032,
+              37.8798456
             ],
             [
-              -122.2652456,
-              37.8802749
+              -122.2652525,
+              37.8802765
             ],
             [
               -122.2652112,
@@ -209973,6 +209455,57 @@
       "type": "Feature",
       "properties": {
         "type": "way",
+        "id": 318154761,
+        "tags": {
+          "addr:housenumber": "2942",
+          "addr:street": "College Avenue",
+          "building": "commercial",
+          "building:levels": "1",
+          "disused:shop": "dry_cleaning",
+          "name": "C & C Cleaners",
+          "roof:shape": "flat",
+          "vacant": "yes"
+        },
+        "nodes": [
+          3245401085,
+          3245401086,
+          3245401087,
+          3245401088,
+          3245401085
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2532136,
+              37.8575465
+            ],
+            [
+              -122.253203,
+              37.8574439
+            ],
+            [
+              -122.253469,
+              37.8574076
+            ],
+            [
+              -122.2534845,
+              37.8575127
+            ],
+            [
+              -122.2532136,
+              37.8575465
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
         "id": 318155823,
         "tags": {
           "addr:city": "Berkeley",
@@ -235423,7 +234956,7 @@
           4623066821,
           4623066826,
           4623066827,
-          12135294136,
+          538608637,
           4623066829,
           4623066823
         ]
@@ -235433,12 +234966,12 @@
         "coordinates": [
           [
             [
-              -122.2706684,
-              37.8700702
+              -122.2706575,
+              37.8700636
             ],
             [
-              -122.2709684,
-              37.8700312
+              -122.2709708,
+              37.8700287
             ],
             [
               -122.2721545,
@@ -235453,16 +234986,16 @@
               37.8702381
             ],
             [
-              -122.2710353,
-              37.8703672
+              -122.271031,
+              37.8703646
             ],
             [
-              -122.2707095,
-              37.8704079
+              -122.2707176,
+              37.8703996
             ],
             [
-              -122.2706684,
-              37.8700702
+              -122.2706575,
+              37.8700636
             ]
           ]
         ]
@@ -269435,6 +268968,152 @@
       "type": "Feature",
       "properties": {
         "type": "way",
+        "id": 704263809,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1520",
+          "addr:postcode": "94710",
+          "addr:state": "CA",
+          "addr:street": "Fourth Street",
+          "building": "industrial",
+          "craft": "paver",
+          "name": "O C Jones Paving Contractor"
+        },
+        "nodes": [
+          6612732913,
+          6612732955,
+          6612732947,
+          6612732957,
+          6612732956,
+          6612732959,
+          6612732958,
+          6612732946,
+          6612732953,
+          6612732944,
+          6612732954,
+          6612732945,
+          6612732952,
+          6612732951,
+          6612732943,
+          6612732941,
+          6612732948,
+          6612732949,
+          6612732942,
+          6612732950,
+          6612732914,
+          6612732915,
+          6612732916,
+          6612732913
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3022848,
+              37.8739481
+            ],
+            [
+              -122.3022827,
+              37.8739414
+            ],
+            [
+              -122.3022489,
+              37.8738325
+            ],
+            [
+              -122.3022381,
+              37.8738346
+            ],
+            [
+              -122.3021881,
+              37.873674
+            ],
+            [
+              -122.3023323,
+              37.873646
+            ],
+            [
+              -122.3023823,
+              37.8738067
+            ],
+            [
+              -122.3023562,
+              37.8738117
+            ],
+            [
+              -122.3023595,
+              37.8738223
+            ],
+            [
+              -122.3023377,
+              37.8738265
+            ],
+            [
+              -122.3023682,
+              37.8739248
+            ],
+            [
+              -122.3023486,
+              37.8739286
+            ],
+            [
+              -122.3023746,
+              37.8740123
+            ],
+            [
+              -122.3022341,
+              37.8740396
+            ],
+            [
+              -122.3022281,
+              37.8740204
+            ],
+            [
+              -122.3022149,
+              37.874023
+            ],
+            [
+              -122.3022195,
+              37.8740377
+            ],
+            [
+              -122.302158,
+              37.8740496
+            ],
+            [
+              -122.3021534,
+              37.8740349
+            ],
+            [
+              -122.3021184,
+              37.8740417
+            ],
+            [
+              -122.3021173,
+              37.8740379
+            ],
+            [
+              -122.30207,
+              37.8740471
+            ],
+            [
+              -122.3020532,
+              37.873993
+            ],
+            [
+              -122.3022848,
+              37.8739481
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
         "id": 704263810,
         "tags": {
           "access": "private",
@@ -292163,12 +291842,12 @@
               37.8797811
             ],
             [
-              -122.2651873,
-              37.8798358
+              -122.2652032,
+              37.8798456
             ],
             [
-              -122.2652456,
-              37.8802749
+              -122.2652525,
+              37.8802765
             ],
             [
               -122.2652112,
@@ -307269,7 +306948,7 @@
           539306911,
           4623066830,
           4623066829,
-          12135294136,
+          538608637,
           4623066827,
           4623066833,
           4623066835,
@@ -307353,12 +307032,12 @@
               37.8704304
             ],
             [
-              -122.2707095,
-              37.8704079
+              -122.2707176,
+              37.8703996
             ],
             [
-              -122.2710353,
-              37.8703672
+              -122.271031,
+              37.8703646
             ],
             [
               -122.2720703,
@@ -370985,67 +370664,6 @@
       "type": "Feature",
       "properties": {
         "type": "way",
-        "id": 1310997047,
-        "tags": {
-          "landuse": "construction",
-          "name": "Berkeley City College West",
-          "website": "https://build.peralta.edu/new-classroom-building"
-        },
-        "nodes": [
-          4623066829,
-          4623066823,
-          12135294137,
-          538608647,
-          538608654,
-          538608637,
-          12135294136,
-          4623066829
-        ]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -122.2707095,
-              37.8704079
-            ],
-            [
-              -122.2706684,
-              37.8700702
-            ],
-            [
-              -122.2709684,
-              37.8700312
-            ],
-            [
-              -122.2709703,
-              37.8700401
-            ],
-            [
-              -122.2710327,
-              37.870353
-            ],
-            [
-              -122.2710348,
-              37.8703642
-            ],
-            [
-              -122.2710353,
-              37.8703672
-            ],
-            [
-              -122.2707095,
-              37.8704079
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "way",
         "id": 1312196214,
         "tags": {
           "leisure": "swimming_pool"
@@ -371733,56 +371351,6 @@
       "type": "Feature",
       "properties": {
         "type": "way",
-        "id": 1338173374,
-        "tags": {
-          "landuse": "construction",
-          "name": "The Northside"
-        },
-        "nodes": [
-          2880800596,
-          12377693968,
-          12377693967,
-          12377693966,
-          2880800590,
-          2880800596
-        ]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -122.2692676,
-              37.8755602
-            ],
-            [
-              -122.2692728,
-              37.8755919
-            ],
-            [
-              -122.2689263,
-              37.875638
-            ],
-            [
-              -122.2688872,
-              37.8752909
-            ],
-            [
-              -122.2692161,
-              37.8752486
-            ],
-            [
-              -122.2692676,
-              37.8755602
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "way",
         "id": 1338225165,
         "tags": {
           "amenity": "kindergarten",
@@ -372270,11 +371838,11 @@
           "addr:city": "Berkeley",
           "addr:housenumber": "3030",
           "addr:street": "Telegraph Avenue",
-          "check_date": "2025-12-22",
           "construction:landuse": "residential",
           "construction:residential": "apartments",
-          "landuse": "construction",
-          "name": "ArtHaus Telegraph"
+          "landuse": "residential",
+          "name": "ArtHaus Telegraph",
+          "residential": "apartments"
         },
         "nodes": [
           12539592147,
@@ -372285,8 +371853,6 @@
           12539592152,
           12539592153,
           12539592154,
-          12539592155,
-          12539592156,
           12539592147
         ]
       },
@@ -372295,48 +371861,40 @@
         "coordinates": [
           [
             [
-              -122.26001,
-              37.8550939
+              -122.2600035,
+              37.8551005
             ],
             [
-              -122.2600694,
-              37.854638
+              -122.2600629,
+              37.8546446
             ],
             [
-              -122.2606438,
-              37.8545622
+              -122.2606373,
+              37.8545688
             ],
             [
-              -122.2606667,
-              37.8547041
+              -122.2606602,
+              37.8547107
             ],
             [
-              -122.2608982,
-              37.8546729
+              -122.2608917,
+              37.8546795
             ],
             [
-              -122.260915,
-              37.8547643
+              -122.2609085,
+              37.8547709
             ],
             [
-              -122.2606514,
-              37.8547992
+              -122.2606449,
+              37.8548058
             ],
             [
-              -122.2606027,
-              37.8548449
+              -122.260693,
+              37.8550161
             ],
             [
-              -122.2605234,
-              37.8548557
-            ],
-            [
-              -122.2605554,
-              37.8550217
-            ],
-            [
-              -122.26001,
-              37.8550939
+              -122.2600035,
+              37.8551005
             ]
           ]
         ]
@@ -446206,6 +445764,100 @@
     {
       "type": "Feature",
       "properties": {
+        "type": "way",
+        "id": 1524105377,
+        "tags": {
+          "landuse": "residential",
+          "residential": "apartments"
+        },
+        "nodes": [
+          2880800596,
+          5401032103,
+          12377693966,
+          13891977516,
+          506457382,
+          2880800596
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2692676,
+              37.8755602
+            ],
+            [
+              -122.2692177,
+              37.8752517
+            ],
+            [
+              -122.2688872,
+              37.8752909
+            ],
+            [
+              -122.2689227,
+              37.8756065
+            ],
+            [
+              -122.2691321,
+              37.8755792
+            ],
+            [
+              -122.2692676,
+              37.8755602
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1524191683,
+        "tags": {
+          "landuse": "construction"
+        },
+        "nodes": [
+          13892522602,
+          13892522603,
+          13892522604,
+          13892522605,
+          13892522602
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.289633,
+              37.8628901
+            ],
+            [
+              -122.2899417,
+              37.8628314
+            ],
+            [
+              -122.2897471,
+              37.8621932
+            ],
+            [
+              -122.2894383,
+              37.862252
+            ],
+            [
+              -122.289633,
+              37.8628901
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "type": "relation",
         "id": 1548418,
         "tags": {
@@ -457360,16 +457012,12 @@
                 37.8966618
               ],
               [
-                -122.3116529,
-                37.8969523
+                -122.3114675,
+                37.8967149
               ],
               [
-                -122.3117796,
-                37.8970797
-              ],
-              [
-                -122.3118856,
-                37.8971943
+                -122.311883,
+                37.897192
               ],
               [
                 -122.3120491,
