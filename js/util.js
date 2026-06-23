@@ -385,6 +385,9 @@ if (pointerFine) { // skip the legend for the mobile case.  maybe make a smaller
 	createLegend();
 }
 
+// add the locate control
+L.control.locate().addTo(map);
+
 // add city boundary to map
 L.geoJSON(cityGeoJson, { fillOpacity: 0.05 }).addTo(map);
 
