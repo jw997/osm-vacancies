@@ -2314,10 +2314,14 @@
         "type": "node",
         "id": 314115409,
         "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1511",
+          "addr:street": "Shattuck Avenue",
+          "addr:unit": "D",
+          "amenity": "restaurant",
           "cuisine": "japanese",
-          "disused:amenity": "restaurant",
-          "name": "Kirala 2",
-          "opening_hours": "Mo-Su 11:00-19:00"
+          "name": "Itani Sushi",
+          "website": "https://www.itanisushi.com/"
         }
       },
       "geometry": {
@@ -2340,17 +2344,16 @@
           "addr:postcode": "94709",
           "addr:state": "CA",
           "addr:street": "Shattuck Avenue",
-          "disused:shop": "bakery",
-          "name": "Cheesequakes!",
-          "phone": "+1-510-930-8030",
-          "website": "https://www.cheesequakes.com/"
+          "addr:unit": "E",
+          "name": "Tibet Souvenirs",
+          "shop": "gift"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2688892,
-          37.8798261
+          -122.2688285,
+          37.8798461
         ]
       }
     },
@@ -2360,16 +2363,19 @@
         "type": "node",
         "id": 314115415,
         "tags": {
-          "disused:amenity": "ice_cream",
-          "name": "Lush Gelato",
-          "opening_hours": "Mo-Su 12:00-19:00"
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1511",
+          "addr:street": "Shattuck Avenue",
+          "amenity": "ice_cream",
+          "name": "Serotonin Scoops",
+          "website": "https://serotoninscoops.com/"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2688582,
-          37.8798458
+          -122.268825,
+          37.8798768
         ]
       }
     },
@@ -2379,6 +2385,9 @@
         "type": "node",
         "id": 314115417,
         "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1511",
+          "addr:street": "Shattuck Avenue",
           "amenity": "fast_food",
           "cuisine": "mexican",
           "name": "Mexicana Taqueria",
@@ -2407,11 +2416,9 @@
           "addr:postcode": "94704",
           "addr:state": "CA",
           "addr:street": "Shattuck Avenue",
-          "cuisine": "italian",
-          "disused:amenity": "restaurant",
-          "name": "Flavia",
-          "phone": "+1-510-629-2030",
-          "website": "https://www.flaviaosteria.com/"
+          "amenity": "restaurant",
+          "name": "Hopscotch Chicken",
+          "website": "https://www.hopscotchchicken.com/"
         }
       },
       "geometry": {
@@ -2457,14 +2464,13 @@
         "type": "node",
         "id": 314115424,
         "tags": {
-          "cuisine": "breakfast;peruvian",
-          "disused:amenity": "cafe",
-          "food": "yes",
-          "name": "Sunny Side Cafe",
-          "opening_hours": "Mo,Th,Fr 08:30-14:00,17:00-21:00; Sa 08:30-14:30,17:00-21:00; Su 08:30-14:30,17:00-20:30; Tu,We off",
-          "opening_hours:signed": "yes",
-          "phone": "+1 510 8981210",
-          "website": "https://www.thesunnysidecafe.com/"
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1511",
+          "addr:street": "Shattuck Avenue",
+          "addr:unit": "F",
+          "amenity": "cafe",
+          "name": "Eggys",
+          "website": "https://www.instagram.com/eggysberkeley"
         }
       },
       "geometry": {
@@ -4533,6 +4539,8 @@
         "type": "node",
         "id": 343610942,
         "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1645",
           "addr:street": "Solano Avenue",
           "amenity": "restaurant",
           "cuisine": "himalayan;indian",
@@ -4907,6 +4915,7 @@
           "addr:housenumber": "914",
           "addr:street": "Valencia Street",
           "name": "Reformation",
+          "opening_hours": "Mo,We-Sa 11:00-19:00; Su 11:00-18:00",
           "shop": "clothes"
         }
       },
@@ -6381,17 +6390,24 @@
           "addr:city": "Berkeley",
           "addr:housenumber": "2100",
           "addr:postcode": "94705",
+          "addr:state": "CA",
           "addr:street": "Ward Street",
           "amenity": "restaurant",
-          "check_date": "2026-03-21",
+          "check_date": "2026-06-26",
           "check_date:opening_hours": "2026-03-21",
-          "cuisine": "japanese",
+          "contact:facebook": "https://www.facebook.com/p/Kirala-Restaurant-100065396322954/",
+          "contact:instagram": "https://www.instagram.com/kirala_berkeley/",
+          "contact:yelp": "https://www.yelp.com/biz/kirala-restaurant-berkeley-2",
+          "cuisine": "japanese;sushi;robatayaki",
           "delivery": "no",
+          "image": "https://www.kiralaberkeley.com/_astro/image_gallery2.DEtBhnDz.jpg",
           "name": "Kirala",
-          "opening_hours": "Su, Tu-We 17:00-20:45; Sa 17:00-21:15; Th 12:00-14:00, 17:00-20:45; Fr 12:00-14:00, 17:00-21:15",
+          "opening_hours": "Su, Tu, We 17:00-20:45; Thu 12:00-14:00, 17:00-20:45; Fr 12:00-14:00, 17:00-21:15; Sa 17:00-21:15",
           "outdoor_seating": "no",
+          "phone": "+1-424-316-2862",
           "smoking": "no",
-          "website": "https://www.kiralaberkeley.com/"
+          "website": "https://www.kiralaberkeley.com/",
+          "website:menu": "https://www.kiralaberkeley.com/#menu-section"
         }
       },
       "geometry": {
@@ -9492,14 +9508,32 @@
         "type": "node",
         "id": 623752524,
         "tags": {
+          "addr:city": "Berkeley",
           "addr:housenumber": "3201",
+          "addr:postcode": "94705",
+          "addr:state": "CA",
           "addr:street": "College Avenue",
           "amenity": "restaurant",
-          "cuisine": "japanese",
+          "bar": "yes",
+          "brewery": "sapporo",
+          "check_date": "2026-06-26",
+          "contact:yelp": "https://www.yelp.com/biz/mitama-restaurant-berkeley",
+          "cuisine": "japanese;sushi",
           "indoor_seating": "yes",
           "name": "Mitama",
+          "opening_hours": "Tu-Su 12:00-15:00, 16:30-20:30",
           "outdoor_seating": "no",
+          "payment:american_express": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "payment:discover_card": "yes",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
+          "phone": "+1-510-652-6157",
+          "reservation": "yes",
+          "takeaway": "yes",
           "website": "http://www.mitamasushi.com/",
+          "website:menu": "http://www.mitamasushi.com/menus.html",
           "wheelchair": "yes"
         }
       },
@@ -12706,7 +12740,8 @@
         "type": "node",
         "id": 1609599968,
         "tags": {
-          "check_date": "2025-05-25",
+          "check_date": "2026-06-25",
+          "check_date:opening_hours": "2026-06-25",
           "name": "Paxton Gate",
           "opening_hours": "We-Mo 11:00-19:00",
           "shop": "boutique",
@@ -12765,6 +12800,7 @@
           "addr:state": "CA",
           "addr:street": "Valencia Street",
           "amenity": "community_centre",
+          "check_date:opening_hours": "2026-06-25",
           "name": "826 Valencia / The Writing Center",
           "opening_hours": "Mo-Su,PH 12:00-18:00",
           "phone": "+1 415-642-5905",
@@ -14050,15 +14086,18 @@
           "addr:city": "Berkeley",
           "addr:country": "US",
           "addr:housenumber": "1316",
+          "addr:postcode": "94706",
           "addr:state": "CA",
           "addr:street": "Gilman Street",
           "amenity": "restaurant",
           "contact:facebook": "kikusushiberkeley",
-          "cuisine": "japanese",
+          "cuisine": "japanese;sushi",
           "diet:vegetarian": "yes",
+          "email": "kikusushiberkeley@gmail.com",
           "name": "Kiku Sushi",
-          "phone": "+1 510-525-5458",
-          "website": "https://openmenu.com/restaurant/0595a790-a84b-11e2-aa59-00163eeae34c"
+          "opening_hours": "Tu-Fr 11:30-14:30, 17:00-21:00; Sa 12:00-15:00, 17:00-21:30; Su 12:00-15:00, 17:00-21:00",
+          "phone": "+1-510-525-5458",
+          "website": "https://kikusushivegetarian.com/kikusushi-berkeley"
         }
       },
       "geometry": {
@@ -14848,6 +14887,7 @@
           "addr:housenumber": "910",
           "addr:street": "Valencia Street",
           "name": "Rare Vintage Finds",
+          "opening_hours": "Mo-Su,PH 11:00-19:00",
           "second_hand": "only",
           "shop": "clothes"
         }
@@ -16541,6 +16581,7 @@
           "addr:housenumber": "1000",
           "addr:street": "Valencia Street",
           "name": "Dr. Martha Klufas, Optometrist",
+          "opening_hours": "Tu-Fr 09:30-17:00; Sa 10:00-14:00",
           "phone": "+1 415-826-2020",
           "shop": "optician"
         }
@@ -16562,8 +16603,10 @@
           "addr:city": "San Francisco",
           "addr:housenumber": "1048",
           "addr:street": "Valencia Street",
+          "check_date:opening_hours": "2026-06-25",
           "name": "Thomas D. Harvey Realtor & Insurance",
-          "office": "estate_agent"
+          "office": "estate_agent",
+          "opening_hours:signed": "no"
         }
       },
       "geometry": {
@@ -16583,8 +16626,7 @@
           "addr:city": "San Francisco",
           "addr:housenumber": "1100",
           "addr:street": "Valencia Street",
-          "name": "Square",
-          "shop": "yes"
+          "shop": "vacant"
         }
       },
       "geometry": {
@@ -21328,8 +21370,9 @@
           "addr:housenumber": "1807",
           "addr:state": "CA",
           "addr:street": "University Avenue",
-          "disused:shop": "clothes",
-          "old_name": "Marvy Fashion Boutique"
+          "name": "Talavera Ceramics & Tile",
+          "shop": "interior_decoration",
+          "website": "https://www.talaveraceramicsandtile.com"
         }
       },
       "geometry": {
@@ -21551,14 +21594,20 @@
           "addr:city": "Berkeley",
           "addr:housenumber": "2399",
           "addr:postcode": "94704",
+          "addr:state": "CA",
           "addr:street": "Shattuck Avenue",
           "amenity": "restaurant",
-          "cuisine": "japanese",
+          "cuisine": "japanese;sushi",
           "diet:vegetarian": "yes",
+          "email": "contact@nikkoberkeley.com",
+          "image": "http://www.nikkoberkeley.com/chirashi.jpg",
+          "indoor_seating": "yes",
           "name": "Nikko Sushi",
-          "opening_hours": "Mo-Su 12:00-20:30",
+          "opening_hours": "Mo-Th 11:30-14:00, 16:00-20:30; Fr 11:30-21:00; Sa 12:00-21:00; Su 12:00-20:30",
           "phone": "+1-510-704-8224",
-          "website": "http://www.nikkoberkeley.com"
+          "takeaway": "yes",
+          "website": "http://www.nikkoberkeley.com",
+          "website:menu": "http://www.nikkoberkeley.com/"
         }
       },
       "geometry": {
@@ -23916,24 +23965,6 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 2580394130,
-        "tags": {
-          "name": "Thousand Oaks Gallery",
-          "shop": "art"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.2800495,
-          37.8916892
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
         "id": 2580394131,
         "tags": {
           "addr:city": "Berkeley",
@@ -25227,12 +25258,22 @@
           "addr:state": "CA",
           "addr:street": "Telegraph Avenue",
           "amenity": "restaurant",
+          "contact:instagram": "https://www.instagram.com/daytripcounter/",
+          "cuisine": "rotisserie;california",
+          "description": "Juicy, slow-roasted rotisserie chicken, crunchy seasonal salads, craveable sides, plus an intentionally aggressive list of sauces.",
+          "diet:gluten_free": "yes",
+          "diet:pescetarian": "yes",
+          "diet:vegan": "yes",
+          "diet:vegetarian": "yes",
+          "email": "info@daytripcounter.com",
           "name": "Daytrip Counter",
           "old_name": "Daytrip;Julie's Oakland",
+          "opening_hours": "Mo-Su 11:30-20:00",
           "outdoor_seating": "yes",
+          "reservation": "no",
           "source": "https://sf.eater.com/2025/3/12/24384318/oaklands-daytrip-returns-reopens-daytrip-counter",
           "takeaway": "yes",
-          "website": "https://daytripcounter.com/"
+          "website": "https://www.daytripcounter.com/"
         }
       },
       "geometry": {
@@ -25276,10 +25317,21 @@
           "addr:street": "Telegraph Avenue",
           "addr:unit": "B",
           "amenity": "restaurant",
-          "cuisine": "japanese",
+          "check_date": "2026-06-26",
+          "contact:instagram": "https://www.instagram.com/kirakuberkeley/",
+          "contact:yelp": "https://www.yelp.com/biz/kiraku-berkeley",
+          "cuisine": "japanese;sushi",
+          "description": "Kiraku strives to deliver a genuine izakaya experience. By emulating the style of a modern izakaya popular in Japan, Kiraku hopes to spread the wonders of this style of eating to as many people as possible.",
+          "diet:gluten_free": "yes",
+          "diet:vegetarian": "yes",
+          "image": "https://kirakuberkeley.com/wp-content/uploads/2020/04/menu3.jpg",
           "name": "Kiraku",
-          "opening_hours": "We-Sa 16:30-20:00",
-          "website": "https://kirakuberkeley.com/"
+          "opening_hours": "Tu-Th 17:30-22:00; Fr-Sa 17:30-23:00",
+          "phone": "+1-510-848-2758",
+          "reservation": "recommended",
+          "start_date": "2011-07",
+          "website": "https://kirakuberkeley.com/",
+          "website:menu": "https://kirakuberkeley.com/wp-content/uploads/2024/08/Kiraku_2024_Food_Menu.pdf"
         }
       },
       "geometry": {
@@ -26203,12 +26255,23 @@
           "addr:city": "Berkeley",
           "addr:country": "US",
           "addr:housenumber": "1400",
+          "addr:postcode": "94709",
           "addr:state": "CA",
           "addr:street": "Shattuck Avenue",
-          "addr:unit": "1",
+          "addr:unit": "Suite 1A",
           "amenity": "restaurant",
+          "bar": "yes",
+          "contact:instagram": "https://www.instagram.com/kamado_sushi_berkeley/",
           "cuisine": "japanese;sushi",
-          "name": "Kamado Sushi"
+          "description": "Our specialty is “Omakase Sushi” \"Omakase\" is a Japanese phrase that means \"I'll leave it up to you.\" In the context of dining, particularly at sushi restaurants, ordering \"omakase\" means that the chef will choose the dishes for you.",
+          "diet:gluten_free": "yes",
+          "diet:vegetarian": "yes",
+          "indoor_seating": "yes",
+          "name": "Kamado Sushi",
+          "opening_hours": "Tu-Su 16:30-21:30",
+          "phone": "+1-510-540-5000",
+          "reservation": "yes",
+          "website:menu": "https://order.toasttab.com/online/kamado-sushi"
         }
       },
       "geometry": {
@@ -26935,37 +26998,6 @@
         "coordinates": [
           -122.3031237,
           37.8684321
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 3424329197,
-        "tags": {
-          "addr:housenumber": "4345",
-          "amenity": "restaurant",
-          "capacity": "98",
-          "check_date": "2023-02-07",
-          "cuisine": "sushi;japanese",
-          "drink:beer": "yes",
-          "fixme": "Merge with building",
-          "name": "Kansai",
-          "opening_hours": "Mo-Th,Su 11:30-23:30; Fr-Sa 11:30-24:30",
-          "outdoor_seating": "no",
-          "payment:credit_cards": "yes",
-          "phone": "+1-510-658-7273",
-          "takeaway": "yes",
-          "website": "http://www.orderkansai.com",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.2639421,
-          37.8320142
         ]
       }
     },
@@ -28098,9 +28130,11 @@
           "addr:housenumber": "1152",
           "addr:street": "Valencia Street",
           "amenity": "restaurant",
-          "check_date": "2026-04-12",
+          "check_date": "2026-06-25",
+          "check_date:opening_hours": "2026-06-25",
           "cuisine": "persian",
-          "name": "Delam"
+          "name": "Delam",
+          "opening_hours": "Tu-Su 17:00-21:30"
         }
       },
       "geometry": {
@@ -28119,8 +28153,10 @@
         "tags": {
           "addr:housenumber": "1146",
           "addr:street": "Valencia Street",
-          "check_date": "2025-02-04",
+          "check_date": "2026-06-25",
+          "check_date:opening_hours": "2026-06-25",
           "name": "U-Save Plumbing and Hardware",
+          "opening_hours:signed": "no",
           "shop": "hardware",
           "website": "https://www.u-saveplumbing.com/locations"
         }
@@ -28145,7 +28181,7 @@
           "amenity": "restaurant",
           "check_date": "2025-02-04",
           "cuisine": "indian",
-          "name": "Deccan House",
+          "name": "NTR Biryani",
           "website": "http://www.deccanhousesf.com/"
         }
       },
@@ -28166,7 +28202,7 @@
           "addr:city": "San Francisco",
           "addr:housenumber": "1136",
           "addr:street": "Valencia Street",
-          "check_date": "2025-02-04",
+          "check_date": "2026-06-25",
           "cuisine": "american",
           "disused:amenity": "restaurant",
           "name": "Adam's Grub Shack",
@@ -28190,10 +28226,11 @@
           "addr:housenumber": "1132",
           "addr:street": "Valencia Street",
           "amenity": "restaurant",
-          "check_date": "2025-02-04",
+          "check_date": "2026-06-25",
+          "check_date:opening_hours": "2026-06-25",
           "cuisine": "italian",
           "name": "Bottega",
-          "opening_hours": "Su-Th 11:00-23:00, Fr,Sa 11:00-23:00",
+          "opening_hours": "Su-Th 11:00-23:00; Fr,Sa 11:00-24:00",
           "website": "https://www.bottegavalencia.com/"
         }
       },
@@ -28216,6 +28253,7 @@
           "addr:street": "Valencia Street",
           "hairdresser": "barber",
           "name": "Steel & Strand",
+          "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-16:00",
           "shop": "hairdresser"
         }
       },
@@ -28236,6 +28274,7 @@
           "addr:city": "San Francisco",
           "addr:housenumber": "1034",
           "addr:street": "Valencia Street",
+          "check_date": "2026-06-25",
           "shop": "vacant"
         }
       },
@@ -28257,7 +28296,8 @@
           "addr:housenumber": "1020",
           "addr:street": "Valencia Street",
           "amenity": "restaurant",
-          "name": "Mission's Kitchen"
+          "name": "Mission's Kitchen",
+          "opening_hours": "Mo-Su 08:00-14:45"
         }
       },
       "geometry": {
@@ -28351,7 +28391,9 @@
           "addr:housenumber": "1070",
           "addr:street": "Valencia Street",
           "amenity": "cafe",
+          "check_date:opening_hours": "2026-06-25",
           "name": "The Marsh Cafe",
+          "opening_hours:signed": "no",
           "outdoor_seating": "no"
         }
       },
@@ -29442,15 +29484,23 @@
         "type": "node",
         "id": 4073823480,
         "tags": {
+          "addr:city": "Oakland",
           "addr:housenumber": "4390",
+          "addr:postcode": "94609",
+          "addr:state": "CA",
           "addr:street": "Telegraph Avenue",
           "addr:unit": "F;G",
           "amenity": "restaurant",
-          "check_date": "2023-02-07",
+          "check_date": "2026-06-26",
+          "contact:yelp": "https://www.yelp.com/biz/koryo-sushi-oakland",
           "cuisine": "sushi",
           "delivery": "no",
           "name": "Koryo",
-          "takeaway": "yes"
+          "opening_hours": "Su-Thu 17:00-25:00; Fr-Sa 17:00-26:00",
+          "phone": "+1-510-594-0661",
+          "takeaway": "yes",
+          "website": "https://gotkoryosushi.com/",
+          "website:menu": "https://gotkoryosushi.com/menu"
         }
       },
       "geometry": {
@@ -30477,8 +30527,8 @@
           "addr:street": "Solano Avenue",
           "alt_name": "Rose Oriental Rug Cleaning and Repair",
           "amenity": "carpet_washing",
+          "disused:shop": "carpet",
           "name": "Rose Oriental Rugs",
-          "shop": "carpet",
           "website": "https://roseorientalrugs.com/"
         }
       },
@@ -33410,14 +33460,21 @@
           "addr:state": "CA",
           "addr:street": "Dwight Way",
           "amenity": "restaurant",
-          "cuisine": "japanese;sushi",
+          "check_date": "2026-06-26",
+          "cuisine": "japanese;sushi;onigiri;bento_box",
+          "description": "Organic, Authentic Japanese food, We also cater to all events , (Meetings, tournaments, weddings) Other then our main Restaurant we also deliver fresh sushi to Tokyo Fish Market and  Yaoya-San,",
           "diet:vegetarian": "no",
+          "email": "musashiofberkeley@gmail.com",
+          "fax": "+1-510-843-2100",
+          "image": "https://musashiofberkeley.com/wp-content/uploads/2025/12/musashi_web_leftside_BG_image_2026-1.gif",
           "indoor_seating": "yes",
           "name": "Musashi",
-          "opening_hours": "Tu-Sa 17:00-21:00",
+          "opening_hours": "Tu-Sa 11:30-14:00",
           "outdoor_seating": "no",
-          "phone": "+1-510-8432017",
-          "website": "https://musashiofberkeley.com/"
+          "phone": "+1-510-843-2017",
+          "start_date": "1979",
+          "website": "https://musashiofberkeley.com/",
+          "website:menu": "https://musashiofberkeley.com/lunch/"
         }
       },
       "geometry": {
@@ -34088,6 +34145,7 @@
           "addr:housenumber": "888",
           "addr:street": "Valencia Street",
           "name": "Baggu",
+          "opening_hours": "Mo-Su 11:00-19:00",
           "shop": "bag"
         }
       },
@@ -38298,7 +38356,7 @@
           "addr:postcode": "94110",
           "addr:state": "CA",
           "addr:street": "Valencia Street",
-          "check_date:opening_hours": "2024-09-26",
+          "check_date:opening_hours": "2026-06-25",
           "name": "Dog Eared Books",
           "opening_hours": "10:00-22:00",
           "payment:american_express": "yes",
@@ -40899,29 +40957,6 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 7211219857,
-        "tags": {
-          "addr:city": "Berkeley",
-          "addr:housenumber": "1730",
-          "addr:postcode": "94707",
-          "addr:state": "CA",
-          "addr:street": "Solano Avenue",
-          "name": "Givens & Zweben",
-          "office": "lawyer"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.2817179,
-          37.8910837
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
         "id": 7211219858,
         "tags": {
           "name": "Law Offices of Leslie A. Levy",
@@ -42948,16 +42983,16 @@
           "addr:postcode": "94703",
           "addr:state": "CA",
           "addr:street": "University Avenue",
+          "disused:shop": "interior_decoration",
           "name": "Talavera Ceramics & Tile",
-          "shop": "interior_decoration",
           "website": "https://www.talaveraceramicsandtile.com/"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2751228,
-          37.8715016
+          -122.2751714,
+          37.8714371
         ]
       }
     },
@@ -43064,13 +43099,30 @@
         "tags": {
           "addr:city": "Berkeley",
           "addr:housenumber": "2598",
+          "addr:postcode": "94704",
+          "addr:state": "CA",
           "addr:street": "Telegraph Avenue",
           "amenity": "restaurant",
-          "cuisine": "nepalese;indian",
+          "check_date": "2026-06-26",
+          "contact:facebook": "https://www.facebook.com/mteverest123/",
+          "contact:instagram": "https://www.instagram.com/mounteverest_berkeley/",
+          "contact:yelp": "https://www.yelp.com/biz/mount-everest-berkeley",
+          "cuisine": "nepalese;indian;himalayan",
+          "description": "Mount Everest is a second generation, family run restaurant proudly serving the Berkeley community since 2010. For over a decade has been a go-to for students and locals who crave authentic Nepali and Indian cuisine made with love.",
+          "diet:halal": "yes",
+          "diet:vegan": "yes",
+          "diet:vegetarian": "yes",
+          "email": "mteverest375@gmail.com",
+          "image": "https://mteverestberkeley.com/pluto-images/funnel/images/7255125b-3002-41b7-b33e-d0b0c820b617.jpg",
+          "indoor_seating": "yes",
           "name": "Mount Everest",
-          "opening_hours": "Mo, Tu, Th-Su 11:00-15:00; Mo, Tu, Th-Su 17:00-21:30",
+          "opening_hours": "Mo 11:30-15:00, 16:00-21:30; Thu-Fr 11:30-15:00, 16:30-21:30; Sa 11:30-15:00, 16:30-23:30; Su 11:30-15:00, 16:30-21:30",
           "phone": "+1-510-843-3951",
-          "website": "https://www.mteverestberkeley.com/"
+          "reservation": "yes",
+          "takeaway": "yes",
+          "website": "https://mteverestberkeley.com/",
+          "website:menu": "https://mteverestberkeley.com/menu",
+          "wheelchair": "yes"
         }
       },
       "geometry": {
@@ -43373,11 +43425,18 @@
           "addr:state": "CA",
           "addr:street": "College Avenue",
           "amenity": "restaurant",
+          "bar": "yes",
+          "brewery": "sapporo",
+          "check_date": "2026-06-26",
+          "contact:instagram": "https://www.instagram.com/manpukuberkeley/",
+          "contact:yelp": "https://www.yelp.com/biz/manpuku-berkeley",
           "cuisine": "sushi",
           "name": "Manpuku",
-          "opening_hours": "Mo-Sa 11:30-14:00, 16:00-20:00",
+          "opening_hours": "Mo-Fr 11:30-14:00, 16:00-20:00; Sa 11:30-20:00",
           "phone": "+1-510-848-2536",
-          "website": "https://manpukuorder.com"
+          "takeaway": "yes",
+          "website": "https://manpukuorder.com",
+          "website:menu": "https://manpukuorder.com/products/items/MTY0/MTc1"
         }
       },
       "geometry": {
@@ -48490,11 +48549,18 @@
         "tags": {
           "addr:city": "Berkeley",
           "addr:housenumber": "1830",
+          "addr:postcode": "94710",
+          "addr:state": "CA",
           "addr:street": "Fourth Street",
           "amenity": "restaurant",
-          "cuisine": "japanese",
+          "cuisine": "japanese;sushi",
+          "email": "info@iyasare-berkeley.com",
+          "image": "https://iyasare-berkeley.com/wp-content/uploads/2014/04/Gallery-view-05.jpg",
           "name": "Iyasare",
-          "website": "https://iyasare-berkeley.com/"
+          "opening_hours": "Su-Th 11:30-14:30, 17:00-20:30; Fr-Sa 11:30-14:30, 17:00-21:00",
+          "phone": "+1-510-845-8100",
+          "website": "https://iyasare-berkeley.com/",
+          "website:menu": "https://order.toasttab.com/online/iyasare#!/"
         }
       },
       "geometry": {
@@ -48939,7 +49005,8 @@
           "addr:street": "Solano Avenue",
           "amenity": "dentist",
           "healthcare": "dentist",
-          "name": "1653 Dentistry"
+          "name": "Forbes and Lee Dentistry",
+          "website": "http://www.forbesdentistry.com/"
         }
       },
       "geometry": {
@@ -49141,6 +49208,9 @@
         "type": "node",
         "id": 8787361230,
         "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1641",
+          "addr:street": "Solano Avenue",
           "name": "Solano Ave. Barber Shop",
           "opening_hours": "Mo-We 09:00-17:00; Th 09:00-18:00; Fr 08:00-18:00; Sa 08:00-15:00",
           "shop": "hairdresser",
@@ -49161,7 +49231,10 @@
         "type": "node",
         "id": 8787365688,
         "tags": {
-          "name": "Shoes on Solano",
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1774",
+          "addr:street": "Solano Avenue",
+          "name": "Sole Terra Shoes",
           "shop": "shoes"
         }
       },
@@ -51892,8 +51965,8 @@
           "addr:housenumber": "980",
           "addr:state": "CA",
           "addr:street": "Valencia Street",
-          "check_date": "2026-05-10",
-          "check_date:opening_hours": "2025-01-30",
+          "check_date": "2026-06-25",
+          "check_date:opening_hours": "2026-06-25",
           "level": "0",
           "name": "Topdrawer",
           "opening_hours": "Mo-Fr 11:00-19:00; Sa 10:00-19:00; Su 10:00-18:00",
@@ -58708,27 +58781,6 @@
         "coordinates": [
           -122.279483,
           37.8912163
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 9892676252,
-        "tags": {
-          "addr:housenumber": "1820",
-          "addr:street": "Solano Avenue",
-          "addr:unit": "B-2",
-          "name": "Kai Real Estate",
-          "office": "estate_agent"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.2796527,
-          37.8911976
         ]
       }
     },
@@ -70272,14 +70324,18 @@
         "type": "node",
         "id": 10866297164,
         "tags": {
+          "addr:city": "Berkeley",
           "addr:housenumber": "2215",
+          "addr:postcode": "94702",
+          "addr:state": "CA",
           "addr:street": "San Pablo Avenue",
           "amenity": "restaurant",
-          "check_date": "2025-03-25",
+          "check_date": "2026-06-26",
+          "contact:yelp": "https://www.yelp.com/biz/daruma-sushi-berkeley",
           "cuisine": "sushi",
           "indoor_seating": "yes",
           "name": "Daruma Sushi",
-          "opening_hours": "Mo-We 17:00-19:00; Th-Su 11:00-14:00,17:00-21:00",
+          "opening_hours": "Mo-Su 17:00-21:00",
           "outdoor_seating": "no",
           "phone": "+1 510-529-1643",
           "wheelchair": "yes"
@@ -88190,11 +88246,13 @@
           "addr:housenumber": "1182",
           "addr:street": "Valencia Street",
           "amenity": "fast_food",
-          "check_date": "2025-02-04",
+          "check_date": "2026-06-25",
+          "check_date:opening_hours": "2026-06-25",
           "cuisine": "peruvian",
           "drive_through": "no",
           "level": "0",
           "name": "Sanguchon",
+          "opening_hours": "Tu-Su 11:00-21:00",
           "outdoor_seating": "yes"
         }
       },
@@ -88215,9 +88273,11 @@
           "addr:housenumber": "1102",
           "addr:street": "Valencia Street",
           "addr:unit": "102",
-          "check_date": "2025-02-04",
+          "check_date": "2026-06-25",
+          "check_date:opening_hours": "2026-06-25",
           "level": "0",
           "name": "The Pawffice",
+          "opening_hours": "Mo-Fr 08:00-18:30; Sa 09:00-17:30",
           "shop": "pet_grooming"
         }
       },
@@ -88263,10 +88323,12 @@
           "addr:housenumber": "1196",
           "addr:street": "Valencia Street",
           "amenity": "dentist",
-          "check_date": "2025-02-04",
+          "check_date": "2026-06-25",
+          "check_date:opening_hours": "2026-06-25",
           "healthcare": "dentist",
           "level": "0",
           "name": "Open Wide",
+          "opening_hours:signed": "no",
           "website": "https://openwidesf.com"
         }
       },
@@ -88312,7 +88374,8 @@
           "addr:housenumber": "1184",
           "addr:street": "Valencia Street",
           "beauty": "nails",
-          "check_date": "2025-02-04",
+          "check_date": "2026-06-25",
+          "check_date:opening_hours": "2026-06-25",
           "level": "0",
           "name": "Valencia Nail Spa",
           "opening_hours": "Mo-Sa 10:00-19:30; Su 10:00-18:30",
@@ -88574,8 +88637,10 @@
         "tags": {
           "addr:housenumber": "1173",
           "addr:street": "Valencia Street",
-          "check_date": "2025-02-11",
+          "check_date": "2026-06-25",
+          "check_date:opening_hours": "2026-06-25",
           "name": "Needles And Pens",
+          "opening_hours": "Mo-Fr 11:30-19:30; Sa 10:00-20:00; Su 10:00-19:30",
           "shop": "fashion_accessories"
         }
       },
@@ -102532,11 +102597,21 @@
           "addr:city": "Berkeley",
           "addr:country": "US",
           "addr:housenumber": "915",
+          "addr:postcode": "94710",
           "addr:state": "CA",
           "addr:street": "University Avenue",
           "amenity": "restaurant",
-          "cuisine": "sushi",
-          "name": "Butterfish Sushi"
+          "bar": "yes",
+          "contact:instagram": "https://www.instagram.com/butterfishberkeley/",
+          "cuisine": "sushi;handroll",
+          "email": "butterfishberkeley@gmail.com",
+          "image": "https://3b8dcad2d7ca83ff5d86.cdn6.editmysite.com/uploads/b/3b8dcad2d7ca83ff5d8666d5ffcd29691e3034b3de07f9e83176d044146d2285/IMG_9063%202_1735273343.jpg",
+          "indoor_seating": "yes",
+          "name": "Butterfish Sushi",
+          "opening_hours": "We-Mo 12:00-14:30, 16:00-21:30",
+          "phone": "+1-510-356-4814",
+          "website": "https://www.butterfishberkeley.com/",
+          "website:menu": "https://www.butterfishberkeley.com/uploads/b/e791b600-fd58-11ee-aca6-2dfb323721b8/7d7dc140-c943-11ef-86ef-111cfab38548.pdf"
         }
       },
       "geometry": {
@@ -112013,6 +112088,10 @@
         "type": "node",
         "id": 13307837929,
         "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "888",
+          "addr:street": "Colusa Avenue",
+          "name": "Salon la Luz",
           "shop": "hairdresser"
         }
       },
@@ -112270,10 +112349,11 @@
         "type": "node",
         "id": 13326991301,
         "tags": {
-          "addr:housenumber": "1199",
+          "addr:housenumber": "1299",
           "addr:postcode": "94706",
           "addr:street": "San Pablo Avenue",
-          "name": "Express Smog Station",
+          "check_date": "2026-06-25",
+          "name": "EZ Star Smog Test Only 2",
           "shop": "car_repair"
         }
       },
@@ -113176,6 +113256,7 @@
           "addr:housenumber": "968",
           "addr:street": "Valencia Street",
           "name": "Big Time Vintage",
+          "opening_hours": "Mo-Fr 12:00-19:00; Sa 12:00-19:00; Su 12:00-18:00",
           "second_hand": "only",
           "shop": "clothes"
         }
@@ -113197,6 +113278,7 @@
           "addr:housenumber": "956",
           "addr:street": "Valencia Street",
           "name": "Shaped.AF",
+          "opening_hours": "Tu-Fr 11:00-19:00; Sa,Su 10:00-18:00",
           "shop": "beauty"
         }
       },
@@ -113214,8 +113296,10 @@
         "type": "node",
         "id": 13724354415,
         "tags": {
-          "check_date": "2026-05-10",
+          "check_date": "2026-06-25",
+          "check_date:opening_hours": "2026-06-25",
           "name": "Back To The Picture",
+          "opening_hours": "Mo-Sa 10:00-18:00; Su 12:30-17:00",
           "shop": "frame"
         }
       },
@@ -113254,7 +113338,8 @@
           "addr:housenumber": "920",
           "addr:street": "Valencia Street",
           "amenity": "cafe",
-          "name": "Sisters Coffee Shop"
+          "name": "Sisters Coffee Shop",
+          "opening_hours": "Mo-Fr 07:00-17:00; Sa,Su 08:00-16:00"
         }
       },
       "geometry": {
@@ -113273,8 +113358,10 @@
         "tags": {
           "addr:housenumber": "896",
           "addr:street": "Valencia Street",
-          "check_date": "2026-05-10",
+          "check_date": "2026-06-25",
+          "check_date:opening_hours": "2026-06-25",
           "name": "Golden Eagle Market",
+          "opening_hours": "Mo-Su 08:00-02:00",
           "shop": "convenience"
         }
       },
@@ -113296,7 +113383,8 @@
           "addr:street": "Valencia Street",
           "amenity": "restaurant",
           "cuisine": "ethiopian",
-          "name": "Cafe Ethiopia"
+          "name": "Cafe Ethiopia",
+          "opening_hours": "We-Mo 17:00-20:30"
         }
       },
       "geometry": {
@@ -113547,6 +113635,7 @@
           "addr:street": "Valencia Street",
           "description": "Blind box collectibles",
           "name": "Uniko",
+          "opening_hours": "Mo-Su 11:30-19:30",
           "shop": "gift"
         }
       },
@@ -113567,6 +113656,7 @@
           "addr:housenumber": "1155B",
           "addr:street": "Valencia Street",
           "name": "Mo Tattoo",
+          "opening_hours": "\"by appointment only\"",
           "shop": "tattoo"
         }
       },
@@ -113587,6 +113677,7 @@
           "addr:housenumber": "1169",
           "addr:street": "Valencia Street",
           "name": "Love & Luxe",
+          "opening_hours": "Th-Su 12:00-18:00",
           "shop": "jewelry",
           "website": "https://loveandluxesf.com/"
         }
@@ -113608,6 +113699,7 @@
           "addr:housenumber": "810",
           "addr:street": "Valencia Street",
           "name": "Reboot",
+          "opening_hours": "Mo-Th 10:30-21:00; Fr-Su 09:00-21:00",
           "shop": "spa"
         }
       },
@@ -115182,6 +115274,210 @@
         "coordinates": [
           -122.2720043,
           37.848182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13963151921,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "892",
+          "addr:street": "Colusa Avenue",
+          "name": "Kitchensync",
+          "shop": "cabinet",
+          "website": "http://www.kitchensyncdesigns.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2800318,
+          37.891603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13963176368,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1639",
+          "addr:street": "Solano Avenue",
+          "amenity": "music_school",
+          "education": "music_school",
+          "name": "Soundwise Piano Studio"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2835844,
+          37.8912779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13963190915,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1787",
+          "addr:street": "Solano Avenue",
+          "name": "Today's Rave",
+          "shop": "hairdresser",
+          "website": "https://today-s-rave.wsite.top/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2804002,
+          37.891458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13966321933,
+        "tags": {
+          "addr:housenumber": "538",
+          "addr:street": "Valencia Street",
+          "amenity": "restaurant",
+          "check_date": "2026-05-10",
+          "cuisine": "japanese",
+          "diet:non-vegetarian": "yes",
+          "diet:seafood": "yes",
+          "diet:vegetarian": "yes",
+          "level": "0",
+          "name": "Kiku Sushi & Vegetarian",
+          "opening_hours": "Mo off; Tu-Th 11:30-14:30,17:00-21:00; Fr 11:30-14:30,17:00-21:30; Sa 12:00-15:00,17:00-21:30; Su 17:00-21:30",
+          "phone": "+1-415-400-4171",
+          "wheelchair": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4219908,
+          37.7642732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13966321937,
+        "tags": {
+          "amenity": "bar",
+          "check_date": "2026-05-10",
+          "level": "0",
+          "name": "Blondies Bar",
+          "wheelchair": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4219893,
+          37.7642187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13966321938,
+        "tags": {
+          "addr:housenumber": "524",
+          "addr:street": "Valencia Street",
+          "amenity": "restaurant",
+          "check_date": "2026-05-10",
+          "cuisine": "peruvian",
+          "level": "0",
+          "name": "Limón",
+          "wheelchair": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4220077,
+          37.7644489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13969241892,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2618",
+          "addr:street": "Telegraph Avenue",
+          "disused:amenity": "fast_food",
+          "name": "Kuboba"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2590231,
+          37.8625774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13969254632,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2620",
+          "addr:street": "Telegraph Avenue",
+          "disused:healthcare": "alternative",
+          "name": "The Good Life Chiropractic"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2590737,
+          37.8624448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13969520792,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1812",
+          "addr:street": "University Avenue",
+          "addr:unit": "A",
+          "disused:amenity": "fast_food",
+          "name": "Good Eats"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2745794,
+          37.8711913
         ]
       }
     },
@@ -195058,7 +195354,7 @@
           "building": "yes",
           "description": "Kitchen appliances for brewing coffee. Has demonstrations of coffee techniques.",
           "name": "Fellow Store + Playground",
-          "opening_hours": "Tu-Su 12:00-18:00",
+          "opening_hours": "Mo-Fr 11:00-18:00, Fr,Sa 11:00-19:00",
           "opening_hours:url": "https://fellowproducts.com/pages/visit-us",
           "shop": "houseware",
           "website": "https://fellowproducts.com/pages/visit-us",
@@ -238015,6 +238311,69 @@
             [
               -122.2631817,
               37.8316944
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 475144345,
+        "tags": {
+          "addr:city": "Oakland",
+          "addr:country": "US",
+          "addr:housenumber": "4345",
+          "addr:postcode": "94609",
+          "addr:state": "CA",
+          "addr:street": "Telegraph Avenue",
+          "amenity": "restaurant",
+          "building": "yes",
+          "capacity": "98",
+          "check_date": "2026-06-26",
+          "cuisine": "sushi;japanese",
+          "drink:beer": "yes",
+          "name": "Kansai",
+          "opening_hours": "Su-Thu 11:30-23:30; Fr-Sa 11:30-24:30",
+          "outdoor_seating": "no",
+          "payment:credit_cards": "yes",
+          "phone": "+1-510-658-7273",
+          "takeaway": "yes",
+          "website": "http://www.orderkansai.com",
+          "wheelchair": "yes"
+        },
+        "nodes": [
+          3424329197,
+          4689391598,
+          4689387894,
+          4689390380,
+          3424329197
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2639205,
+              37.8319594
+            ],
+            [
+              -122.2642122,
+              37.8320023
+            ],
+            [
+              -122.2641872,
+              37.8321084
+            ],
+            [
+              -122.2638955,
+              37.8320655
+            ],
+            [
+              -122.2639205,
+              37.8319594
             ]
           ]
         ]
@@ -446002,6 +446361,45 @@
             [
               -122.260625,
               37.8608275
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1532819972,
+        "tags": {
+          "landuse": "grass"
+        },
+        "nodes": [
+          13969061011,
+          13969061012,
+          13969061010,
+          13969061011
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2639298,
+              37.8750677
+            ],
+            [
+              -122.2637037,
+              37.8750238
+            ],
+            [
+              -122.2638998,
+              37.8748222
+            ],
+            [
+              -122.2639298,
+              37.8750677
             ]
           ]
         ]
