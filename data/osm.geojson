@@ -208,6 +208,7 @@
         "id": 271109407,
         "tags": {
           "amenity": "post_box",
+          "collection_times": "Mo-Sa 20:00",
           "drive_through": "no",
           "operator": "United States Postal Service",
           "operator:short": "USPS",
@@ -215,6 +216,7 @@
           "operator:website": "https://www.usps.com",
           "operator:wikidata": "Q668687",
           "operator:wikipedia": "en:United States Postal Service",
+          "ref": "9470900005",
           "short_name": "USPS"
         }
       },
@@ -232,7 +234,9 @@
         "type": "node",
         "id": 271109408,
         "tags": {
-          "amenity": "post_box"
+          "amenity": "post_box",
+          "collection_times": "Mo-Fr 18:30; Sa 18:15",
+          "ref": "9470900001"
         }
       },
       "geometry": {
@@ -1390,24 +1394,6 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 306074059,
-        "tags": {
-          "amenity": "post_box",
-          "collection_times": "Mo-Sa 17:00"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.2712132,
-          37.8563345
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
         "id": 306074062,
         "tags": {
           "amenity": "bicycle_parking",
@@ -1493,23 +1479,6 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 307506672,
-        "tags": {
-          "amenity": "post_box"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.2706374,
-          37.8700757
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
         "id": 307507263,
         "tags": {
           "amenity": "fuel",
@@ -1569,6 +1538,7 @@
           "operator:website": "https://www.usps.com",
           "operator:wikidata": "Q668687",
           "operator:wikipedia": "en:United States Postal Service",
+          "ref": "9470900018",
           "short_name": "USPS"
         }
       },
@@ -2911,33 +2881,6 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 314115564,
-        "tags": {
-          "addr:city": "Berkeley",
-          "addr:country": "US",
-          "addr:housenumber": "1685",
-          "addr:state": "CA",
-          "addr:street": "Shattuck Avenue",
-          "cuisine": "french",
-          "disused:amenity": "restaurant",
-          "name": "Poulet",
-          "phone": "+1 510 8455932",
-          "smoking": "no",
-          "website": "https://www.poulet-deli.com/"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.2687078,
-          37.8767394
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
         "id": 314115577,
         "tags": {
           "addr:country": "US",
@@ -2950,7 +2893,7 @@
           "drive_in": "no",
           "microbrewery": "no",
           "name": "Taste of the Himalayas",
-          "opening_hours": "We-Su 16:30-20:30",
+          "opening_hours": "We-Mo 16:30-20:30, We-Mo 11:00-14:30",
           "phone": "+1 510-849-4983",
           "website": "https://www.tasteofthehimalayas.com/"
         }
@@ -2975,14 +2918,9 @@
           "addr:state": "CA",
           "addr:street": "Shattuck Avenue",
           "amenity": "restaurant",
-          "cuisine": "thai",
-          "diet:vegetarian": "yes",
           "drive_in": "no",
-          "microbrewery": "no",
-          "name": "Thai Delight",
-          "opening_hours": "Th-Tu 10:00-15:00,16:30-20:30",
-          "phone": "+1-510-549-0611",
-          "website": "https://www.onlinethaidelightberkeley.com"
+          "name": "Azure Hotpot",
+          "opening_hours": "Mo,Tu,Th,Fr 11:30-14:30; Sa,Su 00:00-15:00,17:00-23:00"
         }
       },
       "geometry": {
@@ -3376,7 +3314,7 @@
           "drive_in": "no",
           "microbrewery": "no",
           "name": "Grégoire",
-          "opening_hours": "07:00-21:00",
+          "opening_hours": "Mo-Th 11:30-19:00; Fr-Su 11:30-20:00",
           "phone": "+1 510 8831893",
           "smoking": "no",
           "website": "https://www.gregoirerestaurant.com/"
@@ -3683,7 +3621,10 @@
         "type": "node",
         "id": 318886217,
         "tags": {
+          "addr:city": "Berkeley",
           "addr:housenumber": "1862",
+          "addr:postcode": "94709",
+          "addr:state": "CA",
           "addr:street": "Euclid Avenue",
           "amenity": "ice_cream",
           "brand": "Menchie's",
@@ -3946,13 +3887,13 @@
         "id": 342742766,
         "tags": {
           "addr:city": "Berkeley",
-          "addr:housenumber": "1950",
+          "addr:housenumber": "2163",
           "addr:state": "CA",
-          "addr:street": "Oxford Street",
-          "addr:unit": "F",
+          "addr:street": "University Avenue",
           "amenity": "fast_food",
           "brand": "Shake Shack",
           "brand:wikidata": "Q1058722",
+          "check_date": "2026-06-28",
           "cuisine": "burger",
           "name": "Shake Shack",
           "takeaway": "yes"
@@ -3961,8 +3902,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.266749,
-          37.8725514
+          -122.2667539,
+          37.8725339
         ]
       }
     },
@@ -4416,12 +4357,12 @@
           "addr:street": "Solano Avenue",
           "alt_name": "The Xocolate Bar",
           "check_date": "2025-07-06",
+          "disused:shop": "chocolate",
           "name": "Xocolate",
           "opening_hours": "Tu-Su 11:00-17:00",
           "payment:cash": "yes",
           "payment:credit_cards": "yes",
           "phone": "+1 510-525-9626",
-          "shop": "chocolate",
           "website": "https://www.thexocolatebar.com"
         }
       },
@@ -6055,16 +5996,22 @@
         "type": "node",
         "id": 366086635,
         "tags": {
+          "addr:city": "Berkeley",
           "addr:housenumber": "2310",
+          "addr:postcode": "94704",
+          "addr:state": "CA",
           "addr:street": "Telegraph Avenue",
           "amenity": "pharmacy",
           "brand": "Walgreens",
           "brand:wikidata": "Q1591889",
-          "check_date": "2025-02-16",
-          "drive_through": "yes",
+          "check_date": "2026-07-14",
+          "dispensing": "no",
+          "drive_through": "no",
           "healthcare": "pharmacy",
           "name": "Walgreens",
-          "opening_hours": "Mo-Fr 07:00-22:00; Sa-Su 08:00-22:00",
+          "opening_hours": "Mo-Fr 08:00-21:00; Sa-Su 09:00-21:00",
+          "phone": "+1 510 848 5121",
+          "ref": "10045",
           "website": "https://www.walgreens.com/locator/walgreens-2310+telegraph+ave-berkeley-ca-94704/id=10045"
         }
       },
@@ -6402,7 +6349,7 @@
           "delivery": "no",
           "image": "https://www.kiralaberkeley.com/_astro/image_gallery2.DEtBhnDz.jpg",
           "name": "Kirala",
-          "opening_hours": "Su, Tu, We 17:00-20:45; Thu 12:00-14:00, 17:00-20:45; Fr 12:00-14:00, 17:00-21:15; Sa 17:00-21:15",
+          "opening_hours": "Su, Tu, We 17:00-20:45; Th 12:00-14:00, 17:00-20:45; Fr 12:00-14:00, 17:00-21:15; Sa 17:00-21:15",
           "outdoor_seating": "no",
           "phone": "+1-424-316-2862",
           "smoking": "no",
@@ -9875,8 +9822,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2732154,
-          37.8717025
+          -122.2733012,
+          37.871802
         ]
       }
     },
@@ -10549,7 +10496,7 @@
           "internet_access": "wlan",
           "internet_access:fee": "no",
           "name": "Nabolom Bakery",
-          "opening_hours": "Mo 7:00-14:00; Tu-Fr 7:00-17:00; Sa-Su 7:30-17:00",
+          "opening_hours": "Mo 07:00-14:00; Tu-Fr 07:00-17:00; Sa-Su 07:30-17:00",
           "shop": "bakery",
           "website": "https://www.nabolombakery.com/",
           "wheelchair": "yes"
@@ -11072,8 +11019,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.259322,
-          37.8729501
+          -122.2594817,
+          37.8728354
         ]
       }
     },
@@ -14519,23 +14466,6 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 1723537351,
-        "tags": {
-          "amenity": "bench"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.269457,
-          37.878443
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
         "id": 1723538598,
         "tags": {
           "amenity": "waste_basket",
@@ -14711,26 +14641,10 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 1753250974,
-        "tags": {
-          "amenity": "waste_basket"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.2751531,
-          37.8711603
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
         "id": 1753251313,
         "tags": {
-          "amenity": "waste_basket"
+          "amenity": "waste_basket",
+          "check_date": "2026-07-10"
         }
       },
       "geometry": {
@@ -15927,8 +15841,8 @@
         "tags": {
           "amenity": "cafe",
           "cuisine": "coffee_shop",
-          "name": "Yali's Cafe",
-          "old_name": "Qualcomm Cafe",
+          "name": "Qualcomm Cafe",
+          "old_name": "Yali's Cafe",
           "wifi": "no"
         }
       },
@@ -15973,9 +15887,13 @@
           "addr:housenumber": "2748",
           "addr:postcode": "94703",
           "addr:street": "Adeline Street",
-          "check_date": "2025-11-21",
+          "addr:unit": "Suite C",
+          "amenity": "cafe",
+          "check_date": "2026-07-10",
+          "contact:instagram": "https://www.instagram.com/mey_berkeley",
+          "contact:yelp": "https://www.yelp.com/biz/mey-cafe-bakery-berkeley",
           "indoor_seating": "yes",
-          "name": "Mey",
+          "name": "Mey Cafe and Bakery",
           "opening_hours": "Mo off; Tu-Su 08:00-15:00",
           "shop": "bakery",
           "wheelchair": "yes"
@@ -17661,14 +17579,15 @@
           "amenity": "fast_food",
           "brand": "Subway",
           "brand:wikidata": "Q244457",
+          "check_date": "2026-06-28",
           "cuisine": "sandwich",
           "diet:vegan": "yes",
           "diet:vegetarian": "yes",
           "drive_in": "no",
           "drive_through": "no",
           "name": "Subway",
-          "opening_hours": "Mo-Fr 09:00-21:00; Sa, Su 10:00-20:30",
-          "phone": "+1 510-649-0224",
+          "opening_hours": "Mo-Th 09:00-21:00; Sa, Su 10:00-21:00; Fr 09:00-20:00",
+          "phone": "+1 510-703-0202",
           "takeaway": "yes",
           "website": "https://restaurants.subway.com/united-states/ca/berkeley/2048-kala-bagai-way",
           "wheelchair": "yes"
@@ -18114,6 +18033,7 @@
           "addr:city": "Berkeley",
           "addr:housenumber": "1816",
           "addr:postcode": "94709",
+          "addr:state": "CA",
           "addr:street": "Euclid Avenue",
           "name": "Hair Cut Connection",
           "shop": "hairdresser"
@@ -18135,6 +18055,8 @@
         "tags": {
           "addr:city": "Berkeley",
           "addr:housenumber": "1804",
+          "addr:postcode": "94709",
+          "addr:state": "CA",
           "addr:street": "Euclid Avenue",
           "name": "The Campus Store",
           "shop": "general"
@@ -18485,19 +18407,31 @@
           "addr:city": "Oakland",
           "addr:housenumber": "5020",
           "addr:postcode": "94609",
+          "addr:state": "CA",
           "addr:street": "Telegraph Avenue",
           "amenity": "restaurant",
-          "cuisine": "ethiopian",
+          "bar": "yes",
+          "brewery": "asmara;gojo",
+          "check_date": "2026-06-29",
+          "contact:yelp": "https://www.yelp.com/biz/asmara-restaurant-oakland",
+          "cuisine": "ethiopian;eritrean",
           "delivery": "no",
+          "description": "Asmara Restaurant serves traditional Eritrean/Ethiopian food for diners in Oakland. With gluten-free dishes and fare that's low in fat, you won't feel guilty about dining out at Asmara Restaurant.",
+          "diet:gluten_free": "yes",
+          "diet:vegan": "yes",
+          "diet:vegetarian": "yes",
           "indoor_seating": "yes",
           "internet_access": "no",
           "name": "Asmara",
-          "opening_hours": "Tu-Su 11:30-22:30",
+          "opening_hours": "Tu-Su 11:30-22:00",
           "outdoor_seating": "no",
           "phone": "+1-510-547-5100",
+          "reservation": "yes",
           "smoking": "no",
+          "start_date": "1985",
           "takeaway": "yes",
-          "website": "http://asmararestaurant.com/",
+          "website": "https://asmararestaurantoakland.com/",
+          "website:menu": "https://asmararestaurantoakland.com/menu/",
           "wheelchair": "yes"
         }
       },
@@ -19313,9 +19247,11 @@
           "addr:housenumber": "2121",
           "addr:state": "CA",
           "addr:street": "University Avenue",
+          "amenity": "fast_food",
           "check_date": "2024-08-17",
-          "disused:shop": "copyshop",
+          "name": "Oakberry Acai",
           "old_name": "Copy Edge",
+          "website": "https://www.oakberry.com/store/Berkeley",
           "wheelchair": "yes"
         }
       },
@@ -20303,25 +20239,6 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 2342885867,
-        "tags": {
-          "name": "Viveur Salon",
-          "shop": "hairdresser",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.269174,
-          37.877225
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
         "id": 2342886014,
         "tags": {
           "addr:city": "Berkeley",
@@ -20922,9 +20839,9 @@
           "addr:housenumber": "2043",
           "addr:state": "CA",
           "addr:street": "University Avenue",
+          "disused:shop": "hairdresser",
           "name": "Gentle Hair Cuts",
-          "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-17:00",
-          "shop": "hairdresser"
+          "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-17:00"
         }
       },
       "geometry": {
@@ -20993,8 +20910,9 @@
           "addr:housenumber": "2031",
           "addr:state": "CA",
           "addr:street": "University Avenue",
-          "disused:shop": "beauty",
-          "name": "Nail Image"
+          "name": "U C Bikes",
+          "note": "formerly known as Bikes on Solano",
+          "shop": "bicycle"
         }
       },
       "geometry": {
@@ -21861,8 +21779,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2550952,
-          37.8698095
+          -122.2550293,
+          37.8691357
         ]
       }
     },
@@ -23452,6 +23370,7 @@
           "amenity": "cafe",
           "cuisine": "bubble_tea",
           "name": "Tea Hut",
+          "opening_hours": "Mo-Fr 08:30-21:00; Sa,Su 11:00-21:00",
           "toilets:wheelchair": "yes",
           "wheelchair": "yes"
         }
@@ -24633,7 +24552,7 @@
           "check_date": "2023-06-11",
           "cuisine": "taiwanese;bubble_tea",
           "name": "Sweetheart Cafe",
-          "opening_hours": "6:00-20:30",
+          "opening_hours": "06:00-20:30",
           "phone": "+1-510-540-0707",
           "toilets:wheelchair": "no",
           "website": "https://sweetheart-tea.weebly.com",
@@ -24772,8 +24691,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.262282,
-          37.835506
+          -122.2623451,
+          37.8354835
         ]
       }
     },
@@ -26937,13 +26856,24 @@
         "type": "node",
         "id": 3393275918,
         "tags": {
+          "addr:city": "Berkeley",
           "addr:housenumber": "2912",
+          "addr:postcode": "94705",
+          "addr:state": "CA",
           "addr:street": "Domingo Avenue",
+          "alt_name": "Fournée Bakery",
+          "check_date": "2026-07-10",
+          "contact:instagram": "https://www.instagram.com/fourneebakery/",
+          "contact:yelp": "https://www.yelp.com/biz/fourn%C3%A9e-bakery-berkeley",
+          "email": "fourneebakery@att.net",
+          "indoor_seating": "no",
           "name": "Fournée",
-          "opening_hours": "We-Sa 08:00-17:00; Su 08:00-15:00",
+          "not:name": "Fournee",
+          "opening_hours": "We-Sa 08:00-16:00; Su 08:00-15:00",
           "phone": "+1-510-549-9434",
           "shop": "bakery",
-          "website": "https://www.fourneebakery.com/"
+          "website": "https://www.fourneebakery.com/",
+          "website:menu": "https://www.fourneebakery.com/fourneemenu"
         }
       },
       "geometry": {
@@ -27065,6 +26995,7 @@
           "addr:street": "Valencia Street",
           "fee": "yes",
           "name": "Valencia Cyclery Repair Shop",
+          "opening_hours": "Mo-Sa 10:00-18:00; Su 10:00-17:00",
           "phone": "+1-415-550-6601",
           "service:bicycle:pump": "yes",
           "service:bicycle:repair": "yes",
@@ -27813,26 +27744,6 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 3624132173,
-        "tags": {
-          "description": "Audio VW Porsche Service & Repair",
-          "name": "Karmakanix",
-          "shop": "car_repair",
-          "website": "http://karmakanix.com/"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.3029402,
-          37.8748904
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
         "id": 3633566497,
         "tags": {
           "amenity": "bank",
@@ -28030,10 +27941,16 @@
           "addr:state": "CA",
           "addr:street": "Sacramento Street",
           "amenity": "restaurant",
-          "check_date": "2026-05-26",
+          "check_date": "2026-07-20",
           "cuisine": "indian",
+          "diet:vegetarian": "yes",
           "name": "Narwhal Urban Village",
+          "opening_hours": "Mo-Th,Su 10:30-22:00; Fr-Sa 10:30-22:30",
           "outdoor_seating": "yes",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "phone": "+1-510-280-5128",
+          "takeaway": "yes",
           "website": "https://www.instagram.com/narwal_urban_village/"
         }
       },
@@ -28296,6 +28213,7 @@
           "addr:housenumber": "1020",
           "addr:street": "Valencia Street",
           "amenity": "restaurant",
+          "check_date": "2026-07-18",
           "name": "Mission's Kitchen",
           "opening_hours": "Mo-Su 08:00-14:45"
         }
@@ -28967,9 +28885,10 @@
           "addr:housenumber": "1918",
           "addr:postcode": "94704",
           "addr:state": "CA",
-          "addr:street": "Martin Luther King Jr Way",
+          "addr:street": "Martin Luther King Junior Way",
           "amenity": "ice_cream",
-          "name": "Melt Me Ice Cream"
+          "name": "Melt Me Creamery",
+          "phone": "+1 510-936-6456"
         }
       },
       "geometry": {
@@ -29496,7 +29415,7 @@
           "cuisine": "sushi",
           "delivery": "no",
           "name": "Koryo",
-          "opening_hours": "Su-Thu 17:00-25:00; Fr-Sa 17:00-26:00",
+          "opening_hours": "Su-Th 17:00-25:00; Fr-Sa 17:00-26:00",
           "phone": "+1-510-594-0661",
           "takeaway": "yes",
           "website": "https://gotkoryosushi.com/",
@@ -29943,10 +29862,18 @@
         "type": "node",
         "id": 4124184017,
         "tags": {
+          "addr:housenumber": "B120",
+          "addr:street": "Grimes Engineering Center",
           "amenity": "library",
+          "internet_access": "wlan",
+          "internet_access:fee": "customers",
           "layer": "-1",
           "level": "1",
-          "name": "Kresge Engineering Library"
+          "name": "Kresge Engineering & Mathematical Sciences Library",
+          "opening_hours": "See website",
+          "operator": "UC Berkeley Library",
+          "operator:type": "university",
+          "website": "https://www.lib.berkeley.edu/visit/engineering"
         }
       },
       "geometry": {
@@ -30022,36 +29949,17 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 4124184022,
-        "tags": {
-          "amenity": "library",
-          "check_date": "2024-09-23",
-          "name": "Mathematics Statistics Library",
-          "website": "https://www.lib.berkeley.edu/visit/math"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.2576719,
-          37.8736458
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
         "id": 4124184024,
         "tags": {
-          "addr:housenumber": "227",
-          "addr:street": "Haviland Hall",
           "amenity": "library",
           "internet_access": "wlan",
           "internet_access:fee": "no",
+          "level": "2",
           "name": "Social Research Library",
+          "opening_hours": "See website",
           "operator": "UC Berkeley Library",
           "operator:type": "university",
+          "ref:addr": "227",
           "website": "https://www.lib.berkeley.edu/visit/social-research"
         }
       },
@@ -30740,8 +30648,8 @@
         "tags": {
           "addr:housenumber": "3051",
           "addr:street": "Adeline Street",
-          "amenity": "cafe",
           "check_date": "2025-11-22",
+          "disused:amenity": "cafe",
           "name": "Zing Cafe",
           "wheelchair": "yes"
         }
@@ -33091,9 +32999,11 @@
           "addr:housenumber": "804",
           "addr:street": "Valencia Street",
           "amenity": "atm",
-          "check_date": "2026-04-14",
+          "check_date": "2026-06-25",
           "drive_through": "no",
-          "name": "Valencia Lobby"
+          "name": "Valencia Lobby",
+          "operator": "SF ATM Network",
+          "website": "https://www.sfatm.net/"
         }
       },
       "geometry": {
@@ -33228,9 +33138,11 @@
           "addr:state": "CA",
           "addr:street": "19th Street",
           "amenity": "cafe",
-          "check_date": "2026-04-13",
+          "check_date": "2026-07-08",
+          "check_date:opening_hours": "2026-07-08",
           "cuisine": "asian",
           "name": "Do-Re-Mi",
+          "opening_hours": "Tu-Th 11:30-19:00; Fr 11:30-19:30; Sa 11:00-19:30; Su 11:00-19:00; Mo off",
           "outdoor_seating": "no",
           "website": "https://doremirice.com/"
         }
@@ -34888,16 +34800,17 @@
           "addr:state": "CA",
           "addr:street": "Hearst Avenue",
           "amenity": "cafe",
-          "name": "Cafe Reveille",
-          "phone": "+1-415-7896258",
+          "name": "Cafe Réveille",
+          "outdoor_seating": "yes",
+          "phone": "+1 415-789-6258",
           "website": "https://www.cafereveille.com/berkeley"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2994028,
-          37.868638
+          -122.2993558,
+          37.8686336
         ]
       }
     },
@@ -35162,7 +35075,8 @@
         "tags": {
           "amenity": "bicycle_parking",
           "bicycle_parking": "stands",
-          "capacity": "10"
+          "capacity": "10",
+          "covered": "no"
         }
       },
       "geometry": {
@@ -35942,7 +35856,8 @@
         "type": "node",
         "id": 6298567065,
         "tags": {
-          "amenity": "waste_basket"
+          "amenity": "waste_basket",
+          "check_date": "2026-06-29"
         }
       },
       "geometry": {
@@ -37514,8 +37429,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2622791,
-          37.8355532
+          -122.2623258,
+          37.8355477
         ]
       }
     },
@@ -37657,8 +37572,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2622413,
-          37.8357277
+          -122.2622595,
+          37.8357407
         ]
       }
     },
@@ -39324,26 +39239,6 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 7050553263,
-        "tags": {
-          "amenity": "bicycle_rental",
-          "bicycle_rental": "docking_station",
-          "network": "Bay Wheels",
-          "operator": "Lyft"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.2706028,
-          37.849743
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
         "id": 7050553265,
         "tags": {
           "amenity": "bicycle_rental",
@@ -40950,6 +40845,29 @@
         "coordinates": [
           -122.281665,
           37.8910911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 7211219857,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1730",
+          "addr:postcode": "94707",
+          "addr:state": "CA",
+          "addr:street": "Solano Avenue",
+          "disused:office": "lawyer",
+          "name": "Givens & Zweben"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2817179,
+          37.8910837
         ]
       }
     },
@@ -45042,6 +44960,7 @@
           "name": "Sharetea",
           "name:en": "Sharetea",
           "name:zh": "歇腳亭",
+          "opening_hours": "11:00-25:00; May 16-Aug 16 11:00-23:00",
           "takeaway": "yes"
         }
       },
@@ -46507,16 +46426,14 @@
           "addr:state": "CA",
           "addr:street": "Eighth Street",
           "addr:unit": "116",
-          "contact:instagram": "https://www.instagram.com/lanoisettesweets/",
+          "contact:instagram": "https://www.instagram.com/p/Da_sEN5qvt2/",
           "cuisine": "french",
           "indoor_seating": "no",
-          "name": "La Noisette Sweets",
-          "opening_hours": "We 09:00-15:00; Sa 09:00-14:00",
+          "name": "Milk Cloud Bakery",
           "outdoor_seating": "yes",
           "pastry": "yes",
-          "phone": "+1-510-813-8300",
-          "shop": "pastry",
-          "website": "https://www.lanoisettesweets.com/",
+          "shop": "bakery",
+          "website": "https://milkcloudbakery.com/",
           "wheelchair": "yes"
         }
       },
@@ -50569,14 +50486,29 @@
         "type": "node",
         "id": 9101061071,
         "tags": {
+          "addr:city": "Oakland",
           "addr:housenumber": "4920",
+          "addr:postcode": "94609",
+          "addr:state": "CA",
           "addr:street": "Telegraph Avenue",
+          "addr:unit": "A",
+          "contact:instagram": "https://www.instagram.com/forma_bakery/",
+          "contact:yelp": "https://www.yelp.com/biz/forma-bakery-oakland",
+          "description": "Serving sourdough breads, conchas, and a variety of croissants, Forma uses French baking techniques and Mexican-inspired flavors to create a rotating menu of hand crafted baked goods. The menu also features many plant based options.",
+          "diet:vegan": "yes",
+          "diet:vegetarian": "yes",
+          "email": "info@formabakery.com",
+          "image": "https://static.wixstatic.com/media/144565_ab70cf1ca17f4f4da530193674e0ff11~mv2.jpeg/v1/fit/w_1654,h_820,q_90,enc_avif,quality_auto/144565_ab70cf1ca17f4f4da530193674e0ff11~mv2.jpeg",
           "indoor_seating": "yes",
           "name": "Forma Bakery",
           "old_name": "Extra Butter;Between the bun",
-          "outdoor_seating": "no",
+          "opening_hours": "Mo-Su 08:00-14:30",
+          "outdoor_seating": "yes",
+          "pastry": "yes",
           "shop": "bakery",
           "was:amenity": "restaurant",
+          "website": "https://www.formabakery.com/",
+          "website:menu": "https://www.formabakery.com/menus",
           "wheelchair": "yes"
         }
       },
@@ -51089,6 +51021,7 @@
         "tags": {
           "amenity": "bench",
           "backrest": "no",
+          "location:roof": "yes",
           "material": "concrete"
         }
       },
@@ -52751,8 +52684,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2589647,
-          37.8720756
+          -122.2589121,
+          37.8720237
         ]
       }
     },
@@ -53095,6 +53028,7 @@
         "type": "node",
         "id": 9469187169,
         "tags": {
+          "check_date:opening_hours": "2026-06-29",
           "name": "Blick art materials",
           "opening_hours": "Mo-Sa 10:00-19:00; Su 10:00-18:00",
           "shop": "craft",
@@ -55211,8 +55145,11 @@
           "addr:state": "CA",
           "addr:street": "Durant Avenue",
           "addr:unit": "C",
-          "check_date": "2023-06-11",
-          "name": "Inkstone",
+          "check_date": "2026-07-22",
+          "name": "The Ink Stone",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "phone": "+1 (510) 843-1162",
           "shop": "art_suplies",
           "website": "https://theinkstone.com/"
         }
@@ -55626,13 +55563,18 @@
         "tags": {
           "addr:city": "Berkeley",
           "addr:housenumber": "2521",
+          "addr:postcode": "94704",
           "addr:state": "CA",
           "addr:street": "Durant Avenue",
           "addr:unit": "C",
           "amenity": "restaurant",
+          "contact:yelp": "https://www.yelp.com/biz/katsumi-sushi-berkeley",
           "cuisine": "sushi",
+          "indoor_seating": "yes",
           "name": "Katsumi Sushi",
-          "outdoor_seating": "yes"
+          "opening_hours": "Mo-Su 12:30-23:00",
+          "outdoor_seating": "yes",
+          "phone": "+1-510-529-4799"
         }
       },
       "geometry": {
@@ -57081,8 +57023,11 @@
         "type": "node",
         "id": 9785959018,
         "tags": {
-          "amenity": "restaurant",
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2200",
+          "addr:street": "San Pablo Avenue",
           "cuisine": "mexican",
+          "disused:amenity": "restaurant",
           "name": "Gallego's"
         }
       },
@@ -57155,6 +57100,7 @@
         "tags": {
           "addr:city": "Berkeley",
           "addr:housenumber": "1828",
+          "addr:postcode": "94709",
           "addr:state": "CA",
           "addr:street": "Euclid Avenue",
           "disused:amenity": "restaurant",
@@ -60728,8 +60674,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.270462,
-          37.8508962
+          -122.2704634,
+          37.8508941
         ]
       }
     },
@@ -60745,8 +60691,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2704596,
-          37.850932
+          -122.2704637,
+          37.8509286
         ]
       }
     },
@@ -61381,10 +61327,7 @@
         "type": "node",
         "id": 10055165776,
         "tags": {
-          "amenity": "car_sharing",
-          "operator": "Zipcar",
-          "operator:type": "private",
-          "operator:wikidata": "Q1069924",
+          "amenity": "parking_space",
           "parking": "street_side",
           "rental": "vehicle"
         }
@@ -64907,8 +64850,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2706879,
-          37.8700518
+          -122.2707224,
+          37.8700464
         ]
       }
     },
@@ -64984,8 +64927,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2706468,
-          37.8701294
+          -122.2706538,
+          37.8701664
         ]
       }
     },
@@ -65003,8 +64946,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.270663,
-          37.8702267
+          -122.270673,
+          37.8702865
         ]
       }
     },
@@ -65041,7 +64984,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2706402,
+          -122.2706462,
           37.8701073
         ]
       }
@@ -66927,7 +66870,7 @@
           "addr:housenumber": "1007",
           "addr:street": "Valencia Street",
           "amenity": "restaurant",
-          "check_date": "2025-12-30",
+          "check_date": "2026-07-18",
           "check_date:opening_hours": "2025-07-31",
           "cuisine": "indian",
           "description": "South Indian food",
@@ -67679,7 +67622,8 @@
         "tags": {
           "amenity": "bicycle_parking",
           "bicycle_parking": "stands",
-          "capacity": "2"
+          "capacity": "2",
+          "covered": "no"
         }
       },
       "geometry": {
@@ -68235,7 +68179,8 @@
         "tags": {
           "amenity": "bicycle_parking",
           "bicycle_parking": "stands",
-          "capacity": "6"
+          "capacity": "6",
+          "covered": "yes"
         }
       },
       "geometry": {
@@ -68718,12 +68663,17 @@
           "addr:postcode": "94609",
           "addr:state": "CA",
           "addr:street": "Telegraph Avenue",
-          "check_date": "2025-05-11",
-          "cuisine": "bagels",
+          "check_date": "2026-07-10",
+          "contact:instagram": "https://www.instagram.com/poppy_bagels/",
+          "cuisine": "bagel",
+          "description": "Poppy Bagels is owned and operated by me, Reesa, a New York City native who moved to the Bay Area and quickly became homesick for a great bagel: one with a golden, bubbly crust and a dense, chewy interior like the ones I grew up eating regularly.",
+          "diet:gluten_free": "no",
+          "diet:vegan": "yes",
+          "image": "https://images.getbento.com/accounts/ef23681d9ef55f607aacb71f6e150811/media/images/6331821042301_poppy_0049.jpg",
           "indoor_seating": "yes",
           "name": "Poppy Bagels",
           "old_name": "Doña Tomás",
-          "opening_hours": "Mo-Tu off; We-Su 07:30-13:30",
+          "opening_hours": "We-Mo 07:30-13:30; Tu Off",
           "outdoor_seating": "yes",
           "payment:mastercard": "yes",
           "payment:visa": "yes",
@@ -68731,6 +68681,7 @@
           "shop": "bakery",
           "smoking": "no",
           "website": "https://www.poppybagelsca.com/",
+          "website:menu": "https://www.poppybagelsca.com/menu/",
           "wheelchair": "yes"
         }
       },
@@ -68769,7 +68720,8 @@
         "tags": {
           "amenity": "bicycle_parking",
           "bicycle_parking": "stands",
-          "capacity": "4"
+          "capacity": "4",
+          "covered": "yes"
         }
       },
       "geometry": {
@@ -70669,18 +70621,31 @@
         "tags": {
           "addr:city": "Oakland",
           "addr:housenumber": "4069",
+          "addr:postcode": "94609",
           "addr:state": "CA",
           "addr:street": "Telegraph Avenue",
           "amenity": "restaurant",
-          "cuisine": "ethiopian",
-          "name": "Cafe Eritrea d' Afrique"
+          "check_date": "2026-06-29",
+          "contact:facebook": "https://www.facebook.com/658201187368855",
+          "contact:instagram": "https://www.instagram.com/cafe_eritrea",
+          "contact:yelp": "https://www.yelp.com/biz/cafe-eritrea-d-afrique-oakland-4",
+          "cuisine": "ethiopian;eritrean",
+          "diet:vegan": "yes",
+          "diet:vegetarian": "yes",
+          "email": "erecafee@gmail.com",
+          "name": "Cafe Eritrea d' Afrique",
+          "opening_hours": "We-Su 11:00-22:00",
+          "phone": "+1-510-547-4520",
+          "start_date": "1986",
+          "website": "https://cafeeritreadafrique.com/",
+          "website:menu": "https://cafeeritreadafrique.com/oakland-temescal-cafe-eritrea-d-afrique-food-menu"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2644944,
-          37.8297794
+          -122.2645032,
+          37.8297762
         ]
       }
     },
@@ -72277,7 +72242,7 @@
         "type": "node",
         "id": 10945332648,
         "tags": {
-          "check_date": "2025-01-30",
+          "check_date": "2026-07-08",
           "shop": "vacant"
         }
       },
@@ -72295,7 +72260,7 @@
         "type": "node",
         "id": 10945332649,
         "tags": {
-          "check_date": "2025-01-30",
+          "check_date": "2026-07-08",
           "shop": "vacant"
         }
       },
@@ -72744,8 +72709,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2731266,
-          37.8710178
+          -122.2733546,
+          37.8713248
         ]
       }
     },
@@ -76006,6 +75971,7 @@
           "addr:postcode": "94110",
           "addr:state": "CA",
           "addr:street": "Valencia Street",
+          "check_date": "2026-07-08",
           "shop": "vacant",
           "was:name": "City Beer Store"
         }
@@ -78705,8 +78671,10 @@
           "addr:postcode": "94110",
           "addr:state": "CA",
           "addr:street": "21st Street",
-          "check_date": "2026-04-26",
+          "check_date": "2026-07-08",
+          "check_date:opening_hours": "2026-07-08",
           "name": "DHL",
+          "opening_hours": "Mo-Fr 10:00-18:00; Sa 11:00-16:00; Su off",
           "shop": "mailing_company"
         }
       },
@@ -82593,6 +82561,7 @@
           "amenity": "restaurant",
           "cuisine": "thai",
           "name": "Farmhouse Kitchen",
+          "opening_hours": "Mo-Su 17:00-21:00, Mo-Fr 11:30-14:30, Sa,Su 00:00-15:00",
           "website": "https://farmhousethai.com/berkeley-1"
         }
       },
@@ -83267,6 +83236,7 @@
           "healthcare": "clinic",
           "name": "One Medical",
           "operator": "1Life Healthcare",
+          "operator:type": "private",
           "operator:wikidata": "Q85727717"
         }
       },
@@ -84334,7 +84304,7 @@
         "type": "node",
         "id": 12159033545,
         "tags": {
-          "fitness_station": "horizontal_bar",
+          "disused:fitness_station": "horizontal_bar",
           "leisure": "fitness_station",
           "sport": "fitness"
         }
@@ -87003,7 +86973,8 @@
         "type": "node",
         "id": 12383756062,
         "tags": {
-          "amenity": "bench"
+          "amenity": "bench",
+          "backrest": "no"
         }
       },
       "geometry": {
@@ -87020,7 +86991,8 @@
         "type": "node",
         "id": 12383756063,
         "tags": {
-          "amenity": "bench"
+          "amenity": "bench",
+          "backrest": "no"
         }
       },
       "geometry": {
@@ -87538,7 +87510,7 @@
         "id": 12417043645,
         "tags": {
           "amenity": "dancing_school",
-          "name": "Berkeley Ballet Theatet"
+          "name": "Berkeley Ballet Theater"
         }
       },
       "geometry": {
@@ -87974,6 +87946,7 @@
           "addr:housenumber": "3285",
           "addr:state": "CA",
           "addr:street": "21st Street",
+          "check_date": "2026-07-18",
           "old_name": "Jay's Cheesesteak",
           "shop": "vacant"
         }
@@ -87995,7 +87968,7 @@
           "addr:housenumber": "3287",
           "addr:street": "21st Street",
           "amenity": "fast_food",
-          "check_date": "2026-04-26",
+          "check_date": "2026-07-18",
           "cuisine": "juice",
           "name": "Sidewalk Juice",
           "opening_hours": "Mo-Sa 08:30-19:00; Su 09:00-19:00",
@@ -88207,7 +88180,9 @@
           "amenity": "restaurant",
           "cuisine": "ramen",
           "name": "Sobo Ramen",
-          "website": "https://www.soboramen.com/"
+          "opening_hours": "Tu-Fr 11:30-14:30, Tu-Th,Su 17:00-21:00, Sa,Su 11:30-15:00, Fr,Sa 17:00-21:30",
+          "website": "https://www.soboramen.com/soboramenberkeley.html",
+          "website:menu": "https://www.soboramen.com/berkeley-menu.html"
         }
       },
       "geometry": {
@@ -88560,8 +88535,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2594561,
-          37.8724738
+          -122.2594972,
+          37.8725119
         ]
       }
     },
@@ -88660,9 +88635,11 @@
         "tags": {
           "addr:housenumber": "1153",
           "addr:street": "Valencia Street",
-          "amenity": "restaurant",
-          "check_date": "2025-02-11",
-          "name": "Valencia Grill",
+          "amenity": "bar;restaurant",
+          "check_date": "2026-06-25",
+          "dance:style": "salsa",
+          "leisure": "dance",
+          "name": "El Valenciano",
           "wheelchair": "limited"
         }
       },
@@ -91194,8 +91171,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.256129,
-          37.8703542
+          -122.2561151,
+          37.8703264
         ]
       }
     },
@@ -93179,7 +93156,8 @@
           "addr:street": "Shattuck Avenue",
           "addr:unit": "B",
           "name": "Hillside Apartments Leasing Office",
-          "office": "property_management"
+          "office": "property_management",
+          "opening_hours": "Mo-Fr 09:00-17:00"
         }
       },
       "geometry": {
@@ -99362,27 +99340,6 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 12803011357,
-        "tags": {
-          "addr:city": "Berkeley",
-          "addr:country": "US",
-          "addr:state": "CA",
-          "addr:street": "Shattuck Avenue",
-          "disused:shop": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.268729,
-          37.876903
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
         "id": 12803011358,
         "tags": {
           "addr:city": "Berkeley",
@@ -99392,15 +99349,14 @@
           "addr:state": "CA",
           "addr:street": "Shattuck Avenue",
           "name": "Going Places Travel",
-          "shop": "travel_agency",
-          "website": "Going Places Travel"
+          "shop": "travel_agency"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2687209,
-          37.8768332
+          -122.2687418,
+          37.8768856
         ]
       }
     },
@@ -101847,7 +101803,10 @@
           "addr:postcode": "94704",
           "addr:state": "CA",
           "addr:street": "University Avenue",
-          "disused:shop": "yes"
+          "amenity": "cafe",
+          "check_date": "2026-06-28",
+          "name": "Sightglass Coffee",
+          "website": "https://sightglasscoffee.com/"
         }
       },
       "geometry": {
@@ -103831,8 +103790,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2645609,
-          37.829715
+          -122.2645465,
+          37.8297136
         ]
       }
     },
@@ -104358,8 +104317,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2622542,
-          37.8357014
+          -122.2622819,
+          37.8356939
         ]
       }
     },
@@ -104393,8 +104352,9 @@
           "addr:city": "Berkeley",
           "addr:housenumber": "2177",
           "addr:street": "Bancroft Way",
-          "disused:shop": "yes",
-          "name": "Lumbini Buddhist Art Gallery"
+          "amenity": "theatre",
+          "name": "Provocation Theatre",
+          "website": "https://www.provocationtheatre.com/"
         }
       },
       "geometry": {
@@ -109537,7 +109497,8 @@
           "addr:housenumber": "2095",
           "addr:street": "Rose Street",
           "addr:unit": "101",
-          "disused:office": "yes"
+          "name": "Looking Glass Photo",
+          "shop": "photo"
         }
       },
       "geometry": {
@@ -110283,6 +110244,8 @@
         "tags": {
           "addr:city": "Berkeley",
           "addr:housenumber": "2483",
+          "addr:postcode": "94709",
+          "addr:state": "CA",
           "addr:street": "Hearst Avenue",
           "name": "The Daily Cal",
           "office": "newspaper",
@@ -111962,9 +111925,11 @@
         "type": "node",
         "id": 13278642839,
         "tags": {
+          "addr:housenumber": "2239",
+          "addr:street": "Fifth Street",
           "check_date": "2025-11-03",
-          "name": "Looking Glass Photo",
-          "shop": "photo"
+          "disused:shop": "photo",
+          "name": "Looking Glass Photo"
         }
       },
       "geometry": {
@@ -113214,9 +113179,11 @@
         "tags": {
           "addr:housenumber": "988",
           "addr:street": "Valencia Street",
-          "check_date": "2026-05-10",
+          "check_date": "2026-06-25",
+          "email": "contact@doguesf.com",
           "name": "Dogue",
-          "shop": "pet"
+          "shop": "pet",
+          "website": "https://doguesf.com/"
         }
       },
       "geometry": {
@@ -113317,8 +113284,12 @@
         "type": "node",
         "id": 13724354417,
         "tags": {
+          "addr:housenumber": "924",
+          "addr:street": "Valencia Street",
           "name": "Tokyo Futon and Tea",
-          "shop": "furniture"
+          "phone": "+1 415-863-6368",
+          "shop": "furniture",
+          "website": "https://tokyofutonandtea.com/"
         }
       },
       "geometry": {
@@ -113614,7 +113585,8 @@
           "addr:street": "Valencia Street",
           "amenity": "restaurant",
           "cuisine": "sushi",
-          "name": "Sushi Easy"
+          "name": "Sushi Easy",
+          "opening_hours": "Mo-Fr 17:00-22:00; Sa,Su 12:00-22:00"
         }
       },
       "geometry": {
@@ -113876,6 +113848,7 @@
           "addr:housenumber": "877",
           "addr:street": "Valencia Street",
           "name": "Nice Kicks",
+          "opening_hours": "Mo-Sa 11:00-19:00; Su 12:00-18:00",
           "shop": "shoes"
         }
       },
@@ -114755,378 +114728,11 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 13952607502,
-        "tags": {
-          "amenity": "bar",
-          "check_date": "2026-05-10",
-          "level": "0",
-          "name": "Blondies Bar",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4219893,
-          37.7642187
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13952607503,
-        "tags": {
-          "addr:housenumber": "538",
-          "addr:street": "Valencia Street",
-          "amenity": "restaurant",
-          "check_date": "2026-05-10",
-          "cuisine": "japanese",
-          "diet:non-vegetarian": "yes",
-          "diet:seafood": "yes",
-          "diet:vegetarian": "yes",
-          "level": "0",
-          "name": "Kiku Sushi & Vegetarian",
-          "opening_hours": "Mo off; Tu-Th 11:30-14:30,17:00-21:00; Fr 11:30-14:30,17:00-21:30; Sa 12:00-15:00,17:00-21:30; Su 17:00-21:30",
-          "phone": "+1-415-400-4171",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4219908,
-          37.7642732
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13952607504,
-        "tags": {
-          "addr:housenumber": "524",
-          "addr:street": "Valencia Street",
-          "amenity": "restaurant",
-          "check_date": "2026-05-10",
-          "cuisine": "peruvian",
-          "level": "0",
-          "name": "Limón",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4220077,
-          37.7644489
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13952622413,
-        "tags": {
-          "amenity": "bar",
-          "check_date": "2026-05-10",
-          "level": "0",
-          "name": "Blondies Bar",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4219893,
-          37.7642187
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13952622414,
-        "tags": {
-          "addr:housenumber": "538",
-          "addr:street": "Valencia Street",
-          "amenity": "restaurant",
-          "check_date": "2026-05-10",
-          "cuisine": "japanese",
-          "diet:non-vegetarian": "yes",
-          "diet:seafood": "yes",
-          "diet:vegetarian": "yes",
-          "level": "0",
-          "name": "Kiku Sushi & Vegetarian",
-          "opening_hours": "Mo off; Tu-Th 11:30-14:30,17:00-21:00; Fr 11:30-14:30,17:00-21:30; Sa 12:00-15:00,17:00-21:30; Su 17:00-21:30",
-          "phone": "+1-415-400-4171",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4219908,
-          37.7642732
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13952622415,
-        "tags": {
-          "addr:housenumber": "524",
-          "addr:street": "Valencia Street",
-          "amenity": "restaurant",
-          "check_date": "2026-05-10",
-          "cuisine": "peruvian",
-          "level": "0",
-          "name": "Limón",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4220077,
-          37.7644489
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13952754176,
-        "tags": {
-          "amenity": "bar",
-          "check_date": "2026-05-10",
-          "level": "0",
-          "name": "Blondies Bar",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4219893,
-          37.7642187
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13952754177,
-        "tags": {
-          "addr:housenumber": "538",
-          "addr:street": "Valencia Street",
-          "amenity": "restaurant",
-          "check_date": "2026-05-10",
-          "cuisine": "japanese",
-          "diet:non-vegetarian": "yes",
-          "diet:seafood": "yes",
-          "diet:vegetarian": "yes",
-          "level": "0",
-          "name": "Kiku Sushi & Vegetarian",
-          "opening_hours": "Mo off; Tu-Th 11:30-14:30,17:00-21:00; Fr 11:30-14:30,17:00-21:30; Sa 12:00-15:00,17:00-21:30; Su 17:00-21:30",
-          "phone": "+1-415-400-4171",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4219908,
-          37.7642732
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13952754178,
-        "tags": {
-          "addr:housenumber": "524",
-          "addr:street": "Valencia Street",
-          "amenity": "restaurant",
-          "check_date": "2026-05-10",
-          "cuisine": "peruvian",
-          "level": "0",
-          "name": "Limón",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4220077,
-          37.7644489
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13954513745,
-        "tags": {
-          "amenity": "bar",
-          "check_date": "2026-05-10",
-          "level": "0",
-          "name": "Blondies Bar",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4219893,
-          37.7642187
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13954513746,
-        "tags": {
-          "addr:housenumber": "538",
-          "addr:street": "Valencia Street",
-          "amenity": "restaurant",
-          "check_date": "2026-05-10",
-          "cuisine": "japanese",
-          "diet:non-vegetarian": "yes",
-          "diet:seafood": "yes",
-          "diet:vegetarian": "yes",
-          "level": "0",
-          "name": "Kiku Sushi & Vegetarian",
-          "opening_hours": "Mo off; Tu-Th 11:30-14:30,17:00-21:00; Fr 11:30-14:30,17:00-21:30; Sa 12:00-15:00,17:00-21:30; Su 17:00-21:30",
-          "phone": "+1-415-400-4171",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4219908,
-          37.7642732
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13954513747,
-        "tags": {
-          "addr:housenumber": "524",
-          "addr:street": "Valencia Street",
-          "amenity": "restaurant",
-          "check_date": "2026-05-10",
-          "cuisine": "peruvian",
-          "level": "0",
-          "name": "Limón",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4220077,
-          37.7644489
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13954902473,
-        "tags": {
-          "amenity": "bar",
-          "check_date": "2026-05-10",
-          "level": "0",
-          "name": "Blondies Bar",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4219893,
-          37.7642187
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13954902474,
-        "tags": {
-          "addr:housenumber": "538",
-          "addr:street": "Valencia Street",
-          "amenity": "restaurant",
-          "check_date": "2026-05-10",
-          "cuisine": "japanese",
-          "diet:non-vegetarian": "yes",
-          "diet:seafood": "yes",
-          "diet:vegetarian": "yes",
-          "level": "0",
-          "name": "Kiku Sushi & Vegetarian",
-          "opening_hours": "Mo off; Tu-Th 11:30-14:30,17:00-21:00; Fr 11:30-14:30,17:00-21:30; Sa 12:00-15:00,17:00-21:30; Su 17:00-21:30",
-          "phone": "+1-415-400-4171",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4219908,
-          37.7642732
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13954902475,
-        "tags": {
-          "addr:housenumber": "524",
-          "addr:street": "Valencia Street",
-          "amenity": "restaurant",
-          "check_date": "2026-05-10",
-          "cuisine": "peruvian",
-          "level": "0",
-          "name": "Limón",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4220077,
-          37.7644489
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
         "id": 13958599095,
         "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2123",
+          "addr:street": "University Avenue",
           "name": "Krishna copy",
           "shop": "copyshop"
         }
@@ -115143,53 +114749,21 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 13958613937,
-        "tags": {
-          "amenity": "restaurant",
-          "name": "Palmetto"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.2665693,
-          37.8725906
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
         "id": 13958618210,
         "tags": {
-          "amenity": "restaurant",
-          "name": "Popbar"
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2125",
+          "addr:street": "University Avenue",
+          "amenity": "ice_cream",
+          "name": "Popbar",
+          "website": "https://www.instagram.com/popbarbayarea"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2675508,
-          37.8724677
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13958633928,
-        "tags": {
-          "amenity": "cafe",
-          "name": "Sight glass"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.2663891,
-          37.872591
+          -122.2675676,
+          37.8724138
         ]
       }
     },
@@ -115223,7 +114797,7 @@
           "addr:street": "Ashby Avenue",
           "name": "Berkeley Flea Market",
           "shop": "yes",
-          "website": "http://www.berkeleyfleamarket.com/"
+          "website": "https://berkeleyfleamarket.com/"
         }
       },
       "geometry": {
@@ -115347,80 +114921,6 @@
       "type": "Feature",
       "properties": {
         "type": "node",
-        "id": 13966321933,
-        "tags": {
-          "addr:housenumber": "538",
-          "addr:street": "Valencia Street",
-          "amenity": "restaurant",
-          "check_date": "2026-05-10",
-          "cuisine": "japanese",
-          "diet:non-vegetarian": "yes",
-          "diet:seafood": "yes",
-          "diet:vegetarian": "yes",
-          "level": "0",
-          "name": "Kiku Sushi & Vegetarian",
-          "opening_hours": "Mo off; Tu-Th 11:30-14:30,17:00-21:00; Fr 11:30-14:30,17:00-21:30; Sa 12:00-15:00,17:00-21:30; Su 17:00-21:30",
-          "phone": "+1-415-400-4171",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4219908,
-          37.7642732
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13966321937,
-        "tags": {
-          "amenity": "bar",
-          "check_date": "2026-05-10",
-          "level": "0",
-          "name": "Blondies Bar",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4219893,
-          37.7642187
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
-        "id": 13966321938,
-        "tags": {
-          "addr:housenumber": "524",
-          "addr:street": "Valencia Street",
-          "amenity": "restaurant",
-          "check_date": "2026-05-10",
-          "cuisine": "peruvian",
-          "level": "0",
-          "name": "Limón",
-          "wheelchair": "yes"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.4220077,
-          37.7644489
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "node",
         "id": 13969241892,
         "tags": {
           "addr:city": "Berkeley",
@@ -115478,6 +114978,1218 @@
         "coordinates": [
           -122.2745794,
           37.8711913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13969588353,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "1511",
+          "addr:street": "Shattuck Avenue",
+          "addr:unit": "C",
+          "disused:shop": "yes",
+          "name": "Juice Appeal"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2689645,
+          37.8798691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13976355445,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2930",
+          "addr:postcode": "94705",
+          "addr:state": "CA",
+          "addr:street": "Domingo Avenue",
+          "addr:unit": "218",
+          "amenity": "doctors",
+          "healthcare": "doctor",
+          "healthcare:speciality": "psychiatry",
+          "name": "Blue Sky Psychiatry",
+          "opening_hours": "Monday through Thursday 8:30 AM - 5 PM, Friday 8:30 AM - 1:30 PM, Closed Saturday and Sunday",
+          "phone": "+1 510 545-9600",
+          "website": "https://blueskypsychiatry.com/northern-california"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2441801,
+          37.8584043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13978834219,
+        "tags": {
+          "amenity": "bar",
+          "check_date": "2026-05-10",
+          "level": "0",
+          "name": "Blondies Bar",
+          "wheelchair": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4219893,
+          37.7642187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13978834220,
+        "tags": {
+          "addr:housenumber": "538",
+          "addr:street": "Valencia Street",
+          "amenity": "restaurant",
+          "check_date": "2026-05-10",
+          "cuisine": "japanese",
+          "diet:non-vegetarian": "yes",
+          "diet:seafood": "yes",
+          "diet:vegetarian": "yes",
+          "level": "0",
+          "name": "Kiku Sushi & Vegetarian",
+          "opening_hours": "Mo off; Tu-Th 11:30-14:30,17:00-21:00; Fr 11:30-14:30,17:00-21:30; Sa 12:00-15:00,17:00-21:30; Su 17:00-21:30",
+          "phone": "+1-415-400-4171",
+          "wheelchair": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4219908,
+          37.7642732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13978834221,
+        "tags": {
+          "addr:housenumber": "524",
+          "addr:street": "Valencia Street",
+          "amenity": "restaurant",
+          "check_date": "2026-05-10",
+          "cuisine": "peruvian",
+          "level": "0",
+          "name": "Limón",
+          "wheelchair": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4220077,
+          37.7644489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13979218098,
+        "tags": {
+          "access": "employees",
+          "amenity": "charging_station",
+          "brand": "ChargePoint",
+          "brand:wikidata": "Q5176149",
+          "capacity": "2",
+          "charging_station:output": "6.5 Kw",
+          "man_made": "charge_point",
+          "operator": "ChargePoint",
+          "operator:wikidata": "Q5176149",
+          "power": "ac",
+          "ref": "DERBY 01"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2719879,
+          37.8597882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13981578784,
+        "tags": {
+          "amenity": "public_bookcase",
+          "check_date": "2026-03-01",
+          "lit": "no",
+          "public_bookcase:type": "reading_box"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2505784,
+          37.8531486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13986198501,
+        "tags": {
+          "addr:housenumber": "1619",
+          "addr:postcode": "94702",
+          "addr:street": "San Pablo Avenue",
+          "leisure": "hackerspace",
+          "name": "East Bay Makers Club",
+          "website": "https://eastbaymakersclub.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2935213,
+          37.87457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13986515902,
+        "tags": {
+          "addr:housenumber": "1714",
+          "addr:postcode": "94702",
+          "addr:street": "San Pablo Avenue",
+          "amenity": "cafe",
+          "check_date": "2026-07-03",
+          "check_date:opening_hours": "2026-07-03",
+          "name": "Masterpiece Coffee",
+          "opening_hours": "We-Fr 08:00-15:00; Sa-Su 10:00-16:00",
+          "website": "https://masterpiececoffee.us/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2937138,
+          37.8728622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13987130129,
+        "tags": {
+          "name": "Compass",
+          "shop": "estate_agent"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.268738,
+          37.8773829
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13987145091,
+        "tags": {
+          "name": "Artistic picture framing",
+          "shop": "frame"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2691583,
+          37.8769396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13987147030,
+        "tags": {
+          "name": "The agency",
+          "shop": "estate_agent"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2687854,
+          37.8776178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13987147106,
+        "tags": {
+          "name": "Treasure of tibet",
+          "shop": "gift"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2691717,
+          37.8772627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13987240865,
+        "tags": {
+          "access": "yes",
+          "addr:housenumber": "101",
+          "addr:street": "Doe Library",
+          "air_conditioning": "yes",
+          "amenity": "library",
+          "internet_access": "wlan",
+          "internet_access:fee": "customers",
+          "name": "Morrison Library",
+          "opening_hours": "See website",
+          "operator": "UC Berkely Library",
+          "operator:type": "university",
+          "website": "https://www.lib.berkeley.edu/visit/morrison"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2597817,
+          37.8724588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13987240866,
+        "tags": {
+          "access": "yes",
+          "addr:housenumber": "200",
+          "addr:street": "Doe Library",
+          "amenity": "library",
+          "internet_access": "wlan",
+          "internet_access:fee": "customers",
+          "level": "2",
+          "name": "North Reading Room",
+          "opening_hours": "See website",
+          "operator": "UC Berkeley Library",
+          "operator:type": "university"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2594958,
+          37.8724352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13996159145,
+        "tags": {
+          "amenity": "bar",
+          "check_date": "2026-05-10",
+          "level": "0",
+          "name": "Blondies Bar",
+          "wheelchair": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4219893,
+          37.7642187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13996159146,
+        "tags": {
+          "addr:housenumber": "538",
+          "addr:street": "Valencia Street",
+          "amenity": "restaurant",
+          "check_date": "2026-05-10",
+          "cuisine": "japanese",
+          "diet:non-vegetarian": "yes",
+          "diet:seafood": "yes",
+          "diet:vegetarian": "yes",
+          "level": "0",
+          "name": "Kiku Sushi & Vegetarian",
+          "opening_hours": "Mo off; Tu-Th 11:30-14:30,17:00-21:00; Fr 11:30-14:30,17:00-21:30; Sa 12:00-15:00,17:00-21:30; Su 17:00-21:30",
+          "phone": "+1-415-400-4171",
+          "wheelchair": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4219908,
+          37.7642732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 13996159147,
+        "tags": {
+          "addr:housenumber": "524",
+          "addr:street": "Valencia Street",
+          "amenity": "restaurant",
+          "check_date": "2026-05-10",
+          "cuisine": "peruvian",
+          "level": "0",
+          "name": "Limón",
+          "wheelchair": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4220077,
+          37.7644489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 14003323877,
+        "tags": {
+          "access": "permissive",
+          "amenity": "toilets",
+          "female": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2692369,
+          37.8595542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 14003323878,
+        "tags": {
+          "access": "permissive",
+          "amenity": "toilets",
+          "male": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2692534,
+          37.8596693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 14003340443,
+        "tags": {
+          "access": "permissive",
+          "amenity": "community_centre",
+          "community_centre": "community_hall",
+          "name": "Community Room",
+          "operator": "Sports Basement",
+          "operator:type": "business",
+          "website": "https://www.sportsbasement.com/blogs/community-spaces/community-room-1"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2691647,
+          37.8595145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 14005165748,
+        "tags": {
+          "amenity": "studio",
+          "indoor": "room",
+          "level": "0",
+          "name": "KALX-FM",
+          "phone": "+1-510-642-1111",
+          "ref": "26",
+          "studio": "radio",
+          "website": "https://kalx.berkeley.edu/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2582044,
+          37.8700011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 14010900057,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2999",
+          "addr:postcode": "94705",
+          "addr:state": "CA",
+          "addr:street": "Regent Street",
+          "addr:unit": "100;102",
+          "branch": "Berkeley",
+          "brand": "Quest Diagnostics",
+          "brand:wikidata": "Q7271456",
+          "fax": "+1 510 849 3187",
+          "healthcare": "laboratory",
+          "level": "0",
+          "name": "Quest Diagnostics",
+          "opening_hours": "Mo-Fr 07:00-16:30",
+          "phone": "+1 510 849 3181",
+          "website": "https://locations.questdiagnostics.com/ca/berkeley/2999-regent-st"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.256472,
+          37.8558187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 14011399900,
+        "tags": {
+          "amenity": "bar",
+          "check_date": "2026-05-10",
+          "level": "0",
+          "name": "Blondies Bar",
+          "wheelchair": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4219893,
+          37.7642187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 14011402601,
+        "tags": {
+          "addr:housenumber": "538",
+          "addr:street": "Valencia Street",
+          "amenity": "restaurant",
+          "check_date": "2026-05-10",
+          "cuisine": "japanese",
+          "diet:non-vegetarian": "yes",
+          "diet:seafood": "yes",
+          "diet:vegetarian": "yes",
+          "level": "0",
+          "name": "Kiku Sushi & Vegetarian",
+          "opening_hours": "Mo off; Tu-Th 11:30-14:30,17:00-21:00; Fr 11:30-14:30,17:00-21:30; Sa 12:00-15:00,17:00-21:30; Su 17:00-21:30",
+          "phone": "+1-415-400-4171",
+          "wheelchair": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4219908,
+          37.7642732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 14011402602,
+        "tags": {
+          "addr:housenumber": "524",
+          "addr:street": "Valencia Street",
+          "amenity": "restaurant",
+          "check_date": "2026-05-10",
+          "cuisine": "peruvian",
+          "level": "0",
+          "name": "Limón",
+          "wheelchair": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4220077,
+          37.7644489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 14015187492,
+        "tags": {
+          "amenity": "bar",
+          "check_date": "2026-05-10",
+          "level": "0",
+          "name": "Blondies Bar",
+          "wheelchair": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4219893,
+          37.7642187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 14015187493,
+        "tags": {
+          "addr:housenumber": "538",
+          "addr:street": "Valencia Street",
+          "amenity": "restaurant",
+          "check_date": "2026-05-10",
+          "cuisine": "japanese",
+          "diet:non-vegetarian": "yes",
+          "diet:seafood": "yes",
+          "diet:vegetarian": "yes",
+          "level": "0",
+          "name": "Kiku Sushi & Vegetarian",
+          "opening_hours": "Mo off; Tu-Th 11:30-14:30,17:00-21:00; Fr 11:30-14:30,17:00-21:30; Sa 12:00-15:00,17:00-21:30; Su 17:00-21:30",
+          "phone": "+1-415-400-4171",
+          "wheelchair": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4219908,
+          37.7642732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 14015187494,
+        "tags": {
+          "addr:housenumber": "524",
+          "addr:street": "Valencia Street",
+          "amenity": "restaurant",
+          "check_date": "2026-05-10",
+          "cuisine": "peruvian",
+          "level": "0",
+          "name": "Limón",
+          "wheelchair": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4220077,
+          37.7644489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 14016712170,
+        "tags": {
+          "amenity": "bar",
+          "check_date": "2026-05-10",
+          "level": "0",
+          "name": "Blondies Bar",
+          "wheelchair": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4219893,
+          37.7642187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 14016712171,
+        "tags": {
+          "addr:housenumber": "538",
+          "addr:street": "Valencia Street",
+          "amenity": "restaurant",
+          "check_date": "2026-05-10",
+          "cuisine": "japanese",
+          "diet:non-vegetarian": "yes",
+          "diet:seafood": "yes",
+          "diet:vegetarian": "yes",
+          "level": "0",
+          "name": "Kiku Sushi & Vegetarian",
+          "opening_hours": "Mo off; Tu-Th 11:30-14:30,17:00-21:00; Fr 11:30-14:30,17:00-21:30; Sa 12:00-15:00,17:00-21:30; Su 17:00-21:30",
+          "phone": "+1-415-400-4171",
+          "wheelchair": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4219908,
+          37.7642732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 14016712172,
+        "tags": {
+          "addr:housenumber": "524",
+          "addr:street": "Valencia Street",
+          "amenity": "restaurant",
+          "check_date": "2026-05-10",
+          "cuisine": "peruvian",
+          "level": "0",
+          "name": "Limón",
+          "wheelchair": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4220077,
+          37.7644489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 14018925150,
+        "tags": {
+          "amenity": "bar",
+          "check_date": "2026-05-10",
+          "level": "0",
+          "name": "Blondies Bar",
+          "wheelchair": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4219893,
+          37.7642187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 14018925151,
+        "tags": {
+          "addr:housenumber": "538",
+          "addr:street": "Valencia Street",
+          "amenity": "restaurant",
+          "check_date": "2026-05-10",
+          "cuisine": "japanese",
+          "diet:non-vegetarian": "yes",
+          "diet:seafood": "yes",
+          "diet:vegetarian": "yes",
+          "level": "0",
+          "name": "Kiku Sushi & Vegetarian",
+          "opening_hours": "Mo off; Tu-Th 11:30-14:30,17:00-21:00; Fr 11:30-14:30,17:00-21:30; Sa 12:00-15:00,17:00-21:30; Su 17:00-21:30",
+          "phone": "+1-415-400-4171",
+          "wheelchair": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4219908,
+          37.7642732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 14018925152,
+        "tags": {
+          "addr:housenumber": "524",
+          "addr:street": "Valencia Street",
+          "amenity": "restaurant",
+          "check_date": "2026-05-10",
+          "cuisine": "peruvian",
+          "level": "0",
+          "name": "Limón",
+          "wheelchair": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4220077,
+          37.7644489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 14022741767,
+        "tags": {
+          "amenity": "bar",
+          "check_date": "2026-05-10",
+          "level": "0",
+          "name": "Blondies Bar",
+          "wheelchair": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4219893,
+          37.7642187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 14022741768,
+        "tags": {
+          "addr:housenumber": "538",
+          "addr:street": "Valencia Street",
+          "amenity": "restaurant",
+          "check_date": "2026-05-10",
+          "cuisine": "japanese",
+          "diet:non-vegetarian": "yes",
+          "diet:seafood": "yes",
+          "diet:vegetarian": "yes",
+          "level": "0",
+          "name": "Kiku Sushi & Vegetarian",
+          "opening_hours": "Mo off; Tu-Th 11:30-14:30,17:00-21:00; Fr 11:30-14:30,17:00-21:30; Sa 12:00-15:00,17:00-21:30; Su 17:00-21:30",
+          "phone": "+1-415-400-4171",
+          "wheelchair": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4219908,
+          37.7642732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 14022741769,
+        "tags": {
+          "addr:housenumber": "524",
+          "addr:street": "Valencia Street",
+          "amenity": "restaurant",
+          "check_date": "2026-05-10",
+          "cuisine": "peruvian",
+          "level": "0",
+          "name": "Limón",
+          "wheelchair": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4220077,
+          37.7644489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 14023371979,
+        "tags": {
+          "access": "permissive",
+          "amenity": "parking_space",
+          "parking_space": "disabled"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2610156,
+          37.870288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 14023371981,
+        "tags": {
+          "access": "permissive",
+          "amenity": "bicycle_parking",
+          "covered": "no",
+          "fee": "no"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2611292,
+          37.87037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 14023371983,
+        "tags": {
+          "addr:housenumber": "100",
+          "addr:street": "Creekside Center",
+          "air_conditioning": "yes",
+          "internet_access": "yes",
+          "level": "1",
+          "name": "Disabled Students’ Program",
+          "office": "university",
+          "phone": "+1 510 642 0518",
+          "website": "https://dsp.berkeley.edu/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2611985,
+          37.8703343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 14023575839,
+        "tags": {
+          "amenity": "bar",
+          "check_date": "2026-05-10",
+          "level": "0",
+          "name": "Blondies Bar",
+          "wheelchair": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4219893,
+          37.7642187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 14023575840,
+        "tags": {
+          "addr:housenumber": "538",
+          "addr:street": "Valencia Street",
+          "amenity": "restaurant",
+          "check_date": "2026-05-10",
+          "cuisine": "japanese",
+          "diet:non-vegetarian": "yes",
+          "diet:seafood": "yes",
+          "diet:vegetarian": "yes",
+          "level": "0",
+          "name": "Kiku Sushi & Vegetarian",
+          "opening_hours": "Mo off; Tu-Th 11:30-14:30,17:00-21:00; Fr 11:30-14:30,17:00-21:30; Sa 12:00-15:00,17:00-21:30; Su 17:00-21:30",
+          "phone": "+1-415-400-4171",
+          "wheelchair": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4219908,
+          37.7642732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 14023575841,
+        "tags": {
+          "addr:housenumber": "524",
+          "addr:street": "Valencia Street",
+          "amenity": "restaurant",
+          "check_date": "2026-05-10",
+          "cuisine": "peruvian",
+          "level": "0",
+          "name": "Limón",
+          "wheelchair": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4220077,
+          37.7644489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 14025231230,
+        "tags": {
+          "amenity": "bar",
+          "check_date": "2026-05-10",
+          "level": "0",
+          "name": "Blondies Bar",
+          "wheelchair": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4219893,
+          37.7642187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 14025231231,
+        "tags": {
+          "addr:housenumber": "538",
+          "addr:street": "Valencia Street",
+          "amenity": "restaurant",
+          "check_date": "2026-05-10",
+          "cuisine": "japanese",
+          "diet:non-vegetarian": "yes",
+          "diet:seafood": "yes",
+          "diet:vegetarian": "yes",
+          "level": "0",
+          "name": "Kiku Sushi & Vegetarian",
+          "opening_hours": "Mo off; Tu-Th 11:30-14:30,17:00-21:00; Fr 11:30-14:30,17:00-21:30; Sa 12:00-15:00,17:00-21:30; Su 17:00-21:30",
+          "phone": "+1-415-400-4171",
+          "wheelchair": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4219908,
+          37.7642732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 14025231232,
+        "tags": {
+          "addr:housenumber": "524",
+          "addr:street": "Valencia Street",
+          "amenity": "restaurant",
+          "check_date": "2026-05-10",
+          "cuisine": "peruvian",
+          "level": "0",
+          "name": "Limón",
+          "wheelchair": "yes"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4220077,
+          37.7644489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 14031565902,
+        "tags": {
+          "addr:housenumber": "2107",
+          "addr:postcode": "94704",
+          "addr:street": "Channing Way",
+          "amenity": "clinic",
+          "email": "info@hanaholistic.com",
+          "name": "Hana Holistic Medical Center",
+          "opening_hours": "Mo, We 08:00-17:00; Tu, Th-Fr 08:30-17:30",
+          "phone": "+1-510-527-1678",
+          "website": "http://hanaholistic.com"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2670824,
+          37.865901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 14031571301,
+        "tags": {
+          "addr:housenumber": "2107",
+          "addr:postcode": "94701",
+          "addr:street": "Channing Way",
+          "amenity": "clinic",
+          "name": "Hana Holistic Medical Center",
+          "opening_hours": "Mo, We 08:00-17:00; Tu, Th-Fr 08:30-17:30"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2671009,
+          37.8659444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 14031573601,
+        "tags": {
+          "addr:housenumber": "2107",
+          "addr:postcode": "94704",
+          "addr:street": "Channing Way",
+          "amenity": "clinic",
+          "email": "info@hanaholistic.com",
+          "name": "Hana Holistic Medical Center",
+          "opening_hours": "Mo, We 08:00-17:00; Tu, Th-Fr 08:30-17:30",
+          "phone": "+1-510-527-1678",
+          "website": "http://hanaholistic.com"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2671009,
+          37.8659444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "node",
+        "id": 14038366750,
+        "tags": {
+          "addr:housenumber": "707",
+          "addr:street": "Jones Street",
+          "name": "Star Alignment",
+          "shop": "car_repair",
+          "website": "https://www.staralignmentsinc.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3031455,
+          37.8747651
         ]
       }
     },
@@ -117668,14 +118380,24 @@
         "id": 24024508,
         "tags": {
           "addr:state": "CA",
+          "air_conditioning": "yes",
+          "alt_name": "Doe Annex",
           "amenity": "library",
+          "architect": "Arthur Brown Jr.",
           "building": "yes",
           "building:levels": "5",
           "ele": "91",
           "gnis:feature_id": "1656666",
+          "internet_access": "wlan",
+          "internet_access:fee": "customers",
           "name": "Bancroft Library",
+          "opening_hours": "See website",
+          "renovated": "2008",
           "source": "USGS Geonames",
-          "wikidata": "Q4854158"
+          "start_date": "1949",
+          "website": "https://www.lib.berkeley.edu/visit/bancroft",
+          "wikidata": "Q4854158",
+          "wikipedia": "en:Bancroft Library"
         },
         "nodes": [
           260543503,
@@ -117700,8 +118422,8 @@
           430086583,
           9336406082,
           2687928600,
-          12632518257,
           260543505,
+          12632518256,
           260543506,
           9438441527,
           260543503
@@ -117800,12 +118522,12 @@
               37.8719699
             ],
             [
-              -122.2589191,
-              37.8719817
-            ],
-            [
               -122.2589205,
               37.8719855
+            ],
+            [
+              -122.2589037,
+              37.8719894
             ],
             [
               -122.2585547,
@@ -117818,135 +118540,6 @@
             [
               -122.2587343,
               37.8725486
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "way",
-        "id": 24024513,
-        "tags": {
-          "addr:state": "CA",
-          "amenity": "library",
-          "building": "yes",
-          "building:levels": "4",
-          "ele": "88",
-          "gnis:feature_id": "1656688",
-          "internet_access": "wlan",
-          "name": "Doe Memorial Library",
-          "source": "USGS Geonames",
-          "website": "https://www.lib.berkeley.edu/libraries/doe-library",
-          "wikidata": "Q5288048"
-        },
-        "nodes": [
-          260543520,
-          260543521,
-          260543531,
-          260543530,
-          260543522,
-          10161144263,
-          9336410150,
-          10161144262,
-          260543523,
-          2687928592,
-          10161144283,
-          2687928564,
-          2687928571,
-          430086582,
-          2687928579,
-          2687928593,
-          2687928568,
-          2687928589,
-          430086583,
-          260543520
-        ]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -122.2590258,
-              37.8719148
-            ],
-            [
-              -122.2597025,
-              37.8717561
-            ],
-            [
-              -122.2598971,
-              37.8722729
-            ],
-            [
-              -122.2599337,
-              37.8722644
-            ],
-            [
-              -122.2600008,
-              37.8724426
-            ],
-            [
-              -122.2596799,
-              37.8725179
-            ],
-            [
-              -122.2596242,
-              37.872531
-            ],
-            [
-              -122.2595733,
-              37.8725429
-            ],
-            [
-              -122.2592495,
-              37.8726188
-            ],
-            [
-              -122.2591913,
-              37.8724642
-            ],
-            [
-              -122.2591884,
-              37.8724564
-            ],
-            [
-              -122.2591831,
-              37.8724424
-            ],
-            [
-              -122.259221,
-              37.8724335
-            ],
-            [
-              -122.2592078,
-              37.8723983
-            ],
-            [
-              -122.2591901,
-              37.8723514
-            ],
-            [
-              -122.2591439,
-              37.8722286
-            ],
-            [
-              -122.2591164,
-              37.8721557
-            ],
-            [
-              -122.259073,
-              37.8720404
-            ],
-            [
-              -122.2590358,
-              37.8719414
-            ],
-            [
-              -122.2590258,
-              37.8719148
             ]
           ]
         ]
@@ -118139,6 +118732,91 @@
       "type": "Feature",
       "properties": {
         "type": "way",
+        "id": 24025029,
+        "tags": {
+          "architect": "John Galen Howard",
+          "building": "university",
+          "building:levels": "1",
+          "disused:building": "art gallery",
+          "name": "Old Art Gallery",
+          "old_name": "Powerhouse",
+          "start_date": "1904"
+        },
+        "nodes": [
+          260547368,
+          260547369,
+          260547387,
+          260547386,
+          260547370,
+          9531601736,
+          9531601737,
+          260547371,
+          260547372,
+          260547373,
+          14029923693,
+          260547368
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2585428,
+              37.8704365
+            ],
+            [
+              -122.2587141,
+              37.8704147
+            ],
+            [
+              -122.2587577,
+              37.8706328
+            ],
+            [
+              -122.2588283,
+              37.8706138
+            ],
+            [
+              -122.2588632,
+              37.8706938
+            ],
+            [
+              -122.2586822,
+              37.8707414
+            ],
+            [
+              -122.2586777,
+              37.8707331
+            ],
+            [
+              -122.2586683,
+              37.8707357
+            ],
+            [
+              -122.2586334,
+              37.8706524
+            ],
+            [
+              -122.2585878,
+              37.8706566
+            ],
+            [
+              -122.2585619,
+              37.87053
+            ],
+            [
+              -122.2585428,
+              37.8704365
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
         "id": 24025045,
         "tags": {
           "alt_name": "Berkeley Law",
@@ -118263,10 +118941,13 @@
           "air_conditioning": "yes",
           "amenity": "library",
           "building": "university",
-          "building:levels": "4",
+          "building:levels": "3",
           "internet_access": "yes",
+          "internet_access:fee": "customers",
           "name": "Hargrove Music Library",
+          "opening_hours": "See website",
           "operator": "University of California, Berkeley",
+          "operator:type": "university",
           "phone": "+1-510-642-2623",
           "website": "https://www.lib.berkeley.edu/libraries/music-library",
           "wheelchair": "yes",
@@ -120367,7 +121048,7 @@
         "tags": {
           "ele": "94",
           "gnis:feature_id": "1656745",
-          "landuse": "recreation_ground",
+          "landuse": "demolished:recreation_ground",
           "name": "North Field"
         },
         "nodes": [
@@ -126733,8 +127414,10 @@
           "amenity": "post_office",
           "building": "civic",
           "building:levels": "2",
+          "check_date": "2026-07-20",
+          "check_date:opening_hours": "2026-07-20",
           "name": "Berkeley Main Post Office",
-          "opening_hours": "Mo-Fr 06:00-20:00; Sa 06:00-18:00",
+          "opening_hours": "Mo-Fr 09:00-17:00; Sa 09:00-15:00",
           "wheelchair": "yes",
           "wikidata": "Q16902347"
         },
@@ -128244,6 +128927,7 @@
           "access": "customers",
           "addr:city": "Berkeley",
           "amenity": "parking",
+          "fee": "no",
           "parking": "surface"
         },
         "nodes": [
@@ -136059,6 +136743,7 @@
           "addr:street": "Dwight Way",
           "amenity": "theatre",
           "building": "yes",
+          "check_date": "2026-07-18",
           "name": "Berkeley City Ballet",
           "phone": "+1 510-841-8913",
           "website": "https://berkeleycityballet.org/",
@@ -141203,7 +141888,8 @@
           "addr:housenumber": "499",
           "addr:street": "Spruce Street",
           "amenity": "school",
-          "name": "Step One School"
+          "name": "Step One School",
+          "website": "https://www.steponeschool.org/"
         },
         "nodes": [
           559914604,
@@ -143800,9 +144486,10 @@
         "id": 69020457,
         "tags": {
           "amenity": "school",
-          "name": "King Child Development Center",
-          "phone": "+1-510-644-4533",
-          "website": "https://www.berkeleyschools.net/schools/early-childhood-education/"
+          "name": "Berkeley Adult School",
+          "old_name": "King Child Development Center",
+          "phone": "+1-510-644-6130",
+          "website": "https://bas.berkeleyschools.net/"
         },
         "nodes": [
           828419307,
@@ -146712,13 +147399,15 @@
           "building": "commercial",
           "building:levels": "2",
           "check_date": "2024-12-11",
+          "contact:yelp": "https://www.yelp.com/biz/lacis-museum-of-lace-and-textiles-berkeley",
           "museum": "history",
           "name": "Lacis Museum of Lace and Textiles",
           "opening_hours": "Mo-Sa 12:00-18:00; Su off",
           "phone": "+1 510-843-7290",
           "roof:levels": "0",
           "shop": "sewing",
-          "tourism": "museum"
+          "tourism": "museum",
+          "website": "https://lacismuseum.org"
         },
         "nodes": [
           852234444,
@@ -147903,6 +148592,52 @@
       "type": "Feature",
       "properties": {
         "type": "way",
+        "id": 109190991,
+        "tags": {
+          "leisure": "swimming_pool",
+          "location": "roof",
+          "swimming_pool": "outdoor"
+        },
+        "nodes": [
+          1250628744,
+          1250628713,
+          1250628710,
+          1250628736,
+          1250628744
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2571194,
+              37.869267
+            ],
+            [
+              -122.2570963,
+              37.8692098
+            ],
+            [
+              -122.2569046,
+              37.8692582
+            ],
+            [
+              -122.2569278,
+              37.8693154
+            ],
+            [
+              -122.2571194,
+              37.869267
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
         "id": 109190992,
         "tags": {
           "landuse": "grass",
@@ -148005,6 +148740,98 @@
             [
               -122.2561998,
               37.8711221
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 109190994,
+        "tags": {
+          "leisure": "swimming_pool",
+          "location": "roof",
+          "swimming_pool": "outdoor"
+        },
+        "nodes": [
+          1250628729,
+          1250628721,
+          1250628728,
+          1250628731,
+          1250628729
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2571203,
+              37.8696832
+            ],
+            [
+              -122.2570727,
+              37.869553
+            ],
+            [
+              -122.2567469,
+              37.8696287
+            ],
+            [
+              -122.2567904,
+              37.8697605
+            ],
+            [
+              -122.2571203,
+              37.8696832
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 109190995,
+        "tags": {
+          "leisure": "swimming_pool",
+          "location": "roof",
+          "swimming_pool": "outdoor"
+        },
+        "nodes": [
+          1250628711,
+          1250628714,
+          1250628716,
+          1250628732,
+          1250628711
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2566895,
+              37.8693596
+            ],
+            [
+              -122.2566714,
+              37.869307
+            ],
+            [
+              -122.2564723,
+              37.8693506
+            ],
+            [
+              -122.2564897,
+              37.8694051
+            ],
+            [
+              -122.2566895,
+              37.8693596
             ]
           ]
         ]
@@ -160434,7 +161261,8 @@
           "access": "customers",
           "amenity": "parking",
           "capacity": "12",
-          "operator": "Benchmark Climbing"
+          "operator": "Benchmark Climbing",
+          "parking": "surface"
         },
         "nodes": [
           1941701128,
@@ -191590,7 +192418,9 @@
           "description": "Dorothy Bolte Park, with its beautiful views looking down from the hillside, offers play areas and places to picnic.",
           "leisure": "park",
           "name": "Dorothy Bolte Park",
-          "website": "https://berkeleyca.gov/community-recreation/parks-recreation/parks/dorothy-bolte-park"
+          "website": "https://berkeleyca.gov/community-recreation/parks-recreation/parks/dorothy-bolte-park",
+          "wikidata": "Q49525892",
+          "wikimedia_commons": "File:Dorothy M. Bolte park, Berkeley.jpg"
         },
         "nodes": [
           2610110740,
@@ -196374,6 +197204,7 @@
           2687908416,
           2687908417,
           2687908418,
+          14003759104,
           2687908419,
           2687908395
         ]
@@ -196489,6 +197320,10 @@
             [
               -122.257262,
               37.8708844
+            ],
+            [
+              -122.2571849,
+              37.8708768
             ],
             [
               -122.257145,
@@ -204324,6 +205159,7 @@
           "brand:wikidata": "Q4759491",
           "building": "retail",
           "building:levels": "2",
+          "check_date:opening_hours": "2026-06-28",
           "name": "Andronico's",
           "old_name": "Safeway Community Markets;Co-op",
           "opening_hours": "Mo-Su 06:00-23:00",
@@ -205254,7 +206090,8 @@
         "type": "way",
         "id": 312203265,
         "tags": {
-          "leisure": "playground"
+          "leisure": "playground",
+          "wikimedia_commons": "File:Dorothy M. Bolte park, Berkeley.jpg"
         },
         "nodes": [
           677315488,
@@ -208747,6 +209584,7 @@
         "id": 314739300,
         "tags": {
           "leisure": "pitch",
+          "lit": "yes",
           "sport": "baseball",
           "surface": "grass"
         },
@@ -209448,15 +210286,32 @@
         "type": "way",
         "id": 317092789,
         "tags": {
+          "addr:city": "Berkeley",
           "addr:country": "US",
           "addr:housenumber": "3212",
+          "addr:postcode": "94703",
           "addr:state": "CA",
           "addr:street": "Adeline Street",
           "amenity": "restaurant",
+          "brewery": "walia",
           "building": "yes",
-          "check_date": "2023-02-07",
+          "check_date": "2026-06-29",
+          "contact:facebook": "https://www.facebook.com/lematethiorestaurant/",
+          "contact:yelp": "https://www.yelp.com/biz/lemat-ethiopian-restaurant-berkeley-2",
           "cuisine": "ethiopian",
-          "name": "Lemat"
+          "description": "Come for OUR 100% TEFF INJERA and stay for the authentic flavors and Ethiopian hospitality. Lemat Ethiopian Restaurant welcomes you to enjoy selection of mouth-watering vegetarian, vegan and meat dishes.",
+          "diet:vegan": "yes",
+          "diet:vegetarian": "yes",
+          "email": "gezu@lemateats.com",
+          "image": "https://www.lemateats.com/wp-content/uploads/2020/05/IMG_3365.jpg",
+          "indoor_seating": "yes",
+          "name": "Lemat",
+          "opening_hours": "Mo-Sa 17:00-21:30",
+          "phone": "+1-510-430-2717",
+          "reservation": "yes",
+          "reservation:website": "https://www.lemateats.com/reservations/",
+          "website": "https://www.lemateats.com/",
+          "website:menu": "https://www.lemateats.com/menu/"
         },
         "nodes": [
           3233169152,
@@ -220978,16 +221833,16 @@
               37.8354684
             ],
             [
-              -122.2623603,
-              37.8354322
+              -122.2624013,
+              37.8354385
             ],
             [
-              -122.2622682,
-              37.8358039
+              -122.2622925,
+              37.8358198
             ],
             [
-              -122.2622592,
-              37.8358401
+              -122.2622832,
+              37.8358373
             ],
             [
               -122.2624931,
@@ -226008,6 +226863,7 @@
         "nodes": [
           4304856119,
           4304856120,
+          13984003306,
           4304856121,
           4304856122,
           4304856119
@@ -226024,6 +226880,10 @@
             [
               -122.2583387,
               37.8578962
+            ],
+            [
+              -122.2584188,
+              37.8582812
             ],
             [
               -122.2584957,
@@ -229487,17 +230347,23 @@
           "addr:postcode": "94705",
           "addr:state": "CA",
           "addr:street": "Telegraph Avenue",
+          "alt_name": "Meskie's Ethiopia Restaurant",
           "amenity": "restaurant",
+          "brewery": "gojo;st._george_lager",
           "building": "yes",
           "check_date:opening_hours": "2023-08-16",
           "cuisine": "ethiopian",
           "diet:gluten_free": "yes",
           "diet:vegetarian": "yes",
+          "indoor_seating": "yes",
           "name": "Ethiopia Restaurant",
           "opening_hours": "Mo-Su 11:30-21:00",
+          "outdoor_seating": "yes",
           "phone": "+1-510-843-1332",
           "smoking": "no",
-          "website": "http://orderethiopiarestaurant.com"
+          "start_date": "1993",
+          "website": "http://orderethiopiarestaurant.com/",
+          "website:menu": "http://orderethiopiarestaurant.com/print.php"
         },
         "nodes": [
           4412682157,
@@ -234350,102 +235216,6 @@
       "type": "Feature",
       "properties": {
         "type": "way",
-        "id": 458587531,
-        "tags": {
-          "access": "private",
-          "amenity": "parking",
-          "parking": "surface"
-        },
-        "nodes": [
-          4545704702,
-          4545704703,
-          4545704704,
-          4545704705,
-          4545704706,
-          4545704707,
-          9921760649,
-          9921760648,
-          4545704708,
-          4545704709,
-          9921760651,
-          4545704713,
-          9921760652,
-          9921760653,
-          4545704702
-        ]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -122.2691453,
-              37.8636728
-            ],
-            [
-              -122.2689306,
-              37.8637003
-            ],
-            [
-              -122.2689024,
-              37.8635177
-            ],
-            [
-              -122.2688314,
-              37.8635265
-            ],
-            [
-              -122.2688282,
-              37.8635035
-            ],
-            [
-              -122.2687197,
-              37.8635155
-            ],
-            [
-              -122.2687085,
-              37.8634623
-            ],
-            [
-              -122.2686779,
-              37.8634649
-            ],
-            [
-              -122.2686625,
-              37.8633778
-            ],
-            [
-              -122.2691418,
-              37.8633212
-            ],
-            [
-              -122.2691694,
-              37.8634452
-            ],
-            [
-              -122.2690873,
-              37.8634551
-            ],
-            [
-              -122.2691169,
-              37.8636128
-            ],
-            [
-              -122.2691319,
-              37.863611
-            ],
-            [
-              -122.2691453,
-              37.8636728
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "way",
         "id": 458587536,
         "tags": {
           "access": "customers",
@@ -234837,7 +235607,9 @@
           4551723018,
           4551723019,
           4551723020,
+          13984003307,
           4304856120,
+          13984003306,
           4304856121
         ]
       },
@@ -234874,8 +235646,16 @@
               37.8580698
             ],
             [
+              -122.257869,
+              37.8579594
+            ],
+            [
               -122.2583387,
               37.8578962
+            ],
+            [
+              -122.2584188,
+              37.8582812
             ],
             [
               -122.2584957,
@@ -235264,12 +236044,10 @@
         },
         "nodes": [
           4623066823,
-          12135294137,
           4623066821,
           4623066826,
           4623066827,
-          538608637,
-          4623066829,
+          13993401507,
           4623066823
         ]
       },
@@ -235277,10 +236055,6 @@
         "type": "Polygon",
         "coordinates": [
           [
-            [
-              -122.2706575,
-              37.8700636
-            ],
             [
               -122.2709708,
               37.8700287
@@ -235298,16 +236072,12 @@
               37.8702381
             ],
             [
-              -122.271031,
-              37.8703646
+              -122.2710276,
+              37.8703547
             ],
             [
-              -122.2707176,
-              37.8703996
-            ],
-            [
-              -122.2706575,
-              37.8700636
+              -122.2709708,
+              37.8700287
             ]
           ]
         ]
@@ -238159,7 +238929,7 @@
           "addr:street": "Prince Street",
           "amenity": "place_of_worship",
           "building": "yes",
-          "check_date": "2023-07-31",
+          "check_date": "2026-07-08",
           "ele": "49",
           "gnis:feature_id": "2086864",
           "name": "Chochmat HaLev",
@@ -238335,7 +239105,7 @@
           "cuisine": "sushi;japanese",
           "drink:beer": "yes",
           "name": "Kansai",
-          "opening_hours": "Su-Thu 11:30-23:30; Fr-Sa 11:30-24:30",
+          "opening_hours": "Su-Th 11:30-23:30; Fr-Sa 11:30-24:30",
           "outdoor_seating": "no",
           "payment:credit_cards": "yes",
           "phone": "+1-510-658-7273",
@@ -241032,6 +241802,7 @@
         "type": "way",
         "id": 545787104,
         "tags": {
+          "check_date": "2026-07-13",
           "leisure": "stadium",
           "name": "Jacket Stadium",
           "sport": "american_football;athletics;lacrosse;soccer"
@@ -241300,7 +242071,9 @@
           "leisure": "sports_centre",
           "name": "Legends Aquatic Center",
           "operator": "University of California, Berkeley",
-          "sport": "swimming"
+          "operator:wikidata": "Q168756",
+          "sport": "swimming",
+          "website": "https://calbears.com/sports/2020/6/23/legends-aquatic-center.aspx"
         },
         "nodes": [
           5274780177,
@@ -260112,6 +260885,7 @@
         },
         "nodes": [
           2585750911,
+          13979218095,
           6330204030,
           2585750919,
           2585750921,
@@ -260125,6 +260899,10 @@
             [
               -122.2718798,
               37.8601135
+            ],
+            [
+              -122.2718566,
+              37.8599214
             ],
             [
               -122.2718445,
@@ -282414,7 +283192,6 @@
         },
         "nodes": [
           8010045396,
-          8010045397,
           8010045398,
           8010045399,
           8010045400,
@@ -282439,20 +283216,16 @@
         "coordinates": [
           [
             [
-              -122.2457886,
-              37.8571562
+              -122.2457869,
+              37.8571595
             ],
             [
-              -122.2455521,
-              37.857165
+              -122.2452716,
+              37.8571881
             ],
             [
-              -122.2452798,
-              37.8571832
-            ],
-            [
-              -122.2452761,
-              37.8571603
+              -122.2452682,
+              37.8571637
             ],
             [
               -122.2450896,
@@ -282511,8 +283284,8 @@
               37.8570103
             ],
             [
-              -122.2457886,
-              37.8571562
+              -122.2457869,
+              37.8571595
             ]
           ]
         ]
@@ -283512,7 +284285,8 @@
           6418820698,
           8579508984,
           8579508985,
-          8579508986,
+          12539706304,
+          7656757428,
           10015152652,
           8579508979
         ]
@@ -283558,16 +284332,20 @@
               37.859891
             ],
             [
-              -122.2600924,
-              37.8598759
+              -122.2599227,
+              37.8598968
             ],
             [
-              -122.2601159,
-              37.8600008
+              -122.2599286,
+              37.8599327
             ],
             [
-              -122.260166,
-              37.860254
+              -122.2599705,
+              37.8601578
+            ],
+            [
+              -122.2599957,
+              37.8602718
             ],
             [
               -122.2598478,
@@ -287235,7 +288013,8 @@
         "type": "way",
         "id": 1011972763,
         "tags": {
-          "landuse": "grass"
+          "landuse": "grass",
+          "location": "roof"
         },
         "nodes": [
           9336410171,
@@ -287343,6 +288122,7 @@
           "building": "parking",
           "building:levels": "1",
           "capacity": "410",
+          "contact:yelp": "https://www.yelp.com/biz/stadium-parking-garage-berkeley",
           "name": "Stadium Parking Garage",
           "operator": "REEF Technology",
           "operator:type": "private"
@@ -294058,7 +294838,7 @@
             ],
             [
               -122.2575247,
-              37.8774201
+              37.8774231
             ],
             [
               -122.2577527,
@@ -294228,12 +295008,12 @@
               37.8795837
             ],
             [
-              -122.258697,
-              37.8796271
+              -122.2586961,
+              37.8796182
             ],
             [
-              -122.2586702,
-              37.8796663
+              -122.2586648,
+              37.8796688
             ],
             [
               -122.2586192,
@@ -307256,9 +308036,8 @@
         "nodes": [
           9921760683,
           539306911,
-          4623066830,
-          4623066829,
-          538608637,
+          3221158332,
+          13993401509,
           4623066827,
           4623066833,
           4623066835,
@@ -307338,16 +308117,12 @@
               37.8700976
             ],
             [
-              -122.2705155,
-              37.8704304
+              -122.2705113,
+              37.8704247
             ],
             [
-              -122.2707176,
-              37.8703996
-            ],
-            [
-              -122.271031,
-              37.8703646
+              -122.2710261,
+              37.8703609
             ],
             [
               -122.2720703,
@@ -316306,16 +317081,16 @@
               37.8573376
             ],
             [
-              -122.2449024,
-              37.8573475
+              -122.2449014,
+              37.8573519
             ],
             [
-              -122.2448926,
-              37.8572549
+              -122.2448905,
+              37.8572522
             ],
             [
-              -122.2451135,
-              37.8572436
+              -122.2451163,
+              37.8572387
             ],
             [
               -122.2451233,
@@ -317276,7 +318051,8 @@
           6418820698,
           8579508984,
           8579508985,
-          8579508986,
+          12539706304,
+          7656757428,
           10015152652
         ]
       },
@@ -317285,8 +318061,8 @@
         "coordinates": [
           [
             [
-              -122.260166,
-              37.860254
+              -122.2599957,
+              37.8602718
             ],
             [
               -122.2619855,
@@ -317309,16 +318085,20 @@
               37.859891
             ],
             [
-              -122.2600924,
-              37.8598759
+              -122.2599227,
+              37.8598968
             ],
             [
-              -122.2601159,
-              37.8600008
+              -122.2599286,
+              37.8599327
             ],
             [
-              -122.260166,
-              37.860254
+              -122.2599705,
+              37.8601578
+            ],
+            [
+              -122.2599957,
+              37.8602718
             ]
           ]
         ]
@@ -317335,7 +318115,8 @@
         "nodes": [
           8579508979,
           10015152652,
-          8579508986,
+          7656757428,
+          12539706304,
           8579508985,
           8579508984,
           6418820698,
@@ -317357,16 +318138,20 @@
               37.8602944
             ],
             [
-              -122.260166,
-              37.860254
+              -122.2599957,
+              37.8602718
             ],
             [
-              -122.2601159,
-              37.8600008
+              -122.2599705,
+              37.8601578
             ],
             [
-              -122.2600924,
-              37.8598759
+              -122.2599286,
+              37.8599327
+            ],
+            [
+              -122.2599227,
+              37.8598968
             ],
             [
               -122.2599693,
@@ -321383,7 +322168,7 @@
           10160957736,
           10160957735,
           10160957734,
-          10160957733,
+          4121711528,
           10160957737
         ]
       },
@@ -321392,8 +322177,8 @@
         "coordinates": [
           [
             [
-              -122.2453947,
-              37.8575056
+              -122.2453897,
+              37.8575032
             ],
             [
               -122.2454765,
@@ -321408,12 +322193,12 @@
               37.8572038
             ],
             [
-              -122.2453709,
-              37.8572267
+              -122.2453614,
+              37.857237
             ],
             [
-              -122.2453947,
-              37.8575056
+              -122.2453897,
+              37.8575032
             ]
           ]
         ]
@@ -330835,149 +331620,6 @@
             [
               -122.3183147,
               37.8696114
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "way",
-        "id": 1158358580,
-        "tags": {
-          "construction": "education",
-          "landuse": "construction",
-          "name": "The Gateway (construction)",
-          "opening_date": "2025-09-01",
-          "source": "https://light.berkeley.edu/o/the-gateway/"
-        },
-        "nodes": [
-          10772546662,
-          10772546663,
-          10772546664,
-          10772546665,
-          10772546666,
-          10772546667,
-          10772546668,
-          10977997682,
-          4100150248,
-          282874094,
-          282874093,
-          282874087,
-          10772546673,
-          10977997684,
-          10977997683,
-          10772546674,
-          10772546675,
-          10772546676,
-          10772546677,
-          10772546678,
-          10772546679,
-          10938856935,
-          10938856936,
-          10772546662
-        ]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -122.2645866,
-              37.8742956
-            ],
-            [
-              -122.2645217,
-              37.8737208
-            ],
-            [
-              -122.2644251,
-              37.8736089
-            ],
-            [
-              -122.2639677,
-              37.8736417
-            ],
-            [
-              -122.2638625,
-              37.8735928
-            ],
-            [
-              -122.2638618,
-              37.8733008
-            ],
-            [
-              -122.2635868,
-              37.8733146
-            ],
-            [
-              -122.2636018,
-              37.8735616
-            ],
-            [
-              -122.2633988,
-              37.8737241
-            ],
-            [
-              -122.2632229,
-              37.873754
-            ],
-            [
-              -122.2631877,
-              37.8736376
-            ],
-            [
-              -122.2627792,
-              37.8737421
-            ],
-            [
-              -122.2627747,
-              37.8738572
-            ],
-            [
-              -122.262578,
-              37.8739026
-            ],
-            [
-              -122.2623278,
-              37.8738364
-            ],
-            [
-              -122.2628025,
-              37.8742975
-            ],
-            [
-              -122.2629602,
-              37.8745117
-            ],
-            [
-              -122.2631164,
-              37.8745441
-            ],
-            [
-              -122.2631606,
-              37.8745914
-            ],
-            [
-              -122.2638154,
-              37.8744992
-            ],
-            [
-              -122.2639017,
-              37.8745414
-            ],
-            [
-              -122.2641033,
-              37.8744747
-            ],
-            [
-              -122.2644468,
-              37.8743586
-            ],
-            [
-              -122.2645866,
-              37.8742956
             ]
           ]
         ]
@@ -369710,10 +370352,7 @@
           5884025209,
           2364177530,
           358858492,
-          5884025210,
-          555969188,
-          2297686125,
-          2297686119,
+          14015688993,
           2297686116,
           2297686122,
           555974670,
@@ -369834,20 +370473,8 @@
               37.8773591
             ],
             [
-              -122.2609929,
-              37.8786979
-            ],
-            [
-              -122.2611448,
-              37.8793776
-            ],
-            [
-              -122.2629562,
-              37.8791396
-            ],
-            [
-              -122.2627804,
-              37.8783062
+              -122.2609641,
+              37.8785531
             ],
             [
               -122.2644705,
@@ -418738,8 +419365,10 @@
         "type": "way",
         "id": 1414183792,
         "tags": {
+          "access": "private",
           "amenity": "parking",
-          "capacity": "5"
+          "capacity": "5",
+          "parking": "surface"
         },
         "nodes": [
           12995188807,
@@ -418793,6 +419422,7 @@
         "type": "way",
         "id": 1414183793,
         "tags": {
+          "access": "private",
           "amenity": "parking",
           "capacity": "7",
           "layer": "-1",
@@ -419045,7 +419675,8 @@
         "id": 1414184336,
         "tags": {
           "amenity": "parking",
-          "capacity": "9"
+          "capacity": "9",
+          "parking": "surface"
         },
         "nodes": [
           12995149190,
@@ -428282,7 +428913,8 @@
         "id": 1415074640,
         "tags": {
           "amenity": "parking",
-          "capacity": "18"
+          "capacity": "18",
+          "parking": "surface"
         },
         "nodes": [
           13003534411,
@@ -428502,7 +429134,8 @@
         "id": 1415074644,
         "tags": {
           "amenity": "parking",
-          "capacity": "4"
+          "capacity": "4",
+          "parking": "surface"
         },
         "nodes": [
           13003534435,
@@ -428592,7 +429225,8 @@
         "id": 1415074646,
         "tags": {
           "amenity": "parking",
-          "capacity": "4"
+          "capacity": "4",
+          "parking": "surface"
         },
         "nodes": [
           13003534444,
@@ -428637,7 +429271,8 @@
         "id": 1415074647,
         "tags": {
           "amenity": "parking",
-          "capacity": "4"
+          "capacity": "4",
+          "parking": "surface"
         },
         "nodes": [
           13003534448,
@@ -433378,6 +434013,7 @@
         "type": "way",
         "id": 1415307053,
         "tags": {
+          "access": "private",
           "amenity": "parking",
           "layer": "-1",
           "parking": "underground"
@@ -436541,6 +437177,7 @@
         "type": "way",
         "id": 1416852479,
         "tags": {
+          "access": "private",
           "amenity": "parking",
           "capacity": "12",
           "layer": "-1",
@@ -437469,8 +438106,10 @@
         "type": "way",
         "id": 1416855218,
         "tags": {
+          "access": "private",
           "amenity": "parking",
-          "capacity": "6"
+          "capacity": "6",
+          "parking": "surface"
         },
         "nodes": [
           13019919279,
@@ -439485,8 +440124,10 @@
         "type": "way",
         "id": 1417962796,
         "tags": {
+          "access": "private",
           "amenity": "parking",
-          "capacity": "8"
+          "capacity": "8",
+          "parking": "surface"
         },
         "nodes": [
           13030607515,
@@ -446408,6 +447049,2202 @@
     {
       "type": "Feature",
       "properties": {
+        "type": "way",
+        "id": 1533568559,
+        "tags": {
+          "landuse": "construction"
+        },
+        "nodes": [
+          13975053968,
+          13975053969,
+          13975053970,
+          13975053971,
+          13975053972,
+          13975053973,
+          13975053974,
+          13975053975,
+          13975053976,
+          13975053968
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2693784,
+              37.8563088
+            ],
+            [
+              -122.2693273,
+              37.8560593
+            ],
+            [
+              -122.2689919,
+              37.8559689
+            ],
+            [
+              -122.2688925,
+              37.8562455
+            ],
+            [
+              -122.2688907,
+              37.8562921
+            ],
+            [
+              -122.2689074,
+              37.8563255
+            ],
+            [
+              -122.2689347,
+              37.8563484
+            ],
+            [
+              -122.2689946,
+              37.8563623
+            ],
+            [
+              -122.2690712,
+              37.8563519
+            ],
+            [
+              -122.2693784,
+              37.8563088
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1533719552,
+        "tags": {
+          "landuse": "grass"
+        },
+        "nodes": [
+          13976179217,
+          13976179218,
+          13976179219,
+          13976179220,
+          13976179217
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2710548,
+              37.8502084
+            ],
+            [
+              -122.2710391,
+              37.8502041
+            ],
+            [
+              -122.2710056,
+              37.8502929
+            ],
+            [
+              -122.2710209,
+              37.8502982
+            ],
+            [
+              -122.2710548,
+              37.8502084
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1533719553,
+        "tags": {
+          "landuse": "grass"
+        },
+        "nodes": [
+          13976179221,
+          13976179222,
+          13976179212,
+          13976179223,
+          13976179221
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2710188,
+              37.8503037
+            ],
+            [
+              -122.2710034,
+              37.8502987
+            ],
+            [
+              -122.270953,
+              37.8504322
+            ],
+            [
+              -122.2709655,
+              37.8504348
+            ],
+            [
+              -122.2710188,
+              37.8503037
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1533719684,
+        "tags": {
+          "amenity": "parking",
+          "orientation": "diagonal",
+          "parking": "street_side"
+        },
+        "nodes": [
+          13976149086,
+          13976149087,
+          13976149088,
+          13976149089,
+          13976149090,
+          13976149086
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2713233,
+              37.8498051
+            ],
+            [
+              -122.2712917,
+              37.8498038
+            ],
+            [
+              -122.2712443,
+              37.8498189
+            ],
+            [
+              -122.270998,
+              37.8504951
+            ],
+            [
+              -122.2710608,
+              37.8504699
+            ],
+            [
+              -122.2713233,
+              37.8498051
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1533719820,
+        "tags": {
+          "landuse": "grass"
+        },
+        "nodes": [
+          13976165242,
+          13976165237,
+          13976165243,
+          13976165244,
+          13976165242
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2710878,
+              37.8501221
+            ],
+            [
+              -122.2710716,
+              37.8501178
+            ],
+            [
+              -122.2711005,
+              37.8500391
+            ],
+            [
+              -122.2711191,
+              37.8500424
+            ],
+            [
+              -122.2710878,
+              37.8501221
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1533719821,
+        "tags": {
+          "landuse": "grass"
+        },
+        "nodes": [
+          13976165245,
+          13976165246,
+          13976165247,
+          13976165248,
+          13976165245
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2711216,
+              37.8500361
+            ],
+            [
+              -122.2711028,
+              37.8500326
+            ],
+            [
+              -122.2711594,
+              37.8498906
+            ],
+            [
+              -122.2711748,
+              37.8498938
+            ],
+            [
+              -122.2711216,
+              37.8500361
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1533721289,
+        "tags": {
+          "landuse": "grass"
+        },
+        "nodes": [
+          13976149099,
+          13976149100,
+          13976195201,
+          13976195202,
+          13976149099
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2706322,
+              37.8497493
+            ],
+            [
+              -122.2706352,
+              37.8497601
+            ],
+            [
+              -122.2705901,
+              37.8497679
+            ],
+            [
+              -122.2705868,
+              37.849756
+            ],
+            [
+              -122.2706322,
+              37.8497493
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1533721290,
+        "tags": {
+          "amenity": "bicycle_rental",
+          "bicycle_rental": "docking_station",
+          "brand": "Bay Wheels",
+          "brand:wikidata": "Q16971391",
+          "fee": "yes",
+          "name": "Bay Wheels",
+          "network": "Bay Wheels",
+          "network:wikidata": "Q16971391",
+          "operator": "Lyft",
+          "operator:type": "private",
+          "operator:wikidata": "Q17077936"
+        },
+        "nodes": [
+          7050553263,
+          13976149099,
+          13976195202,
+          13976195203,
+          13976195206,
+          13976195204,
+          13976195205,
+          7050553263
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2706799,
+              37.8497422
+            ],
+            [
+              -122.2706322,
+              37.8497493
+            ],
+            [
+              -122.2705868,
+              37.849756
+            ],
+            [
+              -122.2705352,
+              37.8497637
+            ],
+            [
+              -122.2705327,
+              37.8497533
+            ],
+            [
+              -122.2705303,
+              37.8497429
+            ],
+            [
+              -122.270675,
+              37.8497215
+            ],
+            [
+              -122.2706799,
+              37.8497422
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1533721291,
+        "tags": {
+          "landuse": "grass"
+        },
+        "nodes": [
+          13976195207,
+          13976195208,
+          13976195209,
+          13976195210,
+          13976195207
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2705328,
+              37.8497648
+            ],
+            [
+              -122.2705349,
+              37.8497758
+            ],
+            [
+              -122.270476,
+              37.8497827
+            ],
+            [
+              -122.2704739,
+              37.8497716
+            ],
+            [
+              -122.2705328,
+              37.8497648
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1533721293,
+        "tags": {
+          "landuse": "grass"
+        },
+        "nodes": [
+          13976195212,
+          13976195218,
+          13976195227,
+          13976195228,
+          13976195229,
+          13976195230,
+          13976195231,
+          13976195232,
+          13976195212
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2707597,
+              37.8505869
+            ],
+            [
+              -122.2707278,
+              37.8505807
+            ],
+            [
+              -122.2707528,
+              37.8505016
+            ],
+            [
+              -122.2708221,
+              37.8503195
+            ],
+            [
+              -122.2710219,
+              37.8497909
+            ],
+            [
+              -122.2710256,
+              37.8497857
+            ],
+            [
+              -122.2710547,
+              37.8497933
+            ],
+            [
+              -122.2707873,
+              37.850496
+            ],
+            [
+              -122.2707597,
+              37.8505869
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1533721294,
+        "tags": {
+          "amenity": "parking",
+          "parking": "street_side"
+        },
+        "nodes": [
+          13976195233,
+          13976195234,
+          13976195235,
+          13976195236,
+          13976195233
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2708069,
+              37.849818
+            ],
+            [
+              -122.2706639,
+              37.8501968
+            ],
+            [
+              -122.2705926,
+              37.8502198
+            ],
+            [
+              -122.2707384,
+              37.8498405
+            ],
+            [
+              -122.2708069,
+              37.849818
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1533722337,
+        "tags": {
+          "landuse": "grass"
+        },
+        "nodes": [
+          13976165271,
+          13976165272,
+          13976165273,
+          13976165274,
+          13976165275,
+          13976165276,
+          13976165271
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2706085,
+              37.8505197
+            ],
+            [
+              -122.270595,
+              37.8505166
+            ],
+            [
+              -122.270625,
+              37.8504307
+            ],
+            [
+              -122.2706645,
+              37.8503247
+            ],
+            [
+              -122.2706779,
+              37.8503285
+            ],
+            [
+              -122.270622,
+              37.8504763
+            ],
+            [
+              -122.2706085,
+              37.8505197
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1533722338,
+        "tags": {
+          "landuse": "grass"
+        },
+        "nodes": [
+          13976165277,
+          13976165278,
+          13976165279,
+          13976165280,
+          13976165277
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2706797,
+              37.8503232
+            ],
+            [
+              -122.2706677,
+              37.85032
+            ],
+            [
+              -122.2706962,
+              37.8502415
+            ],
+            [
+              -122.2707092,
+              37.8502452
+            ],
+            [
+              -122.2706797,
+              37.8503232
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1533722339,
+        "tags": {
+          "amenity": "parking",
+          "parking": "street_side"
+        },
+        "nodes": [
+          13976165281,
+          13976165282,
+          13976165283,
+          13976165284,
+          13976165285,
+          13976165286,
+          13976165281
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2706203,
+              37.850308
+            ],
+            [
+              -122.2705525,
+              37.8503307
+            ],
+            [
+              -122.2704502,
+              37.8505832
+            ],
+            [
+              -122.2705105,
+              37.8505668
+            ],
+            [
+              -122.2705217,
+              37.8505658
+            ],
+            [
+              -122.2705255,
+              37.8505652
+            ],
+            [
+              -122.2706203,
+              37.850308
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1533722342,
+        "tags": {
+          "landuse": "grass"
+        },
+        "nodes": [
+          13976201921,
+          13976201922,
+          13976201923,
+          13976201924,
+          13976201925,
+          13976201926,
+          13976201927,
+          13976201928,
+          13976201929,
+          13976201930,
+          13976201931,
+          13976201932,
+          13976201933,
+          13976201934,
+          13976201935,
+          13976201936,
+          13976201937,
+          13976201921
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2704559,
+              37.8509467
+            ],
+            [
+              -122.2704549,
+              37.8509579
+            ],
+            [
+              -122.2704484,
+              37.850963
+            ],
+            [
+              -122.2704378,
+              37.8509636
+            ],
+            [
+              -122.2704335,
+              37.8509605
+            ],
+            [
+              -122.2704249,
+              37.8509461
+            ],
+            [
+              -122.2704141,
+              37.8509294
+            ],
+            [
+              -122.2704109,
+              37.850929
+            ],
+            [
+              -122.2704071,
+              37.8509197
+            ],
+            [
+              -122.27041,
+              37.8508752
+            ],
+            [
+              -122.2704155,
+              37.850867
+            ],
+            [
+              -122.2704177,
+              37.8508634
+            ],
+            [
+              -122.2704499,
+              37.8508642
+            ],
+            [
+              -122.2704575,
+              37.8508676
+            ],
+            [
+              -122.2704583,
+              37.8508716
+            ],
+            [
+              -122.2704535,
+              37.8508793
+            ],
+            [
+              -122.2704501,
+              37.850945
+            ],
+            [
+              -122.2704559,
+              37.8509467
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1533722348,
+        "tags": {
+          "leisure": "garden"
+        },
+        "nodes": [
+          13976202028,
+          13976202017,
+          13976202018,
+          13976202019,
+          13976202020,
+          13976202026,
+          13976202027,
+          13976202021,
+          13976202022,
+          13976202023,
+          13976202024,
+          13976202025,
+          13976202028
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2703976,
+              37.8510461
+            ],
+            [
+              -122.2703945,
+              37.8510546
+            ],
+            [
+              -122.2703871,
+              37.8510602
+            ],
+            [
+              -122.2703773,
+              37.8510623
+            ],
+            [
+              -122.2703674,
+              37.8510605
+            ],
+            [
+              -122.2703598,
+              37.8510551
+            ],
+            [
+              -122.2703563,
+              37.8510476
+            ],
+            [
+              -122.2703578,
+              37.8510396
+            ],
+            [
+              -122.2703649,
+              37.8510327
+            ],
+            [
+              -122.2703754,
+              37.8510297
+            ],
+            [
+              -122.2703864,
+              37.8510315
+            ],
+            [
+              -122.2703946,
+              37.8510375
+            ],
+            [
+              -122.2703976,
+              37.8510461
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1533728454,
+        "tags": {
+          "access": "yes",
+          "amenity": "parking",
+          "capacity": "5",
+          "orientation": "parallel",
+          "parking": "street_side"
+        },
+        "nodes": [
+          13976239415,
+          13976239416,
+          13976239417,
+          13976239418,
+          13976239415
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2625614,
+              37.8366056
+            ],
+            [
+              -122.262528,
+              37.8365999
+            ],
+            [
+              -122.2624543,
+              37.83687
+            ],
+            [
+              -122.2624878,
+              37.8368757
+            ],
+            [
+              -122.2625614,
+              37.8366056
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1534624010,
+        "tags": {
+          "landuse": "grass"
+        },
+        "nodes": [
+          13983540234,
+          13983540235,
+          13983540236,
+          13983540237,
+          13983540238,
+          13983540239,
+          13983540240,
+          13983540241,
+          13983540242,
+          13983540243,
+          13983540244,
+          13983540245,
+          13983540246,
+          13983540247,
+          13983540248,
+          13983540249,
+          13983540250,
+          13983540251,
+          13983540252,
+          13983540253,
+          13983540254,
+          13983540255,
+          13983540256,
+          13983540257,
+          13983540258,
+          13983540259,
+          13983540260,
+          13983540261,
+          13983540262,
+          13983540263,
+          13983540264,
+          13983540265,
+          13983540266,
+          13983540267,
+          13983540268,
+          13983540234
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3047792,
+              37.8667118
+            ],
+            [
+              -122.3048273,
+              37.8667169
+            ],
+            [
+              -122.3049086,
+              37.8667381
+            ],
+            [
+              -122.3049817,
+              37.8667731
+            ],
+            [
+              -122.3050399,
+              37.8668067
+            ],
+            [
+              -122.3050852,
+              37.866849
+            ],
+            [
+              -122.3051286,
+              37.8669117
+            ],
+            [
+              -122.3051434,
+              37.866957
+            ],
+            [
+              -122.3051554,
+              37.8670139
+            ],
+            [
+              -122.3051462,
+              37.8671307
+            ],
+            [
+              -122.3051277,
+              37.8671774
+            ],
+            [
+              -122.3050602,
+              37.8672605
+            ],
+            [
+              -122.3050066,
+              37.8673058
+            ],
+            [
+              -122.3049234,
+              37.8673423
+            ],
+            [
+              -122.3048227,
+              37.8673634
+            ],
+            [
+              -122.3047506,
+              37.8673707
+            ],
+            [
+              -122.3046729,
+              37.867362
+            ],
+            [
+              -122.3046091,
+              37.8673459
+            ],
+            [
+              -122.3045444,
+              37.8673138
+            ],
+            [
+              -122.3044826,
+              37.8672522
+            ],
+            [
+              -122.3044608,
+              37.8672324
+            ],
+            [
+              -122.3044586,
+              37.8671869
+            ],
+            [
+              -122.3044592,
+              37.8671704
+            ],
+            [
+              -122.3043572,
+              37.8669926
+            ],
+            [
+              -122.3043273,
+              37.8670065
+            ],
+            [
+              -122.3043748,
+              37.8670946
+            ],
+            [
+              -122.3043657,
+              37.8670992
+            ],
+            [
+              -122.3043257,
+              37.8670377
+            ],
+            [
+              -122.304228,
+              37.8668611
+            ],
+            [
+              -122.3041889,
+              37.866765
+            ],
+            [
+              -122.3043393,
+              37.8667327
+            ],
+            [
+              -122.304418,
+              37.8667268
+            ],
+            [
+              -122.3045504,
+              37.8667154
+            ],
+            [
+              -122.3046682,
+              37.8667057
+            ],
+            [
+              -122.3047444,
+              37.8667057
+            ],
+            [
+              -122.3047792,
+              37.8667118
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1534624011,
+        "tags": {
+          "landuse": "grass"
+        },
+        "nodes": [
+          13983540287,
+          13983540288,
+          13983540289,
+          13983540290,
+          13983540291,
+          13983540292,
+          13983540293,
+          13983540294,
+          13983540295,
+          13983540296,
+          13983540297,
+          13983543861,
+          13983540298,
+          13983540299,
+          13983540300,
+          13983543801,
+          13983543802,
+          13983543803,
+          13983543804,
+          13983543805,
+          13983543806,
+          13983543807,
+          13983543808,
+          13983543809,
+          13983543810,
+          13983543811,
+          13983543812,
+          13983543813,
+          13983543814,
+          13983543815,
+          13983543816,
+          13983543817,
+          13983543818,
+          13983543819,
+          13983543820,
+          13983543821,
+          13983543822,
+          13983543823,
+          13983543824,
+          13983543825,
+          13983543826,
+          13983543827,
+          13983543828,
+          13983543829,
+          13983543830,
+          13983543831,
+          13983543832,
+          13983543833,
+          13983540287
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3046106,
+              37.8664661
+            ],
+            [
+              -122.3045647,
+              37.8664822
+            ],
+            [
+              -122.3045113,
+              37.8665018
+            ],
+            [
+              -122.3044462,
+              37.8665211
+            ],
+            [
+              -122.3044473,
+              37.8665147
+            ],
+            [
+              -122.3044403,
+              37.8665138
+            ],
+            [
+              -122.304424,
+              37.8665176
+            ],
+            [
+              -122.304411,
+              37.8665304
+            ],
+            [
+              -122.3043496,
+              37.8665451
+            ],
+            [
+              -122.3043151,
+              37.8665524
+            ],
+            [
+              -122.3041178,
+              37.8665912
+            ],
+            [
+              -122.3040494,
+              37.8663652
+            ],
+            [
+              -122.3040569,
+              37.866335
+            ],
+            [
+              -122.3040499,
+              37.8662668
+            ],
+            [
+              -122.3040383,
+              37.8662334
+            ],
+            [
+              -122.3040319,
+              37.8662192
+            ],
+            [
+              -122.3040159,
+              37.8662035
+            ],
+            [
+              -122.3040185,
+              37.8661782
+            ],
+            [
+              -122.304014,
+              37.8661752
+            ],
+            [
+              -122.3040268,
+              37.8660694
+            ],
+            [
+              -122.3040396,
+              37.8660233
+            ],
+            [
+              -122.3040589,
+              37.8659869
+            ],
+            [
+              -122.3040864,
+              37.8659409
+            ],
+            [
+              -122.3041294,
+              37.8659029
+            ],
+            [
+              -122.304164,
+              37.865873
+            ],
+            [
+              -122.304223,
+              37.8658381
+            ],
+            [
+              -122.3042653,
+              37.8658184
+            ],
+            [
+              -122.3043326,
+              37.8657986
+            ],
+            [
+              -122.3043877,
+              37.865787
+            ],
+            [
+              -122.3044262,
+              37.8657825
+            ],
+            [
+              -122.3045037,
+              37.865783
+            ],
+            [
+              -122.3045576,
+              37.86579
+            ],
+            [
+              -122.3046102,
+              37.8658032
+            ],
+            [
+              -122.304655,
+              37.8658164
+            ],
+            [
+              -122.3046993,
+              37.8658396
+            ],
+            [
+              -122.3047429,
+              37.8658634
+            ],
+            [
+              -122.3047877,
+              37.8658973
+            ],
+            [
+              -122.3048211,
+              37.8659297
+            ],
+            [
+              -122.3048518,
+              37.8659697
+            ],
+            [
+              -122.3048781,
+              37.8660244
+            ],
+            [
+              -122.3048974,
+              37.866078
+            ],
+            [
+              -122.304905,
+              37.8661337
+            ],
+            [
+              -122.3048954,
+              37.8661817
+            ],
+            [
+              -122.3048794,
+              37.8662399
+            ],
+            [
+              -122.3048486,
+              37.8662946
+            ],
+            [
+              -122.3048121,
+              37.8663442
+            ],
+            [
+              -122.3047582,
+              37.8663862
+            ],
+            [
+              -122.3047345,
+              37.8664049
+            ],
+            [
+              -122.3046106,
+              37.8664661
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1534683959,
+        "tags": {
+          "addr:city": "Berkeley",
+          "addr:country": "US",
+          "addr:county": "Alameda County",
+          "addr:housenumber": "2415",
+          "addr:postcode": "94705",
+          "addr:state": "CA",
+          "addr:street": "Russell Street",
+          "landuse": "residential",
+          "phone": "+1 510 5021383",
+          "residential": "apartments"
+        },
+        "nodes": [
+          2094209452,
+          13984003306,
+          4304856120,
+          13984003307,
+          2094209452
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.257956,
+              37.8583427
+            ],
+            [
+              -122.2584188,
+              37.8582812
+            ],
+            [
+              -122.2583387,
+              37.8578962
+            ],
+            [
+              -122.257869,
+              37.8579594
+            ],
+            [
+              -122.257956,
+              37.8583427
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1535105027,
+        "tags": {
+          "amenity": "bench",
+          "armrest": "no",
+          "backrest": "no",
+          "material": "stone"
+        },
+        "nodes": [
+          13987240834,
+          13987240835,
+          13987240836,
+          2687928575
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.2591266,
+            37.8726062
+          ],
+          [
+            -122.2591484,
+            37.8726649
+          ],
+          [
+            -122.25923,
+            37.872646
+          ],
+          [
+            -122.2592082,
+            37.8725872
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1537283949,
+        "tags": {
+          "landuse": "grass"
+        },
+        "nodes": [
+          14003227987,
+          14003227988,
+          14003227989,
+          14003227990,
+          14003227987
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2448733,
+              37.8572542
+            ],
+            [
+              -122.2447907,
+              37.8572589
+            ],
+            [
+              -122.2447998,
+              37.8573592
+            ],
+            [
+              -122.2448824,
+              37.8573545
+            ],
+            [
+              -122.2448733,
+              37.8572542
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1537594654,
+        "tags": {
+          "construction": "university",
+          "landuse": "construction",
+          "name": "Heathcock Hall site",
+          "operator": "UC Berkeley",
+          "website": "https://capitalstrategies.berkeley.edu/heathcock"
+        },
+        "nodes": [
+          14005598015,
+          14005598016,
+          10161086386,
+          14005598017,
+          14005598018,
+          14005598019,
+          14005598020,
+          14005598021,
+          14005598022,
+          14005598023,
+          14005598024,
+          14005598025,
+          14005598026,
+          14005598027,
+          14005598028,
+          14005598029,
+          14005598030,
+          14005598031,
+          14005598032,
+          14005598033,
+          11607821250,
+          14005598034,
+          14005598035,
+          14005598015
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2558465,
+              37.8733483
+            ],
+            [
+              -122.255825,
+              37.8734139
+            ],
+            [
+              -122.2558828,
+              37.8735158
+            ],
+            [
+              -122.2559323,
+              37.8735409
+            ],
+            [
+              -122.2556239,
+              37.8736193
+            ],
+            [
+              -122.2555005,
+              37.8736468
+            ],
+            [
+              -122.255361,
+              37.8736108
+            ],
+            [
+              -122.2552725,
+              37.8735155
+            ],
+            [
+              -122.255192,
+              37.873452
+            ],
+            [
+              -122.2550847,
+              37.8733821
+            ],
+            [
+              -122.2548541,
+              37.8731619
+            ],
+            [
+              -122.2547414,
+              37.8730497
+            ],
+            [
+              -122.2546931,
+              37.8729947
+            ],
+            [
+              -122.2548809,
+              37.8729587
+            ],
+            [
+              -122.2550365,
+              37.8731154
+            ],
+            [
+              -122.2552135,
+              37.8732911
+            ],
+            [
+              -122.2552698,
+              37.8733356
+            ],
+            [
+              -122.2553936,
+              37.873292
+            ],
+            [
+              -122.2555319,
+              37.8731866
+            ],
+            [
+              -122.2555402,
+              37.8731562
+            ],
+            [
+              -122.2555751,
+              37.8731493
+            ],
+            [
+              -122.255651,
+              37.8733619
+            ],
+            [
+              -122.2556695,
+              37.87338
+            ],
+            [
+              -122.2558465,
+              37.8733483
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1539178262,
+        "tags": {
+          "landuse": "residential"
+        },
+        "nodes": [
+          14015688975,
+          14015688976,
+          11865812618,
+          14015688986,
+          11865812579,
+          14015688977,
+          14015688978,
+          14015688988,
+          11865787868,
+          14015688987,
+          11865787867,
+          14015688979,
+          14015688980,
+          14015688990,
+          14015688962,
+          14015688989,
+          14015688961,
+          14015688992,
+          14015688991,
+          14015688981,
+          14015688982,
+          14015688985,
+          14015688983,
+          14015688984,
+          14015688975
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2628426,
+              37.8784506
+            ],
+            [
+              -122.2629957,
+              37.8791378
+            ],
+            [
+              -122.2629941,
+              37.8791526
+            ],
+            [
+              -122.2629857,
+              37.8791638
+            ],
+            [
+              -122.2629714,
+              37.8791742
+            ],
+            [
+              -122.2629552,
+              37.8791793
+            ],
+            [
+              -122.2611719,
+              37.8794044
+            ],
+            [
+              -122.2611575,
+              37.8794051
+            ],
+            [
+              -122.261147,
+              37.8794045
+            ],
+            [
+              -122.2611396,
+              37.8794009
+            ],
+            [
+              -122.2611323,
+              37.8793946
+            ],
+            [
+              -122.2611289,
+              37.8793866
+            ],
+            [
+              -122.2609718,
+              37.8787039
+            ],
+            [
+              -122.2609709,
+              37.8786957
+            ],
+            [
+              -122.2609716,
+              37.8786886
+            ],
+            [
+              -122.2609757,
+              37.8786807
+            ],
+            [
+              -122.2609824,
+              37.8786748
+            ],
+            [
+              -122.260988,
+              37.8786708
+            ],
+            [
+              -122.2609953,
+              37.8786681
+            ],
+            [
+              -122.2610053,
+              37.878666
+            ],
+            [
+              -122.2628094,
+              37.8784344
+            ],
+            [
+              -122.2628201,
+              37.8784351
+            ],
+            [
+              -122.2628302,
+              37.8784385
+            ],
+            [
+              -122.2628381,
+              37.8784437
+            ],
+            [
+              -122.2628426,
+              37.8784506
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1541173525,
+        "tags": {
+          "check_date": "2026-07-19",
+          "landuse": "construction",
+          "name": "Clean Energy Campus",
+          "operator": "Webcor"
+        },
+        "nodes": [
+          14003759108,
+          14030163800,
+          14030170001,
+          14003759111,
+          14003759112,
+          14005563206,
+          14003759117,
+          14003759114,
+          14003759115,
+          260542100,
+          260542099,
+          260542098,
+          314456206,
+          314456205,
+          314456195,
+          314456194,
+          14003747892,
+          14030163797,
+          14030163794,
+          14030163798,
+          14030163799,
+          14030163795,
+          14030163796,
+          14003747893,
+          14003747894,
+          14003747895,
+          14003747896,
+          14030170002,
+          14003747898,
+          14003747899,
+          14003747900,
+          14003759101,
+          14003759103,
+          14003759104,
+          14003759105,
+          14003759106,
+          14003759107,
+          14003759108
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2560977,
+              37.8707765
+            ],
+            [
+              -122.2560698,
+              37.8706403
+            ],
+            [
+              -122.2563809,
+              37.870606
+            ],
+            [
+              -122.256271,
+              37.8702544
+            ],
+            [
+              -122.2562577,
+              37.8701469
+            ],
+            [
+              -122.2562274,
+              37.8700941
+            ],
+            [
+              -122.2559165,
+              37.8701886
+            ],
+            [
+              -122.2558834,
+              37.8699986
+            ],
+            [
+              -122.2563864,
+              37.869915
+            ],
+            [
+              -122.2564256,
+              37.8700195
+            ],
+            [
+              -122.2567005,
+              37.8699544
+            ],
+            [
+              -122.2566706,
+              37.8698757
+            ],
+            [
+              -122.256789,
+              37.8698477
+            ],
+            [
+              -122.2567815,
+              37.8698281
+            ],
+            [
+              -122.2571716,
+              37.8697357
+            ],
+            [
+              -122.2571796,
+              37.8697568
+            ],
+            [
+              -122.2572424,
+              37.8697419
+            ],
+            [
+              -122.2572887,
+              37.8698485
+            ],
+            [
+              -122.2575694,
+              37.8697834
+            ],
+            [
+              -122.2575203,
+              37.8698513
+            ],
+            [
+              -122.2574571,
+              37.8699137
+            ],
+            [
+              -122.2574325,
+              37.869994
+            ],
+            [
+              -122.2574062,
+              37.8699995
+            ],
+            [
+              -122.2574566,
+              37.8702349
+            ],
+            [
+              -122.2575195,
+              37.8702774
+            ],
+            [
+              -122.2576029,
+              37.8703745
+            ],
+            [
+              -122.25771,
+              37.8704361
+            ],
+            [
+              -122.2578185,
+              37.8704699
+            ],
+            [
+              -122.2579309,
+              37.8705311
+            ],
+            [
+              -122.2579825,
+              37.8705415
+            ],
+            [
+              -122.2580486,
+              37.8705175
+            ],
+            [
+              -122.2580729,
+              37.8705845
+            ],
+            [
+              -122.2573396,
+              37.8708913
+            ],
+            [
+              -122.2571849,
+              37.8708768
+            ],
+            [
+              -122.2570826,
+              37.8708732
+            ],
+            [
+              -122.2569574,
+              37.8707806
+            ],
+            [
+              -122.2568388,
+              37.8706946
+            ],
+            [
+              -122.2560977,
+              37.8707765
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1541190232,
+        "tags": {
+          "access": "yes",
+          "amenity": "parking_space",
+          "capacity": "9",
+          "parking_space": "normal"
+        },
+        "nodes": [
+          14030257057,
+          14030257058,
+          14030257059,
+          14030257060,
+          14030257057
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2590232,
+              37.8702766
+            ],
+            [
+              -122.259013,
+              37.8702276
+            ],
+            [
+              -122.2587675,
+              37.8702582
+            ],
+            [
+              -122.2587737,
+              37.8703063
+            ],
+            [
+              -122.2590232,
+              37.8702766
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1541190233,
+        "tags": {
+          "access": "yes",
+          "amenity": "parking_space",
+          "capacity": "1",
+          "parking_space": "disabled"
+        },
+        "nodes": [
+          14030257061,
+          14030257062,
+          14030257063,
+          14030257064,
+          14030257061
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2590554,
+              37.8702709
+            ],
+            [
+              -122.2590477,
+              37.8702238
+            ],
+            [
+              -122.2590163,
+              37.8702279
+            ],
+            [
+              -122.2590254,
+              37.8702749
+            ],
+            [
+              -122.2590554,
+              37.8702709
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1541190234,
+        "tags": {
+          "access": "yes",
+          "amenity": "parking_space",
+          "capacity": "1",
+          "parking_space": "disabled"
+        },
+        "nodes": [
+          14030257065,
+          14030257066,
+          14030257067,
+          14030257068,
+          14030257065
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.259111,
+              37.8702651
+            ],
+            [
+              -122.2590997,
+              37.8702159
+            ],
+            [
+              -122.2590722,
+              37.8702199
+            ],
+            [
+              -122.2590832,
+              37.8702696
+            ],
+            [
+              -122.259111,
+              37.8702651
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "type": "relation",
         "id": 1548418,
         "tags": {
@@ -446723,220 +449560,6 @@
               [
                 -122.2645873,
                 37.8695771
-              ]
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "relation",
-        "id": 1734951,
-        "tags": {
-          "addr:state": "CA",
-          "building": "yes",
-          "ele": "92",
-          "gnis:feature_id": "1656715",
-          "leisure": "sports_centre",
-          "name": "Hearst Memorial Gymnasium",
-          "source": "USGS Geonames",
-          "sport": "swimming",
-          "type": "multipolygon",
-          "wikidata": "Q123279454"
-        }
-      },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
-                -122.2574193,
-                37.8694024
-              ],
-              [
-                -122.2573281,
-                37.8691627
-              ],
-              [
-                -122.2571418,
-                37.8692069
-              ],
-              [
-                -122.2571287,
-                37.8691725
-              ],
-              [
-                -122.2568628,
-                37.8692356
-              ],
-              [
-                -122.2568791,
-                37.8692784
-              ],
-              [
-                -122.2567121,
-                37.869318
-              ],
-              [
-                -122.2566949,
-                37.8692728
-              ],
-              [
-                -122.2564249,
-                37.8693368
-              ],
-              [
-                -122.2564412,
-                37.8693794
-              ],
-              [
-                -122.2562433,
-                37.8694263
-              ],
-              [
-                -122.2563333,
-                37.8696629
-              ],
-              [
-                -122.2563793,
-                37.869652
-              ],
-              [
-                -122.2564716,
-                37.8698945
-              ],
-              [
-                -122.2563858,
-                37.8699149
-              ],
-              [
-                -122.2564256,
-                37.8700195
-              ],
-              [
-                -122.2567005,
-                37.8699544
-              ],
-              [
-                -122.2566706,
-                37.8698757
-              ],
-              [
-                -122.256789,
-                37.8698477
-              ],
-              [
-                -122.2567815,
-                37.8698281
-              ],
-              [
-                -122.2571716,
-                37.8697357
-              ],
-              [
-                -122.2571796,
-                37.8697568
-              ],
-              [
-                -122.2572756,
-                37.869734
-              ],
-              [
-                -122.2573062,
-                37.8698144
-              ],
-              [
-                -122.2575961,
-                37.8697456
-              ],
-              [
-                -122.2575521,
-                37.8696301
-              ],
-              [
-                -122.2574563,
-                37.8696529
-              ],
-              [
-                -122.2574162,
-                37.8695469
-              ],
-              [
-                -122.2573659,
-                37.8694151
-              ],
-              [
-                -122.2574193,
-                37.8694024
-              ]
-            ],
-            [
-              [
-                -122.2571194,
-                37.869267
-              ],
-              [
-                -122.2569278,
-                37.8693154
-              ],
-              [
-                -122.2569046,
-                37.8692582
-              ],
-              [
-                -122.2570963,
-                37.8692098
-              ],
-              [
-                -122.2571194,
-                37.869267
-              ]
-            ],
-            [
-              [
-                -122.2564897,
-                37.8694051
-              ],
-              [
-                -122.2564723,
-                37.8693506
-              ],
-              [
-                -122.2566714,
-                37.869307
-              ],
-              [
-                -122.2566895,
-                37.8693596
-              ],
-              [
-                -122.2564897,
-                37.8694051
-              ]
-            ],
-            [
-              [
-                -122.2567904,
-                37.8697605
-              ],
-              [
-                -122.2567469,
-                37.8696287
-              ],
-              [
-                -122.2570727,
-                37.869553
-              ],
-              [
-                -122.2571203,
-                37.8696832
-              ],
-              [
-                -122.2567904,
-                37.8697605
               ]
             ]
           ]
@@ -460345,6 +462968,381 @@
               [
                 -122.4221939,
                 37.759638
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "relation",
+        "id": 21045958,
+        "tags": {
+          "landuse": "grass",
+          "type": "multipolygon"
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -122.2702803,
+                37.8512249
+              ],
+              [
+                -122.2702808,
+                37.8512144
+              ],
+              [
+                -122.2702796,
+                37.8512074
+              ],
+              [
+                -122.2702767,
+                37.8512021
+              ],
+              [
+                -122.2702688,
+                37.8511972
+              ],
+              [
+                -122.27025,
+                37.8511909
+              ],
+              [
+                -122.270238,
+                37.8511879
+              ],
+              [
+                -122.2702306,
+                37.8511894
+              ],
+              [
+                -122.2702262,
+                37.8511932
+              ],
+              [
+                -122.2702231,
+                37.8511974
+              ],
+              [
+                -122.2702214,
+                37.8512025
+              ],
+              [
+                -122.2701969,
+                37.8512641
+              ],
+              [
+                -122.2701936,
+                37.8512785
+              ],
+              [
+                -122.2701976,
+                37.8512839
+              ],
+              [
+                -122.270201,
+                37.8512875
+              ],
+              [
+                -122.2702053,
+                37.8512877
+              ],
+              [
+                -122.2702176,
+                37.8512801
+              ],
+              [
+                -122.2702704,
+                37.8512343
+              ],
+              [
+                -122.2702803,
+                37.8512249
+              ]
+            ],
+            [
+              [
+                -122.2702134,
+                37.851273
+              ],
+              [
+                -122.2702128,
+                37.85128
+              ],
+              [
+                -122.2702027,
+                37.8512795
+              ],
+              [
+                -122.2702032,
+                37.8512725
+              ],
+              [
+                -122.2702134,
+                37.851273
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "relation",
+        "id": 21101300,
+        "tags": {
+          "alt_name": "Gardner Stacks",
+          "amenity": "library",
+          "architect": "Esherick Homsey Dodge and Davis",
+          "building": "library",
+          "building:levels": "4",
+          "building:levels:underground": "3",
+          "layer": "1",
+          "name": "Main Stacks",
+          "official_name": "David Pierpont Gardner Stacks",
+          "operator": "UC Berkeley Library",
+          "start_date": "1994",
+          "type": "multipolygon",
+          "website": "https://www.lib.berkeley.edu/visit/main-stacks",
+          "wheelchair": "yes",
+          "wikipedia": "en:University of California, Berkeley Libraries#Main Stacks"
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -122.2592242,
+                37.8725581
+              ],
+              [
+                -122.2591913,
+                37.8724642
+              ],
+              [
+                -122.259051,
+                37.8724973
+              ],
+              [
+                -122.2590608,
+                37.8725241
+              ],
+              [
+                -122.2590355,
+                37.8725299
+              ],
+              [
+                -122.2590256,
+                37.8725029
+              ],
+              [
+                -122.2586892,
+                37.8725801
+              ],
+              [
+                -122.2588091,
+                37.8729057
+              ],
+              [
+                -122.2588388,
+                37.8728988
+              ],
+              [
+                -122.2588451,
+                37.8729158
+              ],
+              [
+                -122.2588968,
+                37.8729039
+              ],
+              [
+                -122.258893,
+                37.8728935
+              ],
+              [
+                -122.2588895,
+                37.872884
+              ],
+              [
+                -122.2591573,
+                37.8728225
+              ],
+              [
+                -122.2591148,
+                37.8727072
+              ],
+              [
+                -122.2591031,
+                37.8727099
+              ],
+              [
+                -122.2590994,
+                37.8726998
+              ],
+              [
+                -122.2590905,
+                37.8726755
+              ],
+              [
+                -122.2591057,
+                37.872672
+              ],
+              [
+                -122.2591164,
+                37.8726695
+              ],
+              [
+                -122.2590957,
+                37.8726133
+              ],
+              [
+                -122.2592082,
+                37.8725872
+              ],
+              [
+                -122.2592107,
+                37.8725869
+              ],
+              [
+                -122.2592059,
+                37.872574
+              ],
+              [
+                -122.2592017,
+                37.8725627
+              ],
+              [
+                -122.2592242,
+                37.8725581
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "relation",
+        "id": 21101411,
+        "tags": {
+          "access": "yes",
+          "addr:state": "CA",
+          "amenity": "library",
+          "architect": "John Galen Howard",
+          "building": "yes",
+          "building:levels": "5",
+          "ele": "88",
+          "gnis:feature_id": "1656688",
+          "internet_access": "wlan",
+          "internet_access:fee": "customers",
+          "name": "Doe Memorial Library",
+          "opening_hours": "See website",
+          "source": "USGS Geonames",
+          "start_date": "1911",
+          "type": "multipolygon",
+          "website": "https://www.lib.berkeley.edu/visit/doe",
+          "wikidata": "Q5288048",
+          "wikipedia": "https://en.wikipedia.org/wiki/Doe_Memorial_Library"
+        }
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -122.2598971,
+                37.8722729
+              ],
+              [
+                -122.2597025,
+                37.8717561
+              ],
+              [
+                -122.2590258,
+                37.8719148
+              ],
+              [
+                -122.2590358,
+                37.8719414
+              ],
+              [
+                -122.259073,
+                37.8720404
+              ],
+              [
+                -122.2591164,
+                37.8721557
+              ],
+              [
+                -122.2591439,
+                37.8722286
+              ],
+              [
+                -122.2591901,
+                37.8723514
+              ],
+              [
+                -122.2592078,
+                37.8723983
+              ],
+              [
+                -122.259221,
+                37.8724335
+              ],
+              [
+                -122.2591831,
+                37.8724424
+              ],
+              [
+                -122.2591884,
+                37.8724564
+              ],
+              [
+                -122.2591913,
+                37.8724642
+              ],
+              [
+                -122.2592242,
+                37.8725581
+              ],
+              [
+                -122.2592453,
+                37.8726181
+              ],
+              [
+                -122.2595733,
+                37.8725429
+              ],
+              [
+                -122.2596242,
+                37.872531
+              ],
+              [
+                -122.2596799,
+                37.8725179
+              ],
+              [
+                -122.2600008,
+                37.8724426
+              ],
+              [
+                -122.2599337,
+                37.8722644
+              ],
+              [
+                -122.2598971,
+                37.8722729
               ]
             ]
           ]
