@@ -8073,13 +8073,14 @@
         "id": 458702505,
         "tags": {
           "amenity": "post_box",
-          "collection_times": "Mo-Fr 12:00, Sa 11:00",
+          "collection_times": "Mo-Fr 10:00; Sa 11:00",
           "operator": "United States Postal Service",
           "operator:short": "USPS",
           "operator:type": "public",
           "operator:website": "https://www.usps.com",
           "operator:wikidata": "Q668687",
-          "operator:wikipedia": "en:United States Postal Service"
+          "operator:wikipedia": "en:United States Postal Service",
+          "ref": "9470900006"
         }
       },
       "geometry": {
@@ -13443,8 +13444,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2917298,
-          37.8693538
+          -122.2917368,
+          37.869369
         ]
       }
     },
@@ -13582,7 +13583,7 @@
         "type": "Point",
         "coordinates": [
           -122.2900301,
-          37.8695417
+          37.8695528
         ]
       }
     },
@@ -13606,8 +13607,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.290156,
-          37.869537
+          -122.290161,
+          37.8695701
         ]
       }
     },
@@ -24963,8 +24964,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.290868,
-          37.86942
+          -122.2908598,
+          37.8693924
         ]
       }
     },
@@ -25097,17 +25098,24 @@
         "type": "node",
         "id": 2932064606,
         "tags": {
+          "access": "yes",
           "amenity": "drinking_water",
-          "bottle": "no",
+          "bottle": "yes",
+          "capacity": "3",
+          "covered": "no",
+          "dog": "yes",
           "fee": "no",
+          "fountain": "bubbler",
+          "indoor": "no",
+          "seasonal": "no",
           "wheelchair": "yes"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2593047,
-          37.8808167
+          -122.2592163,
+          37.8807066
         ]
       }
     },
@@ -33839,9 +33847,9 @@
           "addr:postcode": "94704",
           "addr:state": "CA",
           "addr:street": "Berkeley Way",
-          "amenity": "restaurant",
           "check_date": "2023-05-20",
           "cuisine": "vietnamese",
+          "disused:amenity": "restaurant",
           "level": "0",
           "name": "84 Viet",
           "opening_hours:signed": "no",
@@ -37883,8 +37891,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2876455,
-          37.8699194
+          -122.2876624,
+          37.869943
         ]
       }
     },
@@ -37903,8 +37911,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2877012,
-          37.8698428
+          -122.2876803,
+          37.8698522
         ]
       }
     },
@@ -42082,6 +42090,7 @@
           "amenity": "public_bookcase",
           "brand": "Little Free Library",
           "brand:wikidata": "Q6650101",
+          "check_date": "2026-08-19",
           "description": "Charter #104854",
           "name": "Little Free Library",
           "public_bookcase:type": "reading_box"
@@ -42560,7 +42569,8 @@
           "operator": "United States Postal Service",
           "operator:short": "USPS",
           "operator:type": "public",
-          "operator:wikidata": "Q668687"
+          "operator:wikidata": "Q668687",
+          "ref": "9470900013"
         }
       },
       "geometry": {
@@ -47293,11 +47303,11 @@
           "cuisine": "coffee_shop",
           "internet_access": "wlan",
           "internet_access:fee": "no",
-          "name": "Espresso Roma",
-          "opening_hours": "Mo-Fr 07:00-18:00; Sa-Su 07:30-18:00",
+          "name": "Hopkins Cafe",
+          "opening_hours": "Mo-Fr 07:00-17:00; Sa-Su 07:00-17:00",
           "outdoor_seating": "yes",
           "terrace": "yes",
-          "website": "https://espresso-roma-cafe.edan.io/"
+          "website": "https://www.hopkins-cafe.com"
         }
       },
       "geometry": {
@@ -48186,9 +48196,18 @@
         "type": "node",
         "id": 8462205099,
         "tags": {
-          "check_date": "2024-07-31",
-          "name": "!ndustr!al",
-          "shop": "tattoo"
+          "addr:city": "Berkeley",
+          "addr:housenumber": "2434",
+          "addr:state": "CA",
+          "addr:street": "Dwight Way",
+          "check_date": "2026-8-17",
+          "email": "IndustrialTattooAndPiercing@gmail.com",
+          "name": "Industrial Tattoo and Piercing",
+          "opening_hours": "Mo-Tu 12:00-19:00; We 11:00-19:00; Th,Su 10:30-19:00; Fr-Sa 10:30-20:00; PH closed",
+          "phone": "+1 510-644-0968",
+          "piercing": "yes",
+          "shop": "tattoo",
+          "website": "https://www.industrialtattooandpiercing.com/"
         }
       },
       "geometry": {
@@ -77340,6 +77359,7 @@
         "id": 11330934301,
         "tags": {
           "amenity": "public_bookcase",
+          "check_date": "2026-08-19",
           "public_bookcase:type": "reading_box"
         }
       },
@@ -116245,6 +116265,26 @@
     {
       "type": "Feature",
       "properties": {
+        "type": "node",
+        "id": 14106181465,
+        "tags": {
+          "amenity": "studio",
+          "name": "Brooklyn Sound Lab",
+          "studio": "audio",
+          "website": "https://brooklynsoundlab.com/"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2893995,
+          37.8697872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "type": "way",
         "id": 7805676,
         "tags": {
@@ -129669,6 +129709,8 @@
           "internet_access:fee": "no",
           "name": "West Branch Berkeley Public Library",
           "opening_hours": "Mo-Sa 10:00-18:00",
+          "operator": "Berkeley Public Library",
+          "operator:type": "public",
           "source": "USGS Geonames",
           "website": "https://www.berkeleypubliclibrary.org/locations/west-branch",
           "wheelchair": "yes"
@@ -144318,7 +144360,11 @@
           "addr:street": "Ashby Avenue",
           "amenity": "theatre",
           "building": "yes",
-          "name": "Shotgun Players Ashby Stage"
+          "name": "Shotgun Players Ashby Stage",
+          "operator": "Shotgun Players",
+          "phone": "+1-510.841.6500 ext. 303",
+          "website": "https://shotgunplayers.org/",
+          "wheelchair": "limited"
         },
         "nodes": [
           825411365,
@@ -156748,7 +156794,11 @@
           "addr:street": "University Avenue",
           "amenity": "theatre",
           "building": "yes",
-          "name": "Shotgun Studios"
+          "building:levels": "1",
+          "name": "Shotgun Studios",
+          "operator": "The Shotgun Players",
+          "website": "https://shotgunplayers.org/purpose-history/the-shotgun-studios/",
+          "wheelchair access": "yes"
         },
         "nodes": [
           1669824963,
@@ -158520,10 +158570,17 @@
           "addr:housenumber": "1701",
           "addr:state": "CA",
           "addr:street": "San Pablo Avenue",
-          "amenity": "college",
-          "name": "Berkeley Adult School",
-          "old_name": "Franklin Elementary School",
-          "website": "https://bas.berkeleyschools.net/"
+          "amenity": "school",
+          "education": "school",
+          "landuse": "education",
+          "name": "Longfellow Middle School",
+          "note": "This is the temporary location of Longfellow Middle School while its original lacation is being renovated. Berkeley Adult School has temporarily moved to 1939 Ward Street. Berkeley Adult School is supposed to return here after Longfellow is reopened.",
+          "old_name": "Berkeley Adult School",
+          "operator": "Berkeley Unified School District",
+          "operator:type": "public",
+          "operator:wikidata": "Q4892125",
+          "religion": "none",
+          "website": "https://www.berkeleyschools.net/schools/middle-schools/longfellow-middle-school/"
         },
         "nodes": [
           1789060530,
@@ -252969,7 +253026,7 @@
         "type": "way",
         "id": 664116639,
         "tags": {
-          "architects": "Warren C. Perry;Stafford L. Jory",
+          "architect": "Warren C. Perry;Stafford L. Jory",
           "leisure": "stadium",
           "name": "Edwards Stadium",
           "sport": "soccer;athletics;running",
@@ -261236,6 +261293,7 @@
         "type": "way",
         "id": 675933922,
         "tags": {
+          "disused": "yes",
           "leisure": "pitch",
           "sport": "baseball"
         },
@@ -261356,6 +261414,79 @@
             [
               -122.2753314,
               37.8522994
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 675933925,
+        "tags": {
+          "building": "school",
+          "building:levels": "1",
+          "disused": "yes",
+          "name": "Annex",
+          "roof:levels": "0"
+        },
+        "nodes": [
+          6330203965,
+          6330203967,
+          9831621925,
+          9830455502,
+          6330203948,
+          6330203935,
+          9830455497,
+          9831621926,
+          9831621971,
+          6330203965
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2791567,
+              37.8582833
+            ],
+            [
+              -122.2785468,
+              37.8583653
+            ],
+            [
+              -122.2785227,
+              37.8582677
+            ],
+            [
+              -122.2785001,
+              37.8581756
+            ],
+            [
+              -122.2784877,
+              37.8581149
+            ],
+            [
+              -122.2791062,
+              37.8580362
+            ],
+            [
+              -122.2791159,
+              37.8580836
+            ],
+            [
+              -122.2791348,
+              37.8581762
+            ],
+            [
+              -122.2791503,
+              37.8582524
+            ],
+            [
+              -122.2791567,
+              37.8582833
             ]
           ]
         ]
@@ -303816,6 +303947,7 @@
         "type": "way",
         "id": 1071177866,
         "tags": {
+          "disused": "yes",
           "hoops": "2",
           "leisure": "pitch",
           "lit": "no",
@@ -303864,6 +303996,7 @@
         "type": "way",
         "id": 1071177867,
         "tags": {
+          "disused": "yes",
           "hoops": "2",
           "leisure": "pitch",
           "lit": "no",
@@ -303945,6 +304078,337 @@
             [
               -122.278114,
               37.8587273
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1071177869,
+        "tags": {
+          "building": "school",
+          "building:levels": "3",
+          "disused": "yes",
+          "name": "Main Building"
+        },
+        "nodes": [
+          9830057806,
+          9830455490,
+          9831621927,
+          9830057807,
+          9830057808,
+          9830057809,
+          9831621918,
+          9831621944,
+          9831621945,
+          9831621919,
+          9830057810,
+          9830057811,
+          9830057812,
+          9830056344,
+          9831621921,
+          9831621920,
+          9830056343,
+          9830057813,
+          9831610491,
+          9830057814,
+          9830057815,
+          9830057816,
+          9830156417,
+          9831610484,
+          9830057806
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2793907,
+              37.8586567
+            ],
+            [
+              -122.2793894,
+              37.8586505
+            ],
+            [
+              -122.2793627,
+              37.8585201
+            ],
+            [
+              -122.2793326,
+              37.8583736
+            ],
+            [
+              -122.2792018,
+              37.8583904
+            ],
+            [
+              -122.2792173,
+              37.8584611
+            ],
+            [
+              -122.2791914,
+              37.8584644
+            ],
+            [
+              -122.2791705,
+              37.858467
+            ],
+            [
+              -122.2788148,
+              37.8585126
+            ],
+            [
+              -122.2787953,
+              37.8585151
+            ],
+            [
+              -122.2787728,
+              37.858518
+            ],
+            [
+              -122.2787582,
+              37.858447
+            ],
+            [
+              -122.2786277,
+              37.8584637
+            ],
+            [
+              -122.2786521,
+              37.8585824
+            ],
+            [
+              -122.2786599,
+              37.8586205
+            ],
+            [
+              -122.2786684,
+              37.8586618
+            ],
+            [
+              -122.2786735,
+              37.8586867
+            ],
+            [
+              -122.2786858,
+              37.8587466
+            ],
+            [
+              -122.2787204,
+              37.8587422
+            ],
+            [
+              -122.2788599,
+              37.8587243
+            ],
+            [
+              -122.2788667,
+              37.8587572
+            ],
+            [
+              -122.2792243,
+              37.8587114
+            ],
+            [
+              -122.2792176,
+              37.8586789
+            ],
+            [
+              -122.2792738,
+              37.8586717
+            ],
+            [
+              -122.2793907,
+              37.8586567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1071177870,
+        "tags": {
+          "building": "school",
+          "building:levels": "1",
+          "disused": "yes",
+          "name": "Office Building"
+        },
+        "nodes": [
+          9830156418,
+          9830156419,
+          9830156420,
+          9831621924,
+          9830156421,
+          9830156429,
+          9830057804,
+          9830156422,
+          9830156423,
+          9830156424,
+          9830156425,
+          9830156426,
+          9830156427,
+          9830056348,
+          9831621922,
+          9830056347,
+          9830156418
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2784874,
+              37.8586101
+            ],
+            [
+              -122.2784465,
+              37.8584128
+            ],
+            [
+              -122.2783814,
+              37.8584212
+            ],
+            [
+              -122.2783786,
+              37.8584074
+            ],
+            [
+              -122.2783755,
+              37.8583927
+            ],
+            [
+              -122.2783403,
+              37.8583973
+            ],
+            [
+              -122.2780538,
+              37.8584344
+            ],
+            [
+              -122.2781181,
+              37.858744
+            ],
+            [
+              -122.2781041,
+              37.8587458
+            ],
+            [
+              -122.2781249,
+              37.8588459
+            ],
+            [
+              -122.2783986,
+              37.8588105
+            ],
+            [
+              -122.2783782,
+              37.8587123
+            ],
+            [
+              -122.278463,
+              37.8587013
+            ],
+            [
+              -122.2784556,
+              37.8586621
+            ],
+            [
+              -122.2784514,
+              37.8586411
+            ],
+            [
+              -122.2784463,
+              37.8586152
+            ],
+            [
+              -122.2784874,
+              37.8586101
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1071177871,
+        "tags": {
+          "building": "school",
+          "building:levels": "1",
+          "disused": "yes",
+          "name": "Gym"
+        },
+        "nodes": [
+          9830156430,
+          9830156421,
+          9830156429,
+          9830057804,
+          9830156431,
+          9830156432,
+          9900873272,
+          9830156433,
+          9830455501,
+          9831621923,
+          9830156430
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2783895,
+              37.8583902
+            ],
+            [
+              -122.2783755,
+              37.8583927
+            ],
+            [
+              -122.2783403,
+              37.8583973
+            ],
+            [
+              -122.2780538,
+              37.8584344
+            ],
+            [
+              -122.278047,
+              37.8584345
+            ],
+            [
+              -122.2780045,
+              37.8582301
+            ],
+            [
+              -122.2780197,
+              37.8582281
+            ],
+            [
+              -122.278347,
+              37.8581857
+            ],
+            [
+              -122.2783496,
+              37.8581981
+            ],
+            [
+              -122.2783685,
+              37.8582894
+            ],
+            [
+              -122.2783895,
+              37.8583902
             ]
           ]
         ]
@@ -304036,6 +304500,118 @@
             [
               -122.2791895,
               37.858148
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "way",
+        "id": 1071178140,
+        "tags": {
+          "building": "roof",
+          "building:levels": "1",
+          "disused": "yes",
+          "layer": "1"
+        },
+        "nodes": [
+          9830056343,
+          9831621920,
+          9831621921,
+          9830056344,
+          9830056345,
+          9830056346,
+          9831621956,
+          9830156418,
+          9830056347,
+          9831621922,
+          9830056348,
+          9830056349,
+          9830056350,
+          9831610495,
+          9830056351,
+          9830056352,
+          9938649473,
+          9830056343
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.2786735,
+              37.8586867
+            ],
+            [
+              -122.2786684,
+              37.8586618
+            ],
+            [
+              -122.2786599,
+              37.8586205
+            ],
+            [
+              -122.2786521,
+              37.8585824
+            ],
+            [
+              -122.2785824,
+              37.858591
+            ],
+            [
+              -122.2785839,
+              37.8585982
+            ],
+            [
+              -122.2785607,
+              37.8586011
+            ],
+            [
+              -122.2784874,
+              37.8586101
+            ],
+            [
+              -122.2784463,
+              37.8586152
+            ],
+            [
+              -122.2784514,
+              37.8586411
+            ],
+            [
+              -122.2784556,
+              37.8586621
+            ],
+            [
+              -122.2785338,
+              37.8586524
+            ],
+            [
+              -122.2785421,
+              37.8586943
+            ],
+            [
+              -122.2785814,
+              37.8586894
+            ],
+            [
+              -122.278601,
+              37.858687
+            ],
+            [
+              -122.2786027,
+              37.8586954
+            ],
+            [
+              -122.2786644,
+              37.8586877
+            ],
+            [
+              -122.2786735,
+              37.8586867
             ]
           ]
         ]
@@ -366602,15 +367178,18 @@
         "tags": {
           "addr:city": "Berkeley",
           "addr:country": "US",
-          "addr:housenumber": "2031",
+          "addr:housenumber": "837",
           "addr:postcode": "94710",
           "addr:state": "CA",
-          "addr:street": "6th Street",
+          "addr:street": "Addison Street",
           "amenity": "clinic",
+          "check_date": "2026-08-18",
+          "check_date:opening_hours": "2026-08-18",
           "ele": "9",
           "gnis:feature_id": "2086905",
           "landuse": "institutional",
-          "name": "LifeLong Medical Care West Berkeley",
+          "name": "LifeLong Medical Care West Berkeley Health Center",
+          "opening_hours": "Mo-Fr 08:00-16:30",
           "phone": "+1 510 9814100",
           "website": "https://lifelongmedical.org/locations/west-berkeley-health-center/"
         },
@@ -388755,6 +389334,7 @@
           12941797835,
           12941797836,
           12941797837,
+          14106181466,
           12941797834
         ]
       },
@@ -388777,6 +389357,10 @@
             [
               -122.2892192,
               37.8696384
+            ],
+            [
+              -122.2892212,
+              37.8696498
             ],
             [
               -122.289263,
@@ -436575,7 +437159,8 @@
         "id": 1415784551,
         "tags": {
           "amenity": "parking",
-          "capacity": "4"
+          "capacity": "4",
+          "parking": "street_side"
         },
         "nodes": [
           13010344021,
@@ -453360,8 +453945,10 @@
         "id": 1545606700,
         "tags": {
           "amenity": "bench",
+          "armrest": "no",
           "backrest": "yes",
-          "material": "concrete"
+          "material": "concrete",
+          "seats": "6"
         },
         "nodes": [
           14057889760,
@@ -469490,7 +470077,8 @@
           "name": "Longfellow Middle School",
           "old_name": "Longfellow Intermediate School",
           "operator": "Berkeley Unified School District",
-          "operator:type": "government",
+          "operator:type": "public",
+          "operator:wikidata": "Q4892125",
           "religion": "none",
           "type": "multipolygon",
           "website": "https://www.longfellowberkeley.org"
