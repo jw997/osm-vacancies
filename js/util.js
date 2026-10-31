@@ -593,6 +593,8 @@ function getPointFromeature(feature) {
 		retval = geom.coordinates[0];
 	} else if (fType == 'MultiPolygon') {
 		retval = geom.coordinates[0][0][0];
+	}  else if (fType == 'MultiLineString') {
+		retval = geom.coordinates[0][0];
 	}
 	if (!retval) {
 		console.log("no point for feature", feature)
